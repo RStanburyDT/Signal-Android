@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.mediasend;
+package org.thoughtcrime.securesms.ryan.mediasend;
 
 import android.net.Uri;
 import android.view.View;

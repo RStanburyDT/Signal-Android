@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.stories.viewer.views
+package org.thoughtcrime.securesms.ryan.stories.viewer.views
 
 import android.os.Bundle
 import android.view.View
@@ -7,18 +7,18 @@ import androidx.fragment.app.viewModels
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import io.reactivex.rxjava3.kotlin.subscribeBy
 import org.signal.core.util.concurrent.LifecycleDisposable
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.settings.DSLConfiguration
-import org.thoughtcrime.securesms.components.settings.DSLSettingsFragment
-import org.thoughtcrime.securesms.components.settings.configure
-import org.thoughtcrime.securesms.conversation.ConversationIntents
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.stories.settings.StorySettingsActivity
-import org.thoughtcrime.securesms.stories.viewer.reply.StoryViewsAndRepliesPagerChild
-import org.thoughtcrime.securesms.stories.viewer.reply.StoryViewsAndRepliesPagerParent
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingAdapter
-import org.thoughtcrime.securesms.util.fragments.findListener
-import org.thoughtcrime.securesms.util.visible
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.components.settings.DSLConfiguration
+import org.thoughtcrime.securesms.ryan.components.settings.DSLSettingsFragment
+import org.thoughtcrime.securesms.ryan.components.settings.configure
+import org.thoughtcrime.securesms.ryan.conversation.ConversationIntents
+import org.thoughtcrime.securesms.ryan.recipients.Recipient
+import org.thoughtcrime.securesms.ryan.stories.settings.StorySettingsActivity
+import org.thoughtcrime.securesms.ryan.stories.viewer.reply.StoryViewsAndRepliesPagerChild
+import org.thoughtcrime.securesms.ryan.stories.viewer.reply.StoryViewsAndRepliesPagerParent
+import org.thoughtcrime.securesms.ryan.util.adapter.mapping.MappingAdapter
+import org.thoughtcrime.securesms.ryan.util.fragments.findListener
+import org.thoughtcrime.securesms.ryan.util.visible
 
 /**
  * Fragment that displays who viewed a given story. This is only available if

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.stories.viewer.reply.reaction
+package org.thoughtcrime.securesms.ryan.stories.viewer.reply.reaction
 
 import android.content.Context
 import android.util.AttributeSet
@@ -6,8 +6,8 @@ import android.widget.FrameLayout
 import androidx.constraintlayout.motion.widget.MotionLayout
 import androidx.constraintlayout.motion.widget.TransitionAdapter
 import androidx.core.view.doOnNextLayout
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.emoji.EmojiImageView
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.components.emoji.EmojiImageView
 
 class OnReactionSentView @JvmOverloads constructor(
   context: Context,

@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.backup.v2.ui.subscription
+package org.thoughtcrime.securesms.ryan.backup.v2.ui.subscription
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
@@ -34,8 +34,8 @@ import org.signal.core.ui.compose.Previews
 import org.signal.core.ui.compose.Scaffolds
 import org.signal.core.ui.compose.SignalPreview
 import org.signal.core.ui.compose.theme.SignalTheme
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.fonts.MonoTypeface
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.fonts.MonoTypeface
 import org.signal.core.ui.R as CoreUiR
 
 /**

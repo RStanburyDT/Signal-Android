@@ -1,9 +1,9 @@
-package org.thoughtcrime.securesms.database
+package org.thoughtcrime.securesms.ryan.database
 
 import androidx.annotation.VisibleForTesting
-import org.thoughtcrime.securesms.database.model.PendingRetryReceiptModel
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.util.RemoteConfig
+import org.thoughtcrime.securesms.ryan.database.model.PendingRetryReceiptModel
+import org.thoughtcrime.securesms.ryan.recipients.RecipientId
+import org.thoughtcrime.securesms.ryan.util.RemoteConfig
 
 /**
  * A write-through cache for [PendingRetryReceiptTable].

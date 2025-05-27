@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.settings.app.privacy.expire
+package org.thoughtcrime.securesms.ryan.components.settings.app.privacy.expire
 
 import android.app.Activity
 import android.content.Intent
@@ -8,20 +8,20 @@ import android.widget.Toast
 import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.fragment.NavHostFragment
 import androidx.recyclerview.widget.RecyclerView
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.settings.DSLConfiguration
-import org.thoughtcrime.securesms.components.settings.DSLSettingsFragment
-import org.thoughtcrime.securesms.components.settings.DSLSettingsText
-import org.thoughtcrime.securesms.components.settings.configure
-import org.thoughtcrime.securesms.groups.ui.GroupChangeFailureReason
-import org.thoughtcrime.securesms.groups.ui.GroupErrors
-import org.thoughtcrime.securesms.util.ExpirationUtil
-import org.thoughtcrime.securesms.util.ViewUtil
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingAdapter
-import org.thoughtcrime.securesms.util.livedata.ProcessState
-import org.thoughtcrime.securesms.util.livedata.distinctUntilChanged
-import org.thoughtcrime.securesms.util.navigation.safeNavigate
-import org.thoughtcrime.securesms.util.views.CircularProgressMaterialButton
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.components.settings.DSLConfiguration
+import org.thoughtcrime.securesms.ryan.components.settings.DSLSettingsFragment
+import org.thoughtcrime.securesms.ryan.components.settings.DSLSettingsText
+import org.thoughtcrime.securesms.ryan.components.settings.configure
+import org.thoughtcrime.securesms.ryan.groups.ui.GroupChangeFailureReason
+import org.thoughtcrime.securesms.ryan.groups.ui.GroupErrors
+import org.thoughtcrime.securesms.ryan.util.ExpirationUtil
+import org.thoughtcrime.securesms.ryan.util.ViewUtil
+import org.thoughtcrime.securesms.ryan.util.adapter.mapping.MappingAdapter
+import org.thoughtcrime.securesms.ryan.util.livedata.ProcessState
+import org.thoughtcrime.securesms.ryan.util.livedata.distinctUntilChanged
+import org.thoughtcrime.securesms.ryan.util.navigation.safeNavigate
+import org.thoughtcrime.securesms.ryan.util.views.CircularProgressMaterialButton
 
 /**
  * Depending on the arguments, can be used to set the universal expire timer, set expire timer

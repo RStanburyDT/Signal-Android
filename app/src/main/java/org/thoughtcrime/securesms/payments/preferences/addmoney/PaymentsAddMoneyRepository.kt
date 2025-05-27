@@ -1,10 +1,10 @@
-package org.thoughtcrime.securesms.payments.preferences.addmoney
+package org.thoughtcrime.securesms.ryan.payments.preferences.addmoney
 
 import androidx.annotation.MainThread
 import io.reactivex.rxjava3.core.Single
 import io.reactivex.rxjava3.schedulers.Schedulers
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.keyvalue.SignalStore
+import org.thoughtcrime.securesms.ryan.dependencies.AppDependencies
+import org.thoughtcrime.securesms.ryan.keyvalue.SignalStore
 import org.signal.core.util.Result as SignalResult
 
 internal class PaymentsAddMoneyRepository {

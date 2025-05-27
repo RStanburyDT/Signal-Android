@@ -3,29 +3,29 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.conversation.v2.data
+package org.thoughtcrime.securesms.ryan.conversation.v2.data
 
 import android.content.Context
 import org.signal.core.util.Stopwatch
 import org.signal.core.util.logging.Log
 import org.signal.core.util.toInt
 import org.signal.paging.PagedDataSource
-import org.thoughtcrime.securesms.backup.v2.BackupRestoreManager
-import org.thoughtcrime.securesms.conversation.ConversationData
-import org.thoughtcrime.securesms.conversation.ConversationMessage
-import org.thoughtcrime.securesms.conversation.ConversationMessage.ConversationMessageFactory
-import org.thoughtcrime.securesms.database.MessageTable
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.database.model.InMemoryMessageRecord.RemovedContactHidden
-import org.thoughtcrime.securesms.database.model.InMemoryMessageRecord.UniversalExpireTimerUpdate
-import org.thoughtcrime.securesms.database.model.MessageRecord
-import org.thoughtcrime.securesms.database.model.MmsMessageRecord
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.messagerequests.MessageRequestRepository
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.util.RemoteConfig
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingModel
+import org.thoughtcrime.securesms.ryan.backup.v2.BackupRestoreManager
+import org.thoughtcrime.securesms.ryan.conversation.ConversationData
+import org.thoughtcrime.securesms.ryan.conversation.ConversationMessage
+import org.thoughtcrime.securesms.ryan.conversation.ConversationMessage.ConversationMessageFactory
+import org.thoughtcrime.securesms.ryan.database.MessageTable
+import org.thoughtcrime.securesms.ryan.database.SignalDatabase
+import org.thoughtcrime.securesms.ryan.database.model.InMemoryMessageRecord.RemovedContactHidden
+import org.thoughtcrime.securesms.ryan.database.model.InMemoryMessageRecord.UniversalExpireTimerUpdate
+import org.thoughtcrime.securesms.ryan.database.model.MessageRecord
+import org.thoughtcrime.securesms.ryan.database.model.MmsMessageRecord
+import org.thoughtcrime.securesms.ryan.dependencies.AppDependencies
+import org.thoughtcrime.securesms.ryan.keyvalue.SignalStore
+import org.thoughtcrime.securesms.ryan.messagerequests.MessageRequestRepository
+import org.thoughtcrime.securesms.ryan.recipients.Recipient
+import org.thoughtcrime.securesms.ryan.util.RemoteConfig
+import org.thoughtcrime.securesms.ryan.util.adapter.mapping.MappingModel
 
 private typealias ConversationElement = MappingModel<*>
 

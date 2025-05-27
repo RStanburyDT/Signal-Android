@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.backup.v2.ui.subscription
+package org.thoughtcrime.securesms.ryan.backup.v2.ui.subscription
 
 import android.content.ClipboardManager
 import android.content.Context
@@ -34,16 +34,16 @@ import org.signal.core.util.billing.BillingPurchaseResult
 import org.signal.core.util.billing.BillingPurchaseState
 import org.signal.core.util.money.FiatMoney
 import org.signal.donations.InAppPaymentType
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.backup.v2.MessageBackupTier
-import org.thoughtcrime.securesms.database.InAppPaymentTable
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.testing.CoroutineDispatcherRule
-import org.thoughtcrime.securesms.testing.InAppPaymentsRule
-import org.thoughtcrime.securesms.testing.SignalActivityRule
-import org.thoughtcrime.securesms.util.RemoteConfig
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.backup.v2.MessageBackupTier
+import org.thoughtcrime.securesms.ryan.database.InAppPaymentTable
+import org.thoughtcrime.securesms.ryan.database.SignalDatabase
+import org.thoughtcrime.securesms.ryan.dependencies.AppDependencies
+import org.thoughtcrime.securesms.ryan.keyvalue.SignalStore
+import org.thoughtcrime.securesms.ryan.testing.CoroutineDispatcherRule
+import org.thoughtcrime.securesms.ryan.testing.InAppPaymentsRule
+import org.thoughtcrime.securesms.ryan.testing.SignalActivityRule
+import org.thoughtcrime.securesms.ryan.util.RemoteConfig
 import java.math.BigDecimal
 import java.util.Currency
 

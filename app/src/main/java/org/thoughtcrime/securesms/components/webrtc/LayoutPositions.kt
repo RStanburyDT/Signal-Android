@@ -2,12 +2,12 @@
  * Copyright 2023 Signal Messenger, LLC
  * SPDX-License-Identifier: AGPL-3.0-only
  */
-package org.thoughtcrime.securesms.components.webrtc
+package org.thoughtcrime.securesms.ryan.components.webrtc
 
 import androidx.annotation.Dimension
 import androidx.annotation.IdRes
 import androidx.constraintlayout.widget.ConstraintSet
-import org.thoughtcrime.securesms.R
+import org.thoughtcrime.securesms.ryan.R
 
 /** Constraints to apply for different call sizes */
 enum class LayoutPositions(

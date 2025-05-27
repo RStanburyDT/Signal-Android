@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.settings.app.help
+package org.thoughtcrime.securesms.ryan.components.settings.app.help
 
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxWidth
@@ -25,11 +25,11 @@ import org.signal.core.ui.compose.Rows
 import org.signal.core.ui.compose.Rows.TextAndLabel
 import org.signal.core.ui.compose.Rows.defaultPadding
 import org.signal.core.ui.compose.Scaffolds
-import org.thoughtcrime.securesms.BuildConfig
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.compose.ComposeFragment
-import org.thoughtcrime.securesms.util.CommunicationActions
-import org.thoughtcrime.securesms.util.navigation.safeNavigate
+import org.thoughtcrime.securesms.ryan.BuildConfig
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.compose.ComposeFragment
+import org.thoughtcrime.securesms.ryan.util.CommunicationActions
+import org.thoughtcrime.securesms.ryan.util.navigation.safeNavigate
 
 class HelpSettingsFragment : ComposeFragment() {
 

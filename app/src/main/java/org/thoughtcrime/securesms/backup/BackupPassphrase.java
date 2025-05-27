@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.backup;
+package org.thoughtcrime.securesms.ryan.backup;
 
 import android.content.Context;
 import android.os.Build;
@@ -7,8 +7,8 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.crypto.KeyStoreHelper;
-import org.thoughtcrime.securesms.util.TextSecurePreferences;
+import org.thoughtcrime.securesms.ryan.crypto.KeyStoreHelper;
+import org.thoughtcrime.securesms.ryan.util.TextSecurePreferences;
 
 /**
  * Allows the getting and setting of the backup passphrase, which is stored encrypted on API >= 23.

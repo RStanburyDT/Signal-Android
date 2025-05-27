@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.notifications.v2
+package org.thoughtcrime.securesms.ryan.notifications.v2
 
 import android.Manifest
 import android.content.Context
@@ -9,33 +9,33 @@ import android.text.TextUtils
 import androidx.annotation.StringRes
 import androidx.core.graphics.drawable.IconCompat
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.contactshare.Contact
-import org.thoughtcrime.securesms.contactshare.ContactUtil
-import org.thoughtcrime.securesms.database.MentionUtil
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.database.ThreadBodyUtil
-import org.thoughtcrime.securesms.database.adjustBodyRanges
-import org.thoughtcrime.securesms.database.model.MessageRecord
-import org.thoughtcrime.securesms.database.model.MmsMessageRecord
-import org.thoughtcrime.securesms.database.model.ReactionRecord
-import org.thoughtcrime.securesms.database.model.databaseprotos.BodyRangeList
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.mms.Slide
-import org.thoughtcrime.securesms.mms.SlideDeck
-import org.thoughtcrime.securesms.permissions.Permissions
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientUtil
-import org.thoughtcrime.securesms.service.KeyCachingService
-import org.thoughtcrime.securesms.util.AvatarUtil
-import org.thoughtcrime.securesms.util.MediaUtil
-import org.thoughtcrime.securesms.util.SpanUtil
-import org.thoughtcrime.securesms.util.Util
-import org.thoughtcrime.securesms.util.hasGiftBadge
-import org.thoughtcrime.securesms.util.hasSharedContact
-import org.thoughtcrime.securesms.util.hasSticker
-import org.thoughtcrime.securesms.util.isMediaMessage
-import org.thoughtcrime.securesms.util.isStoryReaction
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.contactshare.Contact
+import org.thoughtcrime.securesms.ryan.contactshare.ContactUtil
+import org.thoughtcrime.securesms.ryan.database.MentionUtil
+import org.thoughtcrime.securesms.ryan.database.SignalDatabase
+import org.thoughtcrime.securesms.ryan.database.ThreadBodyUtil
+import org.thoughtcrime.securesms.ryan.database.adjustBodyRanges
+import org.thoughtcrime.securesms.ryan.database.model.MessageRecord
+import org.thoughtcrime.securesms.ryan.database.model.MmsMessageRecord
+import org.thoughtcrime.securesms.ryan.database.model.ReactionRecord
+import org.thoughtcrime.securesms.ryan.database.model.databaseprotos.BodyRangeList
+import org.thoughtcrime.securesms.ryan.keyvalue.SignalStore
+import org.thoughtcrime.securesms.ryan.mms.Slide
+import org.thoughtcrime.securesms.ryan.mms.SlideDeck
+import org.thoughtcrime.securesms.ryan.permissions.Permissions
+import org.thoughtcrime.securesms.ryan.recipients.Recipient
+import org.thoughtcrime.securesms.ryan.recipients.RecipientUtil
+import org.thoughtcrime.securesms.ryan.service.KeyCachingService
+import org.thoughtcrime.securesms.ryan.util.AvatarUtil
+import org.thoughtcrime.securesms.ryan.util.MediaUtil
+import org.thoughtcrime.securesms.ryan.util.SpanUtil
+import org.thoughtcrime.securesms.ryan.util.Util
+import org.thoughtcrime.securesms.ryan.util.hasGiftBadge
+import org.thoughtcrime.securesms.ryan.util.hasSharedContact
+import org.thoughtcrime.securesms.ryan.util.hasSticker
+import org.thoughtcrime.securesms.ryan.util.isMediaMessage
+import org.thoughtcrime.securesms.ryan.util.isStoryReaction
 
 private val TAG: String = Log.tag(NotificationItem::class.java)
 private const val EMOJI_REPLACEMENT_STRING = "__EMOJI__"

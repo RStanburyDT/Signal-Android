@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.video.exo;
+package org.thoughtcrime.securesms.ryan.video.exo;
 
 
 import android.net.Uri;
@@ -13,12 +13,12 @@ import androidx.media3.datasource.TransferListener;
 
 import org.signal.core.util.logging.Log;
 import org.signal.libsignal.protocol.InvalidMessageException;
-import org.thoughtcrime.securesms.attachments.DatabaseAttachment;
-import org.thoughtcrime.securesms.backup.v2.DatabaseAttachmentArchiveUtil;
-import org.thoughtcrime.securesms.database.AttachmentTable;
-import org.thoughtcrime.securesms.database.SignalDatabase;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
-import org.thoughtcrime.securesms.mms.PartUriParser;
+import org.thoughtcrime.securesms.ryan.attachments.DatabaseAttachment;
+import org.thoughtcrime.securesms.ryan.backup.v2.DatabaseAttachmentArchiveUtil;
+import org.thoughtcrime.securesms.ryan.database.AttachmentTable;
+import org.thoughtcrime.securesms.ryan.database.SignalDatabase;
+import org.thoughtcrime.securesms.ryan.keyvalue.SignalStore;
+import org.thoughtcrime.securesms.ryan.mms.PartUriParser;
 import org.signal.core.util.Base64;
 import org.whispersystems.signalservice.api.backup.MediaName;
 import org.whispersystems.signalservice.api.backup.MediaRootBackupKey;

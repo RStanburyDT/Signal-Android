@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.registrationv3.ui.welcome
+package org.thoughtcrime.securesms.ryan.registrationv3.ui.welcome
 
 /**
  * User options available to start registration flow.

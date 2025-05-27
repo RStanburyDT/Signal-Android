@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.jobs
+package org.thoughtcrime.securesms.ryan.jobs
 
 import androidx.annotation.VisibleForTesting
 import androidx.annotation.WorkerThread
@@ -11,20 +11,20 @@ import okio.ByteString.Companion.toByteString
 import org.signal.core.util.Base64
 import org.signal.core.util.logging.Log
 import org.signal.core.util.orNull
-import org.thoughtcrime.securesms.attachments.DatabaseAttachment
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.database.ThreadTable
-import org.thoughtcrime.securesms.database.model.MessageRecord
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.jobmanager.Job
-import org.thoughtcrime.securesms.jobmanager.impl.NetworkConstraint
-import org.thoughtcrime.securesms.jobs.protos.DeleteSyncJobData
-import org.thoughtcrime.securesms.jobs.protos.DeleteSyncJobData.AttachmentDelete
-import org.thoughtcrime.securesms.jobs.protos.DeleteSyncJobData.ThreadDelete
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.messages.SignalServiceProtoUtil.pad
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientId
+import org.thoughtcrime.securesms.ryan.attachments.DatabaseAttachment
+import org.thoughtcrime.securesms.ryan.database.SignalDatabase
+import org.thoughtcrime.securesms.ryan.database.ThreadTable
+import org.thoughtcrime.securesms.ryan.database.model.MessageRecord
+import org.thoughtcrime.securesms.ryan.dependencies.AppDependencies
+import org.thoughtcrime.securesms.ryan.jobmanager.Job
+import org.thoughtcrime.securesms.ryan.jobmanager.impl.NetworkConstraint
+import org.thoughtcrime.securesms.ryan.jobs.protos.DeleteSyncJobData
+import org.thoughtcrime.securesms.ryan.jobs.protos.DeleteSyncJobData.AttachmentDelete
+import org.thoughtcrime.securesms.ryan.jobs.protos.DeleteSyncJobData.ThreadDelete
+import org.thoughtcrime.securesms.ryan.keyvalue.SignalStore
+import org.thoughtcrime.securesms.ryan.messages.SignalServiceProtoUtil.pad
+import org.thoughtcrime.securesms.ryan.recipients.Recipient
+import org.thoughtcrime.securesms.ryan.recipients.RecipientId
 import org.whispersystems.signalservice.api.crypto.UntrustedIdentityException
 import org.whispersystems.signalservice.api.util.UuidUtil
 import org.whispersystems.signalservice.internal.push.AddressableMessage

@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms
+package org.thoughtcrime.securesms.ryan
 
 import assertk.Assert
 import assertk.assertions.isFalse

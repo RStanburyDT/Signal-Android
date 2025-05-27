@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.subscription
+package org.thoughtcrime.securesms.ryan.subscription
 
 import io.reactivex.rxjava3.core.Observable
 import io.reactivex.rxjava3.subjects.BehaviorSubject

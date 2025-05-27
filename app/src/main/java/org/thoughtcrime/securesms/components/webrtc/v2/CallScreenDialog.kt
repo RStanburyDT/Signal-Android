@@ -3,14 +3,14 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.webrtc.v2
+package org.thoughtcrime.securesms.ryan.components.webrtc.v2
 
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.res.stringResource
 import org.signal.core.ui.compose.DarkPreview
 import org.signal.core.ui.compose.Dialogs
 import org.signal.core.ui.compose.Previews
-import org.thoughtcrime.securesms.R
+import org.thoughtcrime.securesms.ryan.R
 
 /**
  * Displays the current dialog to the user, or nothing.

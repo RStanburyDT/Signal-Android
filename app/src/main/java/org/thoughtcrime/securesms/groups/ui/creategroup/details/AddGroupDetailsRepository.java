@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.groups.ui.creategroup.details;
+package org.thoughtcrime.securesms.ryan.groups.ui.creategroup.details;
 
 import android.content.Context;
 
@@ -8,13 +8,13 @@ import androidx.core.util.Consumer;
 
 import org.signal.core.util.concurrent.SignalExecutors;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.groups.GroupChangeBusyException;
-import org.thoughtcrime.securesms.groups.GroupChangeException;
-import org.thoughtcrime.securesms.groups.GroupManager;
-import org.thoughtcrime.securesms.groups.ui.GroupMemberEntry;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.recipients.RecipientId;
+import org.thoughtcrime.securesms.ryan.groups.GroupChangeBusyException;
+import org.thoughtcrime.securesms.ryan.groups.GroupChangeException;
+import org.thoughtcrime.securesms.ryan.groups.GroupManager;
+import org.thoughtcrime.securesms.ryan.groups.ui.GroupMemberEntry;
+import org.thoughtcrime.securesms.ryan.keyvalue.SignalStore;
+import org.thoughtcrime.securesms.ryan.recipients.Recipient;
+import org.thoughtcrime.securesms.ryan.recipients.RecipientId;
 
 import java.io.IOException;
 import java.util.ArrayList;

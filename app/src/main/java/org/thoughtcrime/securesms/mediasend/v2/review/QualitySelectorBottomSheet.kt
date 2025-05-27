@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.mediasend.v2.review
+package org.thoughtcrime.securesms.ryan.mediasend.v2.review
 
 import android.content.res.Configuration
 import androidx.compose.foundation.layout.Arrangement
@@ -29,10 +29,10 @@ import androidx.compose.ui.unit.dp
 import androidx.fragment.app.viewModels
 import org.signal.core.ui.compose.BottomSheets
 import org.signal.core.ui.compose.theme.SignalTheme
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.compose.ComposeBottomSheetDialogFragment
-import org.thoughtcrime.securesms.mediasend.v2.MediaSelectionViewModel
-import org.thoughtcrime.securesms.mms.SentMediaQuality
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.compose.ComposeBottomSheetDialogFragment
+import org.thoughtcrime.securesms.ryan.mediasend.v2.MediaSelectionViewModel
+import org.thoughtcrime.securesms.ryan.mms.SentMediaQuality
 
 /**
  * Bottom sheet dialog to select the media quality (Standard vs. High) when sending media.

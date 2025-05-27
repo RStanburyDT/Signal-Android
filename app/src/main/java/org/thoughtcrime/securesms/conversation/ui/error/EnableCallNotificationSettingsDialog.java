@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.conversation.ui.error;
+package org.thoughtcrime.securesms.ryan.conversation.ui.error;
 
 import android.annotation.SuppressLint;
 import android.annotation.TargetApi;
@@ -24,10 +24,10 @@ import androidx.fragment.app.FragmentManager;
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
-import org.thoughtcrime.securesms.notifications.NotificationChannels;
-import org.thoughtcrime.securesms.util.DeviceProperties;
+import org.thoughtcrime.securesms.ryan.R;
+import org.thoughtcrime.securesms.ryan.keyvalue.SignalStore;
+import org.thoughtcrime.securesms.ryan.notifications.NotificationChannels;
+import org.thoughtcrime.securesms.ryan.util.DeviceProperties;
 
 /**
  * Provide basic steps to fix potential call notification issues based on what we can detect on the system

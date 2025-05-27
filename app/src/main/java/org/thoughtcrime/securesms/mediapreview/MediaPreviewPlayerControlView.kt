@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.mediapreview
+package org.thoughtcrime.securesms.ryan.mediapreview
 
 import android.animation.Animator
 import android.animation.Animator.AnimatorListener
@@ -20,9 +20,9 @@ import androidx.recyclerview.widget.RecyclerView
 import com.airbnb.lottie.LottieAnimationView
 import com.airbnb.lottie.LottieProperty
 import com.airbnb.lottie.model.KeyPath
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.util.MediaUtil
-import org.thoughtcrime.securesms.util.visible
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.util.MediaUtil
+import org.thoughtcrime.securesms.ryan.util.visible
 import kotlin.time.Duration
 import kotlin.time.Duration.Companion.milliseconds
 

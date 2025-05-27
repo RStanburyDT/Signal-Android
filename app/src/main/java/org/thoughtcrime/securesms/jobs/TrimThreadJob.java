@@ -14,21 +14,21 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.thoughtcrime.securesms.jobs;
+package org.thoughtcrime.securesms.ryan.jobs;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 import org.signal.core.util.concurrent.SignalExecutors;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.database.SignalDatabase;
-import org.thoughtcrime.securesms.database.ThreadTable;
-import org.thoughtcrime.securesms.dependencies.AppDependencies;
-import org.thoughtcrime.securesms.jobmanager.Job;
-import org.thoughtcrime.securesms.jobmanager.JsonJobData;
-import org.thoughtcrime.securesms.keyvalue.KeepMessagesDuration;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
-import org.thoughtcrime.securesms.recipients.Recipient;
+import org.thoughtcrime.securesms.ryan.database.SignalDatabase;
+import org.thoughtcrime.securesms.ryan.database.ThreadTable;
+import org.thoughtcrime.securesms.ryan.dependencies.AppDependencies;
+import org.thoughtcrime.securesms.ryan.jobmanager.Job;
+import org.thoughtcrime.securesms.ryan.jobmanager.JsonJobData;
+import org.thoughtcrime.securesms.ryan.keyvalue.KeepMessagesDuration;
+import org.thoughtcrime.securesms.ryan.keyvalue.SignalStore;
+import org.thoughtcrime.securesms.ryan.recipients.Recipient;
 
 public class TrimThreadJob extends BaseJob {
 

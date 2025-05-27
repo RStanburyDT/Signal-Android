@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.restore
+package org.thoughtcrime.securesms.ryan.restore
 
 import android.content.Intent
 import android.net.Uri
@@ -16,16 +16,16 @@ import androidx.lifecycle.viewModelScope
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
-import org.thoughtcrime.securesms.backup.v2.MessageBackupTier
-import org.thoughtcrime.securesms.database.model.databaseprotos.RestoreDecisionState
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.keyvalue.Skipped
-import org.thoughtcrime.securesms.keyvalue.includeDeviceToDeviceTransfer
-import org.thoughtcrime.securesms.keyvalue.skippedRestoreChoice
-import org.thoughtcrime.securesms.registrationv3.data.QuickRegistrationRepository
-import org.thoughtcrime.securesms.registrationv3.ui.restore.RestoreMethod
-import org.thoughtcrime.securesms.registrationv3.ui.restore.StorageServiceRestore
-import org.thoughtcrime.securesms.restore.transferorrestore.BackupRestorationType
+import org.thoughtcrime.securesms.ryan.backup.v2.MessageBackupTier
+import org.thoughtcrime.securesms.ryan.database.model.databaseprotos.RestoreDecisionState
+import org.thoughtcrime.securesms.ryan.keyvalue.SignalStore
+import org.thoughtcrime.securesms.ryan.keyvalue.Skipped
+import org.thoughtcrime.securesms.ryan.keyvalue.includeDeviceToDeviceTransfer
+import org.thoughtcrime.securesms.ryan.keyvalue.skippedRestoreChoice
+import org.thoughtcrime.securesms.ryan.registrationv3.data.QuickRegistrationRepository
+import org.thoughtcrime.securesms.ryan.registrationv3.ui.restore.RestoreMethod
+import org.thoughtcrime.securesms.ryan.registrationv3.ui.restore.StorageServiceRestore
+import org.thoughtcrime.securesms.ryan.restore.transferorrestore.BackupRestorationType
 import org.whispersystems.signalservice.api.provisioning.RestoreMethod as ApiRestoreMethod
 
 /**

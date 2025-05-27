@@ -1,8 +1,8 @@
-package org.thoughtcrime.securesms.contacts.sync;
+package org.thoughtcrime.securesms.ryan.contacts.sync;
 
 import org.junit.Test;
-import org.thoughtcrime.securesms.contacts.sync.FuzzyPhoneNumberHelper.InputResult;
-import org.thoughtcrime.securesms.contacts.sync.FuzzyPhoneNumberHelper.OutputResult;
+import org.thoughtcrime.securesms.ryan.contacts.sync.FuzzyPhoneNumberHelper.InputResult;
+import org.thoughtcrime.securesms.ryan.contacts.sync.FuzzyPhoneNumberHelper.OutputResult;
 import org.whispersystems.signalservice.api.push.ServiceId.ACI;
 
 import java.util.Arrays;
@@ -12,7 +12,7 @@ import java.util.Set;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
-import static org.thoughtcrime.securesms.testutil.TestHelpers.mapOf;
+import static org.thoughtcrime.securesms.ryan.testutil.TestHelpers.mapOf;
 
 public class FuzzyPhoneNumberHelperTest {
 

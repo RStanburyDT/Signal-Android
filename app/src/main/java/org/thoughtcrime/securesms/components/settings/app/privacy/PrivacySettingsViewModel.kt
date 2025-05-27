@@ -1,13 +1,13 @@
-package org.thoughtcrime.securesms.components.settings.app.privacy
+package org.thoughtcrime.securesms.ryan.components.settings.app.privacy
 
 import android.content.SharedPreferences
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.util.TextSecurePreferences
-import org.thoughtcrime.securesms.util.livedata.Store
+import org.thoughtcrime.securesms.ryan.dependencies.AppDependencies
+import org.thoughtcrime.securesms.ryan.keyvalue.SignalStore
+import org.thoughtcrime.securesms.ryan.util.TextSecurePreferences
+import org.thoughtcrime.securesms.ryan.util.livedata.Store
 
 class PrivacySettingsViewModel(
   private val sharedPreferences: SharedPreferences,

@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.registrationv3.ui.permissions
+package org.thoughtcrime.securesms.ryan.registrationv3.ui.permissions
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.Arrangement
@@ -25,8 +25,8 @@ import androidx.compose.ui.unit.dp
 import org.signal.core.ui.compose.Buttons
 import org.signal.core.ui.compose.Previews
 import org.signal.core.ui.compose.SignalPreview
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.registrationv3.ui.shared.RegistrationScreen
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.registrationv3.ui.shared.RegistrationScreen
 
 /**
  * Layout that explains permissions rationale to the user.

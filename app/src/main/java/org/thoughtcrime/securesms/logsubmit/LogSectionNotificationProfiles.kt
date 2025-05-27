@@ -1,9 +1,9 @@
-package org.thoughtcrime.securesms.logsubmit
+package org.thoughtcrime.securesms.ryan.logsubmit
 
 import android.content.Context
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.notifications.profiles.NotificationProfile
+import org.thoughtcrime.securesms.ryan.database.SignalDatabase
+import org.thoughtcrime.securesms.ryan.keyvalue.SignalStore
+import org.thoughtcrime.securesms.ryan.notifications.profiles.NotificationProfile
 
 class LogSectionNotificationProfiles : LogSection {
   override fun getTitle(): String = "NOTIFICATION PROFILES"

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.settings.models
+package org.thoughtcrime.securesms.ryan.components.settings.models
 
 import android.view.KeyEvent
 import android.view.View
@@ -8,13 +8,13 @@ import com.google.android.material.textfield.TextInputLayout
 import io.reactivex.rxjava3.core.Observable
 import io.reactivex.rxjava3.disposables.Disposable
 import org.signal.core.util.EditTextUtil
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.settings.DSLSettingsText
-import org.thoughtcrime.securesms.util.adapter.mapping.LayoutFactory
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingAdapter
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingModel
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingViewHolder
-import org.thoughtcrime.securesms.util.text.AfterTextChanged
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.components.settings.DSLSettingsText
+import org.thoughtcrime.securesms.ryan.util.adapter.mapping.LayoutFactory
+import org.thoughtcrime.securesms.ryan.util.adapter.mapping.MappingAdapter
+import org.thoughtcrime.securesms.ryan.util.adapter.mapping.MappingModel
+import org.thoughtcrime.securesms.ryan.util.adapter.mapping.MappingViewHolder
+import org.thoughtcrime.securesms.ryan.util.text.AfterTextChanged
 
 object TextInput {
 

@@ -1,16 +1,16 @@
-package org.thoughtcrime.securesms.jobs
+package org.thoughtcrime.securesms.ryan.jobs
 
 import org.signal.core.util.logging.Log
 import org.signal.core.util.orNull
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.database.model.ServiceMessageId
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.jobmanager.Job
-import org.thoughtcrime.securesms.messages.MessageContentProcessor
-import org.thoughtcrime.securesms.util.EarlyMessageCacheEntry
+import org.thoughtcrime.securesms.ryan.database.SignalDatabase
+import org.thoughtcrime.securesms.ryan.database.model.ServiceMessageId
+import org.thoughtcrime.securesms.ryan.dependencies.AppDependencies
+import org.thoughtcrime.securesms.ryan.jobmanager.Job
+import org.thoughtcrime.securesms.ryan.messages.MessageContentProcessor
+import org.thoughtcrime.securesms.ryan.util.EarlyMessageCacheEntry
 
 /**
- * A job that should be enqueued whenever we process a message that we think has arrived "early" (see [org.thoughtcrime.securesms.util.EarlyMessageCache]).
+ * A job that should be enqueued whenever we process a message that we think has arrived "early" (see [org.thoughtcrime.securesms.ryan.util.EarlyMessageCache]).
  * It will go through and process all of those early messages (if we have found a "match"), ordered by sentTimestamp.
  */
 class PushProcessEarlyMessagesJob private constructor(parameters: Parameters) : BaseJob(parameters) {

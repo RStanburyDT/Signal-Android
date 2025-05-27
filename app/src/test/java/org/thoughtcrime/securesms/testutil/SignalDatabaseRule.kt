@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.testutil
+package org.thoughtcrime.securesms.ryan.testutil
 
 import androidx.sqlite.db.SupportSQLiteDatabase
 import androidx.sqlite.db.SupportSQLiteOpenHelper
@@ -13,9 +13,9 @@ import io.mockk.every
 import io.mockk.mockkObject
 import io.mockk.unmockkObject
 import org.junit.rules.ExternalResource
-import org.thoughtcrime.securesms.database.SQLiteDatabase
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.testing.TestSignalDatabase
+import org.thoughtcrime.securesms.ryan.database.SQLiteDatabase
+import org.thoughtcrime.securesms.ryan.database.SignalDatabase
+import org.thoughtcrime.securesms.ryan.testing.TestSignalDatabase
 
 class SignalDatabaseRule : ExternalResource() {
 

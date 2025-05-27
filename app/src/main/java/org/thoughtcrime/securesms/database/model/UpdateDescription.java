@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.database.model;
+package org.thoughtcrime.securesms.ryan.database.model;
 
 import android.text.Spannable;
 import android.text.SpannableString;
@@ -11,8 +11,8 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.annotation.WorkerThread;
 
-import org.thoughtcrime.securesms.fonts.SignalSymbols;
-import org.thoughtcrime.securesms.fonts.SignalSymbols.Glyph;
+import org.thoughtcrime.securesms.ryan.fonts.SignalSymbols;
+import org.thoughtcrime.securesms.ryan.fonts.SignalSymbols.Glyph;
 import org.whispersystems.signalservice.api.push.ServiceId;
 
 import java.util.Collection;

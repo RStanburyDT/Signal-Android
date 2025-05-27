@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.keyboard
+package org.thoughtcrime.securesms.ryan.keyboard
 
 enum class KeyboardPage {
   EMOJI,

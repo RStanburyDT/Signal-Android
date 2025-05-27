@@ -3,27 +3,27 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.jobs
+package org.thoughtcrime.securesms.ryan.jobs
 
 import android.os.Build
 import org.signal.core.util.logging.Log
 import org.signal.protos.resumableuploads.ResumableUpload
-import org.thoughtcrime.securesms.attachments.Attachment
-import org.thoughtcrime.securesms.attachments.AttachmentId
-import org.thoughtcrime.securesms.attachments.DatabaseAttachment
-import org.thoughtcrime.securesms.attachments.PointerAttachment
-import org.thoughtcrime.securesms.backup.v2.BackupRepository
-import org.thoughtcrime.securesms.backup.v2.requireThumbnailMediaName
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.jobmanager.Job
-import org.thoughtcrime.securesms.jobmanager.impl.NetworkConstraint
-import org.thoughtcrime.securesms.jobs.protos.ArchiveThumbnailUploadJobData
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.mms.DecryptableStreamUriLoader.DecryptableUri
-import org.thoughtcrime.securesms.net.SignalNetwork
-import org.thoughtcrime.securesms.util.ImageCompressionUtil
-import org.thoughtcrime.securesms.util.MediaUtil
+import org.thoughtcrime.securesms.ryan.attachments.Attachment
+import org.thoughtcrime.securesms.ryan.attachments.AttachmentId
+import org.thoughtcrime.securesms.ryan.attachments.DatabaseAttachment
+import org.thoughtcrime.securesms.ryan.attachments.PointerAttachment
+import org.thoughtcrime.securesms.ryan.backup.v2.BackupRepository
+import org.thoughtcrime.securesms.ryan.backup.v2.requireThumbnailMediaName
+import org.thoughtcrime.securesms.ryan.database.SignalDatabase
+import org.thoughtcrime.securesms.ryan.dependencies.AppDependencies
+import org.thoughtcrime.securesms.ryan.jobmanager.Job
+import org.thoughtcrime.securesms.ryan.jobmanager.impl.NetworkConstraint
+import org.thoughtcrime.securesms.ryan.jobs.protos.ArchiveThumbnailUploadJobData
+import org.thoughtcrime.securesms.ryan.keyvalue.SignalStore
+import org.thoughtcrime.securesms.ryan.mms.DecryptableStreamUriLoader.DecryptableUri
+import org.thoughtcrime.securesms.ryan.net.SignalNetwork
+import org.thoughtcrime.securesms.ryan.util.ImageCompressionUtil
+import org.thoughtcrime.securesms.ryan.util.MediaUtil
 import org.whispersystems.signalservice.api.NetworkResult
 import org.whispersystems.signalservice.api.messages.SignalServiceAttachment
 import org.whispersystems.signalservice.api.messages.SignalServiceAttachmentStream

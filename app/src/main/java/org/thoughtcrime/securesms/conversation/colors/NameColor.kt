@@ -1,8 +1,8 @@
-package org.thoughtcrime.securesms.conversation.colors
+package org.thoughtcrime.securesms.ryan.conversation.colors
 
 import android.content.Context
 import androidx.annotation.ColorInt
-import org.thoughtcrime.securesms.util.ThemeUtil
+import org.thoughtcrime.securesms.ryan.util.ThemeUtil
 
 /**
  * Class which stores information for a Recipient's name color in a group.

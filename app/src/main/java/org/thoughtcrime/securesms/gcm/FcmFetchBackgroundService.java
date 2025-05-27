@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.gcm;
+package org.thoughtcrime.securesms.ryan.gcm;
 
 import android.app.Service;
 import android.content.Intent;

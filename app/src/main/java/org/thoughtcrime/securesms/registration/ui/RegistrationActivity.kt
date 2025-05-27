@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.registration.ui
+package org.thoughtcrime.securesms.ryan.registration.ui
 
 import android.content.Context
 import android.content.Intent
@@ -13,20 +13,20 @@ import androidx.lifecycle.DefaultLifecycleObserver
 import androidx.lifecycle.LifecycleOwner
 import androidx.navigation.ActivityNavigator
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.BaseActivity
-import org.thoughtcrime.securesms.MainActivity
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.keyvalue.isDecisionPending
-import org.thoughtcrime.securesms.lock.v2.CreateSvrPinActivity
-import org.thoughtcrime.securesms.pin.PinRestoreActivity
-import org.thoughtcrime.securesms.profiles.AvatarHelper
-import org.thoughtcrime.securesms.profiles.edit.CreateProfileActivity
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.registration.sms.SmsRetrieverReceiver
-import org.thoughtcrime.securesms.registrationv3.ui.restore.RemoteRestoreActivity
-import org.thoughtcrime.securesms.util.DynamicNoActionBarTheme
-import org.thoughtcrime.securesms.util.RemoteConfig
+import org.thoughtcrime.securesms.ryan.BaseActivity
+import org.thoughtcrime.securesms.ryan.MainActivity
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.keyvalue.SignalStore
+import org.thoughtcrime.securesms.ryan.keyvalue.isDecisionPending
+import org.thoughtcrime.securesms.ryan.lock.v2.CreateSvrPinActivity
+import org.thoughtcrime.securesms.ryan.pin.PinRestoreActivity
+import org.thoughtcrime.securesms.ryan.profiles.AvatarHelper
+import org.thoughtcrime.securesms.ryan.profiles.edit.CreateProfileActivity
+import org.thoughtcrime.securesms.ryan.recipients.Recipient
+import org.thoughtcrime.securesms.ryan.registration.sms.SmsRetrieverReceiver
+import org.thoughtcrime.securesms.ryan.registrationv3.ui.restore.RemoteRestoreActivity
+import org.thoughtcrime.securesms.ryan.util.DynamicNoActionBarTheme
+import org.thoughtcrime.securesms.ryan.util.RemoteConfig
 
 /**
  * Activity to hold the entire registration process.
@@ -133,7 +133,7 @@ class RegistrationActivity : BaseActivity() {
     }
 
     private fun getRegistrationClass(): Class<*> {
-      return if (RemoteConfig.restoreAfterRegistration) org.thoughtcrime.securesms.registrationv3.ui.RegistrationActivity::class.java else RegistrationActivity::class.java
+      return if (RemoteConfig.restoreAfterRegistration) org.thoughtcrime.securesms.ryan.registrationv3.ui.RegistrationActivity::class.java else RegistrationActivity::class.java
     }
   }
 }

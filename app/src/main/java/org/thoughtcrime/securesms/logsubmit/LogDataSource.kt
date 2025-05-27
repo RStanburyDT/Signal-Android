@@ -1,9 +1,9 @@
-package org.thoughtcrime.securesms.logsubmit
+package org.thoughtcrime.securesms.ryan.logsubmit
 
 import android.app.Application
 import org.signal.core.util.logging.Scrubber
 import org.signal.paging.PagedDataSource
-import org.thoughtcrime.securesms.database.LogDatabase
+import org.thoughtcrime.securesms.ryan.database.LogDatabase
 
 /**
  * Retrieves logs to show in the [SubmitDebugLogActivity].

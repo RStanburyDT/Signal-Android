@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.push
+package org.thoughtcrime.securesms.ryan.push
 
 import android.content.Context
 import android.net.ConnectivityManager
@@ -12,17 +12,17 @@ import okhttp3.Interceptor
 import okhttp3.TlsVersion
 import org.signal.core.util.Base64
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.BuildConfig
-import org.thoughtcrime.securesms.keyvalue.SettingsValues
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.net.CustomDns
-import org.thoughtcrime.securesms.net.DeprecatedClientPreventionInterceptor
-import org.thoughtcrime.securesms.net.DeviceTransferBlockingInterceptor
-import org.thoughtcrime.securesms.net.RemoteDeprecationDetectorInterceptor
-import org.thoughtcrime.securesms.net.SequentialDns
-import org.thoughtcrime.securesms.net.StandardUserAgentInterceptor
-import org.thoughtcrime.securesms.net.StaticDns
-import org.thoughtcrime.securesms.net.StorageServiceSizeLoggingInterceptor
+import org.thoughtcrime.securesms.ryan.BuildConfig
+import org.thoughtcrime.securesms.ryan.keyvalue.SettingsValues
+import org.thoughtcrime.securesms.ryan.keyvalue.SignalStore
+import org.thoughtcrime.securesms.ryan.net.CustomDns
+import org.thoughtcrime.securesms.ryan.net.DeprecatedClientPreventionInterceptor
+import org.thoughtcrime.securesms.ryan.net.DeviceTransferBlockingInterceptor
+import org.thoughtcrime.securesms.ryan.net.RemoteDeprecationDetectorInterceptor
+import org.thoughtcrime.securesms.ryan.net.SequentialDns
+import org.thoughtcrime.securesms.ryan.net.StandardUserAgentInterceptor
+import org.thoughtcrime.securesms.ryan.net.StaticDns
+import org.thoughtcrime.securesms.ryan.net.StorageServiceSizeLoggingInterceptor
 import org.whispersystems.signalservice.api.push.TrustStore
 import org.whispersystems.signalservice.internal.configuration.HttpProxy
 import org.whispersystems.signalservice.internal.configuration.SignalCdnUrl

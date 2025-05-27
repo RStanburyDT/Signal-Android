@@ -1,11 +1,11 @@
-package org.thoughtcrime.securesms.keyboard.sticker
+package org.thoughtcrime.securesms.ryan.keyboard.sticker
 
 import android.graphics.Rect
 import android.view.View
 import androidx.appcompat.widget.AppCompatTextView
 import androidx.recyclerview.widget.RecyclerView
-import org.thoughtcrime.securesms.util.InsetItemDecoration
-import org.thoughtcrime.securesms.util.ViewUtil
+import org.thoughtcrime.securesms.ryan.util.InsetItemDecoration
+import org.thoughtcrime.securesms.ryan.util.ViewUtil
 
 private val horizontalInset: Int = ViewUtil.dpToPx(8)
 private val verticalInset: Int = ViewUtil.dpToPx(8)

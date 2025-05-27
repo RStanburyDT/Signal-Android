@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.spoiler
+package org.thoughtcrime.securesms.ryan.components.spoiler
 
 import android.animation.TimeAnimator
 import android.graphics.Canvas
@@ -12,10 +12,10 @@ import androidx.core.content.ContextCompat
 import androidx.lifecycle.DefaultLifecycleObserver
 import androidx.lifecycle.LifecycleOwner
 import org.signal.core.util.dp
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.spoiler.SpoilerAnnotation.SpoilerClickableSpan
-import org.thoughtcrime.securesms.util.AccessibilityUtil
-import org.thoughtcrime.securesms.util.getLifecycle
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.components.spoiler.SpoilerAnnotation.SpoilerClickableSpan
+import org.thoughtcrime.securesms.ryan.util.AccessibilityUtil
+import org.thoughtcrime.securesms.ryan.util.getLifecycle
 
 /**
  * Performs initial calculation on how to render spoilers and then delegates to actually drawing the spoiler sparkles.

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.payments;
+package org.thoughtcrime.securesms.ryan.payments;
 
 import androidx.annotation.AnyThread;
 import androidx.annotation.NonNull;
@@ -35,9 +35,9 @@ import com.mobilecoin.lib.exceptions.TransactionBuilderException;
 import com.mobilecoin.lib.network.TransportProtocol;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.keyvalue.PaymentsValues;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
-import org.thoughtcrime.securesms.payments.proto.MobileCoinLedger;
+import org.thoughtcrime.securesms.ryan.keyvalue.PaymentsValues;
+import org.thoughtcrime.securesms.ryan.keyvalue.SignalStore;
+import org.thoughtcrime.securesms.ryan.payments.proto.MobileCoinLedger;
 import org.whispersystems.signalservice.api.payments.Money;
 import org.whispersystems.signalservice.api.util.Uint64RangeException;
 import org.whispersystems.signalservice.api.util.Uint64Util;

@@ -1,12 +1,12 @@
-package org.thoughtcrime.securesms.migrations
+package org.thoughtcrime.securesms.ryan.migrations
 
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.database.IdentityTable
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.jobmanager.Job
-import org.thoughtcrime.securesms.jobs.AccountConsistencyWorkerJob
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.recipients.Recipient
+import org.thoughtcrime.securesms.ryan.database.IdentityTable
+import org.thoughtcrime.securesms.ryan.dependencies.AppDependencies
+import org.thoughtcrime.securesms.ryan.jobmanager.Job
+import org.thoughtcrime.securesms.ryan.jobs.AccountConsistencyWorkerJob
+import org.thoughtcrime.securesms.ryan.keyvalue.SignalStore
+import org.thoughtcrime.securesms.ryan.recipients.Recipient
 
 /**
  * Migration to help cleanup some inconsistent state for ourself in the identity table.

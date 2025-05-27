@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.groups.ui.invitesandrequests.requesting;
+package org.thoughtcrime.securesms.ryan.groups.ui.invitesandrequests.requesting;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -11,14 +11,14 @@ import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProvider;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.groups.GroupId;
-import org.thoughtcrime.securesms.groups.ui.AdminActionsListener;
-import org.thoughtcrime.securesms.groups.ui.GroupMemberEntry;
-import org.thoughtcrime.securesms.groups.ui.GroupMemberListView;
-import org.thoughtcrime.securesms.groups.v2.GroupLinkUrlAndStatus;
-import org.thoughtcrime.securesms.recipients.ui.bottomsheet.RecipientBottomSheetDialogFragment;
-import org.thoughtcrime.securesms.util.BottomSheetUtil;
+import org.thoughtcrime.securesms.ryan.R;
+import org.thoughtcrime.securesms.ryan.groups.GroupId;
+import org.thoughtcrime.securesms.ryan.groups.ui.AdminActionsListener;
+import org.thoughtcrime.securesms.ryan.groups.ui.GroupMemberEntry;
+import org.thoughtcrime.securesms.ryan.groups.ui.GroupMemberListView;
+import org.thoughtcrime.securesms.ryan.groups.v2.GroupLinkUrlAndStatus;
+import org.thoughtcrime.securesms.ryan.recipients.ui.bottomsheet.RecipientBottomSheetDialogFragment;
+import org.thoughtcrime.securesms.ryan.util.BottomSheetUtil;
 
 import java.util.Objects;
 

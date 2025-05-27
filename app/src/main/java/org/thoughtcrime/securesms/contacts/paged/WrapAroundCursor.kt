@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.contacts.paged
+package org.thoughtcrime.securesms.ryan.contacts.paged
 
 import android.database.Cursor
 import android.database.CursorWrapper

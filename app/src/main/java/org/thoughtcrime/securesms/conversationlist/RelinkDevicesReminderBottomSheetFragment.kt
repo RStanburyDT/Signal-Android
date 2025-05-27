@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.conversationlist
+package org.thoughtcrime.securesms.ryan.conversationlist
 
 import android.annotation.SuppressLint
 import androidx.compose.foundation.layout.Column
@@ -17,10 +17,10 @@ import androidx.compose.ui.unit.dp
 import androidx.fragment.app.FragmentManager
 import org.signal.core.ui.compose.BottomSheets
 import org.signal.core.ui.compose.Buttons
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.settings.app.AppSettingsActivity
-import org.thoughtcrime.securesms.compose.ComposeBottomSheetDialogFragment
-import org.thoughtcrime.securesms.util.BottomSheetUtil
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.components.settings.app.AppSettingsActivity
+import org.thoughtcrime.securesms.ryan.compose.ComposeBottomSheetDialogFragment
+import org.thoughtcrime.securesms.ryan.util.BottomSheetUtil
 
 /**
  * Bottom Sheet Dialog to remind a user who has just re-registered to re-link their linked devices.

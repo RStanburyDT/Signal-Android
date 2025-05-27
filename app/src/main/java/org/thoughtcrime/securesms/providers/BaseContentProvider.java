@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.providers;
+package org.thoughtcrime.securesms.ryan.providers;
 
 import android.content.ContentProvider;
 import android.content.Context;

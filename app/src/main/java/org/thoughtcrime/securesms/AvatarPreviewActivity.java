@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms;
+package org.thoughtcrime.securesms.ryan;
 
 import android.app.Activity;
 import android.content.Context;
@@ -28,14 +28,14 @@ import com.bumptech.glide.request.transition.Transition;
 import com.github.chrisbanes.photoview.PhotoView;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.avatar.fallback.FallbackAvatar;
-import org.thoughtcrime.securesms.avatar.fallback.FallbackAvatarDrawable;
-import org.thoughtcrime.securesms.components.emoji.EmojiTextView;
-import org.thoughtcrime.securesms.contacts.avatars.ContactPhoto;
-import org.thoughtcrime.securesms.contacts.avatars.ProfileContactPhoto;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.recipients.RecipientId;
-import org.thoughtcrime.securesms.util.FullscreenHelper;
+import org.thoughtcrime.securesms.ryan.avatar.fallback.FallbackAvatar;
+import org.thoughtcrime.securesms.ryan.avatar.fallback.FallbackAvatarDrawable;
+import org.thoughtcrime.securesms.ryan.components.emoji.EmojiTextView;
+import org.thoughtcrime.securesms.ryan.contacts.avatars.ContactPhoto;
+import org.thoughtcrime.securesms.ryan.contacts.avatars.ProfileContactPhoto;
+import org.thoughtcrime.securesms.ryan.recipients.Recipient;
+import org.thoughtcrime.securesms.ryan.recipients.RecipientId;
+import org.thoughtcrime.securesms.ryan.util.FullscreenHelper;
 
 /**
  * Activity for displaying avatars full screen.

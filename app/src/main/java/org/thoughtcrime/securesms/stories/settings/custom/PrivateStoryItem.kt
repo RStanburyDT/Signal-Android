@@ -1,16 +1,16 @@
-package org.thoughtcrime.securesms.stories.settings.custom
+package org.thoughtcrime.securesms.ryan.stories.settings.custom
 
 import android.view.View
 import android.widget.TextView
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.AvatarImageView
-import org.thoughtcrime.securesms.components.settings.PreferenceModel
-import org.thoughtcrime.securesms.database.model.DistributionListPartialRecord
-import org.thoughtcrime.securesms.database.model.DistributionListRecord
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.util.adapter.mapping.LayoutFactory
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingAdapter
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingViewHolder
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.components.AvatarImageView
+import org.thoughtcrime.securesms.ryan.components.settings.PreferenceModel
+import org.thoughtcrime.securesms.ryan.database.model.DistributionListPartialRecord
+import org.thoughtcrime.securesms.ryan.database.model.DistributionListRecord
+import org.thoughtcrime.securesms.ryan.recipients.Recipient
+import org.thoughtcrime.securesms.ryan.util.adapter.mapping.LayoutFactory
+import org.thoughtcrime.securesms.ryan.util.adapter.mapping.MappingAdapter
+import org.thoughtcrime.securesms.ryan.util.adapter.mapping.MappingViewHolder
 
 object PrivateStoryItem {
 

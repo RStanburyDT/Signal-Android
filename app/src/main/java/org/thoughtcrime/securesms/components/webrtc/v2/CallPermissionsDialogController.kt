@@ -3,15 +3,15 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.webrtc.v2
+package org.thoughtcrime.securesms.ryan.components.webrtc.v2
 
 import android.Manifest
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.permissions.PermissionDeniedBottomSheet.Companion.showPermissionFragment
-import org.thoughtcrime.securesms.permissions.Permissions
-import org.thoughtcrime.securesms.util.BottomSheetUtil
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.permissions.PermissionDeniedBottomSheet.Companion.showPermissionFragment
+import org.thoughtcrime.securesms.ryan.permissions.Permissions
+import org.thoughtcrime.securesms.ryan.util.BottomSheetUtil
 
 /**
  * Shared dialog controller for requesting different permissions specific to calling.

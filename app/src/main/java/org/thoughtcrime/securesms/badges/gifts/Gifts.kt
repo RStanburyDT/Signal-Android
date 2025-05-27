@@ -1,13 +1,13 @@
-package org.thoughtcrime.securesms.badges.gifts
+package org.thoughtcrime.securesms.ryan.badges.gifts
 
 import android.content.Context
 import org.signal.core.util.Base64
 import org.signal.libsignal.zkgroup.InvalidInputException
 import org.signal.libsignal.zkgroup.receipts.ReceiptCredentialPresentation
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.database.model.databaseprotos.GiftBadge
-import org.thoughtcrime.securesms.mms.OutgoingMessage
-import org.thoughtcrime.securesms.recipients.Recipient
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.database.model.databaseprotos.GiftBadge
+import org.thoughtcrime.securesms.ryan.mms.OutgoingMessage
+import org.thoughtcrime.securesms.ryan.recipients.Recipient
 import java.lang.Integer.min
 import java.util.concurrent.TimeUnit
 

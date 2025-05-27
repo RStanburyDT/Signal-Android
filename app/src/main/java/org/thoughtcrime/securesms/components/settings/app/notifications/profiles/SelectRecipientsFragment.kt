@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.settings.app.notifications.profiles
+package org.thoughtcrime.securesms.ryan.components.settings.app.notifications.profiles
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -10,16 +10,16 @@ import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.fragment.findNavController
 import io.reactivex.rxjava3.kotlin.subscribeBy
 import org.signal.core.util.concurrent.LifecycleDisposable
-import org.thoughtcrime.securesms.ContactSelectionListFragment
-import org.thoughtcrime.securesms.LoggingFragment
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.ContactFilterView
-import org.thoughtcrime.securesms.contacts.ContactSelectionDisplayMode
-import org.thoughtcrime.securesms.contacts.paged.ChatType
-import org.thoughtcrime.securesms.groups.SelectionLimits
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.util.ViewUtil
-import org.thoughtcrime.securesms.util.views.CircularProgressMaterialButton
+import org.thoughtcrime.securesms.ryan.ContactSelectionListFragment
+import org.thoughtcrime.securesms.ryan.LoggingFragment
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.components.ContactFilterView
+import org.thoughtcrime.securesms.ryan.contacts.ContactSelectionDisplayMode
+import org.thoughtcrime.securesms.ryan.contacts.paged.ChatType
+import org.thoughtcrime.securesms.ryan.groups.SelectionLimits
+import org.thoughtcrime.securesms.ryan.recipients.RecipientId
+import org.thoughtcrime.securesms.ryan.util.ViewUtil
+import org.thoughtcrime.securesms.ryan.util.views.CircularProgressMaterialButton
 import java.util.Optional
 import java.util.function.Consumer
 

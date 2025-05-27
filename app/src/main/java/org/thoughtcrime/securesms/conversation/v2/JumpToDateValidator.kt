@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.conversation.v2
+package org.thoughtcrime.securesms.ryan.conversation.v2
 
 import com.google.android.material.datepicker.CalendarConstraints.DateValidator
 import kotlinx.parcelize.IgnoredOnParcel
@@ -11,8 +11,8 @@ import kotlinx.parcelize.Parcelize
 import org.signal.core.util.concurrent.SignalExecutors
 import org.signal.core.util.logTime
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.util.LRUCache
+import org.thoughtcrime.securesms.ryan.database.SignalDatabase
+import org.thoughtcrime.securesms.ryan.util.LRUCache
 import java.time.Instant
 import java.time.LocalDate
 import java.time.LocalDateTime

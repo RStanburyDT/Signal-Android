@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.webrtc.requests
+package org.thoughtcrime.securesms.ryan.components.webrtc.requests
 
 import android.content.Context
 import androidx.lifecycle.ViewModel
@@ -12,11 +12,11 @@ import io.reactivex.rxjava3.core.Flowable
 import io.reactivex.rxjava3.disposables.CompositeDisposable
 import io.reactivex.rxjava3.kotlin.plusAssign
 import kotlinx.coroutines.rx3.asObservable
-import org.thoughtcrime.securesms.groups.GroupsInCommonRepository
-import org.thoughtcrime.securesms.groups.GroupsInCommonSummary
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.util.rx.RxStore
+import org.thoughtcrime.securesms.ryan.groups.GroupsInCommonRepository
+import org.thoughtcrime.securesms.ryan.groups.GroupsInCommonSummary
+import org.thoughtcrime.securesms.ryan.recipients.Recipient
+import org.thoughtcrime.securesms.ryan.recipients.RecipientId
+import org.thoughtcrime.securesms.ryan.util.rx.RxStore
 
 class CallLinkIncomingRequestViewModel(
   private val context: Context,

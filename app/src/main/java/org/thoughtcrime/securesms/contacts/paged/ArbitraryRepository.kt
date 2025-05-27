@@ -1,6 +1,6 @@
-package org.thoughtcrime.securesms.contacts.paged
+package org.thoughtcrime.securesms.ryan.contacts.paged
 
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingModel
+import org.thoughtcrime.securesms.ryan.util.adapter.mapping.MappingModel
 
 interface ArbitraryRepository {
   /**

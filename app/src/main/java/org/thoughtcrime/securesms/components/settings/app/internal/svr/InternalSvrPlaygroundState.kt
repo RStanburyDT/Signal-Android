@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.settings.app.internal.svr
+package org.thoughtcrime.securesms.ryan.components.settings.app.internal.svr
 
 import kotlinx.collections.immutable.ImmutableList
 

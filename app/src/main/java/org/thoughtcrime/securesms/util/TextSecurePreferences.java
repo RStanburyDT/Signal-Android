@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.util;
+package org.thoughtcrime.securesms.ryan.util;
 
 import android.app.PendingIntent;
 import android.content.Context;
@@ -19,21 +19,21 @@ import org.greenrobot.eventbus.EventBus;
 import org.signal.core.util.PendingIntentFlags;
 import org.signal.core.util.logging.Log;
 import org.signal.libsignal.zkgroup.profiles.ProfileKey;
-import org.thoughtcrime.securesms.BuildConfig;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.backup.proto.SharedPreference;
-import org.thoughtcrime.securesms.crypto.ProfileKeyUtil;
-import org.thoughtcrime.securesms.database.SignalDatabase;
-import org.thoughtcrime.securesms.dependencies.AppDependencies;
-import org.thoughtcrime.securesms.jobmanager.impl.SqlCipherMigrationConstraintObserver;
-import org.thoughtcrime.securesms.keyvalue.SettingsValues;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
-import org.thoughtcrime.securesms.lock.RegistrationLockReminders;
-import org.thoughtcrime.securesms.notifications.NotificationChannels;
-import org.thoughtcrime.securesms.notifications.NotificationIds;
-import org.thoughtcrime.securesms.preferences.widgets.NotificationPrivacyPreference;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.registration.ui.RegistrationActivity;
+import org.thoughtcrime.securesms.ryan.BuildConfig;
+import org.thoughtcrime.securesms.ryan.R;
+import org.thoughtcrime.securesms.ryan.backup.proto.SharedPreference;
+import org.thoughtcrime.securesms.ryan.crypto.ProfileKeyUtil;
+import org.thoughtcrime.securesms.ryan.database.SignalDatabase;
+import org.thoughtcrime.securesms.ryan.dependencies.AppDependencies;
+import org.thoughtcrime.securesms.ryan.jobmanager.impl.SqlCipherMigrationConstraintObserver;
+import org.thoughtcrime.securesms.ryan.keyvalue.SettingsValues;
+import org.thoughtcrime.securesms.ryan.keyvalue.SignalStore;
+import org.thoughtcrime.securesms.ryan.lock.RegistrationLockReminders;
+import org.thoughtcrime.securesms.ryan.notifications.NotificationChannels;
+import org.thoughtcrime.securesms.ryan.notifications.NotificationIds;
+import org.thoughtcrime.securesms.ryan.preferences.widgets.NotificationPrivacyPreference;
+import org.thoughtcrime.securesms.ryan.recipients.Recipient;
+import org.thoughtcrime.securesms.ryan.registration.ui.RegistrationActivity;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -441,7 +441,7 @@ public class TextSecurePreferences {
   }
 
   /**
-   * @deprecated Use {@link SettingsValues#getMessageFontSize()} via {@link org.thoughtcrime.securesms.keyvalue.SignalStore} instead.
+   * @deprecated Use {@link SettingsValues#getMessageFontSize()} via {@link org.thoughtcrime.securesms.ryan.keyvalue.SignalStore} instead.
    */
   @Deprecated
   public static int getMessageBodyTextSize(Context context) {
@@ -582,7 +582,7 @@ public class TextSecurePreferences {
   }
 
   /**
-   * @deprecated Use {@link SettingsValues#getTheme()} via {@link org.thoughtcrime.securesms.keyvalue.SignalStore} instead.
+   * @deprecated Use {@link SettingsValues#getTheme()} via {@link org.thoughtcrime.securesms.ryan.keyvalue.SignalStore} instead.
    */
   @Deprecated
   public static String getTheme(Context context) {
@@ -590,7 +590,7 @@ public class TextSecurePreferences {
   }
 
   /**
-   * @deprecated Use {@link SettingsValues#getLanguage()} via {@link org.thoughtcrime.securesms.keyvalue.SignalStore} instead.
+   * @deprecated Use {@link SettingsValues#getLanguage()} via {@link org.thoughtcrime.securesms.ryan.keyvalue.SignalStore} instead.
    */
   @Deprecated
   public static String getLanguage(Context context) {
@@ -598,7 +598,7 @@ public class TextSecurePreferences {
   }
 
   /**
-   * @deprecated Use {@link SettingsValues#setLanguage(String)} via {@link org.thoughtcrime.securesms.keyvalue.SignalStore} instead.
+   * @deprecated Use {@link SettingsValues#setLanguage(String)} via {@link org.thoughtcrime.securesms.ryan.keyvalue.SignalStore} instead.
    */
   @Deprecated
   public static void setLanguage(Context context, String language) {

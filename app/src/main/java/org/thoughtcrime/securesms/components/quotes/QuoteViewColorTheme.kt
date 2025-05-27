@@ -1,8 +1,8 @@
-package org.thoughtcrime.securesms.components.quotes
+package org.thoughtcrime.securesms.ryan.components.quotes
 
 import android.content.Context
 import androidx.core.content.ContextCompat
-import org.thoughtcrime.securesms.R
+import org.thoughtcrime.securesms.ryan.R
 
 enum class QuoteViewColorTheme(
   private val backgroundColorRes: Int,

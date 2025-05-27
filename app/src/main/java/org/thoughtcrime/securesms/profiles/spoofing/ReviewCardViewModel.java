@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.profiles.spoofing;
+package org.thoughtcrime.securesms.ryan.profiles.spoofing;
 
 import android.util.Pair;
 
@@ -12,12 +12,12 @@ import androidx.lifecycle.ViewModelProvider;
 
 import com.annimon.stream.Stream;
 
-import org.thoughtcrime.securesms.groups.GroupId;
-import org.thoughtcrime.securesms.groups.LiveGroup;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.util.DefaultValueLiveData;
-import org.thoughtcrime.securesms.util.SingleLiveEvent;
-import org.thoughtcrime.securesms.util.livedata.LiveDataUtil;
+import org.thoughtcrime.securesms.ryan.groups.GroupId;
+import org.thoughtcrime.securesms.ryan.groups.LiveGroup;
+import org.thoughtcrime.securesms.ryan.recipients.Recipient;
+import org.thoughtcrime.securesms.ryan.util.DefaultValueLiveData;
+import org.thoughtcrime.securesms.ryan.util.SingleLiveEvent;
+import org.thoughtcrime.securesms.ryan.util.livedata.LiveDataUtil;
 
 import java.util.List;
 import java.util.Objects;

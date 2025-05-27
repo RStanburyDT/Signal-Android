@@ -1,20 +1,20 @@
-package org.thoughtcrime.securesms.service.webrtc;
+package org.thoughtcrime.securesms.ryan.service.webrtc;
 
 import androidx.annotation.NonNull;
 
 import org.signal.core.util.logging.Log;
 import org.signal.ringrtc.CallException;
 import org.signal.ringrtc.CallManager;
-import org.thoughtcrime.securesms.dependencies.AppDependencies;
-import org.thoughtcrime.securesms.events.WebRtcViewModel;
-import org.thoughtcrime.securesms.ringrtc.Camera;
-import org.thoughtcrime.securesms.ringrtc.RemotePeer;
-import org.thoughtcrime.securesms.service.webrtc.state.WebRtcServiceState;
-import org.thoughtcrime.securesms.util.AppForegroundObserver;
-import org.thoughtcrime.securesms.webrtc.audio.SignalAudioManager;
-import org.thoughtcrime.securesms.webrtc.locks.LockManager;
+import org.thoughtcrime.securesms.ryan.dependencies.AppDependencies;
+import org.thoughtcrime.securesms.ryan.events.WebRtcViewModel;
+import org.thoughtcrime.securesms.ryan.ringrtc.Camera;
+import org.thoughtcrime.securesms.ryan.ringrtc.RemotePeer;
+import org.thoughtcrime.securesms.ryan.service.webrtc.state.WebRtcServiceState;
+import org.thoughtcrime.securesms.ryan.util.AppForegroundObserver;
+import org.thoughtcrime.securesms.ryan.webrtc.audio.SignalAudioManager;
+import org.thoughtcrime.securesms.ryan.webrtc.locks.LockManager;
 
-import static org.thoughtcrime.securesms.webrtc.CallNotificationBuilder.TYPE_ESTABLISHED;
+import static org.thoughtcrime.securesms.ryan.webrtc.CallNotificationBuilder.TYPE_ESTABLISHED;
 
 /**
  * Encapsulates the shared logic to setup a 1:1 call. Setup primarily includes retrieving turn servers and

@@ -1,8 +1,8 @@
-package org.thoughtcrime.securesms.util;
+package org.thoughtcrime.securesms.ryan.util;
 
 import androidx.annotation.StyleRes;
 
-import org.thoughtcrime.securesms.R;
+import org.thoughtcrime.securesms.ryan.R;
 
 public class DynamicDarkActionBarTheme extends DynamicTheme {
 

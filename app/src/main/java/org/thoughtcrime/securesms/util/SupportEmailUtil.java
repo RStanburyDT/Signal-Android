@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.util;
+package org.thoughtcrime.securesms.ryan.util;
 
 import android.content.Context;
 import android.content.res.Resources;
@@ -9,9 +9,9 @@ import androidx.annotation.Nullable;
 import androidx.annotation.StringRes;
 
 import org.signal.core.util.ResourceUtil;
-import org.thoughtcrime.securesms.BuildConfig;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
+import org.thoughtcrime.securesms.ryan.BuildConfig;
+import org.thoughtcrime.securesms.ryan.R;
+import org.thoughtcrime.securesms.ryan.keyvalue.SignalStore;
 
 import java.util.Locale;
 

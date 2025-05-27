@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.conversation;
+package org.thoughtcrime.securesms.ryan.conversation;
 
 import android.animation.ValueAnimator;
 import android.content.res.Resources;
@@ -8,8 +8,8 @@ import android.view.animation.Interpolator;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import org.thoughtcrime.securesms.conversation.v2.items.InteractiveConversationElement;
-import org.thoughtcrime.securesms.util.Util;
+import org.thoughtcrime.securesms.ryan.conversation.v2.items.InteractiveConversationElement;
+import org.thoughtcrime.securesms.ryan.util.Util;
 
 import java.util.List;
 

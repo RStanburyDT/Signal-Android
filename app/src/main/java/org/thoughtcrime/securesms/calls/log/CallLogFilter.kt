@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.calls.log
+package org.thoughtcrime.securesms.ryan.calls.log
 
 /**
  * Allows user to only display certain classes of calls.

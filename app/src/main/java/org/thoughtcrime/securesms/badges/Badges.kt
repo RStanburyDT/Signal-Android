@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.badges
+package org.thoughtcrime.securesms.ryan.badges
 
 import android.content.Context
 import android.net.Uri
@@ -10,12 +10,12 @@ import com.google.android.flexbox.JustifyContent
 import org.signal.core.util.DimensionUnit
 import org.signal.core.util.logging.Log
 import org.signal.libsignal.protocol.util.Pair
-import org.thoughtcrime.securesms.BuildConfig
-import org.thoughtcrime.securesms.badges.models.Badge
-import org.thoughtcrime.securesms.badges.models.Badge.Category.Companion.fromCode
-import org.thoughtcrime.securesms.components.settings.DSLConfiguration
-import org.thoughtcrime.securesms.database.model.databaseprotos.BadgeList
-import org.thoughtcrime.securesms.util.ScreenDensity
+import org.thoughtcrime.securesms.ryan.BuildConfig
+import org.thoughtcrime.securesms.ryan.badges.models.Badge
+import org.thoughtcrime.securesms.ryan.badges.models.Badge.Category.Companion.fromCode
+import org.thoughtcrime.securesms.ryan.components.settings.DSLConfiguration
+import org.thoughtcrime.securesms.ryan.database.model.databaseprotos.BadgeList
+import org.thoughtcrime.securesms.ryan.util.ScreenDensity
 import org.whispersystems.signalservice.api.profiles.SignalServiceProfile
 import java.math.BigDecimal
 import java.sql.Timestamp

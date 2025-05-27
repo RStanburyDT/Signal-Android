@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.service;
+package org.thoughtcrime.securesms.ryan.service;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;

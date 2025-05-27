@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.util.dualsim;
+package org.thoughtcrime.securesms.ryan.util.dualsim;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;

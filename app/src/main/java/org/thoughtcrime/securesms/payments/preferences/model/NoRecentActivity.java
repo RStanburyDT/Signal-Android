@@ -1,8 +1,8 @@
-package org.thoughtcrime.securesms.payments.preferences.model;
+package org.thoughtcrime.securesms.ryan.payments.preferences.model;
 
 import androidx.annotation.NonNull;
 
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingModel;
+import org.thoughtcrime.securesms.ryan.util.adapter.mapping.MappingModel;
 
 public class NoRecentActivity implements MappingModel<NoRecentActivity> {
   @Override

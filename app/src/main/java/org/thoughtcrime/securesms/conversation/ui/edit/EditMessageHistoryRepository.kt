@@ -1,15 +1,15 @@
-package org.thoughtcrime.securesms.conversation.ui.edit
+package org.thoughtcrime.securesms.ryan.conversation.ui.edit
 
 import io.reactivex.rxjava3.core.Observable
 import io.reactivex.rxjava3.schedulers.Schedulers
 import org.signal.core.util.concurrent.SignalExecutors
-import org.thoughtcrime.securesms.conversation.ConversationMessage
-import org.thoughtcrime.securesms.conversation.v2.data.AttachmentHelper
-import org.thoughtcrime.securesms.database.DatabaseObserver
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.notifications.MarkReadReceiver
-import org.thoughtcrime.securesms.recipients.Recipient
+import org.thoughtcrime.securesms.ryan.conversation.ConversationMessage
+import org.thoughtcrime.securesms.ryan.conversation.v2.data.AttachmentHelper
+import org.thoughtcrime.securesms.ryan.database.DatabaseObserver
+import org.thoughtcrime.securesms.ryan.database.SignalDatabase
+import org.thoughtcrime.securesms.ryan.dependencies.AppDependencies
+import org.thoughtcrime.securesms.ryan.notifications.MarkReadReceiver
+import org.thoughtcrime.securesms.ryan.recipients.Recipient
 
 object EditMessageHistoryRepository {
 

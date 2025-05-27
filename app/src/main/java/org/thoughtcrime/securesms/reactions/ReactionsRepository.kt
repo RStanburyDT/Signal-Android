@@ -1,17 +1,17 @@
-package org.thoughtcrime.securesms.reactions
+package org.thoughtcrime.securesms.ryan.reactions
 
 import io.reactivex.rxjava3.core.Observable
 import io.reactivex.rxjava3.core.ObservableEmitter
 import io.reactivex.rxjava3.schedulers.Schedulers
 import org.signal.core.util.concurrent.SignalExecutors
-import org.thoughtcrime.securesms.components.emoji.EmojiUtil
-import org.thoughtcrime.securesms.database.DatabaseObserver
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.database.model.MessageId
-import org.thoughtcrime.securesms.database.model.ReactionRecord
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.sms.MessageSender
+import org.thoughtcrime.securesms.ryan.components.emoji.EmojiUtil
+import org.thoughtcrime.securesms.ryan.database.DatabaseObserver
+import org.thoughtcrime.securesms.ryan.database.SignalDatabase
+import org.thoughtcrime.securesms.ryan.database.model.MessageId
+import org.thoughtcrime.securesms.ryan.database.model.ReactionRecord
+import org.thoughtcrime.securesms.ryan.dependencies.AppDependencies
+import org.thoughtcrime.securesms.ryan.recipients.Recipient
+import org.thoughtcrime.securesms.ryan.sms.MessageSender
 
 class ReactionsRepository {
 

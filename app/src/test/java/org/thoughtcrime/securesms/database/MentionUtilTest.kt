@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.database
+package org.thoughtcrime.securesms.ryan.database
 
 import android.app.Application
 import assertk.assertThat
@@ -7,8 +7,8 @@ import org.junit.Test
 import org.junit.runner.RunWith
 import org.robolectric.RobolectricTestRunner
 import org.robolectric.annotation.Config
-import org.thoughtcrime.securesms.database.model.Mention
-import org.thoughtcrime.securesms.recipients.RecipientId
+import org.thoughtcrime.securesms.ryan.database.model.Mention
+import org.thoughtcrime.securesms.ryan.recipients.RecipientId
 
 @RunWith(RobolectricTestRunner::class)
 @Config(manifest = Config.NONE, application = Application::class)

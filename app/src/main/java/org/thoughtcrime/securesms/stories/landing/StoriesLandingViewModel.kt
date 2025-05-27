@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.stories.landing
+package org.thoughtcrime.securesms.ryan.stories.landing
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.ViewModel
@@ -6,11 +6,11 @@ import androidx.lifecycle.ViewModelProvider
 import io.reactivex.rxjava3.core.Completable
 import io.reactivex.rxjava3.disposables.CompositeDisposable
 import io.reactivex.rxjava3.kotlin.plusAssign
-import org.thoughtcrime.securesms.database.model.MessageRecord
-import org.thoughtcrime.securesms.database.model.StoryViewState
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.util.livedata.Store
+import org.thoughtcrime.securesms.ryan.database.model.MessageRecord
+import org.thoughtcrime.securesms.ryan.database.model.StoryViewState
+import org.thoughtcrime.securesms.ryan.recipients.Recipient
+import org.thoughtcrime.securesms.ryan.recipients.RecipientId
+import org.thoughtcrime.securesms.ryan.util.livedata.Store
 
 class StoriesLandingViewModel(private val storiesLandingRepository: StoriesLandingRepository) : ViewModel() {
   private val store = Store(StoriesLandingState())

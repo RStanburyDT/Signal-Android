@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.registration.sms;
+package org.thoughtcrime.securesms.ryan.registration.sms;
 
 import android.app.Application;
 import android.content.BroadcastReceiver;
@@ -21,7 +21,7 @@ import com.google.android.gms.common.api.Status;
 
 import org.greenrobot.eventbus.EventBus;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.service.VerificationCodeParser;
+import org.thoughtcrime.securesms.ryan.service.VerificationCodeParser;
 
 import java.util.Optional;
 

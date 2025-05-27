@@ -1,13 +1,13 @@
-package org.thoughtcrime.securesms.avatar
+package org.thoughtcrime.securesms.ryan.avatar
 
 import android.content.Context
 import android.net.Uri
 import android.webkit.MimeTypeMap
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.mediasend.Media
-import org.thoughtcrime.securesms.mms.PartAuthority
-import org.thoughtcrime.securesms.util.MediaUtil
-import org.thoughtcrime.securesms.util.storage.FileStorage
+import org.thoughtcrime.securesms.ryan.database.SignalDatabase
+import org.thoughtcrime.securesms.ryan.mediasend.Media
+import org.thoughtcrime.securesms.ryan.mms.PartAuthority
+import org.thoughtcrime.securesms.ryan.util.MediaUtil
+import org.thoughtcrime.securesms.ryan.util.storage.FileStorage
 import java.io.InputStream
 
 object AvatarPickerStorage {

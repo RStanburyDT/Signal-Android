@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.backup.v2.ui
+package org.thoughtcrime.securesms.ryan.backup.v2.ui
 
 import android.content.DialogInterface
 import android.os.Parcelable
@@ -50,6 +50,18 @@ import org.signal.core.ui.compose.Buttons
 import org.signal.core.ui.compose.Previews
 import org.signal.core.ui.compose.SignalPreview
 import org.signal.core.ui.compose.theme.SignalTheme
+<<<<<<< HEAD
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.backup.v2.BackupRepository
+import org.thoughtcrime.securesms.ryan.billing.launchManageBackupsSubscription
+import org.thoughtcrime.securesms.ryan.components.settings.app.AppSettingsActivity
+import org.thoughtcrime.securesms.ryan.compose.ComposeBottomSheetDialogFragment
+import org.thoughtcrime.securesms.ryan.dependencies.AppDependencies
+import org.thoughtcrime.securesms.ryan.jobs.BackupMessagesJob
+import org.thoughtcrime.securesms.ryan.jobs.BackupRestoreMediaJob
+import org.thoughtcrime.securesms.ryan.util.CommunicationActions
+import org.thoughtcrime.securesms.ryan.util.PlayStoreUtil
+=======
 import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.backup.v2.BackupRepository
 import org.thoughtcrime.securesms.billing.launchManageBackupsSubscription
@@ -58,6 +70,7 @@ import org.thoughtcrime.securesms.compose.ComposeBottomSheetDialogFragment
 import org.thoughtcrime.securesms.jobs.BackupMessagesJob
 import org.thoughtcrime.securesms.util.CommunicationActions
 import org.thoughtcrime.securesms.util.PlayStoreUtil
+>>>>>>> 23669c3c372284d42db486a218d9f29bef247abf
 import org.signal.core.ui.R as CoreUiR
 
 /**

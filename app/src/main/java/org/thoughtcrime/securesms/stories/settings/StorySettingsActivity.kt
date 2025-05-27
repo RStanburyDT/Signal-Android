@@ -1,10 +1,10 @@
-package org.thoughtcrime.securesms.stories.settings
+package org.thoughtcrime.securesms.ryan.stories.settings
 
 import android.content.Context
 import android.content.Intent
 import androidx.core.os.bundleOf
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.settings.DSLSettingsActivity
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.components.settings.DSLSettingsActivity
 
 class StorySettingsActivity : DSLSettingsActivity() {
   companion object {

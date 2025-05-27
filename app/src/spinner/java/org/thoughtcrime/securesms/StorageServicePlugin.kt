@@ -1,10 +1,10 @@
-package org.thoughtcrime.securesms
+package org.thoughtcrime.securesms.ryan
 
 import org.signal.core.util.Base64
 import org.signal.spinner.Plugin
 import org.signal.spinner.PluginResult
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.net.SignalNetwork
+import org.thoughtcrime.securesms.ryan.keyvalue.SignalStore
+import org.thoughtcrime.securesms.ryan.net.SignalNetwork
 import org.whispersystems.signalservice.api.storage.StorageServiceRepository
 
 class StorageServicePlugin : Plugin {

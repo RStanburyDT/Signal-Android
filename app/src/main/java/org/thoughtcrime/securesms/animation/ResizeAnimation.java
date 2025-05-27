@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.animation;
+package org.thoughtcrime.securesms.ryan.animation;
 
 import android.graphics.Point;
 import android.view.View;

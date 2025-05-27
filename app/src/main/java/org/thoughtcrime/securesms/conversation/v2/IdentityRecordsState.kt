@@ -3,12 +3,12 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.conversation.v2
+package org.thoughtcrime.securesms.ryan.conversation.v2
 
-import org.thoughtcrime.securesms.database.identity.IdentityRecordList
-import org.thoughtcrime.securesms.database.model.GroupRecord
-import org.thoughtcrime.securesms.database.model.IdentityRecord
-import org.thoughtcrime.securesms.recipients.Recipient
+import org.thoughtcrime.securesms.ryan.database.identity.IdentityRecordList
+import org.thoughtcrime.securesms.ryan.database.model.GroupRecord
+import org.thoughtcrime.securesms.ryan.database.model.IdentityRecord
+import org.thoughtcrime.securesms.ryan.recipients.Recipient
 
 /**
  * Current state for all participants identity keys in a conversation excluding self.

@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.video.videoconverter
+package org.thoughtcrime.securesms.ryan.video.videoconverter
 
 data class MediaConverterState(val videoTrack: VideoTrackConverterState?, val audioTrack: AudioTrackConverterState?, val muxing: Boolean)
 

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms;
+package org.thoughtcrime.securesms.ryan;
 
 import android.content.Context;
 import android.content.Intent;
@@ -14,11 +14,11 @@ import androidx.core.app.ActivityCompat;
 import androidx.core.app.ActivityOptionsCompat;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.dependencies.AppDependencies;
-import org.thoughtcrime.securesms.util.AppStartup;
-import org.thoughtcrime.securesms.util.ConfigurationUtil;
-import org.thoughtcrime.securesms.util.WindowUtil;
-import org.thoughtcrime.securesms.util.dynamiclanguage.DynamicLanguageContextWrapper;
+import org.thoughtcrime.securesms.ryan.dependencies.AppDependencies;
+import org.thoughtcrime.securesms.ryan.util.AppStartup;
+import org.thoughtcrime.securesms.ryan.util.ConfigurationUtil;
+import org.thoughtcrime.securesms.ryan.util.WindowUtil;
+import org.thoughtcrime.securesms.ryan.util.dynamiclanguage.DynamicLanguageContextWrapper;
 
 import java.util.Objects;
 

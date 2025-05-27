@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.thoughtcrime.securesms.util;
+package org.thoughtcrime.securesms.ryan.util;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
@@ -48,7 +48,7 @@ import androidx.lifecycle.Lifecycle;
 
 import org.signal.core.util.concurrent.ListenableFuture;
 import org.signal.core.util.concurrent.SettableFuture;
-import org.thoughtcrime.securesms.util.views.Stub;
+import org.thoughtcrime.securesms.ryan.util.views.Stub;
 
 public final class ViewUtil {
 

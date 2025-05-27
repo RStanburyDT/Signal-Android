@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.database;
+package org.thoughtcrime.securesms.ryan.database;
 
 import android.content.Context;
 import android.text.SpannableStringBuilder;
@@ -11,11 +11,11 @@ import androidx.annotation.WorkerThread;
 import com.annimon.stream.Stream;
 import com.annimon.stream.function.Function;
 
-import org.thoughtcrime.securesms.database.model.Mention;
-import org.thoughtcrime.securesms.database.model.MessageRecord;
-import org.thoughtcrime.securesms.database.model.databaseprotos.BodyRangeList;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.recipients.RecipientId;
+import org.thoughtcrime.securesms.ryan.database.model.Mention;
+import org.thoughtcrime.securesms.ryan.database.model.MessageRecord;
+import org.thoughtcrime.securesms.ryan.database.model.databaseprotos.BodyRangeList;
+import org.thoughtcrime.securesms.ryan.recipients.Recipient;
+import org.thoughtcrime.securesms.ryan.recipients.RecipientId;
 import org.whispersystems.signalservice.api.push.ServiceId;
 
 import java.util.ArrayList;

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.linkdevice
+package org.thoughtcrime.securesms.ryan.linkdevice
 
 import android.net.Uri
 import org.signal.core.util.Base64
@@ -10,17 +10,17 @@ import org.signal.core.util.logging.logI
 import org.signal.core.util.logging.logW
 import org.signal.libsignal.protocol.InvalidKeyException
 import org.signal.libsignal.protocol.ecc.Curve
-import org.thoughtcrime.securesms.backup.v2.ArchiveValidator
-import org.thoughtcrime.securesms.backup.v2.BackupRepository
-import org.thoughtcrime.securesms.crypto.ProfileKeyUtil
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.devicelist.protos.DeviceName
-import org.thoughtcrime.securesms.jobs.DeviceNameChangeJob
-import org.thoughtcrime.securesms.jobs.LinkedDeviceInactiveCheckJob
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.net.SignalNetwork
-import org.thoughtcrime.securesms.providers.BlobProvider
-import org.thoughtcrime.securesms.registration.secondary.DeviceNameCipher
+import org.thoughtcrime.securesms.ryan.backup.v2.ArchiveValidator
+import org.thoughtcrime.securesms.ryan.backup.v2.BackupRepository
+import org.thoughtcrime.securesms.ryan.crypto.ProfileKeyUtil
+import org.thoughtcrime.securesms.ryan.dependencies.AppDependencies
+import org.thoughtcrime.securesms.ryan.devicelist.protos.DeviceName
+import org.thoughtcrime.securesms.ryan.jobs.DeviceNameChangeJob
+import org.thoughtcrime.securesms.ryan.jobs.LinkedDeviceInactiveCheckJob
+import org.thoughtcrime.securesms.ryan.keyvalue.SignalStore
+import org.thoughtcrime.securesms.ryan.net.SignalNetwork
+import org.thoughtcrime.securesms.ryan.providers.BlobProvider
+import org.thoughtcrime.securesms.ryan.registration.secondary.DeviceNameCipher
 import org.whispersystems.signalservice.api.NetworkResult
 import org.whispersystems.signalservice.api.backup.MessageBackupKey
 import org.whispersystems.signalservice.api.link.LinkedDeviceVerificationCodeResponse

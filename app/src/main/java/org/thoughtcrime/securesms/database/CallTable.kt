@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.database
+package org.thoughtcrime.securesms.ryan.database
 
 import android.content.Context
 import android.database.Cursor
@@ -29,13 +29,13 @@ import org.signal.core.util.update
 import org.signal.core.util.withinTransaction
 import org.signal.ringrtc.CallId
 import org.signal.ringrtc.CallManager.RingUpdate
-import org.thoughtcrime.securesms.database.model.MessageId
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.jobs.CallLinkUpdateSendJob
-import org.thoughtcrime.securesms.jobs.CallSyncEventJob
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.service.webrtc.links.CallLinkRoomId
+import org.thoughtcrime.securesms.ryan.database.model.MessageId
+import org.thoughtcrime.securesms.ryan.dependencies.AppDependencies
+import org.thoughtcrime.securesms.ryan.jobs.CallLinkUpdateSendJob
+import org.thoughtcrime.securesms.ryan.jobs.CallSyncEventJob
+import org.thoughtcrime.securesms.ryan.recipients.Recipient
+import org.thoughtcrime.securesms.ryan.recipients.RecipientId
+import org.thoughtcrime.securesms.ryan.service.webrtc.links.CallLinkRoomId
 import org.whispersystems.signalservice.api.push.ServiceId.ACI
 import org.whispersystems.signalservice.internal.push.SyncMessage.CallEvent
 import java.util.UUID

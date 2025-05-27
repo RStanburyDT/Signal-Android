@@ -1,11 +1,11 @@
-package org.thoughtcrime.securesms.payments.preferences.viewholder;
+package org.thoughtcrime.securesms.ryan.payments.preferences.viewholder;
 
 import android.view.View;
 
 import androidx.annotation.NonNull;
 
-import org.thoughtcrime.securesms.payments.preferences.model.NoRecentActivity;
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingViewHolder;
+import org.thoughtcrime.securesms.ryan.payments.preferences.model.NoRecentActivity;
+import org.thoughtcrime.securesms.ryan.util.adapter.mapping.MappingViewHolder;
 
 public class NoRecentActivityViewHolder extends MappingViewHolder<NoRecentActivity> {
 

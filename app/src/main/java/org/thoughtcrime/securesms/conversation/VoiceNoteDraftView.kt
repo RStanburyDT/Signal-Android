@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.conversation
+package org.thoughtcrime.securesms.ryan.conversation
 
 import android.content.Context
 import android.net.Uri
@@ -6,11 +6,11 @@ import android.util.AttributeSet
 import android.view.View
 import androidx.appcompat.widget.LinearLayoutCompat
 import androidx.lifecycle.Observer
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.AudioView
-import org.thoughtcrime.securesms.components.voice.VoiceNotePlaybackState
-import org.thoughtcrime.securesms.database.DraftTable
-import org.thoughtcrime.securesms.mms.AudioSlide
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.components.AudioView
+import org.thoughtcrime.securesms.ryan.components.voice.VoiceNotePlaybackState
+import org.thoughtcrime.securesms.ryan.database.DraftTable
+import org.thoughtcrime.securesms.ryan.mms.AudioSlide
 
 class VoiceNoteDraftView @JvmOverloads constructor(
   context: Context,

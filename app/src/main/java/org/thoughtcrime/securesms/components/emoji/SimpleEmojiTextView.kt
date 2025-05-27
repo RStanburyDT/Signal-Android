@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.emoji
+package org.thoughtcrime.securesms.ryan.components.emoji
 
 import android.content.Context
 import android.graphics.Canvas
@@ -6,9 +6,9 @@ import android.text.Spanned
 import android.text.TextUtils
 import android.util.AttributeSet
 import androidx.appcompat.widget.AppCompatTextView
-import org.thoughtcrime.securesms.components.spoiler.SpoilerRendererDelegate
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.util.ThrottledDebouncer
+import org.thoughtcrime.securesms.ryan.components.spoiler.SpoilerRendererDelegate
+import org.thoughtcrime.securesms.ryan.keyvalue.SignalStore
+import org.thoughtcrime.securesms.ryan.util.ThrottledDebouncer
 import java.util.Optional
 
 open class SimpleEmojiTextView @JvmOverloads constructor(

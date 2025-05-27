@@ -1,6 +1,6 @@
-package org.thoughtcrime.securesms.badges.self.none
+package org.thoughtcrime.securesms.ryan.badges.self.none
 
-import org.thoughtcrime.securesms.badges.models.Badge
+import org.thoughtcrime.securesms.ryan.badges.models.Badge
 
 data class BecomeASustainerState(
   val badge: Badge? = null

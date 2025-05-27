@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.pin;
+package org.thoughtcrime.securesms.ryan.pin;
 
 public final class SvrWrongPinException extends Exception {
 

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.settings.app.subscription.errors
+package org.thoughtcrime.securesms.ryan.components.settings.app.subscription.errors
 
 import android.app.PendingIntent
 import android.content.Context
@@ -8,11 +8,11 @@ import android.os.Build
 import androidx.core.app.NotificationCompat
 import androidx.core.app.NotificationManagerCompat
 import org.signal.core.util.PendingIntentFlags
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.settings.app.AppSettingsActivity
-import org.thoughtcrime.securesms.help.HelpFragment
-import org.thoughtcrime.securesms.notifications.NotificationChannels
-import org.thoughtcrime.securesms.notifications.NotificationIds
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.components.settings.app.AppSettingsActivity
+import org.thoughtcrime.securesms.ryan.help.HelpFragment
+import org.thoughtcrime.securesms.ryan.notifications.NotificationChannels
+import org.thoughtcrime.securesms.ryan.notifications.NotificationIds
 
 /**
  * Donation-related push notifications.

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.storage
+package org.thoughtcrime.securesms.ryan.storage
 
 import okio.ByteString
 import okio.ByteString.Companion.toByteString
@@ -7,14 +7,14 @@ import org.signal.core.util.isNotEmpty
 import org.signal.core.util.logging.Log
 import org.signal.core.util.nullIfBlank
 import org.signal.core.util.nullIfEmpty
-import org.thoughtcrime.securesms.database.RecipientTable
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.database.model.RecipientRecord
-import org.thoughtcrime.securesms.jobs.RetrieveProfileJob.Companion.enqueue
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.recipients.Recipient.Companion.trustedPush
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.storage.StorageSyncModels.localToRemoteRecord
+import org.thoughtcrime.securesms.ryan.database.RecipientTable
+import org.thoughtcrime.securesms.ryan.database.SignalDatabase
+import org.thoughtcrime.securesms.ryan.database.model.RecipientRecord
+import org.thoughtcrime.securesms.ryan.jobs.RetrieveProfileJob.Companion.enqueue
+import org.thoughtcrime.securesms.ryan.keyvalue.SignalStore
+import org.thoughtcrime.securesms.ryan.recipients.Recipient.Companion.trustedPush
+import org.thoughtcrime.securesms.ryan.recipients.RecipientId
+import org.thoughtcrime.securesms.ryan.storage.StorageSyncModels.localToRemoteRecord
 import org.whispersystems.signalservice.api.push.ServiceId.ACI
 import org.whispersystems.signalservice.api.push.ServiceId.PNI
 import org.whispersystems.signalservice.api.storage.SignalContactRecord

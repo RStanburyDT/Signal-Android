@@ -3,16 +3,16 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.avatar.fallback
+package org.thoughtcrime.securesms.ryan.avatar.fallback
 
 import androidx.annotation.DrawableRes
 import androidx.annotation.Px
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 import org.signal.core.util.DimensionUnit
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.conversation.colors.AvatarColor
-import org.thoughtcrime.securesms.util.NameUtil
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.conversation.colors.AvatarColor
+import org.thoughtcrime.securesms.ryan.util.NameUtil
 
 /**
  * Specifies what kind of avatar should be generated for a given recipient.

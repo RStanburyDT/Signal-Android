@@ -1,9 +1,9 @@
-package org.thoughtcrime.securesms.keyvalue
+package org.thoughtcrime.securesms.ryan.keyvalue
 
 import android.app.Application
 import androidx.annotation.VisibleForTesting
 import androidx.preference.PreferenceDataStore
-import org.thoughtcrime.securesms.database.KeyValueDatabase
+import org.thoughtcrime.securesms.ryan.database.KeyValueDatabase
 
 /**
  * Simple, encrypted key-value store.

@@ -1,7 +1,7 @@
-package org.thoughtcrime.securesms.conversation.drafts
+package org.thoughtcrime.securesms.ryan.conversation.drafts
 
-import org.thoughtcrime.securesms.database.DraftTable
-import org.thoughtcrime.securesms.database.DraftTable.Drafts
+import org.thoughtcrime.securesms.ryan.database.DraftTable
+import org.thoughtcrime.securesms.ryan.database.DraftTable.Drafts
 
 /**
  * State object responsible for holding Voice Note draft state. The intention is to allow

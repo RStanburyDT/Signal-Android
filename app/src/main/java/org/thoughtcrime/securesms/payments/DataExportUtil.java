@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.payments;
+package org.thoughtcrime.securesms.ryan.payments;
 
 import android.content.Context;
 import android.os.Build;
@@ -6,13 +6,13 @@ import android.os.Build;
 import androidx.annotation.NonNull;
 import androidx.annotation.RequiresApi;
 
-import org.thoughtcrime.securesms.database.PaymentTable;
-import org.thoughtcrime.securesms.database.SignalDatabase;
-import org.thoughtcrime.securesms.dependencies.AppDependencies;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
-import org.thoughtcrime.securesms.payments.reconciliation.LedgerReconcile;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.util.RemoteConfig;
+import org.thoughtcrime.securesms.ryan.database.PaymentTable;
+import org.thoughtcrime.securesms.ryan.database.SignalDatabase;
+import org.thoughtcrime.securesms.ryan.dependencies.AppDependencies;
+import org.thoughtcrime.securesms.ryan.keyvalue.SignalStore;
+import org.thoughtcrime.securesms.ryan.payments.reconciliation.LedgerReconcile;
+import org.thoughtcrime.securesms.ryan.recipients.Recipient;
+import org.thoughtcrime.securesms.ryan.util.RemoteConfig;
 
 import java.time.Instant;
 import java.time.format.DateTimeFormatter;

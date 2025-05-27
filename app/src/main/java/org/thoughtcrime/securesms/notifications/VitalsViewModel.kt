@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.notifications
+package org.thoughtcrime.securesms.ryan.notifications
 
 import android.app.Application
 import androidx.lifecycle.AndroidViewModel
@@ -12,13 +12,13 @@ import io.reactivex.rxjava3.core.Observable
 import io.reactivex.rxjava3.core.Single
 import io.reactivex.rxjava3.schedulers.Schedulers
 import io.reactivex.rxjava3.subjects.BehaviorSubject
-import org.thoughtcrime.securesms.crash.CrashConfig
-import org.thoughtcrime.securesms.database.LogDatabase
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.notifications.DeviceSpecificNotificationConfig.ShowCondition
-import org.thoughtcrime.securesms.util.ConnectivityWarning
-import org.thoughtcrime.securesms.util.NetworkUtil
+import org.thoughtcrime.securesms.ryan.crash.CrashConfig
+import org.thoughtcrime.securesms.ryan.database.LogDatabase
+import org.thoughtcrime.securesms.ryan.dependencies.AppDependencies
+import org.thoughtcrime.securesms.ryan.keyvalue.SignalStore
+import org.thoughtcrime.securesms.ryan.notifications.DeviceSpecificNotificationConfig.ShowCondition
+import org.thoughtcrime.securesms.ryan.util.ConnectivityWarning
+import org.thoughtcrime.securesms.ryan.util.NetworkUtil
 import org.whispersystems.signalservice.api.websocket.WebSocketConnectionState
 import java.util.concurrent.TimeUnit
 import kotlin.time.Duration.Companion.days

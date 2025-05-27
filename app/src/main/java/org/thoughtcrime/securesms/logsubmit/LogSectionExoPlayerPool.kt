@@ -1,8 +1,8 @@
-package org.thoughtcrime.securesms.logsubmit
+package org.thoughtcrime.securesms.ryan.logsubmit
 
 import android.content.Context
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.video.exo.ExoPlayerPool
+import org.thoughtcrime.securesms.ryan.dependencies.AppDependencies
+import org.thoughtcrime.securesms.ryan.video.exo.ExoPlayerPool
 
 /**
  * Prints off the current exoplayer pool stats, including ownership info.

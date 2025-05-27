@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.scribbles;
+package org.thoughtcrime.securesms.ryan.scribbles;
 
 import android.content.Context;
 import android.content.Intent;
@@ -11,18 +11,18 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.app.AppCompatDelegate;
 
 import org.signal.core.util.concurrent.SignalExecutors;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.components.emoji.MediaKeyboard;
-import org.thoughtcrime.securesms.database.SignalDatabase;
-import org.thoughtcrime.securesms.database.model.StickerRecord;
-import org.thoughtcrime.securesms.keyboard.KeyboardPage;
-import org.thoughtcrime.securesms.keyboard.sticker.StickerKeyboardPageFragment;
-import org.thoughtcrime.securesms.keyboard.sticker.StickerSearchDialogFragment;
-import org.thoughtcrime.securesms.scribbles.stickers.FeatureSticker;
-import org.thoughtcrime.securesms.scribbles.stickers.ScribbleStickersFragment;
-import org.thoughtcrime.securesms.stickers.StickerEventListener;
-import org.thoughtcrime.securesms.stickers.StickerManagementActivity;
-import org.thoughtcrime.securesms.util.ViewUtil;
+import org.thoughtcrime.securesms.ryan.R;
+import org.thoughtcrime.securesms.ryan.components.emoji.MediaKeyboard;
+import org.thoughtcrime.securesms.ryan.database.SignalDatabase;
+import org.thoughtcrime.securesms.ryan.database.model.StickerRecord;
+import org.thoughtcrime.securesms.ryan.keyboard.KeyboardPage;
+import org.thoughtcrime.securesms.ryan.keyboard.sticker.StickerKeyboardPageFragment;
+import org.thoughtcrime.securesms.ryan.keyboard.sticker.StickerSearchDialogFragment;
+import org.thoughtcrime.securesms.ryan.scribbles.stickers.FeatureSticker;
+import org.thoughtcrime.securesms.ryan.scribbles.stickers.ScribbleStickersFragment;
+import org.thoughtcrime.securesms.ryan.stickers.StickerEventListener;
+import org.thoughtcrime.securesms.ryan.stickers.StickerManagementActivity;
+import org.thoughtcrime.securesms.ryan.util.ViewUtil;
 
 public final class ImageEditorStickerSelectActivity extends AppCompatActivity implements StickerEventListener, MediaKeyboard.MediaKeyboardListener, StickerKeyboardPageFragment.Callback, ScribbleStickersFragment.Callback {
 

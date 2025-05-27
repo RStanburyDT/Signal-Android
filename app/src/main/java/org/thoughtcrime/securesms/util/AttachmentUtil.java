@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.util;
+package org.thoughtcrime.securesms.ryan.util;
 
 
 import android.content.Context;
@@ -10,15 +10,15 @@ import androidx.annotation.Nullable;
 import androidx.annotation.WorkerThread;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.attachments.Attachment;
-import org.thoughtcrime.securesms.attachments.AttachmentId;
-import org.thoughtcrime.securesms.attachments.DatabaseAttachment;
-import org.thoughtcrime.securesms.database.NoSuchMessageException;
-import org.thoughtcrime.securesms.database.SignalDatabase;
-import org.thoughtcrime.securesms.database.model.MessageRecord;
-import org.thoughtcrime.securesms.jobmanager.impl.NotInCallConstraint;
-import org.thoughtcrime.securesms.jobs.MultiDeviceDeleteSyncJob;
-import org.thoughtcrime.securesms.recipients.Recipient;
+import org.thoughtcrime.securesms.ryan.attachments.Attachment;
+import org.thoughtcrime.securesms.ryan.attachments.AttachmentId;
+import org.thoughtcrime.securesms.ryan.attachments.DatabaseAttachment;
+import org.thoughtcrime.securesms.ryan.database.NoSuchMessageException;
+import org.thoughtcrime.securesms.ryan.database.SignalDatabase;
+import org.thoughtcrime.securesms.ryan.database.model.MessageRecord;
+import org.thoughtcrime.securesms.ryan.jobmanager.impl.NotInCallConstraint;
+import org.thoughtcrime.securesms.ryan.jobs.MultiDeviceDeleteSyncJob;
+import org.thoughtcrime.securesms.ryan.recipients.Recipient;
 
 import java.util.Collections;
 import java.util.Set;

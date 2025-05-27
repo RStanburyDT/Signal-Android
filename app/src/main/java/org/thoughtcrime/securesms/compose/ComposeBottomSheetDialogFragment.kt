@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.compose
+package org.thoughtcrime.securesms.ryan.compose
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -13,8 +13,8 @@ import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.platform.ViewCompositionStrategy
 import androidx.compose.ui.unit.dp
 import org.signal.core.ui.compose.theme.SignalTheme
-import org.thoughtcrime.securesms.components.FixedRoundedCornerBottomSheetDialogFragment
-import org.thoughtcrime.securesms.util.DynamicTheme
+import org.thoughtcrime.securesms.ryan.components.FixedRoundedCornerBottomSheetDialogFragment
+import org.thoughtcrime.securesms.ryan.util.DynamicTheme
 
 abstract class ComposeBottomSheetDialogFragment : FixedRoundedCornerBottomSheetDialogFragment() {
 

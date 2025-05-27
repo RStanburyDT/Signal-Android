@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.wallpaper;
+package org.thoughtcrime.securesms.ryan.wallpaper;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -10,16 +10,16 @@ import androidx.lifecycle.ViewModelProvider;
 
 import com.annimon.stream.Stream;
 
-import org.thoughtcrime.securesms.conversation.colors.AvatarColor;
-import org.thoughtcrime.securesms.conversation.colors.ChatColors;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
-import org.thoughtcrime.securesms.recipients.LiveRecipient;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.recipients.RecipientForeverObserver;
-import org.thoughtcrime.securesms.recipients.RecipientId;
-import org.thoughtcrime.securesms.util.DefaultValueLiveData;
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingModel;
-import org.thoughtcrime.securesms.util.livedata.LiveDataUtil;
+import org.thoughtcrime.securesms.ryan.conversation.colors.AvatarColor;
+import org.thoughtcrime.securesms.ryan.conversation.colors.ChatColors;
+import org.thoughtcrime.securesms.ryan.keyvalue.SignalStore;
+import org.thoughtcrime.securesms.ryan.recipients.LiveRecipient;
+import org.thoughtcrime.securesms.ryan.recipients.Recipient;
+import org.thoughtcrime.securesms.ryan.recipients.RecipientForeverObserver;
+import org.thoughtcrime.securesms.ryan.recipients.RecipientId;
+import org.thoughtcrime.securesms.ryan.util.DefaultValueLiveData;
+import org.thoughtcrime.securesms.ryan.util.adapter.mapping.MappingModel;
+import org.thoughtcrime.securesms.ryan.util.livedata.LiveDataUtil;
 
 import java.util.List;
 import java.util.Objects;

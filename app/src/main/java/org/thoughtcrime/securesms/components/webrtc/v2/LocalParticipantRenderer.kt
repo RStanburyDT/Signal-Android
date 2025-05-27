@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.webrtc.v2
+package org.thoughtcrime.securesms.ryan.components.webrtc.v2
 
 import androidx.compose.foundation.layout.BoxWithConstraints
 import androidx.compose.foundation.layout.fillMaxSize
@@ -15,13 +15,13 @@ import androidx.compose.ui.platform.LocalDensity
 import androidx.compose.ui.platform.LocalInspectionMode
 import androidx.compose.ui.unit.DpSize
 import androidx.compose.ui.viewinterop.AndroidView
-import org.thoughtcrime.securesms.avatar.fallback.FallbackAvatarDrawable
-import org.thoughtcrime.securesms.components.webrtc.TextureViewRenderer
-import org.thoughtcrime.securesms.compose.GlideImage
-import org.thoughtcrime.securesms.contacts.avatars.ProfileContactPhoto
-import org.thoughtcrime.securesms.events.CallParticipant
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.ringrtc.CameraState
+import org.thoughtcrime.securesms.ryan.avatar.fallback.FallbackAvatarDrawable
+import org.thoughtcrime.securesms.ryan.components.webrtc.TextureViewRenderer
+import org.thoughtcrime.securesms.ryan.compose.GlideImage
+import org.thoughtcrime.securesms.ryan.contacts.avatars.ProfileContactPhoto
+import org.thoughtcrime.securesms.ryan.events.CallParticipant
+import org.thoughtcrime.securesms.ryan.recipients.Recipient
+import org.thoughtcrime.securesms.ryan.ringrtc.CameraState
 import org.webrtc.RendererCommon
 
 /**

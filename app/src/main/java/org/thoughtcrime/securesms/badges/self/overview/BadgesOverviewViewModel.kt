@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.badges.self.overview
+package org.thoughtcrime.securesms.ryan.badges.self.overview
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.ViewModel
@@ -11,13 +11,13 @@ import io.reactivex.rxjava3.kotlin.plusAssign
 import io.reactivex.rxjava3.kotlin.subscribeBy
 import io.reactivex.rxjava3.subjects.PublishSubject
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.badges.BadgeRepository
-import org.thoughtcrime.securesms.components.settings.app.subscription.RecurringInAppPaymentRepository
-import org.thoughtcrime.securesms.database.model.InAppPaymentSubscriberRecord
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.util.InternetConnectionObserver
-import org.thoughtcrime.securesms.util.livedata.Store
+import org.thoughtcrime.securesms.ryan.badges.BadgeRepository
+import org.thoughtcrime.securesms.ryan.components.settings.app.subscription.RecurringInAppPaymentRepository
+import org.thoughtcrime.securesms.ryan.database.model.InAppPaymentSubscriberRecord
+import org.thoughtcrime.securesms.ryan.keyvalue.SignalStore
+import org.thoughtcrime.securesms.ryan.recipients.Recipient
+import org.thoughtcrime.securesms.ryan.util.InternetConnectionObserver
+import org.thoughtcrime.securesms.ryan.util.livedata.Store
 import java.util.Optional
 
 private val TAG = Log.tag(BadgesOverviewViewModel::class.java)

@@ -14,13 +14,13 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.thoughtcrime.securesms.crypto;
+package org.thoughtcrime.securesms.ryan.crypto;
 
 import androidx.annotation.NonNull;
 
 import org.signal.core.util.logging.Log;
 import org.signal.core.util.stream.LimitedInputStream;
-import org.thoughtcrime.securesms.util.Util;
+import org.thoughtcrime.securesms.ryan.util.Util;
 
 import java.io.File;
 import java.io.FileInputStream;

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.messagedetails;
+package org.thoughtcrime.securesms.ryan.messagedetails;
 
 import android.annotation.SuppressLint;
 import android.view.LayoutInflater;
@@ -12,12 +12,12 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.RequestManager;
 
-import org.thoughtcrime.securesms.BindableConversationItem;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.conversation.ConversationMessage;
-import org.thoughtcrime.securesms.conversation.colors.Colorizer;
-import org.thoughtcrime.securesms.database.model.MessageRecord;
-import org.thoughtcrime.securesms.databinding.MessageDetailsViewEditHistoryBinding;
+import org.thoughtcrime.securesms.ryan.BindableConversationItem;
+import org.thoughtcrime.securesms.ryan.R;
+import org.thoughtcrime.securesms.ryan.conversation.ConversationMessage;
+import org.thoughtcrime.securesms.ryan.conversation.colors.Colorizer;
+import org.thoughtcrime.securesms.ryan.database.model.MessageRecord;
+import org.thoughtcrime.securesms.ryan.databinding.MessageDetailsViewEditHistoryBinding;
 
 final class MessageDetailsAdapter extends ListAdapter<MessageDetailsAdapter.MessageDetailsViewState<?>, RecyclerView.ViewHolder> {
 

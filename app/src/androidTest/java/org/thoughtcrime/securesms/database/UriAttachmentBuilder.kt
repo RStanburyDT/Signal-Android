@@ -1,10 +1,10 @@
-package org.thoughtcrime.securesms.database
+package org.thoughtcrime.securesms.ryan.database
 
 import android.net.Uri
-import org.thoughtcrime.securesms.attachments.UriAttachment
-import org.thoughtcrime.securesms.audio.AudioHash
-import org.thoughtcrime.securesms.blurhash.BlurHash
-import org.thoughtcrime.securesms.stickers.StickerLocator
+import org.thoughtcrime.securesms.ryan.attachments.UriAttachment
+import org.thoughtcrime.securesms.ryan.audio.AudioHash
+import org.thoughtcrime.securesms.ryan.blurhash.BlurHash
+import org.thoughtcrime.securesms.ryan.stickers.StickerLocator
 import java.util.UUID
 
 object UriAttachmentBuilder {

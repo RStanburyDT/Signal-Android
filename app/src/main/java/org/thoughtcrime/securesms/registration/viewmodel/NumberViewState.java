@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.registration.viewmodel;
+package org.thoughtcrime.securesms.ryan.registration.viewmodel;
 
 import android.os.Parcel;
 import android.os.Parcelable;

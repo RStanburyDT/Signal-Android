@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.database
+package org.thoughtcrime.securesms.ryan.database
 
 import androidx.test.ext.junit.runners.AndroidJUnit4
 import org.junit.Assert.assertEquals
@@ -10,8 +10,8 @@ import org.junit.Test
 import org.junit.runner.RunWith
 import org.signal.ringrtc.CallId
 import org.signal.ringrtc.CallManager
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.testing.SignalActivityRule
+import org.thoughtcrime.securesms.ryan.recipients.RecipientId
+import org.thoughtcrime.securesms.ryan.testing.SignalActivityRule
 
 @RunWith(AndroidJUnit4::class)
 class CallTableTest {

@@ -1,9 +1,9 @@
-package org.thoughtcrime.securesms.mediaoverview
+package org.thoughtcrime.securesms.ryan.mediaoverview
 
 import android.graphics.Rect
 import android.view.View
 import androidx.recyclerview.widget.RecyclerView
-import org.thoughtcrime.securesms.components.recyclerview.GridDividerDecoration
+import org.thoughtcrime.securesms.ryan.components.recyclerview.GridDividerDecoration
 
 internal class MediaGridDividerDecoration(
   spanCount: Int,

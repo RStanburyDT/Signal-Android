@@ -1,21 +1,21 @@
-package org.thoughtcrime.securesms.jobs
+package org.thoughtcrime.securesms.ryan.jobs
 
 import androidx.core.os.LocaleListCompat
 import com.fasterxml.jackson.core.JsonParseException
 import org.json.JSONArray
 import org.json.JSONObject
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.database.MessageTable
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.database.model.StoryType
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.jobmanager.Job
-import org.thoughtcrime.securesms.jobmanager.impl.NetworkConstraint
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.releasechannel.ReleaseChannel
-import org.thoughtcrime.securesms.s3.S3
-import org.thoughtcrime.securesms.transport.RetryLaterException
+import org.thoughtcrime.securesms.ryan.database.MessageTable
+import org.thoughtcrime.securesms.ryan.database.SignalDatabase
+import org.thoughtcrime.securesms.ryan.database.model.StoryType
+import org.thoughtcrime.securesms.ryan.dependencies.AppDependencies
+import org.thoughtcrime.securesms.ryan.jobmanager.Job
+import org.thoughtcrime.securesms.ryan.jobmanager.impl.NetworkConstraint
+import org.thoughtcrime.securesms.ryan.keyvalue.SignalStore
+import org.thoughtcrime.securesms.ryan.recipients.Recipient
+import org.thoughtcrime.securesms.ryan.releasechannel.ReleaseChannel
+import org.thoughtcrime.securesms.ryan.s3.S3
+import org.thoughtcrime.securesms.ryan.transport.RetryLaterException
 import org.whispersystems.signalservice.api.push.exceptions.NonSuccessfulResponseCodeException
 import java.util.Locale
 

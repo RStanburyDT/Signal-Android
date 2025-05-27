@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.settings.app.internal.backup
+package org.thoughtcrime.securesms.ryan.components.settings.app.internal.backup
 
 import android.app.Activity.RESULT_OK
 import android.content.Intent
@@ -79,6 +79,17 @@ import org.signal.core.ui.compose.Snackbars
 import org.signal.core.ui.compose.TextFields.TextField
 import org.signal.core.util.Hex
 import org.signal.core.util.getLength
+<<<<<<< HEAD
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.attachments.AttachmentId
+import org.thoughtcrime.securesms.ryan.backup.v2.MessageBackupTier
+import org.thoughtcrime.securesms.ryan.components.settings.app.internal.backup.InternalBackupPlaygroundViewModel.DialogState
+import org.thoughtcrime.securesms.ryan.components.settings.app.internal.backup.InternalBackupPlaygroundViewModel.ScreenState
+import org.thoughtcrime.securesms.ryan.compose.ComposeFragment
+import org.thoughtcrime.securesms.ryan.jobs.LocalBackupJob
+import org.thoughtcrime.securesms.ryan.keyvalue.SignalStore
+import org.thoughtcrime.securesms.ryan.util.Util
+=======
 import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.attachments.AttachmentId
 import org.thoughtcrime.securesms.backup.v2.MessageBackupTier
@@ -89,6 +100,7 @@ import org.thoughtcrime.securesms.compose.ComposeFragment
 import org.thoughtcrime.securesms.jobs.LocalBackupJob
 import org.thoughtcrime.securesms.keyvalue.SignalStore
 import org.thoughtcrime.securesms.util.Util
+>>>>>>> 23669c3c372284d42db486a218d9f29bef247abf
 
 class InternalBackupPlaygroundFragment : ComposeFragment() {
 

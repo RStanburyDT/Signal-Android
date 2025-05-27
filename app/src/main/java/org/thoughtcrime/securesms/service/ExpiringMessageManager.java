@@ -1,13 +1,13 @@
-package org.thoughtcrime.securesms.service;
+package org.thoughtcrime.securesms.ryan.service;
 
 import android.content.Context;
 
 import androidx.annotation.NonNull;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.database.MessageTable;
-import org.thoughtcrime.securesms.database.SignalDatabase;
-import org.thoughtcrime.securesms.database.model.MessageRecord;
+import org.thoughtcrime.securesms.ryan.database.MessageTable;
+import org.thoughtcrime.securesms.ryan.database.SignalDatabase;
+import org.thoughtcrime.securesms.ryan.database.model.MessageRecord;
 
 import java.util.Comparator;
 import java.util.List;

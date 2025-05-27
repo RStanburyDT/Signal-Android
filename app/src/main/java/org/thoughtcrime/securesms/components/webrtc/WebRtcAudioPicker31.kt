@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.webrtc
+package org.thoughtcrime.securesms.ryan.components.webrtc
 
 import android.content.Context
 import android.content.DialogInterface
@@ -13,10 +13,10 @@ import androidx.compose.ui.res.dimensionResource
 import androidx.fragment.app.FragmentActivity
 import kotlinx.collections.immutable.toImmutableList
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.webrtc.audio.AudioDeviceMapping
-import org.thoughtcrime.securesms.webrtc.audio.SignalAudioManager
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.dependencies.AppDependencies
+import org.thoughtcrime.securesms.ryan.webrtc.audio.AudioDeviceMapping
+import org.thoughtcrime.securesms.ryan.webrtc.audio.SignalAudioManager
 import org.signal.core.ui.R as CoreUiR
 
 /**

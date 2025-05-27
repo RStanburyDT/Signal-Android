@@ -3,12 +3,12 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.settings.app.changenumber
+package org.thoughtcrime.securesms.ryan.components.settings.app.changenumber
 
-import org.thoughtcrime.securesms.registration.data.network.Challenge
-import org.thoughtcrime.securesms.registration.data.network.VerificationCodeRequestResult
-import org.thoughtcrime.securesms.registration.ui.countrycode.Country
-import org.thoughtcrime.securesms.registration.viewmodel.NumberViewState
+import org.thoughtcrime.securesms.ryan.registration.data.network.Challenge
+import org.thoughtcrime.securesms.ryan.registration.data.network.VerificationCodeRequestResult
+import org.thoughtcrime.securesms.ryan.registration.ui.countrycode.Country
+import org.thoughtcrime.securesms.ryan.registration.viewmodel.NumberViewState
 import org.whispersystems.signalservice.api.svr.Svr3Credentials
 import org.whispersystems.signalservice.internal.push.AuthCredentials
 

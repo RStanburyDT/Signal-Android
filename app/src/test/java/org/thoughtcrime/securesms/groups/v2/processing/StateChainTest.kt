@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.groups.v2.processing
+package org.thoughtcrime.securesms.ryan.groups.v2.processing
 
 import assertk.assertThat
 import assertk.assertions.containsExactly

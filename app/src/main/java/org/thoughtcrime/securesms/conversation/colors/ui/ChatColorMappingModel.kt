@@ -1,7 +1,7 @@
-package org.thoughtcrime.securesms.conversation.colors.ui
+package org.thoughtcrime.securesms.ryan.conversation.colors.ui
 
-import org.thoughtcrime.securesms.conversation.colors.ChatColors
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingModel
+import org.thoughtcrime.securesms.ryan.conversation.colors.ChatColors
+import org.thoughtcrime.securesms.ryan.util.adapter.mapping.MappingModel
 
 class ChatColorMappingModel(
   val chatColors: ChatColors,

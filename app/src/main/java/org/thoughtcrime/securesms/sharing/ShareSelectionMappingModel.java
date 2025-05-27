@@ -1,12 +1,12 @@
-package org.thoughtcrime.securesms.sharing;
+package org.thoughtcrime.securesms.ryan.sharing;
 
 import android.content.Context;
 
 import androidx.annotation.NonNull;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingModel;
+import org.thoughtcrime.securesms.ryan.R;
+import org.thoughtcrime.securesms.ryan.recipients.Recipient;
+import org.thoughtcrime.securesms.ryan.util.adapter.mapping.MappingModel;
 
 public class ShareSelectionMappingModel implements MappingModel<ShareSelectionMappingModel> {
 

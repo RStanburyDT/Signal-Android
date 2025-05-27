@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.verify;
+package org.thoughtcrime.securesms.ryan.verify;
 
 import android.content.Context;
 import android.content.Intent;
@@ -10,16 +10,16 @@ import androidx.annotation.Nullable;
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 
 import org.signal.libsignal.protocol.IdentityKey;
-import org.thoughtcrime.securesms.PassphraseRequiredActivity;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.crypto.IdentityKeyParcelable;
-import org.thoughtcrime.securesms.database.IdentityTable;
-import org.thoughtcrime.securesms.database.model.IdentityRecord;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.recipients.RecipientId;
-import org.thoughtcrime.securesms.util.CommunicationActions;
-import org.thoughtcrime.securesms.util.DynamicNoActionBarTheme;
-import org.thoughtcrime.securesms.util.DynamicTheme;
+import org.thoughtcrime.securesms.ryan.PassphraseRequiredActivity;
+import org.thoughtcrime.securesms.ryan.R;
+import org.thoughtcrime.securesms.ryan.crypto.IdentityKeyParcelable;
+import org.thoughtcrime.securesms.ryan.database.IdentityTable;
+import org.thoughtcrime.securesms.ryan.database.model.IdentityRecord;
+import org.thoughtcrime.securesms.ryan.recipients.Recipient;
+import org.thoughtcrime.securesms.ryan.recipients.RecipientId;
+import org.thoughtcrime.securesms.ryan.util.CommunicationActions;
+import org.thoughtcrime.securesms.ryan.util.DynamicNoActionBarTheme;
+import org.thoughtcrime.securesms.ryan.util.DynamicTheme;
 
 /**
  * Activity for verifying identity keys.

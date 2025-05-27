@@ -1,11 +1,11 @@
-package org.thoughtcrime.securesms.mms;
+package org.thoughtcrime.securesms.ryan.mms;
 
 import android.content.Context;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.StringRes;
 
-import org.thoughtcrime.securesms.R;
+import org.thoughtcrime.securesms.ryan.R;
 
 import java.util.Arrays;
 

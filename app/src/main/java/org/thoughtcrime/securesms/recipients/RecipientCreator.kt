@@ -1,17 +1,17 @@
-package org.thoughtcrime.securesms.recipients
+package org.thoughtcrime.securesms.ryan.recipients
 
 import android.content.Context
 import androidx.annotation.VisibleForTesting
 import androidx.annotation.WorkerThread
-import org.thoughtcrime.securesms.conversation.colors.AvatarColor
-import org.thoughtcrime.securesms.database.RecipientTable.RegisteredState
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.database.model.GroupRecord
-import org.thoughtcrime.securesms.database.model.RecipientRecord
-import org.thoughtcrime.securesms.groups.GroupId
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.util.TextSecurePreferences
-import org.thoughtcrime.securesms.util.Util
+import org.thoughtcrime.securesms.ryan.conversation.colors.AvatarColor
+import org.thoughtcrime.securesms.ryan.database.RecipientTable.RegisteredState
+import org.thoughtcrime.securesms.ryan.database.SignalDatabase
+import org.thoughtcrime.securesms.ryan.database.model.GroupRecord
+import org.thoughtcrime.securesms.ryan.database.model.RecipientRecord
+import org.thoughtcrime.securesms.ryan.groups.GroupId
+import org.thoughtcrime.securesms.ryan.keyvalue.SignalStore
+import org.thoughtcrime.securesms.ryan.util.TextSecurePreferences
+import org.thoughtcrime.securesms.ryan.util.Util
 import java.util.LinkedList
 import java.util.Optional
 

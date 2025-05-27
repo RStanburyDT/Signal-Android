@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.conversation.ui.mentions;
+package org.thoughtcrime.securesms.ryan.conversation.ui.mentions;
 
 import android.os.Bundle;
 import android.os.Handler;
@@ -15,11 +15,11 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.google.android.material.bottomsheet.BottomSheetBehavior;
 
-import org.thoughtcrime.securesms.LoggingFragment;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.util.VibrateUtil;
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingModel;
+import org.thoughtcrime.securesms.ryan.LoggingFragment;
+import org.thoughtcrime.securesms.ryan.R;
+import org.thoughtcrime.securesms.ryan.recipients.Recipient;
+import org.thoughtcrime.securesms.ryan.util.VibrateUtil;
+import org.thoughtcrime.securesms.ryan.util.adapter.mapping.MappingModel;
 
 import java.util.Collections;
 import java.util.List;

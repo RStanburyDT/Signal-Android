@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.sharing
+package org.thoughtcrime.securesms.ryan.sharing
 
 import org.junit.Assert.assertEquals
 import org.junit.Test

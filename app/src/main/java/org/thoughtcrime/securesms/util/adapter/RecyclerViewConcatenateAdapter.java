@@ -18,7 +18,7 @@
  * This file has been modified by Signal.
  */
 
-package org.thoughtcrime.securesms.util.adapter;
+package org.thoughtcrime.securesms.ryan.util.adapter;
 
 import android.util.LongSparseArray;
 import android.util.SparseIntArray;

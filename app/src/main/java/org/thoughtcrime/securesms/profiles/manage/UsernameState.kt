@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.profiles.manage
+package org.thoughtcrime.securesms.ryan.profiles.manage
 
 import org.signal.libsignal.usernames.Username
 import org.whispersystems.signalservice.api.util.discriminator

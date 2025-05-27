@@ -1,9 +1,9 @@
-package org.thoughtcrime.securesms.database.helpers.migration
+package org.thoughtcrime.securesms.ryan.database.helpers.migration
 
 import android.app.Application
 import org.signal.core.util.Stopwatch
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.database.SQLiteDatabase
+import org.thoughtcrime.securesms.ryan.database.SQLiteDatabase
 
 /**
  * We saw evidence (via failed backup restores) that some people have recipients in their thread table that do not exist in the recipient table.

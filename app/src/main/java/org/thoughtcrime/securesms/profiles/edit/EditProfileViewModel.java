@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.profiles.edit;
+package org.thoughtcrime.securesms.ryan.profiles.edit;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -11,15 +11,15 @@ import androidx.lifecycle.ViewModelProvider;
 import org.signal.core.util.BidiUtil;
 import org.signal.core.util.StringUtil;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.conversation.colors.AvatarColor;
-import org.thoughtcrime.securesms.groups.GroupId;
-import org.thoughtcrime.securesms.keyvalue.PhoneNumberPrivacyValues.PhoneNumberDiscoverabilityMode;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
-import org.thoughtcrime.securesms.mediasend.Media;
-import org.thoughtcrime.securesms.profiles.ProfileName;
-import org.thoughtcrime.securesms.profiles.edit.EditProfileRepository.UploadResult;
-import org.thoughtcrime.securesms.util.SingleLiveEvent;
-import org.thoughtcrime.securesms.util.livedata.LiveDataUtil;
+import org.thoughtcrime.securesms.ryan.conversation.colors.AvatarColor;
+import org.thoughtcrime.securesms.ryan.groups.GroupId;
+import org.thoughtcrime.securesms.ryan.keyvalue.PhoneNumberPrivacyValues.PhoneNumberDiscoverabilityMode;
+import org.thoughtcrime.securesms.ryan.keyvalue.SignalStore;
+import org.thoughtcrime.securesms.ryan.mediasend.Media;
+import org.thoughtcrime.securesms.ryan.profiles.ProfileName;
+import org.thoughtcrime.securesms.ryan.profiles.edit.EditProfileRepository.UploadResult;
+import org.thoughtcrime.securesms.ryan.util.SingleLiveEvent;
+import org.thoughtcrime.securesms.ryan.util.livedata.LiveDataUtil;
 
 import java.util.Arrays;
 import java.util.Objects;

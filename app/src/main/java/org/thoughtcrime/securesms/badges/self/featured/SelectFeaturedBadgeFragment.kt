@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.badges.self.featured
+package org.thoughtcrime.securesms.ryan.badges.self.featured
 
 import android.os.Bundle
 import android.view.View
@@ -7,17 +7,17 @@ import androidx.appcompat.widget.Toolbar
 import androidx.fragment.app.viewModels
 import androidx.navigation.fragment.findNavController
 import org.signal.core.util.concurrent.LifecycleDisposable
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.badges.BadgeRepository
-import org.thoughtcrime.securesms.badges.Badges
-import org.thoughtcrime.securesms.badges.Badges.displayBadges
-import org.thoughtcrime.securesms.badges.models.Badge
-import org.thoughtcrime.securesms.badges.models.BadgePreview
-import org.thoughtcrime.securesms.components.settings.DSLConfiguration
-import org.thoughtcrime.securesms.components.settings.DSLSettingsFragment
-import org.thoughtcrime.securesms.components.settings.configure
-import org.thoughtcrime.securesms.util.Material3OnScrollHelper
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingAdapter
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.badges.BadgeRepository
+import org.thoughtcrime.securesms.ryan.badges.Badges
+import org.thoughtcrime.securesms.ryan.badges.Badges.displayBadges
+import org.thoughtcrime.securesms.ryan.badges.models.Badge
+import org.thoughtcrime.securesms.ryan.badges.models.BadgePreview
+import org.thoughtcrime.securesms.ryan.components.settings.DSLConfiguration
+import org.thoughtcrime.securesms.ryan.components.settings.DSLSettingsFragment
+import org.thoughtcrime.securesms.ryan.components.settings.configure
+import org.thoughtcrime.securesms.ryan.util.Material3OnScrollHelper
+import org.thoughtcrime.securesms.ryan.util.adapter.mapping.MappingAdapter
 
 /**
  * Fragment which allows user to select one of their badges to be their "Featured" badge.

@@ -3,15 +3,15 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.conversation.v2.items
+package org.thoughtcrime.securesms.ryan.conversation.v2.items
 
 import androidx.lifecycle.LifecycleOwner
 import com.bumptech.glide.RequestManager
-import org.thoughtcrime.securesms.conversation.ConversationAdapter
-import org.thoughtcrime.securesms.conversation.ConversationItemDisplayMode
-import org.thoughtcrime.securesms.conversation.colors.Colorizer
-import org.thoughtcrime.securesms.conversation.mutiselect.MultiselectPart
-import org.thoughtcrime.securesms.database.model.MessageRecord
+import org.thoughtcrime.securesms.ryan.conversation.ConversationAdapter
+import org.thoughtcrime.securesms.ryan.conversation.ConversationItemDisplayMode
+import org.thoughtcrime.securesms.ryan.conversation.colors.Colorizer
+import org.thoughtcrime.securesms.ryan.conversation.mutiselect.MultiselectPart
+import org.thoughtcrime.securesms.ryan.database.model.MessageRecord
 
 /**
  * Describes the Adapter "context" that would normally have been

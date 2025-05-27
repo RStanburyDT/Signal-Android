@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.linkpreview;
+package org.thoughtcrime.securesms.ryan.linkpreview;
 
 import android.content.Context;
 import android.text.TextUtils;
@@ -12,11 +12,11 @@ import androidx.lifecycle.ViewModel;
 import androidx.lifecycle.ViewModelProvider;
 
 import org.signal.core.util.ThreadUtil;
-import org.thoughtcrime.securesms.attachments.AttachmentId;
-import org.thoughtcrime.securesms.dependencies.AppDependencies;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
-import org.thoughtcrime.securesms.net.RequestController;
-import org.thoughtcrime.securesms.util.Debouncer;
+import org.thoughtcrime.securesms.ryan.attachments.AttachmentId;
+import org.thoughtcrime.securesms.ryan.dependencies.AppDependencies;
+import org.thoughtcrime.securesms.ryan.keyvalue.SignalStore;
+import org.thoughtcrime.securesms.ryan.net.RequestController;
+import org.thoughtcrime.securesms.ryan.util.Debouncer;
 
 import java.util.Collections;
 import java.util.List;

@@ -1,6 +1,6 @@
-package org.thoughtcrime.securesms.components.settings.app.privacy.expire
+package org.thoughtcrime.securesms.ryan.components.settings.app.privacy.expire
 
-import org.thoughtcrime.securesms.util.livedata.ProcessState
+import org.thoughtcrime.securesms.ryan.util.livedata.ProcessState
 
 data class ExpireTimerSettingsState(
   val initialTimer: Int = 0,

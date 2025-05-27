@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.settings.app.subscription.receipts.detail
+package org.thoughtcrime.securesms.ryan.components.settings.app.subscription.receipts.detail
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.ViewModel
@@ -6,8 +6,8 @@ import androidx.lifecycle.ViewModelProvider
 import io.reactivex.rxjava3.core.Single
 import io.reactivex.rxjava3.disposables.CompositeDisposable
 import io.reactivex.rxjava3.kotlin.plusAssign
-import org.thoughtcrime.securesms.database.model.InAppPaymentReceiptRecord
-import org.thoughtcrime.securesms.util.livedata.Store
+import org.thoughtcrime.securesms.ryan.database.model.InAppPaymentReceiptRecord
+import org.thoughtcrime.securesms.ryan.util.livedata.Store
 
 class DonationReceiptDetailViewModel(id: Long, private val repository: DonationReceiptDetailRepository) : ViewModel() {
 

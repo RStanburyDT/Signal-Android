@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.settings.app.internal.svr
+package org.thoughtcrime.securesms.ryan.components.settings.app.internal.svr
 
 import androidx.compose.runtime.MutableState
 import androidx.compose.runtime.State
@@ -15,9 +15,9 @@ import io.reactivex.rxjava3.disposables.CompositeDisposable
 import io.reactivex.rxjava3.kotlin.plusAssign
 import io.reactivex.rxjava3.schedulers.Schedulers
 import kotlinx.collections.immutable.persistentListOf
-import org.thoughtcrime.securesms.BuildConfig
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.keyvalue.SignalStore
+import org.thoughtcrime.securesms.ryan.BuildConfig
+import org.thoughtcrime.securesms.ryan.dependencies.AppDependencies
+import org.thoughtcrime.securesms.ryan.keyvalue.SignalStore
 import org.whispersystems.signalservice.api.svr.SecureValueRecovery
 
 class InternalSvrPlaygroundViewModel : ViewModel() {

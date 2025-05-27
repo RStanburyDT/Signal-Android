@@ -1,16 +1,16 @@
-package org.thoughtcrime.securesms
+package org.thoughtcrime.securesms.ryan
 
 import org.signal.core.util.concurrent.SignalExecutors
 import org.signal.core.util.logging.AndroidLogger
 import org.signal.core.util.logging.Log
 import org.signal.libsignal.protocol.logging.SignalProtocolLoggerProvider
-import org.thoughtcrime.securesms.database.LogDatabase
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.dependencies.ApplicationDependencyProvider
-import org.thoughtcrime.securesms.dependencies.InstrumentationApplicationDependencyProvider
-import org.thoughtcrime.securesms.logging.CustomSignalProtocolLogger
-import org.thoughtcrime.securesms.logging.PersistentLogger
-import org.thoughtcrime.securesms.testing.InMemoryLogger
+import org.thoughtcrime.securesms.ryan.database.LogDatabase
+import org.thoughtcrime.securesms.ryan.dependencies.AppDependencies
+import org.thoughtcrime.securesms.ryan.dependencies.ApplicationDependencyProvider
+import org.thoughtcrime.securesms.ryan.dependencies.InstrumentationApplicationDependencyProvider
+import org.thoughtcrime.securesms.ryan.logging.CustomSignalProtocolLogger
+import org.thoughtcrime.securesms.ryan.logging.PersistentLogger
+import org.thoughtcrime.securesms.ryan.testing.InMemoryLogger
 
 /**
  * Application context for running instrumentation tests (aka androidTests).

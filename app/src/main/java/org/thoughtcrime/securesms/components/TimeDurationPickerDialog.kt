@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components
+package org.thoughtcrime.securesms.ryan.components
 
 import android.app.Dialog
 import android.os.Bundle
@@ -6,8 +6,8 @@ import androidx.core.os.bundleOf
 import androidx.fragment.app.DialogFragment
 import androidx.fragment.app.setFragmentResult
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.databinding.TimeDurationPickerDialogBinding
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.databinding.TimeDurationPickerDialogBinding
 import kotlin.time.Duration
 import kotlin.time.Duration.Companion.hours
 import kotlin.time.Duration.Companion.milliseconds

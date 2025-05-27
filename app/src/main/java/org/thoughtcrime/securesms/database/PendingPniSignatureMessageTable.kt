@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.database
+package org.thoughtcrime.securesms.ryan.database
 
 import android.content.Context
 import androidx.core.content.contentValuesOf
@@ -8,8 +8,8 @@ import org.signal.core.util.exists
 import org.signal.core.util.logging.Log
 import org.signal.core.util.update
 import org.signal.core.util.withinTransaction
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.util.LRUCache
+import org.thoughtcrime.securesms.ryan.recipients.RecipientId
+import org.thoughtcrime.securesms.ryan.util.LRUCache
 import org.whispersystems.signalservice.api.messages.SendMessageResult
 import java.util.concurrent.locks.ReentrantReadWriteLock
 import kotlin.concurrent.withLock

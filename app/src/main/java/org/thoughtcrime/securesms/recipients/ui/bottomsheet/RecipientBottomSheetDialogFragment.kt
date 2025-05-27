@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.recipients.ui.bottomsheet
+package org.thoughtcrime.securesms.ryan.recipients.ui.bottomsheet
 
 import android.animation.Animator
 import android.animation.AnimatorListenerAdapter
@@ -26,29 +26,29 @@ import com.google.android.material.snackbar.Snackbar
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.avatar.view.AvatarView
-import org.thoughtcrime.securesms.badges.BadgeImageView
-import org.thoughtcrime.securesms.badges.view.ViewBadgeBottomSheetDialogFragment
-import org.thoughtcrime.securesms.calls.YouAreAlreadyInACallSnackbar
-import org.thoughtcrime.securesms.components.settings.DSLSettingsIcon
-import org.thoughtcrime.securesms.components.settings.conversation.preferences.ButtonStripPreference
-import org.thoughtcrime.securesms.conversation.v2.data.AvatarDownloadStateCache
-import org.thoughtcrime.securesms.fonts.SignalSymbols
-import org.thoughtcrime.securesms.groups.GroupId
-import org.thoughtcrime.securesms.nicknames.NicknameActivity
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientExporter
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.recipients.RecipientUtil
-import org.thoughtcrime.securesms.recipients.ui.about.AboutSheet
-import org.thoughtcrime.securesms.util.BottomSheetUtil
-import org.thoughtcrime.securesms.util.ContextUtil
-import org.thoughtcrime.securesms.util.SpanUtil
-import org.thoughtcrime.securesms.util.ThemeUtil
-import org.thoughtcrime.securesms.util.ViewUtil
-import org.thoughtcrime.securesms.util.WindowUtil
-import org.thoughtcrime.securesms.util.visible
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.avatar.view.AvatarView
+import org.thoughtcrime.securesms.ryan.badges.BadgeImageView
+import org.thoughtcrime.securesms.ryan.badges.view.ViewBadgeBottomSheetDialogFragment
+import org.thoughtcrime.securesms.ryan.calls.YouAreAlreadyInACallSnackbar
+import org.thoughtcrime.securesms.ryan.components.settings.DSLSettingsIcon
+import org.thoughtcrime.securesms.ryan.components.settings.conversation.preferences.ButtonStripPreference
+import org.thoughtcrime.securesms.ryan.conversation.v2.data.AvatarDownloadStateCache
+import org.thoughtcrime.securesms.ryan.fonts.SignalSymbols
+import org.thoughtcrime.securesms.ryan.groups.GroupId
+import org.thoughtcrime.securesms.ryan.nicknames.NicknameActivity
+import org.thoughtcrime.securesms.ryan.recipients.Recipient
+import org.thoughtcrime.securesms.ryan.recipients.RecipientExporter
+import org.thoughtcrime.securesms.ryan.recipients.RecipientId
+import org.thoughtcrime.securesms.ryan.recipients.RecipientUtil
+import org.thoughtcrime.securesms.ryan.recipients.ui.about.AboutSheet
+import org.thoughtcrime.securesms.ryan.util.BottomSheetUtil
+import org.thoughtcrime.securesms.ryan.util.ContextUtil
+import org.thoughtcrime.securesms.ryan.util.SpanUtil
+import org.thoughtcrime.securesms.ryan.util.ThemeUtil
+import org.thoughtcrime.securesms.ryan.util.ViewUtil
+import org.thoughtcrime.securesms.ryan.util.WindowUtil
+import org.thoughtcrime.securesms.ryan.util.visible
 
 /**
  * A bottom sheet that shows some simple recipient details, as well as some actions (like calling,

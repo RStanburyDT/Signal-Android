@@ -1,11 +1,11 @@
-package org.thoughtcrime.securesms.util;
+package org.thoughtcrime.securesms.ryan.util;
 
 import android.content.Context;
 
 import androidx.annotation.PluralsRes;
 import androidx.annotation.StringRes;
 
-import org.thoughtcrime.securesms.R;
+import org.thoughtcrime.securesms.ryan.R;
 
 import java.util.concurrent.TimeUnit;
 

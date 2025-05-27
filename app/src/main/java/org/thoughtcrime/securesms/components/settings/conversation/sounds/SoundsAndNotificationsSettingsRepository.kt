@@ -1,12 +1,12 @@
-package org.thoughtcrime.securesms.components.settings.conversation.sounds
+package org.thoughtcrime.securesms.ryan.components.settings.conversation.sounds
 
 import android.content.Context
 import org.signal.core.util.concurrent.SignalExecutors
-import org.thoughtcrime.securesms.database.RecipientTable
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.notifications.NotificationChannels
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientId
+import org.thoughtcrime.securesms.ryan.database.RecipientTable
+import org.thoughtcrime.securesms.ryan.database.SignalDatabase
+import org.thoughtcrime.securesms.ryan.notifications.NotificationChannels
+import org.thoughtcrime.securesms.ryan.recipients.Recipient
+import org.thoughtcrime.securesms.ryan.recipients.RecipientId
 
 class SoundsAndNotificationsSettingsRepository(private val context: Context) {
 

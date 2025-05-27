@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.mediasend.v2.gallery
+package org.thoughtcrime.securesms.ryan.mediasend.v2.gallery
 
 import android.animation.ValueAnimator
 import android.graphics.drawable.Drawable
@@ -16,18 +16,18 @@ import com.bumptech.glide.request.target.Target
 import com.google.android.material.imageview.ShapeableImageView
 import org.signal.core.util.DimensionUnit
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.mediasend.Media
-import org.thoughtcrime.securesms.mediasend.MediaFolder
-import org.thoughtcrime.securesms.mediasend.v2.review.MediaGalleryGridItemTouchListener
-import org.thoughtcrime.securesms.mms.DecryptableStreamUriLoader
-import org.thoughtcrime.securesms.mms.PartAuthority
-import org.thoughtcrime.securesms.util.MediaUtil
-import org.thoughtcrime.securesms.util.adapter.mapping.LayoutFactory
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingAdapter
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingModel
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingViewHolder
-import org.thoughtcrime.securesms.util.visible
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.mediasend.Media
+import org.thoughtcrime.securesms.ryan.mediasend.MediaFolder
+import org.thoughtcrime.securesms.ryan.mediasend.v2.review.MediaGalleryGridItemTouchListener
+import org.thoughtcrime.securesms.ryan.mms.DecryptableStreamUriLoader
+import org.thoughtcrime.securesms.ryan.mms.PartAuthority
+import org.thoughtcrime.securesms.ryan.util.MediaUtil
+import org.thoughtcrime.securesms.ryan.util.adapter.mapping.LayoutFactory
+import org.thoughtcrime.securesms.ryan.util.adapter.mapping.MappingAdapter
+import org.thoughtcrime.securesms.ryan.util.adapter.mapping.MappingModel
+import org.thoughtcrime.securesms.ryan.util.adapter.mapping.MappingViewHolder
+import org.thoughtcrime.securesms.ryan.util.visible
 import java.util.concurrent.TimeUnit
 
 typealias OnMediaFolderClicked = (MediaFolder) -> Unit

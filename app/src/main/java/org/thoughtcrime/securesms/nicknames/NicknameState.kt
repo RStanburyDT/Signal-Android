@@ -3,9 +3,9 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.nicknames
+package org.thoughtcrime.securesms.ryan.nicknames
 
-import org.thoughtcrime.securesms.recipients.Recipient
+import org.thoughtcrime.securesms.ryan.recipients.Recipient
 
 data class NicknameState(
   val recipient: Recipient? = null,

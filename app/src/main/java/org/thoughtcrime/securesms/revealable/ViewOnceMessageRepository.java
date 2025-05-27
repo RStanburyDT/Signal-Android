@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.revealable;
+package org.thoughtcrime.securesms.ryan.revealable;
 
 import android.content.Context;
 
@@ -6,13 +6,13 @@ import androidx.annotation.NonNull;
 
 import org.signal.core.util.concurrent.SignalExecutors;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.database.MessageTable;
-import org.thoughtcrime.securesms.database.NoSuchMessageException;
-import org.thoughtcrime.securesms.database.SignalDatabase;
-import org.thoughtcrime.securesms.database.model.MmsMessageRecord;
-import org.thoughtcrime.securesms.dependencies.AppDependencies;
-import org.thoughtcrime.securesms.jobs.MultiDeviceViewedUpdateJob;
-import org.thoughtcrime.securesms.jobs.SendViewedReceiptJob;
+import org.thoughtcrime.securesms.ryan.database.MessageTable;
+import org.thoughtcrime.securesms.ryan.database.NoSuchMessageException;
+import org.thoughtcrime.securesms.ryan.database.SignalDatabase;
+import org.thoughtcrime.securesms.ryan.database.model.MmsMessageRecord;
+import org.thoughtcrime.securesms.ryan.dependencies.AppDependencies;
+import org.thoughtcrime.securesms.ryan.jobs.MultiDeviceViewedUpdateJob;
+import org.thoughtcrime.securesms.ryan.jobs.SendViewedReceiptJob;
 
 import java.util.Collections;
 import java.util.Optional;

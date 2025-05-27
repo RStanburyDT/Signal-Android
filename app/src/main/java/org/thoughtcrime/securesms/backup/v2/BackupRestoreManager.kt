@@ -3,16 +3,16 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.backup.v2
+package org.thoughtcrime.securesms.ryan.backup.v2
 
 import org.signal.core.util.concurrent.SignalExecutors
-import org.thoughtcrime.securesms.attachments.AttachmentId
-import org.thoughtcrime.securesms.attachments.DatabaseAttachment
-import org.thoughtcrime.securesms.database.AttachmentTable
-import org.thoughtcrime.securesms.database.model.MessageRecord
-import org.thoughtcrime.securesms.database.model.MmsMessageRecord
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.jobs.RestoreAttachmentThumbnailJob
+import org.thoughtcrime.securesms.ryan.attachments.AttachmentId
+import org.thoughtcrime.securesms.ryan.attachments.DatabaseAttachment
+import org.thoughtcrime.securesms.ryan.database.AttachmentTable
+import org.thoughtcrime.securesms.ryan.database.model.MessageRecord
+import org.thoughtcrime.securesms.ryan.database.model.MmsMessageRecord
+import org.thoughtcrime.securesms.ryan.dependencies.AppDependencies
+import org.thoughtcrime.securesms.ryan.jobs.RestoreAttachmentThumbnailJob
 
 /**
  * Responsible for managing logic around restore prioritization

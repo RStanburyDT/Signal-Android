@@ -1,8 +1,8 @@
-package org.thoughtcrime.securesms.components.settings.app.subscription.donate
+package org.thoughtcrime.securesms.ryan.components.settings.app.subscription.donate
 
 import androidx.lifecycle.ViewModel
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.database.InAppPaymentTable
+import org.thoughtcrime.securesms.ryan.database.InAppPaymentTable
 import org.whispersystems.signalservice.api.util.Preconditions
 
 /**

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.mms;
+package org.thoughtcrime.securesms.ryan.mms;
 
 import androidx.annotation.NonNull;
 

@@ -1,11 +1,11 @@
-package org.thoughtcrime.securesms.migrations
+package org.thoughtcrime.securesms.ryan.migrations
 
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.jobmanager.Job
-import org.thoughtcrime.securesms.jobmanager.JsonJobData
-import org.thoughtcrime.securesms.jobmanager.persistence.JobSpec
-import org.thoughtcrime.securesms.keyvalue.SignalStore
+import org.thoughtcrime.securesms.ryan.dependencies.AppDependencies
+import org.thoughtcrime.securesms.ryan.jobmanager.Job
+import org.thoughtcrime.securesms.ryan.jobmanager.JsonJobData
+import org.thoughtcrime.securesms.ryan.jobmanager.persistence.JobSpec
+import org.thoughtcrime.securesms.ryan.keyvalue.SignalStore
 
 /**
  * Updates the data in queued jobs to reflect the new ids SMS messages get assigned during the table merge migration.

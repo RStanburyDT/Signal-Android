@@ -1,11 +1,11 @@
-package org.thoughtcrime.securesms.invites
+package org.thoughtcrime.securesms.ryan.invites
 
 import android.content.Context
 import android.content.Intent
 import android.widget.Toast
 import androidx.annotation.MainThread
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.util.CommunicationActions
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.util.CommunicationActions
 
 /**
  * Handles 'invite to signal' actions.

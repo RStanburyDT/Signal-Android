@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.messagedetails;
+package org.thoughtcrime.securesms.ryan.messagedetails;
 
 import android.view.View;
 import android.widget.TextView;
@@ -6,17 +6,17 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.badges.BadgeImageView;
-import org.thoughtcrime.securesms.components.AvatarImageView;
-import org.thoughtcrime.securesms.components.FromTextView;
-import org.thoughtcrime.securesms.components.transfercontrols.TransferControlView;
-import org.thoughtcrime.securesms.database.AttachmentTable;
-import org.thoughtcrime.securesms.database.model.MessageRecord;
-import org.thoughtcrime.securesms.database.model.MmsMessageRecord;
-import org.thoughtcrime.securesms.mms.Slide;
-import org.thoughtcrime.securesms.util.DateUtils;
-import org.thoughtcrime.securesms.util.TextSecurePreferences;
+import org.thoughtcrime.securesms.ryan.R;
+import org.thoughtcrime.securesms.ryan.badges.BadgeImageView;
+import org.thoughtcrime.securesms.ryan.components.AvatarImageView;
+import org.thoughtcrime.securesms.ryan.components.FromTextView;
+import org.thoughtcrime.securesms.ryan.components.transfercontrols.TransferControlView;
+import org.thoughtcrime.securesms.ryan.database.AttachmentTable;
+import org.thoughtcrime.securesms.ryan.database.model.MessageRecord;
+import org.thoughtcrime.securesms.ryan.database.model.MmsMessageRecord;
+import org.thoughtcrime.securesms.ryan.mms.Slide;
+import org.thoughtcrime.securesms.ryan.util.DateUtils;
+import org.thoughtcrime.securesms.ryan.util.TextSecurePreferences;
 
 import java.util.List;
 import java.util.Locale;

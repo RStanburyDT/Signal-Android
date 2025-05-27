@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.megaphone;
+package org.thoughtcrime.securesms.ryan.megaphone;
 
 import android.content.Intent;
 import android.graphics.drawable.Drawable;
@@ -11,7 +11,7 @@ import androidx.annotation.StringRes;
 
 import com.bumptech.glide.RequestBuilder;
 
-import org.thoughtcrime.securesms.megaphone.Megaphones.Event;
+import org.thoughtcrime.securesms.ryan.megaphone.Megaphones.Event;
 
 /**
  * For guidance on creating megaphones, see {@link Megaphones}.

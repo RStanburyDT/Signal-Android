@@ -1,6 +1,6 @@
-package org.thoughtcrime.securesms.megaphone;
+package org.thoughtcrime.securesms.ryan.megaphone;
 
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
+import org.thoughtcrime.securesms.ryan.keyvalue.SignalStore;
 
 final class SignalPinReminderSchedule implements MegaphoneSchedule {
 

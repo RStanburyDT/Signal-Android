@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.registrationv3.ui.shared
+package org.thoughtcrime.securesms.ryan.registrationv3.ui.shared
 
 import android.content.Intent
 import android.widget.Toast
@@ -37,8 +37,8 @@ import androidx.compose.ui.unit.dp
 import org.signal.core.ui.compose.Previews
 import org.signal.core.ui.compose.SignalPreview
 import org.signal.core.ui.compose.horizontalGutters
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.logsubmit.SubmitDebugLogActivity
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.logsubmit.SubmitDebugLogActivity
 
 private const val TAP_TARGET = 8
 

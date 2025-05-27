@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.migrations;
+package org.thoughtcrime.securesms.ryan.migrations;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -6,14 +6,14 @@ import androidx.annotation.Nullable;
 import org.signal.core.util.logging.Log;
 import org.signal.libsignal.protocol.state.PreKeyRecord;
 import org.signal.libsignal.protocol.state.SignedPreKeyRecord;
-import org.thoughtcrime.securesms.crypto.PreKeyUtil;
-import org.thoughtcrime.securesms.crypto.storage.PreKeyMetadataStore;
-import org.thoughtcrime.securesms.dependencies.AppDependencies;
-import org.thoughtcrime.securesms.jobmanager.Job;
-import org.thoughtcrime.securesms.jobmanager.impl.NetworkConstraint;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
-import org.thoughtcrime.securesms.net.SignalNetwork;
-import org.thoughtcrime.securesms.recipients.Recipient;
+import org.thoughtcrime.securesms.ryan.crypto.PreKeyUtil;
+import org.thoughtcrime.securesms.ryan.crypto.storage.PreKeyMetadataStore;
+import org.thoughtcrime.securesms.ryan.dependencies.AppDependencies;
+import org.thoughtcrime.securesms.ryan.jobmanager.Job;
+import org.thoughtcrime.securesms.ryan.jobmanager.impl.NetworkConstraint;
+import org.thoughtcrime.securesms.ryan.keyvalue.SignalStore;
+import org.thoughtcrime.securesms.ryan.net.SignalNetwork;
+import org.thoughtcrime.securesms.ryan.recipients.Recipient;
 import org.whispersystems.signalservice.api.NetworkResultUtil;
 import org.whispersystems.signalservice.api.SignalServiceAccountDataStore;
 import org.whispersystems.signalservice.api.account.PreKeyUpload;

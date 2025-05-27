@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.stories.viewer.reply.direct
+package org.thoughtcrime.securesms.ryan.stories.viewer.reply.direct
 
 import android.content.DialogInterface
 import android.os.Bundle
@@ -11,21 +11,21 @@ import androidx.fragment.app.viewModels
 import io.reactivex.rxjava3.android.schedulers.AndroidSchedulers
 import org.signal.core.util.concurrent.LifecycleDisposable
 import org.signal.core.util.getParcelableCompat
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.KeyboardEntryDialogFragment
-import org.thoughtcrime.securesms.components.emoji.EmojiEventListener
-import org.thoughtcrime.securesms.components.emoji.MediaKeyboard
-import org.thoughtcrime.securesms.keyboard.KeyboardPage
-import org.thoughtcrime.securesms.keyboard.KeyboardPagerViewModel
-import org.thoughtcrime.securesms.keyboard.emoji.EmojiKeyboardPageFragment
-import org.thoughtcrime.securesms.keyboard.emoji.search.EmojiSearchFragment
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.reactions.any.ReactWithAnyEmojiBottomSheetDialogFragment
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.stories.viewer.page.StoryViewerPageViewModel
-import org.thoughtcrime.securesms.stories.viewer.reply.composer.StoryReplyComposer
-import org.thoughtcrime.securesms.util.Dialogs
-import org.thoughtcrime.securesms.util.ViewUtil
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.components.KeyboardEntryDialogFragment
+import org.thoughtcrime.securesms.ryan.components.emoji.EmojiEventListener
+import org.thoughtcrime.securesms.ryan.components.emoji.MediaKeyboard
+import org.thoughtcrime.securesms.ryan.keyboard.KeyboardPage
+import org.thoughtcrime.securesms.ryan.keyboard.KeyboardPagerViewModel
+import org.thoughtcrime.securesms.ryan.keyboard.emoji.EmojiKeyboardPageFragment
+import org.thoughtcrime.securesms.ryan.keyboard.emoji.search.EmojiSearchFragment
+import org.thoughtcrime.securesms.ryan.keyvalue.SignalStore
+import org.thoughtcrime.securesms.ryan.reactions.any.ReactWithAnyEmojiBottomSheetDialogFragment
+import org.thoughtcrime.securesms.ryan.recipients.RecipientId
+import org.thoughtcrime.securesms.ryan.stories.viewer.page.StoryViewerPageViewModel
+import org.thoughtcrime.securesms.ryan.stories.viewer.reply.composer.StoryReplyComposer
+import org.thoughtcrime.securesms.ryan.util.Dialogs
+import org.thoughtcrime.securesms.ryan.util.ViewUtil
 
 /**
  * Dialog displayed when the user decides to send a private reply to a story.

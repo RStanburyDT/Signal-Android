@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.providers
+package org.thoughtcrime.securesms.ryan.providers
 
 import android.app.Application
 import android.content.ContentUris
@@ -17,25 +17,25 @@ import android.os.ParcelFileDescriptor
 import org.signal.core.util.concurrent.SignalExecutors
 import org.signal.core.util.logging.AndroidLogger
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.ApplicationContext
-import org.thoughtcrime.securesms.BuildConfig
-import org.thoughtcrime.securesms.crypto.AttachmentSecretProvider
-import org.thoughtcrime.securesms.crypto.DatabaseSecretProvider
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.database.SqlCipherLibraryLoader
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.dependencies.ApplicationDependencyProvider
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.logging.PersistentLogger
-import org.thoughtcrime.securesms.profiles.AvatarHelper
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientCreator
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.service.KeyCachingService
-import org.thoughtcrime.securesms.util.AdaptiveBitmapMetrics
-import org.thoughtcrime.securesms.util.AvatarUtil
-import org.thoughtcrime.securesms.util.MediaUtil
-import org.thoughtcrime.securesms.util.RemoteConfig
+import org.thoughtcrime.securesms.ryan.ApplicationContext
+import org.thoughtcrime.securesms.ryan.BuildConfig
+import org.thoughtcrime.securesms.ryan.crypto.AttachmentSecretProvider
+import org.thoughtcrime.securesms.ryan.crypto.DatabaseSecretProvider
+import org.thoughtcrime.securesms.ryan.database.SignalDatabase
+import org.thoughtcrime.securesms.ryan.database.SqlCipherLibraryLoader
+import org.thoughtcrime.securesms.ryan.dependencies.AppDependencies
+import org.thoughtcrime.securesms.ryan.dependencies.ApplicationDependencyProvider
+import org.thoughtcrime.securesms.ryan.keyvalue.SignalStore
+import org.thoughtcrime.securesms.ryan.logging.PersistentLogger
+import org.thoughtcrime.securesms.ryan.profiles.AvatarHelper
+import org.thoughtcrime.securesms.ryan.recipients.Recipient
+import org.thoughtcrime.securesms.ryan.recipients.RecipientCreator
+import org.thoughtcrime.securesms.ryan.recipients.RecipientId
+import org.thoughtcrime.securesms.ryan.service.KeyCachingService
+import org.thoughtcrime.securesms.ryan.util.AdaptiveBitmapMetrics
+import org.thoughtcrime.securesms.ryan.util.AvatarUtil
+import org.thoughtcrime.securesms.ryan.util.MediaUtil
+import org.thoughtcrime.securesms.ryan.util.RemoteConfig
 import java.io.File
 import java.io.FileNotFoundException
 import java.io.IOException

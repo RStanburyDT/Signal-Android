@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.calls.log
+package org.thoughtcrime.securesms.ryan.calls.log
 
 import android.annotation.SuppressLint
 import android.content.res.Resources
@@ -23,6 +23,39 @@ import org.signal.core.util.DimensionUnit
 import org.signal.core.util.concurrent.LifecycleDisposable
 import org.signal.core.util.concurrent.addTo
 import org.signal.core.util.logging.Log
+<<<<<<< HEAD
+import org.thoughtcrime.securesms.ryan.MainNavigator
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.calls.links.details.CallLinkDetailsActivity
+import org.thoughtcrime.securesms.ryan.components.ProgressCardDialogFragment
+import org.thoughtcrime.securesms.ryan.components.ScrollToPositionDelegate
+import org.thoughtcrime.securesms.ryan.components.ViewBinderDelegate
+import org.thoughtcrime.securesms.ryan.components.menu.ActionItem
+import org.thoughtcrime.securesms.ryan.components.settings.conversation.ConversationSettingsActivity
+import org.thoughtcrime.securesms.ryan.conversation.ConversationUpdateTick
+import org.thoughtcrime.securesms.ryan.conversation.SignalBottomActionBarController
+import org.thoughtcrime.securesms.ryan.conversation.v2.ConversationDialogs
+import org.thoughtcrime.securesms.ryan.conversationlist.ConversationFilterBehavior
+import org.thoughtcrime.securesms.ryan.conversationlist.chatfilter.ConversationFilterSource
+import org.thoughtcrime.securesms.ryan.conversationlist.chatfilter.ConversationListFilterPullView.OnCloseClicked
+import org.thoughtcrime.securesms.ryan.conversationlist.chatfilter.ConversationListFilterPullView.OnFilterStateChanged
+import org.thoughtcrime.securesms.ryan.conversationlist.chatfilter.FilterLerp
+import org.thoughtcrime.securesms.ryan.conversationlist.chatfilter.FilterPullState
+import org.thoughtcrime.securesms.ryan.databinding.CallLogFragmentBinding
+import org.thoughtcrime.securesms.ryan.dependencies.AppDependencies
+import org.thoughtcrime.securesms.ryan.main.MainNavigationListLocation
+import org.thoughtcrime.securesms.ryan.main.MainNavigationViewModel
+import org.thoughtcrime.securesms.ryan.main.MainToolbarMode
+import org.thoughtcrime.securesms.ryan.main.MainToolbarViewModel
+import org.thoughtcrime.securesms.ryan.main.Material3OnScrollHelperBinder
+import org.thoughtcrime.securesms.ryan.main.SnackbarState
+import org.thoughtcrime.securesms.ryan.recipients.Recipient
+import org.thoughtcrime.securesms.ryan.util.CommunicationActions
+import org.thoughtcrime.securesms.ryan.util.ViewUtil
+import org.thoughtcrime.securesms.ryan.util.doAfterNextLayout
+import org.thoughtcrime.securesms.ryan.util.fragments.requireListener
+import org.thoughtcrime.securesms.ryan.util.visible
+=======
 import org.thoughtcrime.securesms.MainNavigator
 import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.calls.links.create.CreateCallLinkBottomSheetDialogFragment
@@ -57,6 +90,7 @@ import org.thoughtcrime.securesms.util.doAfterNextLayout
 import org.thoughtcrime.securesms.util.fragments.requireListener
 import org.thoughtcrime.securesms.util.visible
 import org.thoughtcrime.securesms.window.WindowSizeClass.Companion.getWindowSizeClass
+>>>>>>> 23669c3c372284d42db486a218d9f29bef247abf
 import java.util.Objects
 
 /**

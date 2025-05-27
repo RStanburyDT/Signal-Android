@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.util
+package org.thoughtcrime.securesms.ryan.util
 
 import android.os.Bundle
 import android.view.ContextThemeWrapper

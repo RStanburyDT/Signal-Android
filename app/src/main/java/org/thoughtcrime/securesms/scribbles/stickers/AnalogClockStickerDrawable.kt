@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.scribbles.stickers
+package org.thoughtcrime.securesms.ryan.scribbles.stickers
 
 import android.content.Context
 import android.graphics.Canvas
@@ -9,8 +9,8 @@ import android.graphics.drawable.Animatable
 import android.graphics.drawable.Drawable
 import android.os.SystemClock
 import androidx.appcompat.content.res.AppCompatResources
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.util.toLocalDateTime
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.util.toLocalDateTime
 import java.time.LocalDateTime
 import kotlin.math.min
 import kotlin.math.roundToInt

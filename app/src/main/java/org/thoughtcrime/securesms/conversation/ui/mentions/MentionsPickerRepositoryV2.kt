@@ -1,11 +1,11 @@
-package org.thoughtcrime.securesms.conversation.ui.mentions
+package org.thoughtcrime.securesms.ryan.conversation.ui.mentions
 
 import io.reactivex.rxjava3.core.Single
 import io.reactivex.rxjava3.schedulers.Schedulers
-import org.thoughtcrime.securesms.database.RecipientTable
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientId
+import org.thoughtcrime.securesms.ryan.database.RecipientTable
+import org.thoughtcrime.securesms.ryan.database.SignalDatabase
+import org.thoughtcrime.securesms.ryan.recipients.Recipient
+import org.thoughtcrime.securesms.ryan.recipients.RecipientId
 
 /**
  * Search for members that match the query for rendering in the mentions picker during message compose.

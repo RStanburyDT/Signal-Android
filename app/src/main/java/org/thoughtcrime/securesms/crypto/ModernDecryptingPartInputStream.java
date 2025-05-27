@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.crypto;
+package org.thoughtcrime.securesms.ryan.crypto;
 
 
 import androidx.annotation.NonNull;

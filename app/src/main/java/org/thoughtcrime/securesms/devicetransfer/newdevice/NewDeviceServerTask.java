@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.devicetransfer.newdevice;
+package org.thoughtcrime.securesms.ryan.devicetransfer.newdevice;
 
 import android.content.Context;
 
@@ -11,14 +11,14 @@ import org.greenrobot.eventbus.Subscribe;
 import org.greenrobot.eventbus.ThreadMode;
 import org.signal.core.util.logging.Log;
 import org.signal.devicetransfer.ServerTask;
-import org.thoughtcrime.securesms.AppInitialization;
-import org.thoughtcrime.securesms.backup.BackupEvent;
-import org.thoughtcrime.securesms.backup.BackupPassphrase;
-import org.thoughtcrime.securesms.backup.FullBackupImporter;
-import org.thoughtcrime.securesms.crypto.AttachmentSecretProvider;
-import org.thoughtcrime.securesms.database.SignalDatabase;
-import org.thoughtcrime.securesms.jobmanager.impl.DataRestoreConstraint;
-import org.thoughtcrime.securesms.notifications.NotificationChannels;
+import org.thoughtcrime.securesms.ryan.AppInitialization;
+import org.thoughtcrime.securesms.ryan.backup.BackupEvent;
+import org.thoughtcrime.securesms.ryan.backup.BackupPassphrase;
+import org.thoughtcrime.securesms.ryan.backup.FullBackupImporter;
+import org.thoughtcrime.securesms.ryan.crypto.AttachmentSecretProvider;
+import org.thoughtcrime.securesms.ryan.database.SignalDatabase;
+import org.thoughtcrime.securesms.ryan.jobmanager.impl.DataRestoreConstraint;
+import org.thoughtcrime.securesms.ryan.notifications.NotificationChannels;
 
 import java.io.IOException;
 import java.io.InputStream;

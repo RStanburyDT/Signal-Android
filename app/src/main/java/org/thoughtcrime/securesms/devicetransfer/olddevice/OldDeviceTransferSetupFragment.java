@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.devicetransfer.olddevice;
+package org.thoughtcrime.securesms.ryan.devicetransfer.olddevice;
 
 import android.app.PendingIntent;
 import android.content.Intent;
@@ -12,15 +12,15 @@ import androidx.navigation.fragment.NavHostFragment;
 
 import org.signal.core.util.PendingIntentFlags;
 import org.signal.devicetransfer.DeviceToDeviceTransferService;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.components.settings.app.AppSettingsActivity;
-import org.thoughtcrime.securesms.dependencies.AppDependencies;
-import org.thoughtcrime.securesms.devicetransfer.DeviceTransferSetupFragment;
-import org.thoughtcrime.securesms.devicetransfer.SetupStep;
-import org.thoughtcrime.securesms.jobs.LocalBackupJob;
-import org.thoughtcrime.securesms.notifications.NotificationChannels;
-import org.thoughtcrime.securesms.notifications.NotificationIds;
-import org.thoughtcrime.securesms.util.navigation.SafeNavigation;
+import org.thoughtcrime.securesms.ryan.R;
+import org.thoughtcrime.securesms.ryan.components.settings.app.AppSettingsActivity;
+import org.thoughtcrime.securesms.ryan.dependencies.AppDependencies;
+import org.thoughtcrime.securesms.ryan.devicetransfer.DeviceTransferSetupFragment;
+import org.thoughtcrime.securesms.ryan.devicetransfer.SetupStep;
+import org.thoughtcrime.securesms.ryan.jobs.LocalBackupJob;
+import org.thoughtcrime.securesms.ryan.notifications.NotificationChannels;
+import org.thoughtcrime.securesms.ryan.notifications.NotificationIds;
+import org.thoughtcrime.securesms.ryan.util.navigation.SafeNavigation;
 
 /**
  * Most responsibility is in {@link DeviceTransferSetupFragment} and delegates here

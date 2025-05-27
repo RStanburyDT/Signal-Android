@@ -1,20 +1,20 @@
-package org.thoughtcrime.securesms.mms
+package org.thoughtcrime.securesms.ryan.mms
 
-import org.thoughtcrime.securesms.attachments.Attachment
-import org.thoughtcrime.securesms.contactshare.Contact
-import org.thoughtcrime.securesms.database.ThreadTable
-import org.thoughtcrime.securesms.database.documents.IdentityKeyMismatch
-import org.thoughtcrime.securesms.database.documents.NetworkFailure
-import org.thoughtcrime.securesms.database.model.Mention
-import org.thoughtcrime.securesms.database.model.ParentStoryId
-import org.thoughtcrime.securesms.database.model.StoryType
-import org.thoughtcrime.securesms.database.model.databaseprotos.BodyRangeList
-import org.thoughtcrime.securesms.database.model.databaseprotos.GV2UpdateDescription
-import org.thoughtcrime.securesms.database.model.databaseprotos.GiftBadge
-import org.thoughtcrime.securesms.database.model.databaseprotos.MessageExtras
-import org.thoughtcrime.securesms.linkpreview.LinkPreview
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.sms.GroupV2UpdateMessageUtil
+import org.thoughtcrime.securesms.ryan.attachments.Attachment
+import org.thoughtcrime.securesms.ryan.contactshare.Contact
+import org.thoughtcrime.securesms.ryan.database.ThreadTable
+import org.thoughtcrime.securesms.ryan.database.documents.IdentityKeyMismatch
+import org.thoughtcrime.securesms.ryan.database.documents.NetworkFailure
+import org.thoughtcrime.securesms.ryan.database.model.Mention
+import org.thoughtcrime.securesms.ryan.database.model.ParentStoryId
+import org.thoughtcrime.securesms.ryan.database.model.StoryType
+import org.thoughtcrime.securesms.ryan.database.model.databaseprotos.BodyRangeList
+import org.thoughtcrime.securesms.ryan.database.model.databaseprotos.GV2UpdateDescription
+import org.thoughtcrime.securesms.ryan.database.model.databaseprotos.GiftBadge
+import org.thoughtcrime.securesms.ryan.database.model.databaseprotos.MessageExtras
+import org.thoughtcrime.securesms.ryan.linkpreview.LinkPreview
+import org.thoughtcrime.securesms.ryan.recipients.Recipient
+import org.thoughtcrime.securesms.ryan.sms.GroupV2UpdateMessageUtil
 import kotlin.time.Duration.Companion.seconds
 
 /**

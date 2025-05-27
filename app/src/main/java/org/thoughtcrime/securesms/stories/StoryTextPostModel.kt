@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.stories
+package org.thoughtcrime.securesms.ryan.stories
 
 import android.graphics.Bitmap
 import android.graphics.Color
@@ -19,20 +19,20 @@ import com.bumptech.glide.load.resource.SimpleResource
 import org.signal.core.util.Base64
 import org.signal.core.util.concurrent.safeBlockingGet
 import org.signal.core.util.readParcelableCompat
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.conversation.colors.ChatColors
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.database.model.MessageRecord
-import org.thoughtcrime.securesms.database.model.MmsMessageRecord
-import org.thoughtcrime.securesms.database.model.databaseprotos.BodyRangeList
-import org.thoughtcrime.securesms.database.model.databaseprotos.StoryTextPost
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.fonts.TextFont
-import org.thoughtcrime.securesms.fonts.TextToScript
-import org.thoughtcrime.securesms.fonts.TypefaceCache
-import org.thoughtcrime.securesms.mms.DecryptableStreamUriLoader
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.util.ParcelUtil
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.conversation.colors.ChatColors
+import org.thoughtcrime.securesms.ryan.database.SignalDatabase
+import org.thoughtcrime.securesms.ryan.database.model.MessageRecord
+import org.thoughtcrime.securesms.ryan.database.model.MmsMessageRecord
+import org.thoughtcrime.securesms.ryan.database.model.databaseprotos.BodyRangeList
+import org.thoughtcrime.securesms.ryan.database.model.databaseprotos.StoryTextPost
+import org.thoughtcrime.securesms.ryan.dependencies.AppDependencies
+import org.thoughtcrime.securesms.ryan.fonts.TextFont
+import org.thoughtcrime.securesms.ryan.fonts.TextToScript
+import org.thoughtcrime.securesms.ryan.fonts.TypefaceCache
+import org.thoughtcrime.securesms.ryan.mms.DecryptableStreamUriLoader
+import org.thoughtcrime.securesms.ryan.recipients.RecipientId
+import org.thoughtcrime.securesms.ryan.util.ParcelUtil
 import java.io.IOException
 import java.security.MessageDigest
 

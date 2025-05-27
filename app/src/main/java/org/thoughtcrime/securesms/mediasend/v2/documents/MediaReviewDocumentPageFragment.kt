@@ -1,15 +1,15 @@
-package org.thoughtcrime.securesms.mediasend.v2.documents
+package org.thoughtcrime.securesms.ryan.mediasend.v2.documents
 
 import android.os.Bundle
 import android.view.View
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import org.signal.core.util.getParcelableCompat
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.mediasend.Media
-import org.thoughtcrime.securesms.mediasend.MediaSendDocumentFragment
-import org.thoughtcrime.securesms.mediasend.v2.HudCommand
-import org.thoughtcrime.securesms.mediasend.v2.MediaSelectionViewModel
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.mediasend.Media
+import org.thoughtcrime.securesms.ryan.mediasend.MediaSendDocumentFragment
+import org.thoughtcrime.securesms.ryan.mediasend.v2.HudCommand
+import org.thoughtcrime.securesms.ryan.mediasend.v2.MediaSelectionViewModel
 
 private const val DOCUMENT_TAG = "media.send.document.fragment"
 

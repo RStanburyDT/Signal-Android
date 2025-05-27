@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.pin;
+package org.thoughtcrime.securesms.ryan.pin;
 
 import android.content.Context;
 
@@ -10,8 +10,8 @@ import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 
 import org.signal.core.util.concurrent.SimpleTask;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.util.views.SimpleProgressDialog;
+import org.thoughtcrime.securesms.ryan.R;
+import org.thoughtcrime.securesms.ryan.util.views.SimpleProgressDialog;
 
 public final class PinOptOutDialog {
 

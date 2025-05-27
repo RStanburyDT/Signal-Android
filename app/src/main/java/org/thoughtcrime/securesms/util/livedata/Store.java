@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.util.livedata;
+package org.thoughtcrime.securesms.ryan.util.livedata;
 
 import androidx.annotation.AnyThread;
 import androidx.annotation.MainThread;
@@ -10,7 +10,7 @@ import androidx.lifecycle.MediatorLiveData;
 import com.annimon.stream.function.Function;
 
 import org.signal.core.util.concurrent.SignalExecutors;
-import org.thoughtcrime.securesms.util.concurrent.SerialExecutor;
+import org.thoughtcrime.securesms.ryan.util.concurrent.SerialExecutor;
 
 import java.util.HashSet;
 import java.util.Set;

@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.jobs
+package org.thoughtcrime.securesms.ryan.jobs
 
 import android.app.Application
 import androidx.test.ext.junit.runners.AndroidJUnit4
@@ -12,13 +12,13 @@ import org.junit.Test
 import org.junit.runner.RunWith
 import org.signal.core.util.EventTimer
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.database.JobDatabase.Companion.getInstance
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.jobmanager.Job
-import org.thoughtcrime.securesms.jobmanager.JobManager
-import org.thoughtcrime.securesms.jobmanager.JobMigrator
-import org.thoughtcrime.securesms.jobmanager.JobTracker
-import org.thoughtcrime.securesms.util.TextSecurePreferences
+import org.thoughtcrime.securesms.ryan.database.JobDatabase.Companion.getInstance
+import org.thoughtcrime.securesms.ryan.dependencies.AppDependencies
+import org.thoughtcrime.securesms.ryan.jobmanager.Job
+import org.thoughtcrime.securesms.ryan.jobmanager.JobManager
+import org.thoughtcrime.securesms.ryan.jobmanager.JobMigrator
+import org.thoughtcrime.securesms.ryan.jobmanager.JobTracker
+import org.thoughtcrime.securesms.ryan.util.TextSecurePreferences
 import java.util.concurrent.CountDownLatch
 import kotlin.random.Random
 

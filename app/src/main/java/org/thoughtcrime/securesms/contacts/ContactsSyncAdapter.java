@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.contacts;
+package org.thoughtcrime.securesms.ryan.contacts;
 
 import android.accounts.Account;
 import android.content.AbstractThreadedSyncAdapter;
@@ -11,14 +11,14 @@ import com.annimon.stream.Stream;
 
 import org.signal.contacts.SystemContactsRepository;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.contacts.sync.ContactDiscovery;
-import org.thoughtcrime.securesms.database.SignalDatabase;
-import org.thoughtcrime.securesms.dependencies.AppDependencies;
-import org.thoughtcrime.securesms.jobs.DirectoryRefreshJob;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
-import org.thoughtcrime.securesms.recipients.Recipient;
+import org.thoughtcrime.securesms.ryan.contacts.sync.ContactDiscovery;
+import org.thoughtcrime.securesms.ryan.database.SignalDatabase;
+import org.thoughtcrime.securesms.ryan.dependencies.AppDependencies;
+import org.thoughtcrime.securesms.ryan.jobs.DirectoryRefreshJob;
+import org.thoughtcrime.securesms.ryan.keyvalue.SignalStore;
+import org.thoughtcrime.securesms.ryan.recipients.Recipient;
 import org.signal.core.util.SetUtil;
-import org.thoughtcrime.securesms.util.SignalE164Util;
+import org.thoughtcrime.securesms.ryan.util.SignalE164Util;
 
 import java.io.IOException;
 import java.util.List;

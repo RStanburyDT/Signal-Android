@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.registrationv3.ui.restore
+package org.thoughtcrime.securesms.ryan.registrationv3.ui.restore
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
@@ -27,7 +27,7 @@ import androidx.compose.ui.unit.dp
 import org.signal.core.ui.compose.Previews
 import org.signal.core.ui.compose.SignalPreview
 import org.signal.core.ui.compose.theme.SignalTheme
-import org.thoughtcrime.securesms.R
+import org.thoughtcrime.securesms.ryan.R
 
 /**
  * Renders row-ux used commonly through the restore flows.

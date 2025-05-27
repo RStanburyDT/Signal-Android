@@ -1,12 +1,12 @@
-package org.thoughtcrime.securesms.migrations;
+package org.thoughtcrime.securesms.ryan.migrations;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.contacts.sync.ContactDiscovery;
-import org.thoughtcrime.securesms.jobmanager.Job;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
+import org.thoughtcrime.securesms.ryan.contacts.sync.ContactDiscovery;
+import org.thoughtcrime.securesms.ryan.jobmanager.Job;
+import org.thoughtcrime.securesms.ryan.keyvalue.SignalStore;
 
 import java.io.IOException;
 

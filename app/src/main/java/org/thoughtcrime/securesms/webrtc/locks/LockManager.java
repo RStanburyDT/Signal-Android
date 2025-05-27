@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.webrtc.locks;
+package org.thoughtcrime.securesms.ryan.webrtc.locks;
 
 import android.content.Context;
 import android.net.wifi.WifiManager;
@@ -8,7 +8,7 @@ import android.provider.Settings;
 import androidx.annotation.NonNull;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.components.sensors.Orientation;
+import org.thoughtcrime.securesms.ryan.components.sensors.Orientation;
 
 /**
  * Maintains wake lock state.

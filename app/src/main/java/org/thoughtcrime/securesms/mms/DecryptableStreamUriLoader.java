@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.mms;
+package org.thoughtcrime.securesms.ryan.mms;
 
 import android.content.Context;
 import android.net.Uri;
@@ -12,7 +12,7 @@ import com.bumptech.glide.load.model.ModelLoader;
 import com.bumptech.glide.load.model.ModelLoaderFactory;
 import com.bumptech.glide.load.model.MultiModelLoaderFactory;
 
-import org.thoughtcrime.securesms.mms.DecryptableStreamUriLoader.DecryptableUri;
+import org.thoughtcrime.securesms.ryan.mms.DecryptableStreamUriLoader.DecryptableUri;
 
 import java.io.InputStream;
 import java.security.MessageDigest;

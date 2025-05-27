@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.settings.app.subscription
+package org.thoughtcrime.securesms.ryan.components.settings.app.subscription
 
 import androidx.annotation.WorkerThread
 import io.reactivex.rxjava3.core.Single
@@ -10,17 +10,17 @@ import org.signal.donations.PaymentSourceType
 import org.signal.donations.StripeApi
 import org.signal.donations.StripeIntentAccessor
 import org.signal.donations.json.StripeIntentStatus
-import org.thoughtcrime.securesms.components.settings.app.subscription.InAppPaymentsRepository.requireSubscriberType
-import org.thoughtcrime.securesms.components.settings.app.subscription.InAppPaymentsRepository.toPaymentMethodType
-import org.thoughtcrime.securesms.components.settings.app.subscription.errors.DonationError
-import org.thoughtcrime.securesms.components.settings.app.subscription.errors.DonationError.OneTimeDonationError
-import org.thoughtcrime.securesms.components.settings.app.subscription.errors.DonationErrorSource
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.database.model.InAppPaymentSubscriberRecord
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.util.Environment
+import org.thoughtcrime.securesms.ryan.components.settings.app.subscription.InAppPaymentsRepository.requireSubscriberType
+import org.thoughtcrime.securesms.ryan.components.settings.app.subscription.InAppPaymentsRepository.toPaymentMethodType
+import org.thoughtcrime.securesms.ryan.components.settings.app.subscription.errors.DonationError
+import org.thoughtcrime.securesms.ryan.components.settings.app.subscription.errors.DonationError.OneTimeDonationError
+import org.thoughtcrime.securesms.ryan.components.settings.app.subscription.errors.DonationErrorSource
+import org.thoughtcrime.securesms.ryan.database.SignalDatabase
+import org.thoughtcrime.securesms.ryan.database.model.InAppPaymentSubscriberRecord
+import org.thoughtcrime.securesms.ryan.dependencies.AppDependencies
+import org.thoughtcrime.securesms.ryan.recipients.Recipient
+import org.thoughtcrime.securesms.ryan.recipients.RecipientId
+import org.thoughtcrime.securesms.ryan.util.Environment
 import org.whispersystems.signalservice.api.subscriptions.StripeClientSecret
 
 /**

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.keyvalue;
+package org.thoughtcrime.securesms.ryan.keyvalue;
 
 import android.content.Context;
 import android.net.Uri;
@@ -10,13 +10,13 @@ import androidx.annotation.Nullable;
 import androidx.lifecycle.LiveData;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.dependencies.AppDependencies;
-import org.thoughtcrime.securesms.mms.SentMediaQuality;
-import org.thoughtcrime.securesms.preferences.widgets.NotificationPrivacyPreference;
-import org.thoughtcrime.securesms.util.SingleLiveEvent;
-import org.thoughtcrime.securesms.util.TextSecurePreferences;
-import org.thoughtcrime.securesms.webrtc.CallDataMode;
+import org.thoughtcrime.securesms.ryan.R;
+import org.thoughtcrime.securesms.ryan.dependencies.AppDependencies;
+import org.thoughtcrime.securesms.ryan.mms.SentMediaQuality;
+import org.thoughtcrime.securesms.ryan.preferences.widgets.NotificationPrivacyPreference;
+import org.thoughtcrime.securesms.ryan.util.SingleLiveEvent;
+import org.thoughtcrime.securesms.ryan.util.TextSecurePreferences;
+import org.thoughtcrime.securesms.ryan.webrtc.CallDataMode;
 
 import java.util.Arrays;
 import java.util.List;

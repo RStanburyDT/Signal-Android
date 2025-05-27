@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.settings.app.subscription.receipts
+package org.thoughtcrime.securesms.ryan.components.settings.app.subscription.receipts
 
 import android.content.ActivityNotFoundException
 import android.content.Context
@@ -22,11 +22,11 @@ import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.database.model.InAppPaymentReceiptRecord
-import org.thoughtcrime.securesms.payments.FiatMoneyUtil
-import org.thoughtcrime.securesms.providers.BlobProvider
-import org.thoughtcrime.securesms.util.DateUtils
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.database.model.InAppPaymentReceiptRecord
+import org.thoughtcrime.securesms.ryan.payments.FiatMoneyUtil
+import org.thoughtcrime.securesms.ryan.providers.BlobProvider
+import org.thoughtcrime.securesms.ryan.util.DateUtils
 import java.io.ByteArrayOutputStream
 import java.util.Locale
 

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.ratelimit;
+package org.thoughtcrime.securesms.ryan.ratelimit;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -16,15 +16,15 @@ import androidx.annotation.Nullable;
 
 import org.signal.core.util.concurrent.SimpleTask;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.BuildConfig;
-import org.thoughtcrime.securesms.PassphraseRequiredActivity;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
-import org.thoughtcrime.securesms.net.SignalNetwork;
-import org.thoughtcrime.securesms.util.DynamicTheme;
-import org.thoughtcrime.securesms.util.ExceptionHelper;
-import org.thoughtcrime.securesms.util.Util;
-import org.thoughtcrime.securesms.util.views.SimpleProgressDialog;
+import org.thoughtcrime.securesms.ryan.BuildConfig;
+import org.thoughtcrime.securesms.ryan.PassphraseRequiredActivity;
+import org.thoughtcrime.securesms.ryan.R;
+import org.thoughtcrime.securesms.ryan.keyvalue.SignalStore;
+import org.thoughtcrime.securesms.ryan.net.SignalNetwork;
+import org.thoughtcrime.securesms.ryan.util.DynamicTheme;
+import org.thoughtcrime.securesms.ryan.util.ExceptionHelper;
+import org.thoughtcrime.securesms.ryan.util.Util;
+import org.thoughtcrime.securesms.ryan.util.views.SimpleProgressDialog;
 import org.whispersystems.signalservice.api.NetworkResultUtil;
 
 import java.io.IOException;

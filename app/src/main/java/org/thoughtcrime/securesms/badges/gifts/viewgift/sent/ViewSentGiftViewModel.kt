@@ -1,15 +1,15 @@
-package org.thoughtcrime.securesms.badges.gifts.viewgift.sent
+package org.thoughtcrime.securesms.ryan.badges.gifts.viewgift.sent
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import io.reactivex.rxjava3.core.Flowable
 import io.reactivex.rxjava3.disposables.CompositeDisposable
 import io.reactivex.rxjava3.kotlin.plusAssign
-import org.thoughtcrime.securesms.badges.gifts.viewgift.ViewGiftRepository
-import org.thoughtcrime.securesms.database.model.databaseprotos.GiftBadge
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.util.rx.RxStore
+import org.thoughtcrime.securesms.ryan.badges.gifts.viewgift.ViewGiftRepository
+import org.thoughtcrime.securesms.ryan.database.model.databaseprotos.GiftBadge
+import org.thoughtcrime.securesms.ryan.recipients.Recipient
+import org.thoughtcrime.securesms.ryan.recipients.RecipientId
+import org.thoughtcrime.securesms.ryan.util.rx.RxStore
 
 class ViewSentGiftViewModel(
   sentFrom: RecipientId,

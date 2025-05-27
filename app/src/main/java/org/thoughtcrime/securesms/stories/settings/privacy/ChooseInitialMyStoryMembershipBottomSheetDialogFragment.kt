@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.stories.settings.privacy
+package org.thoughtcrime.securesms.ryan.stories.settings.privacy
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -10,16 +10,16 @@ import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.viewModels
 import com.google.android.material.radiobutton.MaterialRadioButton
 import org.signal.core.util.concurrent.LifecycleDisposable
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.FixedRoundedCornerBottomSheetDialogFragment
-import org.thoughtcrime.securesms.components.WrapperDialogFragment
-import org.thoughtcrime.securesms.database.model.DistributionListPrivacyMode
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.stories.settings.connections.ViewAllSignalConnectionsFragment
-import org.thoughtcrime.securesms.stories.settings.select.BaseStoryRecipientSelectionFragment
-import org.thoughtcrime.securesms.util.BottomSheetUtil
-import org.thoughtcrime.securesms.util.fragments.findListener
-import org.thoughtcrime.securesms.util.visible
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.components.FixedRoundedCornerBottomSheetDialogFragment
+import org.thoughtcrime.securesms.ryan.components.WrapperDialogFragment
+import org.thoughtcrime.securesms.ryan.database.model.DistributionListPrivacyMode
+import org.thoughtcrime.securesms.ryan.recipients.RecipientId
+import org.thoughtcrime.securesms.ryan.stories.settings.connections.ViewAllSignalConnectionsFragment
+import org.thoughtcrime.securesms.ryan.stories.settings.select.BaseStoryRecipientSelectionFragment
+import org.thoughtcrime.securesms.ryan.util.BottomSheetUtil
+import org.thoughtcrime.securesms.ryan.util.fragments.findListener
+import org.thoughtcrime.securesms.ryan.util.visible
 
 /**
  * Choose the initial settings for My Story when first sending to My Story.

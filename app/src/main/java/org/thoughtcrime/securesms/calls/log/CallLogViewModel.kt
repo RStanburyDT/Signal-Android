@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.calls.log
+package org.thoughtcrime.securesms.ryan.calls.log
 
 import android.annotation.SuppressLint
 import androidx.annotation.MainThread
@@ -13,7 +13,7 @@ import org.signal.paging.ObservablePagedData
 import org.signal.paging.PagedData
 import org.signal.paging.PagingConfig
 import org.signal.paging.ProxyPagingController
-import org.thoughtcrime.securesms.util.rx.RxStore
+import org.thoughtcrime.securesms.ryan.util.rx.RxStore
 
 /**
  * ViewModel for call log management.

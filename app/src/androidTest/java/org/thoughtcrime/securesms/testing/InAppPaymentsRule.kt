@@ -3,13 +3,13 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.testing
+package org.thoughtcrime.securesms.ryan.testing
 
 import androidx.test.platform.app.InstrumentationRegistry
 import io.mockk.every
 import org.junit.rules.ExternalResource
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.util.JsonUtils
+import org.thoughtcrime.securesms.ryan.dependencies.AppDependencies
+import org.thoughtcrime.securesms.ryan.util.JsonUtils
 import org.whispersystems.signalservice.api.NetworkResult
 import org.whispersystems.signalservice.internal.push.SubscriptionsConfiguration
 

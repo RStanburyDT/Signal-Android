@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.thoughtcrime.securesms.mediaoverview;
+package org.thoughtcrime.securesms.ryan.mediaoverview;
 
 import android.content.Context;
 import android.net.Uri;
@@ -37,23 +37,23 @@ import com.codewaves.stickyheadergrid.StickyHeaderGridAdapter;
 
 import org.signal.core.util.ByteSize;
 import org.signal.libsignal.protocol.util.Pair;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.attachments.AttachmentId;
-import org.thoughtcrime.securesms.components.AudioView;
-import org.thoughtcrime.securesms.components.ThumbnailView;
-import org.thoughtcrime.securesms.components.voice.VoiceNotePlaybackState;
-import org.thoughtcrime.securesms.database.MediaTable;
-import org.thoughtcrime.securesms.database.MediaTable.MediaRecord;
-import org.thoughtcrime.securesms.database.loaders.GroupedThreadMediaLoader.GroupedThreadMedia;
-import org.thoughtcrime.securesms.mediapreview.MediaPreviewCache;
-import org.thoughtcrime.securesms.mms.AudioSlide;
-import org.thoughtcrime.securesms.mms.Slide;
-import org.thoughtcrime.securesms.recipients.LiveRecipient;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.util.DateUtils;
-import org.thoughtcrime.securesms.util.MediaUtil;
-import org.thoughtcrime.securesms.util.Util;
-import org.thoughtcrime.securesms.util.livedata.LiveDataPair;
+import org.thoughtcrime.securesms.ryan.R;
+import org.thoughtcrime.securesms.ryan.attachments.AttachmentId;
+import org.thoughtcrime.securesms.ryan.components.AudioView;
+import org.thoughtcrime.securesms.ryan.components.ThumbnailView;
+import org.thoughtcrime.securesms.ryan.components.voice.VoiceNotePlaybackState;
+import org.thoughtcrime.securesms.ryan.database.MediaTable;
+import org.thoughtcrime.securesms.ryan.database.MediaTable.MediaRecord;
+import org.thoughtcrime.securesms.ryan.database.loaders.GroupedThreadMediaLoader.GroupedThreadMedia;
+import org.thoughtcrime.securesms.ryan.mediapreview.MediaPreviewCache;
+import org.thoughtcrime.securesms.ryan.mms.AudioSlide;
+import org.thoughtcrime.securesms.ryan.mms.Slide;
+import org.thoughtcrime.securesms.ryan.recipients.LiveRecipient;
+import org.thoughtcrime.securesms.ryan.recipients.Recipient;
+import org.thoughtcrime.securesms.ryan.util.DateUtils;
+import org.thoughtcrime.securesms.ryan.util.MediaUtil;
+import org.thoughtcrime.securesms.ryan.util.Util;
+import org.thoughtcrime.securesms.ryan.util.livedata.LiveDataPair;
 
 import java.util.Collection;
 import java.util.HashMap;

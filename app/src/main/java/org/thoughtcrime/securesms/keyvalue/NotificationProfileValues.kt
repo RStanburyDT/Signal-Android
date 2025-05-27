@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.keyvalue
+package org.thoughtcrime.securesms.ryan.keyvalue
 
 /**
  * Values for managing enable/disable state and corresponding alerts for Notification Profiles.

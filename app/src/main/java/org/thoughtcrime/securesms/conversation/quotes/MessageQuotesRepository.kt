@@ -1,21 +1,21 @@
-package org.thoughtcrime.securesms.conversation.quotes
+package org.thoughtcrime.securesms.ryan.conversation.quotes
 
 import android.app.Application
 import androidx.annotation.WorkerThread
 import io.reactivex.rxjava3.core.Observable
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.conversation.ConversationMessage
-import org.thoughtcrime.securesms.conversation.ConversationMessage.ConversationMessageFactory
-import org.thoughtcrime.securesms.conversation.v2.data.AttachmentHelper
-import org.thoughtcrime.securesms.conversation.v2.data.ReactionHelper
-import org.thoughtcrime.securesms.database.DatabaseObserver
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.database.model.MessageId
-import org.thoughtcrime.securesms.database.model.MessageRecord
-import org.thoughtcrime.securesms.database.model.MmsMessageRecord
-import org.thoughtcrime.securesms.database.model.Quote
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.util.getQuote
+import org.thoughtcrime.securesms.ryan.conversation.ConversationMessage
+import org.thoughtcrime.securesms.ryan.conversation.ConversationMessage.ConversationMessageFactory
+import org.thoughtcrime.securesms.ryan.conversation.v2.data.AttachmentHelper
+import org.thoughtcrime.securesms.ryan.conversation.v2.data.ReactionHelper
+import org.thoughtcrime.securesms.ryan.database.DatabaseObserver
+import org.thoughtcrime.securesms.ryan.database.SignalDatabase
+import org.thoughtcrime.securesms.ryan.database.model.MessageId
+import org.thoughtcrime.securesms.ryan.database.model.MessageRecord
+import org.thoughtcrime.securesms.ryan.database.model.MmsMessageRecord
+import org.thoughtcrime.securesms.ryan.database.model.Quote
+import org.thoughtcrime.securesms.ryan.dependencies.AppDependencies
+import org.thoughtcrime.securesms.ryan.util.getQuote
 
 class MessageQuotesRepository {
 

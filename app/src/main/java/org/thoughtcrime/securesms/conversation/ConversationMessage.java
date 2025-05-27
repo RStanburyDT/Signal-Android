@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.conversation;
+package org.thoughtcrime.securesms.ryan.conversation;
 
 import android.content.Context;
 import android.text.SpannableString;
@@ -9,21 +9,21 @@ import androidx.annotation.WorkerThread;
 
 import org.signal.core.util.Conversions;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.components.mention.MentionAnnotation;
-import org.thoughtcrime.securesms.conversation.mutiselect.Multiselect;
-import org.thoughtcrime.securesms.conversation.mutiselect.MultiselectCollection;
-import org.thoughtcrime.securesms.conversation.v2.computed.FormattedDate;
-import org.thoughtcrime.securesms.database.BodyRangeUtil;
-import org.thoughtcrime.securesms.database.MentionUtil;
-import org.thoughtcrime.securesms.database.NoSuchMessageException;
-import org.thoughtcrime.securesms.database.SignalDatabase;
-import org.thoughtcrime.securesms.database.model.MmsMessageRecord;
-import org.thoughtcrime.securesms.database.model.Mention;
-import org.thoughtcrime.securesms.database.model.MessageRecord;
-import org.thoughtcrime.securesms.database.model.databaseprotos.BodyRangeList;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.util.DateUtils;
-import org.thoughtcrime.securesms.util.MessageRecordUtil;
+import org.thoughtcrime.securesms.ryan.components.mention.MentionAnnotation;
+import org.thoughtcrime.securesms.ryan.conversation.mutiselect.Multiselect;
+import org.thoughtcrime.securesms.ryan.conversation.mutiselect.MultiselectCollection;
+import org.thoughtcrime.securesms.ryan.conversation.v2.computed.FormattedDate;
+import org.thoughtcrime.securesms.ryan.database.BodyRangeUtil;
+import org.thoughtcrime.securesms.ryan.database.MentionUtil;
+import org.thoughtcrime.securesms.ryan.database.NoSuchMessageException;
+import org.thoughtcrime.securesms.ryan.database.SignalDatabase;
+import org.thoughtcrime.securesms.ryan.database.model.MmsMessageRecord;
+import org.thoughtcrime.securesms.ryan.database.model.Mention;
+import org.thoughtcrime.securesms.ryan.database.model.MessageRecord;
+import org.thoughtcrime.securesms.ryan.database.model.databaseprotos.BodyRangeList;
+import org.thoughtcrime.securesms.ryan.recipients.Recipient;
+import org.thoughtcrime.securesms.ryan.util.DateUtils;
+import org.thoughtcrime.securesms.ryan.util.MessageRecordUtil;
 
 import java.security.MessageDigest;
 import java.util.Collections;

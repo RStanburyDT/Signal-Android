@@ -1,16 +1,16 @@
-package org.thoughtcrime.securesms.emoji
+package org.thoughtcrime.securesms.ryan.emoji
 
 import android.net.Uri
 import androidx.annotation.VisibleForTesting
 import androidx.annotation.WorkerThread
-import org.thoughtcrime.securesms.components.emoji.Emoji
-import org.thoughtcrime.securesms.components.emoji.EmojiPageModel
-import org.thoughtcrime.securesms.components.emoji.StaticEmojiPageModel
-import org.thoughtcrime.securesms.components.emoji.parsing.EmojiDrawInfo
-import org.thoughtcrime.securesms.components.emoji.parsing.EmojiTree
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.util.ScreenDensity
+import org.thoughtcrime.securesms.ryan.components.emoji.Emoji
+import org.thoughtcrime.securesms.ryan.components.emoji.EmojiPageModel
+import org.thoughtcrime.securesms.ryan.components.emoji.StaticEmojiPageModel
+import org.thoughtcrime.securesms.ryan.components.emoji.parsing.EmojiDrawInfo
+import org.thoughtcrime.securesms.ryan.components.emoji.parsing.EmojiTree
+import org.thoughtcrime.securesms.ryan.dependencies.AppDependencies
+import org.thoughtcrime.securesms.ryan.keyvalue.SignalStore
+import org.thoughtcrime.securesms.ryan.util.ScreenDensity
 import java.io.InputStream
 import java.util.concurrent.CountDownLatch
 import java.util.concurrent.atomic.AtomicReference

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.database.helpers;
+package org.thoughtcrime.securesms.ryan.database.helpers;
 
 
 import android.content.ContentValues;
@@ -16,18 +16,18 @@ import net.zetetic.database.sqlcipher.SQLiteDatabase;
 
 import org.signal.core.util.logging.Log;
 import org.signal.libsignal.protocol.InvalidMessageException;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.crypto.AsymmetricMasterCipher;
-import org.thoughtcrime.securesms.crypto.AttachmentSecretProvider;
-import org.thoughtcrime.securesms.crypto.MasterCipher;
-import org.thoughtcrime.securesms.crypto.MasterSecret;
-import org.thoughtcrime.securesms.crypto.MasterSecretUtil;
-import org.thoughtcrime.securesms.jobs.UnableToStartException;
-import org.thoughtcrime.securesms.migrations.LegacyMigrationJob;
-import org.thoughtcrime.securesms.service.GenericForegroundService;
-import org.thoughtcrime.securesms.service.NotificationController;
+import org.thoughtcrime.securesms.ryan.R;
+import org.thoughtcrime.securesms.ryan.crypto.AsymmetricMasterCipher;
+import org.thoughtcrime.securesms.ryan.crypto.AttachmentSecretProvider;
+import org.thoughtcrime.securesms.ryan.crypto.MasterCipher;
+import org.thoughtcrime.securesms.ryan.crypto.MasterSecret;
+import org.thoughtcrime.securesms.ryan.crypto.MasterSecretUtil;
+import org.thoughtcrime.securesms.ryan.jobs.UnableToStartException;
+import org.thoughtcrime.securesms.ryan.migrations.LegacyMigrationJob;
+import org.thoughtcrime.securesms.ryan.service.GenericForegroundService;
+import org.thoughtcrime.securesms.ryan.service.NotificationController;
 import org.signal.core.util.Base64;
-import org.thoughtcrime.securesms.util.TextSecurePreferences;
+import org.thoughtcrime.securesms.ryan.util.TextSecurePreferences;
 
 import java.io.IOException;
 import java.util.HashSet;

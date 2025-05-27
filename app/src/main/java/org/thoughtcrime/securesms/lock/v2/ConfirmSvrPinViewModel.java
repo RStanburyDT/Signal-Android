@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.lock.v2;
+package org.thoughtcrime.securesms.ryan.lock.v2;
 
 import androidx.annotation.MainThread;
 import androidx.annotation.NonNull;
@@ -7,8 +7,8 @@ import androidx.lifecycle.Transformations;
 import androidx.lifecycle.ViewModel;
 import androidx.lifecycle.ViewModelProvider;
 
-import org.thoughtcrime.securesms.pin.SvrRepository;
-import org.thoughtcrime.securesms.util.DefaultValueLiveData;
+import org.thoughtcrime.securesms.ryan.pin.SvrRepository;
+import org.thoughtcrime.securesms.ryan.util.DefaultValueLiveData;
 import org.whispersystems.signalservice.api.svr.SecureValueRecovery;
 
 import io.reactivex.rxjava3.android.schedulers.AndroidSchedulers;

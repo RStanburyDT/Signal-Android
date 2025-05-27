@@ -3,12 +3,12 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.service
+package org.thoughtcrime.securesms.ryan.service
 
 import org.junit.Assert.assertEquals
 import org.junit.Assert.assertTrue
 import org.junit.Test
-import org.thoughtcrime.securesms.testutil.MockRandom
+import org.thoughtcrime.securesms.ryan.testutil.MockRandom
 import java.time.Duration
 import java.time.LocalDateTime
 import java.util.concurrent.TimeUnit

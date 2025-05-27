@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.contacts.paged
+package org.thoughtcrime.securesms.ryan.contacts.paged
 
 import android.content.Context
 import android.database.Cursor
@@ -6,22 +6,22 @@ import androidx.annotation.WorkerThread
 import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.runBlocking
 import org.signal.core.util.CursorUtil
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.contacts.ContactRepository
-import org.thoughtcrime.securesms.contacts.paged.collections.ContactSearchIterator
-import org.thoughtcrime.securesms.database.DistributionListTables
-import org.thoughtcrime.securesms.database.GroupTable
-import org.thoughtcrime.securesms.database.RecipientTable
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.database.ThreadTable
-import org.thoughtcrime.securesms.database.model.DistributionListPrivacyMode
-import org.thoughtcrime.securesms.database.model.GroupRecord
-import org.thoughtcrime.securesms.groups.GroupsInCommonRepository
-import org.thoughtcrime.securesms.groups.GroupsInCommonSummary
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.keyvalue.StorySend
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientId
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.contacts.ContactRepository
+import org.thoughtcrime.securesms.ryan.contacts.paged.collections.ContactSearchIterator
+import org.thoughtcrime.securesms.ryan.database.DistributionListTables
+import org.thoughtcrime.securesms.ryan.database.GroupTable
+import org.thoughtcrime.securesms.ryan.database.RecipientTable
+import org.thoughtcrime.securesms.ryan.database.SignalDatabase
+import org.thoughtcrime.securesms.ryan.database.ThreadTable
+import org.thoughtcrime.securesms.ryan.database.model.DistributionListPrivacyMode
+import org.thoughtcrime.securesms.ryan.database.model.GroupRecord
+import org.thoughtcrime.securesms.ryan.groups.GroupsInCommonRepository
+import org.thoughtcrime.securesms.ryan.groups.GroupsInCommonSummary
+import org.thoughtcrime.securesms.ryan.keyvalue.SignalStore
+import org.thoughtcrime.securesms.ryan.keyvalue.StorySend
+import org.thoughtcrime.securesms.ryan.recipients.Recipient
+import org.thoughtcrime.securesms.ryan.recipients.RecipientId
 
 /**
  * Database boundary interface which allows us to safely unit test the data source without

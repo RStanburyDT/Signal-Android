@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.recipients.ui.sharablegrouplink;
+package org.thoughtcrime.securesms.ryan.recipients.ui.sharablegrouplink;
 
 import android.content.Context;
 
@@ -7,15 +7,15 @@ import androidx.annotation.WorkerThread;
 
 import org.signal.core.util.concurrent.SignalExecutors;
 import org.signal.storageservice.protos.groups.AccessControl;
-import org.thoughtcrime.securesms.database.SignalDatabase;
-import org.thoughtcrime.securesms.groups.GroupChangeBusyException;
-import org.thoughtcrime.securesms.groups.GroupChangeFailedException;
-import org.thoughtcrime.securesms.groups.GroupId;
-import org.thoughtcrime.securesms.groups.GroupInsufficientRightsException;
-import org.thoughtcrime.securesms.groups.GroupManager;
-import org.thoughtcrime.securesms.groups.GroupNotAMemberException;
-import org.thoughtcrime.securesms.groups.ui.GroupChangeFailureReason;
-import org.thoughtcrime.securesms.util.AsynchronousCallback;
+import org.thoughtcrime.securesms.ryan.database.SignalDatabase;
+import org.thoughtcrime.securesms.ryan.groups.GroupChangeBusyException;
+import org.thoughtcrime.securesms.ryan.groups.GroupChangeFailedException;
+import org.thoughtcrime.securesms.ryan.groups.GroupId;
+import org.thoughtcrime.securesms.ryan.groups.GroupInsufficientRightsException;
+import org.thoughtcrime.securesms.ryan.groups.GroupManager;
+import org.thoughtcrime.securesms.ryan.groups.GroupNotAMemberException;
+import org.thoughtcrime.securesms.ryan.groups.ui.GroupChangeFailureReason;
+import org.thoughtcrime.securesms.ryan.util.AsynchronousCallback;
 
 import java.io.IOException;
 

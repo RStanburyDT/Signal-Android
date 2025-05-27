@@ -1,15 +1,15 @@
-package org.thoughtcrime.securesms.stories.viewer.info
+package org.thoughtcrime.securesms.ryan.stories.viewer.info
 
 import android.view.View
 import android.widget.TextView
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.AvatarImageView
-import org.thoughtcrime.securesms.messagedetails.RecipientDeliveryStatus
-import org.thoughtcrime.securesms.util.DateUtils
-import org.thoughtcrime.securesms.util.adapter.mapping.LayoutFactory
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingAdapter
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingModel
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingViewHolder
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.components.AvatarImageView
+import org.thoughtcrime.securesms.ryan.messagedetails.RecipientDeliveryStatus
+import org.thoughtcrime.securesms.ryan.util.DateUtils
+import org.thoughtcrime.securesms.ryan.util.adapter.mapping.LayoutFactory
+import org.thoughtcrime.securesms.ryan.util.adapter.mapping.MappingAdapter
+import org.thoughtcrime.securesms.ryan.util.adapter.mapping.MappingModel
+import org.thoughtcrime.securesms.ryan.util.adapter.mapping.MappingViewHolder
 import java.util.Locale
 
 /**

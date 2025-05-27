@@ -1,10 +1,10 @@
-package org.thoughtcrime.securesms.net;
+package org.thoughtcrime.securesms.ryan.net;
 
 import androidx.annotation.NonNull;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.dependencies.AppDependencies;
-import org.thoughtcrime.securesms.util.NetworkUtil;
+import org.thoughtcrime.securesms.ryan.dependencies.AppDependencies;
+import org.thoughtcrime.securesms.ryan.util.NetworkUtil;
 
 import java.net.InetAddress;
 import java.net.UnknownHostException;

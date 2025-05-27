@@ -1,11 +1,11 @@
-package org.thoughtcrime.securesms.keyboard.gif
+package org.thoughtcrime.securesms.ryan.keyboard.gif
 
 import android.view.View
 import android.widget.ImageView
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.util.adapter.mapping.LayoutFactory
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingAdapter
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingViewHolder
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.util.adapter.mapping.LayoutFactory
+import org.thoughtcrime.securesms.ryan.util.adapter.mapping.MappingAdapter
+import org.thoughtcrime.securesms.ryan.util.adapter.mapping.MappingViewHolder
 
 class GifQuickSearchAdapter(clickListener: (GifQuickSearchOption) -> Unit) : MappingAdapter() {
   init {

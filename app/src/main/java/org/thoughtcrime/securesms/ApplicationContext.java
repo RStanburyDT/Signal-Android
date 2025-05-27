@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.thoughtcrime.securesms;
+package org.thoughtcrime.securesms.ryan;
 
 import android.app.Application;
 import android.content.Context;
@@ -41,6 +41,79 @@ import org.signal.glide.SignalGlideCodecs;
 import org.signal.libsignal.net.ChatServiceException;
 import org.signal.libsignal.protocol.logging.SignalProtocolLoggerProvider;
 import org.signal.ringrtc.CallManager;
+<<<<<<< HEAD
+import org.thoughtcrime.securesms.ryan.apkupdate.ApkUpdateRefreshListener;
+import org.thoughtcrime.securesms.ryan.avatar.AvatarPickerStorage;
+import org.thoughtcrime.securesms.ryan.backup.v2.BackupRepository;
+import org.thoughtcrime.securesms.ryan.crypto.AttachmentSecretProvider;
+import org.thoughtcrime.securesms.ryan.crypto.DatabaseSecretProvider;
+import org.thoughtcrime.securesms.ryan.database.LogDatabase;
+import org.thoughtcrime.securesms.ryan.database.SignalDatabase;
+import org.thoughtcrime.securesms.ryan.database.SqlCipherLibraryLoader;
+import org.thoughtcrime.securesms.ryan.dependencies.AppDependencies;
+import org.thoughtcrime.securesms.ryan.dependencies.ApplicationDependencyProvider;
+import org.thoughtcrime.securesms.ryan.emoji.EmojiSource;
+import org.thoughtcrime.securesms.ryan.emoji.JumboEmoji;
+import org.thoughtcrime.securesms.ryan.gcm.FcmFetchManager;
+import org.thoughtcrime.securesms.ryan.jobs.AccountConsistencyWorkerJob;
+import org.thoughtcrime.securesms.ryan.jobs.BackupRefreshJob;
+import org.thoughtcrime.securesms.ryan.jobs.BackupSubscriptionCheckJob;
+import org.thoughtcrime.securesms.ryan.jobs.BuildExpirationConfirmationJob;
+import org.thoughtcrime.securesms.ryan.jobs.CheckServiceReachabilityJob;
+import org.thoughtcrime.securesms.ryan.jobs.DownloadLatestEmojiDataJob;
+import org.thoughtcrime.securesms.ryan.jobs.EmojiSearchIndexDownloadJob;
+import org.thoughtcrime.securesms.ryan.jobs.FcmRefreshJob;
+import org.thoughtcrime.securesms.ryan.jobs.FontDownloaderJob;
+import org.thoughtcrime.securesms.ryan.jobs.GroupRingCleanupJob;
+import org.thoughtcrime.securesms.ryan.jobs.GroupV2UpdateSelfProfileKeyJob;
+import org.thoughtcrime.securesms.ryan.jobs.InAppPaymentAuthCheckJob;
+import org.thoughtcrime.securesms.ryan.jobs.InAppPaymentKeepAliveJob;
+import org.thoughtcrime.securesms.ryan.jobs.LinkedDeviceInactiveCheckJob;
+import org.thoughtcrime.securesms.ryan.jobs.MultiDeviceContactUpdateJob;
+import org.thoughtcrime.securesms.ryan.jobs.PnpInitializeDevicesJob;
+import org.thoughtcrime.securesms.ryan.jobs.PreKeysSyncJob;
+import org.thoughtcrime.securesms.ryan.jobs.ProfileUploadJob;
+import org.thoughtcrime.securesms.ryan.jobs.RefreshSvrCredentialsJob;
+import org.thoughtcrime.securesms.ryan.jobs.RestoreOptimizedMediaJob;
+import org.thoughtcrime.securesms.ryan.jobs.RetrieveProfileJob;
+import org.thoughtcrime.securesms.ryan.jobs.RetrieveRemoteAnnouncementsJob;
+import org.thoughtcrime.securesms.ryan.jobs.StoryOnboardingDownloadJob;
+import org.thoughtcrime.securesms.ryan.keyvalue.KeepMessagesDuration;
+import org.thoughtcrime.securesms.ryan.keyvalue.SignalStore;
+import org.thoughtcrime.securesms.ryan.logging.CustomSignalProtocolLogger;
+import org.thoughtcrime.securesms.ryan.logging.PersistentLogger;
+import org.thoughtcrime.securesms.ryan.messageprocessingalarm.RoutineMessageFetchReceiver;
+import org.thoughtcrime.securesms.ryan.messages.GroupSendEndorsementInternalNotifier;
+import org.thoughtcrime.securesms.ryan.migrations.ApplicationMigrations;
+import org.thoughtcrime.securesms.ryan.mms.SignalGlideComponents;
+import org.thoughtcrime.securesms.ryan.mms.SignalGlideModule;
+import org.thoughtcrime.securesms.ryan.providers.BlobProvider;
+import org.thoughtcrime.securesms.ryan.ratelimit.RateLimitUtil;
+import org.thoughtcrime.securesms.ryan.recipients.Recipient;
+import org.thoughtcrime.securesms.ryan.registration.util.RegistrationUtil;
+import org.thoughtcrime.securesms.ryan.ringrtc.RingRtcLogger;
+import org.thoughtcrime.securesms.ryan.service.AnalyzeDatabaseAlarmListener;
+import org.thoughtcrime.securesms.ryan.service.DirectoryRefreshListener;
+import org.thoughtcrime.securesms.ryan.service.KeyCachingService;
+import org.thoughtcrime.securesms.ryan.service.LocalBackupListener;
+import org.thoughtcrime.securesms.ryan.service.MessageBackupListener;
+import org.thoughtcrime.securesms.ryan.service.RotateSenderCertificateListener;
+import org.thoughtcrime.securesms.ryan.service.RotateSignedPreKeyListener;
+import org.thoughtcrime.securesms.ryan.service.webrtc.ActiveCallManager;
+import org.thoughtcrime.securesms.ryan.service.webrtc.AndroidTelecomUtil;
+import org.thoughtcrime.securesms.ryan.storage.StorageSyncHelper;
+import org.thoughtcrime.securesms.ryan.util.AppForegroundObserver;
+import org.thoughtcrime.securesms.ryan.util.AppStartup;
+import org.thoughtcrime.securesms.ryan.util.ConversationUtil;
+import org.thoughtcrime.securesms.ryan.util.DynamicTheme;
+import org.thoughtcrime.securesms.ryan.util.RemoteConfig;
+import org.thoughtcrime.securesms.ryan.util.SignalLocalMetrics;
+import org.thoughtcrime.securesms.ryan.util.SignalUncaughtExceptionHandler;
+import org.thoughtcrime.securesms.ryan.util.TextSecurePreferences;
+import org.thoughtcrime.securesms.ryan.util.Util;
+import org.thoughtcrime.securesms.ryan.util.VersionTracker;
+import org.thoughtcrime.securesms.ryan.util.dynamiclanguage.DynamicLanguageContextWrapper;
+=======
 import org.thoughtcrime.securesms.apkupdate.ApkUpdateRefreshListener;
 import org.thoughtcrime.securesms.avatar.AvatarPickerStorage;
 import org.thoughtcrime.securesms.backup.v2.BackupRepository;
@@ -111,6 +184,7 @@ import org.thoughtcrime.securesms.util.TextSecurePreferences;
 import org.thoughtcrime.securesms.util.Util;
 import org.thoughtcrime.securesms.util.VersionTracker;
 import org.thoughtcrime.securesms.util.dynamiclanguage.DynamicLanguageContextWrapper;
+>>>>>>> 23669c3c372284d42db486a218d9f29bef247abf
 import org.whispersystems.signalservice.api.websocket.SignalWebSocket;
 
 import java.io.InterruptedIOException;

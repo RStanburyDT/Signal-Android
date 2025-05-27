@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components;
+package org.thoughtcrime.securesms.ryan.components;
 
 import android.Manifest;
 import android.content.Context;
@@ -22,10 +22,10 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.core.content.ContextCompat;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.audio.AudioRecordingHandler;
-import org.thoughtcrime.securesms.permissions.Permissions;
-import org.thoughtcrime.securesms.util.ViewUtil;
+import org.thoughtcrime.securesms.ryan.R;
+import org.thoughtcrime.securesms.ryan.audio.AudioRecordingHandler;
+import org.thoughtcrime.securesms.ryan.permissions.Permissions;
+import org.thoughtcrime.securesms.ryan.util.ViewUtil;
 
 public final class MicrophoneRecorderView extends FrameLayout implements View.OnTouchListener {
 

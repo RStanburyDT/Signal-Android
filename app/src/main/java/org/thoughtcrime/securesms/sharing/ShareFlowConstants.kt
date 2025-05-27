@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.sharing
+package org.thoughtcrime.securesms.ryan.sharing
 
 import androidx.recyclerview.widget.RecyclerView
 

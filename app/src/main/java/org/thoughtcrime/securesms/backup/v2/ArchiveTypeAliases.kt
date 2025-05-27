@@ -3,8 +3,8 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.backup.v2
+package org.thoughtcrime.securesms.ryan.backup.v2
 
-typealias ArchiveRecipient = org.thoughtcrime.securesms.backup.v2.proto.Recipient
-typealias ArchiveGroup = org.thoughtcrime.securesms.backup.v2.proto.Group
-typealias ArchiveCallLink = org.thoughtcrime.securesms.backup.v2.proto.CallLink
+typealias ArchiveRecipient = org.thoughtcrime.securesms.ryan.backup.v2.proto.Recipient
+typealias ArchiveGroup = org.thoughtcrime.securesms.ryan.backup.v2.proto.Group
+typealias ArchiveCallLink = org.thoughtcrime.securesms.ryan.backup.v2.proto.CallLink

@@ -1,13 +1,13 @@
-package org.thoughtcrime.securesms.testing
+package org.thoughtcrime.securesms.ryan.testing
 
 import android.database.Cursor
 import org.signal.core.util.Hex
 import org.signal.core.util.logging.Log
 import org.signal.core.util.readToList
 import org.signal.core.util.select
-import org.thoughtcrime.securesms.database.MessageTable
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.util.MessageTableTestUtils
+import org.thoughtcrime.securesms.ryan.database.MessageTable
+import org.thoughtcrime.securesms.ryan.database.SignalDatabase
+import org.thoughtcrime.securesms.ryan.util.MessageTableTestUtils
 import java.util.concurrent.CountDownLatch
 import java.util.concurrent.TimeUnit
 import java.util.concurrent.TimeoutException

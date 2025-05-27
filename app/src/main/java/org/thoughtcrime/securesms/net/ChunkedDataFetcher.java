@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.net;
+package org.thoughtcrime.securesms.ryan.net;
 
 import android.text.TextUtils;
 
@@ -10,7 +10,7 @@ import com.bumptech.glide.util.ContentLengthInputStream;
 import org.signal.core.util.concurrent.SignalExecutors;
 import org.signal.core.util.logging.Log;
 import org.signal.libsignal.protocol.util.Pair;
-import org.thoughtcrime.securesms.util.Util;
+import org.thoughtcrime.securesms.ryan.util.Util;
 
 import java.io.FilterInputStream;
 import java.io.IOException;

@@ -1,12 +1,12 @@
-package org.thoughtcrime.securesms.avatar.text
+package org.thoughtcrime.securesms.ryan.avatar.text
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.distinctUntilChanged
-import org.thoughtcrime.securesms.avatar.Avatar
-import org.thoughtcrime.securesms.avatar.Avatars
-import org.thoughtcrime.securesms.util.livedata.Store
+import org.thoughtcrime.securesms.ryan.avatar.Avatar
+import org.thoughtcrime.securesms.ryan.avatar.Avatars
+import org.thoughtcrime.securesms.ryan.util.livedata.Store
 
 class TextAvatarCreationViewModel(initialText: Avatar.Text) : ViewModel() {
 

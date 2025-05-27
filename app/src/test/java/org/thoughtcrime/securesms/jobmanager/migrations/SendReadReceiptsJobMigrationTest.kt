@@ -1,15 +1,15 @@
-package org.thoughtcrime.securesms.jobmanager.migrations
+package org.thoughtcrime.securesms.ryan.jobmanager.migrations
 
 import io.mockk.every
 import io.mockk.mockk
 import org.junit.Assert.assertEquals
 import org.junit.Assert.assertTrue
 import org.junit.Test
-import org.thoughtcrime.securesms.database.MessageTable
-import org.thoughtcrime.securesms.jobmanager.JobMigration.JobData
-import org.thoughtcrime.securesms.jobmanager.JsonJobData
-import org.thoughtcrime.securesms.jobs.SendReadReceiptJob
-import org.thoughtcrime.securesms.recipients.RecipientId
+import org.thoughtcrime.securesms.ryan.database.MessageTable
+import org.thoughtcrime.securesms.ryan.jobmanager.JobMigration.JobData
+import org.thoughtcrime.securesms.ryan.jobmanager.JsonJobData
+import org.thoughtcrime.securesms.ryan.jobs.SendReadReceiptJob
+import org.thoughtcrime.securesms.ryan.recipients.RecipientId
 
 class SendReadReceiptsJobMigrationTest {
   private val mockDatabase = mockk<MessageTable>()

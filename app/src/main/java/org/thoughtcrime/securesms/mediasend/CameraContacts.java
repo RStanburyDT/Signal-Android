@@ -1,8 +1,8 @@
-package org.thoughtcrime.securesms.mediasend;
+package org.thoughtcrime.securesms.ryan.mediasend;
 
 import androidx.annotation.NonNull;
 
-import org.thoughtcrime.securesms.recipients.Recipient;
+import org.thoughtcrime.securesms.ryan.recipients.Recipient;
 
 import java.util.List;
 

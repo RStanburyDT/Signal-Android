@@ -1,11 +1,11 @@
-package org.thoughtcrime.securesms.service;
+package org.thoughtcrime.securesms.ryan.service;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 
-import org.thoughtcrime.securesms.dependencies.AppDependencies;
-import org.thoughtcrime.securesms.jobs.MessageFetchJob;
+import org.thoughtcrime.securesms.ryan.dependencies.AppDependencies;
+import org.thoughtcrime.securesms.ryan.jobs.MessageFetchJob;
 
 public class BootReceiver extends BroadcastReceiver {
 

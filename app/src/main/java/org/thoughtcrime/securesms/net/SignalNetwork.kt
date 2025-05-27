@@ -3,9 +3,9 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.net
+package org.thoughtcrime.securesms.ryan.net
 
-import org.thoughtcrime.securesms.dependencies.AppDependencies
+import org.thoughtcrime.securesms.ryan.dependencies.AppDependencies
 import org.whispersystems.signalservice.api.account.AccountApi
 import org.whispersystems.signalservice.api.archive.ArchiveApi
 import org.whispersystems.signalservice.api.attachment.AttachmentApi
@@ -24,7 +24,7 @@ import org.whispersystems.signalservice.api.storage.StorageServiceApi
 import org.whispersystems.signalservice.api.username.UsernameApi
 
 /**
- * A convenient way to access network operations, similar to [org.thoughtcrime.securesms.database.SignalDatabase] and [org.thoughtcrime.securesms.keyvalue.SignalStore].
+ * A convenient way to access network operations, similar to [org.thoughtcrime.securesms.ryan.database.SignalDatabase] and [org.thoughtcrime.securesms.ryan.keyvalue.SignalStore].
  */
 object SignalNetwork {
   @JvmStatic

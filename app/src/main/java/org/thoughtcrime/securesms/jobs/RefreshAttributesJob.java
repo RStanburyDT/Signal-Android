@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.jobs;
+package org.thoughtcrime.securesms.ryan.jobs;
 
 import android.text.TextUtils;
 
@@ -7,18 +7,18 @@ import androidx.annotation.Nullable;
 
 import org.signal.core.util.Base64;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.AppCapabilities;
-import org.thoughtcrime.securesms.crypto.ProfileKeyUtil;
-import org.thoughtcrime.securesms.jobmanager.Job;
-import org.thoughtcrime.securesms.jobmanager.JsonJobData;
-import org.thoughtcrime.securesms.jobmanager.impl.NetworkConstraint;
-import org.thoughtcrime.securesms.keyvalue.PhoneNumberPrivacyValues.PhoneNumberDiscoverabilityMode;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
-import org.thoughtcrime.securesms.keyvalue.SvrValues;
-import org.thoughtcrime.securesms.net.SignalNetwork;
-import org.thoughtcrime.securesms.registration.data.RegistrationRepository;
-import org.thoughtcrime.securesms.registration.secondary.DeviceNameCipher;
-import org.thoughtcrime.securesms.util.TextSecurePreferences;
+import org.thoughtcrime.securesms.ryan.AppCapabilities;
+import org.thoughtcrime.securesms.ryan.crypto.ProfileKeyUtil;
+import org.thoughtcrime.securesms.ryan.jobmanager.Job;
+import org.thoughtcrime.securesms.ryan.jobmanager.JsonJobData;
+import org.thoughtcrime.securesms.ryan.jobmanager.impl.NetworkConstraint;
+import org.thoughtcrime.securesms.ryan.keyvalue.PhoneNumberPrivacyValues.PhoneNumberDiscoverabilityMode;
+import org.thoughtcrime.securesms.ryan.keyvalue.SignalStore;
+import org.thoughtcrime.securesms.ryan.keyvalue.SvrValues;
+import org.thoughtcrime.securesms.ryan.net.SignalNetwork;
+import org.thoughtcrime.securesms.ryan.registration.data.RegistrationRepository;
+import org.thoughtcrime.securesms.ryan.registration.secondary.DeviceNameCipher;
+import org.thoughtcrime.securesms.ryan.util.TextSecurePreferences;
 import org.whispersystems.signalservice.api.NetworkResultUtil;
 import org.whispersystems.signalservice.api.account.AccountAttributes;
 import org.whispersystems.signalservice.api.crypto.UnidentifiedAccess;

@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.verify
+package org.thoughtcrime.securesms.ryan.components.verify
 
 import android.animation.ValueAnimator
 import android.content.Context
@@ -30,11 +30,11 @@ import androidx.core.widget.ImageViewCompat
 import androidx.interpolator.view.animation.FastOutSlowInInterpolator
 import org.signal.core.util.dp
 import org.signal.libsignal.protocol.fingerprint.Fingerprint
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.qr.QrCodeUtil
-import org.thoughtcrime.securesms.util.ContextUtil
-import org.thoughtcrime.securesms.util.ViewUtil
-import org.thoughtcrime.securesms.util.visible
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.qr.QrCodeUtil
+import org.thoughtcrime.securesms.ryan.util.ContextUtil
+import org.thoughtcrime.securesms.ryan.util.ViewUtil
+import org.thoughtcrime.securesms.ryan.util.visible
 import java.nio.charset.Charset
 import java.util.Locale
 

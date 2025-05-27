@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.database;
+package org.thoughtcrime.securesms.ryan.database;
 
 import android.database.Cursor;
 
@@ -8,7 +8,7 @@ import net.zetetic.database.DatabaseErrorHandler;
 import net.zetetic.database.sqlcipher.SQLiteDatabase;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.dependencies.AppDependencies;
+import org.thoughtcrime.securesms.ryan.dependencies.AppDependencies;
 import org.signal.core.util.CursorUtil;
 
 /**

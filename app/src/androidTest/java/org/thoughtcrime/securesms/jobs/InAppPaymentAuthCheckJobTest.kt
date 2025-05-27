@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.jobs
+package org.thoughtcrime.securesms.ryan.jobs
 
 import androidx.test.ext.junit.runners.AndroidJUnit4
 import assertk.assertThat
@@ -13,17 +13,17 @@ import org.signal.core.util.money.FiatMoney
 import org.signal.donations.InAppPaymentType
 import org.signal.donations.json.StripeIntentStatus
 import org.signal.donations.json.StripePaymentIntent
-import org.thoughtcrime.securesms.components.settings.app.subscription.DonationSerializationHelper.toFiatValue
-import org.thoughtcrime.securesms.database.DonationReceiptTable
-import org.thoughtcrime.securesms.database.InAppPaymentTable
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.database.model.InAppPaymentReceiptRecord
-import org.thoughtcrime.securesms.database.model.databaseprotos.InAppPaymentData
-import org.thoughtcrime.securesms.dependencies.InstrumentationApplicationDependencyProvider
-import org.thoughtcrime.securesms.testing.Get
-import org.thoughtcrime.securesms.testing.SignalActivityRule
-import org.thoughtcrime.securesms.testing.success
-import org.thoughtcrime.securesms.util.TestStripePaths
+import org.thoughtcrime.securesms.ryan.components.settings.app.subscription.DonationSerializationHelper.toFiatValue
+import org.thoughtcrime.securesms.ryan.database.DonationReceiptTable
+import org.thoughtcrime.securesms.ryan.database.InAppPaymentTable
+import org.thoughtcrime.securesms.ryan.database.SignalDatabase
+import org.thoughtcrime.securesms.ryan.database.model.InAppPaymentReceiptRecord
+import org.thoughtcrime.securesms.ryan.database.model.databaseprotos.InAppPaymentData
+import org.thoughtcrime.securesms.ryan.dependencies.InstrumentationApplicationDependencyProvider
+import org.thoughtcrime.securesms.ryan.testing.Get
+import org.thoughtcrime.securesms.ryan.testing.SignalActivityRule
+import org.thoughtcrime.securesms.ryan.testing.success
+import org.thoughtcrime.securesms.ryan.util.TestStripePaths
 import java.math.BigDecimal
 import java.util.Currency
 

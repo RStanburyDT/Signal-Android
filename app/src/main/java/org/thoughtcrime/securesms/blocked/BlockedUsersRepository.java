@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.blocked;
+package org.thoughtcrime.securesms.ryan.blocked;
 
 import android.content.Context;
 
@@ -7,13 +7,13 @@ import androidx.core.util.Consumer;
 
 import org.signal.core.util.concurrent.SignalExecutors;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.database.SignalDatabase;
-import org.thoughtcrime.securesms.database.model.RecipientRecord;
-import org.thoughtcrime.securesms.groups.GroupChangeBusyException;
-import org.thoughtcrime.securesms.groups.GroupChangeFailedException;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.recipients.RecipientId;
-import org.thoughtcrime.securesms.recipients.RecipientUtil;
+import org.thoughtcrime.securesms.ryan.database.SignalDatabase;
+import org.thoughtcrime.securesms.ryan.database.model.RecipientRecord;
+import org.thoughtcrime.securesms.ryan.groups.GroupChangeBusyException;
+import org.thoughtcrime.securesms.ryan.groups.GroupChangeFailedException;
+import org.thoughtcrime.securesms.ryan.recipients.Recipient;
+import org.thoughtcrime.securesms.ryan.recipients.RecipientId;
+import org.thoughtcrime.securesms.ryan.recipients.RecipientUtil;
 
 import java.io.IOException;
 import java.util.List;

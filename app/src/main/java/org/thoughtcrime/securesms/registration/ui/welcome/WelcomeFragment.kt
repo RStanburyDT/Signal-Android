@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.registration.ui.welcome
+package org.thoughtcrime.securesms.ryan.registration.ui.welcome
 
 import android.app.Activity
 import android.content.pm.PackageManager
@@ -15,20 +15,20 @@ import androidx.core.content.ContextCompat
 import androidx.fragment.app.activityViewModels
 import androidx.navigation.fragment.findNavController
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.LoggingFragment
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.ViewBinderDelegate
-import org.thoughtcrime.securesms.databinding.FragmentRegistrationWelcomeBinding
-import org.thoughtcrime.securesms.permissions.Permissions
-import org.thoughtcrime.securesms.registration.fragments.RegistrationViewDelegate.setDebugLogSubmitMultiTapView
-import org.thoughtcrime.securesms.registration.fragments.WelcomePermissions
-import org.thoughtcrime.securesms.registration.ui.RegistrationCheckpoint
-import org.thoughtcrime.securesms.registration.ui.RegistrationViewModel
-import org.thoughtcrime.securesms.registration.ui.grantpermissions.GrantPermissionsFragment
-import org.thoughtcrime.securesms.restore.RestoreActivity
-import org.thoughtcrime.securesms.util.BackupUtil
-import org.thoughtcrime.securesms.util.CommunicationActions
-import org.thoughtcrime.securesms.util.navigation.safeNavigate
+import org.thoughtcrime.securesms.ryan.LoggingFragment
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.components.ViewBinderDelegate
+import org.thoughtcrime.securesms.ryan.databinding.FragmentRegistrationWelcomeBinding
+import org.thoughtcrime.securesms.ryan.permissions.Permissions
+import org.thoughtcrime.securesms.ryan.registration.fragments.RegistrationViewDelegate.setDebugLogSubmitMultiTapView
+import org.thoughtcrime.securesms.ryan.registration.fragments.WelcomePermissions
+import org.thoughtcrime.securesms.ryan.registration.ui.RegistrationCheckpoint
+import org.thoughtcrime.securesms.ryan.registration.ui.RegistrationViewModel
+import org.thoughtcrime.securesms.ryan.registration.ui.grantpermissions.GrantPermissionsFragment
+import org.thoughtcrime.securesms.ryan.restore.RestoreActivity
+import org.thoughtcrime.securesms.ryan.util.BackupUtil
+import org.thoughtcrime.securesms.ryan.util.CommunicationActions
+import org.thoughtcrime.securesms.ryan.util.navigation.safeNavigate
 
 /**
  * First screen that is displayed on the very first app launch.

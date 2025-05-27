@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.crypto.storage;
+package org.thoughtcrime.securesms.ryan.crypto.storage;
 
 import androidx.annotation.NonNull;
 
@@ -6,11 +6,11 @@ import org.signal.libsignal.protocol.IdentityKey;
 import org.signal.libsignal.protocol.IdentityKeyPair;
 import org.signal.libsignal.protocol.SignalProtocolAddress;
 import org.signal.libsignal.protocol.state.IdentityKeyStore;
-import org.thoughtcrime.securesms.database.IdentityTable.VerifiedStatus;
-import org.thoughtcrime.securesms.database.identity.IdentityRecordList;
-import org.thoughtcrime.securesms.database.model.IdentityRecord;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.recipients.RecipientId;
+import org.thoughtcrime.securesms.ryan.database.IdentityTable.VerifiedStatus;
+import org.thoughtcrime.securesms.ryan.database.identity.IdentityRecordList;
+import org.thoughtcrime.securesms.ryan.database.model.IdentityRecord;
+import org.thoughtcrime.securesms.ryan.recipients.Recipient;
+import org.thoughtcrime.securesms.ryan.recipients.RecipientId;
 import org.whispersystems.signalservice.api.push.ServiceId;
 
 import java.util.List;

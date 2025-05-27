@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components;
+package org.thoughtcrime.securesms.ryan.components;
 
 import android.content.Context;
 import android.util.AttributeSet;

@@ -1,7 +1,7 @@
-package org.thoughtcrime.securesms.components.settings.app.chats.folders
+package org.thoughtcrime.securesms.ryan.components.settings.app.chats.folders
 
-import org.thoughtcrime.securesms.contacts.paged.ChatType
-import org.thoughtcrime.securesms.recipients.RecipientId
+import org.thoughtcrime.securesms.ryan.contacts.paged.ChatType
+import org.thoughtcrime.securesms.ryan.recipients.RecipientId
 
 /**
  * Information about chat folders. Used in [ChatFoldersViewModel].

@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.conversation;
+package org.thoughtcrime.securesms.ryan.conversation;
 
 import android.content.Context;
 
@@ -17,16 +17,16 @@ import com.annimon.stream.Stream;
 
 import org.signal.core.util.concurrent.SignalExecutors;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.database.MessageTable;
-import org.thoughtcrime.securesms.database.SignalDatabase;
-import org.thoughtcrime.securesms.database.ThreadTable;
-import org.thoughtcrime.securesms.database.model.MessageRecord;
-import org.thoughtcrime.securesms.database.model.ReactionRecord;
-import org.thoughtcrime.securesms.dependencies.AppDependencies;
-import org.thoughtcrime.securesms.notifications.MarkReadReceiver;
-import org.thoughtcrime.securesms.notifications.v2.ConversationId;
-import org.thoughtcrime.securesms.util.Debouncer;
-import org.thoughtcrime.securesms.util.concurrent.SerialMonoLifoExecutor;
+import org.thoughtcrime.securesms.ryan.database.MessageTable;
+import org.thoughtcrime.securesms.ryan.database.SignalDatabase;
+import org.thoughtcrime.securesms.ryan.database.ThreadTable;
+import org.thoughtcrime.securesms.ryan.database.model.MessageRecord;
+import org.thoughtcrime.securesms.ryan.database.model.ReactionRecord;
+import org.thoughtcrime.securesms.ryan.dependencies.AppDependencies;
+import org.thoughtcrime.securesms.ryan.notifications.MarkReadReceiver;
+import org.thoughtcrime.securesms.ryan.notifications.v2.ConversationId;
+import org.thoughtcrime.securesms.ryan.util.Debouncer;
+import org.thoughtcrime.securesms.ryan.util.concurrent.SerialMonoLifoExecutor;
 
 import java.util.Collections;
 import java.util.List;

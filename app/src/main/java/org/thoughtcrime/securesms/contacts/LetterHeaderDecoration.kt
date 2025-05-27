@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.contacts
+package org.thoughtcrime.securesms.ryan.contacts
 
 import android.content.Context
 import android.graphics.Canvas
@@ -9,8 +9,8 @@ import android.view.LayoutInflater
 import android.view.View
 import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.RecyclerView
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.util.ViewUtil
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.util.ViewUtil
 
 /**
  * ItemDecoration which paints a letter header at the appropriate location above a LetterHeaderItem.

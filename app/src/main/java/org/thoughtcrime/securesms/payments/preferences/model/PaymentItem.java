@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.payments.preferences.model;
+package org.thoughtcrime.securesms.ryan.payments.preferences.model;
 
 import android.content.Context;
 
@@ -10,16 +10,16 @@ import androidx.core.content.ContextCompat;
 
 import com.annimon.stream.Stream;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.payments.Payment;
-import org.thoughtcrime.securesms.payments.ReconstructedPayment;
-import org.thoughtcrime.securesms.payments.State;
-import org.thoughtcrime.securesms.payments.preferences.PaymentType;
-import org.thoughtcrime.securesms.payments.preferences.details.PaymentDetailsParcelable;
-import org.thoughtcrime.securesms.util.DateUtils;
-import org.thoughtcrime.securesms.util.SpanUtil;
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingModel;
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingModelList;
+import org.thoughtcrime.securesms.ryan.R;
+import org.thoughtcrime.securesms.ryan.payments.Payment;
+import org.thoughtcrime.securesms.ryan.payments.ReconstructedPayment;
+import org.thoughtcrime.securesms.ryan.payments.State;
+import org.thoughtcrime.securesms.ryan.payments.preferences.PaymentType;
+import org.thoughtcrime.securesms.ryan.payments.preferences.details.PaymentDetailsParcelable;
+import org.thoughtcrime.securesms.ryan.util.DateUtils;
+import org.thoughtcrime.securesms.ryan.util.SpanUtil;
+import org.thoughtcrime.securesms.ryan.util.adapter.mapping.MappingModel;
+import org.thoughtcrime.securesms.ryan.util.adapter.mapping.MappingModelList;
 import org.whispersystems.signalservice.api.payments.FormatterOptions;
 import org.whispersystems.signalservice.api.payments.PaymentsConstants;
 
@@ -27,7 +27,7 @@ import java.util.List;
 import java.util.Locale;
 import java.util.Objects;
 
-import static org.thoughtcrime.securesms.util.viewholders.RecipientMappingModel.RecipientIdMappingModel;
+import static org.thoughtcrime.securesms.ryan.util.viewholders.RecipientMappingModel.RecipientIdMappingModel;
 
 public final class PaymentItem implements MappingModel<PaymentItem> {
 

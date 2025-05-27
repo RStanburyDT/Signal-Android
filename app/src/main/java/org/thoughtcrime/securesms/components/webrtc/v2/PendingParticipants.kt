@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.webrtc.v2
+package org.thoughtcrime.securesms.ryan.components.webrtc.v2
 
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
@@ -13,8 +13,8 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.viewinterop.AndroidView
 import org.signal.core.ui.compose.Previews
 import org.signal.core.ui.compose.SignalPreview
-import org.thoughtcrime.securesms.components.webrtc.PendingParticipantsView
-import org.thoughtcrime.securesms.service.webrtc.PendingParticipantCollection
+import org.thoughtcrime.securesms.ryan.components.webrtc.PendingParticipantsView
+import org.thoughtcrime.securesms.ryan.service.webrtc.PendingParticipantCollection
 
 /**
  * Re-implementation of PendingParticipantsView in compose.

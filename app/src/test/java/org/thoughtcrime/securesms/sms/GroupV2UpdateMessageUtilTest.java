@@ -1,12 +1,12 @@
-package org.thoughtcrime.securesms.sms;
+package org.thoughtcrime.securesms.ryan.sms;
 
 import androidx.annotation.NonNull;
 
 import org.junit.Test;
 import org.signal.storageservice.protos.groups.local.DecryptedGroupChange;
-import org.thoughtcrime.securesms.database.model.databaseprotos.DecryptedGroupV2Context;
-import org.thoughtcrime.securesms.groups.v2.ChangeBuilder;
-import org.thoughtcrime.securesms.mms.MessageGroupContext;
+import org.thoughtcrime.securesms.ryan.database.model.databaseprotos.DecryptedGroupV2Context;
+import org.thoughtcrime.securesms.ryan.groups.v2.ChangeBuilder;
+import org.thoughtcrime.securesms.ryan.mms.MessageGroupContext;
 import org.whispersystems.signalservice.api.push.ServiceId.ACI;
 import org.whispersystems.signalservice.internal.push.GroupContextV2;
 

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.settings.conversation.sounds.custom
+package org.thoughtcrime.securesms.ryan.components.settings.conversation.sounds.custom
 
 import android.app.Activity
 import android.content.Context
@@ -13,16 +13,16 @@ import androidx.activity.result.contract.ActivityResultContracts
 import androidx.fragment.app.viewModels
 import org.signal.core.util.getParcelableExtraCompat
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.settings.DSLConfiguration
-import org.thoughtcrime.securesms.components.settings.DSLSettingsFragment
-import org.thoughtcrime.securesms.components.settings.DSLSettingsText
-import org.thoughtcrime.securesms.components.settings.configure
-import org.thoughtcrime.securesms.database.RecipientTable
-import org.thoughtcrime.securesms.notifications.NotificationChannels
-import org.thoughtcrime.securesms.util.ConversationUtil
-import org.thoughtcrime.securesms.util.RingtoneUtil
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingAdapter
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.components.settings.DSLConfiguration
+import org.thoughtcrime.securesms.ryan.components.settings.DSLSettingsFragment
+import org.thoughtcrime.securesms.ryan.components.settings.DSLSettingsText
+import org.thoughtcrime.securesms.ryan.components.settings.configure
+import org.thoughtcrime.securesms.ryan.database.RecipientTable
+import org.thoughtcrime.securesms.ryan.notifications.NotificationChannels
+import org.thoughtcrime.securesms.ryan.util.ConversationUtil
+import org.thoughtcrime.securesms.ryan.util.RingtoneUtil
+import org.thoughtcrime.securesms.ryan.util.adapter.mapping.MappingAdapter
 
 private val TAG = Log.tag(CustomNotificationsSettingsFragment::class.java)
 

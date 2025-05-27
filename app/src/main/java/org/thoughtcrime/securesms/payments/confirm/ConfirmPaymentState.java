@@ -1,10 +1,10 @@
-package org.thoughtcrime.securesms.payments.confirm;
+package org.thoughtcrime.securesms.ryan.payments.confirm;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 import org.signal.core.util.money.FiatMoney;
-import org.thoughtcrime.securesms.payments.Payee;
+import org.thoughtcrime.securesms.ryan.payments.Payee;
 import org.whispersystems.signalservice.api.payments.Money;
 
 import java.util.UUID;

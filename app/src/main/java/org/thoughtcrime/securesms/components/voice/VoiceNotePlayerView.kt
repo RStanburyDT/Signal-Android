@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.voice
+package org.thoughtcrime.securesms.ryan.components.voice
 
 import android.content.Context
 import android.net.Uri
@@ -18,9 +18,9 @@ import com.airbnb.lottie.LottieProperty
 import com.airbnb.lottie.SimpleColorFilter
 import com.airbnb.lottie.model.KeyPath
 import com.airbnb.lottie.value.LottieValueCallback
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.PlaybackSpeedToggleTextView
-import org.thoughtcrime.securesms.recipients.RecipientId
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.components.PlaybackSpeedToggleTextView
+import org.thoughtcrime.securesms.ryan.recipients.RecipientId
 import java.util.concurrent.TimeUnit
 
 private const val ANIMATE_DURATION: Long = 150L

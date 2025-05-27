@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.conversationlist.chatfilter
+package org.thoughtcrime.securesms.ryan.conversationlist.chatfilter
 
 import org.junit.Assert.assertEquals
 import org.junit.Test

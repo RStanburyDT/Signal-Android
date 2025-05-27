@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.service.webrtc;
+package org.thoughtcrime.securesms.ryan.service.webrtc;
 
 import android.net.Uri;
 import android.os.ResultReceiver;
@@ -11,31 +11,31 @@ import org.signal.core.util.logging.Log;
 import org.signal.ringrtc.CallException;
 import org.signal.ringrtc.CallId;
 import org.signal.ringrtc.CallManager;
-import org.thoughtcrime.securesms.database.CallTable;
-import org.thoughtcrime.securesms.database.RecipientTable;
-import org.thoughtcrime.securesms.database.SignalDatabase;
-import org.thoughtcrime.securesms.events.CallParticipant;
-import org.thoughtcrime.securesms.events.WebRtcViewModel;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
-import org.thoughtcrime.securesms.notifications.DoNotDisturbUtil;
-import org.thoughtcrime.securesms.notifications.NotificationChannels;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.recipients.RecipientId;
-import org.thoughtcrime.securesms.ringrtc.CallState;
-import org.thoughtcrime.securesms.ringrtc.RemotePeer;
-import org.thoughtcrime.securesms.service.webrtc.state.CallSetupState;
-import org.thoughtcrime.securesms.service.webrtc.state.VideoState;
-import org.thoughtcrime.securesms.service.webrtc.state.WebRtcServiceState;
-import org.thoughtcrime.securesms.util.AppForegroundObserver;
-import org.thoughtcrime.securesms.util.NetworkUtil;
-import org.thoughtcrime.securesms.util.Util;
-import org.thoughtcrime.securesms.webrtc.locks.LockManager;
+import org.thoughtcrime.securesms.ryan.database.CallTable;
+import org.thoughtcrime.securesms.ryan.database.RecipientTable;
+import org.thoughtcrime.securesms.ryan.database.SignalDatabase;
+import org.thoughtcrime.securesms.ryan.events.CallParticipant;
+import org.thoughtcrime.securesms.ryan.events.WebRtcViewModel;
+import org.thoughtcrime.securesms.ryan.keyvalue.SignalStore;
+import org.thoughtcrime.securesms.ryan.notifications.DoNotDisturbUtil;
+import org.thoughtcrime.securesms.ryan.notifications.NotificationChannels;
+import org.thoughtcrime.securesms.ryan.recipients.Recipient;
+import org.thoughtcrime.securesms.ryan.recipients.RecipientId;
+import org.thoughtcrime.securesms.ryan.ringrtc.CallState;
+import org.thoughtcrime.securesms.ryan.ringrtc.RemotePeer;
+import org.thoughtcrime.securesms.ryan.service.webrtc.state.CallSetupState;
+import org.thoughtcrime.securesms.ryan.service.webrtc.state.VideoState;
+import org.thoughtcrime.securesms.ryan.service.webrtc.state.WebRtcServiceState;
+import org.thoughtcrime.securesms.ryan.util.AppForegroundObserver;
+import org.thoughtcrime.securesms.ryan.util.NetworkUtil;
+import org.thoughtcrime.securesms.ryan.util.Util;
+import org.thoughtcrime.securesms.ryan.webrtc.locks.LockManager;
 import org.webrtc.PeerConnection;
 
 import java.util.List;
 import java.util.Objects;
 
-import static org.thoughtcrime.securesms.webrtc.CallNotificationBuilder.TYPE_INCOMING_RINGING;
+import static org.thoughtcrime.securesms.ryan.webrtc.CallNotificationBuilder.TYPE_INCOMING_RINGING;
 
 /**
  * Responsible for setting up and managing the start of an incoming 1:1 call. Transitioned

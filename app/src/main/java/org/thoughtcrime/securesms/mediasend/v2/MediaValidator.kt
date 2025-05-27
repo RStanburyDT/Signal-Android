@@ -1,12 +1,12 @@
-package org.thoughtcrime.securesms.mediasend.v2
+package org.thoughtcrime.securesms.ryan.mediasend.v2
 
 import android.content.Context
 import androidx.annotation.WorkerThread
-import org.thoughtcrime.securesms.mediasend.Media
-import org.thoughtcrime.securesms.mms.MediaConstraints
-import org.thoughtcrime.securesms.stories.Stories
-import org.thoughtcrime.securesms.util.MediaUtil
-import org.thoughtcrime.securesms.util.Util
+import org.thoughtcrime.securesms.ryan.mediasend.Media
+import org.thoughtcrime.securesms.ryan.mms.MediaConstraints
+import org.thoughtcrime.securesms.ryan.stories.Stories
+import org.thoughtcrime.securesms.ryan.util.MediaUtil
+import org.thoughtcrime.securesms.ryan.util.Util
 
 object MediaValidator {
 

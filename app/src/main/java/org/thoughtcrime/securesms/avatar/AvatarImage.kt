@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.avatar
+package org.thoughtcrime.securesms.ryan.avatar
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Spacer
@@ -19,6 +19,14 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.platform.LocalInspectionMode
 import androidx.compose.ui.viewinterop.AndroidView
+<<<<<<< HEAD
+import androidx.lifecycle.map
+import org.thoughtcrime.securesms.ryan.components.AvatarImageView
+import org.thoughtcrime.securesms.ryan.database.model.ProfileAvatarFileDetails
+import org.thoughtcrime.securesms.ryan.profiles.AvatarHelper
+import org.thoughtcrime.securesms.ryan.recipients.Recipient
+import org.thoughtcrime.securesms.ryan.util.NameUtil
+=======
 import kotlinx.coroutines.flow.collectLatest
 import kotlinx.coroutines.rx3.asFlow
 import org.thoughtcrime.securesms.components.AvatarImageView
@@ -26,6 +34,7 @@ import org.thoughtcrime.securesms.database.model.ProfileAvatarFileDetails
 import org.thoughtcrime.securesms.profiles.AvatarHelper
 import org.thoughtcrime.securesms.recipients.Recipient
 import org.thoughtcrime.securesms.util.NameUtil
+>>>>>>> 23669c3c372284d42db486a218d9f29bef247abf
 
 @Composable
 fun AvatarImage(

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.stickers;
+package org.thoughtcrime.securesms.ryan.stickers;
 
 import android.content.Context;
 import android.view.Gravity;
@@ -12,9 +12,9 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.bumptech.glide.RequestManager;
 
 import org.signal.libsignal.protocol.util.Pair;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.keyboard.sticker.KeyboardStickerListAdapter;
-import org.thoughtcrime.securesms.util.ViewUtil;
+import org.thoughtcrime.securesms.ryan.R;
+import org.thoughtcrime.securesms.ryan.keyboard.sticker.KeyboardStickerListAdapter;
+import org.thoughtcrime.securesms.ryan.util.ViewUtil;
 
 import java.lang.ref.WeakReference;
 

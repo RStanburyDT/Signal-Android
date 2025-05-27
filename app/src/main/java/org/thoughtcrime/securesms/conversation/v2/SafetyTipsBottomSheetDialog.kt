@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.conversation.v2
+package org.thoughtcrime.securesms.ryan.conversation.v2
 
 import android.content.res.Configuration
 import androidx.annotation.DrawableRes
@@ -48,8 +48,8 @@ import kotlinx.coroutines.launch
 import org.signal.core.ui.compose.BottomSheets
 import org.signal.core.ui.compose.Buttons
 import org.signal.core.ui.compose.theme.SignalTheme
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.compose.ComposeBottomSheetDialogFragment
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.compose.ComposeBottomSheetDialogFragment
 
 /**
  * Shows tips about typical spam and fraud messages.

@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.recipients.ui.about
+package org.thoughtcrime.securesms.ryan.recipients.ui.about
 
 import android.content.res.Configuration
 import androidx.compose.foundation.clickable
@@ -44,19 +44,19 @@ import org.signal.core.ui.compose.SignalPreview
 import org.signal.core.ui.compose.theme.SignalTheme
 import org.signal.core.util.getParcelableCompat
 import org.signal.core.util.isNotNullOrBlank
-import org.thoughtcrime.securesms.AvatarPreviewActivity
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.avatar.AvatarImage
-import org.thoughtcrime.securesms.components.emoji.EmojiTextView
-import org.thoughtcrime.securesms.compose.ComposeBottomSheetDialogFragment
-import org.thoughtcrime.securesms.conversation.v2.UnverifiedProfileNameBottomSheet
-import org.thoughtcrime.securesms.groups.ui.incommon.GroupsInCommonActivity
-import org.thoughtcrime.securesms.nicknames.ViewNoteSheet
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.stories.settings.my.SignalConnectionsBottomSheetDialogFragment
-import org.thoughtcrime.securesms.util.SignalE164Util
-import org.thoughtcrime.securesms.util.viewModel
+import org.thoughtcrime.securesms.ryan.AvatarPreviewActivity
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.avatar.AvatarImage
+import org.thoughtcrime.securesms.ryan.components.emoji.EmojiTextView
+import org.thoughtcrime.securesms.ryan.compose.ComposeBottomSheetDialogFragment
+import org.thoughtcrime.securesms.ryan.conversation.v2.UnverifiedProfileNameBottomSheet
+import org.thoughtcrime.securesms.ryan.groups.ui.incommon.GroupsInCommonActivity
+import org.thoughtcrime.securesms.ryan.nicknames.ViewNoteSheet
+import org.thoughtcrime.securesms.ryan.recipients.Recipient
+import org.thoughtcrime.securesms.ryan.recipients.RecipientId
+import org.thoughtcrime.securesms.ryan.stories.settings.my.SignalConnectionsBottomSheetDialogFragment
+import org.thoughtcrime.securesms.ryan.util.SignalE164Util
+import org.thoughtcrime.securesms.ryan.util.viewModel
 
 /**
  * Displays all relevant context you know for a given user on the sheet.

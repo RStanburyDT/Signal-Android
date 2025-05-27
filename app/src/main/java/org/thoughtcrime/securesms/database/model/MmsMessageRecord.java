@@ -2,7 +2,7 @@
  * Copyright 2023 Signal Messenger, LLC
  * SPDX-License-Identifier: AGPL-3.0-only
  */
-package org.thoughtcrime.securesms.database.model;
+package org.thoughtcrime.securesms.ryan.database.model;
 
 import android.content.Context;
 import android.text.SpannableString;
@@ -13,30 +13,30 @@ import androidx.annotation.WorkerThread;
 import androidx.core.content.ContextCompat;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.attachments.Attachment;
-import org.thoughtcrime.securesms.attachments.AttachmentId;
-import org.thoughtcrime.securesms.attachments.DatabaseAttachment;
-import org.thoughtcrime.securesms.contactshare.Contact;
-import org.thoughtcrime.securesms.database.CallTable;
-import org.thoughtcrime.securesms.database.MessageTable;
-import org.thoughtcrime.securesms.database.MessageTable.Status;
-import org.thoughtcrime.securesms.database.MessageTypes;
-import org.thoughtcrime.securesms.database.documents.IdentityKeyMismatch;
-import org.thoughtcrime.securesms.database.documents.NetworkFailure;
-import org.thoughtcrime.securesms.database.model.databaseprotos.BodyRangeList;
-import org.thoughtcrime.securesms.database.model.databaseprotos.CryptoValue;
-import org.thoughtcrime.securesms.database.model.databaseprotos.GiftBadge;
-import org.thoughtcrime.securesms.database.model.databaseprotos.MessageExtras;
-import org.thoughtcrime.securesms.fonts.SignalSymbols;
-import org.thoughtcrime.securesms.fonts.SignalSymbols.Glyph;
-import org.thoughtcrime.securesms.linkpreview.LinkPreview;
-import org.thoughtcrime.securesms.mms.Slide;
-import org.thoughtcrime.securesms.mms.SlideDeck;
-import org.thoughtcrime.securesms.payments.CryptoValueUtil;
-import org.thoughtcrime.securesms.payments.Payment;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.recipients.RecipientId;
+import org.thoughtcrime.securesms.ryan.R;
+import org.thoughtcrime.securesms.ryan.attachments.Attachment;
+import org.thoughtcrime.securesms.ryan.attachments.AttachmentId;
+import org.thoughtcrime.securesms.ryan.attachments.DatabaseAttachment;
+import org.thoughtcrime.securesms.ryan.contactshare.Contact;
+import org.thoughtcrime.securesms.ryan.database.CallTable;
+import org.thoughtcrime.securesms.ryan.database.MessageTable;
+import org.thoughtcrime.securesms.ryan.database.MessageTable.Status;
+import org.thoughtcrime.securesms.ryan.database.MessageTypes;
+import org.thoughtcrime.securesms.ryan.database.documents.IdentityKeyMismatch;
+import org.thoughtcrime.securesms.ryan.database.documents.NetworkFailure;
+import org.thoughtcrime.securesms.ryan.database.model.databaseprotos.BodyRangeList;
+import org.thoughtcrime.securesms.ryan.database.model.databaseprotos.CryptoValue;
+import org.thoughtcrime.securesms.ryan.database.model.databaseprotos.GiftBadge;
+import org.thoughtcrime.securesms.ryan.database.model.databaseprotos.MessageExtras;
+import org.thoughtcrime.securesms.ryan.fonts.SignalSymbols;
+import org.thoughtcrime.securesms.ryan.fonts.SignalSymbols.Glyph;
+import org.thoughtcrime.securesms.ryan.linkpreview.LinkPreview;
+import org.thoughtcrime.securesms.ryan.mms.Slide;
+import org.thoughtcrime.securesms.ryan.mms.SlideDeck;
+import org.thoughtcrime.securesms.ryan.payments.CryptoValueUtil;
+import org.thoughtcrime.securesms.ryan.payments.Payment;
+import org.thoughtcrime.securesms.ryan.recipients.Recipient;
+import org.thoughtcrime.securesms.ryan.recipients.RecipientId;
 import org.whispersystems.signalservice.api.payments.FormatterOptions;
 import org.whispersystems.signalservice.api.payments.Money;
 

@@ -1,7 +1,7 @@
-package org.thoughtcrime.securesms.sharing.v2
+package org.thoughtcrime.securesms.ryan.sharing.v2
 
-import org.thoughtcrime.securesms.contacts.paged.ContactSearchKey
-import org.thoughtcrime.securesms.sharing.MultiShareArgs
+import org.thoughtcrime.securesms.ryan.contacts.paged.ContactSearchKey
+import org.thoughtcrime.securesms.ryan.sharing.MultiShareArgs
 
 sealed class ShareEvent {
 

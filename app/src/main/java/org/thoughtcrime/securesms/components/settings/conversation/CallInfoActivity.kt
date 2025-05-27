@@ -1,7 +1,7 @@
-package org.thoughtcrime.securesms.components.settings.conversation
+package org.thoughtcrime.securesms.ryan.components.settings.conversation
 
-import org.thoughtcrime.securesms.util.DynamicNoActionBarTheme
-import org.thoughtcrime.securesms.util.DynamicTheme
+import org.thoughtcrime.securesms.ryan.util.DynamicNoActionBarTheme
+import org.thoughtcrime.securesms.ryan.util.DynamicTheme
 
 class CallInfoActivity : ConversationSettingsActivity(), ConversationSettingsFragment.Callback {
 

@@ -1,12 +1,12 @@
-package org.thoughtcrime.securesms.util
+package org.thoughtcrime.securesms.ryan.util
 
 import com.google.android.gms.wallet.WalletConstants
 import org.signal.donations.GooglePayApi
 import org.signal.donations.StripeApi
-import org.thoughtcrime.securesms.BuildConfig
+import org.thoughtcrime.securesms.ryan.BuildConfig
 
 object Environment {
-  private const val GOOGLE_PLAY_BILLING_APPLICATION_ID = "org.thoughtcrime.securesms"
+  private const val GOOGLE_PLAY_BILLING_APPLICATION_ID = "org.thoughtcrime.securesms.ryan"
 
   const val IS_STAGING: Boolean = BuildConfig.BUILD_ENVIRONMENT_TYPE == "Staging" || BuildConfig.BUILD_ENVIRONMENT_TYPE == "Pnp"
   const val IS_NIGHTLY: Boolean = BuildConfig.BUILD_DISTRIBUTION_TYPE == "nightly"

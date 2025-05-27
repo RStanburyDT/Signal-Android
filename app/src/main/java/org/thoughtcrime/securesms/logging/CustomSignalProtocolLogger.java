@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.logging;
+package org.thoughtcrime.securesms.ryan.logging;
 
 import org.signal.core.util.logging.Log;
 import org.signal.libsignal.protocol.logging.SignalProtocolLogger;

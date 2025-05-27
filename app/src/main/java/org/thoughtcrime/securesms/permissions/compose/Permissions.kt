@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.permissions.compose
+package org.thoughtcrime.securesms.ryan.permissions.compose
 
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
@@ -17,7 +17,7 @@ import com.google.accompanist.permissions.ExperimentalPermissionsApi
 import com.google.accompanist.permissions.isGranted
 import com.google.accompanist.permissions.rememberPermissionState
 import org.signal.core.ui.compose.Dialogs
-import org.thoughtcrime.securesms.R
+import org.thoughtcrime.securesms.ryan.R
 
 /**
  * Dialogs and state management for permissions requests in compose screens.

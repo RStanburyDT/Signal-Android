@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.main
+package org.thoughtcrime.securesms.ryan.main
 
 import androidx.compose.material3.adaptive.ExperimentalMaterial3AdaptiveApi
 import androidx.compose.material3.adaptive.layout.ThreePaneScaffoldRole
@@ -23,13 +23,13 @@ import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.reactive.asFlow
 import kotlinx.coroutines.rx3.asObservable
-import org.thoughtcrime.securesms.components.settings.app.notifications.profiles.NotificationProfilesRepository
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.megaphone.Megaphone
-import org.thoughtcrime.securesms.megaphone.Megaphones
-import org.thoughtcrime.securesms.notifications.profiles.NotificationProfile
-import org.thoughtcrime.securesms.stories.Stories
+import org.thoughtcrime.securesms.ryan.components.settings.app.notifications.profiles.NotificationProfilesRepository
+import org.thoughtcrime.securesms.ryan.dependencies.AppDependencies
+import org.thoughtcrime.securesms.ryan.keyvalue.SignalStore
+import org.thoughtcrime.securesms.ryan.megaphone.Megaphone
+import org.thoughtcrime.securesms.ryan.megaphone.Megaphones
+import org.thoughtcrime.securesms.ryan.notifications.profiles.NotificationProfile
+import org.thoughtcrime.securesms.ryan.stories.Stories
 
 @OptIn(ExperimentalMaterial3AdaptiveApi::class)
 class MainNavigationViewModel(

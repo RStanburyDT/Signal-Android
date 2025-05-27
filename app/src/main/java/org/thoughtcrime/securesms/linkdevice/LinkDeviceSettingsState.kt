@@ -1,8 +1,8 @@
-package org.thoughtcrime.securesms.linkdevice
+package org.thoughtcrime.securesms.ryan.linkdevice
 
 import android.net.Uri
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.linkdevice.LinkDeviceRepository.LinkDeviceResult
+import org.thoughtcrime.securesms.ryan.keyvalue.SignalStore
+import org.thoughtcrime.securesms.ryan.linkdevice.LinkDeviceRepository.LinkDeviceResult
 import kotlin.time.Duration.Companion.days
 
 /**

@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.backup.v2.ui
+package org.thoughtcrime.securesms.ryan.backup.v2.ui
 
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.runtime.Composable

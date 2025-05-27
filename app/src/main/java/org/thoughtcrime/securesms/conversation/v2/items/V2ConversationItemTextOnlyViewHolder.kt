@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.conversation.v2.items
+package org.thoughtcrime.securesms.ryan.conversation.v2.items
 
 import android.graphics.Color
 import android.graphics.PorterDuff
@@ -28,39 +28,39 @@ import androidx.lifecycle.Observer
 import androidx.recyclerview.widget.RecyclerView
 import org.signal.core.util.StringUtil
 import org.signal.core.util.dp
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.mention.MentionAnnotation
-import org.thoughtcrime.securesms.conversation.BodyBubbleLayoutTransition
-import org.thoughtcrime.securesms.conversation.ConversationAdapterBridge
-import org.thoughtcrime.securesms.conversation.ConversationItemDisplayMode
-import org.thoughtcrime.securesms.conversation.ConversationMessage
-import org.thoughtcrime.securesms.conversation.colors.ChatColors
-import org.thoughtcrime.securesms.conversation.mutiselect.Multiselect
-import org.thoughtcrime.securesms.conversation.mutiselect.MultiselectPart
-import org.thoughtcrime.securesms.conversation.mutiselect.Multiselectable
-import org.thoughtcrime.securesms.conversation.v2.computed.FormattedDate
-import org.thoughtcrime.securesms.conversation.v2.data.ConversationMessageElement
-import org.thoughtcrime.securesms.database.model.MessageRecord
-import org.thoughtcrime.securesms.database.model.MmsMessageRecord
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.util.InterceptableLongClickCopyLinkSpan
-import org.thoughtcrime.securesms.util.LongClickMovementMethod
-import org.thoughtcrime.securesms.util.PlaceholderURLSpan
-import org.thoughtcrime.securesms.util.Projection
-import org.thoughtcrime.securesms.util.ProjectionList
-import org.thoughtcrime.securesms.util.SearchUtil
-import org.thoughtcrime.securesms.util.SignalLocalMetrics
-import org.thoughtcrime.securesms.util.ThemeUtil
-import org.thoughtcrime.securesms.util.VibrateUtil
-import org.thoughtcrime.securesms.util.ViewUtil
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingModel
-import org.thoughtcrime.securesms.util.hasExtraText
-import org.thoughtcrime.securesms.util.hasNoBubble
-import org.thoughtcrime.securesms.util.isScheduled
-import org.thoughtcrime.securesms.util.visible
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.components.mention.MentionAnnotation
+import org.thoughtcrime.securesms.ryan.conversation.BodyBubbleLayoutTransition
+import org.thoughtcrime.securesms.ryan.conversation.ConversationAdapterBridge
+import org.thoughtcrime.securesms.ryan.conversation.ConversationItemDisplayMode
+import org.thoughtcrime.securesms.ryan.conversation.ConversationMessage
+import org.thoughtcrime.securesms.ryan.conversation.colors.ChatColors
+import org.thoughtcrime.securesms.ryan.conversation.mutiselect.Multiselect
+import org.thoughtcrime.securesms.ryan.conversation.mutiselect.MultiselectPart
+import org.thoughtcrime.securesms.ryan.conversation.mutiselect.Multiselectable
+import org.thoughtcrime.securesms.ryan.conversation.v2.computed.FormattedDate
+import org.thoughtcrime.securesms.ryan.conversation.v2.data.ConversationMessageElement
+import org.thoughtcrime.securesms.ryan.database.model.MessageRecord
+import org.thoughtcrime.securesms.ryan.database.model.MmsMessageRecord
+import org.thoughtcrime.securesms.ryan.dependencies.AppDependencies
+import org.thoughtcrime.securesms.ryan.keyvalue.SignalStore
+import org.thoughtcrime.securesms.ryan.recipients.Recipient
+import org.thoughtcrime.securesms.ryan.recipients.RecipientId
+import org.thoughtcrime.securesms.ryan.util.InterceptableLongClickCopyLinkSpan
+import org.thoughtcrime.securesms.ryan.util.LongClickMovementMethod
+import org.thoughtcrime.securesms.ryan.util.PlaceholderURLSpan
+import org.thoughtcrime.securesms.ryan.util.Projection
+import org.thoughtcrime.securesms.ryan.util.ProjectionList
+import org.thoughtcrime.securesms.ryan.util.SearchUtil
+import org.thoughtcrime.securesms.ryan.util.SignalLocalMetrics
+import org.thoughtcrime.securesms.ryan.util.ThemeUtil
+import org.thoughtcrime.securesms.ryan.util.VibrateUtil
+import org.thoughtcrime.securesms.ryan.util.ViewUtil
+import org.thoughtcrime.securesms.ryan.util.adapter.mapping.MappingModel
+import org.thoughtcrime.securesms.ryan.util.hasExtraText
+import org.thoughtcrime.securesms.ryan.util.hasNoBubble
+import org.thoughtcrime.securesms.ryan.util.isScheduled
+import org.thoughtcrime.securesms.ryan.util.visible
 import java.util.Locale
 
 /**

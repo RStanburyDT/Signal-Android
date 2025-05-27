@@ -1,18 +1,18 @@
-package org.thoughtcrime.securesms.mms
+package org.thoughtcrime.securesms.ryan.mms
 
-import org.thoughtcrime.securesms.attachments.Attachment
-import org.thoughtcrime.securesms.contactshare.Contact
-import org.thoughtcrime.securesms.database.MessageType
-import org.thoughtcrime.securesms.database.model.Mention
-import org.thoughtcrime.securesms.database.model.ParentStoryId
-import org.thoughtcrime.securesms.database.model.StoryType
-import org.thoughtcrime.securesms.database.model.databaseprotos.BodyRangeList
-import org.thoughtcrime.securesms.database.model.databaseprotos.GV2UpdateDescription
-import org.thoughtcrime.securesms.database.model.databaseprotos.GiftBadge
-import org.thoughtcrime.securesms.database.model.databaseprotos.MessageExtras
-import org.thoughtcrime.securesms.groups.GroupId
-import org.thoughtcrime.securesms.linkpreview.LinkPreview
-import org.thoughtcrime.securesms.recipients.RecipientId
+import org.thoughtcrime.securesms.ryan.attachments.Attachment
+import org.thoughtcrime.securesms.ryan.contactshare.Contact
+import org.thoughtcrime.securesms.ryan.database.MessageType
+import org.thoughtcrime.securesms.ryan.database.model.Mention
+import org.thoughtcrime.securesms.ryan.database.model.ParentStoryId
+import org.thoughtcrime.securesms.ryan.database.model.StoryType
+import org.thoughtcrime.securesms.ryan.database.model.databaseprotos.BodyRangeList
+import org.thoughtcrime.securesms.ryan.database.model.databaseprotos.GV2UpdateDescription
+import org.thoughtcrime.securesms.ryan.database.model.databaseprotos.GiftBadge
+import org.thoughtcrime.securesms.ryan.database.model.databaseprotos.MessageExtras
+import org.thoughtcrime.securesms.ryan.groups.GroupId
+import org.thoughtcrime.securesms.ryan.linkpreview.LinkPreview
+import org.thoughtcrime.securesms.ryan.recipients.RecipientId
 
 class IncomingMessage(
   val type: MessageType,

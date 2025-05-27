@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.mention;
+package org.thoughtcrime.securesms.ryan.components.mention;
 
 import android.content.Context;
 import android.graphics.Canvas;
@@ -11,12 +11,12 @@ import androidx.annotation.ColorInt;
 import androidx.annotation.NonNull;
 import androidx.core.graphics.drawable.DrawableCompat;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.components.spoiler.SpoilerAnnotation;
-import org.thoughtcrime.securesms.util.ContextUtil;
-import org.thoughtcrime.securesms.util.DrawableUtil;
-import org.thoughtcrime.securesms.util.Util;
-import org.thoughtcrime.securesms.util.ViewUtil;
+import org.thoughtcrime.securesms.ryan.R;
+import org.thoughtcrime.securesms.ryan.components.spoiler.SpoilerAnnotation;
+import org.thoughtcrime.securesms.ryan.util.ContextUtil;
+import org.thoughtcrime.securesms.ryan.util.DrawableUtil;
+import org.thoughtcrime.securesms.ryan.util.Util;
+import org.thoughtcrime.securesms.ryan.util.ViewUtil;
 
 import java.util.List;
 

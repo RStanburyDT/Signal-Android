@@ -2,18 +2,18 @@
  * Copyright 2023 Signal Messenger, LLC
  * SPDX-License-Identifier: AGPL-3.0-only
  */
-package org.thoughtcrime.securesms.attachments
+package org.thoughtcrime.securesms.ryan.attachments
 
 import android.net.Uri
 import android.os.Parcel
 import android.os.Parcelable
 import androidx.core.os.ParcelCompat
-import org.thoughtcrime.securesms.audio.AudioHash
-import org.thoughtcrime.securesms.blurhash.BlurHash
-import org.thoughtcrime.securesms.database.AttachmentTable
-import org.thoughtcrime.securesms.database.AttachmentTable.TransformProperties
-import org.thoughtcrime.securesms.stickers.StickerLocator
-import org.thoughtcrime.securesms.util.ParcelUtil
+import org.thoughtcrime.securesms.ryan.audio.AudioHash
+import org.thoughtcrime.securesms.ryan.blurhash.BlurHash
+import org.thoughtcrime.securesms.ryan.database.AttachmentTable
+import org.thoughtcrime.securesms.ryan.database.AttachmentTable.TransformProperties
+import org.thoughtcrime.securesms.ryan.stickers.StickerLocator
+import org.thoughtcrime.securesms.ryan.util.ParcelUtil
 import org.whispersystems.signalservice.api.util.UuidUtil
 import java.util.UUID
 import kotlin.time.Duration.Companion.days

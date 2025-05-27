@@ -1,15 +1,15 @@
-package org.thoughtcrime.securesms.database;
+package org.thoughtcrime.securesms.ryan.database;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.VisibleForTesting;
 
 import org.jetbrains.annotations.NotNull;
 import org.signal.core.util.concurrent.SignalExecutors;
-import org.thoughtcrime.securesms.database.model.MessageId;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.recipients.RecipientId;
-import org.thoughtcrime.securesms.service.webrtc.links.CallLinkRoomId;
-import org.thoughtcrime.securesms.util.concurrent.SerialExecutor;
+import org.thoughtcrime.securesms.ryan.database.model.MessageId;
+import org.thoughtcrime.securesms.ryan.recipients.Recipient;
+import org.thoughtcrime.securesms.ryan.recipients.RecipientId;
+import org.thoughtcrime.securesms.ryan.service.webrtc.links.CallLinkRoomId;
+import org.thoughtcrime.securesms.ryan.util.concurrent.SerialExecutor;
 
 import java.util.Collection;
 import java.util.HashMap;

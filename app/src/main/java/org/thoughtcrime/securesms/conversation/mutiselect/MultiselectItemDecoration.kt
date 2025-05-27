@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.conversation.mutiselect
+package org.thoughtcrime.securesms.ryan.conversation.mutiselect
 
 import android.animation.Animator
 import android.animation.AnimatorSet
@@ -32,13 +32,13 @@ import androidx.recyclerview.widget.RecyclerView
 import com.airbnb.lottie.SimpleColorFilter
 import com.google.android.material.animation.ArgbEvaluatorCompat
 import org.signal.core.util.SetUtil
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.conversation.ConversationAdapterBridge
-import org.thoughtcrime.securesms.conversation.ConversationAdapterBridge.PulseRequest
-import org.thoughtcrime.securesms.conversation.v2.items.InteractiveConversationElement
-import org.thoughtcrime.securesms.util.ThemeUtil
-import org.thoughtcrime.securesms.util.ViewUtil
-import org.thoughtcrime.securesms.wallpaper.ChatWallpaper
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.conversation.ConversationAdapterBridge
+import org.thoughtcrime.securesms.ryan.conversation.ConversationAdapterBridge.PulseRequest
+import org.thoughtcrime.securesms.ryan.conversation.v2.items.InteractiveConversationElement
+import org.thoughtcrime.securesms.ryan.util.ThemeUtil
+import org.thoughtcrime.securesms.ryan.util.ViewUtil
+import org.thoughtcrime.securesms.ryan.wallpaper.ChatWallpaper
 import java.lang.Integer.max
 
 /**

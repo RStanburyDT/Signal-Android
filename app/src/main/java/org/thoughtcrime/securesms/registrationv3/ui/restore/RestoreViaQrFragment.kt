@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.registrationv3.ui.restore
+package org.thoughtcrime.securesms.ryan.registrationv3.ui.restore
 
 import android.os.Bundle
 import android.view.View
@@ -61,14 +61,14 @@ import org.signal.core.ui.compose.SignalPreview
 import org.signal.core.ui.compose.horizontalGutters
 import org.signal.core.ui.compose.theme.SignalTheme
 import org.signal.registration.proto.RegistrationProvisionMessage
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.settings.app.usernamelinks.QrCode
-import org.thoughtcrime.securesms.components.settings.app.usernamelinks.QrCodeData
-import org.thoughtcrime.securesms.compose.ComposeFragment
-import org.thoughtcrime.securesms.registration.data.network.RegisterAccountResult
-import org.thoughtcrime.securesms.registrationv3.ui.RegistrationViewModel
-import org.thoughtcrime.securesms.registrationv3.ui.shared.RegistrationScreen
-import org.thoughtcrime.securesms.util.navigation.safeNavigate
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.components.settings.app.usernamelinks.QrCode
+import org.thoughtcrime.securesms.ryan.components.settings.app.usernamelinks.QrCodeData
+import org.thoughtcrime.securesms.ryan.compose.ComposeFragment
+import org.thoughtcrime.securesms.ryan.registration.data.network.RegisterAccountResult
+import org.thoughtcrime.securesms.ryan.registrationv3.ui.RegistrationViewModel
+import org.thoughtcrime.securesms.ryan.registrationv3.ui.shared.RegistrationScreen
+import org.thoughtcrime.securesms.ryan.util.navigation.safeNavigate
 
 /**
  * Show QR code on new device to allow registration and restore via old device.

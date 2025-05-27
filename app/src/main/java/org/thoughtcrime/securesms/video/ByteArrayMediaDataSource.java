@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.video;
+package org.thoughtcrime.securesms.ryan.video;
 
 import android.media.MediaDataSource;
 

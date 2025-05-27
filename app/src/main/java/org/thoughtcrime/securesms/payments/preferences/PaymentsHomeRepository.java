@@ -1,17 +1,17 @@
-package org.thoughtcrime.securesms.payments.preferences;
+package org.thoughtcrime.securesms.ryan.payments.preferences;
 
 import androidx.annotation.NonNull;
 import androidx.core.util.Consumer;
 
 import org.signal.core.util.concurrent.SignalExecutors;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.dependencies.AppDependencies;
-import org.thoughtcrime.securesms.jobs.PaymentLedgerUpdateJob;
-import org.thoughtcrime.securesms.jobs.ProfileUploadJob;
-import org.thoughtcrime.securesms.jobs.SendPaymentsActivatedJob;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
-import org.thoughtcrime.securesms.util.AsynchronousCallback;
-import org.thoughtcrime.securesms.util.ProfileUtil;
+import org.thoughtcrime.securesms.ryan.dependencies.AppDependencies;
+import org.thoughtcrime.securesms.ryan.jobs.PaymentLedgerUpdateJob;
+import org.thoughtcrime.securesms.ryan.jobs.ProfileUploadJob;
+import org.thoughtcrime.securesms.ryan.jobs.SendPaymentsActivatedJob;
+import org.thoughtcrime.securesms.ryan.keyvalue.SignalStore;
+import org.thoughtcrime.securesms.ryan.util.AsynchronousCallback;
+import org.thoughtcrime.securesms.ryan.util.ProfileUtil;
 import org.whispersystems.signalservice.api.push.exceptions.NonSuccessfulResponseCodeException;
 import org.whispersystems.signalservice.internal.push.exceptions.PaymentsRegionException;
 

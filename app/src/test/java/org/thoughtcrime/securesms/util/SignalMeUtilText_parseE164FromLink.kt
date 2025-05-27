@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.util
+package org.thoughtcrime.securesms.ryan.util
 
 import android.app.Application
 import io.mockk.every
@@ -12,9 +12,9 @@ import org.junit.Test
 import org.junit.runner.RunWith
 import org.robolectric.ParameterizedRobolectricTestRunner
 import org.robolectric.annotation.Config
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.testutil.MockAppDependenciesRule
-import org.thoughtcrime.securesms.util.SignalMeUtil.parseE164FromLink
+import org.thoughtcrime.securesms.ryan.keyvalue.SignalStore
+import org.thoughtcrime.securesms.ryan.testutil.MockAppDependenciesRule
+import org.thoughtcrime.securesms.ryan.util.SignalMeUtil.parseE164FromLink
 
 @RunWith(ParameterizedRobolectricTestRunner::class)
 @Config(manifest = Config.NONE, application = Application::class)

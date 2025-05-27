@@ -1,8 +1,8 @@
-package org.thoughtcrime.securesms.payments;
+package org.thoughtcrime.securesms.ryan.payments;
 
 import androidx.annotation.NonNull;
 
-import org.thoughtcrime.securesms.payments.proto.MobileCoinLedger;
+import org.thoughtcrime.securesms.ryan.payments.proto.MobileCoinLedger;
 import org.whispersystems.signalservice.api.payments.Money;
 
 import java.math.BigInteger;

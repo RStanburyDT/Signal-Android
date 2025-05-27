@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.video.videoconverter.muxer;
+package org.thoughtcrime.securesms.ryan.video.videoconverter.muxer;
 
 final class MuxingException extends RuntimeException {
 

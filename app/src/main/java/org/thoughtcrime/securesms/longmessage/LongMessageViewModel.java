@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.longmessage;
+package org.thoughtcrime.securesms.ryan.longmessage;
 
 import android.app.Application;
 
@@ -8,8 +8,8 @@ import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 import androidx.lifecycle.ViewModelProvider;
 
-import org.thoughtcrime.securesms.database.DatabaseObserver;
-import org.thoughtcrime.securesms.dependencies.AppDependencies;
+import org.thoughtcrime.securesms.ryan.database.DatabaseObserver;
+import org.thoughtcrime.securesms.ryan.dependencies.AppDependencies;
 
 import java.util.Optional;
 

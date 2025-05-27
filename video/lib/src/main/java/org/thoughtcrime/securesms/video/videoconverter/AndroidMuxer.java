@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.video.videoconverter;
+package org.thoughtcrime.securesms.ryan.video.videoconverter;
 
 import android.media.MediaCodec;
 import android.media.MediaFormat;
@@ -7,7 +7,7 @@ import android.media.MediaMuxer;
 import androidx.annotation.NonNull;
 import androidx.annotation.RequiresApi;
 
-import org.thoughtcrime.securesms.video.interfaces.Muxer;
+import org.thoughtcrime.securesms.ryan.video.interfaces.Muxer;
 
 import java.io.File;
 import java.io.FileDescriptor;

@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.video.videoconverter;
+package org.thoughtcrime.securesms.ryan.video.videoconverter;
 
 import android.media.MediaCodec;
 import android.media.MediaCodecInfo;
@@ -17,11 +17,11 @@ import androidx.annotation.Nullable;
 import androidx.annotation.RequiresApi;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.video.interfaces.MediaInput;
-import org.thoughtcrime.securesms.video.interfaces.Muxer;
-import org.thoughtcrime.securesms.video.videoconverter.utils.Extensions;
-import org.thoughtcrime.securesms.video.videoconverter.utils.MediaCodecCompat;
-import org.thoughtcrime.securesms.video.videoconverter.utils.Preconditions;
+import org.thoughtcrime.securesms.ryan.video.interfaces.MediaInput;
+import org.thoughtcrime.securesms.ryan.video.interfaces.Muxer;
+import org.thoughtcrime.securesms.ryan.video.videoconverter.utils.Extensions;
+import org.thoughtcrime.securesms.ryan.video.videoconverter.utils.MediaCodecCompat;
+import org.thoughtcrime.securesms.ryan.video.videoconverter.utils.Preconditions;
 
 import java.io.FileNotFoundException;
 import java.io.IOException;

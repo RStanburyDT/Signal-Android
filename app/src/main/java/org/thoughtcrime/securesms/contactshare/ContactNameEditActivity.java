@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.contactshare;
+package org.thoughtcrime.securesms.ryan.contactshare;
 
 import android.content.Context;
 import android.content.Intent;
@@ -9,12 +9,12 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.widget.Toolbar;
 import androidx.lifecycle.ViewModelProvider;
 
-import org.thoughtcrime.securesms.PassphraseRequiredActivity;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.util.DynamicNoActionBarTheme;
-import org.thoughtcrime.securesms.util.DynamicTheme;
+import org.thoughtcrime.securesms.ryan.PassphraseRequiredActivity;
+import org.thoughtcrime.securesms.ryan.R;
+import org.thoughtcrime.securesms.ryan.util.DynamicNoActionBarTheme;
+import org.thoughtcrime.securesms.ryan.util.DynamicTheme;
 
-import static org.thoughtcrime.securesms.contactshare.Contact.Name;
+import static org.thoughtcrime.securesms.ryan.contactshare.Contact.Name;
 
 public class ContactNameEditActivity extends PassphraseRequiredActivity {
 

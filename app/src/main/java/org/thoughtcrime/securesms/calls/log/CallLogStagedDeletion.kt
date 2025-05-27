@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.calls.log
+package org.thoughtcrime.securesms.ryan.calls.log
 
 import androidx.annotation.MainThread
 import io.reactivex.rxjava3.core.Single

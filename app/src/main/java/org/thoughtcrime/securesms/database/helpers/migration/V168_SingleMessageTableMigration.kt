@@ -1,11 +1,11 @@
-package org.thoughtcrime.securesms.database.helpers.migration
+package org.thoughtcrime.securesms.ryan.database.helpers.migration
 
 import android.app.Application
 import org.signal.core.util.SqlUtil
 import org.signal.core.util.Stopwatch
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.database.SQLiteDatabase
-import org.thoughtcrime.securesms.keyvalue.SignalStore
+import org.thoughtcrime.securesms.ryan.database.SQLiteDatabase
+import org.thoughtcrime.securesms.ryan.keyvalue.SignalStore
 
 @Suppress("ClassName")
 object V168_SingleMessageTableMigration : SignalDatabaseMigration {

@@ -3,16 +3,16 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.conversation.v2.items
+package org.thoughtcrime.securesms.ryan.conversation.v2.items
 
 import android.content.Context
 import android.graphics.Color
 import androidx.annotation.ColorInt
 import androidx.core.content.ContextCompat
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.conversation.ConversationMessage
-import org.thoughtcrime.securesms.conversation.v2.items.V2ConversationItemUtils.isThumbnailAtBottomOfBubble
-import org.thoughtcrime.securesms.util.hasNoBubble
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.conversation.ConversationMessage
+import org.thoughtcrime.securesms.ryan.conversation.v2.items.V2ConversationItemUtils.isThumbnailAtBottomOfBubble
+import org.thoughtcrime.securesms.ryan.util.hasNoBubble
 
 /**
  * Color information for conversation items.

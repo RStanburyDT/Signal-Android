@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.calls.log
+package org.thoughtcrime.securesms.ryan.calls.log
 
 import assertk.assertThat
 import assertk.assertions.isEmpty
@@ -11,12 +11,12 @@ import io.mockk.mockkStatic
 import io.mockk.spyk
 import org.junit.Before
 import org.junit.Test
-import org.thoughtcrime.securesms.database.CallTable.Direction
-import org.thoughtcrime.securesms.database.CallTable.Event
-import org.thoughtcrime.securesms.database.CallTable.Type
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.service.webrtc.SignalCallManager
+import org.thoughtcrime.securesms.ryan.database.CallTable.Direction
+import org.thoughtcrime.securesms.ryan.database.CallTable.Event
+import org.thoughtcrime.securesms.ryan.database.CallTable.Type
+import org.thoughtcrime.securesms.ryan.dependencies.AppDependencies
+import org.thoughtcrime.securesms.ryan.recipients.Recipient
+import org.thoughtcrime.securesms.ryan.service.webrtc.SignalCallManager
 import kotlin.time.Duration.Companion.days
 
 class CallEventCacheTest {

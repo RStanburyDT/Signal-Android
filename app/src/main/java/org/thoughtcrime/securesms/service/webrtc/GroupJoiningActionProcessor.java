@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.service.webrtc;
+package org.thoughtcrime.securesms.ryan.service.webrtc;
 
 import android.os.ResultReceiver;
 
@@ -8,15 +8,15 @@ import androidx.annotation.Nullable;
 import org.signal.core.util.logging.Log;
 import org.signal.ringrtc.CallException;
 import org.signal.ringrtc.GroupCall;
-import org.thoughtcrime.securesms.events.WebRtcViewModel;
-import org.thoughtcrime.securesms.ringrtc.Camera;
-import org.thoughtcrime.securesms.ringrtc.RemotePeer;
-import org.thoughtcrime.securesms.service.webrtc.state.WebRtcServiceState;
-import org.thoughtcrime.securesms.service.webrtc.state.WebRtcServiceStateBuilder;
-import org.thoughtcrime.securesms.util.NetworkUtil;
-import org.thoughtcrime.securesms.webrtc.locks.LockManager;
+import org.thoughtcrime.securesms.ryan.events.WebRtcViewModel;
+import org.thoughtcrime.securesms.ryan.ringrtc.Camera;
+import org.thoughtcrime.securesms.ryan.ringrtc.RemotePeer;
+import org.thoughtcrime.securesms.ryan.service.webrtc.state.WebRtcServiceState;
+import org.thoughtcrime.securesms.ryan.service.webrtc.state.WebRtcServiceStateBuilder;
+import org.thoughtcrime.securesms.ryan.util.NetworkUtil;
+import org.thoughtcrime.securesms.ryan.webrtc.locks.LockManager;
 
-import static org.thoughtcrime.securesms.webrtc.CallNotificationBuilder.TYPE_ESTABLISHED;
+import static org.thoughtcrime.securesms.ryan.webrtc.CallNotificationBuilder.TYPE_ESTABLISHED;
 
 /**
  * Process actions to go from lobby to a joined call.

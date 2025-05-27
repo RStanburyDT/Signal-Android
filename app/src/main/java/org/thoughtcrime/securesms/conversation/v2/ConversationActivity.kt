@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.conversation.v2
+package org.thoughtcrime.securesms.ryan.conversation.v2
 
 import android.content.Intent
 import android.content.res.Configuration
@@ -11,6 +11,18 @@ import io.reactivex.rxjava3.subjects.PublishSubject
 import io.reactivex.rxjava3.subjects.Subject
 import org.signal.core.util.logging.Log
 import org.signal.core.util.logging.Log.tag
+<<<<<<< HEAD
+import org.thoughtcrime.securesms.ryan.PassphraseRequiredActivity
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.components.settings.app.subscription.GooglePayComponent
+import org.thoughtcrime.securesms.ryan.components.settings.app.subscription.GooglePayRepository
+import org.thoughtcrime.securesms.ryan.components.voice.VoiceNoteMediaController
+import org.thoughtcrime.securesms.ryan.components.voice.VoiceNoteMediaControllerOwner
+import org.thoughtcrime.securesms.ryan.conversation.ConversationIntents
+import org.thoughtcrime.securesms.ryan.util.ConfigurationUtil
+import org.thoughtcrime.securesms.ryan.util.Debouncer
+import org.thoughtcrime.securesms.ryan.util.DynamicNoActionBarTheme
+=======
 import org.thoughtcrime.securesms.MainActivity
 import org.thoughtcrime.securesms.PassphraseRequiredActivity
 import org.thoughtcrime.securesms.R
@@ -24,6 +36,7 @@ import org.thoughtcrime.securesms.keyvalue.SignalStore
 import org.thoughtcrime.securesms.util.ConfigurationUtil
 import org.thoughtcrime.securesms.util.Debouncer
 import org.thoughtcrime.securesms.util.DynamicNoActionBarTheme
+>>>>>>> 23669c3c372284d42db486a218d9f29bef247abf
 import java.util.concurrent.TimeUnit
 
 /**

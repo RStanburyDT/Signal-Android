@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.webrtc.v2
+package org.thoughtcrime.securesms.ryan.components.webrtc.v2
 
 import androidx.activity.compose.setContent
 import androidx.compose.runtime.LaunchedEffect
@@ -26,20 +26,20 @@ import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
 import org.signal.core.ui.compose.theme.SignalTheme
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.components.webrtc.CallParticipantListUpdate
-import org.thoughtcrime.securesms.components.webrtc.CallParticipantsState
-import org.thoughtcrime.securesms.components.webrtc.CallReactionScrubber.Companion.CUSTOM_REACTION_BOTTOM_SHEET_TAG
-import org.thoughtcrime.securesms.components.webrtc.WebRtcControls
-import org.thoughtcrime.securesms.components.webrtc.controls.CallInfoView
-import org.thoughtcrime.securesms.components.webrtc.controls.ControlsAndInfoViewModel
-import org.thoughtcrime.securesms.components.webrtc.controls.RaiseHandSnackbar
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.events.WebRtcViewModel
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.reactions.any.ReactWithAnyEmojiBottomSheetDialogFragment
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.service.webrtc.state.WebRtcEphemeralState
-import org.thoughtcrime.securesms.webrtc.CallParticipantsViewState
+import org.thoughtcrime.securesms.ryan.components.webrtc.CallParticipantListUpdate
+import org.thoughtcrime.securesms.ryan.components.webrtc.CallParticipantsState
+import org.thoughtcrime.securesms.ryan.components.webrtc.CallReactionScrubber.Companion.CUSTOM_REACTION_BOTTOM_SHEET_TAG
+import org.thoughtcrime.securesms.ryan.components.webrtc.WebRtcControls
+import org.thoughtcrime.securesms.ryan.components.webrtc.controls.CallInfoView
+import org.thoughtcrime.securesms.ryan.components.webrtc.controls.ControlsAndInfoViewModel
+import org.thoughtcrime.securesms.ryan.components.webrtc.controls.RaiseHandSnackbar
+import org.thoughtcrime.securesms.ryan.dependencies.AppDependencies
+import org.thoughtcrime.securesms.ryan.events.WebRtcViewModel
+import org.thoughtcrime.securesms.ryan.keyvalue.SignalStore
+import org.thoughtcrime.securesms.ryan.reactions.any.ReactWithAnyEmojiBottomSheetDialogFragment
+import org.thoughtcrime.securesms.ryan.recipients.Recipient
+import org.thoughtcrime.securesms.ryan.service.webrtc.state.WebRtcEphemeralState
+import org.thoughtcrime.securesms.ryan.webrtc.CallParticipantsViewState
 import kotlin.time.Duration.Companion.seconds
 
 /**

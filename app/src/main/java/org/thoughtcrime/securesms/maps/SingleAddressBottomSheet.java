@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.maps;
+package org.thoughtcrime.securesms.ryan.maps;
 
 import android.content.Context;
 import android.location.Location;
@@ -14,7 +14,7 @@ import androidx.coordinatorlayout.widget.CoordinatorLayout;
 
 import com.google.android.material.bottomsheet.BottomSheetBehavior;
 
-import org.thoughtcrime.securesms.R;
+import org.thoughtcrime.securesms.ryan.R;
 
 import java.util.Locale;
 

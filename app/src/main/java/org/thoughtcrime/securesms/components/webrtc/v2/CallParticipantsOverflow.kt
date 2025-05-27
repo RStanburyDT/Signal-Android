@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.webrtc.v2
+package org.thoughtcrime.securesms.ryan.components.webrtc.v2
 
 import android.view.LayoutInflater
 import android.widget.FrameLayout
@@ -12,10 +12,10 @@ import androidx.compose.runtime.remember
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.viewinterop.AndroidView
 import androidx.recyclerview.widget.RecyclerView
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.webrtc.WebRtcCallParticipantsRecyclerAdapter
-import org.thoughtcrime.securesms.events.CallParticipant
-import org.thoughtcrime.securesms.util.visible
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.components.webrtc.WebRtcCallParticipantsRecyclerAdapter
+import org.thoughtcrime.securesms.ryan.events.CallParticipant
+import org.thoughtcrime.securesms.ryan.util.visible
 
 /**
  * Wrapper composable for the CallParticipants overflow recycler view.

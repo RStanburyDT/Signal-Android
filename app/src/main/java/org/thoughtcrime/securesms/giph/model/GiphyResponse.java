@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.giph.model;
+package org.thoughtcrime.securesms.ryan.giph.model;
 
 
 import com.fasterxml.jackson.annotation.JsonProperty;

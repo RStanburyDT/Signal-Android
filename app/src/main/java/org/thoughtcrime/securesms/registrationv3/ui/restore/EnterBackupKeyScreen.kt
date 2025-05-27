@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.registrationv3.ui.restore
+package org.thoughtcrime.securesms.ryan.registrationv3.ui.restore
 
 import androidx.compose.animation.AnimatedContent
 import androidx.compose.foundation.background
@@ -54,10 +54,10 @@ import org.signal.core.ui.compose.Buttons
 import org.signal.core.ui.compose.Previews
 import org.signal.core.ui.compose.SignalPreview
 import org.signal.core.ui.compose.horizontalGutters
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.backup.v2.ui.BackupsIconColors
-import org.thoughtcrime.securesms.fonts.MonoTypeface
-import org.thoughtcrime.securesms.registrationv3.ui.shared.RegistrationScreen
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.backup.v2.ui.BackupsIconColors
+import org.thoughtcrime.securesms.ryan.fonts.MonoTypeface
+import org.thoughtcrime.securesms.ryan.registrationv3.ui.shared.RegistrationScreen
 import org.whispersystems.signalservice.api.AccountEntropyPool
 
 /**

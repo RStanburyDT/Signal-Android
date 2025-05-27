@@ -1,19 +1,19 @@
-package org.thoughtcrime.securesms.migrations;
+package org.thoughtcrime.securesms.ryan.migrations;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.dependencies.AppDependencies;
-import org.thoughtcrime.securesms.jobmanager.Job;
-import org.thoughtcrime.securesms.jobmanager.JobManager;
-import org.thoughtcrime.securesms.jobs.MultiDeviceKeysUpdateJob;
-import org.thoughtcrime.securesms.jobs.MultiDeviceStorageSyncRequestJob;
-import org.thoughtcrime.securesms.jobs.RefreshAttributesJob;
-import org.thoughtcrime.securesms.jobs.RefreshOwnProfileJob;
-import org.thoughtcrime.securesms.jobs.StorageForcePushJob;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
-import org.thoughtcrime.securesms.util.TextSecurePreferences;
+import org.thoughtcrime.securesms.ryan.dependencies.AppDependencies;
+import org.thoughtcrime.securesms.ryan.jobmanager.Job;
+import org.thoughtcrime.securesms.ryan.jobmanager.JobManager;
+import org.thoughtcrime.securesms.ryan.jobs.MultiDeviceKeysUpdateJob;
+import org.thoughtcrime.securesms.ryan.jobs.MultiDeviceStorageSyncRequestJob;
+import org.thoughtcrime.securesms.ryan.jobs.RefreshAttributesJob;
+import org.thoughtcrime.securesms.ryan.jobs.RefreshOwnProfileJob;
+import org.thoughtcrime.securesms.ryan.jobs.StorageForcePushJob;
+import org.thoughtcrime.securesms.ryan.keyvalue.SignalStore;
+import org.thoughtcrime.securesms.ryan.util.TextSecurePreferences;
 
 /**
  * This does a couple things:

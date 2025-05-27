@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.backup;
+package org.thoughtcrime.securesms.ryan.backup;
 
 import androidx.annotation.NonNull;
 
@@ -11,17 +11,17 @@ import org.signal.core.util.Conversions;
 import org.signal.core.util.logging.Log;
 import org.signal.libsignal.protocol.kdf.HKDF;
 import org.signal.libsignal.protocol.util.ByteUtil;
-import org.thoughtcrime.securesms.attachments.AttachmentId;
-import org.thoughtcrime.securesms.backup.proto.Attachment;
-import org.thoughtcrime.securesms.backup.proto.Avatar;
-import org.thoughtcrime.securesms.backup.proto.BackupFrame;
-import org.thoughtcrime.securesms.backup.proto.DatabaseVersion;
-import org.thoughtcrime.securesms.backup.proto.Header;
-import org.thoughtcrime.securesms.backup.proto.KeyValue;
-import org.thoughtcrime.securesms.backup.proto.SharedPreference;
-import org.thoughtcrime.securesms.backup.proto.SqlStatement;
-import org.thoughtcrime.securesms.backup.proto.Sticker;
-import org.thoughtcrime.securesms.util.Util;
+import org.thoughtcrime.securesms.ryan.attachments.AttachmentId;
+import org.thoughtcrime.securesms.ryan.backup.proto.Attachment;
+import org.thoughtcrime.securesms.ryan.backup.proto.Avatar;
+import org.thoughtcrime.securesms.ryan.backup.proto.BackupFrame;
+import org.thoughtcrime.securesms.ryan.backup.proto.DatabaseVersion;
+import org.thoughtcrime.securesms.ryan.backup.proto.Header;
+import org.thoughtcrime.securesms.ryan.backup.proto.KeyValue;
+import org.thoughtcrime.securesms.ryan.backup.proto.SharedPreference;
+import org.thoughtcrime.securesms.ryan.backup.proto.SqlStatement;
+import org.thoughtcrime.securesms.ryan.backup.proto.Sticker;
+import org.thoughtcrime.securesms.ryan.util.Util;
 
 import java.io.IOException;
 import java.io.InputStream;

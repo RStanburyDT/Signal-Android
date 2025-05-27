@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.main
+package org.thoughtcrime.securesms.ryan.main
 
 import android.os.Build
 import androidx.compose.foundation.layout.Spacer
@@ -15,7 +15,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.unit.dp
 import org.signal.core.util.DimensionUnit
-import org.thoughtcrime.securesms.util.ViewUtil
+import org.thoughtcrime.securesms.ryan.util.ViewUtil
 
 @Composable
 fun NavigationBarSpacerCompat() {

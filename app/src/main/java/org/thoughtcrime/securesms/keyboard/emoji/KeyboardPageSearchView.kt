@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.keyboard.emoji
+package org.thoughtcrime.securesms.ryan.keyboard.emoji
 
 import android.animation.Animator
 import android.content.Context
@@ -14,11 +14,11 @@ import androidx.core.content.res.use
 import androidx.core.view.ViewCompat
 import androidx.core.widget.ImageViewCompat
 import androidx.core.widget.doAfterTextChanged
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.animation.AnimationCompleteListener
-import org.thoughtcrime.securesms.animation.ResizeAnimation
-import org.thoughtcrime.securesms.util.ViewUtil
-import org.thoughtcrime.securesms.util.visible
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.animation.AnimationCompleteListener
+import org.thoughtcrime.securesms.ryan.animation.ResizeAnimation
+import org.thoughtcrime.securesms.ryan.util.ViewUtil
+import org.thoughtcrime.securesms.ryan.util.visible
 
 private const val REVEAL_DURATION = 250L
 

@@ -1,12 +1,12 @@
-package org.thoughtcrime.securesms.groups.v2
+package org.thoughtcrime.securesms.ryan.groups.v2
 
 import assertk.assertThat
 import assertk.assertions.containsOnly
 import assertk.assertions.isEmpty
 import org.junit.Test
 import org.signal.core.util.logging.Log.initialize
-import org.thoughtcrime.securesms.crypto.ProfileKeyUtil
-import org.thoughtcrime.securesms.testutil.LogRecorder
+import org.thoughtcrime.securesms.ryan.crypto.ProfileKeyUtil
+import org.thoughtcrime.securesms.ryan.testutil.LogRecorder
 import org.whispersystems.signalservice.api.push.ServiceId
 import java.util.UUID
 

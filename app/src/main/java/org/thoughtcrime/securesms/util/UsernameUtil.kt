@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.util
+package org.thoughtcrime.securesms.ryan.util
 
 import org.signal.core.util.logging.Log
 import org.signal.libsignal.usernames.BadDiscriminatorCharacterException

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.webrtc;
+package org.thoughtcrime.securesms.ryan.components.webrtc;
 
 
 import android.content.Context;
@@ -18,10 +18,10 @@ import androidx.annotation.StringRes;
 import androidx.lifecycle.DefaultLifecycleObserver;
 import androidx.lifecycle.LifecycleOwner;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.badges.BadgeImageView;
-import org.thoughtcrime.securesms.components.AvatarImageView;
-import org.thoughtcrime.securesms.recipients.Recipient;
+import org.thoughtcrime.securesms.ryan.R;
+import org.thoughtcrime.securesms.ryan.badges.BadgeImageView;
+import org.thoughtcrime.securesms.ryan.components.AvatarImageView;
+import org.thoughtcrime.securesms.ryan.recipients.Recipient;
 
 import java.util.HashSet;
 import java.util.Iterator;

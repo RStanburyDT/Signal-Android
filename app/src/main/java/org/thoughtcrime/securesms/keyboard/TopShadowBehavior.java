@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.keyboard;
+package org.thoughtcrime.securesms.ryan.keyboard;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -9,7 +9,7 @@ import androidx.annotation.NonNull;
 import androidx.coordinatorlayout.widget.CoordinatorLayout;
 import androidx.recyclerview.widget.RecyclerView;
 
-import org.thoughtcrime.securesms.R;
+import org.thoughtcrime.securesms.ryan.R;
 
 
 @SuppressWarnings("unused")

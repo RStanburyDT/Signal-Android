@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.webrtc
+package org.thoughtcrime.securesms.ryan.components.webrtc
 
 import android.graphics.Canvas
 import androidx.recyclerview.widget.RecyclerView

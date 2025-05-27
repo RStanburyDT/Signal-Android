@@ -1,11 +1,11 @@
-package org.thoughtcrime.securesms.crypto;
+package org.thoughtcrime.securesms.ryan.crypto;
 
 import androidx.annotation.NonNull;
 
 import org.signal.libsignal.protocol.SignalProtocolAddress;
-import org.thoughtcrime.securesms.database.SignalDatabase;
-import org.thoughtcrime.securesms.dependencies.AppDependencies;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
+import org.thoughtcrime.securesms.ryan.database.SignalDatabase;
+import org.thoughtcrime.securesms.ryan.dependencies.AppDependencies;
+import org.thoughtcrime.securesms.ryan.keyvalue.SignalStore;
 import org.whispersystems.signalservice.api.SignalSessionLock;
 import org.whispersystems.signalservice.api.push.DistributionId;
 

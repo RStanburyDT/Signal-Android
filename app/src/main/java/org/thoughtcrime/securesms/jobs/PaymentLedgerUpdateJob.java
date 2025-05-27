@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.jobs;
+package org.thoughtcrime.securesms.ryan.jobs;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -6,14 +6,14 @@ import androidx.annotation.Nullable;
 import com.mobilecoin.lib.exceptions.FogSyncException;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.database.PaymentTable;
-import org.thoughtcrime.securesms.database.SignalDatabase;
-import org.thoughtcrime.securesms.dependencies.AppDependencies;
-import org.thoughtcrime.securesms.jobmanager.JsonJobData;
-import org.thoughtcrime.securesms.jobmanager.Job;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
-import org.thoughtcrime.securesms.payments.MobileCoinLedgerWrapper;
-import org.thoughtcrime.securesms.transport.RetryLaterException;
+import org.thoughtcrime.securesms.ryan.database.PaymentTable;
+import org.thoughtcrime.securesms.ryan.database.SignalDatabase;
+import org.thoughtcrime.securesms.ryan.dependencies.AppDependencies;
+import org.thoughtcrime.securesms.ryan.jobmanager.JsonJobData;
+import org.thoughtcrime.securesms.ryan.jobmanager.Job;
+import org.thoughtcrime.securesms.ryan.keyvalue.SignalStore;
+import org.thoughtcrime.securesms.ryan.payments.MobileCoinLedgerWrapper;
+import org.thoughtcrime.securesms.ryan.transport.RetryLaterException;
 
 import java.io.IOException;
 import java.util.UUID;

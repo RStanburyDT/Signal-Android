@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components;
+package org.thoughtcrime.securesms.ryan.components;
 
 import android.content.Context;
 import android.content.DialogInterface;
@@ -6,11 +6,11 @@ import android.content.DialogInterface;
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.BuildConfig;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.util.PlayStoreUtil;
-import org.thoughtcrime.securesms.util.TextSecurePreferences;
-import org.thoughtcrime.securesms.util.VersionTracker;
+import org.thoughtcrime.securesms.ryan.BuildConfig;
+import org.thoughtcrime.securesms.ryan.R;
+import org.thoughtcrime.securesms.ryan.util.PlayStoreUtil;
+import org.thoughtcrime.securesms.ryan.util.TextSecurePreferences;
+import org.thoughtcrime.securesms.ryan.util.VersionTracker;
 
 import java.util.concurrent.TimeUnit;
 

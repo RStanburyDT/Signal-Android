@@ -1,12 +1,12 @@
-package org.thoughtcrime.securesms.keyboard.sticker
+package org.thoughtcrime.securesms.ryan.keyboard.sticker
 
 import androidx.annotation.WorkerThread
-import org.thoughtcrime.securesms.components.emoji.EmojiUtil
-import org.thoughtcrime.securesms.database.EmojiSearchTable
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.database.StickerTable
-import org.thoughtcrime.securesms.database.StickerTable.StickerRecordReader
-import org.thoughtcrime.securesms.database.model.StickerRecord
+import org.thoughtcrime.securesms.ryan.components.emoji.EmojiUtil
+import org.thoughtcrime.securesms.ryan.database.EmojiSearchTable
+import org.thoughtcrime.securesms.ryan.database.SignalDatabase
+import org.thoughtcrime.securesms.ryan.database.StickerTable
+import org.thoughtcrime.securesms.ryan.database.StickerTable.StickerRecordReader
+import org.thoughtcrime.securesms.ryan.database.model.StickerRecord
 
 private const val RECENT_LIMIT = 24
 private const val EMOJI_SEARCH_RESULTS_LIMIT = 20

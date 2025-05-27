@@ -1,12 +1,12 @@
-package org.thoughtcrime.securesms.payments.backup.confirm;
+package org.thoughtcrime.securesms.ryan.payments.backup.confirm;
 
 import androidx.annotation.NonNull;
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.ViewModel;
 
-import org.thoughtcrime.securesms.payments.Mnemonic;
-import org.thoughtcrime.securesms.payments.backup.PaymentsRecoveryRepository;
-import org.thoughtcrime.securesms.util.livedata.Store;
+import org.thoughtcrime.securesms.ryan.payments.Mnemonic;
+import org.thoughtcrime.securesms.ryan.payments.backup.PaymentsRecoveryRepository;
+import org.thoughtcrime.securesms.ryan.util.livedata.Store;
 
 import java.security.SecureRandom;
 import java.util.Random;

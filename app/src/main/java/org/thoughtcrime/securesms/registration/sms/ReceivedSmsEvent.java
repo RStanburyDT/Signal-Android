@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.registration.sms;
+package org.thoughtcrime.securesms.ryan.registration.sms;
 
 import androidx.annotation.NonNull;
 

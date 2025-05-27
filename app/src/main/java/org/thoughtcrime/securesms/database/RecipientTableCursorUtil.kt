@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.database
+package org.thoughtcrime.securesms.ryan.database
 
 import android.content.Context
 import android.database.Cursor
@@ -23,30 +23,30 @@ import org.signal.core.util.requireLong
 import org.signal.core.util.requireString
 import org.signal.libsignal.zkgroup.InvalidInputException
 import org.signal.libsignal.zkgroup.profiles.ExpiringProfileKeyCredential
-import org.thoughtcrime.securesms.badges.Badges
-import org.thoughtcrime.securesms.badges.models.Badge
-import org.thoughtcrime.securesms.conversation.colors.AvatarColor
-import org.thoughtcrime.securesms.conversation.colors.ChatColors
-import org.thoughtcrime.securesms.database.IdentityTable.VerifiedStatus
-import org.thoughtcrime.securesms.database.RecipientTable.Capabilities
-import org.thoughtcrime.securesms.database.RecipientTable.RegisteredState
-import org.thoughtcrime.securesms.database.model.DistributionListId
-import org.thoughtcrime.securesms.database.model.RecipientRecord
-import org.thoughtcrime.securesms.database.model.databaseprotos.BadgeList
-import org.thoughtcrime.securesms.database.model.databaseprotos.ChatColor
-import org.thoughtcrime.securesms.database.model.databaseprotos.ExpiringProfileKeyCredentialColumnData
-import org.thoughtcrime.securesms.database.model.databaseprotos.RecipientExtras
-import org.thoughtcrime.securesms.database.model.databaseprotos.Wallpaper
-import org.thoughtcrime.securesms.groups.GroupId
-import org.thoughtcrime.securesms.profiles.AvatarHelper
-import org.thoughtcrime.securesms.profiles.ProfileName
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.service.webrtc.links.CallLinkRoomId
-import org.thoughtcrime.securesms.util.GroupUtil
-import org.thoughtcrime.securesms.util.Util
-import org.thoughtcrime.securesms.wallpaper.ChatWallpaper
-import org.thoughtcrime.securesms.wallpaper.ChatWallpaperFactory
+import org.thoughtcrime.securesms.ryan.badges.Badges
+import org.thoughtcrime.securesms.ryan.badges.models.Badge
+import org.thoughtcrime.securesms.ryan.conversation.colors.AvatarColor
+import org.thoughtcrime.securesms.ryan.conversation.colors.ChatColors
+import org.thoughtcrime.securesms.ryan.database.IdentityTable.VerifiedStatus
+import org.thoughtcrime.securesms.ryan.database.RecipientTable.Capabilities
+import org.thoughtcrime.securesms.ryan.database.RecipientTable.RegisteredState
+import org.thoughtcrime.securesms.ryan.database.model.DistributionListId
+import org.thoughtcrime.securesms.ryan.database.model.RecipientRecord
+import org.thoughtcrime.securesms.ryan.database.model.databaseprotos.BadgeList
+import org.thoughtcrime.securesms.ryan.database.model.databaseprotos.ChatColor
+import org.thoughtcrime.securesms.ryan.database.model.databaseprotos.ExpiringProfileKeyCredentialColumnData
+import org.thoughtcrime.securesms.ryan.database.model.databaseprotos.RecipientExtras
+import org.thoughtcrime.securesms.ryan.database.model.databaseprotos.Wallpaper
+import org.thoughtcrime.securesms.ryan.groups.GroupId
+import org.thoughtcrime.securesms.ryan.profiles.AvatarHelper
+import org.thoughtcrime.securesms.ryan.profiles.ProfileName
+import org.thoughtcrime.securesms.ryan.recipients.Recipient
+import org.thoughtcrime.securesms.ryan.recipients.RecipientId
+import org.thoughtcrime.securesms.ryan.service.webrtc.links.CallLinkRoomId
+import org.thoughtcrime.securesms.ryan.util.GroupUtil
+import org.thoughtcrime.securesms.ryan.util.Util
+import org.thoughtcrime.securesms.ryan.wallpaper.ChatWallpaper
+import org.thoughtcrime.securesms.ryan.wallpaper.ChatWallpaperFactory
 import org.whispersystems.signalservice.api.push.ServiceId
 import java.io.IOException
 import java.util.Arrays

@@ -3,12 +3,12 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.conversation.v2.items
+package org.thoughtcrime.securesms.ryan.conversation.v2.items
 
 import android.view.MotionEvent
 import android.view.View
 import android.view.ViewGroup
-import org.thoughtcrime.securesms.conversation.ConversationItemDisplayMode
+import org.thoughtcrime.securesms.ryan.conversation.ConversationItemDisplayMode
 
 /**
  * Responsible for the shrink-and-return feel of conversation bubbles when the user

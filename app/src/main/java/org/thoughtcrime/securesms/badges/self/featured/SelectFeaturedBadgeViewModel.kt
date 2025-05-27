@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.badges.self.featured
+package org.thoughtcrime.securesms.ryan.badges.self.featured
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.ViewModel
@@ -10,10 +10,10 @@ import io.reactivex.rxjava3.kotlin.plusAssign
 import io.reactivex.rxjava3.kotlin.subscribeBy
 import io.reactivex.rxjava3.subjects.PublishSubject
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.badges.BadgeRepository
-import org.thoughtcrime.securesms.badges.models.Badge
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.util.livedata.Store
+import org.thoughtcrime.securesms.ryan.badges.BadgeRepository
+import org.thoughtcrime.securesms.ryan.badges.models.Badge
+import org.thoughtcrime.securesms.ryan.recipients.Recipient
+import org.thoughtcrime.securesms.ryan.util.livedata.Store
 
 private val TAG = Log.tag(SelectFeaturedBadgeViewModel::class.java)
 

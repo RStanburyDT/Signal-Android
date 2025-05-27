@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.stories.viewer.page
+package org.thoughtcrime.securesms.ryan.stories.viewer.page
 
 import android.app.Application
 import io.mockk.every
@@ -14,9 +14,9 @@ import org.junit.Test
 import org.junit.runner.RunWith
 import org.robolectric.RobolectricTestRunner
 import org.robolectric.annotation.Config
-import org.thoughtcrime.securesms.database.FakeMessageRecords
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientId
+import org.thoughtcrime.securesms.ryan.database.FakeMessageRecords
+import org.thoughtcrime.securesms.ryan.recipients.Recipient
+import org.thoughtcrime.securesms.ryan.recipients.RecipientId
 
 @RunWith(RobolectricTestRunner::class)
 @Config(application = Application::class)

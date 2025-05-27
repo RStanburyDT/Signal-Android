@@ -1,11 +1,11 @@
-package org.thoughtcrime.securesms.components.settings;
+package org.thoughtcrime.securesms.ryan.components.settings;
 
 import android.view.View;
 
 import androidx.annotation.NonNull;
 
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingModel;
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingViewHolder;
+import org.thoughtcrime.securesms.ryan.util.adapter.mapping.MappingModel;
+import org.thoughtcrime.securesms.ryan.util.adapter.mapping.MappingViewHolder;
 
 /**
  * Simple progress indicator that can be used multiple times (if provided with different {@link Item#id}s).

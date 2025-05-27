@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.util.adapter.mapping;
+package org.thoughtcrime.securesms.ryan.util.adapter.mapping;
 
 import android.view.LayoutInflater;
 import android.view.View;

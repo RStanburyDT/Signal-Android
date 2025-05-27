@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.settings.app
+package org.thoughtcrime.securesms.ryan.components.settings.app
 
 import android.os.Bundle
 import android.view.View
@@ -56,6 +56,31 @@ import org.signal.core.ui.compose.Scaffolds
 import org.signal.core.ui.compose.SignalPreview
 import org.signal.core.ui.compose.horizontalGutters
 import org.signal.core.ui.compose.theme.SignalTheme
+<<<<<<< HEAD
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.avatar.AvatarImage
+import org.thoughtcrime.securesms.ryan.backup.v2.BackupRepository
+import org.thoughtcrime.securesms.ryan.banner.Banner
+import org.thoughtcrime.securesms.ryan.banner.BannerManager
+import org.thoughtcrime.securesms.ryan.banner.banners.DeprecatedBuildBanner
+import org.thoughtcrime.securesms.ryan.banner.banners.UnauthorizedBanner
+import org.thoughtcrime.securesms.ryan.banner.ui.compose.Action
+import org.thoughtcrime.securesms.ryan.banner.ui.compose.DefaultBanner
+import org.thoughtcrime.securesms.ryan.banner.ui.compose.Importance
+import org.thoughtcrime.securesms.ryan.components.emoji.Emojifier
+import org.thoughtcrime.securesms.ryan.components.settings.app.subscription.BadgeImageMedium
+import org.thoughtcrime.securesms.ryan.components.settings.app.subscription.InAppPaymentsRepository
+import org.thoughtcrime.securesms.ryan.components.settings.app.subscription.completed.InAppPaymentsBottomSheetDelegate
+import org.thoughtcrime.securesms.ryan.compose.ComposeFragment
+import org.thoughtcrime.securesms.ryan.compose.StatusBarColorNestedScrollConnection
+import org.thoughtcrime.securesms.ryan.database.model.InAppPaymentSubscriberRecord
+import org.thoughtcrime.securesms.ryan.profiles.ProfileName
+import org.thoughtcrime.securesms.ryan.recipients.Recipient
+import org.thoughtcrime.securesms.ryan.util.CommunicationActions
+import org.thoughtcrime.securesms.ryan.util.SignalE164Util
+import org.thoughtcrime.securesms.ryan.util.Util
+import org.thoughtcrime.securesms.ryan.util.navigation.safeNavigate
+=======
 import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.avatar.AvatarImage
 import org.thoughtcrime.securesms.backup.v2.BackupRepository
@@ -80,6 +105,7 @@ import org.thoughtcrime.securesms.util.CommunicationActions
 import org.thoughtcrime.securesms.util.SignalE164Util
 import org.thoughtcrime.securesms.util.Util
 import org.thoughtcrime.securesms.util.navigation.safeNavigate
+>>>>>>> 23669c3c372284d42db486a218d9f29bef247abf
 
 class AppSettingsFragment : ComposeFragment(), Callbacks {
 

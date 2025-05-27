@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.conversationlist
+package org.thoughtcrime.securesms.ryan.conversationlist
 
 import android.content.Context
 import android.view.View
@@ -6,17 +6,17 @@ import android.widget.TextView
 import androidx.core.os.bundleOf
 import androidx.lifecycle.LifecycleOwner
 import com.bumptech.glide.RequestManager
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.contacts.paged.ArbitraryRepository
-import org.thoughtcrime.securesms.contacts.paged.ContactSearchAdapter
-import org.thoughtcrime.securesms.contacts.paged.ContactSearchConfiguration
-import org.thoughtcrime.securesms.contacts.paged.ContactSearchData
-import org.thoughtcrime.securesms.contacts.paged.ContactSearchKey
-import org.thoughtcrime.securesms.conversationlist.model.ConversationSet
-import org.thoughtcrime.securesms.util.adapter.mapping.LayoutFactory
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingModel
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingViewHolder
-import org.thoughtcrime.securesms.util.visible
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.contacts.paged.ArbitraryRepository
+import org.thoughtcrime.securesms.ryan.contacts.paged.ContactSearchAdapter
+import org.thoughtcrime.securesms.ryan.contacts.paged.ContactSearchConfiguration
+import org.thoughtcrime.securesms.ryan.contacts.paged.ContactSearchData
+import org.thoughtcrime.securesms.ryan.contacts.paged.ContactSearchKey
+import org.thoughtcrime.securesms.ryan.conversationlist.model.ConversationSet
+import org.thoughtcrime.securesms.ryan.util.adapter.mapping.LayoutFactory
+import org.thoughtcrime.securesms.ryan.util.adapter.mapping.MappingModel
+import org.thoughtcrime.securesms.ryan.util.adapter.mapping.MappingViewHolder
+import org.thoughtcrime.securesms.ryan.util.visible
 import java.util.Locale
 
 /**

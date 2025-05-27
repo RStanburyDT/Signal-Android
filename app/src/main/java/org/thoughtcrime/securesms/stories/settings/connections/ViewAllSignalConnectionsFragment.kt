@@ -1,19 +1,19 @@
-package org.thoughtcrime.securesms.stories.settings.connections
+package org.thoughtcrime.securesms.ryan.stories.settings.connections
 
 import android.os.Bundle
 import android.view.View
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.ViewBinderDelegate
-import org.thoughtcrime.securesms.components.WrapperDialogFragment
-import org.thoughtcrime.securesms.contacts.LetterHeaderDecoration
-import org.thoughtcrime.securesms.contacts.paged.ContactSearchAdapter
-import org.thoughtcrime.securesms.contacts.paged.ContactSearchConfiguration
-import org.thoughtcrime.securesms.contacts.paged.ContactSearchMediator
-import org.thoughtcrime.securesms.database.RecipientTable
-import org.thoughtcrime.securesms.databinding.ViewAllSignalConnectionsFragmentBinding
-import org.thoughtcrime.securesms.groups.SelectionLimits
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.components.ViewBinderDelegate
+import org.thoughtcrime.securesms.ryan.components.WrapperDialogFragment
+import org.thoughtcrime.securesms.ryan.contacts.LetterHeaderDecoration
+import org.thoughtcrime.securesms.ryan.contacts.paged.ContactSearchAdapter
+import org.thoughtcrime.securesms.ryan.contacts.paged.ContactSearchConfiguration
+import org.thoughtcrime.securesms.ryan.contacts.paged.ContactSearchMediator
+import org.thoughtcrime.securesms.ryan.database.RecipientTable
+import org.thoughtcrime.securesms.ryan.databinding.ViewAllSignalConnectionsFragmentBinding
+import org.thoughtcrime.securesms.ryan.groups.SelectionLimits
 
 class ViewAllSignalConnectionsFragment : Fragment(R.layout.view_all_signal_connections_fragment) {
 

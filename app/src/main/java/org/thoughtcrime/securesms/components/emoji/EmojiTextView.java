@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.emoji;
+package org.thoughtcrime.securesms.ryan.components.emoji;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -33,15 +33,15 @@ import androidx.core.view.GestureDetectorCompat;
 import androidx.core.view.ViewKt;
 import androidx.core.widget.TextViewCompat;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.components.emoji.parsing.EmojiParser;
-import org.thoughtcrime.securesms.components.mention.MentionAnnotation;
-import org.thoughtcrime.securesms.components.mention.MentionRendererDelegate;
-import org.thoughtcrime.securesms.components.spoiler.SpoilerRendererDelegate;
-import org.thoughtcrime.securesms.conversation.MessageStyler;
-import org.thoughtcrime.securesms.emoji.JumboEmoji;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
-import org.thoughtcrime.securesms.util.Util;
+import org.thoughtcrime.securesms.ryan.R;
+import org.thoughtcrime.securesms.ryan.components.emoji.parsing.EmojiParser;
+import org.thoughtcrime.securesms.ryan.components.mention.MentionAnnotation;
+import org.thoughtcrime.securesms.ryan.components.mention.MentionRendererDelegate;
+import org.thoughtcrime.securesms.ryan.components.spoiler.SpoilerRendererDelegate;
+import org.thoughtcrime.securesms.ryan.conversation.MessageStyler;
+import org.thoughtcrime.securesms.ryan.emoji.JumboEmoji;
+import org.thoughtcrime.securesms.ryan.keyvalue.SignalStore;
+import org.thoughtcrime.securesms.ryan.util.Util;
 
 import java.util.Arrays;
 import java.util.List;

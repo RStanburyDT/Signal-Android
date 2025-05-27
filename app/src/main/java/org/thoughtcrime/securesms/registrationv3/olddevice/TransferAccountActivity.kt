@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.registrationv3.olddevice
+package org.thoughtcrime.securesms.ryan.registrationv3.olddevice
 
 import android.content.Context
 import android.content.Intent
@@ -54,21 +54,21 @@ import org.signal.core.ui.compose.Texts
 import org.signal.core.ui.compose.horizontalGutters
 import org.signal.core.ui.compose.theme.SignalTheme
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.BiometricDeviceAuthentication
-import org.thoughtcrime.securesms.BiometricDeviceLockContract
-import org.thoughtcrime.securesms.MainActivity
-import org.thoughtcrime.securesms.PassphraseRequiredActivity
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.devicetransfer.olddevice.OldDeviceTransferActivity
-import org.thoughtcrime.securesms.fonts.SignalSymbols
-import org.thoughtcrime.securesms.fonts.SignalSymbols.SignalSymbol
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.registrationv3.data.QuickRegistrationRepository
-import org.thoughtcrime.securesms.util.CommunicationActions
-import org.thoughtcrime.securesms.util.DynamicNoActionBarTheme
-import org.thoughtcrime.securesms.util.DynamicTheme
-import org.thoughtcrime.securesms.util.SpanUtil
-import org.thoughtcrime.securesms.util.viewModel
+import org.thoughtcrime.securesms.ryan.BiometricDeviceAuthentication
+import org.thoughtcrime.securesms.ryan.BiometricDeviceLockContract
+import org.thoughtcrime.securesms.ryan.MainActivity
+import org.thoughtcrime.securesms.ryan.PassphraseRequiredActivity
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.devicetransfer.olddevice.OldDeviceTransferActivity
+import org.thoughtcrime.securesms.ryan.fonts.SignalSymbols
+import org.thoughtcrime.securesms.ryan.fonts.SignalSymbols.SignalSymbol
+import org.thoughtcrime.securesms.ryan.keyvalue.SignalStore
+import org.thoughtcrime.securesms.ryan.registrationv3.data.QuickRegistrationRepository
+import org.thoughtcrime.securesms.ryan.util.CommunicationActions
+import org.thoughtcrime.securesms.ryan.util.DynamicNoActionBarTheme
+import org.thoughtcrime.securesms.ryan.util.DynamicTheme
+import org.thoughtcrime.securesms.ryan.util.SpanUtil
+import org.thoughtcrime.securesms.ryan.util.viewModel
 import org.whispersystems.signalservice.api.provisioning.RestoreMethod
 
 /**

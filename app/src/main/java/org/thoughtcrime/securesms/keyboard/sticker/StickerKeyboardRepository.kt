@@ -1,14 +1,14 @@
-package org.thoughtcrime.securesms.keyboard.sticker
+package org.thoughtcrime.securesms.ryan.keyboard.sticker
 
 import android.net.Uri
 import org.signal.core.util.concurrent.SignalExecutors
 import org.signal.core.util.nullIfBlank
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.database.StickerTable
-import org.thoughtcrime.securesms.database.StickerTable.StickerPackRecordReader
-import org.thoughtcrime.securesms.database.StickerTable.StickerRecordReader
-import org.thoughtcrime.securesms.database.model.StickerPackRecord
-import org.thoughtcrime.securesms.database.model.StickerRecord
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.database.StickerTable
+import org.thoughtcrime.securesms.ryan.database.StickerTable.StickerPackRecordReader
+import org.thoughtcrime.securesms.ryan.database.StickerTable.StickerRecordReader
+import org.thoughtcrime.securesms.ryan.database.model.StickerPackRecord
+import org.thoughtcrime.securesms.ryan.database.model.StickerRecord
 import java.util.function.Consumer
 
 private const val RECENT_LIMIT = 24

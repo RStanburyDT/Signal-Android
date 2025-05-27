@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.mediapreview
+package org.thoughtcrime.securesms.ryan.mediapreview
 
 import android.content.Context
 import android.os.Bundle
@@ -16,11 +16,11 @@ import com.google.android.material.shape.ShapeAppearanceModel
 import com.google.android.material.transition.platform.MaterialContainerTransform
 import com.google.android.material.transition.platform.MaterialContainerTransformSharedElementCallback
 import org.signal.core.util.concurrent.LifecycleDisposable
-import org.thoughtcrime.securesms.PassphraseRequiredActivity
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.voice.VoiceNoteMediaController
-import org.thoughtcrime.securesms.components.voice.VoiceNoteMediaControllerOwner
-import org.thoughtcrime.securesms.util.WindowUtil
+import org.thoughtcrime.securesms.ryan.PassphraseRequiredActivity
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.components.voice.VoiceNoteMediaController
+import org.thoughtcrime.securesms.ryan.components.voice.VoiceNoteMediaControllerOwner
+import org.thoughtcrime.securesms.ryan.util.WindowUtil
 
 class MediaPreviewV2Activity : PassphraseRequiredActivity(), VoiceNoteMediaControllerOwner {
 

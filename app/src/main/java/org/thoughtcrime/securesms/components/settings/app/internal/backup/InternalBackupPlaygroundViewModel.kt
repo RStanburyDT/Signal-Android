@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.settings.app.internal.backup
+package org.thoughtcrime.securesms.ryan.components.settings.app.internal.backup
 
 import android.net.Uri
 import androidx.compose.runtime.MutableState
@@ -29,6 +29,37 @@ import org.signal.core.util.readNBytesOrThrow
 import org.signal.core.util.roundedString
 import org.signal.core.util.stream.LimitedInputStream
 import org.signal.libsignal.zkgroup.profiles.ProfileKey
+<<<<<<< HEAD
+import org.thoughtcrime.securesms.ryan.attachments.AttachmentId
+import org.thoughtcrime.securesms.ryan.attachments.DatabaseAttachment
+import org.thoughtcrime.securesms.ryan.backup.v2.ArchiveValidator
+import org.thoughtcrime.securesms.ryan.backup.v2.BackupMetadata
+import org.thoughtcrime.securesms.ryan.backup.v2.BackupRepository
+import org.thoughtcrime.securesms.ryan.backup.v2.MessageBackupTier
+import org.thoughtcrime.securesms.ryan.backup.v2.local.ArchiveFileSystem
+import org.thoughtcrime.securesms.ryan.backup.v2.local.ArchiveResult
+import org.thoughtcrime.securesms.ryan.backup.v2.local.LocalArchiver
+import org.thoughtcrime.securesms.ryan.backup.v2.local.LocalArchiver.FailureCause
+import org.thoughtcrime.securesms.ryan.backup.v2.local.SnapshotFileSystem
+import org.thoughtcrime.securesms.ryan.backup.v2.stream.EncryptedBackupReader.Companion.MAC_SIZE
+import org.thoughtcrime.securesms.ryan.database.AttachmentTable
+import org.thoughtcrime.securesms.ryan.database.MessageType
+import org.thoughtcrime.securesms.ryan.database.SignalDatabase
+import org.thoughtcrime.securesms.ryan.dependencies.AppDependencies
+import org.thoughtcrime.securesms.ryan.jobs.AttachmentUploadJob
+import org.thoughtcrime.securesms.ryan.jobs.BackfillDigestJob
+import org.thoughtcrime.securesms.ryan.jobs.BackupMessagesJob
+import org.thoughtcrime.securesms.ryan.jobs.BackupRestoreJob
+import org.thoughtcrime.securesms.ryan.jobs.BackupRestoreMediaJob
+import org.thoughtcrime.securesms.ryan.jobs.CopyAttachmentToArchiveJob
+import org.thoughtcrime.securesms.ryan.jobs.RestoreAttachmentJob
+import org.thoughtcrime.securesms.ryan.jobs.RestoreAttachmentThumbnailJob
+import org.thoughtcrime.securesms.ryan.jobs.RestoreLocalAttachmentJob
+import org.thoughtcrime.securesms.ryan.keyvalue.SignalStore
+import org.thoughtcrime.securesms.ryan.mms.IncomingMessage
+import org.thoughtcrime.securesms.ryan.providers.BlobProvider
+import org.thoughtcrime.securesms.ryan.recipients.Recipient
+=======
 import org.thoughtcrime.securesms.attachments.AttachmentId
 import org.thoughtcrime.securesms.attachments.DatabaseAttachment
 import org.thoughtcrime.securesms.backup.ArchiveUploadProgress
@@ -58,6 +89,7 @@ import org.thoughtcrime.securesms.keyvalue.SignalStore
 import org.thoughtcrime.securesms.mms.IncomingMessage
 import org.thoughtcrime.securesms.providers.BlobProvider
 import org.thoughtcrime.securesms.recipients.Recipient
+>>>>>>> 23669c3c372284d42db486a218d9f29bef247abf
 import org.whispersystems.signalservice.api.NetworkResult
 import org.whispersystems.signalservice.api.backup.MessageBackupKey
 import org.whispersystems.signalservice.api.push.ServiceId.ACI

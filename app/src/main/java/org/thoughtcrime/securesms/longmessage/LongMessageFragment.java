@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.longmessage;
+package org.thoughtcrime.securesms.ryan.longmessage;
 
 import android.graphics.PorterDuff;
 import android.os.Bundle;
@@ -14,20 +14,20 @@ import androidx.core.content.ContextCompat;
 import androidx.fragment.app.DialogFragment;
 import androidx.lifecycle.ViewModelProvider;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.components.ConversationItemFooter;
-import org.thoughtcrime.securesms.components.FullScreenDialogFragment;
-import org.thoughtcrime.securesms.components.emoji.EmojiTextView;
-import org.thoughtcrime.securesms.conversation.ConversationItemDisplayMode;
-import org.thoughtcrime.securesms.conversation.colors.ColorizerView;
-import org.thoughtcrime.securesms.conversation.v2.items.V2ConversationItemUtils;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.util.CommunicationActions;
-import org.thoughtcrime.securesms.util.LongClickMovementMethod;
-import org.thoughtcrime.securesms.util.Projection;
-import org.thoughtcrime.securesms.util.ThemeUtil;
-import org.thoughtcrime.securesms.util.views.Stub;
+import org.thoughtcrime.securesms.ryan.R;
+import org.thoughtcrime.securesms.ryan.components.ConversationItemFooter;
+import org.thoughtcrime.securesms.ryan.components.FullScreenDialogFragment;
+import org.thoughtcrime.securesms.ryan.components.emoji.EmojiTextView;
+import org.thoughtcrime.securesms.ryan.conversation.ConversationItemDisplayMode;
+import org.thoughtcrime.securesms.ryan.conversation.colors.ColorizerView;
+import org.thoughtcrime.securesms.ryan.conversation.v2.items.V2ConversationItemUtils;
+import org.thoughtcrime.securesms.ryan.keyvalue.SignalStore;
+import org.thoughtcrime.securesms.ryan.recipients.Recipient;
+import org.thoughtcrime.securesms.ryan.util.CommunicationActions;
+import org.thoughtcrime.securesms.ryan.util.LongClickMovementMethod;
+import org.thoughtcrime.securesms.ryan.util.Projection;
+import org.thoughtcrime.securesms.ryan.util.ThemeUtil;
+import org.thoughtcrime.securesms.ryan.util.views.Stub;
 
 import java.util.Collections;
 import java.util.Locale;

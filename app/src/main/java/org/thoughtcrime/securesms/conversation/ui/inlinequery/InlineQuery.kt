@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.conversation.ui.inlinequery
+package org.thoughtcrime.securesms.ryan.conversation.ui.inlinequery
 
 /**
  * Represents an inline query via compose text.

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.messages
+package org.thoughtcrime.securesms.ryan.messages
 
 import android.app.Notification
 import android.app.PendingIntent
@@ -31,28 +31,28 @@ import org.signal.libsignal.protocol.message.CiphertextMessage
 import org.signal.libsignal.protocol.message.DecryptionErrorMessage
 import org.signal.libsignal.protocol.message.SenderKeyDistributionMessage
 import org.signal.libsignal.zkgroup.groups.GroupMasterKey
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.crypto.ReentrantSessionLock
-import org.thoughtcrime.securesms.crypto.SealedSenderAccessUtil
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.groups.BadGroupIdException
-import org.thoughtcrime.securesms.groups.GroupId
-import org.thoughtcrime.securesms.jobmanager.JobManager
-import org.thoughtcrime.securesms.jobs.AutomaticSessionResetJob
-import org.thoughtcrime.securesms.jobs.PreKeysSyncJob
-import org.thoughtcrime.securesms.jobs.SendRetryReceiptJob
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.logsubmit.SubmitDebugLogActivity
-import org.thoughtcrime.securesms.messages.MessageDecryptor.FollowUpOperation
-import org.thoughtcrime.securesms.messages.protocol.BufferedProtocolStore
-import org.thoughtcrime.securesms.notifications.NotificationChannels
-import org.thoughtcrime.securesms.notifications.NotificationIds
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.util.LRUCache
-import org.thoughtcrime.securesms.util.RemoteConfig
-import org.thoughtcrime.securesms.util.asChain
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.crypto.ReentrantSessionLock
+import org.thoughtcrime.securesms.ryan.crypto.SealedSenderAccessUtil
+import org.thoughtcrime.securesms.ryan.database.SignalDatabase
+import org.thoughtcrime.securesms.ryan.dependencies.AppDependencies
+import org.thoughtcrime.securesms.ryan.groups.BadGroupIdException
+import org.thoughtcrime.securesms.ryan.groups.GroupId
+import org.thoughtcrime.securesms.ryan.jobmanager.JobManager
+import org.thoughtcrime.securesms.ryan.jobs.AutomaticSessionResetJob
+import org.thoughtcrime.securesms.ryan.jobs.PreKeysSyncJob
+import org.thoughtcrime.securesms.ryan.jobs.SendRetryReceiptJob
+import org.thoughtcrime.securesms.ryan.keyvalue.SignalStore
+import org.thoughtcrime.securesms.ryan.logsubmit.SubmitDebugLogActivity
+import org.thoughtcrime.securesms.ryan.messages.MessageDecryptor.FollowUpOperation
+import org.thoughtcrime.securesms.ryan.messages.protocol.BufferedProtocolStore
+import org.thoughtcrime.securesms.ryan.notifications.NotificationChannels
+import org.thoughtcrime.securesms.ryan.notifications.NotificationIds
+import org.thoughtcrime.securesms.ryan.recipients.Recipient
+import org.thoughtcrime.securesms.ryan.recipients.RecipientId
+import org.thoughtcrime.securesms.ryan.util.LRUCache
+import org.thoughtcrime.securesms.ryan.util.RemoteConfig
+import org.thoughtcrime.securesms.ryan.util.asChain
 import org.whispersystems.signalservice.api.InvalidMessageStructureException
 import org.whispersystems.signalservice.api.crypto.ContentHint
 import org.whispersystems.signalservice.api.crypto.EnvelopeMetadata
@@ -86,7 +86,7 @@ object MessageDecryptor {
    * Decrypts an envelope and provides a [Result]. This method has side effects, but all of them are limited to [SignalDatabase].
    * That means that this operation should be atomic when performed within a transaction.
    * To keep that property, there may be [Result.followUpOperations] you have to perform after your transaction is committed.
-   * These can vary from enqueueing jobs to inserting items into the [org.thoughtcrime.securesms.database.PendingRetryReceiptCache].
+   * These can vary from enqueueing jobs to inserting items into the [org.thoughtcrime.securesms.ryan.database.PendingRetryReceiptCache].
    */
   fun decrypt(
     context: Context,

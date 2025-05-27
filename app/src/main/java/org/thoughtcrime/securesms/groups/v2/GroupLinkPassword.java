@@ -1,8 +1,8 @@
-package org.thoughtcrime.securesms.groups.v2;
+package org.thoughtcrime.securesms.ryan.groups.v2;
 
 import androidx.annotation.NonNull;
 
-import org.thoughtcrime.securesms.util.Util;
+import org.thoughtcrime.securesms.ryan.util.Util;
 
 import java.util.Arrays;
 

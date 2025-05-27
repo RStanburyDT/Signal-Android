@@ -1,9 +1,9 @@
-package org.thoughtcrime.securesms.keyboard.emoji
+package org.thoughtcrime.securesms.ryan.keyboard.emoji
 
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.keyboard.KeyboardPageCategoryIconViewHolder
-import org.thoughtcrime.securesms.util.adapter.mapping.LayoutFactory
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingAdapter
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.keyboard.KeyboardPageCategoryIconViewHolder
+import org.thoughtcrime.securesms.ryan.util.adapter.mapping.LayoutFactory
+import org.thoughtcrime.securesms.ryan.util.adapter.mapping.MappingAdapter
 import java.util.function.Consumer
 
 class EmojiKeyboardPageCategoriesAdapter(private val onPageSelected: Consumer<String>) : MappingAdapter() {

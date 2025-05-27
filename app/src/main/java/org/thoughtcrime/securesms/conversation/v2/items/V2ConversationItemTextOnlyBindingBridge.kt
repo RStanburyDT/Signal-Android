@@ -3,22 +3,22 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.conversation.v2.items
+package org.thoughtcrime.securesms.ryan.conversation.v2.items
 
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Space
 import android.widget.TextView
 import com.google.android.material.imageview.ShapeableImageView
-import org.thoughtcrime.securesms.badges.BadgeImageView
-import org.thoughtcrime.securesms.components.AlertView
-import org.thoughtcrime.securesms.components.AvatarImageView
-import org.thoughtcrime.securesms.components.DeliveryStatusView
-import org.thoughtcrime.securesms.components.ExpirationTimerView
-import org.thoughtcrime.securesms.components.emoji.EmojiTextView
-import org.thoughtcrime.securesms.databinding.V2ConversationItemTextOnlyIncomingBinding
-import org.thoughtcrime.securesms.databinding.V2ConversationItemTextOnlyOutgoingBinding
-import org.thoughtcrime.securesms.reactions.ReactionsConversationView
+import org.thoughtcrime.securesms.ryan.badges.BadgeImageView
+import org.thoughtcrime.securesms.ryan.components.AlertView
+import org.thoughtcrime.securesms.ryan.components.AvatarImageView
+import org.thoughtcrime.securesms.ryan.components.DeliveryStatusView
+import org.thoughtcrime.securesms.ryan.components.ExpirationTimerView
+import org.thoughtcrime.securesms.ryan.components.emoji.EmojiTextView
+import org.thoughtcrime.securesms.ryan.databinding.V2ConversationItemTextOnlyIncomingBinding
+import org.thoughtcrime.securesms.ryan.databinding.V2ConversationItemTextOnlyOutgoingBinding
+import org.thoughtcrime.securesms.ryan.reactions.ReactionsConversationView
 
 /**
  * Pass-through interface for bridging incoming and outgoing text-only message views.

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.util.fragments
+package org.thoughtcrime.securesms.ryan.util.fragments
 
 import androidx.fragment.app.Fragment
 

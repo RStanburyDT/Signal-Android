@@ -1,10 +1,10 @@
-package org.thoughtcrime.securesms.recipients;
+package org.thoughtcrime.securesms.ryan.recipients;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.groups.GroupId;
+import org.thoughtcrime.securesms.ryan.groups.GroupId;
 import org.whispersystems.signalservice.api.push.ServiceId;
 
 import java.util.LinkedHashMap;

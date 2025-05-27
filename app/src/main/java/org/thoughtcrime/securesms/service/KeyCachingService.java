@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.thoughtcrime.securesms.service;
+package org.thoughtcrime.securesms.ryan.service;
 
 import android.annotation.SuppressLint;
 import android.app.AlarmManager;
@@ -35,20 +35,20 @@ import androidx.core.content.ContextCompat;
 
 import org.signal.core.util.concurrent.SignalExecutors;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.BuildConfig;
-import org.thoughtcrime.securesms.DummyActivity;
-import org.thoughtcrime.securesms.MainActivity;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.crypto.InvalidPassphraseException;
-import org.thoughtcrime.securesms.crypto.MasterSecret;
-import org.thoughtcrime.securesms.crypto.MasterSecretUtil;
-import org.thoughtcrime.securesms.dependencies.AppDependencies;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
-import org.thoughtcrime.securesms.migrations.ApplicationMigrations;
-import org.thoughtcrime.securesms.notifications.NotificationChannels;
-import org.thoughtcrime.securesms.util.AppForegroundObserver;
-import org.thoughtcrime.securesms.util.DynamicLanguage;
-import org.thoughtcrime.securesms.util.ServiceUtil;
+import org.thoughtcrime.securesms.ryan.BuildConfig;
+import org.thoughtcrime.securesms.ryan.DummyActivity;
+import org.thoughtcrime.securesms.ryan.MainActivity;
+import org.thoughtcrime.securesms.ryan.R;
+import org.thoughtcrime.securesms.ryan.crypto.InvalidPassphraseException;
+import org.thoughtcrime.securesms.ryan.crypto.MasterSecret;
+import org.thoughtcrime.securesms.ryan.crypto.MasterSecretUtil;
+import org.thoughtcrime.securesms.ryan.dependencies.AppDependencies;
+import org.thoughtcrime.securesms.ryan.keyvalue.SignalStore;
+import org.thoughtcrime.securesms.ryan.migrations.ApplicationMigrations;
+import org.thoughtcrime.securesms.ryan.notifications.NotificationChannels;
+import org.thoughtcrime.securesms.ryan.util.AppForegroundObserver;
+import org.thoughtcrime.securesms.ryan.util.DynamicLanguage;
+import org.thoughtcrime.securesms.ryan.util.ServiceUtil;
 
 import java.util.concurrent.TimeUnit;
 

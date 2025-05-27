@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.database
+package org.thoughtcrime.securesms.ryan.database
 
 import android.app.Application
 import androidx.test.ext.junit.runners.AndroidJUnit4
@@ -14,10 +14,10 @@ import org.signal.core.util.getForeignKeys
 import org.signal.core.util.getIndexes
 import org.signal.core.util.readToList
 import org.signal.core.util.requireNonNullString
-import org.thoughtcrime.securesms.database.helpers.SignalDatabaseMigrations
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.testing.SignalActivityRule
-import org.thoughtcrime.securesms.database.SQLiteDatabase as SignalSQLiteDatabase
+import org.thoughtcrime.securesms.ryan.database.helpers.SignalDatabaseMigrations
+import org.thoughtcrime.securesms.ryan.dependencies.AppDependencies
+import org.thoughtcrime.securesms.ryan.testing.SignalActivityRule
+import org.thoughtcrime.securesms.ryan.database.SQLiteDatabase as SignalSQLiteDatabase
 
 /**
  * A test that guarantees that a freshly-created database looks the same as one that went through the upgrade path.

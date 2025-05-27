@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.registrationv3.ui.restore
+package org.thoughtcrime.securesms.ryan.registrationv3.ui.restore
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
@@ -19,18 +19,18 @@ import kotlinx.coroutines.withContext
 import org.signal.core.util.ByteSize
 import org.signal.core.util.bytes
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.backup.v2.BackupRepository
-import org.thoughtcrime.securesms.backup.v2.MessageBackupTier
-import org.thoughtcrime.securesms.backup.v2.RestoreV2Event
-import org.thoughtcrime.securesms.database.model.databaseprotos.RestoreDecisionState
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.jobmanager.JobTracker
-import org.thoughtcrime.securesms.jobs.BackupRestoreJob
-import org.thoughtcrime.securesms.jobs.BackupRestoreMediaJob
-import org.thoughtcrime.securesms.keyvalue.Completed
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.keyvalue.Skipped
-import org.thoughtcrime.securesms.registrationv3.data.QuickRegistrationRepository
+import org.thoughtcrime.securesms.ryan.backup.v2.BackupRepository
+import org.thoughtcrime.securesms.ryan.backup.v2.MessageBackupTier
+import org.thoughtcrime.securesms.ryan.backup.v2.RestoreV2Event
+import org.thoughtcrime.securesms.ryan.database.model.databaseprotos.RestoreDecisionState
+import org.thoughtcrime.securesms.ryan.dependencies.AppDependencies
+import org.thoughtcrime.securesms.ryan.jobmanager.JobTracker
+import org.thoughtcrime.securesms.ryan.jobs.BackupRestoreJob
+import org.thoughtcrime.securesms.ryan.jobs.BackupRestoreMediaJob
+import org.thoughtcrime.securesms.ryan.keyvalue.Completed
+import org.thoughtcrime.securesms.ryan.keyvalue.SignalStore
+import org.thoughtcrime.securesms.ryan.keyvalue.Skipped
+import org.thoughtcrime.securesms.ryan.registrationv3.data.QuickRegistrationRepository
 import org.whispersystems.signalservice.api.provisioning.RestoreMethod
 
 class RemoteRestoreViewModel(isOnlyRestoreOption: Boolean) : ViewModel() {

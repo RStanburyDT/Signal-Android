@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.reactions.any;
+package org.thoughtcrime.securesms.ryan.reactions.any;
 
 import android.net.Uri;
 
@@ -7,10 +7,10 @@ import androidx.annotation.Nullable;
 
 import com.annimon.stream.Stream;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.components.emoji.Emoji;
-import org.thoughtcrime.securesms.components.emoji.EmojiPageModel;
-import org.thoughtcrime.securesms.components.emoji.RecentEmojiPageModel;
+import org.thoughtcrime.securesms.ryan.R;
+import org.thoughtcrime.securesms.ryan.components.emoji.Emoji;
+import org.thoughtcrime.securesms.ryan.components.emoji.EmojiPageModel;
+import org.thoughtcrime.securesms.ryan.components.emoji.RecentEmojiPageModel;
 
 import java.util.List;
 

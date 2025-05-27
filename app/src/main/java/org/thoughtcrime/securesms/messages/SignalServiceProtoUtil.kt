@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.messages
+package org.thoughtcrime.securesms.ryan.messages
 
 import com.squareup.wire.Message
 import okio.ByteString
@@ -8,14 +8,14 @@ import org.signal.core.util.orNull
 import org.signal.libsignal.protocol.message.DecryptionErrorMessage
 import org.signal.libsignal.zkgroup.groups.GroupMasterKey
 import org.signal.storageservice.protos.groups.local.DecryptedGroupChange
-import org.thoughtcrime.securesms.attachments.Attachment
-import org.thoughtcrime.securesms.attachments.Cdn
-import org.thoughtcrime.securesms.attachments.PointerAttachment
-import org.thoughtcrime.securesms.database.model.StoryType
-import org.thoughtcrime.securesms.groups.GroupId
-import org.thoughtcrime.securesms.stickers.StickerLocator
-import org.thoughtcrime.securesms.util.MediaUtil
-import org.thoughtcrime.securesms.util.RemoteConfig
+import org.thoughtcrime.securesms.ryan.attachments.Attachment
+import org.thoughtcrime.securesms.ryan.attachments.Cdn
+import org.thoughtcrime.securesms.ryan.attachments.PointerAttachment
+import org.thoughtcrime.securesms.ryan.database.model.StoryType
+import org.thoughtcrime.securesms.ryan.groups.GroupId
+import org.thoughtcrime.securesms.ryan.stickers.StickerLocator
+import org.thoughtcrime.securesms.ryan.util.MediaUtil
+import org.thoughtcrime.securesms.ryan.util.RemoteConfig
 import org.whispersystems.signalservice.api.InvalidMessageStructureException
 import org.whispersystems.signalservice.api.crypto.EnvelopeMetadata
 import org.whispersystems.signalservice.api.messages.SignalServiceAttachmentPointer

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.mediaoverview;
+package org.thoughtcrime.securesms.ryan.mediaoverview;
 
 import android.app.ActivityOptions;
 import android.content.ActivityNotFoundException;
@@ -33,6 +33,27 @@ import org.signal.core.util.ByteSize;
 import org.signal.core.util.DimensionUnit;
 import org.signal.core.util.concurrent.LifecycleDisposable;
 import org.signal.core.util.logging.Log;
+<<<<<<< HEAD
+import org.thoughtcrime.securesms.ryan.LoggingFragment;
+import org.thoughtcrime.securesms.ryan.R;
+import org.thoughtcrime.securesms.ryan.attachments.DatabaseAttachment;
+import org.thoughtcrime.securesms.ryan.components.DeleteSyncEducationDialog;
+import org.thoughtcrime.securesms.ryan.components.menu.ActionItem;
+import org.thoughtcrime.securesms.ryan.components.menu.SignalBottomActionBar;
+import org.thoughtcrime.securesms.ryan.components.voice.VoiceNoteMediaController;
+import org.thoughtcrime.securesms.ryan.components.voice.VoiceNotePlaybackState;
+import org.thoughtcrime.securesms.ryan.database.AttachmentTable;
+import org.thoughtcrime.securesms.ryan.database.MediaTable;
+import org.thoughtcrime.securesms.ryan.database.loaders.GroupedThreadMediaLoader;
+import org.thoughtcrime.securesms.ryan.database.loaders.MediaLoader;
+import org.thoughtcrime.securesms.ryan.mediapreview.MediaIntentFactory;
+import org.thoughtcrime.securesms.ryan.mediapreview.MediaPreviewV2Activity;
+import org.thoughtcrime.securesms.ryan.mms.PartAuthority;
+import org.thoughtcrime.securesms.ryan.permissions.Permissions;
+import org.thoughtcrime.securesms.ryan.util.BottomOffsetDecoration;
+import org.thoughtcrime.securesms.ryan.util.MediaUtil;
+import org.thoughtcrime.securesms.ryan.util.ViewUtil;
+=======
 import org.thoughtcrime.securesms.LoggingFragment;
 import org.thoughtcrime.securesms.R;
 import org.thoughtcrime.securesms.attachments.DatabaseAttachment;
@@ -52,6 +73,7 @@ import org.thoughtcrime.securesms.permissions.Permissions;
 import org.thoughtcrime.securesms.util.BottomOffsetDecoration;
 import org.thoughtcrime.securesms.util.MediaUtil;
 import org.thoughtcrime.securesms.util.ViewUtil;
+>>>>>>> 23669c3c372284d42db486a218d9f29bef247abf
 
 import java.util.Arrays;
 import java.util.Objects;

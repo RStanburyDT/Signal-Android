@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.registration.v2
+package org.thoughtcrime.securesms.ryan.registration.v2
 
 import io.mockk.every
 import io.mockk.mockk
@@ -8,8 +8,8 @@ import org.junit.Assert.assertTrue
 import org.junit.Test
 import org.signal.core.util.StreamUtil
 import org.signal.libsignal.svr2.PinHash
-import org.thoughtcrime.securesms.registration.v2.testdata.KbsTestVector
-import org.thoughtcrime.securesms.testutil.SecureRandomTestUtil
+import org.thoughtcrime.securesms.ryan.registration.v2.testdata.KbsTestVector
+import org.thoughtcrime.securesms.ryan.testutil.SecureRandomTestUtil
 import org.whispersystems.signalservice.api.kbs.MasterKey
 import org.whispersystems.signalservice.api.kbs.PinHashUtil.createNewKbsData
 import org.whispersystems.signalservice.api.kbs.PinHashUtil.decryptSvrDataIVCipherText

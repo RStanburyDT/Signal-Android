@@ -1,8 +1,8 @@
-package org.thoughtcrime.securesms.mediapreview
+package org.thoughtcrime.securesms.ryan.mediapreview
 
 import android.text.SpannableString
-import org.thoughtcrime.securesms.database.MediaTable
-import org.thoughtcrime.securesms.mediasend.Media
+import org.thoughtcrime.securesms.ryan.database.MediaTable
+import org.thoughtcrime.securesms.ryan.mediasend.Media
 
 data class MediaPreviewV2State(
   val mediaRecords: List<MediaTable.MediaRecord> = emptyList(),

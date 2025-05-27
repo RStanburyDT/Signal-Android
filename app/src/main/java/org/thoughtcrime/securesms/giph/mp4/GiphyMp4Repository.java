@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.giph.mp4;
+package org.thoughtcrime.securesms.ryan.giph.mp4;
 
 import android.net.Uri;
 
@@ -7,13 +7,13 @@ import androidx.annotation.WorkerThread;
 import androidx.core.util.Consumer;
 
 import org.signal.core.util.concurrent.SignalExecutors;
-import org.thoughtcrime.securesms.dependencies.AppDependencies;
-import org.thoughtcrime.securesms.giph.model.GiphyImage;
-import org.thoughtcrime.securesms.net.ContentProxySelector;
-import org.thoughtcrime.securesms.net.StandardUserAgentInterceptor;
-import org.thoughtcrime.securesms.providers.BlobProvider;
-import org.thoughtcrime.securesms.push.SignalServiceNetworkAccess;
-import org.thoughtcrime.securesms.util.MediaUtil;
+import org.thoughtcrime.securesms.ryan.dependencies.AppDependencies;
+import org.thoughtcrime.securesms.ryan.giph.model.GiphyImage;
+import org.thoughtcrime.securesms.ryan.net.ContentProxySelector;
+import org.thoughtcrime.securesms.ryan.net.StandardUserAgentInterceptor;
+import org.thoughtcrime.securesms.ryan.providers.BlobProvider;
+import org.thoughtcrime.securesms.ryan.push.SignalServiceNetworkAccess;
+import org.thoughtcrime.securesms.ryan.util.MediaUtil;
 
 import java.io.IOException;
 import java.util.concurrent.Executor;

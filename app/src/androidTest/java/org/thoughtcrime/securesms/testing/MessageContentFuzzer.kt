@@ -1,14 +1,14 @@
-package org.thoughtcrime.securesms.testing
+package org.thoughtcrime.securesms.ryan.testing
 
 import okio.ByteString
 import okio.ByteString.Companion.toByteString
 import org.signal.core.util.Base64
-import org.thoughtcrime.securesms.database.AttachmentTable
-import org.thoughtcrime.securesms.groups.GroupId
-import org.thoughtcrime.securesms.messages.SignalServiceProtoUtil.buildWith
-import org.thoughtcrime.securesms.messages.TestMessage
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientId
+import org.thoughtcrime.securesms.ryan.database.AttachmentTable
+import org.thoughtcrime.securesms.ryan.groups.GroupId
+import org.thoughtcrime.securesms.ryan.messages.SignalServiceProtoUtil.buildWith
+import org.thoughtcrime.securesms.ryan.messages.TestMessage
+import org.thoughtcrime.securesms.ryan.recipients.Recipient
+import org.thoughtcrime.securesms.ryan.recipients.RecipientId
 import org.whispersystems.signalservice.api.crypto.EnvelopeMetadata
 import org.whispersystems.signalservice.api.util.UuidUtil
 import org.whispersystems.signalservice.internal.push.AddressableMessage

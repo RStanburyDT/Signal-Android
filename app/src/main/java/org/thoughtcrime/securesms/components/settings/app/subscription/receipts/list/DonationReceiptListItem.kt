@@ -1,17 +1,17 @@
-package org.thoughtcrime.securesms.components.settings.app.subscription.receipts.list
+package org.thoughtcrime.securesms.ryan.components.settings.app.subscription.receipts.list
 
 import android.view.View
 import android.widget.TextView
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.badges.BadgeImageView
-import org.thoughtcrime.securesms.badges.models.Badge
-import org.thoughtcrime.securesms.database.model.InAppPaymentReceiptRecord
-import org.thoughtcrime.securesms.payments.FiatMoneyUtil
-import org.thoughtcrime.securesms.util.DateUtils
-import org.thoughtcrime.securesms.util.adapter.mapping.LayoutFactory
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingAdapter
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingModel
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingViewHolder
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.badges.BadgeImageView
+import org.thoughtcrime.securesms.ryan.badges.models.Badge
+import org.thoughtcrime.securesms.ryan.database.model.InAppPaymentReceiptRecord
+import org.thoughtcrime.securesms.ryan.payments.FiatMoneyUtil
+import org.thoughtcrime.securesms.ryan.util.DateUtils
+import org.thoughtcrime.securesms.ryan.util.adapter.mapping.LayoutFactory
+import org.thoughtcrime.securesms.ryan.util.adapter.mapping.MappingAdapter
+import org.thoughtcrime.securesms.ryan.util.adapter.mapping.MappingModel
+import org.thoughtcrime.securesms.ryan.util.adapter.mapping.MappingViewHolder
 import java.util.Locale
 
 object DonationReceiptListItem {

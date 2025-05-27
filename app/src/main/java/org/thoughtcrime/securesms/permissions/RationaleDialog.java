@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.permissions;
+package org.thoughtcrime.securesms.ryan.permissions;
 
 
 import android.content.Context;
@@ -21,9 +21,9 @@ import androidx.core.graphics.drawable.DrawableCompat;
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 
 import org.signal.core.util.DimensionUnit;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.util.ThemeUtil;
-import org.thoughtcrime.securesms.util.ViewUtil;
+import org.thoughtcrime.securesms.ryan.R;
+import org.thoughtcrime.securesms.ryan.util.ThemeUtil;
+import org.thoughtcrime.securesms.ryan.util.ViewUtil;
 
 import java.util.Objects;
 

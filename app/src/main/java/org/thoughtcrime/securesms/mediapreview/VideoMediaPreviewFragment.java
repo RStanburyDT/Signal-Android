@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.mediapreview;
+package org.thoughtcrime.securesms.ryan.mediapreview;
 
 import android.app.Activity;
 import android.net.Uri;
@@ -17,11 +17,11 @@ import androidx.media3.ui.LegacyPlayerControlView;
 
 import org.signal.core.util.concurrent.LifecycleDisposable;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.components.voice.VoiceNoteMediaControllerOwner;
-import org.thoughtcrime.securesms.mms.VideoSlide;
-import org.thoughtcrime.securesms.util.MediaUtil;
-import org.thoughtcrime.securesms.video.VideoPlayer;
+import org.thoughtcrime.securesms.ryan.R;
+import org.thoughtcrime.securesms.ryan.components.voice.VoiceNoteMediaControllerOwner;
+import org.thoughtcrime.securesms.ryan.mms.VideoSlide;
+import org.thoughtcrime.securesms.ryan.util.MediaUtil;
+import org.thoughtcrime.securesms.ryan.video.VideoPlayer;
 
 import java.util.concurrent.TimeUnit;
 

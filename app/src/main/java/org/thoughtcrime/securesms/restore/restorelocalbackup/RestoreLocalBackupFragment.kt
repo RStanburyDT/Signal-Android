@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.restore.restorelocalbackup
+package org.thoughtcrime.securesms.ryan.restore.restorelocalbackup
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -22,21 +22,21 @@ import org.greenrobot.eventbus.Subscribe
 import org.greenrobot.eventbus.ThreadMode
 import org.signal.core.util.bytes
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.LoggingFragment
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.backup.BackupEvent
-import org.thoughtcrime.securesms.components.ViewBinderDelegate
-import org.thoughtcrime.securesms.databinding.FragmentRestoreLocalBackupBinding
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.registration.fragments.RegistrationViewDelegate.setDebugLogSubmitMultiTapView
-import org.thoughtcrime.securesms.restore.RestoreActivity
-import org.thoughtcrime.securesms.restore.RestoreRepository
-import org.thoughtcrime.securesms.restore.RestoreViewModel
-import org.thoughtcrime.securesms.util.BackupUtil
-import org.thoughtcrime.securesms.util.DateUtils
-import org.thoughtcrime.securesms.util.ViewModelFactory
-import org.thoughtcrime.securesms.util.ViewUtil
-import org.thoughtcrime.securesms.util.visible
+import org.thoughtcrime.securesms.ryan.LoggingFragment
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.backup.BackupEvent
+import org.thoughtcrime.securesms.ryan.components.ViewBinderDelegate
+import org.thoughtcrime.securesms.ryan.databinding.FragmentRestoreLocalBackupBinding
+import org.thoughtcrime.securesms.ryan.keyvalue.SignalStore
+import org.thoughtcrime.securesms.ryan.registration.fragments.RegistrationViewDelegate.setDebugLogSubmitMultiTapView
+import org.thoughtcrime.securesms.ryan.restore.RestoreActivity
+import org.thoughtcrime.securesms.ryan.restore.RestoreRepository
+import org.thoughtcrime.securesms.ryan.restore.RestoreViewModel
+import org.thoughtcrime.securesms.ryan.util.BackupUtil
+import org.thoughtcrime.securesms.ryan.util.DateUtils
+import org.thoughtcrime.securesms.ryan.util.ViewModelFactory
+import org.thoughtcrime.securesms.ryan.util.ViewUtil
+import org.thoughtcrime.securesms.ryan.util.visible
 import java.util.Locale
 
 /**

@@ -1,7 +1,7 @@
-package org.thoughtcrime.securesms.contacts.paged
+package org.thoughtcrime.securesms.ryan.contacts.paged
 
-import org.thoughtcrime.securesms.contacts.HeaderAction
-import org.thoughtcrime.securesms.database.RecipientTable
+import org.thoughtcrime.securesms.ryan.contacts.HeaderAction
+import org.thoughtcrime.securesms.ryan.database.RecipientTable
 
 /**
  * A strongly typed descriptor of how a given list of contacts should be formatted

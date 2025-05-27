@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.util.dualsim;
+package org.thoughtcrime.securesms.ryan.util.dualsim;
 
 import android.content.Context;
 import android.os.Build;
@@ -10,8 +10,8 @@ import androidx.annotation.NonNull;
 import androidx.annotation.RequiresApi;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.util.ServiceUtil;
+import org.thoughtcrime.securesms.ryan.R;
+import org.thoughtcrime.securesms.ryan.util.ServiceUtil;
 
 import java.util.Collection;
 import java.util.Collections;

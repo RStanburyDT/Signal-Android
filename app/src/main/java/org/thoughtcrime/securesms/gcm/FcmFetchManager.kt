@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.gcm
+package org.thoughtcrime.securesms.ryan.gcm
 
 import android.app.Notification
 import android.app.PendingIntent
@@ -10,16 +10,16 @@ import androidx.core.app.NotificationManagerCompat
 import org.signal.core.util.PendingIntentFlags.mutable
 import org.signal.core.util.concurrent.SignalExecutors
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.MainActivity
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.jobs.MessageFetchJob
-import org.thoughtcrime.securesms.messages.WebSocketDrainer
-import org.thoughtcrime.securesms.notifications.NotificationChannels
-import org.thoughtcrime.securesms.notifications.NotificationIds
-import org.thoughtcrime.securesms.util.RemoteConfig
-import org.thoughtcrime.securesms.util.SignalLocalMetrics
-import org.thoughtcrime.securesms.util.concurrent.SerialMonoLifoExecutor
+import org.thoughtcrime.securesms.ryan.MainActivity
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.dependencies.AppDependencies
+import org.thoughtcrime.securesms.ryan.jobs.MessageFetchJob
+import org.thoughtcrime.securesms.ryan.messages.WebSocketDrainer
+import org.thoughtcrime.securesms.ryan.notifications.NotificationChannels
+import org.thoughtcrime.securesms.ryan.notifications.NotificationIds
+import org.thoughtcrime.securesms.ryan.util.RemoteConfig
+import org.thoughtcrime.securesms.ryan.util.SignalLocalMetrics
+import org.thoughtcrime.securesms.ryan.util.concurrent.SerialMonoLifoExecutor
 import kotlin.time.Duration.Companion.minutes
 
 /**

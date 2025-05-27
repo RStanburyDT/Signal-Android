@@ -1,12 +1,12 @@
-package org.thoughtcrime.securesms.conversation.v2
+package org.thoughtcrime.securesms.ryan.conversation.v2
 
 import android.view.View
 import androidx.annotation.ColorRes
 import androidx.fragment.app.FragmentActivity
 import androidx.lifecycle.LifecycleOwner
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.util.Material3OnScrollHelper
-import org.thoughtcrime.securesms.wallpaper.ChatWallpaper
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.util.Material3OnScrollHelper
+import org.thoughtcrime.securesms.ryan.wallpaper.ChatWallpaper
 
 /**
  * Scroll helper to manage the color state of the top bar and status bar.

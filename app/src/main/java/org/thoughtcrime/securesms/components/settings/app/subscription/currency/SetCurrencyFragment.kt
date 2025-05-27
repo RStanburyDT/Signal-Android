@@ -1,12 +1,12 @@
-package org.thoughtcrime.securesms.components.settings.app.subscription.currency
+package org.thoughtcrime.securesms.ryan.components.settings.app.subscription.currency
 
 import androidx.fragment.app.viewModels
-import org.thoughtcrime.securesms.components.settings.DSLConfiguration
-import org.thoughtcrime.securesms.components.settings.DSLSettingsAdapter
-import org.thoughtcrime.securesms.components.settings.DSLSettingsBottomSheetFragment
-import org.thoughtcrime.securesms.components.settings.DSLSettingsText
-import org.thoughtcrime.securesms.components.settings.app.subscription.InAppPaymentsRepository
-import org.thoughtcrime.securesms.components.settings.configure
+import org.thoughtcrime.securesms.ryan.components.settings.DSLConfiguration
+import org.thoughtcrime.securesms.ryan.components.settings.DSLSettingsAdapter
+import org.thoughtcrime.securesms.ryan.components.settings.DSLSettingsBottomSheetFragment
+import org.thoughtcrime.securesms.ryan.components.settings.DSLSettingsText
+import org.thoughtcrime.securesms.ryan.components.settings.app.subscription.InAppPaymentsRepository
+import org.thoughtcrime.securesms.ryan.components.settings.configure
 import java.util.Locale
 
 /**

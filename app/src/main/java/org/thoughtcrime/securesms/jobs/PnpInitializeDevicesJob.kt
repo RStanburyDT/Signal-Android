@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.jobs
+package org.thoughtcrime.securesms.ryan.jobs
 
 import androidx.annotation.WorkerThread
 import io.reactivex.rxjava3.core.Single
@@ -13,13 +13,13 @@ import org.signal.libsignal.protocol.state.SignalProtocolStore
 import org.signal.libsignal.protocol.state.SignedPreKeyRecord
 import org.signal.libsignal.protocol.util.KeyHelper
 import org.signal.libsignal.protocol.util.Medium
-import org.thoughtcrime.securesms.components.settings.app.changenumber.ChangeNumberViewModel
-import org.thoughtcrime.securesms.crypto.PreKeyUtil
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.jobmanager.Job
-import org.thoughtcrime.securesms.jobmanager.impl.NetworkConstraint
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.net.SignalNetwork
+import org.thoughtcrime.securesms.ryan.components.settings.app.changenumber.ChangeNumberViewModel
+import org.thoughtcrime.securesms.ryan.crypto.PreKeyUtil
+import org.thoughtcrime.securesms.ryan.dependencies.AppDependencies
+import org.thoughtcrime.securesms.ryan.jobmanager.Job
+import org.thoughtcrime.securesms.ryan.jobmanager.impl.NetworkConstraint
+import org.thoughtcrime.securesms.ryan.keyvalue.SignalStore
+import org.thoughtcrime.securesms.ryan.net.SignalNetwork
 import org.whispersystems.signalservice.api.NetworkResult
 import org.whispersystems.signalservice.api.account.PniKeyDistributionRequest
 import org.whispersystems.signalservice.api.push.SignalServiceAddress

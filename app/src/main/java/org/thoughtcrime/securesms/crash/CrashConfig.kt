@@ -3,15 +3,15 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.crash
+package org.thoughtcrime.securesms.ryan.crash
 
 import androidx.annotation.VisibleForTesting
 import com.fasterxml.jackson.annotation.JsonProperty
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.util.BucketingUtil
-import org.thoughtcrime.securesms.util.JsonUtils
-import org.thoughtcrime.securesms.util.RemoteConfig
+import org.thoughtcrime.securesms.ryan.keyvalue.SignalStore
+import org.thoughtcrime.securesms.ryan.util.BucketingUtil
+import org.thoughtcrime.securesms.ryan.util.JsonUtils
+import org.thoughtcrime.securesms.ryan.util.RemoteConfig
 import org.whispersystems.signalservice.api.push.ServiceId
 import java.io.IOException
 

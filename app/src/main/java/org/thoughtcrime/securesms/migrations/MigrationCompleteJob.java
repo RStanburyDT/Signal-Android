@@ -1,12 +1,12 @@
-package org.thoughtcrime.securesms.migrations;
+package org.thoughtcrime.securesms.ryan.migrations;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 import org.greenrobot.eventbus.EventBus;
-import org.thoughtcrime.securesms.jobmanager.JsonJobData;
-import org.thoughtcrime.securesms.jobmanager.Job;
-import org.thoughtcrime.securesms.jobs.BaseJob;
+import org.thoughtcrime.securesms.ryan.jobmanager.JsonJobData;
+import org.thoughtcrime.securesms.ryan.jobmanager.Job;
+import org.thoughtcrime.securesms.ryan.jobs.BaseJob;
 
 /**
  * A job that should be enqueued last in a series of migrations. When this runs, we know that the

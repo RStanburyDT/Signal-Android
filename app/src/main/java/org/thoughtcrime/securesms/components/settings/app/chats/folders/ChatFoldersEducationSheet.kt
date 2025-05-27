@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.settings.app.chats.folders
+package org.thoughtcrime.securesms.ryan.components.settings.app.chats.folders
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.Column
@@ -21,8 +21,8 @@ import org.signal.core.ui.compose.BottomSheets
 import org.signal.core.ui.compose.Buttons
 import org.signal.core.ui.compose.Previews
 import org.signal.core.ui.compose.SignalPreview
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.compose.ComposeBottomSheetDialogFragment
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.compose.ComposeBottomSheetDialogFragment
 
 /**
  * Education sheet shown when clicking on chat folders for the first time

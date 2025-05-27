@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.mediasend.v2.review
+package org.thoughtcrime.securesms.ryan.mediasend.v2.review
 
 import android.content.DialogInterface
 import android.os.Bundle
@@ -15,32 +15,32 @@ import io.reactivex.rxjava3.android.schedulers.AndroidSchedulers
 import io.reactivex.rxjava3.disposables.CompositeDisposable
 import io.reactivex.rxjava3.kotlin.plusAssign
 import org.signal.core.util.EditTextUtil
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.KeyboardAwareLinearLayout
-import org.thoughtcrime.securesms.components.KeyboardEntryDialogFragment
-import org.thoughtcrime.securesms.components.ViewBinderDelegate
-import org.thoughtcrime.securesms.components.emoji.MediaKeyboard
-import org.thoughtcrime.securesms.components.mention.MentionAnnotation
-import org.thoughtcrime.securesms.conversation.ui.inlinequery.InlineQuery
-import org.thoughtcrime.securesms.conversation.ui.inlinequery.InlineQuery.NoQuery
-import org.thoughtcrime.securesms.conversation.ui.inlinequery.InlineQueryChangedListener
-import org.thoughtcrime.securesms.conversation.ui.inlinequery.InlineQueryResultsController
-import org.thoughtcrime.securesms.conversation.ui.inlinequery.InlineQueryViewModel
-import org.thoughtcrime.securesms.conversation.ui.mentions.MentionsPickerFragment
-import org.thoughtcrime.securesms.conversation.ui.mentions.MentionsPickerViewModel
-import org.thoughtcrime.securesms.databinding.V2MediaAddMessageDialogFragmentBinding
-import org.thoughtcrime.securesms.keyboard.KeyboardPage
-import org.thoughtcrime.securesms.keyboard.KeyboardPagerViewModel
-import org.thoughtcrime.securesms.mediasend.v2.HudCommand
-import org.thoughtcrime.securesms.mediasend.v2.MediaSelectionState
-import org.thoughtcrime.securesms.mediasend.v2.MediaSelectionViewModel
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.stories.Stories
-import org.thoughtcrime.securesms.util.MediaUtil
-import org.thoughtcrime.securesms.util.ViewUtil
-import org.thoughtcrime.securesms.util.views.Stub
-import org.thoughtcrime.securesms.util.visible
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.components.KeyboardAwareLinearLayout
+import org.thoughtcrime.securesms.ryan.components.KeyboardEntryDialogFragment
+import org.thoughtcrime.securesms.ryan.components.ViewBinderDelegate
+import org.thoughtcrime.securesms.ryan.components.emoji.MediaKeyboard
+import org.thoughtcrime.securesms.ryan.components.mention.MentionAnnotation
+import org.thoughtcrime.securesms.ryan.conversation.ui.inlinequery.InlineQuery
+import org.thoughtcrime.securesms.ryan.conversation.ui.inlinequery.InlineQuery.NoQuery
+import org.thoughtcrime.securesms.ryan.conversation.ui.inlinequery.InlineQueryChangedListener
+import org.thoughtcrime.securesms.ryan.conversation.ui.inlinequery.InlineQueryResultsController
+import org.thoughtcrime.securesms.ryan.conversation.ui.inlinequery.InlineQueryViewModel
+import org.thoughtcrime.securesms.ryan.conversation.ui.mentions.MentionsPickerFragment
+import org.thoughtcrime.securesms.ryan.conversation.ui.mentions.MentionsPickerViewModel
+import org.thoughtcrime.securesms.ryan.databinding.V2MediaAddMessageDialogFragmentBinding
+import org.thoughtcrime.securesms.ryan.keyboard.KeyboardPage
+import org.thoughtcrime.securesms.ryan.keyboard.KeyboardPagerViewModel
+import org.thoughtcrime.securesms.ryan.mediasend.v2.HudCommand
+import org.thoughtcrime.securesms.ryan.mediasend.v2.MediaSelectionState
+import org.thoughtcrime.securesms.ryan.mediasend.v2.MediaSelectionViewModel
+import org.thoughtcrime.securesms.ryan.recipients.Recipient
+import org.thoughtcrime.securesms.ryan.recipients.RecipientId
+import org.thoughtcrime.securesms.ryan.stories.Stories
+import org.thoughtcrime.securesms.ryan.util.MediaUtil
+import org.thoughtcrime.securesms.ryan.util.ViewUtil
+import org.thoughtcrime.securesms.ryan.util.views.Stub
+import org.thoughtcrime.securesms.ryan.util.visible
 
 class AddMessageDialogFragment : KeyboardEntryDialogFragment(R.layout.v2_media_add_message_dialog_fragment) {
 

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.identity;
+package org.thoughtcrime.securesms.ryan.components.identity;
 
 import android.content.Context;
 import android.content.DialogInterface;
@@ -6,11 +6,11 @@ import android.content.DialogInterface;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AlertDialog;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.crypto.ReentrantSessionLock;
-import org.thoughtcrime.securesms.database.IdentityTable;
-import org.thoughtcrime.securesms.database.model.IdentityRecord;
-import org.thoughtcrime.securesms.dependencies.AppDependencies;
+import org.thoughtcrime.securesms.ryan.R;
+import org.thoughtcrime.securesms.ryan.crypto.ReentrantSessionLock;
+import org.thoughtcrime.securesms.ryan.database.IdentityTable;
+import org.thoughtcrime.securesms.ryan.database.model.IdentityRecord;
+import org.thoughtcrime.securesms.ryan.dependencies.AppDependencies;
 import org.signal.core.util.concurrent.SimpleTask;
 import org.whispersystems.signalservice.api.SignalSessionLock;
 

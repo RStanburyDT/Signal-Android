@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.main
+package org.thoughtcrime.securesms.ryan.main
 
 import androidx.annotation.ColorRes
 import androidx.compose.animation.animateContentSize
@@ -24,11 +24,11 @@ import org.signal.core.ui.compose.Dialogs
 import org.signal.core.ui.compose.Previews
 import org.signal.core.ui.compose.SignalPreview
 import org.signal.core.ui.compose.Snackbars
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.megaphone.Megaphone
-import org.thoughtcrime.securesms.megaphone.MegaphoneActionController
-import org.thoughtcrime.securesms.megaphone.Megaphones
-import org.thoughtcrime.securesms.window.WindowSizeClass
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.megaphone.Megaphone
+import org.thoughtcrime.securesms.ryan.megaphone.MegaphoneActionController
+import org.thoughtcrime.securesms.ryan.megaphone.Megaphones
+import org.thoughtcrime.securesms.ryan.window.WindowSizeClass
 
 data class SnackbarState(
   val message: String,

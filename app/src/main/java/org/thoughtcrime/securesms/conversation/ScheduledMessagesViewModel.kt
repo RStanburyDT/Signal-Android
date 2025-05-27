@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.conversation
+package org.thoughtcrime.securesms.ryan.conversation
 
 import android.content.Context
 import androidx.lifecycle.ViewModel

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.emoji;
+package org.thoughtcrime.securesms.ryan.components.emoji;
 
 import android.view.KeyEvent;
 

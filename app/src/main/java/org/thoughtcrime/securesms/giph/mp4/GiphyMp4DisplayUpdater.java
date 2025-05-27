@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.giph.mp4;
+package org.thoughtcrime.securesms.ryan.giph.mp4;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;

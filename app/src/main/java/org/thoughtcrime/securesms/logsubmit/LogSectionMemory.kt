@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.logsubmit
+package org.thoughtcrime.securesms.ryan.logsubmit
 
 import android.content.Context
 import android.os.Build

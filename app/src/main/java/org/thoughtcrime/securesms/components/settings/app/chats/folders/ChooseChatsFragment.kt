@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.settings.app.chats.folders
+package org.thoughtcrime.securesms.ryan.components.settings.app.chats.folders
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -9,16 +9,16 @@ import androidx.fragment.app.activityViewModels
 import androidx.navigation.fragment.findNavController
 import com.google.android.material.button.MaterialButton
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.ContactSelectionListFragment
-import org.thoughtcrime.securesms.LoggingFragment
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.ContactFilterView
-import org.thoughtcrime.securesms.contacts.ContactSelectionDisplayMode
-import org.thoughtcrime.securesms.contacts.SelectedContact
-import org.thoughtcrime.securesms.contacts.paged.ChatType
-import org.thoughtcrime.securesms.groups.SelectionLimits
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.util.ViewUtil
+import org.thoughtcrime.securesms.ryan.ContactSelectionListFragment
+import org.thoughtcrime.securesms.ryan.LoggingFragment
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.components.ContactFilterView
+import org.thoughtcrime.securesms.ryan.contacts.ContactSelectionDisplayMode
+import org.thoughtcrime.securesms.ryan.contacts.SelectedContact
+import org.thoughtcrime.securesms.ryan.contacts.paged.ChatType
+import org.thoughtcrime.securesms.ryan.groups.SelectionLimits
+import org.thoughtcrime.securesms.ryan.recipients.RecipientId
+import org.thoughtcrime.securesms.ryan.util.ViewUtil
 import java.util.Optional
 import java.util.function.Consumer
 

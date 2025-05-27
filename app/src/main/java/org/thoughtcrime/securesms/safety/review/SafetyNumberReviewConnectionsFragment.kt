@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.safety.review
+package org.thoughtcrime.securesms.ryan.safety.review
 
 import android.view.View
 import androidx.core.content.ContextCompat
@@ -6,22 +6,22 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.viewModels
 import org.signal.core.util.concurrent.LifecycleDisposable
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.WrapperDialogFragment
-import org.thoughtcrime.securesms.components.menu.ActionItem
-import org.thoughtcrime.securesms.components.settings.DSLConfiguration
-import org.thoughtcrime.securesms.components.settings.DSLSettingsFragment
-import org.thoughtcrime.securesms.components.settings.DSLSettingsText
-import org.thoughtcrime.securesms.components.settings.configure
-import org.thoughtcrime.securesms.crypto.IdentityKeyParcelable
-import org.thoughtcrime.securesms.database.IdentityTable
-import org.thoughtcrime.securesms.safety.SafetyNumberBottomSheetState
-import org.thoughtcrime.securesms.safety.SafetyNumberBottomSheetViewModel
-import org.thoughtcrime.securesms.safety.SafetyNumberBucket
-import org.thoughtcrime.securesms.safety.SafetyNumberBucketRowItem
-import org.thoughtcrime.securesms.safety.SafetyNumberRecipientRowItem
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingAdapter
-import org.thoughtcrime.securesms.verify.VerifyIdentityFragment
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.components.WrapperDialogFragment
+import org.thoughtcrime.securesms.ryan.components.menu.ActionItem
+import org.thoughtcrime.securesms.ryan.components.settings.DSLConfiguration
+import org.thoughtcrime.securesms.ryan.components.settings.DSLSettingsFragment
+import org.thoughtcrime.securesms.ryan.components.settings.DSLSettingsText
+import org.thoughtcrime.securesms.ryan.components.settings.configure
+import org.thoughtcrime.securesms.ryan.crypto.IdentityKeyParcelable
+import org.thoughtcrime.securesms.ryan.database.IdentityTable
+import org.thoughtcrime.securesms.ryan.safety.SafetyNumberBottomSheetState
+import org.thoughtcrime.securesms.ryan.safety.SafetyNumberBottomSheetViewModel
+import org.thoughtcrime.securesms.ryan.safety.SafetyNumberBucket
+import org.thoughtcrime.securesms.ryan.safety.SafetyNumberBucketRowItem
+import org.thoughtcrime.securesms.ryan.safety.SafetyNumberRecipientRowItem
+import org.thoughtcrime.securesms.ryan.util.adapter.mapping.MappingAdapter
+import org.thoughtcrime.securesms.ryan.verify.VerifyIdentityFragment
 
 /**
  * Full-screen fragment which displays the list of users who have safety number changes.

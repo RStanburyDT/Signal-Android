@@ -1,21 +1,21 @@
-package org.thoughtcrime.securesms.components.settings.app.subscription.receipts.detail
+package org.thoughtcrime.securesms.ryan.components.settings.app.subscription.receipts.detail
 
 import android.content.Intent
 import androidx.fragment.app.viewModels
 import com.google.android.material.button.MaterialButton
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.SignalProgressDialog
-import org.thoughtcrime.securesms.components.settings.DSLConfiguration
-import org.thoughtcrime.securesms.components.settings.DSLSettingsFragment
-import org.thoughtcrime.securesms.components.settings.DSLSettingsText
-import org.thoughtcrime.securesms.components.settings.app.subscription.InAppDonations
-import org.thoughtcrime.securesms.components.settings.app.subscription.receipts.ReceiptImageRenderer
-import org.thoughtcrime.securesms.components.settings.configure
-import org.thoughtcrime.securesms.components.settings.models.SplashImage
-import org.thoughtcrime.securesms.database.model.InAppPaymentReceiptRecord
-import org.thoughtcrime.securesms.payments.FiatMoneyUtil
-import org.thoughtcrime.securesms.util.DateUtils
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingAdapter
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.components.SignalProgressDialog
+import org.thoughtcrime.securesms.ryan.components.settings.DSLConfiguration
+import org.thoughtcrime.securesms.ryan.components.settings.DSLSettingsFragment
+import org.thoughtcrime.securesms.ryan.components.settings.DSLSettingsText
+import org.thoughtcrime.securesms.ryan.components.settings.app.subscription.InAppDonations
+import org.thoughtcrime.securesms.ryan.components.settings.app.subscription.receipts.ReceiptImageRenderer
+import org.thoughtcrime.securesms.ryan.components.settings.configure
+import org.thoughtcrime.securesms.ryan.components.settings.models.SplashImage
+import org.thoughtcrime.securesms.ryan.database.model.InAppPaymentReceiptRecord
+import org.thoughtcrime.securesms.ryan.payments.FiatMoneyUtil
+import org.thoughtcrime.securesms.ryan.util.DateUtils
+import org.thoughtcrime.securesms.ryan.util.adapter.mapping.MappingAdapter
 import java.util.Locale
 
 class DonationReceiptDetailFragment : DSLSettingsFragment(layoutId = R.layout.donation_receipt_detail_fragment) {

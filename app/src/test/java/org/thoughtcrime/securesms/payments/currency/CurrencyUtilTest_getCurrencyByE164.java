@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.payments.currency;
+package org.thoughtcrime.securesms.ryan.payments.currency;
 
 import org.junit.Test;
 

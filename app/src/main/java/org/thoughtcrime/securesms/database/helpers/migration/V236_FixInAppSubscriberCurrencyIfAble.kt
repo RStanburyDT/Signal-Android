@@ -3,14 +3,14 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.database.helpers.migration
+package org.thoughtcrime.securesms.ryan.database.helpers.migration
 
 import android.app.Application
 import androidx.core.content.contentValuesOf
 import org.signal.core.util.logging.Log
 import org.signal.core.util.update
-import org.thoughtcrime.securesms.database.SQLiteDatabase
-import org.thoughtcrime.securesms.database.model.databaseprotos.InAppPaymentData
+import org.thoughtcrime.securesms.ryan.database.SQLiteDatabase
+import org.thoughtcrime.securesms.ryan.database.model.databaseprotos.InAppPaymentData
 
 /**
  * Fixes a bug in storage sync where we could end up overwriting a subscriber's currency code with

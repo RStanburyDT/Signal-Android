@@ -1,14 +1,14 @@
-package org.thoughtcrime.securesms.components.settings.models
+package org.thoughtcrime.securesms.ryan.components.settings.models
 
 import android.view.View
 import android.widget.ViewSwitcher
 import com.google.android.material.materialswitch.MaterialSwitch
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.settings.DSLSettingsText
-import org.thoughtcrime.securesms.components.settings.PreferenceModel
-import org.thoughtcrime.securesms.components.settings.PreferenceViewHolder
-import org.thoughtcrime.securesms.util.adapter.mapping.LayoutFactory
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingAdapter
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.components.settings.DSLSettingsText
+import org.thoughtcrime.securesms.ryan.components.settings.PreferenceModel
+import org.thoughtcrime.securesms.ryan.components.settings.PreferenceViewHolder
+import org.thoughtcrime.securesms.ryan.util.adapter.mapping.LayoutFactory
+import org.thoughtcrime.securesms.ryan.util.adapter.mapping.MappingAdapter
 
 /**
  * Switch that will perform a long-running async operation (normally network) that requires a

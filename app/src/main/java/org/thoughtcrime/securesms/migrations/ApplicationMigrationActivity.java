@@ -15,13 +15,13 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package org.thoughtcrime.securesms.migrations;
+package org.thoughtcrime.securesms.ryan.migrations;
 
 import android.os.Bundle;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.BaseActivity;
-import org.thoughtcrime.securesms.R;
+import org.thoughtcrime.securesms.ryan.BaseActivity;
+import org.thoughtcrime.securesms.ryan.R;
 
 /**
  * An activity that can be shown to block access to the rest of the app when a long-running or

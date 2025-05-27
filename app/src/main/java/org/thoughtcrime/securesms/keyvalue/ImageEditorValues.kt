@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.keyvalue
+package org.thoughtcrime.securesms.ryan.keyvalue
 
 class ImageEditorValues internal constructor(store: KeyValueStore) : SignalStoreValues(store) {
 

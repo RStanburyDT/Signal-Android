@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components;
+package org.thoughtcrime.securesms.ryan.components;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -19,11 +19,11 @@ import androidx.annotation.Nullable;
 import androidx.annotation.StringRes;
 import androidx.core.widget.TextViewCompat;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.util.EditTextExtensionsKt;
-import org.thoughtcrime.securesms.util.ServiceUtil;
-import org.thoughtcrime.securesms.util.TextSecurePreferences;
-import org.thoughtcrime.securesms.util.ViewUtil;
+import org.thoughtcrime.securesms.ryan.R;
+import org.thoughtcrime.securesms.ryan.util.EditTextExtensionsKt;
+import org.thoughtcrime.securesms.ryan.util.ServiceUtil;
+import org.thoughtcrime.securesms.ryan.util.TextSecurePreferences;
+import org.thoughtcrime.securesms.ryan.util.ViewUtil;
 
 public final class ContactFilterView extends FrameLayout {
   private   OnFilterChangedListener listener;

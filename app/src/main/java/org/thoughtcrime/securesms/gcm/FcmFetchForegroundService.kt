@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.gcm
+package org.thoughtcrime.securesms.ryan.gcm
 
 import android.app.PendingIntent
 import android.app.Service
@@ -9,12 +9,12 @@ import android.os.PowerManager
 import androidx.core.app.NotificationCompat
 import org.signal.core.util.PendingIntentFlags
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.MainActivity
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.jobs.ForegroundServiceUtil
-import org.thoughtcrime.securesms.notifications.NotificationChannels
-import org.thoughtcrime.securesms.notifications.NotificationIds
-import org.thoughtcrime.securesms.util.WakeLockUtil
+import org.thoughtcrime.securesms.ryan.MainActivity
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.jobs.ForegroundServiceUtil
+import org.thoughtcrime.securesms.ryan.notifications.NotificationChannels
+import org.thoughtcrime.securesms.ryan.notifications.NotificationIds
+import org.thoughtcrime.securesms.ryan.util.WakeLockUtil
 
 /**
  * Works with {@link FcmFetchManager} to exists as a service that will keep the app process running in the foreground while we fetch messages.

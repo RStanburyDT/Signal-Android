@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.pin;
+package org.thoughtcrime.securesms.ryan.pin;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -23,28 +23,28 @@ import com.google.android.material.button.MaterialButton;
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.LoggingFragment;
-import org.thoughtcrime.securesms.MainActivity;
-import org.thoughtcrime.securesms.PassphraseRequiredActivity;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.dependencies.AppDependencies;
-import org.thoughtcrime.securesms.jobs.ProfileUploadJob;
-import org.thoughtcrime.securesms.keyvalue.RestoreDecisionStateUtil;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
-import org.thoughtcrime.securesms.lock.v2.PinKeyboardType;
-import org.thoughtcrime.securesms.lock.v2.SvrConstants;
-import org.thoughtcrime.securesms.profiles.AvatarHelper;
-import org.thoughtcrime.securesms.profiles.edit.CreateProfileActivity;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.registration.util.RegistrationUtil;
-import org.thoughtcrime.securesms.registration.fragments.RegistrationViewDelegate;
-import org.thoughtcrime.securesms.restore.RestoreActivity;
-import org.thoughtcrime.securesms.util.CommunicationActions;
-import org.thoughtcrime.securesms.util.RemoteConfig;
-import org.thoughtcrime.securesms.util.SupportEmailUtil;
-import org.thoughtcrime.securesms.util.ViewUtil;
-import org.thoughtcrime.securesms.util.navigation.SafeNavigation;
-import org.thoughtcrime.securesms.util.views.CircularProgressMaterialButton;
+import org.thoughtcrime.securesms.ryan.LoggingFragment;
+import org.thoughtcrime.securesms.ryan.MainActivity;
+import org.thoughtcrime.securesms.ryan.PassphraseRequiredActivity;
+import org.thoughtcrime.securesms.ryan.R;
+import org.thoughtcrime.securesms.ryan.dependencies.AppDependencies;
+import org.thoughtcrime.securesms.ryan.jobs.ProfileUploadJob;
+import org.thoughtcrime.securesms.ryan.keyvalue.RestoreDecisionStateUtil;
+import org.thoughtcrime.securesms.ryan.keyvalue.SignalStore;
+import org.thoughtcrime.securesms.ryan.lock.v2.PinKeyboardType;
+import org.thoughtcrime.securesms.ryan.lock.v2.SvrConstants;
+import org.thoughtcrime.securesms.ryan.profiles.AvatarHelper;
+import org.thoughtcrime.securesms.ryan.profiles.edit.CreateProfileActivity;
+import org.thoughtcrime.securesms.ryan.recipients.Recipient;
+import org.thoughtcrime.securesms.ryan.registration.util.RegistrationUtil;
+import org.thoughtcrime.securesms.ryan.registration.fragments.RegistrationViewDelegate;
+import org.thoughtcrime.securesms.ryan.restore.RestoreActivity;
+import org.thoughtcrime.securesms.ryan.util.CommunicationActions;
+import org.thoughtcrime.securesms.ryan.util.RemoteConfig;
+import org.thoughtcrime.securesms.ryan.util.SupportEmailUtil;
+import org.thoughtcrime.securesms.ryan.util.ViewUtil;
+import org.thoughtcrime.securesms.ryan.util.navigation.SafeNavigation;
+import org.thoughtcrime.securesms.ryan.util.views.CircularProgressMaterialButton;
 
 public class PinRestoreEntryFragment extends LoggingFragment {
   private static final String TAG = Log.tag(PinRestoreActivity.class);

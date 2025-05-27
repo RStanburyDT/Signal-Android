@@ -1,6 +1,6 @@
-package org.thoughtcrime.securesms.database.model
+package org.thoughtcrime.securesms.ryan.database.model
 
-import org.thoughtcrime.securesms.recipients.RecipientId
+import org.thoughtcrime.securesms.ryan.recipients.RecipientId
 
 class StoryResult(
   val recipientId: RecipientId,

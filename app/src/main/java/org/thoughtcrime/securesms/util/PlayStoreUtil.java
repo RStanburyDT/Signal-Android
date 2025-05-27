@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.util;
+package org.thoughtcrime.securesms.ryan.util;
 
 import android.content.ActivityNotFoundException;
 import android.content.Context;
@@ -7,7 +7,7 @@ import android.net.Uri;
 
 import androidx.annotation.NonNull;
 
-import org.thoughtcrime.securesms.BuildConfig;
+import org.thoughtcrime.securesms.ryan.BuildConfig;
 
 public final class PlayStoreUtil {
 

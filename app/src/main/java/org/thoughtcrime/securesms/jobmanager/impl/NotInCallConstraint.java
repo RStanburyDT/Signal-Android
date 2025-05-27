@@ -1,12 +1,12 @@
-package org.thoughtcrime.securesms.jobmanager.impl;
+package org.thoughtcrime.securesms.ryan.jobmanager.impl;
 
 import android.app.job.JobInfo;
 
 import androidx.annotation.NonNull;
 
 import org.greenrobot.eventbus.EventBus;
-import org.thoughtcrime.securesms.events.WebRtcViewModel;
-import org.thoughtcrime.securesms.jobmanager.Constraint;
+import org.thoughtcrime.securesms.ryan.events.WebRtcViewModel;
+import org.thoughtcrime.securesms.ryan.jobmanager.Constraint;
 
 /**
  * Constraint met when the user is not in an active, connected call.

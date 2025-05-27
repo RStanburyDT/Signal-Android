@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.groups.v2
+package org.thoughtcrime.securesms.ryan.groups.v2
 
 import assertk.assertFailure
 import assertk.assertThat
@@ -12,9 +12,9 @@ import org.junit.Test
 import org.signal.core.util.Base64.encodeUrlSafeWithoutPadding
 import org.signal.libsignal.zkgroup.InvalidInputException
 import org.signal.storageservice.protos.groups.GroupInviteLink
-import org.thoughtcrime.securesms.groups.v2.GroupInviteLinkUrl.InvalidGroupLinkException
-import org.thoughtcrime.securesms.groups.v2.GroupInviteLinkUrl.UnknownGroupLinkVersionException
-import org.thoughtcrime.securesms.util.Util
+import org.thoughtcrime.securesms.ryan.groups.v2.GroupInviteLinkUrl.InvalidGroupLinkException
+import org.thoughtcrime.securesms.ryan.groups.v2.GroupInviteLinkUrl.UnknownGroupLinkVersionException
+import org.thoughtcrime.securesms.ryan.util.Util
 import java.io.IOException
 
 @Suppress("ClassName")

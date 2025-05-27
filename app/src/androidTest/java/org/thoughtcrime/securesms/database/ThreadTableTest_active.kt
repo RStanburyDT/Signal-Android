@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.database
+package org.thoughtcrime.securesms.ryan.database
 
 import androidx.test.platform.app.InstrumentationRegistry
 import io.mockk.every
@@ -13,11 +13,11 @@ import org.junit.Assert.assertNotNull
 import org.junit.Before
 import org.junit.Rule
 import org.junit.Test
-import org.thoughtcrime.securesms.components.settings.app.chats.folders.ChatFolderRecord
-import org.thoughtcrime.securesms.conversationlist.model.ConversationFilter
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.testing.SignalDatabaseRule
-import org.thoughtcrime.securesms.util.RemoteConfig
+import org.thoughtcrime.securesms.ryan.components.settings.app.chats.folders.ChatFolderRecord
+import org.thoughtcrime.securesms.ryan.conversationlist.model.ConversationFilter
+import org.thoughtcrime.securesms.ryan.recipients.Recipient
+import org.thoughtcrime.securesms.ryan.testing.SignalDatabaseRule
+import org.thoughtcrime.securesms.ryan.util.RemoteConfig
 import org.whispersystems.signalservice.api.push.ServiceId.ACI
 import java.util.UUID
 

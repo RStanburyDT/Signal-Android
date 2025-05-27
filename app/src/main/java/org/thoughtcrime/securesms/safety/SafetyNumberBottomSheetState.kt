@@ -1,6 +1,6 @@
-package org.thoughtcrime.securesms.safety
+package org.thoughtcrime.securesms.ryan.safety
 
-import org.thoughtcrime.securesms.database.IdentityTable
+import org.thoughtcrime.securesms.ryan.database.IdentityTable
 
 /**
  * Screen state for SafetyNumberBottomSheetFragment and SafetyNumberReviewConnectionsFragment

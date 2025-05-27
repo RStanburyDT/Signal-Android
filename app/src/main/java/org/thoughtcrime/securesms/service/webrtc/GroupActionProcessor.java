@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.service.webrtc;
+package org.thoughtcrime.securesms.ryan.service.webrtc;
 
 import android.util.LongSparseArray;
 
@@ -9,17 +9,17 @@ import com.annimon.stream.Stream;
 import org.signal.core.util.logging.Log;
 import org.signal.ringrtc.CallException;
 import org.signal.ringrtc.GroupCall;
-import org.thoughtcrime.securesms.components.webrtc.BroadcastVideoSink;
-import org.thoughtcrime.securesms.events.CallParticipant;
-import org.thoughtcrime.securesms.events.CallParticipantId;
-import org.thoughtcrime.securesms.events.WebRtcViewModel;
-import org.thoughtcrime.securesms.groups.GroupManager;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.recipients.RecipientId;
-import org.thoughtcrime.securesms.ringrtc.RemotePeer;
-import org.thoughtcrime.securesms.service.webrtc.state.VideoState;
-import org.thoughtcrime.securesms.service.webrtc.state.WebRtcServiceState;
-import org.thoughtcrime.securesms.service.webrtc.state.WebRtcServiceStateBuilder;
+import org.thoughtcrime.securesms.ryan.components.webrtc.BroadcastVideoSink;
+import org.thoughtcrime.securesms.ryan.events.CallParticipant;
+import org.thoughtcrime.securesms.ryan.events.CallParticipantId;
+import org.thoughtcrime.securesms.ryan.events.WebRtcViewModel;
+import org.thoughtcrime.securesms.ryan.groups.GroupManager;
+import org.thoughtcrime.securesms.ryan.recipients.Recipient;
+import org.thoughtcrime.securesms.ryan.recipients.RecipientId;
+import org.thoughtcrime.securesms.ryan.ringrtc.RemotePeer;
+import org.thoughtcrime.securesms.ryan.service.webrtc.state.VideoState;
+import org.thoughtcrime.securesms.ryan.service.webrtc.state.WebRtcServiceState;
+import org.thoughtcrime.securesms.ryan.service.webrtc.state.WebRtcServiceStateBuilder;
 import org.webrtc.PeerConnection;
 import org.webrtc.VideoTrack;
 import org.whispersystems.signalservice.api.messages.calls.OfferMessage;

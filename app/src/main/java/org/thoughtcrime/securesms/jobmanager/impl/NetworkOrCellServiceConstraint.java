@@ -1,12 +1,12 @@
-package org.thoughtcrime.securesms.jobmanager.impl;
+package org.thoughtcrime.securesms.ryan.jobmanager.impl;
 
 import android.app.Application;
 import android.app.job.JobInfo;
 
 import androidx.annotation.NonNull;
 
-import org.thoughtcrime.securesms.jobmanager.Constraint;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
+import org.thoughtcrime.securesms.ryan.jobmanager.Constraint;
+import org.thoughtcrime.securesms.ryan.keyvalue.SignalStore;
 
 public class NetworkOrCellServiceConstraint implements Constraint {
 

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.util;
+package org.thoughtcrime.securesms.ryan.util;
 
 
 import android.content.Context;
@@ -8,7 +8,7 @@ import android.os.Build;
 import androidx.annotation.NonNull;
 import androidx.core.content.FileProvider;
 
-import org.thoughtcrime.securesms.BuildConfig;
+import org.thoughtcrime.securesms.ryan.BuildConfig;
 
 import java.io.File;
 

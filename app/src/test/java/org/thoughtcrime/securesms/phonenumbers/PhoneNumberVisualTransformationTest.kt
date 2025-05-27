@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.phonenumbers
+package org.thoughtcrime.securesms.ryan.phonenumbers
 
 import androidx.compose.ui.text.AnnotatedString
 import org.junit.Assert

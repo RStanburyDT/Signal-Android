@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.backup
+package org.thoughtcrime.securesms.ryan.backup
 
 import org.signal.core.util.LongSerializer
 

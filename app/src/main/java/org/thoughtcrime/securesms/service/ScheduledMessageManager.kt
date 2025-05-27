@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.service
+package org.thoughtcrime.securesms.ryan.service
 
 import android.app.Application
 import android.app.PendingIntent
@@ -8,13 +8,13 @@ import android.content.Intent
 import androidx.annotation.WorkerThread
 import org.signal.core.util.PendingIntentFlags
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.conversation.ConversationIntents
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.database.model.MmsMessageRecord
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.jobs.IndividualSendJob
-import org.thoughtcrime.securesms.jobs.PushGroupSendJob
-import org.thoughtcrime.securesms.recipients.RecipientId
+import org.thoughtcrime.securesms.ryan.conversation.ConversationIntents
+import org.thoughtcrime.securesms.ryan.database.SignalDatabase
+import org.thoughtcrime.securesms.ryan.database.model.MmsMessageRecord
+import org.thoughtcrime.securesms.ryan.dependencies.AppDependencies
+import org.thoughtcrime.securesms.ryan.jobs.IndividualSendJob
+import org.thoughtcrime.securesms.ryan.jobs.PushGroupSendJob
+import org.thoughtcrime.securesms.ryan.recipients.RecipientId
 import kotlin.time.Duration.Companion.seconds
 
 /**

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.groups
+package org.thoughtcrime.securesms.ryan.groups
 
 import android.app.Application
 import androidx.test.core.app.ApplicationProvider
@@ -28,17 +28,17 @@ import org.signal.libsignal.zkgroup.groups.GroupSecretParams
 import org.signal.storageservice.protos.groups.GroupChangeResponse
 import org.signal.storageservice.protos.groups.Member
 import org.signal.storageservice.protos.groups.local.DecryptedGroup
-import org.thoughtcrime.securesms.TestZkGroupServer
-import org.thoughtcrime.securesms.database.GroupStateTestData
-import org.thoughtcrime.securesms.database.GroupTable
-import org.thoughtcrime.securesms.database.model.databaseprotos.member
-import org.thoughtcrime.securesms.groups.v2.GroupCandidateHelper
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.logging.CustomSignalProtocolLogger
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.testutil.MockAppDependenciesRule
-import org.thoughtcrime.securesms.testutil.SystemOutLogger
-import org.thoughtcrime.securesms.util.RemoteConfig
+import org.thoughtcrime.securesms.ryan.TestZkGroupServer
+import org.thoughtcrime.securesms.ryan.database.GroupStateTestData
+import org.thoughtcrime.securesms.ryan.database.GroupTable
+import org.thoughtcrime.securesms.ryan.database.model.databaseprotos.member
+import org.thoughtcrime.securesms.ryan.groups.v2.GroupCandidateHelper
+import org.thoughtcrime.securesms.ryan.keyvalue.SignalStore
+import org.thoughtcrime.securesms.ryan.logging.CustomSignalProtocolLogger
+import org.thoughtcrime.securesms.ryan.recipients.Recipient
+import org.thoughtcrime.securesms.ryan.testutil.MockAppDependenciesRule
+import org.thoughtcrime.securesms.ryan.testutil.SystemOutLogger
+import org.thoughtcrime.securesms.ryan.util.RemoteConfig
 import org.whispersystems.signalservice.api.groupsv2.ClientZkOperations
 import org.whispersystems.signalservice.api.groupsv2.GroupsV2Api
 import org.whispersystems.signalservice.api.groupsv2.GroupsV2Operations

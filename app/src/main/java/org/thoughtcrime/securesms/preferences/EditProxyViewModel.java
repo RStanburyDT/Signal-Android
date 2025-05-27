@@ -1,13 +1,13 @@
-package org.thoughtcrime.securesms.preferences;
+package org.thoughtcrime.securesms.ryan.preferences;
 
 import androidx.annotation.NonNull;
 import androidx.lifecycle.ViewModel;
 
 import org.signal.core.util.concurrent.SignalExecutors;
-import org.thoughtcrime.securesms.dependencies.AppDependencies;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
-import org.thoughtcrime.securesms.util.SignalProxyUtil;
-import org.thoughtcrime.securesms.util.Util;
+import org.thoughtcrime.securesms.ryan.dependencies.AppDependencies;
+import org.thoughtcrime.securesms.ryan.keyvalue.SignalStore;
+import org.thoughtcrime.securesms.ryan.util.SignalProxyUtil;
+import org.thoughtcrime.securesms.ryan.util.Util;
 import org.whispersystems.signalservice.api.websocket.WebSocketConnectionState;
 import org.whispersystems.signalservice.internal.configuration.SignalProxy;
 

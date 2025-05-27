@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components
+package org.thoughtcrime.securesms.ryan.components
 
 import android.app.Application
 import androidx.lifecycle.AndroidViewModel
@@ -15,9 +15,9 @@ import io.reactivex.rxjava3.disposables.CompositeDisposable
 import io.reactivex.rxjava3.kotlin.plusAssign
 import io.reactivex.rxjava3.schedulers.Schedulers
 import io.reactivex.rxjava3.subjects.SingleSubject
-import org.thoughtcrime.securesms.crash.CrashConfig
-import org.thoughtcrime.securesms.database.LogDatabase
-import org.thoughtcrime.securesms.logsubmit.SubmitDebugLogRepository
+import org.thoughtcrime.securesms.ryan.crash.CrashConfig
+import org.thoughtcrime.securesms.ryan.database.LogDatabase
+import org.thoughtcrime.securesms.ryan.logsubmit.SubmitDebugLogRepository
 
 class PromptLogsViewModel(private val context: Application, private val purpose: DebugLogsPromptDialogFragment.Purpose) : AndroidViewModel(context) {
 

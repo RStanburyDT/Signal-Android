@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.sharing.interstitial;
+package org.thoughtcrime.securesms.ryan.sharing.interstitial;
 
 import android.text.TextUtils;
 
@@ -13,12 +13,12 @@ import androidx.lifecycle.ViewModelProvider;
 
 import com.annimon.stream.Stream;
 
-import org.thoughtcrime.securesms.linkpreview.LinkPreview;
-import org.thoughtcrime.securesms.sharing.MultiShareArgs;
-import org.thoughtcrime.securesms.sharing.MultiShareSender;
-import org.thoughtcrime.securesms.util.DefaultValueLiveData;
-import org.thoughtcrime.securesms.util.Util;
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingModelList;
+import org.thoughtcrime.securesms.ryan.linkpreview.LinkPreview;
+import org.thoughtcrime.securesms.ryan.sharing.MultiShareArgs;
+import org.thoughtcrime.securesms.ryan.sharing.MultiShareSender;
+import org.thoughtcrime.securesms.ryan.util.DefaultValueLiveData;
+import org.thoughtcrime.securesms.ryan.util.Util;
+import org.thoughtcrime.securesms.ryan.util.adapter.mapping.MappingModelList;
 
 class ShareInterstitialViewModel extends ViewModel {
 

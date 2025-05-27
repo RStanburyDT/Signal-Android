@@ -15,7 +15,7 @@
  *
  */
 
-package org.thoughtcrime.securesms.giph.ui;
+package org.thoughtcrime.securesms.ryan.giph.ui;
 
 import android.content.Context;
 import android.util.AttributeSet;

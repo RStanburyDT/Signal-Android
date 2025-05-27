@@ -3,9 +3,9 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.events
+package org.thoughtcrime.securesms.ryan.events
 
-import org.thoughtcrime.securesms.recipients.Recipient
+import org.thoughtcrime.securesms.ryan.recipients.Recipient
 import java.util.concurrent.TimeUnit
 
 /**

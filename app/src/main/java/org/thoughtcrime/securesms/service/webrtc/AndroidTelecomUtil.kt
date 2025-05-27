@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.service.webrtc
+package org.thoughtcrime.securesms.ryan.service.webrtc
 
 import android.annotation.SuppressLint
 import android.content.ComponentName
@@ -18,11 +18,11 @@ import androidx.annotation.RequiresApi
 import androidx.core.content.ContextCompat
 import androidx.core.os.bundleOf
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.util.RemoteConfig
-import org.thoughtcrime.securesms.webrtc.audio.SignalAudioManager
+import org.thoughtcrime.securesms.ryan.dependencies.AppDependencies
+import org.thoughtcrime.securesms.ryan.keyvalue.SignalStore
+import org.thoughtcrime.securesms.ryan.recipients.RecipientId
+import org.thoughtcrime.securesms.ryan.util.RemoteConfig
+import org.thoughtcrime.securesms.ryan.webrtc.audio.SignalAudioManager
 
 /**
  * Wrapper around various [TelecomManager] methods to make dealing with SDK versions easier. Also

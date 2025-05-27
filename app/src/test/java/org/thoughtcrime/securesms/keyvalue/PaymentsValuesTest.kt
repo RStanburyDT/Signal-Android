@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.keyvalue
+package org.thoughtcrime.securesms.ryan.keyvalue
 
 import android.app.Application
 import io.mockk.every
@@ -13,8 +13,8 @@ import org.junit.Test
 import org.junit.runner.RunWith
 import org.robolectric.RobolectricTestRunner
 import org.robolectric.annotation.Config
-import org.thoughtcrime.securesms.testutil.MockAppDependenciesRule
-import org.thoughtcrime.securesms.util.RemoteConfig
+import org.thoughtcrime.securesms.ryan.testutil.MockAppDependenciesRule
+import org.thoughtcrime.securesms.ryan.util.RemoteConfig
 
 @RunWith(RobolectricTestRunner::class)
 @Config(manifest = Config.NONE, application = Application::class)

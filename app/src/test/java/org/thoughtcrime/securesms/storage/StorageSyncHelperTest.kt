@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.storage
+package org.thoughtcrime.securesms.ryan.storage
 
 import okio.ByteString
 import org.junit.Assert.assertEquals
@@ -6,9 +6,9 @@ import org.junit.Assert.assertFalse
 import org.junit.Assert.assertNotEquals
 import org.junit.Assert.assertTrue
 import org.junit.Test
-import org.thoughtcrime.securesms.storage.StorageSyncHelper.findIdDifference
-import org.thoughtcrime.securesms.storage.StorageSyncHelper.profileKeyChanged
-import org.thoughtcrime.securesms.testutil.TestHelpers
+import org.thoughtcrime.securesms.ryan.storage.StorageSyncHelper.findIdDifference
+import org.thoughtcrime.securesms.ryan.storage.StorageSyncHelper.profileKeyChanged
+import org.thoughtcrime.securesms.ryan.testutil.TestHelpers
 import org.whispersystems.signalservice.api.push.ServiceId.ACI
 import org.whispersystems.signalservice.api.push.ServiceId.ACI.Companion.parseOrThrow
 import org.whispersystems.signalservice.api.storage.SignalContactRecord

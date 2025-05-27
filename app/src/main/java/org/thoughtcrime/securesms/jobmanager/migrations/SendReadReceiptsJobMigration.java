@@ -1,10 +1,10 @@
-package org.thoughtcrime.securesms.jobmanager.migrations;
+package org.thoughtcrime.securesms.ryan.jobmanager.migrations;
 
 import androidx.annotation.NonNull;
 
-import org.thoughtcrime.securesms.database.MessageTable;
-import org.thoughtcrime.securesms.jobmanager.JsonJobData;
-import org.thoughtcrime.securesms.jobmanager.JobMigration;
+import org.thoughtcrime.securesms.ryan.database.MessageTable;
+import org.thoughtcrime.securesms.ryan.jobmanager.JsonJobData;
+import org.thoughtcrime.securesms.ryan.jobmanager.JobMigration;
 
 import java.util.SortedSet;
 import java.util.TreeSet;

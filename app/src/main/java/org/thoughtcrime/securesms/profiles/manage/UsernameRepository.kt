@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.profiles.manage
+package org.thoughtcrime.securesms.ryan.profiles.manage
 
 import androidx.annotation.WorkerThread
 import io.reactivex.rxjava3.core.Single
@@ -10,16 +10,16 @@ import org.signal.core.util.Result.Companion.success
 import org.signal.core.util.logging.Log
 import org.signal.libsignal.usernames.BaseUsernameException
 import org.signal.libsignal.usernames.Username
-import org.thoughtcrime.securesms.components.settings.app.usernamelinks.main.UsernameLinkResetResult
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.keyvalue.AccountValues
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.net.SignalNetwork
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.storage.StorageSyncHelper
-import org.thoughtcrime.securesms.util.NetworkUtil
-import org.thoughtcrime.securesms.util.UsernameUtil
+import org.thoughtcrime.securesms.ryan.components.settings.app.usernamelinks.main.UsernameLinkResetResult
+import org.thoughtcrime.securesms.ryan.database.SignalDatabase
+import org.thoughtcrime.securesms.ryan.dependencies.AppDependencies
+import org.thoughtcrime.securesms.ryan.keyvalue.AccountValues
+import org.thoughtcrime.securesms.ryan.keyvalue.SignalStore
+import org.thoughtcrime.securesms.ryan.net.SignalNetwork
+import org.thoughtcrime.securesms.ryan.recipients.Recipient
+import org.thoughtcrime.securesms.ryan.storage.StorageSyncHelper
+import org.thoughtcrime.securesms.ryan.util.NetworkUtil
+import org.thoughtcrime.securesms.ryan.util.UsernameUtil
 import org.whispersystems.signalservice.api.NetworkResult
 import org.whispersystems.signalservice.api.SignalServiceAccountManager
 import org.whispersystems.signalservice.api.push.ServiceId.ACI

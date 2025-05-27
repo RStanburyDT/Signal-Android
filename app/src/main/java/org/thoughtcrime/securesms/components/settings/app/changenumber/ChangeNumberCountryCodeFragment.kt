@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.settings.app.changenumber
+package org.thoughtcrime.securesms.ryan.components.settings.app.changenumber
 
 import android.os.Bundle
 import android.view.View
@@ -16,11 +16,11 @@ import androidx.fragment.app.viewModels
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.navigation.fragment.findNavController
 import org.signal.core.util.getParcelableCompat
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.compose.ComposeFragment
-import org.thoughtcrime.securesms.registration.ui.countrycode.Country
-import org.thoughtcrime.securesms.registration.ui.countrycode.CountryCodeSelectScreen
-import org.thoughtcrime.securesms.registration.ui.countrycode.CountryCodeViewModel
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.compose.ComposeFragment
+import org.thoughtcrime.securesms.ryan.registration.ui.countrycode.Country
+import org.thoughtcrime.securesms.ryan.registration.ui.countrycode.CountryCodeSelectScreen
+import org.thoughtcrime.securesms.ryan.registration.ui.countrycode.CountryCodeViewModel
 
 /**
  * Country code picker specific to change number flow.

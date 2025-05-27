@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.stories
+package org.thoughtcrime.securesms.ryan.stories
 
 import android.animation.Animator
 import android.animation.AnimatorListenerAdapter
@@ -17,10 +17,10 @@ import com.bumptech.glide.load.DataSource
 import com.bumptech.glide.load.engine.GlideException
 import com.bumptech.glide.request.RequestListener
 import com.bumptech.glide.request.target.Target
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.blurhash.BlurHash
-import org.thoughtcrime.securesms.util.ContextUtil
-import org.thoughtcrime.securesms.util.visible
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.blurhash.BlurHash
+import org.thoughtcrime.securesms.ryan.util.ContextUtil
+import org.thoughtcrime.securesms.ryan.util.visible
 
 class StoryFirstTimeNavigationView @JvmOverloads constructor(
   context: Context,

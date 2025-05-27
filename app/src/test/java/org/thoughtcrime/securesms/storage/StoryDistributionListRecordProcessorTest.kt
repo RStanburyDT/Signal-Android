@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.storage
+package org.thoughtcrime.securesms.ryan.storage
 
 import okio.ByteString
 import org.junit.Assert.assertFalse
@@ -6,7 +6,7 @@ import org.junit.Assert.assertTrue
 import org.junit.BeforeClass
 import org.junit.Test
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.testutil.EmptyLogger
+import org.thoughtcrime.securesms.ryan.testutil.EmptyLogger
 import org.whispersystems.signalservice.api.push.DistributionId
 import org.whispersystems.signalservice.api.storage.SignalStoryDistributionListRecord
 import org.whispersystems.signalservice.api.storage.StorageId

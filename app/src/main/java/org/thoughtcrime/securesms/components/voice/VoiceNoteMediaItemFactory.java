@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.voice;
+package org.thoughtcrime.securesms.ryan.components.voice;
 
 import android.content.Context;
 import android.net.Uri;
@@ -11,15 +11,15 @@ import androidx.media3.common.MediaItem;
 import androidx.media3.common.MediaMetadata;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.database.SignalDatabase;
-import org.thoughtcrime.securesms.database.model.MessageRecord;
-import org.thoughtcrime.securesms.database.model.MmsMessageRecord;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
-import org.thoughtcrime.securesms.mms.AudioSlide;
-import org.thoughtcrime.securesms.preferences.widgets.NotificationPrivacyPreference;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.util.DateUtils;
+import org.thoughtcrime.securesms.ryan.R;
+import org.thoughtcrime.securesms.ryan.database.SignalDatabase;
+import org.thoughtcrime.securesms.ryan.database.model.MessageRecord;
+import org.thoughtcrime.securesms.ryan.database.model.MmsMessageRecord;
+import org.thoughtcrime.securesms.ryan.keyvalue.SignalStore;
+import org.thoughtcrime.securesms.ryan.mms.AudioSlide;
+import org.thoughtcrime.securesms.ryan.preferences.widgets.NotificationPrivacyPreference;
+import org.thoughtcrime.securesms.ryan.recipients.Recipient;
+import org.thoughtcrime.securesms.ryan.util.DateUtils;
 
 import java.util.Locale;
 import java.util.Objects;

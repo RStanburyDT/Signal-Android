@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.database
+package org.thoughtcrime.securesms.ryan.database
 
 import android.app.Application
 import assertk.assertThat
@@ -12,11 +12,11 @@ import org.junit.Test
 import org.junit.runner.RunWith
 import org.robolectric.RobolectricTestRunner
 import org.robolectric.annotation.Config
-import org.thoughtcrime.securesms.conversation.colors.AvatarColor
-import org.thoughtcrime.securesms.notifications.profiles.NotificationProfile
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.testutil.MockAppDependenciesRule
-import org.thoughtcrime.securesms.testutil.SignalDatabaseRule
+import org.thoughtcrime.securesms.ryan.conversation.colors.AvatarColor
+import org.thoughtcrime.securesms.ryan.notifications.profiles.NotificationProfile
+import org.thoughtcrime.securesms.ryan.recipients.RecipientId
+import org.thoughtcrime.securesms.ryan.testutil.MockAppDependenciesRule
+import org.thoughtcrime.securesms.ryan.testutil.SignalDatabaseRule
 import java.time.DayOfWeek
 
 @RunWith(RobolectricTestRunner::class)

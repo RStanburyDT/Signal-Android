@@ -1,9 +1,9 @@
-package org.thoughtcrime.securesms.conversationlist.chatfilter
+package org.thoughtcrime.securesms.ryan.conversationlist.chatfilter
 
 import android.animation.FloatEvaluator
 import androidx.annotation.FloatRange
 import org.signal.core.util.dp
-import org.thoughtcrime.securesms.util.Util
+import org.thoughtcrime.securesms.ryan.util.Util
 
 /**
  * Centralized location for filter view linear interpolations.

@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.settings.app.changenumber
+package org.thoughtcrime.securesms.ryan.components.settings.app.changenumber
 
 import android.content.DialogInterface
 import android.os.Bundle
@@ -17,22 +17,22 @@ import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import org.greenrobot.eventbus.Subscribe
 import org.greenrobot.eventbus.ThreadMode
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.LoggingFragment
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.ViewBinderDelegate
-import org.thoughtcrime.securesms.components.settings.app.changenumber.ChangeNumberUtil.changeNumberSuccess
-import org.thoughtcrime.securesms.databinding.FragmentChangeNumberEnterCodeBinding
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.registration.data.RegistrationRepository
-import org.thoughtcrime.securesms.registration.data.network.RegistrationResult
-import org.thoughtcrime.securesms.registration.data.network.VerificationCodeRequestResult
-import org.thoughtcrime.securesms.registration.fragments.ContactSupportBottomSheetFragment
-import org.thoughtcrime.securesms.registration.fragments.RegistrationViewDelegate
-import org.thoughtcrime.securesms.registration.fragments.SignalStrengthPhoneStateListener
-import org.thoughtcrime.securesms.registration.sms.ReceivedSmsEvent
-import org.thoughtcrime.securesms.util.concurrent.AssertedSuccessListener
-import org.thoughtcrime.securesms.util.navigation.safeNavigate
-import org.thoughtcrime.securesms.util.visible
+import org.thoughtcrime.securesms.ryan.LoggingFragment
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.components.ViewBinderDelegate
+import org.thoughtcrime.securesms.ryan.components.settings.app.changenumber.ChangeNumberUtil.changeNumberSuccess
+import org.thoughtcrime.securesms.ryan.databinding.FragmentChangeNumberEnterCodeBinding
+import org.thoughtcrime.securesms.ryan.keyvalue.SignalStore
+import org.thoughtcrime.securesms.ryan.registration.data.RegistrationRepository
+import org.thoughtcrime.securesms.ryan.registration.data.network.RegistrationResult
+import org.thoughtcrime.securesms.ryan.registration.data.network.VerificationCodeRequestResult
+import org.thoughtcrime.securesms.ryan.registration.fragments.ContactSupportBottomSheetFragment
+import org.thoughtcrime.securesms.ryan.registration.fragments.RegistrationViewDelegate
+import org.thoughtcrime.securesms.ryan.registration.fragments.SignalStrengthPhoneStateListener
+import org.thoughtcrime.securesms.ryan.registration.sms.ReceivedSmsEvent
+import org.thoughtcrime.securesms.ryan.util.concurrent.AssertedSuccessListener
+import org.thoughtcrime.securesms.ryan.util.navigation.safeNavigate
+import org.thoughtcrime.securesms.ryan.util.visible
 import kotlin.time.Duration.Companion.milliseconds
 
 /**

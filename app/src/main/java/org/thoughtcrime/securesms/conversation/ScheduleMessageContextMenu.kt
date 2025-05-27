@@ -1,15 +1,15 @@
-package org.thoughtcrime.securesms.conversation
+package org.thoughtcrime.securesms.ryan.conversation
 
 import android.view.View
 import android.view.ViewGroup
 import androidx.annotation.DrawableRes
 import org.signal.core.util.dp
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.menu.ActionItem
-import org.thoughtcrime.securesms.components.menu.SignalContextMenu
-import org.thoughtcrime.securesms.util.DateUtils
-import org.thoughtcrime.securesms.util.toLocalDateTime
-import org.thoughtcrime.securesms.util.toMillis
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.components.menu.ActionItem
+import org.thoughtcrime.securesms.ryan.components.menu.SignalContextMenu
+import org.thoughtcrime.securesms.ryan.util.DateUtils
+import org.thoughtcrime.securesms.ryan.util.toLocalDateTime
+import org.thoughtcrime.securesms.ryan.util.toMillis
 
 class ScheduleMessageContextMenu {
 

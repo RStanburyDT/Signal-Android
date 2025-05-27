@@ -3,12 +3,23 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.jobs
+package org.thoughtcrime.securesms.ryan.jobs
 
 import org.signal.donations.InAppPaymentType
 import org.signal.donations.PaymentSource
 import org.signal.donations.StripeApi
 import org.signal.donations.StripeIntentAccessor
+<<<<<<< HEAD
+import org.thoughtcrime.securesms.ryan.components.settings.app.subscription.DonationSerializationHelper.toFiatMoney
+import org.thoughtcrime.securesms.ryan.components.settings.app.subscription.OneTimeInAppPaymentRepository
+import org.thoughtcrime.securesms.ryan.components.settings.app.subscription.StripeRepository
+import org.thoughtcrime.securesms.ryan.components.settings.app.subscription.toPaymentSource
+import org.thoughtcrime.securesms.ryan.database.InAppPaymentTable
+import org.thoughtcrime.securesms.ryan.jobmanager.Job
+import org.thoughtcrime.securesms.ryan.jobs.protos.InAppPaymentSetupJobData
+import org.thoughtcrime.securesms.ryan.recipients.Recipient
+import org.thoughtcrime.securesms.ryan.recipients.RecipientId
+=======
 import org.thoughtcrime.securesms.components.settings.app.subscription.DonationSerializationHelper.toFiatMoney
 import org.thoughtcrime.securesms.components.settings.app.subscription.OneTimeInAppPaymentRepository
 import org.thoughtcrime.securesms.components.settings.app.subscription.StripeRepository
@@ -20,6 +31,7 @@ import org.thoughtcrime.securesms.jobmanager.Job
 import org.thoughtcrime.securesms.jobs.protos.InAppPaymentSetupJobData
 import org.thoughtcrime.securesms.recipients.Recipient
 import org.thoughtcrime.securesms.recipients.RecipientId
+>>>>>>> 23669c3c372284d42db486a218d9f29bef247abf
 
 /**
  *  Handles one-time Stripe transactions.

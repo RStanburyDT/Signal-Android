@@ -3,10 +3,10 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.jobs
+package org.thoughtcrime.securesms.ryan.jobs
 
 /**
- * A smaller version of [org.thoughtcrime.securesms.jobmanager.persistence.JobSpec] that contains on the the data we need
+ * A smaller version of [org.thoughtcrime.securesms.ryan.jobmanager.persistence.JobSpec] that contains on the the data we need
  * to sort and pick jobs in [FastJobStorage].
  */
 data class MinimalJobSpec(

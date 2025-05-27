@@ -1,8 +1,8 @@
-package org.thoughtcrime.securesms.lock.v2;
+package org.thoughtcrime.securesms.ryan.lock.v2;
 
 import androidx.annotation.Nullable;
 
-import org.thoughtcrime.securesms.R;
+import org.thoughtcrime.securesms.ryan.R;
 
 public enum PinKeyboardType {
   NUMERIC("numeric"),

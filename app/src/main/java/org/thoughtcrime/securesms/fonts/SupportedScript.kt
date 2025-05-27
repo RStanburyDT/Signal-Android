@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.fonts
+package org.thoughtcrime.securesms.ryan.fonts
 
 /**
  * Scripts with font support for Stories

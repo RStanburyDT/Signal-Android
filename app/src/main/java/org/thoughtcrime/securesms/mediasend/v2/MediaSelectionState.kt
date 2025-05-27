@@ -1,17 +1,17 @@
-package org.thoughtcrime.securesms.mediasend.v2
+package org.thoughtcrime.securesms.ryan.mediasend.v2
 
 import android.net.Uri
-import org.thoughtcrime.securesms.conversation.MessageSendType
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.mediasend.Media
-import org.thoughtcrime.securesms.mediasend.v2.videos.VideoTrimData
-import org.thoughtcrime.securesms.mms.MediaConstraints
-import org.thoughtcrime.securesms.mms.SentMediaQuality
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.stories.Stories
-import org.thoughtcrime.securesms.util.MediaUtil
-import org.thoughtcrime.securesms.util.RemoteConfig
-import org.thoughtcrime.securesms.video.TranscodingPreset
+import org.thoughtcrime.securesms.ryan.conversation.MessageSendType
+import org.thoughtcrime.securesms.ryan.keyvalue.SignalStore
+import org.thoughtcrime.securesms.ryan.mediasend.Media
+import org.thoughtcrime.securesms.ryan.mediasend.v2.videos.VideoTrimData
+import org.thoughtcrime.securesms.ryan.mms.MediaConstraints
+import org.thoughtcrime.securesms.ryan.mms.SentMediaQuality
+import org.thoughtcrime.securesms.ryan.recipients.Recipient
+import org.thoughtcrime.securesms.ryan.stories.Stories
+import org.thoughtcrime.securesms.ryan.util.MediaUtil
+import org.thoughtcrime.securesms.ryan.util.RemoteConfig
+import org.thoughtcrime.securesms.ryan.video.TranscodingPreset
 import kotlin.time.Duration.Companion.seconds
 
 data class MediaSelectionState(

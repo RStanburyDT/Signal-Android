@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.payments.preferences.model;
+package org.thoughtcrime.securesms.ryan.payments.preferences.model;
 
 import android.os.Parcel;
 import android.os.Parcelable;
@@ -6,9 +6,9 @@ import android.os.Parcelable;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import org.thoughtcrime.securesms.payments.MobileCoinPublicAddress;
-import org.thoughtcrime.securesms.payments.Payee;
-import org.thoughtcrime.securesms.recipients.RecipientId;
+import org.thoughtcrime.securesms.ryan.payments.MobileCoinPublicAddress;
+import org.thoughtcrime.securesms.ryan.payments.Payee;
+import org.thoughtcrime.securesms.ryan.recipients.RecipientId;
 
 public final class PayeeParcelable implements Parcelable {
   private final Payee payee;

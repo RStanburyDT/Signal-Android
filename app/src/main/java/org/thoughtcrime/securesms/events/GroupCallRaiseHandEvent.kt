@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.events
+package org.thoughtcrime.securesms.ryan.events
 
 import kotlin.time.Duration
 import kotlin.time.Duration.Companion.milliseconds

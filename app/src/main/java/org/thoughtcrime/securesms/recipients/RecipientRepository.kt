@@ -3,14 +3,14 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.recipients
+package org.thoughtcrime.securesms.ryan.recipients
 
 import androidx.annotation.WorkerThread
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.contacts.sync.ContactDiscovery
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.phonenumbers.NumberUtil
-import org.thoughtcrime.securesms.util.SignalE164Util
+import org.thoughtcrime.securesms.ryan.contacts.sync.ContactDiscovery
+import org.thoughtcrime.securesms.ryan.database.SignalDatabase
+import org.thoughtcrime.securesms.ryan.phonenumbers.NumberUtil
+import org.thoughtcrime.securesms.ryan.util.SignalE164Util
 import java.io.IOException
 
 /**

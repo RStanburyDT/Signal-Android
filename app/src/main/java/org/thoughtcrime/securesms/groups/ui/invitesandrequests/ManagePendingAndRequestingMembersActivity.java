@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.groups.ui.invitesandrequests;
+package org.thoughtcrime.securesms.ryan.groups.ui.invitesandrequests;
 
 import android.content.Context;
 import android.content.Intent;
@@ -14,13 +14,13 @@ import androidx.viewpager2.widget.ViewPager2;
 import com.google.android.material.tabs.TabLayout;
 import com.google.android.material.tabs.TabLayoutMediator;
 
-import org.thoughtcrime.securesms.PassphraseRequiredActivity;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.groups.GroupId;
-import org.thoughtcrime.securesms.groups.ui.invitesandrequests.invited.PendingMemberInvitesFragment;
-import org.thoughtcrime.securesms.groups.ui.invitesandrequests.requesting.RequestingMembersFragment;
-import org.thoughtcrime.securesms.util.DynamicNoActionBarTheme;
-import org.thoughtcrime.securesms.util.DynamicTheme;
+import org.thoughtcrime.securesms.ryan.PassphraseRequiredActivity;
+import org.thoughtcrime.securesms.ryan.R;
+import org.thoughtcrime.securesms.ryan.groups.GroupId;
+import org.thoughtcrime.securesms.ryan.groups.ui.invitesandrequests.invited.PendingMemberInvitesFragment;
+import org.thoughtcrime.securesms.ryan.groups.ui.invitesandrequests.requesting.RequestingMembersFragment;
+import org.thoughtcrime.securesms.ryan.util.DynamicNoActionBarTheme;
+import org.thoughtcrime.securesms.ryan.util.DynamicTheme;
 
 public class ManagePendingAndRequestingMembersActivity extends PassphraseRequiredActivity {
 

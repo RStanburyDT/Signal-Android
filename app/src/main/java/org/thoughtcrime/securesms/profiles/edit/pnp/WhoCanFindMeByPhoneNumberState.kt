@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.profiles.edit.pnp
+package org.thoughtcrime.securesms.ryan.profiles.edit.pnp
 
 enum class WhoCanFindMeByPhoneNumberState {
   EVERYONE,

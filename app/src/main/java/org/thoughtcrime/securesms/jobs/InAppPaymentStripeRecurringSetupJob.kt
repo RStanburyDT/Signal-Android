@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.jobs
+package org.thoughtcrime.securesms.ryan.jobs
 
 import android.annotation.SuppressLint
 import org.signal.core.util.logging.Log
@@ -11,6 +11,17 @@ import org.signal.donations.PaymentSource
 import org.signal.donations.PaymentSourceType
 import org.signal.donations.StripeApi
 import org.signal.donations.StripeIntentAccessor
+<<<<<<< HEAD
+import org.thoughtcrime.securesms.ryan.components.settings.app.subscription.InAppPaymentsRepository
+import org.thoughtcrime.securesms.ryan.components.settings.app.subscription.InAppPaymentsRepository.requireSubscriberType
+import org.thoughtcrime.securesms.ryan.components.settings.app.subscription.InAppPaymentsRepository.toPaymentSourceType
+import org.thoughtcrime.securesms.ryan.components.settings.app.subscription.RecurringInAppPaymentRepository
+import org.thoughtcrime.securesms.ryan.components.settings.app.subscription.StripeRepository
+import org.thoughtcrime.securesms.ryan.components.settings.app.subscription.toPaymentSource
+import org.thoughtcrime.securesms.ryan.database.InAppPaymentTable
+import org.thoughtcrime.securesms.ryan.jobmanager.Job
+import org.thoughtcrime.securesms.ryan.jobs.protos.InAppPaymentSetupJobData
+=======
 import org.thoughtcrime.securesms.components.settings.app.subscription.InAppPaymentsRepository
 import org.thoughtcrime.securesms.components.settings.app.subscription.InAppPaymentsRepository.requireSubscriberType
 import org.thoughtcrime.securesms.components.settings.app.subscription.InAppPaymentsRepository.toPaymentSourceType
@@ -22,6 +33,7 @@ import org.thoughtcrime.securesms.components.settings.app.subscription.toPayment
 import org.thoughtcrime.securesms.database.InAppPaymentTable
 import org.thoughtcrime.securesms.jobmanager.Job
 import org.thoughtcrime.securesms.jobs.protos.InAppPaymentSetupJobData
+>>>>>>> 23669c3c372284d42db486a218d9f29bef247abf
 
 /**
  *  Handles setup of recurring Stripe transactions.

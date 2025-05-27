@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.conversationlist
+package org.thoughtcrime.securesms.ryan.conversationlist
 
 import android.os.Parcelable
 import androidx.lifecycle.SavedStateHandle
@@ -23,22 +23,22 @@ import kotlinx.parcelize.Parcelize
 import org.signal.paging.PagedData
 import org.signal.paging.PagingConfig
 import org.signal.paging.ProxyPagingController
-import org.thoughtcrime.securesms.components.settings.app.chats.folders.ChatFolderRecord
-import org.thoughtcrime.securesms.components.settings.app.chats.folders.ChatFoldersRepository
-import org.thoughtcrime.securesms.conversationlist.chatfilter.ConversationFilterRequest
-import org.thoughtcrime.securesms.conversationlist.chatfilter.ConversationFilterSource
-import org.thoughtcrime.securesms.conversationlist.model.Conversation
-import org.thoughtcrime.securesms.conversationlist.model.ConversationFilter
-import org.thoughtcrime.securesms.conversationlist.model.ConversationSet
-import org.thoughtcrime.securesms.database.RxDatabaseObserver
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.notifications.MarkReadReceiver
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.storage.StorageSyncHelper
-import org.thoughtcrime.securesms.util.rx.RxStore
+import org.thoughtcrime.securesms.ryan.components.settings.app.chats.folders.ChatFolderRecord
+import org.thoughtcrime.securesms.ryan.components.settings.app.chats.folders.ChatFoldersRepository
+import org.thoughtcrime.securesms.ryan.conversationlist.chatfilter.ConversationFilterRequest
+import org.thoughtcrime.securesms.ryan.conversationlist.chatfilter.ConversationFilterSource
+import org.thoughtcrime.securesms.ryan.conversationlist.model.Conversation
+import org.thoughtcrime.securesms.ryan.conversationlist.model.ConversationFilter
+import org.thoughtcrime.securesms.ryan.conversationlist.model.ConversationSet
+import org.thoughtcrime.securesms.ryan.database.RxDatabaseObserver
+import org.thoughtcrime.securesms.ryan.database.SignalDatabase
+import org.thoughtcrime.securesms.ryan.dependencies.AppDependencies
+import org.thoughtcrime.securesms.ryan.keyvalue.SignalStore
+import org.thoughtcrime.securesms.ryan.notifications.MarkReadReceiver
+import org.thoughtcrime.securesms.ryan.recipients.Recipient
+import org.thoughtcrime.securesms.ryan.recipients.RecipientId
+import org.thoughtcrime.securesms.ryan.storage.StorageSyncHelper
+import org.thoughtcrime.securesms.ryan.util.rx.RxStore
 import org.whispersystems.signalservice.api.websocket.WebSocketConnectionState
 import java.util.concurrent.TimeUnit
 

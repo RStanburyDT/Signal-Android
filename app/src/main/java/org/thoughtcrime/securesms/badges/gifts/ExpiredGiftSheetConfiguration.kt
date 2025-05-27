@@ -1,13 +1,13 @@
-package org.thoughtcrime.securesms.badges.gifts
+package org.thoughtcrime.securesms.ryan.badges.gifts
 
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.badges.models.Badge
-import org.thoughtcrime.securesms.badges.models.BadgeDisplay112
-import org.thoughtcrime.securesms.components.settings.DSLConfiguration
-import org.thoughtcrime.securesms.components.settings.DSLSettingsText
-import org.thoughtcrime.securesms.database.model.databaseprotos.GiftBadge
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingAdapter
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.badges.models.Badge
+import org.thoughtcrime.securesms.ryan.badges.models.BadgeDisplay112
+import org.thoughtcrime.securesms.ryan.components.settings.DSLConfiguration
+import org.thoughtcrime.securesms.ryan.components.settings.DSLSettingsText
+import org.thoughtcrime.securesms.ryan.database.model.databaseprotos.GiftBadge
+import org.thoughtcrime.securesms.ryan.keyvalue.SignalStore
+import org.thoughtcrime.securesms.ryan.util.adapter.mapping.MappingAdapter
 
 /**
  * Contains shared DSL layout for expired gifts, creatable using a GiftBadge or a Badge.

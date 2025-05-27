@@ -1,11 +1,11 @@
-package org.thoughtcrime.securesms.net;
+package org.thoughtcrime.securesms.ryan.net;
 
 import android.os.AsyncTask;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.WorkerThread;
 
-import org.thoughtcrime.securesms.util.Util;
+import org.thoughtcrime.securesms.ryan.util.Util;
 
 import java.io.InputStream;
 import java.util.Optional;

@@ -1,7 +1,7 @@
-package org.thoughtcrime.securesms.mediasend.v2.capture
+package org.thoughtcrime.securesms.ryan.mediasend.v2.capture
 
-import org.thoughtcrime.securesms.mediasend.Media
-import org.thoughtcrime.securesms.recipients.Recipient
+import org.thoughtcrime.securesms.ryan.mediasend.Media
+import org.thoughtcrime.securesms.ryan.recipients.Recipient
 
 sealed interface MediaCaptureEvent {
   data class MediaCaptureRendered(val media: Media) : MediaCaptureEvent

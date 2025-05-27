@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.service.webrtc;
+package org.thoughtcrime.securesms.ryan.service.webrtc;
 
 import android.os.ResultReceiver;
 
@@ -8,13 +8,13 @@ import androidx.annotation.Nullable;
 import org.signal.core.util.logging.Log;
 import org.signal.ringrtc.CallException;
 import org.signal.ringrtc.CallManager;
-import org.thoughtcrime.securesms.events.CallParticipant;
-import org.thoughtcrime.securesms.events.CallParticipantId;
-import org.thoughtcrime.securesms.events.WebRtcViewModel;
-import org.thoughtcrime.securesms.ringrtc.RemotePeer;
-import org.thoughtcrime.securesms.service.webrtc.state.WebRtcEphemeralState;
-import org.thoughtcrime.securesms.service.webrtc.state.WebRtcServiceState;
-import org.thoughtcrime.securesms.webrtc.locks.LockManager;
+import org.thoughtcrime.securesms.ryan.events.CallParticipant;
+import org.thoughtcrime.securesms.ryan.events.CallParticipantId;
+import org.thoughtcrime.securesms.ryan.events.WebRtcViewModel;
+import org.thoughtcrime.securesms.ryan.ringrtc.RemotePeer;
+import org.thoughtcrime.securesms.ryan.service.webrtc.state.WebRtcEphemeralState;
+import org.thoughtcrime.securesms.ryan.service.webrtc.state.WebRtcServiceState;
+import org.thoughtcrime.securesms.ryan.webrtc.locks.LockManager;
 
 import java.util.Collections;
 import java.util.Optional;

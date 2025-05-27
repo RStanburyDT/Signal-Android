@@ -1,7 +1,7 @@
-package org.thoughtcrime.securesms.notifications.profiles
+package org.thoughtcrime.securesms.ryan.notifications.profiles
 
-import org.thoughtcrime.securesms.util.isBetween
-import org.thoughtcrime.securesms.util.toLocalDateTime
+import org.thoughtcrime.securesms.ryan.util.isBetween
+import org.thoughtcrime.securesms.ryan.util.toLocalDateTime
 import java.time.DayOfWeek
 import java.time.LocalDateTime
 import java.time.LocalTime

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.conversation.ui.mentions
+package org.thoughtcrime.securesms.ryan.conversation.ui.mentions
 
 import android.os.Bundle
 import android.os.Handler
@@ -14,13 +14,13 @@ import com.google.android.material.bottomsheet.BottomSheetBehavior.BottomSheetCa
 import io.reactivex.rxjava3.kotlin.subscribeBy
 import org.signal.core.util.concurrent.LifecycleDisposable
 import org.signal.core.util.concurrent.addTo
-import org.thoughtcrime.securesms.LoggingFragment
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.conversation.ui.inlinequery.InlineQueryViewModelV2
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.util.VibrateUtil
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingModel
-import org.thoughtcrime.securesms.util.viewholders.RecipientViewHolder
+import org.thoughtcrime.securesms.ryan.LoggingFragment
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.conversation.ui.inlinequery.InlineQueryViewModelV2
+import org.thoughtcrime.securesms.ryan.recipients.Recipient
+import org.thoughtcrime.securesms.ryan.util.VibrateUtil
+import org.thoughtcrime.securesms.ryan.util.adapter.mapping.MappingModel
+import org.thoughtcrime.securesms.ryan.util.viewholders.RecipientViewHolder
 
 /**
  * Show inline query results for mentions in a group during message compose.

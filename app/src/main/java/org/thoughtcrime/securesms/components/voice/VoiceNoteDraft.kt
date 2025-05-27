@@ -1,7 +1,7 @@
-package org.thoughtcrime.securesms.components.voice
+package org.thoughtcrime.securesms.ryan.components.voice
 
 import android.net.Uri
-import org.thoughtcrime.securesms.database.DraftTable
+import org.thoughtcrime.securesms.ryan.database.DraftTable
 
 private const val SIZE = "size"
 

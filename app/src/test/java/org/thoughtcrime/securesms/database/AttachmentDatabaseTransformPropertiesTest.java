@@ -1,7 +1,7 @@
-package org.thoughtcrime.securesms.database;
+package org.thoughtcrime.securesms.ryan.database;
 
 import org.junit.Test;
-import org.thoughtcrime.securesms.mms.SentMediaQuality;
+import org.thoughtcrime.securesms.ryan.mms.SentMediaQuality;
 
 import static org.junit.Assert.assertEquals;
 

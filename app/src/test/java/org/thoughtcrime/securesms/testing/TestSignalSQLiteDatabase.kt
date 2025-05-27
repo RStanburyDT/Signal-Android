@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.testing
+package org.thoughtcrime.securesms.ryan.testing
 
 import android.content.ContentValues
 import android.database.Cursor
@@ -11,7 +11,7 @@ import android.database.sqlite.SQLiteDatabase as AndroidSQLiteDatabase
 import android.database.sqlite.SQLiteTransactionListener as AndroidSQLiteTransactionListener
 import net.zetetic.database.sqlcipher.SQLiteStatement as SQLCipherSQLiteStatement
 import net.zetetic.database.sqlcipher.SQLiteTransactionListener as SQLCipherSQLiteTransactionListener
-import org.thoughtcrime.securesms.database.SQLiteDatabase as SignalSQLiteDatabase
+import org.thoughtcrime.securesms.ryan.database.SQLiteDatabase as SignalSQLiteDatabase
 
 /**
  * Partial implementation of [SignalSQLiteDatabase] using an instance of [AndroidSQLiteDatabase] instead

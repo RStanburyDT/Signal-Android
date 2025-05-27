@@ -1,8 +1,8 @@
-package org.thoughtcrime.securesms.database.model
+package org.thoughtcrime.securesms.ryan.database.model
 
-import org.thoughtcrime.securesms.recipients.RecipientId
+import org.thoughtcrime.securesms.ryan.recipients.RecipientId
 
-/** A model for [org.thoughtcrime.securesms.database.PendingRetryReceiptTable] */
+/** A model for [org.thoughtcrime.securesms.ryan.database.PendingRetryReceiptTable] */
 data class PendingRetryReceiptModel(
   val id: Long,
   val author: RecipientId,

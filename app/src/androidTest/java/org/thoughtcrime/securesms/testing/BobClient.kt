@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.testing
+package org.thoughtcrime.securesms.ryan.testing
 
 import org.signal.core.util.readToSingleInt
 import org.signal.core.util.select
@@ -17,6 +17,15 @@ import org.signal.libsignal.protocol.state.SessionRecord
 import org.signal.libsignal.protocol.state.SignedPreKeyRecord
 import org.signal.libsignal.protocol.util.KeyHelper
 import org.signal.libsignal.zkgroup.profiles.ProfileKey
+<<<<<<< HEAD
+import org.thoughtcrime.securesms.ryan.crypto.ProfileKeyUtil
+import org.thoughtcrime.securesms.ryan.crypto.SealedSenderAccessUtil
+import org.thoughtcrime.securesms.ryan.database.OneTimePreKeyTable
+import org.thoughtcrime.securesms.ryan.database.SignalDatabase
+import org.thoughtcrime.securesms.ryan.database.SignedPreKeyTable
+import org.thoughtcrime.securesms.ryan.keyvalue.SignalStore
+import org.thoughtcrime.securesms.ryan.testing.FakeClientHelpers.toEnvelope
+=======
 import org.thoughtcrime.securesms.crypto.ProfileKeyUtil
 import org.thoughtcrime.securesms.crypto.SealedSenderAccessUtil
 import org.thoughtcrime.securesms.database.KyberPreKeyTable
@@ -25,6 +34,7 @@ import org.thoughtcrime.securesms.database.SignalDatabase
 import org.thoughtcrime.securesms.database.SignedPreKeyTable
 import org.thoughtcrime.securesms.keyvalue.SignalStore
 import org.thoughtcrime.securesms.testing.FakeClientHelpers.toEnvelope
+>>>>>>> 23669c3c372284d42db486a218d9f29bef247abf
 import org.whispersystems.signalservice.api.SignalServiceAccountDataStore
 import org.whispersystems.signalservice.api.SignalSessionLock
 import org.whispersystems.signalservice.api.crypto.SealedSenderAccess

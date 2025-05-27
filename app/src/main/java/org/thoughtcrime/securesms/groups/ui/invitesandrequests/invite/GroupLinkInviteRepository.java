@@ -1,18 +1,18 @@
-package org.thoughtcrime.securesms.groups.ui.invitesandrequests.invite;
+package org.thoughtcrime.securesms.ryan.groups.ui.invitesandrequests.invite;
 
 import android.content.Context;
 
 import androidx.annotation.NonNull;
 
 import org.signal.core.util.concurrent.SignalExecutors;
-import org.thoughtcrime.securesms.groups.GroupChangeBusyException;
-import org.thoughtcrime.securesms.groups.GroupChangeFailedException;
-import org.thoughtcrime.securesms.groups.GroupId;
-import org.thoughtcrime.securesms.groups.GroupInsufficientRightsException;
-import org.thoughtcrime.securesms.groups.GroupManager;
-import org.thoughtcrime.securesms.groups.GroupNotAMemberException;
-import org.thoughtcrime.securesms.groups.v2.GroupInviteLinkUrl;
-import org.thoughtcrime.securesms.util.AsynchronousCallback;
+import org.thoughtcrime.securesms.ryan.groups.GroupChangeBusyException;
+import org.thoughtcrime.securesms.ryan.groups.GroupChangeFailedException;
+import org.thoughtcrime.securesms.ryan.groups.GroupId;
+import org.thoughtcrime.securesms.ryan.groups.GroupInsufficientRightsException;
+import org.thoughtcrime.securesms.ryan.groups.GroupManager;
+import org.thoughtcrime.securesms.ryan.groups.GroupNotAMemberException;
+import org.thoughtcrime.securesms.ryan.groups.v2.GroupInviteLinkUrl;
+import org.thoughtcrime.securesms.ryan.util.AsynchronousCallback;
 
 import java.io.IOException;
 

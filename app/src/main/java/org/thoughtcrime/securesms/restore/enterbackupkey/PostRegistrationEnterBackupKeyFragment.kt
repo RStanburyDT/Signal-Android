@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.restore.enterbackupkey
+package org.thoughtcrime.securesms.ryan.restore.enterbackupkey
 
 import android.os.Bundle
 import android.view.View
@@ -22,11 +22,11 @@ import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.launch
 import org.signal.core.ui.compose.Dialogs
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.compose.ComposeFragment
-import org.thoughtcrime.securesms.registrationv3.ui.restore.EnterBackupKeyScreen
-import org.thoughtcrime.securesms.util.CommunicationActions
-import org.thoughtcrime.securesms.util.navigation.safeNavigate
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.compose.ComposeFragment
+import org.thoughtcrime.securesms.ryan.registrationv3.ui.restore.EnterBackupKeyScreen
+import org.thoughtcrime.securesms.ryan.util.CommunicationActions
+import org.thoughtcrime.securesms.ryan.util.navigation.safeNavigate
 import org.whispersystems.signalservice.api.AccountEntropyPool
 
 /**

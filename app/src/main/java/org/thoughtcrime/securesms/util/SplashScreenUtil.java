@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.util;
+package org.thoughtcrime.securesms.ryan.util;
 
 import android.app.Activity;
 import android.content.res.Resources;
@@ -7,8 +7,8 @@ import android.os.Build;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.keyvalue.SettingsValues;
+import org.thoughtcrime.securesms.ryan.R;
+import org.thoughtcrime.securesms.ryan.keyvalue.SettingsValues;
 
 public final class SplashScreenUtil {
   private SplashScreenUtil() {}

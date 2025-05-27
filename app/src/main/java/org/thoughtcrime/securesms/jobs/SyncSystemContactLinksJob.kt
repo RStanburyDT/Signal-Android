@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.jobs
+package org.thoughtcrime.securesms.ryan.jobs
 
 import android.Manifest
 import android.accounts.Account
@@ -9,14 +9,14 @@ import org.signal.contacts.ContactLinkConfiguration
 import org.signal.contacts.SystemContactsRepository
 import org.signal.core.util.Stopwatch
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.BuildConfig
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.contacts.sync.ContactDiscovery
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.jobmanager.Job
-import org.thoughtcrime.securesms.permissions.Permissions
-import org.thoughtcrime.securesms.storage.StorageSyncHelper
-import org.thoughtcrime.securesms.util.SignalE164Util
+import org.thoughtcrime.securesms.ryan.BuildConfig
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.contacts.sync.ContactDiscovery
+import org.thoughtcrime.securesms.ryan.database.SignalDatabase
+import org.thoughtcrime.securesms.ryan.jobmanager.Job
+import org.thoughtcrime.securesms.ryan.permissions.Permissions
+import org.thoughtcrime.securesms.ryan.storage.StorageSyncHelper
+import org.thoughtcrime.securesms.ryan.util.SignalE164Util
 import java.lang.Exception
 
 /**
@@ -97,9 +97,9 @@ class SyncSystemContactLinksJob private constructor(parameters: Parameters) : Ba
 
     const val KEY = "SyncSystemContactLinksJob"
 
-    private const val MESSAGE_MIMETYPE = "vnd.android.cursor.item/vnd.org.thoughtcrime.securesms.contact"
-    private const val CALL_MIMETYPE = "vnd.android.cursor.item/vnd.org.thoughtcrime.securesms.call"
-    private const val VIDEO_CALL_MIMETYPE = "vnd.android.cursor.item/vnd.org.thoughtcrime.securesms.videocall"
+    private const val MESSAGE_MIMETYPE = "vnd.android.cursor.item/vnd.org.thoughtcrime.securesms.ryan.contact"
+    private const val CALL_MIMETYPE = "vnd.android.cursor.item/vnd.org.thoughtcrime.securesms.ryan.call"
+    private const val VIDEO_CALL_MIMETYPE = "vnd.android.cursor.item/vnd.org.thoughtcrime.securesms.ryan.videocall"
     private const val CONTACT_TAG = "__TS"
 
     fun buildContactLinkConfiguration(context: Context, account: Account): ContactLinkConfiguration {

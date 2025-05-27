@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.stories.viewer.post
+package org.thoughtcrime.securesms.ryan.stories.viewer.post
 
 import android.graphics.Typeface
 import androidx.lifecycle.ViewModel
@@ -10,9 +10,9 @@ import io.reactivex.rxjava3.kotlin.plusAssign
 import io.reactivex.rxjava3.kotlin.subscribeBy
 import org.signal.core.util.Base64
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.database.model.databaseprotos.StoryTextPost
-import org.thoughtcrime.securesms.stories.viewer.page.StoryPost
-import org.thoughtcrime.securesms.util.rx.RxStore
+import org.thoughtcrime.securesms.ryan.database.model.databaseprotos.StoryTextPost
+import org.thoughtcrime.securesms.ryan.stories.viewer.page.StoryPost
+import org.thoughtcrime.securesms.ryan.util.rx.RxStore
 import kotlin.time.Duration
 import kotlin.time.Duration.Companion.microseconds
 

@@ -1,10 +1,10 @@
-package org.thoughtcrime.securesms.contacts.selection
+package org.thoughtcrime.securesms.ryan.contacts.selection
 
 import android.os.Bundle
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.contacts.ContactSelectionDisplayMode
-import org.thoughtcrime.securesms.groups.SelectionLimits
-import org.thoughtcrime.securesms.recipients.RecipientId
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.contacts.ContactSelectionDisplayMode
+import org.thoughtcrime.securesms.ryan.groups.SelectionLimits
+import org.thoughtcrime.securesms.ryan.recipients.RecipientId
 
 data class ContactSelectionArguments(
   val displayMode: Int = ContactSelectionDisplayMode.FLAG_ALL,

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.providers;
+package org.thoughtcrime.securesms.ryan.providers;
 
 import android.app.Application;
 import android.content.Context;
@@ -17,18 +17,18 @@ import androidx.annotation.WorkerThread;
 import org.signal.core.util.StreamUtil;
 import org.signal.core.util.concurrent.SignalExecutors;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.BuildConfig;
-import org.thoughtcrime.securesms.components.voice.VoiceNoteDraft;
-import org.thoughtcrime.securesms.crypto.AttachmentSecret;
-import org.thoughtcrime.securesms.crypto.AttachmentSecretProvider;
-import org.thoughtcrime.securesms.crypto.ModernDecryptingPartInputStream;
-import org.thoughtcrime.securesms.crypto.ModernEncryptingPartOutputStream;
-import org.thoughtcrime.securesms.database.DraftTable;
-import org.thoughtcrime.securesms.database.SignalDatabase;
-import org.thoughtcrime.securesms.util.IOFunction;
-import org.thoughtcrime.securesms.util.Util;
-import org.thoughtcrime.securesms.video.ByteArrayMediaDataSource;
-import org.thoughtcrime.securesms.video.EncryptedMediaDataSource;
+import org.thoughtcrime.securesms.ryan.BuildConfig;
+import org.thoughtcrime.securesms.ryan.components.voice.VoiceNoteDraft;
+import org.thoughtcrime.securesms.ryan.crypto.AttachmentSecret;
+import org.thoughtcrime.securesms.ryan.crypto.AttachmentSecretProvider;
+import org.thoughtcrime.securesms.ryan.crypto.ModernDecryptingPartInputStream;
+import org.thoughtcrime.securesms.ryan.crypto.ModernEncryptingPartOutputStream;
+import org.thoughtcrime.securesms.ryan.database.DraftTable;
+import org.thoughtcrime.securesms.ryan.database.SignalDatabase;
+import org.thoughtcrime.securesms.ryan.util.IOFunction;
+import org.thoughtcrime.securesms.ryan.util.Util;
+import org.thoughtcrime.securesms.ryan.video.ByteArrayMediaDataSource;
+import org.thoughtcrime.securesms.ryan.video.EncryptedMediaDataSource;
 
 import java.io.ByteArrayInputStream;
 import java.io.File;

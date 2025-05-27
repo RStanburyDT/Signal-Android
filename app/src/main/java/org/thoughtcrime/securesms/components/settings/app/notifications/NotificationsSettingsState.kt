@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.settings.app.notifications
+package org.thoughtcrime.securesms.ryan.components.settings.app.notifications
 
 import android.net.Uri
 

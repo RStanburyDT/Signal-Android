@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.registration.ui.phonenumber
+package org.thoughtcrime.securesms.ryan.registration.ui.phonenumber
 
 import android.content.Context
 import android.content.DialogInterface
@@ -40,37 +40,37 @@ import org.signal.core.util.ThreadUtil
 import org.signal.core.util.getParcelableCompat
 import org.signal.core.util.isNotNullOrBlank
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.LoggingFragment
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.ViewBinderDelegate
-import org.thoughtcrime.securesms.databinding.FragmentRegistrationEnterPhoneNumberBinding
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.registration.data.RegistrationRepository
-import org.thoughtcrime.securesms.registration.data.network.Challenge
-import org.thoughtcrime.securesms.registration.data.network.RegisterAccountResult
-import org.thoughtcrime.securesms.registration.data.network.RegistrationResult
-import org.thoughtcrime.securesms.registration.data.network.RegistrationSessionCheckResult
-import org.thoughtcrime.securesms.registration.data.network.RegistrationSessionCreationResult
-import org.thoughtcrime.securesms.registration.data.network.RegistrationSessionResult
-import org.thoughtcrime.securesms.registration.data.network.VerificationCodeRequestResult
-import org.thoughtcrime.securesms.registration.fragments.RegistrationViewDelegate.setDebugLogSubmitMultiTapView
-import org.thoughtcrime.securesms.registration.ui.RegistrationCheckpoint
-import org.thoughtcrime.securesms.registration.ui.RegistrationState
-import org.thoughtcrime.securesms.registration.ui.RegistrationViewModel
-import org.thoughtcrime.securesms.registration.ui.countrycode.Country
-import org.thoughtcrime.securesms.registration.ui.countrycode.CountryCodeFragment
-import org.thoughtcrime.securesms.registration.ui.toE164
-import org.thoughtcrime.securesms.registration.util.CountryPrefix
-import org.thoughtcrime.securesms.util.CommunicationActions
-import org.thoughtcrime.securesms.util.Dialogs
-import org.thoughtcrime.securesms.util.PlayServicesUtil
-import org.thoughtcrime.securesms.util.SignalE164Util
-import org.thoughtcrime.securesms.util.SpanUtil
-import org.thoughtcrime.securesms.util.SupportEmailUtil
-import org.thoughtcrime.securesms.util.ViewUtil
-import org.thoughtcrime.securesms.util.livedata.LiveDataObserverCallback
-import org.thoughtcrime.securesms.util.navigation.safeNavigate
-import org.thoughtcrime.securesms.util.visible
+import org.thoughtcrime.securesms.ryan.LoggingFragment
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.components.ViewBinderDelegate
+import org.thoughtcrime.securesms.ryan.databinding.FragmentRegistrationEnterPhoneNumberBinding
+import org.thoughtcrime.securesms.ryan.dependencies.AppDependencies
+import org.thoughtcrime.securesms.ryan.registration.data.RegistrationRepository
+import org.thoughtcrime.securesms.ryan.registration.data.network.Challenge
+import org.thoughtcrime.securesms.ryan.registration.data.network.RegisterAccountResult
+import org.thoughtcrime.securesms.ryan.registration.data.network.RegistrationResult
+import org.thoughtcrime.securesms.ryan.registration.data.network.RegistrationSessionCheckResult
+import org.thoughtcrime.securesms.ryan.registration.data.network.RegistrationSessionCreationResult
+import org.thoughtcrime.securesms.ryan.registration.data.network.RegistrationSessionResult
+import org.thoughtcrime.securesms.ryan.registration.data.network.VerificationCodeRequestResult
+import org.thoughtcrime.securesms.ryan.registration.fragments.RegistrationViewDelegate.setDebugLogSubmitMultiTapView
+import org.thoughtcrime.securesms.ryan.registration.ui.RegistrationCheckpoint
+import org.thoughtcrime.securesms.ryan.registration.ui.RegistrationState
+import org.thoughtcrime.securesms.ryan.registration.ui.RegistrationViewModel
+import org.thoughtcrime.securesms.ryan.registration.ui.countrycode.Country
+import org.thoughtcrime.securesms.ryan.registration.ui.countrycode.CountryCodeFragment
+import org.thoughtcrime.securesms.ryan.registration.ui.toE164
+import org.thoughtcrime.securesms.ryan.registration.util.CountryPrefix
+import org.thoughtcrime.securesms.ryan.util.CommunicationActions
+import org.thoughtcrime.securesms.ryan.util.Dialogs
+import org.thoughtcrime.securesms.ryan.util.PlayServicesUtil
+import org.thoughtcrime.securesms.ryan.util.SignalE164Util
+import org.thoughtcrime.securesms.ryan.util.SpanUtil
+import org.thoughtcrime.securesms.ryan.util.SupportEmailUtil
+import org.thoughtcrime.securesms.ryan.util.ViewUtil
+import org.thoughtcrime.securesms.ryan.util.livedata.LiveDataObserverCallback
+import org.thoughtcrime.securesms.ryan.util.navigation.safeNavigate
+import org.thoughtcrime.securesms.ryan.util.visible
 import kotlin.time.Duration.Companion.milliseconds
 
 /**

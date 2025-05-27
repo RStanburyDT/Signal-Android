@@ -1,13 +1,13 @@
-package org.thoughtcrime.securesms.logging;
+package org.thoughtcrime.securesms.ryan.logging;
 
 import android.content.Context;
 import android.os.Build;
 
 import androidx.annotation.NonNull;
 
-import org.thoughtcrime.securesms.crypto.KeyStoreHelper;
+import org.thoughtcrime.securesms.ryan.crypto.KeyStoreHelper;
 import org.signal.core.util.Base64;
-import org.thoughtcrime.securesms.util.TextSecurePreferences;
+import org.thoughtcrime.securesms.ryan.util.TextSecurePreferences;
 
 import java.io.IOException;
 import java.security.SecureRandom;

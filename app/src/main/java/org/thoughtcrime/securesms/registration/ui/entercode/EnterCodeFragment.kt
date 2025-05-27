@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.registration.ui.entercode
+package org.thoughtcrime.securesms.ryan.registration.ui.entercode
 
 import android.content.DialogInterface
 import android.os.Bundle
@@ -22,27 +22,27 @@ import org.greenrobot.eventbus.ThreadMode
 import org.signal.core.util.ThreadUtil
 import org.signal.core.util.isNotNullOrBlank
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.LoggingFragment
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.ViewBinderDelegate
-import org.thoughtcrime.securesms.conversation.v2.registerForLifecycle
-import org.thoughtcrime.securesms.databinding.FragmentRegistrationEnterCodeBinding
-import org.thoughtcrime.securesms.registration.data.network.Challenge
-import org.thoughtcrime.securesms.registration.data.network.RegisterAccountResult
-import org.thoughtcrime.securesms.registration.data.network.RegistrationResult
-import org.thoughtcrime.securesms.registration.data.network.RegistrationSessionCheckResult
-import org.thoughtcrime.securesms.registration.data.network.RegistrationSessionCreationResult
-import org.thoughtcrime.securesms.registration.data.network.RegistrationSessionResult
-import org.thoughtcrime.securesms.registration.data.network.VerificationCodeRequestResult
-import org.thoughtcrime.securesms.registration.fragments.ContactSupportBottomSheetFragment
-import org.thoughtcrime.securesms.registration.fragments.RegistrationViewDelegate.setDebugLogSubmitMultiTapView
-import org.thoughtcrime.securesms.registration.fragments.SignalStrengthPhoneStateListener
-import org.thoughtcrime.securesms.registration.sms.ReceivedSmsEvent
-import org.thoughtcrime.securesms.registration.ui.RegistrationCheckpoint
-import org.thoughtcrime.securesms.registration.ui.RegistrationViewModel
-import org.thoughtcrime.securesms.util.concurrent.AssertedSuccessListener
-import org.thoughtcrime.securesms.util.navigation.safeNavigate
-import org.thoughtcrime.securesms.util.visible
+import org.thoughtcrime.securesms.ryan.LoggingFragment
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.components.ViewBinderDelegate
+import org.thoughtcrime.securesms.ryan.conversation.v2.registerForLifecycle
+import org.thoughtcrime.securesms.ryan.databinding.FragmentRegistrationEnterCodeBinding
+import org.thoughtcrime.securesms.ryan.registration.data.network.Challenge
+import org.thoughtcrime.securesms.ryan.registration.data.network.RegisterAccountResult
+import org.thoughtcrime.securesms.ryan.registration.data.network.RegistrationResult
+import org.thoughtcrime.securesms.ryan.registration.data.network.RegistrationSessionCheckResult
+import org.thoughtcrime.securesms.ryan.registration.data.network.RegistrationSessionCreationResult
+import org.thoughtcrime.securesms.ryan.registration.data.network.RegistrationSessionResult
+import org.thoughtcrime.securesms.ryan.registration.data.network.VerificationCodeRequestResult
+import org.thoughtcrime.securesms.ryan.registration.fragments.ContactSupportBottomSheetFragment
+import org.thoughtcrime.securesms.ryan.registration.fragments.RegistrationViewDelegate.setDebugLogSubmitMultiTapView
+import org.thoughtcrime.securesms.ryan.registration.fragments.SignalStrengthPhoneStateListener
+import org.thoughtcrime.securesms.ryan.registration.sms.ReceivedSmsEvent
+import org.thoughtcrime.securesms.ryan.registration.ui.RegistrationCheckpoint
+import org.thoughtcrime.securesms.ryan.registration.ui.RegistrationViewModel
+import org.thoughtcrime.securesms.ryan.util.concurrent.AssertedSuccessListener
+import org.thoughtcrime.securesms.ryan.util.navigation.safeNavigate
+import org.thoughtcrime.securesms.ryan.util.visible
 import kotlin.time.Duration.Companion.milliseconds
 
 /**

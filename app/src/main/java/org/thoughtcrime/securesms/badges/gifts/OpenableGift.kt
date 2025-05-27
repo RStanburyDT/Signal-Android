@@ -1,6 +1,6 @@
-package org.thoughtcrime.securesms.badges.gifts
+package org.thoughtcrime.securesms.ryan.badges.gifts
 
-import org.thoughtcrime.securesms.util.Projection
+import org.thoughtcrime.securesms.ryan.util.Projection
 
 /**
  * Notes that a given item can have a gift box drawn over it.

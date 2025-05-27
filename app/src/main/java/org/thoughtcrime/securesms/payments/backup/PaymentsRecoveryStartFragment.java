@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.payments.backup;
+package org.thoughtcrime.securesms.ryan.payments.backup;
 
 import android.os.Bundle;
 import android.view.View;
@@ -17,13 +17,13 @@ import androidx.navigation.Navigation;
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.BiometricDeviceAuthentication;
-import org.thoughtcrime.securesms.BiometricDeviceLockContract;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
-import org.thoughtcrime.securesms.util.ServiceUtil;
-import org.thoughtcrime.securesms.util.navigation.SafeNavigation;
-import org.thoughtcrime.securesms.util.views.LearnMoreTextView;
+import org.thoughtcrime.securesms.ryan.BiometricDeviceAuthentication;
+import org.thoughtcrime.securesms.ryan.BiometricDeviceLockContract;
+import org.thoughtcrime.securesms.ryan.R;
+import org.thoughtcrime.securesms.ryan.keyvalue.SignalStore;
+import org.thoughtcrime.securesms.ryan.util.ServiceUtil;
+import org.thoughtcrime.securesms.ryan.util.navigation.SafeNavigation;
+import org.thoughtcrime.securesms.ryan.util.views.LearnMoreTextView;
 import org.whispersystems.signalservice.api.payments.PaymentsConstants;
 
 import kotlin.Unit;

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.stories.viewer.reply.tabs
+package org.thoughtcrime.securesms.ryan.stories.viewer.reply.tabs
 
 import android.content.DialogInterface
 import android.os.Bundle
@@ -17,16 +17,16 @@ import com.google.android.material.tabs.TabLayout
 import com.google.android.material.tabs.TabLayoutMediator
 import org.signal.core.util.concurrent.LifecycleDisposable
 import org.signal.core.util.getParcelableCompat
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.FixedRoundedCornerBottomSheetDialogFragment
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.stories.viewer.page.StoryViewerPageViewModel
-import org.thoughtcrime.securesms.stories.viewer.reply.BottomSheetBehaviorDelegate
-import org.thoughtcrime.securesms.stories.viewer.reply.StoryViewsAndRepliesPagerChild
-import org.thoughtcrime.securesms.stories.viewer.reply.StoryViewsAndRepliesPagerParent
-import org.thoughtcrime.securesms.stories.viewer.reply.group.StoryGroupReplyFragment
-import org.thoughtcrime.securesms.stories.viewer.reply.reaction.OnReactionSentView
-import org.thoughtcrime.securesms.util.BottomSheetUtil.requireCoordinatorLayout
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.components.FixedRoundedCornerBottomSheetDialogFragment
+import org.thoughtcrime.securesms.ryan.recipients.RecipientId
+import org.thoughtcrime.securesms.ryan.stories.viewer.page.StoryViewerPageViewModel
+import org.thoughtcrime.securesms.ryan.stories.viewer.reply.BottomSheetBehaviorDelegate
+import org.thoughtcrime.securesms.ryan.stories.viewer.reply.StoryViewsAndRepliesPagerChild
+import org.thoughtcrime.securesms.ryan.stories.viewer.reply.StoryViewsAndRepliesPagerParent
+import org.thoughtcrime.securesms.ryan.stories.viewer.reply.group.StoryGroupReplyFragment
+import org.thoughtcrime.securesms.ryan.stories.viewer.reply.reaction.OnReactionSentView
+import org.thoughtcrime.securesms.ryan.util.BottomSheetUtil.requireCoordinatorLayout
 import kotlin.math.min
 import kotlin.math.roundToInt
 

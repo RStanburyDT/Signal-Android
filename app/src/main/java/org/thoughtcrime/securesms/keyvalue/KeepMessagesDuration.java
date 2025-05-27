@@ -1,9 +1,9 @@
-package org.thoughtcrime.securesms.keyvalue;
+package org.thoughtcrime.securesms.ryan.keyvalue;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.StringRes;
 
-import org.thoughtcrime.securesms.R;
+import org.thoughtcrime.securesms.ryan.R;
 
 import java.util.concurrent.TimeUnit;
 

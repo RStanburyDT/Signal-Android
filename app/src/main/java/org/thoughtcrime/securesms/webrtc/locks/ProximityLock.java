@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.webrtc.locks;
+package org.thoughtcrime.securesms.ryan.webrtc.locks;
 
 import android.os.PowerManager;
 

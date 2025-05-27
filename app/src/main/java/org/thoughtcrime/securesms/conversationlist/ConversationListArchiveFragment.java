@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.thoughtcrime.securesms.conversationlist;
+package org.thoughtcrime.securesms.ryan.conversationlist;
 
 import android.annotation.SuppressLint;
 import android.os.Bundle;
@@ -33,12 +33,20 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import org.signal.core.util.concurrent.LifecycleDisposable;
 import org.signal.core.util.concurrent.SignalExecutors;
+<<<<<<< HEAD
+import org.thoughtcrime.securesms.ryan.R;
+import org.thoughtcrime.securesms.ryan.database.SignalDatabase;
+import org.thoughtcrime.securesms.ryan.main.SnackbarState;
+import org.thoughtcrime.securesms.ryan.util.ConversationUtil;
+import org.thoughtcrime.securesms.ryan.util.views.Stub;
+=======
 import org.thoughtcrime.securesms.R;
 import org.thoughtcrime.securesms.database.SignalDatabase;
 import org.thoughtcrime.securesms.main.MainNavigationListLocation;
 import org.thoughtcrime.securesms.main.SnackbarState;
 import org.thoughtcrime.securesms.util.ConversationUtil;
 import org.thoughtcrime.securesms.util.views.Stub;
+>>>>>>> 23669c3c372284d42db486a218d9f29bef247abf
 
 import java.util.Set;
 

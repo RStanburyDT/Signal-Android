@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms
+package org.thoughtcrime.securesms.ryan
 
 import android.os.StrictMode
 import android.os.StrictMode.ThreadPolicy
@@ -49,15 +49,15 @@ class CanaryApplicationContext : ApplicationContext() {
           fieldName = "mImpl"
         ) +
         AndroidReferenceMatchers.ignoredInstanceField(
-          className = "org.thoughtcrime.securesms.components.voice.VoiceNotePlaybackService",
+          className = "org.thoughtcrime.securesms.ryan.components.voice.VoiceNotePlaybackService",
           fieldName = "mApplication"
         ) +
         AndroidReferenceMatchers.ignoredInstanceField(
-          className = "org.thoughtcrime.securesms.service.GenericForegroundService\$LocalBinder",
+          className = "org.thoughtcrime.securesms.ryan.service.GenericForegroundService\$LocalBinder",
           fieldName = "this\$0"
         ) +
         AndroidReferenceMatchers.ignoredInstanceField(
-          className = "org.thoughtcrime.securesms.contacts.ContactsSyncAdapter",
+          className = "org.thoughtcrime.securesms.ryan.contacts.ContactsSyncAdapter",
           fieldName = "mContext"
         )
     )

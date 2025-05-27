@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.billing.upgrade
+package org.thoughtcrime.securesms.ryan.billing.upgrade
 
 import android.os.Bundle
 import android.view.View
@@ -17,15 +17,15 @@ import androidx.fragment.app.setFragmentResultListener
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import kotlinx.coroutines.rx3.asFlowable
 import org.signal.core.ui.compose.Dialogs
-import org.thoughtcrime.securesms.backup.v2.MessageBackupTier
-import org.thoughtcrime.securesms.backup.v2.ui.subscription.MessageBackupsFlowViewModel
-import org.thoughtcrime.securesms.backup.v2.ui.subscription.MessageBackupsStage
-import org.thoughtcrime.securesms.backup.v2.ui.subscription.MessageBackupsType
-import org.thoughtcrime.securesms.components.settings.app.subscription.donate.InAppPaymentCheckoutDelegate
-import org.thoughtcrime.securesms.compose.ComposeBottomSheetDialogFragment
-import org.thoughtcrime.securesms.database.InAppPaymentTable
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.util.viewModel
+import org.thoughtcrime.securesms.ryan.backup.v2.MessageBackupTier
+import org.thoughtcrime.securesms.ryan.backup.v2.ui.subscription.MessageBackupsFlowViewModel
+import org.thoughtcrime.securesms.ryan.backup.v2.ui.subscription.MessageBackupsStage
+import org.thoughtcrime.securesms.ryan.backup.v2.ui.subscription.MessageBackupsType
+import org.thoughtcrime.securesms.ryan.components.settings.app.subscription.donate.InAppPaymentCheckoutDelegate
+import org.thoughtcrime.securesms.ryan.compose.ComposeBottomSheetDialogFragment
+import org.thoughtcrime.securesms.ryan.database.InAppPaymentTable
+import org.thoughtcrime.securesms.ryan.dependencies.AppDependencies
+import org.thoughtcrime.securesms.ryan.util.viewModel
 
 /**
  * BottomSheet that encapsulates the common logic for updating someone to paid tier.

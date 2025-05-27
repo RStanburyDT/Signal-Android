@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.webrtc.controls
+package org.thoughtcrime.securesms.ryan.components.webrtc.controls
 
 import android.annotation.SuppressLint
 import android.content.res.ColorStateList
@@ -47,19 +47,19 @@ import io.reactivex.rxjava3.kotlin.subscribeBy
 import kotlinx.parcelize.Parcelize
 import org.signal.core.util.dp
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.BaseActivity
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.calls.links.EditCallLinkNameDialogFragment
-import org.thoughtcrime.securesms.components.InsetAwareConstraintLayout
-import org.thoughtcrime.securesms.components.webrtc.CallOverflowPopupWindow
-import org.thoughtcrime.securesms.components.webrtc.WebRtcCallView
-import org.thoughtcrime.securesms.components.webrtc.WebRtcControls
-import org.thoughtcrime.securesms.components.webrtc.v2.CallControlsVisibilityListener
-import org.thoughtcrime.securesms.components.webrtc.v2.CallInfoCallbacks
-import org.thoughtcrime.securesms.components.webrtc.v2.WebRtcCallViewModel
-import org.thoughtcrime.securesms.service.webrtc.links.UpdateCallLinkResult
-import org.thoughtcrime.securesms.util.padding
-import org.thoughtcrime.securesms.util.visible
+import org.thoughtcrime.securesms.ryan.BaseActivity
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.calls.links.EditCallLinkNameDialogFragment
+import org.thoughtcrime.securesms.ryan.components.InsetAwareConstraintLayout
+import org.thoughtcrime.securesms.ryan.components.webrtc.CallOverflowPopupWindow
+import org.thoughtcrime.securesms.ryan.components.webrtc.WebRtcCallView
+import org.thoughtcrime.securesms.ryan.components.webrtc.WebRtcControls
+import org.thoughtcrime.securesms.ryan.components.webrtc.v2.CallControlsVisibilityListener
+import org.thoughtcrime.securesms.ryan.components.webrtc.v2.CallInfoCallbacks
+import org.thoughtcrime.securesms.ryan.components.webrtc.v2.WebRtcCallViewModel
+import org.thoughtcrime.securesms.ryan.service.webrtc.links.UpdateCallLinkResult
+import org.thoughtcrime.securesms.ryan.util.padding
+import org.thoughtcrime.securesms.ryan.util.visible
 import kotlin.math.max
 import kotlin.time.Duration.Companion.seconds
 

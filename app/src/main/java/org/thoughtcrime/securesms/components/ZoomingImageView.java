@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components;
+package org.thoughtcrime.securesms.ryan.components;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -21,16 +21,16 @@ import com.davemorrissey.labs.subscaleview.decoder.DecoderFactory;
 import com.github.chrisbanes.photoview.PhotoView;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.components.subsampling.AttachmentBitmapDecoder;
-import org.thoughtcrime.securesms.components.subsampling.AttachmentRegionDecoder;
-import org.thoughtcrime.securesms.mms.DecryptableStreamUriLoader.DecryptableUri;
-import org.thoughtcrime.securesms.mms.PartAuthority;
-import org.thoughtcrime.securesms.util.ActionRequestListener;
-import org.thoughtcrime.securesms.util.BitmapDecodingException;
-import org.thoughtcrime.securesms.util.BitmapUtil;
-import org.thoughtcrime.securesms.util.MediaUtil;
-import org.thoughtcrime.securesms.util.ViewUtil;
+import org.thoughtcrime.securesms.ryan.R;
+import org.thoughtcrime.securesms.ryan.components.subsampling.AttachmentBitmapDecoder;
+import org.thoughtcrime.securesms.ryan.components.subsampling.AttachmentRegionDecoder;
+import org.thoughtcrime.securesms.ryan.mms.DecryptableStreamUriLoader.DecryptableUri;
+import org.thoughtcrime.securesms.ryan.mms.PartAuthority;
+import org.thoughtcrime.securesms.ryan.util.ActionRequestListener;
+import org.thoughtcrime.securesms.ryan.util.BitmapDecodingException;
+import org.thoughtcrime.securesms.ryan.util.BitmapUtil;
+import org.thoughtcrime.securesms.ryan.util.MediaUtil;
+import org.thoughtcrime.securesms.ryan.util.ViewUtil;
 import org.signal.core.util.concurrent.SimpleTask;
 
 import java.io.IOException;

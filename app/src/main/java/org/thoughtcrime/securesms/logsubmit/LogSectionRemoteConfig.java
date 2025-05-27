@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.logsubmit;
+package org.thoughtcrime.securesms.ryan.logsubmit;
 
 import android.content.Context;
 
@@ -6,8 +6,8 @@ import androidx.annotation.NonNull;
 
 import com.annimon.stream.Stream;
 
-import org.thoughtcrime.securesms.util.RemoteConfig;
-import org.thoughtcrime.securesms.util.Util;
+import org.thoughtcrime.securesms.ryan.util.RemoteConfig;
+import org.thoughtcrime.securesms.ryan.util.Util;
 
 import java.util.Map;
 

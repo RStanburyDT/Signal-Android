@@ -1,12 +1,12 @@
-package org.thoughtcrime.securesms.sharing.interstitial;
+package org.thoughtcrime.securesms.ryan.sharing.interstitial;
 
 import android.content.Context;
 
 import androidx.annotation.NonNull;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.util.viewholders.RecipientMappingModel;
+import org.thoughtcrime.securesms.ryan.R;
+import org.thoughtcrime.securesms.ryan.recipients.Recipient;
+import org.thoughtcrime.securesms.ryan.util.viewholders.RecipientMappingModel;
 
 class ShareInterstitialMappingModel extends RecipientMappingModel<ShareInterstitialMappingModel> {
 

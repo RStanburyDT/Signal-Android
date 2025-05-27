@@ -1,8 +1,8 @@
-package org.thoughtcrime.securesms.contacts.avatars;
+package org.thoughtcrime.securesms.ryan.contacts.avatars;
 
 import androidx.annotation.NonNull;
 
-import org.thoughtcrime.securesms.color.MaterialColor;
+import org.thoughtcrime.securesms.ryan.color.MaterialColor;
 
 import java.util.ArrayList;
 import java.util.Arrays;

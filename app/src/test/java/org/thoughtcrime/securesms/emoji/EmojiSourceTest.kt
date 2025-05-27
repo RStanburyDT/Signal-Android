@@ -1,10 +1,10 @@
-package org.thoughtcrime.securesms.emoji
+package org.thoughtcrime.securesms.ryan.emoji
 
 import android.net.Uri
 import org.junit.Assert
 import org.junit.Test
-import org.thoughtcrime.securesms.components.emoji.Emoji
-import org.thoughtcrime.securesms.components.emoji.EmojiPageModel
+import org.thoughtcrime.securesms.ryan.components.emoji.Emoji
+import org.thoughtcrime.securesms.ryan.components.emoji.EmojiPageModel
 
 class EmojiSourceTest {
 

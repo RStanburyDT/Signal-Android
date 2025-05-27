@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components;
+package org.thoughtcrime.securesms.ryan.components;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -19,18 +19,18 @@ import androidx.annotation.StringRes;
 import com.bumptech.glide.RequestManager;
 
 import org.signal.ringrtc.CallLinkRootKey;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.avatar.fallback.FallbackAvatar;
-import org.thoughtcrime.securesms.avatar.fallback.FallbackAvatarDrawable;
-import org.thoughtcrime.securesms.calls.links.CallLinks;
-import org.thoughtcrime.securesms.conversation.colors.AvatarColorHash;
-import org.thoughtcrime.securesms.linkpreview.LinkPreview;
-import org.thoughtcrime.securesms.linkpreview.LinkPreviewRepository;
-import org.thoughtcrime.securesms.mms.ImageSlide;
-import org.thoughtcrime.securesms.mms.SlidesClickedListener;
-import org.thoughtcrime.securesms.util.Util;
-import org.thoughtcrime.securesms.util.ViewUtil;
-import org.thoughtcrime.securesms.util.views.Stub;
+import org.thoughtcrime.securesms.ryan.R;
+import org.thoughtcrime.securesms.ryan.avatar.fallback.FallbackAvatar;
+import org.thoughtcrime.securesms.ryan.avatar.fallback.FallbackAvatarDrawable;
+import org.thoughtcrime.securesms.ryan.calls.links.CallLinks;
+import org.thoughtcrime.securesms.ryan.conversation.colors.AvatarColorHash;
+import org.thoughtcrime.securesms.ryan.linkpreview.LinkPreview;
+import org.thoughtcrime.securesms.ryan.linkpreview.LinkPreviewRepository;
+import org.thoughtcrime.securesms.ryan.mms.ImageSlide;
+import org.thoughtcrime.securesms.ryan.mms.SlidesClickedListener;
+import org.thoughtcrime.securesms.ryan.util.Util;
+import org.thoughtcrime.securesms.ryan.util.ViewUtil;
+import org.thoughtcrime.securesms.ryan.util.views.Stub;
 
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;

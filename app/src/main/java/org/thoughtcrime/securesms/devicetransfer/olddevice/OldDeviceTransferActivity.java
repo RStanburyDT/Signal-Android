@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.devicetransfer.olddevice;
+package org.thoughtcrime.securesms.ryan.devicetransfer.olddevice;
 
 import android.os.Bundle;
 
@@ -6,10 +6,10 @@ import androidx.annotation.Nullable;
 import androidx.navigation.NavController;
 import androidx.navigation.Navigation;
 
-import org.thoughtcrime.securesms.PassphraseRequiredActivity;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.util.DynamicNoActionBarTheme;
-import org.thoughtcrime.securesms.util.DynamicTheme;
+import org.thoughtcrime.securesms.ryan.PassphraseRequiredActivity;
+import org.thoughtcrime.securesms.ryan.R;
+import org.thoughtcrime.securesms.ryan.util.DynamicNoActionBarTheme;
+import org.thoughtcrime.securesms.ryan.util.DynamicTheme;
 
 /**
  * Shell of an activity to hold the old device navigation graph. See the various

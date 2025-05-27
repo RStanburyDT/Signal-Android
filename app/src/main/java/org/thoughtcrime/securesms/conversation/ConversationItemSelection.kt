@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.conversation
+package org.thoughtcrime.securesms.ryan.conversation
 
 import android.graphics.Bitmap
 import android.graphics.Path
@@ -10,10 +10,10 @@ import androidx.core.graphics.withTranslation
 import androidx.core.view.children
 import androidx.recyclerview.widget.RecyclerView
 import org.signal.core.util.DimensionUnit
-import org.thoughtcrime.securesms.conversation.v2.items.InteractiveConversationElement
-import org.thoughtcrime.securesms.database.model.MessageRecord
-import org.thoughtcrime.securesms.giph.mp4.GiphyMp4Playable
-import org.thoughtcrime.securesms.util.hasNoBubble
+import org.thoughtcrime.securesms.ryan.conversation.v2.items.InteractiveConversationElement
+import org.thoughtcrime.securesms.ryan.database.model.MessageRecord
+import org.thoughtcrime.securesms.ryan.giph.mp4.GiphyMp4Playable
+import org.thoughtcrime.securesms.ryan.util.hasNoBubble
 
 object ConversationItemSelection {
 

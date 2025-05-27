@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.settings.app.privacy.screenlock
+package org.thoughtcrime.securesms.ryan.components.settings.app.privacy.screenlock
 
 /**
  * Information about the screen lock state. Used in [ScreenLockSettingsViewModel].

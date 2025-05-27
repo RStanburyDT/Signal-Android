@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.stories.viewer.info
+package org.thoughtcrime.securesms.ryan.stories.viewer.info
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
@@ -7,9 +7,9 @@ import io.reactivex.rxjava3.core.BackpressureStrategy
 import io.reactivex.rxjava3.core.Flowable
 import io.reactivex.rxjava3.disposables.CompositeDisposable
 import io.reactivex.rxjava3.kotlin.plusAssign
-import org.thoughtcrime.securesms.database.model.MessageId
-import org.thoughtcrime.securesms.messagedetails.MessageDetailsRepository
-import org.thoughtcrime.securesms.util.rx.RxStore
+import org.thoughtcrime.securesms.ryan.database.model.MessageId
+import org.thoughtcrime.securesms.ryan.messagedetails.MessageDetailsRepository
+import org.thoughtcrime.securesms.ryan.util.rx.RxStore
 
 /**
  * Gathers and stores the StoryInfoState which is used to render the story info sheet.

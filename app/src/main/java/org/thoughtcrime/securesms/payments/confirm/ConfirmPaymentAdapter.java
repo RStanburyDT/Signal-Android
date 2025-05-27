@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.payments.confirm;
+package org.thoughtcrime.securesms.ryan.payments.confirm;
 
 import android.content.Context;
 import android.view.View;
@@ -9,12 +9,12 @@ import androidx.core.content.ContextCompat;
 
 import com.airbnb.lottie.LottieAnimationView;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.payments.confirm.ConfirmPaymentState.Status;
-import org.thoughtcrime.securesms.util.SpanUtil;
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingAdapter;
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingModel;
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingViewHolder;
+import org.thoughtcrime.securesms.ryan.R;
+import org.thoughtcrime.securesms.ryan.payments.confirm.ConfirmPaymentState.Status;
+import org.thoughtcrime.securesms.ryan.util.SpanUtil;
+import org.thoughtcrime.securesms.ryan.util.adapter.mapping.MappingAdapter;
+import org.thoughtcrime.securesms.ryan.util.adapter.mapping.MappingModel;
+import org.thoughtcrime.securesms.ryan.util.adapter.mapping.MappingViewHolder;
 import org.whispersystems.signalservice.api.payments.FormatterOptions;
 import org.whispersystems.signalservice.api.payments.Money;
 

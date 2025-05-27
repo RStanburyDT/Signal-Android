@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.fonts
+package org.thoughtcrime.securesms.ryan.fonts
 
 import android.graphics.Typeface
 import androidx.compose.runtime.Composable

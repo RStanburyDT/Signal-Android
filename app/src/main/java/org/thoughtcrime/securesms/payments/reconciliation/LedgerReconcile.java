@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.payments.reconciliation;
+package org.thoughtcrime.securesms.ryan.payments.reconciliation;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.WorkerThread;
@@ -9,13 +9,13 @@ import com.annimon.stream.Stream;
 
 import org.signal.core.util.MapUtil;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.payments.MobileCoinLedgerWrapper;
-import org.thoughtcrime.securesms.payments.Payment;
-import org.thoughtcrime.securesms.payments.PaymentDecorator;
-import org.thoughtcrime.securesms.payments.ReconstructedPayment;
-import org.thoughtcrime.securesms.payments.State;
-import org.thoughtcrime.securesms.payments.history.TransactionReconstruction;
-import org.thoughtcrime.securesms.payments.proto.PaymentMetaData;
+import org.thoughtcrime.securesms.ryan.payments.MobileCoinLedgerWrapper;
+import org.thoughtcrime.securesms.ryan.payments.Payment;
+import org.thoughtcrime.securesms.ryan.payments.PaymentDecorator;
+import org.thoughtcrime.securesms.ryan.payments.ReconstructedPayment;
+import org.thoughtcrime.securesms.ryan.payments.State;
+import org.thoughtcrime.securesms.ryan.payments.history.TransactionReconstruction;
+import org.thoughtcrime.securesms.ryan.payments.proto.PaymentMetaData;
 import org.whispersystems.signalservice.api.payments.Money;
 
 import java.util.ArrayList;

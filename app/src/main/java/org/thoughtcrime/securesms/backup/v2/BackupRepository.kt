@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.backup.v2
+package org.thoughtcrime.securesms.ryan.backup.v2
 
 import android.database.Cursor
 import android.os.Environment
@@ -34,6 +34,53 @@ import org.signal.core.util.urlEncode
 import org.signal.core.util.withinTransaction
 import org.signal.libsignal.zkgroup.backups.BackupLevel
 import org.signal.libsignal.zkgroup.profiles.ProfileKey
+<<<<<<< HEAD
+import org.thoughtcrime.securesms.ryan.attachments.Attachment
+import org.thoughtcrime.securesms.ryan.attachments.AttachmentId
+import org.thoughtcrime.securesms.ryan.attachments.Cdn
+import org.thoughtcrime.securesms.ryan.attachments.DatabaseAttachment
+import org.thoughtcrime.securesms.ryan.backup.v2.importer.ChatItemArchiveImporter
+import org.thoughtcrime.securesms.ryan.backup.v2.processor.AccountDataArchiveProcessor
+import org.thoughtcrime.securesms.ryan.backup.v2.processor.AdHocCallArchiveProcessor
+import org.thoughtcrime.securesms.ryan.backup.v2.processor.ChatArchiveProcessor
+import org.thoughtcrime.securesms.ryan.backup.v2.processor.ChatFolderProcessor
+import org.thoughtcrime.securesms.ryan.backup.v2.processor.ChatItemArchiveProcessor
+import org.thoughtcrime.securesms.ryan.backup.v2.processor.NotificationProfileProcessor
+import org.thoughtcrime.securesms.ryan.backup.v2.processor.RecipientArchiveProcessor
+import org.thoughtcrime.securesms.ryan.backup.v2.processor.StickerArchiveProcessor
+import org.thoughtcrime.securesms.ryan.backup.v2.proto.BackupInfo
+import org.thoughtcrime.securesms.ryan.backup.v2.stream.BackupExportWriter
+import org.thoughtcrime.securesms.ryan.backup.v2.stream.BackupImportReader
+import org.thoughtcrime.securesms.ryan.backup.v2.stream.EncryptedBackupReader
+import org.thoughtcrime.securesms.ryan.backup.v2.stream.EncryptedBackupWriter
+import org.thoughtcrime.securesms.ryan.backup.v2.stream.PlainTextBackupReader
+import org.thoughtcrime.securesms.ryan.backup.v2.stream.PlainTextBackupWriter
+import org.thoughtcrime.securesms.ryan.backup.v2.ui.subscription.MessageBackupsType
+import org.thoughtcrime.securesms.ryan.components.settings.app.subscription.RecurringInAppPaymentRepository
+import org.thoughtcrime.securesms.ryan.crypto.AttachmentSecretProvider
+import org.thoughtcrime.securesms.ryan.crypto.DatabaseSecretProvider
+import org.thoughtcrime.securesms.ryan.database.AttachmentTable
+import org.thoughtcrime.securesms.ryan.database.BackupMediaSnapshotTable.ArchiveMediaItem
+import org.thoughtcrime.securesms.ryan.database.KeyValueDatabase
+import org.thoughtcrime.securesms.ryan.database.SearchTable
+import org.thoughtcrime.securesms.ryan.database.SignalDatabase
+import org.thoughtcrime.securesms.ryan.database.model.InAppPaymentSubscriberRecord
+import org.thoughtcrime.securesms.ryan.dependencies.AppDependencies
+import org.thoughtcrime.securesms.ryan.groups.GroupId
+import org.thoughtcrime.securesms.ryan.jobmanager.Job
+import org.thoughtcrime.securesms.ryan.jobs.AvatarGroupsV2DownloadJob
+import org.thoughtcrime.securesms.ryan.jobs.RequestGroupV2InfoJob
+import org.thoughtcrime.securesms.ryan.jobs.RestoreAttachmentJob
+import org.thoughtcrime.securesms.ryan.keyvalue.BackupValues.ArchiveServiceCredentials
+import org.thoughtcrime.securesms.ryan.keyvalue.KeyValueStore
+import org.thoughtcrime.securesms.ryan.keyvalue.SignalStore
+import org.thoughtcrime.securesms.ryan.keyvalue.isDecisionPending
+import org.thoughtcrime.securesms.ryan.net.SignalNetwork
+import org.thoughtcrime.securesms.ryan.recipients.Recipient
+import org.thoughtcrime.securesms.ryan.recipients.RecipientId
+import org.thoughtcrime.securesms.ryan.util.RemoteConfig
+import org.thoughtcrime.securesms.ryan.util.toMillis
+=======
 import org.thoughtcrime.securesms.attachments.Attachment
 import org.thoughtcrime.securesms.attachments.AttachmentId
 import org.thoughtcrime.securesms.attachments.Cdn
@@ -86,6 +133,7 @@ import org.thoughtcrime.securesms.recipients.Recipient
 import org.thoughtcrime.securesms.recipients.RecipientId
 import org.thoughtcrime.securesms.util.RemoteConfig
 import org.thoughtcrime.securesms.util.toMillis
+>>>>>>> 23669c3c372284d42db486a218d9f29bef247abf
 import org.whispersystems.signalservice.api.AccountEntropyPool
 import org.whispersystems.signalservice.api.NetworkResult
 import org.whispersystems.signalservice.api.StatusCodeErrorAction

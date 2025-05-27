@@ -3,16 +3,16 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.settings.app.subscription
+package org.thoughtcrime.securesms.ryan.components.settings.app.subscription
 
 import okio.ByteString
 import org.signal.core.util.money.FiatMoney
 import org.signal.donations.PaymentSourceType
-import org.thoughtcrime.securesms.badges.Badges
-import org.thoughtcrime.securesms.badges.models.Badge
-import org.thoughtcrime.securesms.database.model.databaseprotos.DecimalValue
-import org.thoughtcrime.securesms.database.model.databaseprotos.FiatValue
-import org.thoughtcrime.securesms.database.model.databaseprotos.PendingOneTimeDonation
+import org.thoughtcrime.securesms.ryan.badges.Badges
+import org.thoughtcrime.securesms.ryan.badges.models.Badge
+import org.thoughtcrime.securesms.ryan.database.model.databaseprotos.DecimalValue
+import org.thoughtcrime.securesms.ryan.database.model.databaseprotos.FiatValue
+import org.thoughtcrime.securesms.ryan.database.model.databaseprotos.PendingOneTimeDonation
 import java.math.BigDecimal
 import java.math.BigInteger
 import java.math.MathContext

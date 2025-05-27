@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.database
+package org.thoughtcrime.securesms.ryan.database
 
 import android.content.Context
 import androidx.annotation.WorkerThread
@@ -29,13 +29,13 @@ import org.signal.core.util.select
 import org.signal.core.util.toInt
 import org.signal.core.util.update
 import org.signal.core.util.withinTransaction
-import org.thoughtcrime.securesms.database.model.MessageRecord
-import org.thoughtcrime.securesms.database.model.databaseprotos.ProfileChangeDetails
-import org.thoughtcrime.securesms.groups.GroupId
-import org.thoughtcrime.securesms.groups.GroupId.V2
-import org.thoughtcrime.securesms.profiles.spoofing.ReviewRecipient
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientId
+import org.thoughtcrime.securesms.ryan.database.model.MessageRecord
+import org.thoughtcrime.securesms.ryan.database.model.databaseprotos.ProfileChangeDetails
+import org.thoughtcrime.securesms.ryan.groups.GroupId
+import org.thoughtcrime.securesms.ryan.groups.GroupId.V2
+import org.thoughtcrime.securesms.ryan.profiles.spoofing.ReviewRecipient
+import org.thoughtcrime.securesms.ryan.recipients.Recipient
+import org.thoughtcrime.securesms.ryan.recipients.RecipientId
 import java.io.IOException
 import java.security.MessageDigest
 import java.security.NoSuchAlgorithmException
@@ -381,7 +381,7 @@ class NameCollisionTables(
           NameCollisionMembershipTable.COLLISION_ID to collision.id,
           NameCollisionMembershipTable.PROFILE_CHANGE_DETAILS to member.profileChangeDetails?.encode()
         )
-        .run(conflictStrategy = org.thoughtcrime.securesms.database.SQLiteDatabase.CONFLICT_IGNORE)
+        .run(conflictStrategy = org.thoughtcrime.securesms.ryan.database.SQLiteDatabase.CONFLICT_IGNORE)
     }
   }
 

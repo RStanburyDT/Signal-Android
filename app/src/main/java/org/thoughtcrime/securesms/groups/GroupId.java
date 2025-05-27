@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.groups;
+package org.thoughtcrime.securesms.ryan.groups;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -10,8 +10,8 @@ import org.signal.libsignal.zkgroup.InvalidInputException;
 import org.signal.libsignal.zkgroup.groups.GroupIdentifier;
 import org.signal.libsignal.zkgroup.groups.GroupMasterKey;
 import org.signal.libsignal.zkgroup.groups.GroupSecretParams;
-import org.thoughtcrime.securesms.util.LRUCache;
-import org.thoughtcrime.securesms.util.Util;
+import org.thoughtcrime.securesms.ryan.util.LRUCache;
+import org.thoughtcrime.securesms.ryan.util.Util;
 
 import java.io.IOException;
 import java.security.SecureRandom;

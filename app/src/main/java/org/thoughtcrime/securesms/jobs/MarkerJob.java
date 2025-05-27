@@ -1,10 +1,10 @@
-package org.thoughtcrime.securesms.jobs;
+package org.thoughtcrime.securesms.ryan.jobs;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.jobmanager.Job;
+import org.thoughtcrime.securesms.ryan.jobmanager.Job;
 
 /**
  * Useful for putting in a queue as a marker to know that previously enqueued jobs have been processed.

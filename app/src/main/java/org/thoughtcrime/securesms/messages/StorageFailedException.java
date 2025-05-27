@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.messages;
+package org.thoughtcrime.securesms.ryan.messages;
 
 class StorageFailedException extends Exception {
   private final String sender;

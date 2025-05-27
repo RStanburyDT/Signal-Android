@@ -1,8 +1,8 @@
-package org.thoughtcrime.securesms.push;
+package org.thoughtcrime.securesms.ryan.push;
 
 import android.content.Context;
 
-import org.thoughtcrime.securesms.R;
+import org.thoughtcrime.securesms.ryan.R;
 import org.whispersystems.signalservice.api.push.TrustStore;
 
 import java.io.InputStream;

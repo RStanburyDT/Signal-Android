@@ -1,8 +1,8 @@
-package org.thoughtcrime.securesms.payments;
+package org.thoughtcrime.securesms.ryan.payments;
 
 import androidx.annotation.NonNull;
 
-import org.thoughtcrime.securesms.database.model.databaseprotos.CryptoValue;
+import org.thoughtcrime.securesms.ryan.database.model.databaseprotos.CryptoValue;
 import org.whispersystems.signalservice.api.payments.Money;
 
 import java.math.BigInteger;

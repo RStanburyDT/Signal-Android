@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.webrtc.v2
+package org.thoughtcrime.securesms.ryan.components.webrtc.v2
 
 import android.content.ActivityNotFoundException
 import android.content.Intent
@@ -11,6 +11,17 @@ import android.widget.Toast
 import androidx.core.app.ShareCompat
 import androidx.core.os.bundleOf
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
+<<<<<<< HEAD
+import org.thoughtcrime.securesms.ryan.BaseActivity
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.calls.links.CallLinks
+import org.thoughtcrime.securesms.ryan.calls.links.EditCallLinkNameDialogFragment
+import org.thoughtcrime.securesms.ryan.calls.links.EditCallLinkNameDialogFragmentArgs
+import org.thoughtcrime.securesms.ryan.components.webrtc.controls.CallInfoView
+import org.thoughtcrime.securesms.ryan.components.webrtc.controls.ControlsAndInfoViewModel
+import org.thoughtcrime.securesms.ryan.dependencies.AppDependencies
+import org.thoughtcrime.securesms.ryan.events.CallParticipant
+=======
 import org.thoughtcrime.securesms.BaseActivity
 import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.calls.links.CallLinks
@@ -19,6 +30,7 @@ import org.thoughtcrime.securesms.components.webrtc.controls.CallInfoView
 import org.thoughtcrime.securesms.components.webrtc.controls.ControlsAndInfoViewModel
 import org.thoughtcrime.securesms.dependencies.AppDependencies
 import org.thoughtcrime.securesms.events.CallParticipant
+>>>>>>> 23669c3c372284d42db486a218d9f29bef247abf
 
 /**
  * Callbacks for the CallInfoView, shared between CallActivity and ControlsAndInfoController.

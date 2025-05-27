@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.messages
+package org.thoughtcrime.securesms.ryan.messages
 
 import androidx.test.ext.junit.runners.AndroidJUnit4
 import io.mockk.every
@@ -16,15 +16,15 @@ import org.signal.core.util.logging.Log
 import org.signal.libsignal.protocol.ecc.Curve
 import org.signal.libsignal.protocol.ecc.ECKeyPair
 import org.signal.libsignal.zkgroup.profiles.ProfileKey
-import org.thoughtcrime.securesms.crypto.SealedSenderAccessUtil
-import org.thoughtcrime.securesms.dependencies.InstrumentationApplicationDependencyProvider
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.testing.AliceClient
-import org.thoughtcrime.securesms.testing.BobClient
-import org.thoughtcrime.securesms.testing.Entry
-import org.thoughtcrime.securesms.testing.FakeClientHelpers
-import org.thoughtcrime.securesms.testing.SignalActivityRule
-import org.thoughtcrime.securesms.testing.awaitFor
+import org.thoughtcrime.securesms.ryan.crypto.SealedSenderAccessUtil
+import org.thoughtcrime.securesms.ryan.dependencies.InstrumentationApplicationDependencyProvider
+import org.thoughtcrime.securesms.ryan.recipients.Recipient
+import org.thoughtcrime.securesms.ryan.testing.AliceClient
+import org.thoughtcrime.securesms.ryan.testing.BobClient
+import org.thoughtcrime.securesms.ryan.testing.Entry
+import org.thoughtcrime.securesms.ryan.testing.FakeClientHelpers
+import org.thoughtcrime.securesms.ryan.testing.SignalActivityRule
+import org.thoughtcrime.securesms.ryan.testing.awaitFor
 import org.whispersystems.signalservice.internal.push.Envelope
 import org.whispersystems.signalservice.internal.websocket.WebSocketMessage
 import org.whispersystems.signalservice.internal.websocket.WebSocketRequestMessage

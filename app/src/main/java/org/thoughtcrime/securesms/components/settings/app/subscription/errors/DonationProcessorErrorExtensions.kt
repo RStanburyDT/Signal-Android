@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.settings.app.subscription.errors
+package org.thoughtcrime.securesms.ryan.components.settings.app.subscription.errors
 
 import org.signal.donations.PaymentSourceType
 import org.signal.donations.StripeDeclineCode

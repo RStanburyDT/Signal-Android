@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.settings.app.subscription.donate.transfer.mandate
+package org.thoughtcrime.securesms.ryan.components.settings.app.subscription.donate.transfer.mandate
 
 import android.annotation.SuppressLint
 import android.os.Bundle
@@ -57,13 +57,13 @@ import org.signal.core.ui.compose.Buttons
 import org.signal.core.ui.compose.Dividers
 import org.signal.core.ui.compose.Texts
 import org.signal.core.ui.compose.theme.SignalTheme
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.compose.ComposeFragment
-import org.thoughtcrime.securesms.compose.StatusBarColorAnimator
-import org.thoughtcrime.securesms.database.model.databaseprotos.InAppPaymentData
-import org.thoughtcrime.securesms.util.SpanUtil
-import org.thoughtcrime.securesms.util.navigation.safeNavigate
-import org.thoughtcrime.securesms.util.viewModel
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.compose.ComposeFragment
+import org.thoughtcrime.securesms.ryan.compose.StatusBarColorAnimator
+import org.thoughtcrime.securesms.ryan.database.model.databaseprotos.InAppPaymentData
+import org.thoughtcrime.securesms.ryan.util.SpanUtil
+import org.thoughtcrime.securesms.ryan.util.navigation.safeNavigate
+import org.thoughtcrime.securesms.ryan.util.viewModel
 
 /**
  * Displays Bank Transfer legal mandate users must agree to to move forward.

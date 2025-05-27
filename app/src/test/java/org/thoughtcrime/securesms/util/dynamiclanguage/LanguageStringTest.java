@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.util.dynamiclanguage;
+package org.thoughtcrime.securesms.ryan.util.dynamiclanguage;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

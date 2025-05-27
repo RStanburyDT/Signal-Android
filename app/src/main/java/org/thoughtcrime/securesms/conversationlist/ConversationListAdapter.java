@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.conversationlist;
+package org.thoughtcrime.securesms.ryan.conversationlist;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -16,12 +16,12 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.bumptech.glide.RequestManager;
 
 import org.signal.paging.PagingController;
-import org.thoughtcrime.securesms.BindableConversationListItem;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.conversationlist.model.Conversation;
-import org.thoughtcrime.securesms.conversationlist.model.ConversationSet;
-import org.thoughtcrime.securesms.util.CachedInflater;
-import org.thoughtcrime.securesms.util.ViewUtil;
+import org.thoughtcrime.securesms.ryan.BindableConversationListItem;
+import org.thoughtcrime.securesms.ryan.R;
+import org.thoughtcrime.securesms.ryan.conversationlist.model.Conversation;
+import org.thoughtcrime.securesms.ryan.conversationlist.model.ConversationSet;
+import org.thoughtcrime.securesms.ryan.util.CachedInflater;
+import org.thoughtcrime.securesms.ryan.util.ViewUtil;
 
 import java.util.HashSet;
 import java.util.List;

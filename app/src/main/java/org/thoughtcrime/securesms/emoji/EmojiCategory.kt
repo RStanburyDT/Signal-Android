@@ -1,8 +1,8 @@
-package org.thoughtcrime.securesms.emoji
+package org.thoughtcrime.securesms.ryan.emoji
 
 import androidx.annotation.AttrRes
 import androidx.annotation.StringRes
-import org.thoughtcrime.securesms.R
+import org.thoughtcrime.securesms.ryan.R
 
 /**
  * All the different Emoji categories the app is aware of in the order we want to display them.

@@ -1,12 +1,12 @@
-package org.thoughtcrime.securesms.payments.currency;
+package org.thoughtcrime.securesms.ryan.payments.currency;
 
 import androidx.annotation.AnyThread;
 import androidx.annotation.NonNull;
 
 import org.signal.core.util.concurrent.SignalExecutors;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.payments.Payments;
-import org.thoughtcrime.securesms.util.AsynchronousCallback;
+import org.thoughtcrime.securesms.ryan.payments.Payments;
+import org.thoughtcrime.securesms.ryan.util.AsynchronousCallback;
 
 import java.io.IOException;
 

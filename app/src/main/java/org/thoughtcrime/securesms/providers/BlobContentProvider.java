@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.providers;
+package org.thoughtcrime.securesms.ryan.providers;
 
 import android.content.ContentValues;
 import android.database.Cursor;
@@ -11,9 +11,9 @@ import androidx.annotation.Nullable;
 
 import org.signal.core.util.StreamUtil;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.dependencies.AppDependencies;
-import org.thoughtcrime.securesms.util.MemoryFileUtil;
-import org.thoughtcrime.securesms.util.Util;
+import org.thoughtcrime.securesms.ryan.dependencies.AppDependencies;
+import org.thoughtcrime.securesms.ryan.util.MemoryFileUtil;
+import org.thoughtcrime.securesms.ryan.util.Util;
 
 import java.io.FileNotFoundException;
 import java.io.IOException;

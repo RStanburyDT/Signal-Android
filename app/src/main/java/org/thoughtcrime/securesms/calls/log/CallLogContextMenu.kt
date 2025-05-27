@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.calls.log
+package org.thoughtcrime.securesms.ryan.calls.log
 
 import android.view.View
 import android.view.ViewGroup
@@ -7,16 +7,16 @@ import androidx.recyclerview.widget.RecyclerView
 import io.reactivex.rxjava3.kotlin.subscribeBy
 import org.signal.core.util.concurrent.LifecycleDisposable
 import org.signal.core.util.dp
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.calls.YouAreAlreadyInACallSnackbar
-import org.thoughtcrime.securesms.calls.links.details.CallLinkDetailsActivity
-import org.thoughtcrime.securesms.components.menu.ActionItem
-import org.thoughtcrime.securesms.components.menu.SignalContextMenu
-import org.thoughtcrime.securesms.components.settings.conversation.ConversationSettingsActivity
-import org.thoughtcrime.securesms.conversation.ConversationIntents
-import org.thoughtcrime.securesms.database.CallTable
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.util.CommunicationActions
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.calls.YouAreAlreadyInACallSnackbar
+import org.thoughtcrime.securesms.ryan.calls.links.details.CallLinkDetailsActivity
+import org.thoughtcrime.securesms.ryan.components.menu.ActionItem
+import org.thoughtcrime.securesms.ryan.components.menu.SignalContextMenu
+import org.thoughtcrime.securesms.ryan.components.settings.conversation.ConversationSettingsActivity
+import org.thoughtcrime.securesms.ryan.conversation.ConversationIntents
+import org.thoughtcrime.securesms.ryan.database.CallTable
+import org.thoughtcrime.securesms.ryan.recipients.Recipient
+import org.thoughtcrime.securesms.ryan.util.CommunicationActions
 
 /**
  * Context menu for row items on the Call Log screen.

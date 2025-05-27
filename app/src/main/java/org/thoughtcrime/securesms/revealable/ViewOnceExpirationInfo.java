@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.revealable;
+package org.thoughtcrime.securesms.ryan.revealable;
 
 public class ViewOnceExpirationInfo {
 

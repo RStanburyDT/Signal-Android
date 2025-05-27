@@ -1,6 +1,6 @@
-package org.thoughtcrime.securesms.jobmanager.impl;
+package org.thoughtcrime.securesms.ryan.jobmanager.impl;
 
-import org.thoughtcrime.securesms.jobs.MinimalJobSpec;
+import org.thoughtcrime.securesms.ryan.jobs.MinimalJobSpec;
 
 import java.util.Arrays;
 import java.util.HashSet;

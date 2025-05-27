@@ -3,24 +3,24 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.backup.v2.importer
+package org.thoughtcrime.securesms.ryan.backup.v2.importer
 
 import androidx.core.content.contentValuesOf
 import org.signal.core.util.Base64
 import org.signal.core.util.insertInto
 import org.signal.core.util.toInt
 import org.signal.core.util.update
-import org.thoughtcrime.securesms.backup.v2.proto.Contact
-import org.thoughtcrime.securesms.backup.v2.util.toLocal
-import org.thoughtcrime.securesms.database.IdentityTable
-import org.thoughtcrime.securesms.database.RecipientTable
-import org.thoughtcrime.securesms.database.SQLiteDatabase
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.database.model.databaseprotos.RecipientExtras
-import org.thoughtcrime.securesms.profiles.ProfileName
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.util.SignalE164Util
+import org.thoughtcrime.securesms.ryan.backup.v2.proto.Contact
+import org.thoughtcrime.securesms.ryan.backup.v2.util.toLocal
+import org.thoughtcrime.securesms.ryan.database.IdentityTable
+import org.thoughtcrime.securesms.ryan.database.RecipientTable
+import org.thoughtcrime.securesms.ryan.database.SQLiteDatabase
+import org.thoughtcrime.securesms.ryan.database.SignalDatabase
+import org.thoughtcrime.securesms.ryan.database.model.databaseprotos.RecipientExtras
+import org.thoughtcrime.securesms.ryan.profiles.ProfileName
+import org.thoughtcrime.securesms.ryan.recipients.Recipient
+import org.thoughtcrime.securesms.ryan.recipients.RecipientId
+import org.thoughtcrime.securesms.ryan.util.SignalE164Util
 import org.whispersystems.signalservice.api.push.ServiceId.ACI
 import org.whispersystems.signalservice.api.push.ServiceId.PNI
 

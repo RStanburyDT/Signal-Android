@@ -1,10 +1,10 @@
-package org.thoughtcrime.securesms.migrations
+package org.thoughtcrime.securesms.ryan.migrations
 
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.jobmanager.Job
-import org.thoughtcrime.securesms.jobs.BackfillDigestsForDataFileJob
+import org.thoughtcrime.securesms.ryan.database.SignalDatabase
+import org.thoughtcrime.securesms.ryan.dependencies.AppDependencies
+import org.thoughtcrime.securesms.ryan.jobmanager.Job
+import org.thoughtcrime.securesms.ryan.jobs.BackfillDigestsForDataFileJob
 
 /**
  * Finds all attachments that share a data file and schedules a [BackfillDigestsForDataFileJob] for each.

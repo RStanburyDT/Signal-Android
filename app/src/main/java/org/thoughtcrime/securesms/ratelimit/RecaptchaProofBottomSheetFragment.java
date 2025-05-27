@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.ratelimit;
+package org.thoughtcrime.securesms.ryan.ratelimit;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -15,9 +15,9 @@ import androidx.fragment.app.FragmentManager;
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.util.BottomSheetUtil;
-import org.thoughtcrime.securesms.util.WindowUtil;
+import org.thoughtcrime.securesms.ryan.R;
+import org.thoughtcrime.securesms.ryan.util.BottomSheetUtil;
+import org.thoughtcrime.securesms.ryan.util.WindowUtil;
 
 /**
  * A bottom sheet to be shown when we need to prompt the user to fill out a reCAPTCHA.

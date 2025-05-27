@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.payments
+package org.thoughtcrime.securesms.ryan.payments
 
 import assertk.assertFailure
 import assertk.assertThat
@@ -8,8 +8,8 @@ import assertk.assertions.isInstanceOf
 import okio.ByteString
 import org.junit.Before
 import org.junit.Test
-import org.thoughtcrime.securesms.crypto.IdentityKeyUtil
-import org.thoughtcrime.securesms.util.Util
+import org.thoughtcrime.securesms.ryan.crypto.IdentityKeyUtil
+import org.thoughtcrime.securesms.ryan.util.Util
 import org.whispersystems.signalservice.test.LibSignalLibraryUtil
 
 class MobileCoinPublicAddressProfileUtilTest {

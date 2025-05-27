@@ -3,14 +3,14 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.attachments
+package org.thoughtcrime.securesms.ryan.attachments
 
 import android.net.Uri
 import android.os.Parcel
 import org.signal.core.util.Base64
-import org.thoughtcrime.securesms.blurhash.BlurHash
-import org.thoughtcrime.securesms.database.AttachmentTable
-import org.thoughtcrime.securesms.stickers.StickerLocator
+import org.thoughtcrime.securesms.ryan.blurhash.BlurHash
+import org.thoughtcrime.securesms.ryan.database.AttachmentTable
+import org.thoughtcrime.securesms.ryan.stickers.StickerLocator
 import java.util.UUID
 
 class ArchivedAttachment : Attachment {

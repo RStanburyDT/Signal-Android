@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.stickers
+package org.thoughtcrime.securesms.ryan.stickers
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
@@ -16,10 +16,10 @@ import kotlinx.coroutines.flow.combine
 import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
 import org.signal.core.util.swap
-import org.thoughtcrime.securesms.database.model.StickerPackId
-import org.thoughtcrime.securesms.database.model.StickerPackKey
-import org.thoughtcrime.securesms.database.model.StickerPackRecord
-import org.thoughtcrime.securesms.stickers.AvailableStickerPack.DownloadStatus
+import org.thoughtcrime.securesms.ryan.database.model.StickerPackId
+import org.thoughtcrime.securesms.ryan.database.model.StickerPackKey
+import org.thoughtcrime.securesms.ryan.database.model.StickerPackRecord
+import org.thoughtcrime.securesms.ryan.stickers.AvailableStickerPack.DownloadStatus
 
 class StickerManagementViewModel : ViewModel() {
   private val stickerManagementRepo = StickerManagementRepository

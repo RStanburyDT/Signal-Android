@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.payments.backup.entry;
+package org.thoughtcrime.securesms.ryan.payments.backup.entry;
 
 import android.os.Bundle;
 import android.text.TextUtils;
@@ -16,11 +16,11 @@ import androidx.navigation.Navigation;
 import com.google.android.material.textfield.MaterialAutoCompleteTextView;
 import com.google.android.material.textfield.TextInputLayout;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.payments.Mnemonic;
-import org.thoughtcrime.securesms.util.Util;
-import org.thoughtcrime.securesms.util.navigation.SafeNavigation;
-import org.thoughtcrime.securesms.util.text.AfterTextChanged;
+import org.thoughtcrime.securesms.ryan.R;
+import org.thoughtcrime.securesms.ryan.payments.Mnemonic;
+import org.thoughtcrime.securesms.ryan.util.Util;
+import org.thoughtcrime.securesms.ryan.util.navigation.SafeNavigation;
+import org.thoughtcrime.securesms.ryan.util.text.AfterTextChanged;
 
 public class PaymentsRecoveryEntryFragment extends Fragment {
 

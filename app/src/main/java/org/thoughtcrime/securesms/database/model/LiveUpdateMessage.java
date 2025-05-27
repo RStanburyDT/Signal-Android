@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.database.model;
+package org.thoughtcrime.securesms.ryan.database.model;
 
 import android.content.Context;
 import android.text.Spannable;
@@ -13,14 +13,14 @@ import androidx.lifecycle.Transformations;
 
 import com.annimon.stream.Stream;
 
-import org.thoughtcrime.securesms.fonts.SignalSymbols;
-import org.thoughtcrime.securesms.fonts.SignalSymbols.Glyph;
-import org.thoughtcrime.securesms.fonts.SignalSymbols.Weight;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.recipients.RecipientId;
-import org.thoughtcrime.securesms.util.SpanUtil;
-import org.thoughtcrime.securesms.util.ThemeUtil;
-import org.thoughtcrime.securesms.util.livedata.LiveDataUtil;
+import org.thoughtcrime.securesms.ryan.fonts.SignalSymbols;
+import org.thoughtcrime.securesms.ryan.fonts.SignalSymbols.Glyph;
+import org.thoughtcrime.securesms.ryan.fonts.SignalSymbols.Weight;
+import org.thoughtcrime.securesms.ryan.recipients.Recipient;
+import org.thoughtcrime.securesms.ryan.recipients.RecipientId;
+import org.thoughtcrime.securesms.ryan.util.SpanUtil;
+import org.thoughtcrime.securesms.ryan.util.ThemeUtil;
+import org.thoughtcrime.securesms.ryan.util.livedata.LiveDataUtil;
 
 import java.util.List;
 import java.util.function.Function;

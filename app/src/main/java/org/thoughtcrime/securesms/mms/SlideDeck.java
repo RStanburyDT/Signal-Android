@@ -14,16 +14,16 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.thoughtcrime.securesms.mms;
+package org.thoughtcrime.securesms.ryan.mms;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 import com.annimon.stream.Stream;
 
-import org.thoughtcrime.securesms.attachments.Attachment;
-import org.thoughtcrime.securesms.util.MediaUtil;
-import org.thoughtcrime.securesms.util.Util;
+import org.thoughtcrime.securesms.ryan.attachments.Attachment;
+import org.thoughtcrime.securesms.ryan.util.MediaUtil;
+import org.thoughtcrime.securesms.ryan.util.Util;
 
 import java.util.LinkedList;
 import java.util.List;

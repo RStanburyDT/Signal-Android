@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.stories.viewer.page
+package org.thoughtcrime.securesms.ryan.stories.viewer.page
 
 import androidx.annotation.CheckResult
 import androidx.lifecycle.LiveData
@@ -14,11 +14,11 @@ import io.reactivex.rxjava3.schedulers.Schedulers
 import io.reactivex.rxjava3.subjects.PublishSubject
 import io.reactivex.rxjava3.subjects.Subject
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.attachments.Attachment
-import org.thoughtcrime.securesms.database.AttachmentTable
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.util.livedata.Store
-import org.thoughtcrime.securesms.util.rx.RxStore
+import org.thoughtcrime.securesms.ryan.attachments.Attachment
+import org.thoughtcrime.securesms.ryan.database.AttachmentTable
+import org.thoughtcrime.securesms.ryan.recipients.RecipientId
+import org.thoughtcrime.securesms.ryan.util.livedata.Store
+import org.thoughtcrime.securesms.ryan.util.rx.RxStore
 import java.util.Optional
 import java.util.concurrent.TimeUnit
 import kotlin.math.max

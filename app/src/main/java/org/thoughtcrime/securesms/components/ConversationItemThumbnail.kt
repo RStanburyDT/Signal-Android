@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components
+package org.thoughtcrime.securesms.ryan.components
 
 import android.content.Context
 import android.graphics.Canvas
@@ -19,12 +19,12 @@ import androidx.core.os.bundleOf
 import com.bumptech.glide.RequestManager
 import org.signal.core.util.dp
 import org.signal.core.util.getParcelableCompat
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.mms.Slide
-import org.thoughtcrime.securesms.mms.SlideClickListener
-import org.thoughtcrime.securesms.mms.SlidesClickedListener
-import org.thoughtcrime.securesms.util.Projection.Corners
-import org.thoughtcrime.securesms.util.views.Stub
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.mms.Slide
+import org.thoughtcrime.securesms.ryan.mms.SlideClickListener
+import org.thoughtcrime.securesms.ryan.mms.SlidesClickedListener
+import org.thoughtcrime.securesms.ryan.util.Projection.Corners
+import org.thoughtcrime.securesms.ryan.util.views.Stub
 
 class ConversationItemThumbnail @JvmOverloads constructor(
   context: Context,

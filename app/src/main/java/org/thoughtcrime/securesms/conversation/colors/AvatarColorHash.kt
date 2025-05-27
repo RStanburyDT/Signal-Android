@@ -3,10 +3,10 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.conversation.colors
+package org.thoughtcrime.securesms.ryan.conversation.colors
 
 import org.signal.core.util.CryptoUtil
-import org.thoughtcrime.securesms.groups.GroupId
+import org.thoughtcrime.securesms.ryan.groups.GroupId
 import org.whispersystems.signalservice.api.push.ServiceId
 
 /**

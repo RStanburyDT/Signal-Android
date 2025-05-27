@@ -1,8 +1,8 @@
-package org.thoughtcrime.securesms.contacts.sync
+package org.thoughtcrime.securesms.ryan.contacts.sync
 
 import org.junit.Assert
 import org.junit.Test
-import org.thoughtcrime.securesms.contacts.sync.FuzzyPhoneNumberHelper.BeninFuzzyMatcher
+import org.thoughtcrime.securesms.ryan.contacts.sync.FuzzyPhoneNumberHelper.BeninFuzzyMatcher
 
 class BeninFuzzyMatcherTest {
 

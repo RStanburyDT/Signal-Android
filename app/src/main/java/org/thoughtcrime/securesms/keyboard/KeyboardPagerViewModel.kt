@@ -1,12 +1,12 @@
-package org.thoughtcrime.securesms.keyboard
+package org.thoughtcrime.securesms.ryan.keyboard
 
 import androidx.annotation.MainThread
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.ViewModel
 import org.signal.core.util.ThreadUtil
-import org.thoughtcrime.securesms.stickers.StickerSearchRepository
-import org.thoughtcrime.securesms.util.DefaultValueLiveData
-import org.thoughtcrime.securesms.util.RemoteConfig
+import org.thoughtcrime.securesms.ryan.stickers.StickerSearchRepository
+import org.thoughtcrime.securesms.ryan.util.DefaultValueLiveData
+import org.thoughtcrime.securesms.ryan.util.RemoteConfig
 
 class KeyboardPagerViewModel : ViewModel() {
 

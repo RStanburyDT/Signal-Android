@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.recipients
+package org.thoughtcrime.securesms.ryan.recipients
 
 import android.content.Context
 import io.mockk.every
@@ -12,10 +12,10 @@ import org.junit.Assert.assertTrue
 import org.junit.Before
 import org.junit.Ignore
 import org.junit.Test
-import org.thoughtcrime.securesms.database.MessageTable
-import org.thoughtcrime.securesms.database.RecipientTable
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.database.ThreadTable
+import org.thoughtcrime.securesms.ryan.database.MessageTable
+import org.thoughtcrime.securesms.ryan.database.RecipientTable
+import org.thoughtcrime.securesms.ryan.database.SignalDatabase
+import org.thoughtcrime.securesms.ryan.database.ThreadTable
 
 class RecipientUtilTest {
   private val context = mockk<Context>()

@@ -1,11 +1,17 @@
-package org.thoughtcrime.securesms.service.webrtc
+package org.thoughtcrime.securesms.ryan.service.webrtc
 
 import android.os.Build
 import org.signal.core.util.asListContains
+<<<<<<< HEAD
+import org.signal.ringrtc.CallManager.AudioProcessingMethod
+import org.thoughtcrime.securesms.ryan.keyvalue.SignalStore
+import org.thoughtcrime.securesms.ryan.util.RemoteConfig
+=======
 import org.signal.ringrtc.AudioConfig
 import org.thoughtcrime.securesms.keyvalue.SignalStore
 import org.thoughtcrime.securesms.util.RemoteConfig
 import org.thoughtcrime.securesms.webrtc.audio.AudioDeviceConfig
+>>>>>>> 23669c3c372284d42db486a218d9f29bef247abf
 
 /**
  * Utility class to determine the audio configuration that RingRTC should use.

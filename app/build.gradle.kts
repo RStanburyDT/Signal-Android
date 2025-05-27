@@ -21,8 +21,8 @@ plugins {
 
 apply(from = "static-ips.gradle.kts")
 
-val canonicalVersionCode = 1546
-val canonicalVersionName = "7.43.0"
+val canonicalVersionCode = 1547
+val canonicalVersionName = "7.43.1"
 val currentHotfixVersion = 0
 val maxHotfixVersions = 100
 
@@ -77,7 +77,7 @@ ktlint {
 }
 
 android {
-  namespace = "org.thoughtcrime.securesms"
+  namespace = "org.thoughtcrime.securesms.ryan"
 
   buildToolsVersion = signalBuildToolsVersion
   compileSdkVersion = signalCompileSdkVersion
@@ -248,7 +248,7 @@ android {
       }
     }
 
-    testInstrumentationRunner = "org.thoughtcrime.securesms.testing.SignalTestRunner"
+    testInstrumentationRunner = "org.thoughtcrime.securesms.ryan.testing.SignalTestRunner"
     testInstrumentationRunnerArguments["clearPackageData"] = "true"
   }
 
@@ -300,7 +300,7 @@ android {
       isDefault = false
       isMinifyEnabled = false
       matchingFallbacks += "debug"
-      applicationIdSuffix = ".instrumentation"
+      applicationIdSuffix = ".instrumentation.ryan"
 
       buildConfigField("String", "BUILD_VARIANT_TYPE", "\"Instrumentation\"")
       buildConfigField("String", "STRIPE_BASE_URL", "\"http://127.0.0.1:8080/stripe\"")
@@ -386,7 +386,7 @@ android {
     create("staging") {
       dimension = "environment"
 
-      applicationIdSuffix = ".staging"
+      applicationIdSuffix = ".staging.ryan"
 
       buildConfigField("String", "SIGNAL_URL", "\"https://chat.staging.signal.org\"")
       buildConfigField("String", "STORAGE_URL", "\"https://storage-staging.signal.org\"")

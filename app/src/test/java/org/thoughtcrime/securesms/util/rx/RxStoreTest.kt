@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.util.rx
+package org.thoughtcrime.securesms.ryan.util.rx
 
 import io.reactivex.rxjava3.plugins.RxJavaPlugins
 import io.reactivex.rxjava3.schedulers.TestScheduler

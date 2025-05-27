@@ -1,6 +1,6 @@
-package org.thoughtcrime.securesms.messagerequests
+package org.thoughtcrime.securesms.ryan.messagerequests
 
-import org.thoughtcrime.securesms.recipients.Recipient
+import org.thoughtcrime.securesms.ryan.recipients.Recipient
 
 /**
  * Group info needed to show message request state UX.

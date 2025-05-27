@@ -1,12 +1,12 @@
-package org.thoughtcrime.securesms.jobmanager.migrations
+package org.thoughtcrime.securesms.ryan.jobmanager.migrations
 
 import assertk.assertThat
 import assertk.assertions.isEqualTo
 import org.junit.Test
-import org.thoughtcrime.securesms.jobmanager.JobMigration
-import org.thoughtcrime.securesms.jobmanager.JsonJobData
-import org.thoughtcrime.securesms.jobs.protos.GroupCallPeekJobData
-import org.thoughtcrime.securesms.recipients.Recipient
+import org.thoughtcrime.securesms.ryan.jobmanager.JobMigration
+import org.thoughtcrime.securesms.ryan.jobmanager.JsonJobData
+import org.thoughtcrime.securesms.ryan.jobs.protos.GroupCallPeekJobData
+import org.thoughtcrime.securesms.ryan.recipients.Recipient
 
 class GroupCallPeekJobDataMigrationTest {
 

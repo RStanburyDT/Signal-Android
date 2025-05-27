@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.profiles.edit;
+package org.thoughtcrime.securesms.ryan.profiles.edit;
 
 
 import android.content.Context;
@@ -10,11 +10,11 @@ import androidx.annotation.NonNull;
 import androidx.navigation.Navigation;
 import androidx.navigation.fragment.NavHostFragment;
 
-import org.thoughtcrime.securesms.BaseActivity;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.groups.GroupId;
-import org.thoughtcrime.securesms.util.DynamicRegistrationTheme;
-import org.thoughtcrime.securesms.util.DynamicTheme;
+import org.thoughtcrime.securesms.ryan.BaseActivity;
+import org.thoughtcrime.securesms.ryan.R;
+import org.thoughtcrime.securesms.ryan.groups.GroupId;
+import org.thoughtcrime.securesms.ryan.util.DynamicRegistrationTheme;
+import org.thoughtcrime.securesms.ryan.util.DynamicTheme;
 
 /**
  * Shows editing screen for your profile during registration. Also handles group name editing.

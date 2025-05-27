@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.util
+package org.thoughtcrime.securesms.ryan.util
 
 /**
  * Treating an Enum as a circular list, returns the "next"

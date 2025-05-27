@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.util;
+package org.thoughtcrime.securesms.ryan.util;
 
 import android.Manifest;
 import android.content.ComponentName;
@@ -17,17 +17,17 @@ import com.google.common.collect.Sets;
 
 import org.signal.core.util.concurrent.SignalExecutors;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.components.settings.app.appearance.appicon.util.AppIconUtility;
-import org.thoughtcrime.securesms.conversation.ConversationIntents;
-import org.thoughtcrime.securesms.database.GroupTable;
-import org.thoughtcrime.securesms.database.SignalDatabase;
-import org.thoughtcrime.securesms.groups.GroupId;
-import org.thoughtcrime.securesms.jobs.ConversationShortcutUpdateJob;
-import org.thoughtcrime.securesms.notifications.NotificationChannels;
-import org.thoughtcrime.securesms.permissions.Permissions;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.recipients.RecipientId;
+import org.thoughtcrime.securesms.ryan.R;
+import org.thoughtcrime.securesms.ryan.components.settings.app.appearance.appicon.util.AppIconUtility;
+import org.thoughtcrime.securesms.ryan.conversation.ConversationIntents;
+import org.thoughtcrime.securesms.ryan.database.GroupTable;
+import org.thoughtcrime.securesms.ryan.database.SignalDatabase;
+import org.thoughtcrime.securesms.ryan.groups.GroupId;
+import org.thoughtcrime.securesms.ryan.jobs.ConversationShortcutUpdateJob;
+import org.thoughtcrime.securesms.ryan.notifications.NotificationChannels;
+import org.thoughtcrime.securesms.ryan.permissions.Permissions;
+import org.thoughtcrime.securesms.ryan.recipients.Recipient;
+import org.thoughtcrime.securesms.ryan.recipients.RecipientId;
 
 import java.util.ArrayList;
 import java.util.Collection;
@@ -44,7 +44,7 @@ public final class ConversationUtil {
 
   public static final int CONVERSATION_SUPPORT_VERSION = 30;
 
-  private static final String CATEGORY_SHARE_TARGET = "org.thoughtcrime.securesms.sharing.CATEGORY_SHARE_TARGET";
+  private static final String CATEGORY_SHARE_TARGET = "org.thoughtcrime.securesms.ryan.sharing.CATEGORY_SHARE_TARGET";
 
   private static final String CAPABILITY_SEND_MESSAGE    = "actions.intent.SEND_MESSAGE";
   private static final String CAPABILITY_RECEIVE_MESSAGE = "actions.intent.RECEIVE_MESSAGE";

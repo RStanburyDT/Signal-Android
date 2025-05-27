@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components;
+package org.thoughtcrime.securesms.ryan.components;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -31,22 +31,22 @@ import com.bumptech.glide.request.target.Target;
 import com.bumptech.glide.request.transition.Transition;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.avatar.fallback.FallbackAvatar;
-import org.thoughtcrime.securesms.avatar.fallback.FallbackAvatarDrawable;
-import org.thoughtcrime.securesms.components.settings.conversation.ConversationSettingsActivity;
-import org.thoughtcrime.securesms.contacts.avatars.ContactPhoto;
-import org.thoughtcrime.securesms.contacts.avatars.ProfileContactPhoto;
-import org.thoughtcrime.securesms.contacts.avatars.SystemContactPhoto;
-import org.thoughtcrime.securesms.conversation.colors.AvatarColor;
-import org.thoughtcrime.securesms.conversation.colors.AvatarGradientColors;
-import org.thoughtcrime.securesms.conversation.colors.ChatColors;
-import org.thoughtcrime.securesms.conversation.v2.data.AvatarDownloadStateCache;
-import org.thoughtcrime.securesms.jobs.RetrieveProfileAvatarJob;
-import org.thoughtcrime.securesms.profiles.AvatarHelper;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.recipients.ui.bottomsheet.RecipientBottomSheetDialogFragment;
-import org.thoughtcrime.securesms.util.NameUtil;
+import org.thoughtcrime.securesms.ryan.R;
+import org.thoughtcrime.securesms.ryan.avatar.fallback.FallbackAvatar;
+import org.thoughtcrime.securesms.ryan.avatar.fallback.FallbackAvatarDrawable;
+import org.thoughtcrime.securesms.ryan.components.settings.conversation.ConversationSettingsActivity;
+import org.thoughtcrime.securesms.ryan.contacts.avatars.ContactPhoto;
+import org.thoughtcrime.securesms.ryan.contacts.avatars.ProfileContactPhoto;
+import org.thoughtcrime.securesms.ryan.contacts.avatars.SystemContactPhoto;
+import org.thoughtcrime.securesms.ryan.conversation.colors.AvatarColor;
+import org.thoughtcrime.securesms.ryan.conversation.colors.AvatarGradientColors;
+import org.thoughtcrime.securesms.ryan.conversation.colors.ChatColors;
+import org.thoughtcrime.securesms.ryan.conversation.v2.data.AvatarDownloadStateCache;
+import org.thoughtcrime.securesms.ryan.jobs.RetrieveProfileAvatarJob;
+import org.thoughtcrime.securesms.ryan.profiles.AvatarHelper;
+import org.thoughtcrime.securesms.ryan.recipients.Recipient;
+import org.thoughtcrime.securesms.ryan.recipients.ui.bottomsheet.RecipientBottomSheetDialogFragment;
+import org.thoughtcrime.securesms.ryan.util.NameUtil;
 
 import java.util.Collections;
 import java.util.List;

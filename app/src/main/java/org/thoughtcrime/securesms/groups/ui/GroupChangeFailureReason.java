@@ -1,13 +1,13 @@
-package org.thoughtcrime.securesms.groups.ui;
+package org.thoughtcrime.securesms.ryan.groups.ui;
 
 import android.annotation.SuppressLint;
 
 import androidx.annotation.NonNull;
 
-import org.thoughtcrime.securesms.groups.GroupChangeBusyException;
-import org.thoughtcrime.securesms.groups.GroupInsufficientRightsException;
-import org.thoughtcrime.securesms.groups.GroupNotAMemberException;
-import org.thoughtcrime.securesms.groups.MembershipNotSuitableForV2Exception;
+import org.thoughtcrime.securesms.ryan.groups.GroupChangeBusyException;
+import org.thoughtcrime.securesms.ryan.groups.GroupInsufficientRightsException;
+import org.thoughtcrime.securesms.ryan.groups.GroupNotAMemberException;
+import org.thoughtcrime.securesms.ryan.groups.MembershipNotSuitableForV2Exception;
 
 import java.io.IOException;
 

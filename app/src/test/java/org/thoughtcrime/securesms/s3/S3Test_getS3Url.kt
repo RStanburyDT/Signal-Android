@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.s3
+package org.thoughtcrime.securesms.ryan.s3
 
 import assertk.assertThat
 import assertk.assertions.isEqualTo

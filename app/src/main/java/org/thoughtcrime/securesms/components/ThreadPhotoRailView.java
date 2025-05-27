@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components;
+package org.thoughtcrime.securesms.ryan.components;
 
 
 import android.content.Context;
@@ -17,11 +17,11 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.bumptech.glide.RequestManager;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.database.MediaTable;
-import org.thoughtcrime.securesms.mediapreview.MediaPreviewCache;
-import org.thoughtcrime.securesms.mms.Slide;
-import org.thoughtcrime.securesms.util.MediaUtil;
+import org.thoughtcrime.securesms.ryan.R;
+import org.thoughtcrime.securesms.ryan.database.MediaTable;
+import org.thoughtcrime.securesms.ryan.mediapreview.MediaPreviewCache;
+import org.thoughtcrime.securesms.ryan.mms.Slide;
+import org.thoughtcrime.securesms.ryan.util.MediaUtil;
 
 import java.util.ArrayList;
 import java.util.List;

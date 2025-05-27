@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.notifications;
+package org.thoughtcrime.securesms.ryan.notifications;
 
 import android.app.Application;
 import android.content.Context;
@@ -11,12 +11,12 @@ import androidx.annotation.Nullable;
 import org.signal.core.util.ExceptionUtil;
 import org.signal.core.util.ThreadUtil;
 import org.signal.core.util.concurrent.SignalExecutors;
-import org.thoughtcrime.securesms.database.SignalDatabase;
-import org.thoughtcrime.securesms.notifications.v2.DefaultMessageNotifier;
-import org.thoughtcrime.securesms.notifications.v2.ConversationId;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.util.BubbleUtil;
-import org.thoughtcrime.securesms.util.LeakyBucketLimiter;
+import org.thoughtcrime.securesms.ryan.database.SignalDatabase;
+import org.thoughtcrime.securesms.ryan.notifications.v2.DefaultMessageNotifier;
+import org.thoughtcrime.securesms.ryan.notifications.v2.ConversationId;
+import org.thoughtcrime.securesms.ryan.recipients.Recipient;
+import org.thoughtcrime.securesms.ryan.util.BubbleUtil;
+import org.thoughtcrime.securesms.ryan.util.LeakyBucketLimiter;
 
 import java.util.Optional;
 

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.badges.self.expired
+package org.thoughtcrime.securesms.ryan.badges.self.expired
 
 import android.content.res.Configuration
 import android.net.Uri
@@ -36,18 +36,18 @@ import org.signal.core.ui.compose.Buttons
 import org.signal.core.ui.compose.Texts
 import org.signal.core.ui.compose.theme.SignalTheme
 import org.signal.core.util.getParcelableCompat
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.badges.models.Badge
-import org.thoughtcrime.securesms.components.settings.app.AppSettingsActivity
-import org.thoughtcrime.securesms.components.settings.app.subscription.BadgeImage112
-import org.thoughtcrime.securesms.components.settings.app.subscription.manage.ManageDonationsFragment
-import org.thoughtcrime.securesms.compose.ComposeBottomSheetDialogFragment
-import org.thoughtcrime.securesms.database.InAppPaymentTable
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.util.BottomSheetUtil
-import org.thoughtcrime.securesms.util.CommunicationActions
-import org.thoughtcrime.securesms.util.SpanUtil
-import org.thoughtcrime.securesms.util.viewModel
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.badges.models.Badge
+import org.thoughtcrime.securesms.ryan.components.settings.app.AppSettingsActivity
+import org.thoughtcrime.securesms.ryan.components.settings.app.subscription.BadgeImage112
+import org.thoughtcrime.securesms.ryan.components.settings.app.subscription.manage.ManageDonationsFragment
+import org.thoughtcrime.securesms.ryan.compose.ComposeBottomSheetDialogFragment
+import org.thoughtcrime.securesms.ryan.database.InAppPaymentTable
+import org.thoughtcrime.securesms.ryan.keyvalue.SignalStore
+import org.thoughtcrime.securesms.ryan.util.BottomSheetUtil
+import org.thoughtcrime.securesms.ryan.util.CommunicationActions
+import org.thoughtcrime.securesms.ryan.util.SpanUtil
+import org.thoughtcrime.securesms.ryan.util.viewModel
 
 class MonthlyDonationCanceledBottomSheetDialogFragment : ComposeBottomSheetDialogFragment() {
 

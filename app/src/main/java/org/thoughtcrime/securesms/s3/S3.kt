@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.s3
+package org.thoughtcrime.securesms.ryan.s3
 
 import android.content.Context
 import androidx.annotation.VisibleForTesting
@@ -9,9 +9,9 @@ import okio.HashingSink
 import okio.sink
 import org.signal.core.util.Hex
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.util.EncryptedStreamUtils
-import org.thoughtcrime.securesms.util.JsonUtils
+import org.thoughtcrime.securesms.ryan.dependencies.AppDependencies
+import org.thoughtcrime.securesms.ryan.util.EncryptedStreamUtils
+import org.thoughtcrime.securesms.ryan.util.JsonUtils
 import org.whispersystems.signalservice.api.push.exceptions.NonSuccessfulResponseCodeException
 import org.whispersystems.signalservice.internal.ServiceResponse
 import org.whispersystems.signalservice.internal.websocket.DefaultErrorMapper

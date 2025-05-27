@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.service.webrtc;
+package org.thoughtcrime.securesms.ryan.service.webrtc;
 
 import androidx.annotation.NonNull;
 
@@ -8,23 +8,23 @@ import org.signal.core.util.logging.Log;
 import org.signal.ringrtc.CallException;
 import org.signal.ringrtc.GroupCall;
 import org.signal.ringrtc.PeekInfo;
-import org.thoughtcrime.securesms.components.webrtc.BroadcastVideoSink;
-import org.thoughtcrime.securesms.components.webrtc.EglBaseWrapper;
-import org.thoughtcrime.securesms.events.CallParticipant;
-import org.thoughtcrime.securesms.events.CallParticipantId;
-import org.thoughtcrime.securesms.events.WebRtcViewModel;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.ringrtc.RemotePeer;
-import org.thoughtcrime.securesms.service.webrtc.state.WebRtcServiceState;
-import org.thoughtcrime.securesms.service.webrtc.state.WebRtcServiceStateBuilder;
-import org.thoughtcrime.securesms.util.NetworkUtil;
+import org.thoughtcrime.securesms.ryan.components.webrtc.BroadcastVideoSink;
+import org.thoughtcrime.securesms.ryan.components.webrtc.EglBaseWrapper;
+import org.thoughtcrime.securesms.ryan.events.CallParticipant;
+import org.thoughtcrime.securesms.ryan.events.CallParticipantId;
+import org.thoughtcrime.securesms.ryan.events.WebRtcViewModel;
+import org.thoughtcrime.securesms.ryan.keyvalue.SignalStore;
+import org.thoughtcrime.securesms.ryan.recipients.Recipient;
+import org.thoughtcrime.securesms.ryan.ringrtc.RemotePeer;
+import org.thoughtcrime.securesms.ryan.service.webrtc.state.WebRtcServiceState;
+import org.thoughtcrime.securesms.ryan.service.webrtc.state.WebRtcServiceStateBuilder;
+import org.thoughtcrime.securesms.ryan.util.NetworkUtil;
 import org.whispersystems.signalservice.api.messages.calls.OfferMessage;
 import org.whispersystems.signalservice.api.push.ServiceId.ACI;
 
 import java.util.List;
 
-import static org.thoughtcrime.securesms.webrtc.CallNotificationBuilder.TYPE_OUTGOING_RINGING;
+import static org.thoughtcrime.securesms.ryan.webrtc.CallNotificationBuilder.TYPE_OUTGOING_RINGING;
 
 /**
  * Process actions while the user is in the pre-join lobby for the call.

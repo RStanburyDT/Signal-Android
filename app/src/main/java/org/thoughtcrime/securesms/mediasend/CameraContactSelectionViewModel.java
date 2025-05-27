@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.mediasend;
+package org.thoughtcrime.securesms.ryan.mediasend;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -8,8 +8,8 @@ import androidx.lifecycle.ViewModel;
 import androidx.lifecycle.ViewModelProvider;
 
 import org.signal.core.util.ThreadUtil;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.util.SingleLiveEvent;
+import org.thoughtcrime.securesms.ryan.recipients.Recipient;
+import org.thoughtcrime.securesms.ryan.util.SingleLiveEvent;
 
 import java.util.ArrayList;
 import java.util.LinkedHashSet;

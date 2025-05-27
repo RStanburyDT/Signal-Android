@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.recipients
+package org.thoughtcrime.securesms.ryan.recipients
 
 import android.app.Application
 import android.content.Intent
@@ -11,7 +11,7 @@ import org.junit.Test
 import org.junit.runner.RunWith
 import org.robolectric.RobolectricTestRunner
 import org.robolectric.annotation.Config
-import org.thoughtcrime.securesms.profiles.ProfileName
+import org.thoughtcrime.securesms.ryan.profiles.ProfileName
 import java.util.Optional
 
 @RunWith(RobolectricTestRunner::class)

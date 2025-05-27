@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.contactshare;
+package org.thoughtcrime.securesms.ryan.contactshare;
 
 import android.app.Activity;
 import android.content.Context;
@@ -22,20 +22,20 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;
 
-import org.thoughtcrime.securesms.PassphraseRequiredActivity;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.util.DynamicLanguage;
-import org.thoughtcrime.securesms.util.DynamicNoActionBarTheme;
-import org.thoughtcrime.securesms.util.DynamicTheme;
-import org.thoughtcrime.securesms.util.Material3OnScrollHelper;
+import org.thoughtcrime.securesms.ryan.PassphraseRequiredActivity;
+import org.thoughtcrime.securesms.ryan.R;
+import org.thoughtcrime.securesms.ryan.util.DynamicLanguage;
+import org.thoughtcrime.securesms.ryan.util.DynamicNoActionBarTheme;
+import org.thoughtcrime.securesms.ryan.util.DynamicTheme;
+import org.thoughtcrime.securesms.ryan.util.Material3OnScrollHelper;
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-import static org.thoughtcrime.securesms.contactshare.Contact.Name;
-import static org.thoughtcrime.securesms.contactshare.ContactShareEditViewModel.Event;
-import static org.thoughtcrime.securesms.contactshare.ContactShareEditViewModel.Factory;
+import static org.thoughtcrime.securesms.ryan.contactshare.Contact.Name;
+import static org.thoughtcrime.securesms.ryan.contactshare.ContactShareEditViewModel.Event;
+import static org.thoughtcrime.securesms.ryan.contactshare.ContactShareEditViewModel.Factory;
 
 public class ContactShareEditActivity extends PassphraseRequiredActivity implements ContactShareEditAdapter.EventListener {
 

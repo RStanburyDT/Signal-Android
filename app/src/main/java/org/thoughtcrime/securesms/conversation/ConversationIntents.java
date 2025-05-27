@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.conversation;
+package org.thoughtcrime.securesms.ryan.conversation;
 
 import android.app.Activity;
 import android.content.Context;
@@ -10,6 +10,22 @@ import androidx.annotation.MainThread;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
+<<<<<<< HEAD
+import org.thoughtcrime.securesms.ryan.MainActivity;
+import org.thoughtcrime.securesms.ryan.badges.models.Badge;
+import org.thoughtcrime.securesms.ryan.conversation.colors.ChatColors;
+import org.thoughtcrime.securesms.ryan.conversation.v2.ConversationActivity;
+import org.thoughtcrime.securesms.ryan.database.SignalDatabase;
+import org.thoughtcrime.securesms.ryan.database.ThreadTable;
+import org.thoughtcrime.securesms.ryan.keyvalue.SignalStore;
+import org.thoughtcrime.securesms.ryan.main.MainNavigationListLocation;
+import org.thoughtcrime.securesms.ryan.mediasend.Media;
+import org.thoughtcrime.securesms.ryan.mms.SlideFactory;
+import org.thoughtcrime.securesms.ryan.recipients.Recipient;
+import org.thoughtcrime.securesms.ryan.recipients.RecipientId;
+import org.thoughtcrime.securesms.ryan.stickers.StickerLocator;
+import org.thoughtcrime.securesms.ryan.wallpaper.ChatWallpaper;
+=======
 import org.thoughtcrime.securesms.badges.models.Badge;
 import org.thoughtcrime.securesms.conversation.colors.ChatColors;
 import org.thoughtcrime.securesms.conversation.v2.ConversationActivity;
@@ -21,6 +37,7 @@ import org.thoughtcrime.securesms.recipients.Recipient;
 import org.thoughtcrime.securesms.recipients.RecipientId;
 import org.thoughtcrime.securesms.stickers.StickerLocator;
 import org.thoughtcrime.securesms.wallpaper.ChatWallpaper;
+>>>>>>> 23669c3c372284d42db486a218d9f29bef247abf
 import org.whispersystems.signalservice.api.util.Preconditions;
 
 import java.util.ArrayList;

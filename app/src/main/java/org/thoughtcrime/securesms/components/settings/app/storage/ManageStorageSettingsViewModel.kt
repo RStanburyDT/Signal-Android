@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.settings.app.storage
+package org.thoughtcrime.securesms.ryan.components.settings.app.storage
 
 import androidx.compose.runtime.Immutable
 import androidx.lifecycle.ViewModel
@@ -15,19 +15,19 @@ import kotlinx.coroutines.flow.collectLatest
 import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
 import org.signal.core.util.concurrent.SignalExecutors
-import org.thoughtcrime.securesms.backup.v2.MessageBackupTier
-import org.thoughtcrime.securesms.components.settings.app.subscription.InAppPaymentsRepository
-import org.thoughtcrime.securesms.database.InAppPaymentTable
-import org.thoughtcrime.securesms.database.MediaTable
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.database.SignalDatabase.Companion.media
-import org.thoughtcrime.securesms.database.ThreadTable
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.jobs.OptimizeMediaJob
-import org.thoughtcrime.securesms.jobs.RestoreOptimizedMediaJob
-import org.thoughtcrime.securesms.keyvalue.KeepMessagesDuration
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.util.RemoteConfig
+import org.thoughtcrime.securesms.ryan.backup.v2.MessageBackupTier
+import org.thoughtcrime.securesms.ryan.components.settings.app.subscription.InAppPaymentsRepository
+import org.thoughtcrime.securesms.ryan.database.InAppPaymentTable
+import org.thoughtcrime.securesms.ryan.database.MediaTable
+import org.thoughtcrime.securesms.ryan.database.SignalDatabase
+import org.thoughtcrime.securesms.ryan.database.SignalDatabase.Companion.media
+import org.thoughtcrime.securesms.ryan.database.ThreadTable
+import org.thoughtcrime.securesms.ryan.dependencies.AppDependencies
+import org.thoughtcrime.securesms.ryan.jobs.OptimizeMediaJob
+import org.thoughtcrime.securesms.ryan.jobs.RestoreOptimizedMediaJob
+import org.thoughtcrime.securesms.ryan.keyvalue.KeepMessagesDuration
+import org.thoughtcrime.securesms.ryan.keyvalue.SignalStore
+import org.thoughtcrime.securesms.ryan.util.RemoteConfig
 
 class ManageStorageSettingsViewModel : ViewModel() {
 

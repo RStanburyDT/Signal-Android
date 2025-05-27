@@ -1,19 +1,19 @@
-package org.thoughtcrime.securesms.notifications.v2
+package org.thoughtcrime.securesms.ryan.notifications.v2
 
 import androidx.annotation.WorkerThread
 import org.signal.core.util.CursorUtil
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.database.MessageTable
-import org.thoughtcrime.securesms.database.NoSuchMessageException
-import org.thoughtcrime.securesms.database.RecipientTable
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.database.model.MessageId
-import org.thoughtcrime.securesms.database.model.MessageRecord
-import org.thoughtcrime.securesms.database.model.MmsMessageRecord
-import org.thoughtcrime.securesms.database.model.ReactionRecord
-import org.thoughtcrime.securesms.notifications.profiles.NotificationProfile
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.util.isStoryReaction
+import org.thoughtcrime.securesms.ryan.database.MessageTable
+import org.thoughtcrime.securesms.ryan.database.NoSuchMessageException
+import org.thoughtcrime.securesms.ryan.database.RecipientTable
+import org.thoughtcrime.securesms.ryan.database.SignalDatabase
+import org.thoughtcrime.securesms.ryan.database.model.MessageId
+import org.thoughtcrime.securesms.ryan.database.model.MessageRecord
+import org.thoughtcrime.securesms.ryan.database.model.MmsMessageRecord
+import org.thoughtcrime.securesms.ryan.database.model.ReactionRecord
+import org.thoughtcrime.securesms.ryan.notifications.profiles.NotificationProfile
+import org.thoughtcrime.securesms.ryan.recipients.Recipient
+import org.thoughtcrime.securesms.ryan.util.isStoryReaction
 
 /**
  * Queries the message databases to determine messages that should be in notifications.

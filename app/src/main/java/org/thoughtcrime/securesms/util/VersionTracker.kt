@@ -1,14 +1,14 @@
-package org.thoughtcrime.securesms.util
+package org.thoughtcrime.securesms.ryan.util
 
 import android.content.Context
 import android.content.pm.PackageManager
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.BuildConfig
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.jobs.RefreshAttributesJob
-import org.thoughtcrime.securesms.jobs.RemoteConfigRefreshJob
-import org.thoughtcrime.securesms.jobs.RetrieveRemoteAnnouncementsJob
-import org.thoughtcrime.securesms.keyvalue.SignalStore
+import org.thoughtcrime.securesms.ryan.BuildConfig
+import org.thoughtcrime.securesms.ryan.dependencies.AppDependencies
+import org.thoughtcrime.securesms.ryan.jobs.RefreshAttributesJob
+import org.thoughtcrime.securesms.ryan.jobs.RemoteConfigRefreshJob
+import org.thoughtcrime.securesms.ryan.jobs.RetrieveRemoteAnnouncementsJob
+import org.thoughtcrime.securesms.ryan.keyvalue.SignalStore
 import java.time.Duration
 
 object VersionTracker {

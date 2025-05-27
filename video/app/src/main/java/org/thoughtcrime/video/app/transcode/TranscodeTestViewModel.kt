@@ -16,9 +16,9 @@ import androidx.compose.runtime.setValue
 import androidx.lifecycle.ViewModel
 import androidx.work.WorkInfo
 import kotlinx.coroutines.flow.Flow
-import org.thoughtcrime.securesms.video.TranscodingPreset
-import org.thoughtcrime.securesms.video.TranscodingQuality
-import org.thoughtcrime.securesms.video.videoconverter.MediaConverter
+import org.thoughtcrime.securesms.ryan.video.TranscodingPreset
+import org.thoughtcrime.securesms.ryan.video.TranscodingQuality
+import org.thoughtcrime.securesms.ryan.video.videoconverter.MediaConverter
 import java.util.UUID
 import kotlin.math.roundToInt
 

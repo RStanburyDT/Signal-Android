@@ -1,9 +1,9 @@
-package org.thoughtcrime.securesms.keyvalue
+package org.thoughtcrime.securesms.ryan.keyvalue
 
-import org.thoughtcrime.securesms.components.settings.app.usernamelinks.UsernameQrCodeColorScheme
-import org.thoughtcrime.securesms.database.model.databaseprotos.PendingChangeNumberMetadata
-import org.thoughtcrime.securesms.jobmanager.impl.ChangeNumberConstraintObserver
-import org.thoughtcrime.securesms.keyvalue.protos.LeastActiveLinkedDevice
+import org.thoughtcrime.securesms.ryan.components.settings.app.usernamelinks.UsernameQrCodeColorScheme
+import org.thoughtcrime.securesms.ryan.database.model.databaseprotos.PendingChangeNumberMetadata
+import org.thoughtcrime.securesms.ryan.jobmanager.impl.ChangeNumberConstraintObserver
+import org.thoughtcrime.securesms.ryan.keyvalue.protos.LeastActiveLinkedDevice
 
 class MiscellaneousValues internal constructor(store: KeyValueStore) : SignalStoreValues(store) {
   companion object {
@@ -190,7 +190,7 @@ class MiscellaneousValues internal constructor(store: KeyValueStore) : SignalSto
   var keyboardPortraitHeight by integerValue(KEYBOARD_PORTRAIT_HEIGHT, 0)
 
   /**
-   * The last time we ran an account consistency check via [org.thoughtcrime.securesms.jobs.AccountConsistencyWorkerJob]
+   * The last time we ran an account consistency check via [org.thoughtcrime.securesms.ryan.jobs.AccountConsistencyWorkerJob]
    */
   var lastConsistencyCheckTime by longValue(LAST_CONSISTENCY_CHECK_TIME, 0)
 
@@ -256,7 +256,7 @@ class MiscellaneousValues internal constructor(store: KeyValueStore) : SignalSto
   var lastWebSocketConnectTime: Long by longValue(LAST_WEBSOCKET_CONNECT_TIME, System.currentTimeMillis())
 
   /**
-   * The last time we prompted the user regarding a [org.thoughtcrime.securesms.util.ConnectivityWarning].
+   * The last time we prompted the user regarding a [org.thoughtcrime.securesms.ryan.util.ConnectivityWarning].
    */
   var lastConnectivityWarningTime: Long by longValue(LAST_CONNECTIVITY_WARNING_TIME, 0)
 

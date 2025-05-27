@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.pin;
+package org.thoughtcrime.securesms.ryan.pin;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -8,9 +8,9 @@ import android.view.ViewGroup;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import org.thoughtcrime.securesms.LoggingFragment;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.util.CommunicationActions;
+import org.thoughtcrime.securesms.ryan.LoggingFragment;
+import org.thoughtcrime.securesms.ryan.R;
+import org.thoughtcrime.securesms.ryan.util.CommunicationActions;
 
 public class PinRestoreLockedFragment extends LoggingFragment {
 

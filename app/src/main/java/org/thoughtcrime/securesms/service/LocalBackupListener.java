@@ -1,14 +1,14 @@
-package org.thoughtcrime.securesms.service;
+package org.thoughtcrime.securesms.ryan.service;
 
 
 import android.content.Context;
 
 import androidx.annotation.NonNull;
 
-import org.thoughtcrime.securesms.jobs.LocalBackupJob;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
-import org.thoughtcrime.securesms.util.JavaTimeExtensionsKt;
-import org.thoughtcrime.securesms.util.TextSecurePreferences;
+import org.thoughtcrime.securesms.ryan.jobs.LocalBackupJob;
+import org.thoughtcrime.securesms.ryan.keyvalue.SignalStore;
+import org.thoughtcrime.securesms.ryan.util.JavaTimeExtensionsKt;
+import org.thoughtcrime.securesms.ryan.util.TextSecurePreferences;
 
 import java.time.LocalDateTime;
 import java.util.Random;

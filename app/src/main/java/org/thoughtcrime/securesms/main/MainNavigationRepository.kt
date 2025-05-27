@@ -1,10 +1,10 @@
-package org.thoughtcrime.securesms.main
+package org.thoughtcrime.securesms.ryan.main
 
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.reactive.asFlow
-import org.thoughtcrime.securesms.database.RxDatabaseObserver
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.recipients.Recipient
+import org.thoughtcrime.securesms.ryan.database.RxDatabaseObserver
+import org.thoughtcrime.securesms.ryan.database.SignalDatabase
+import org.thoughtcrime.securesms.ryan.recipients.Recipient
 
 object MainNavigationRepository {
 

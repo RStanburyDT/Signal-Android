@@ -1,8 +1,8 @@
-package org.thoughtcrime.securesms.contacts.avatars;
+package org.thoughtcrime.securesms.ryan.contacts.avatars;
 
 import androidx.annotation.NonNull;
 
-import org.thoughtcrime.securesms.color.MaterialColor;
+import org.thoughtcrime.securesms.ryan.color.MaterialColor;
 
 /**
  * Used for migrating legacy colors to modern colors. For normal color generation, use

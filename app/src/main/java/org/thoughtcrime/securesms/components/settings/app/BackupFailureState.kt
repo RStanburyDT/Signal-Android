@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.settings.app
+package org.thoughtcrime.securesms.ryan.components.settings.app
 
 /**
  * Describes the current backup failure state.

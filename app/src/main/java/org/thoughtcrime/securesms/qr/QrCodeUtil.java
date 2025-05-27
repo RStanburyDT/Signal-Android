@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.qr;
+package org.thoughtcrime.securesms.ryan.qr;
 
 import android.graphics.Bitmap;
 import android.graphics.Color;

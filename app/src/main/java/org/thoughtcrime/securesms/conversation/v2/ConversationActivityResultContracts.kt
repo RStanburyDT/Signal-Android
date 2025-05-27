@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.conversation.v2
+package org.thoughtcrime.securesms.ryan.conversation.v2
 
 import android.Manifest
 import android.app.Activity
@@ -17,21 +17,21 @@ import androidx.activity.result.contract.ActivityResultContract
 import androidx.core.content.IntentCompat
 import androidx.fragment.app.Fragment
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.location.SignalPlace
-import org.thoughtcrime.securesms.contactshare.Contact
-import org.thoughtcrime.securesms.contactshare.ContactShareEditActivity
-import org.thoughtcrime.securesms.conversation.MessageSendType
-import org.thoughtcrime.securesms.conversation.colors.ChatColors
-import org.thoughtcrime.securesms.conversation.v2.ConversationActivityResultContracts.Callbacks
-import org.thoughtcrime.securesms.giph.ui.GiphyActivity
-import org.thoughtcrime.securesms.maps.PlacePickerActivity
-import org.thoughtcrime.securesms.mediasend.Media
-import org.thoughtcrime.securesms.mediasend.MediaSendActivityResult
-import org.thoughtcrime.securesms.mediasend.camerax.CameraXUtil
-import org.thoughtcrime.securesms.mediasend.v2.MediaSelectionActivity
-import org.thoughtcrime.securesms.permissions.Permissions
-import org.thoughtcrime.securesms.recipients.RecipientId
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.components.location.SignalPlace
+import org.thoughtcrime.securesms.ryan.contactshare.Contact
+import org.thoughtcrime.securesms.ryan.contactshare.ContactShareEditActivity
+import org.thoughtcrime.securesms.ryan.conversation.MessageSendType
+import org.thoughtcrime.securesms.ryan.conversation.colors.ChatColors
+import org.thoughtcrime.securesms.ryan.conversation.v2.ConversationActivityResultContracts.Callbacks
+import org.thoughtcrime.securesms.ryan.giph.ui.GiphyActivity
+import org.thoughtcrime.securesms.ryan.maps.PlacePickerActivity
+import org.thoughtcrime.securesms.ryan.mediasend.Media
+import org.thoughtcrime.securesms.ryan.mediasend.MediaSendActivityResult
+import org.thoughtcrime.securesms.ryan.mediasend.camerax.CameraXUtil
+import org.thoughtcrime.securesms.ryan.mediasend.v2.MediaSelectionActivity
+import org.thoughtcrime.securesms.ryan.permissions.Permissions
+import org.thoughtcrime.securesms.ryan.recipients.RecipientId
 
 /**
  * This encapsulates the logic for interacting with other activities used throughout a conversation. The gist

@@ -1,8 +1,8 @@
-package org.thoughtcrime.securesms.stickers;
+package org.thoughtcrime.securesms.ryan.stickers;
 
 import androidx.annotation.NonNull;
 
-import org.thoughtcrime.securesms.database.model.StickerRecord;
+import org.thoughtcrime.securesms.ryan.database.model.StickerRecord;
 
 public interface StickerEventListener {
   void onStickerSelected(@NonNull StickerRecord sticker);

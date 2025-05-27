@@ -1,9 +1,9 @@
-package org.thoughtcrime.securesms.conversation.colors
+package org.thoughtcrime.securesms.ryan.conversation.colors
 
 import android.graphics.drawable.GradientDrawable
 import androidx.annotation.ColorInt
 import org.signal.core.util.CryptoUtil
-import org.thoughtcrime.securesms.recipients.Recipient
+import org.thoughtcrime.securesms.ryan.recipients.Recipient
 import kotlin.jvm.optionals.getOrNull
 
 /**

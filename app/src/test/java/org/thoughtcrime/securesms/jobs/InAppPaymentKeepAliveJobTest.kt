@@ -3,15 +3,15 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.jobs
+package org.thoughtcrime.securesms.ryan.jobs
 
 import assertk.assertThat
 import assertk.assertions.isTrue
 import io.mockk.every
 import org.junit.Rule
 import org.junit.Test
-import org.thoughtcrime.securesms.database.model.InAppPaymentSubscriberRecord
-import org.thoughtcrime.securesms.testutil.MockSignalStoreRule
+import org.thoughtcrime.securesms.ryan.database.model.InAppPaymentSubscriberRecord
+import org.thoughtcrime.securesms.ryan.testutil.MockSignalStoreRule
 
 class InAppPaymentKeepAliveJobTest {
 

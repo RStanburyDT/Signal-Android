@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.conversation.ui.error;
+package org.thoughtcrime.securesms.ryan.conversation.ui.error;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -8,10 +8,10 @@ import androidx.lifecycle.Transformations;
 import androidx.lifecycle.ViewModel;
 import androidx.lifecycle.ViewModelProvider;
 
-import org.thoughtcrime.securesms.conversation.ui.error.SafetyNumberChangeRepository.SafetyNumberChangeState;
-import org.thoughtcrime.securesms.dependencies.AppDependencies;
-import org.thoughtcrime.securesms.recipients.RecipientId;
-import org.thoughtcrime.securesms.util.livedata.LiveDataUtil;
+import org.thoughtcrime.securesms.ryan.conversation.ui.error.SafetyNumberChangeRepository.SafetyNumberChangeState;
+import org.thoughtcrime.securesms.ryan.dependencies.AppDependencies;
+import org.thoughtcrime.securesms.ryan.recipients.RecipientId;
+import org.thoughtcrime.securesms.ryan.util.livedata.LiveDataUtil;
 
 import java.util.Collection;
 import java.util.List;

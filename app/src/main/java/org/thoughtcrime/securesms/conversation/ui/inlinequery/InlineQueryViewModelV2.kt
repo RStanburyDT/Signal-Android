@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.conversation.ui.inlinequery
+package org.thoughtcrime.securesms.ryan.conversation.ui.inlinequery
 
 import androidx.lifecycle.ViewModel
 import io.reactivex.rxjava3.android.schedulers.AndroidSchedulers
@@ -6,15 +6,15 @@ import io.reactivex.rxjava3.core.Observable
 import io.reactivex.rxjava3.schedulers.Schedulers
 import io.reactivex.rxjava3.subjects.BehaviorSubject
 import io.reactivex.rxjava3.subjects.PublishSubject
-import org.thoughtcrime.securesms.components.emoji.RecentEmojiPageModel
-import org.thoughtcrime.securesms.conversation.ui.mentions.MentionViewState
-import org.thoughtcrime.securesms.conversation.ui.mentions.MentionsPickerRepositoryV2
-import org.thoughtcrime.securesms.conversation.v2.ConversationRecipientRepository
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.keyboard.emoji.search.EmojiSearchRepository
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.util.TextSecurePreferences
-import org.thoughtcrime.securesms.util.adapter.mapping.AnyMappingModel
+import org.thoughtcrime.securesms.ryan.components.emoji.RecentEmojiPageModel
+import org.thoughtcrime.securesms.ryan.conversation.ui.mentions.MentionViewState
+import org.thoughtcrime.securesms.ryan.conversation.ui.mentions.MentionsPickerRepositoryV2
+import org.thoughtcrime.securesms.ryan.conversation.v2.ConversationRecipientRepository
+import org.thoughtcrime.securesms.ryan.dependencies.AppDependencies
+import org.thoughtcrime.securesms.ryan.keyboard.emoji.search.EmojiSearchRepository
+import org.thoughtcrime.securesms.ryan.keyvalue.SignalStore
+import org.thoughtcrime.securesms.ryan.util.TextSecurePreferences
+import org.thoughtcrime.securesms.ryan.util.adapter.mapping.AnyMappingModel
 
 /**
  * View model for managing inline queries. The view model needs to be larger scope so it can

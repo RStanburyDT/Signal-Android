@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.apkupdate
+package org.thoughtcrime.securesms.ryan.apkupdate
 
 import android.app.PendingIntent
 import android.content.Context
@@ -14,12 +14,12 @@ import org.signal.core.util.PendingIntentFlags
 import org.signal.core.util.StreamUtil
 import org.signal.core.util.getDownloadManager
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.jobs.ApkUpdateJob
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.util.AppForegroundObserver
-import org.thoughtcrime.securesms.util.Environment
-import org.thoughtcrime.securesms.util.FileUtils
+import org.thoughtcrime.securesms.ryan.dependencies.AppDependencies
+import org.thoughtcrime.securesms.ryan.jobs.ApkUpdateJob
+import org.thoughtcrime.securesms.ryan.keyvalue.SignalStore
+import org.thoughtcrime.securesms.ryan.util.AppForegroundObserver
+import org.thoughtcrime.securesms.ryan.util.Environment
+import org.thoughtcrime.securesms.ryan.util.FileUtils
 import java.io.FileInputStream
 import java.io.IOException
 import java.io.InputStream

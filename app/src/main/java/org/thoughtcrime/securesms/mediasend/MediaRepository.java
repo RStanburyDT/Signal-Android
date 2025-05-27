@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.mediasend;
+package org.thoughtcrime.securesms.ryan.mediasend;
 
 import android.content.ContentUris;
 import android.content.Context;
@@ -20,16 +20,16 @@ import com.annimon.stream.Stream;
 
 import org.signal.core.util.concurrent.SignalExecutors;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.database.AttachmentTable;
-import org.thoughtcrime.securesms.dependencies.AppDependencies;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
-import org.thoughtcrime.securesms.mms.PartAuthority;
-import org.thoughtcrime.securesms.util.MediaUtil;
+import org.thoughtcrime.securesms.ryan.R;
+import org.thoughtcrime.securesms.ryan.database.AttachmentTable;
+import org.thoughtcrime.securesms.ryan.dependencies.AppDependencies;
+import org.thoughtcrime.securesms.ryan.keyvalue.SignalStore;
+import org.thoughtcrime.securesms.ryan.mms.PartAuthority;
+import org.thoughtcrime.securesms.ryan.util.MediaUtil;
 import org.signal.core.util.SqlUtil;
 import org.signal.core.util.Stopwatch;
-import org.thoughtcrime.securesms.util.StorageUtil;
-import org.thoughtcrime.securesms.util.Util;
+import org.thoughtcrime.securesms.ryan.util.StorageUtil;
+import org.thoughtcrime.securesms.ryan.util.Util;
 
 import java.io.IOException;
 import java.util.ArrayList;

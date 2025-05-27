@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.mediasend;
+package org.thoughtcrime.securesms.ryan.mediasend;
 
 import android.Manifest;
 import android.animation.ValueAnimator;
@@ -26,14 +26,14 @@ import androidx.core.util.Consumer;
 import androidx.fragment.app.Fragment;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.mediasend.camerax.CameraXModePolicy;
-import org.thoughtcrime.securesms.permissions.Permissions;
-import org.thoughtcrime.securesms.util.ContextUtil;
-import org.thoughtcrime.securesms.util.Debouncer;
-import org.thoughtcrime.securesms.util.RemoteConfig;
-import org.thoughtcrime.securesms.util.MemoryFileDescriptor;
-import org.thoughtcrime.securesms.video.VideoUtil;
+import org.thoughtcrime.securesms.ryan.R;
+import org.thoughtcrime.securesms.ryan.mediasend.camerax.CameraXModePolicy;
+import org.thoughtcrime.securesms.ryan.permissions.Permissions;
+import org.thoughtcrime.securesms.ryan.util.ContextUtil;
+import org.thoughtcrime.securesms.ryan.util.Debouncer;
+import org.thoughtcrime.securesms.ryan.util.RemoteConfig;
+import org.thoughtcrime.securesms.ryan.util.MemoryFileDescriptor;
+import org.thoughtcrime.securesms.ryan.video.VideoUtil;
 
 import java.io.FileDescriptor;
 import java.io.IOException;

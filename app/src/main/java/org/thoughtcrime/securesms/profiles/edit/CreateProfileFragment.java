@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.profiles.edit;
+package org.thoughtcrime.securesms.ryan.profiles.edit;
 
 import android.animation.Animator;
 import android.content.Context;
@@ -27,34 +27,34 @@ import org.signal.core.util.EditTextUtil;
 import org.signal.core.util.StreamUtil;
 import org.signal.core.util.concurrent.SimpleTask;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.LoggingFragment;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.avatar.Avatars;
-import org.thoughtcrime.securesms.avatar.picker.AvatarPickerFragment;
-import org.thoughtcrime.securesms.databinding.CreateProfileFragmentBinding;
-import org.thoughtcrime.securesms.groups.GroupId;
-import org.thoughtcrime.securesms.groups.ParcelableGroupId;
-import org.thoughtcrime.securesms.keyvalue.PhoneNumberPrivacyValues;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
-import org.thoughtcrime.securesms.mediasend.Media;
-import org.thoughtcrime.securesms.profiles.edit.pnp.WhoCanFindMeByPhoneNumberFragment;
-import org.thoughtcrime.securesms.profiles.manage.EditProfileNameFragment;
-import org.thoughtcrime.securesms.providers.BlobProvider;
-import org.thoughtcrime.securesms.util.CommunicationActions;
-import org.thoughtcrime.securesms.util.RemoteConfig;
-import org.thoughtcrime.securesms.util.ViewUtil;
-import org.thoughtcrime.securesms.util.navigation.SafeNavigation;
-import org.thoughtcrime.securesms.util.text.AfterTextChanged;
+import org.thoughtcrime.securesms.ryan.LoggingFragment;
+import org.thoughtcrime.securesms.ryan.R;
+import org.thoughtcrime.securesms.ryan.avatar.Avatars;
+import org.thoughtcrime.securesms.ryan.avatar.picker.AvatarPickerFragment;
+import org.thoughtcrime.securesms.ryan.databinding.CreateProfileFragmentBinding;
+import org.thoughtcrime.securesms.ryan.groups.GroupId;
+import org.thoughtcrime.securesms.ryan.groups.ParcelableGroupId;
+import org.thoughtcrime.securesms.ryan.keyvalue.PhoneNumberPrivacyValues;
+import org.thoughtcrime.securesms.ryan.keyvalue.SignalStore;
+import org.thoughtcrime.securesms.ryan.mediasend.Media;
+import org.thoughtcrime.securesms.ryan.profiles.edit.pnp.WhoCanFindMeByPhoneNumberFragment;
+import org.thoughtcrime.securesms.ryan.profiles.manage.EditProfileNameFragment;
+import org.thoughtcrime.securesms.ryan.providers.BlobProvider;
+import org.thoughtcrime.securesms.ryan.util.CommunicationActions;
+import org.thoughtcrime.securesms.ryan.util.RemoteConfig;
+import org.thoughtcrime.securesms.ryan.util.ViewUtil;
+import org.thoughtcrime.securesms.ryan.util.navigation.SafeNavigation;
+import org.thoughtcrime.securesms.ryan.util.text.AfterTextChanged;
 
 import java.io.IOException;
 import java.io.InputStream;
 
-import static org.thoughtcrime.securesms.profiles.edit.CreateProfileActivity.EXCLUDE_SYSTEM;
-import static org.thoughtcrime.securesms.profiles.edit.CreateProfileActivity.GROUP_ID;
-import static org.thoughtcrime.securesms.profiles.edit.CreateProfileActivity.IS_DESCRIPTION_FOCUSED;
-import static org.thoughtcrime.securesms.profiles.edit.CreateProfileActivity.NEXT_BUTTON_TEXT;
-import static org.thoughtcrime.securesms.profiles.edit.CreateProfileActivity.NEXT_INTENT;
-import static org.thoughtcrime.securesms.profiles.edit.CreateProfileActivity.SHOW_TOOLBAR;
+import static org.thoughtcrime.securesms.ryan.profiles.edit.CreateProfileActivity.EXCLUDE_SYSTEM;
+import static org.thoughtcrime.securesms.ryan.profiles.edit.CreateProfileActivity.GROUP_ID;
+import static org.thoughtcrime.securesms.ryan.profiles.edit.CreateProfileActivity.IS_DESCRIPTION_FOCUSED;
+import static org.thoughtcrime.securesms.ryan.profiles.edit.CreateProfileActivity.NEXT_BUTTON_TEXT;
+import static org.thoughtcrime.securesms.ryan.profiles.edit.CreateProfileActivity.NEXT_INTENT;
+import static org.thoughtcrime.securesms.ryan.profiles.edit.CreateProfileActivity.SHOW_TOOLBAR;
 
 /**
  * Used for profile creation during registration.

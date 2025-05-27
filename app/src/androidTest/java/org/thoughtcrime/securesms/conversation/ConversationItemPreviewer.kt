@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.conversation
+package org.thoughtcrime.securesms.ryan.conversation
 
 import androidx.test.core.app.ActivityScenario
 import androidx.test.ext.junit.runners.AndroidJUnit4
@@ -7,16 +7,16 @@ import org.junit.Rule
 import org.junit.Test
 import org.junit.runner.RunWith
 import org.signal.core.util.ThreadUtil
-import org.thoughtcrime.securesms.attachments.Cdn
-import org.thoughtcrime.securesms.attachments.PointerAttachment
-import org.thoughtcrime.securesms.conversation.v2.ConversationActivity
-import org.thoughtcrime.securesms.database.MessageType
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.mms.IncomingMessage
-import org.thoughtcrime.securesms.mms.OutgoingMessage
-import org.thoughtcrime.securesms.profiles.ProfileName
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.testing.SignalActivityRule
+import org.thoughtcrime.securesms.ryan.attachments.Cdn
+import org.thoughtcrime.securesms.ryan.attachments.PointerAttachment
+import org.thoughtcrime.securesms.ryan.conversation.v2.ConversationActivity
+import org.thoughtcrime.securesms.ryan.database.MessageType
+import org.thoughtcrime.securesms.ryan.database.SignalDatabase
+import org.thoughtcrime.securesms.ryan.mms.IncomingMessage
+import org.thoughtcrime.securesms.ryan.mms.OutgoingMessage
+import org.thoughtcrime.securesms.ryan.profiles.ProfileName
+import org.thoughtcrime.securesms.ryan.recipients.Recipient
+import org.thoughtcrime.securesms.ryan.testing.SignalActivityRule
 import org.whispersystems.signalservice.api.messages.SignalServiceAttachmentPointer
 import org.whispersystems.signalservice.api.messages.SignalServiceAttachmentRemoteId
 import java.util.Optional

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.settings.app.privacy.screenlock
+package org.thoughtcrime.securesms.ryan.components.settings.app.privacy.screenlock
 
 import android.content.Intent
 import android.os.Bundle
@@ -46,14 +46,14 @@ import org.signal.core.ui.compose.Previews
 import org.signal.core.ui.compose.Scaffolds
 import org.signal.core.ui.compose.SignalPreview
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.BiometricDeviceAuthentication
-import org.thoughtcrime.securesms.BiometricDeviceLockContract
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.compose.ComposeFragment
-import org.thoughtcrime.securesms.service.KeyCachingService
-import org.thoughtcrime.securesms.util.ConversationUtil
-import org.thoughtcrime.securesms.util.ExpirationUtil
-import org.thoughtcrime.securesms.util.navigation.safeNavigate
+import org.thoughtcrime.securesms.ryan.BiometricDeviceAuthentication
+import org.thoughtcrime.securesms.ryan.BiometricDeviceLockContract
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.compose.ComposeFragment
+import org.thoughtcrime.securesms.ryan.service.KeyCachingService
+import org.thoughtcrime.securesms.ryan.util.ConversationUtil
+import org.thoughtcrime.securesms.ryan.util.ExpirationUtil
+import org.thoughtcrime.securesms.ryan.util.navigation.safeNavigate
 
 /**
  * Fragment that allows user to turn on screen lock and set a timer to lock

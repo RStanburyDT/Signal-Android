@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.calls.log
+package org.thoughtcrime.securesms.ryan.calls.log
 
 import android.database.Cursor
 import androidx.annotation.VisibleForTesting
@@ -25,18 +25,18 @@ import org.signal.core.util.requireString
 import org.signal.storageservice.protos.groups.Member
 import org.signal.storageservice.protos.groups.local.DecryptedGroup
 import org.signal.storageservice.protos.groups.local.EnabledState
-import org.thoughtcrime.securesms.database.CallTable
-import org.thoughtcrime.securesms.database.CallTable.Direction
-import org.thoughtcrime.securesms.database.CallTable.Event
-import org.thoughtcrime.securesms.database.CallTable.Type
-import org.thoughtcrime.securesms.database.GroupTable
-import org.thoughtcrime.securesms.database.MessageTable
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.database.model.GroupCallUpdateDetailsUtil
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientId
+import org.thoughtcrime.securesms.ryan.database.CallTable
+import org.thoughtcrime.securesms.ryan.database.CallTable.Direction
+import org.thoughtcrime.securesms.ryan.database.CallTable.Event
+import org.thoughtcrime.securesms.ryan.database.CallTable.Type
+import org.thoughtcrime.securesms.ryan.database.GroupTable
+import org.thoughtcrime.securesms.ryan.database.MessageTable
+import org.thoughtcrime.securesms.ryan.database.SignalDatabase
+import org.thoughtcrime.securesms.ryan.database.model.GroupCallUpdateDetailsUtil
+import org.thoughtcrime.securesms.ryan.dependencies.AppDependencies
+import org.thoughtcrime.securesms.ryan.keyvalue.SignalStore
+import org.thoughtcrime.securesms.ryan.recipients.Recipient
+import org.thoughtcrime.securesms.ryan.recipients.RecipientId
 import java.util.concurrent.Executor
 import kotlin.math.max
 import kotlin.math.min

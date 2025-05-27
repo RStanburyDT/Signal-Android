@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.help;
+package org.thoughtcrime.securesms.ryan.help;
 
 import android.content.Intent;
 import android.net.Uri;
@@ -25,14 +25,14 @@ import androidx.navigation.Navigation;
 import com.annimon.stream.Stream;
 
 import org.signal.core.util.ResourceUtil;
-import org.thoughtcrime.securesms.LoggingFragment;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.components.emoji.EmojiImageView;
-import org.thoughtcrime.securesms.util.CommunicationActions;
-import org.thoughtcrime.securesms.util.SupportEmailUtil;
-import org.thoughtcrime.securesms.util.Util;
-import org.thoughtcrime.securesms.util.text.AfterTextChanged;
-import org.thoughtcrime.securesms.util.views.CircularProgressMaterialButton;
+import org.thoughtcrime.securesms.ryan.LoggingFragment;
+import org.thoughtcrime.securesms.ryan.R;
+import org.thoughtcrime.securesms.ryan.components.emoji.EmojiImageView;
+import org.thoughtcrime.securesms.ryan.util.CommunicationActions;
+import org.thoughtcrime.securesms.ryan.util.SupportEmailUtil;
+import org.thoughtcrime.securesms.ryan.util.Util;
+import org.thoughtcrime.securesms.ryan.util.text.AfterTextChanged;
+import org.thoughtcrime.securesms.ryan.util.views.CircularProgressMaterialButton;
 
 import java.util.ArrayList;
 import java.util.List;

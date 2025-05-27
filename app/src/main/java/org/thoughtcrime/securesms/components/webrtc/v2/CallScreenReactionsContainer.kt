@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.webrtc.v2
+package org.thoughtcrime.securesms.ryan.components.webrtc.v2
 
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
@@ -13,11 +13,11 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.viewinterop.AndroidView
 import androidx.recyclerview.widget.LinearLayoutManager
-import org.thoughtcrime.securesms.components.recyclerview.NoTouchingRecyclerView
-import org.thoughtcrime.securesms.components.webrtc.WebRtcReactionsAlphaItemDecoration
-import org.thoughtcrime.securesms.components.webrtc.WebRtcReactionsItemAnimator
-import org.thoughtcrime.securesms.components.webrtc.WebRtcReactionsRecyclerAdapter
-import org.thoughtcrime.securesms.events.GroupCallReactionEvent
+import org.thoughtcrime.securesms.ryan.components.recyclerview.NoTouchingRecyclerView
+import org.thoughtcrime.securesms.ryan.components.webrtc.WebRtcReactionsAlphaItemDecoration
+import org.thoughtcrime.securesms.ryan.components.webrtc.WebRtcReactionsItemAnimator
+import org.thoughtcrime.securesms.ryan.components.webrtc.WebRtcReactionsRecyclerAdapter
+import org.thoughtcrime.securesms.ryan.events.GroupCallReactionEvent
 
 /**
  * Displays a list of reactions sent during a group call.

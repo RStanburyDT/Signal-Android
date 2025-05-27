@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.jobs;
+package org.thoughtcrime.securesms.ryan.jobs;
 
 import android.content.Context;
 import android.net.Uri;
@@ -10,24 +10,24 @@ import com.annimon.stream.IntPair;
 import com.annimon.stream.Stream;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.components.emoji.EmojiPageModel;
-import org.thoughtcrime.securesms.dependencies.AppDependencies;
-import org.thoughtcrime.securesms.emoji.EmojiData;
-import org.thoughtcrime.securesms.emoji.EmojiDownloader;
-import org.thoughtcrime.securesms.emoji.EmojiFiles;
-import org.thoughtcrime.securesms.emoji.EmojiImageRequest;
-import org.thoughtcrime.securesms.emoji.EmojiJsonRequest;
-import org.thoughtcrime.securesms.emoji.EmojiPageCache;
-import org.thoughtcrime.securesms.emoji.EmojiRemote;
-import org.thoughtcrime.securesms.emoji.EmojiSource;
-import org.thoughtcrime.securesms.emoji.JumboEmoji;
-import org.thoughtcrime.securesms.jobmanager.JsonJobData;
-import org.thoughtcrime.securesms.jobmanager.Job;
-import org.thoughtcrime.securesms.jobmanager.impl.AutoDownloadEmojiConstraint;
-import org.thoughtcrime.securesms.jobmanager.impl.NetworkConstraint;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
-import org.thoughtcrime.securesms.util.FileUtils;
-import org.thoughtcrime.securesms.util.ScreenDensity;
+import org.thoughtcrime.securesms.ryan.components.emoji.EmojiPageModel;
+import org.thoughtcrime.securesms.ryan.dependencies.AppDependencies;
+import org.thoughtcrime.securesms.ryan.emoji.EmojiData;
+import org.thoughtcrime.securesms.ryan.emoji.EmojiDownloader;
+import org.thoughtcrime.securesms.ryan.emoji.EmojiFiles;
+import org.thoughtcrime.securesms.ryan.emoji.EmojiImageRequest;
+import org.thoughtcrime.securesms.ryan.emoji.EmojiJsonRequest;
+import org.thoughtcrime.securesms.ryan.emoji.EmojiPageCache;
+import org.thoughtcrime.securesms.ryan.emoji.EmojiRemote;
+import org.thoughtcrime.securesms.ryan.emoji.EmojiSource;
+import org.thoughtcrime.securesms.ryan.emoji.JumboEmoji;
+import org.thoughtcrime.securesms.ryan.jobmanager.JsonJobData;
+import org.thoughtcrime.securesms.ryan.jobmanager.Job;
+import org.thoughtcrime.securesms.ryan.jobmanager.impl.AutoDownloadEmojiConstraint;
+import org.thoughtcrime.securesms.ryan.jobmanager.impl.NetworkConstraint;
+import org.thoughtcrime.securesms.ryan.keyvalue.SignalStore;
+import org.thoughtcrime.securesms.ryan.util.FileUtils;
+import org.thoughtcrime.securesms.ryan.util.ScreenDensity;
 
 import java.io.File;
 import java.io.IOException;

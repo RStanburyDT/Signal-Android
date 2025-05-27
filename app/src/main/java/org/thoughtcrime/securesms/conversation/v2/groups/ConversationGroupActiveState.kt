@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.conversation.v2.groups
+package org.thoughtcrime.securesms.ryan.conversation.v2.groups
 
 /**
  * Represents the 'active' state of a group.

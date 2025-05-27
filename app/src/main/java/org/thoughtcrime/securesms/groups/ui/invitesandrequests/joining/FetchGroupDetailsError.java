@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.groups.ui.invitesandrequests.joining;
+package org.thoughtcrime.securesms.ryan.groups.ui.invitesandrequests.joining;
 
 enum FetchGroupDetailsError {
   GroupLinkNotActive,

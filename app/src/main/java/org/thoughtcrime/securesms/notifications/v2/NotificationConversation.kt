@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.notifications.v2
+package org.thoughtcrime.securesms.ryan.notifications.v2
 
 import android.app.PendingIntent
 import android.content.Context
@@ -9,25 +9,25 @@ import android.text.SpannableStringBuilder
 import androidx.core.app.TaskStackBuilder
 import org.signal.core.util.PendingIntentFlags
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.avatar.fallback.FallbackAvatar
-import org.thoughtcrime.securesms.avatar.fallback.FallbackAvatarDrawable
-import org.thoughtcrime.securesms.contacts.TurnOffContactJoinedNotificationsActivity
-import org.thoughtcrime.securesms.conversation.ConversationIntents
-import org.thoughtcrime.securesms.conversation.colors.AvatarColor
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.notifications.DeleteNotificationReceiver
-import org.thoughtcrime.securesms.notifications.MarkReadReceiver
-import org.thoughtcrime.securesms.notifications.NotificationChannels
-import org.thoughtcrime.securesms.notifications.NotificationIds
-import org.thoughtcrime.securesms.notifications.RemoteReplyReceiver
-import org.thoughtcrime.securesms.notifications.ReplyMethod
-import org.thoughtcrime.securesms.preferences.widgets.NotificationPrivacyPreference
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.service.KeyCachingService
-import org.thoughtcrime.securesms.stories.StoryViewerArgs
-import org.thoughtcrime.securesms.stories.viewer.StoryViewerActivity
-import org.thoughtcrime.securesms.util.Util
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.avatar.fallback.FallbackAvatar
+import org.thoughtcrime.securesms.ryan.avatar.fallback.FallbackAvatarDrawable
+import org.thoughtcrime.securesms.ryan.contacts.TurnOffContactJoinedNotificationsActivity
+import org.thoughtcrime.securesms.ryan.conversation.ConversationIntents
+import org.thoughtcrime.securesms.ryan.conversation.colors.AvatarColor
+import org.thoughtcrime.securesms.ryan.keyvalue.SignalStore
+import org.thoughtcrime.securesms.ryan.notifications.DeleteNotificationReceiver
+import org.thoughtcrime.securesms.ryan.notifications.MarkReadReceiver
+import org.thoughtcrime.securesms.ryan.notifications.NotificationChannels
+import org.thoughtcrime.securesms.ryan.notifications.NotificationIds
+import org.thoughtcrime.securesms.ryan.notifications.RemoteReplyReceiver
+import org.thoughtcrime.securesms.ryan.notifications.ReplyMethod
+import org.thoughtcrime.securesms.ryan.preferences.widgets.NotificationPrivacyPreference
+import org.thoughtcrime.securesms.ryan.recipients.Recipient
+import org.thoughtcrime.securesms.ryan.service.KeyCachingService
+import org.thoughtcrime.securesms.ryan.stories.StoryViewerArgs
+import org.thoughtcrime.securesms.ryan.stories.viewer.StoryViewerActivity
+import org.thoughtcrime.securesms.ryan.util.Util
 
 /**
  * Encapsulate all the notifications for a given conversation (thread) and the top

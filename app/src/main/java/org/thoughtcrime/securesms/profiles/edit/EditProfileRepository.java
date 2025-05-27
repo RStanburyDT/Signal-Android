@@ -1,11 +1,11 @@
-package org.thoughtcrime.securesms.profiles.edit;
+package org.thoughtcrime.securesms.ryan.profiles.edit;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.core.util.Consumer;
 
-import org.thoughtcrime.securesms.conversation.colors.AvatarColor;
-import org.thoughtcrime.securesms.profiles.ProfileName;
+import org.thoughtcrime.securesms.ryan.conversation.colors.AvatarColor;
+import org.thoughtcrime.securesms.ryan.profiles.ProfileName;
 
 import java.util.Optional;
 

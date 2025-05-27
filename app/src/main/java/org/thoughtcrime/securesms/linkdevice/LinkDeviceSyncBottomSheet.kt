@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.linkdevice
+package org.thoughtcrime.securesms.ryan.linkdevice
 
 import android.content.DialogInterface
 import androidx.compose.foundation.background
@@ -26,8 +26,8 @@ import androidx.navigation.fragment.findNavController
 import org.signal.core.ui.compose.BottomSheets
 import org.signal.core.ui.compose.Previews
 import org.signal.core.ui.compose.SignalPreview
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.compose.ComposeBottomSheetDialogFragment
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.compose.ComposeBottomSheetDialogFragment
 
 /**
  * Bottom sheet dialog allowing users to choose whether to transfer their message history

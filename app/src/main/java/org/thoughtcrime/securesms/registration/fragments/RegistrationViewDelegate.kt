@@ -1,10 +1,10 @@
-package org.thoughtcrime.securesms.registration.fragments
+package org.thoughtcrime.securesms.ryan.registration.fragments
 
 import android.content.Intent
 import android.view.View
 import android.widget.Toast
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.logsubmit.SubmitDebugLogActivity
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.logsubmit.SubmitDebugLogActivity
 
 object RegistrationViewDelegate {
 

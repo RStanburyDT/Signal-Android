@@ -1,13 +1,13 @@
-package org.thoughtcrime.securesms.mediasend.v2
+package org.thoughtcrime.securesms.ryan.mediasend.v2
 
 import android.Manifest
 import android.widget.Toast
 import androidx.fragment.app.Fragment
 import androidx.navigation.NavController
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.mediasend.camerax.CameraXUtil
-import org.thoughtcrime.securesms.permissions.Permissions
-import org.thoughtcrime.securesms.util.navigation.safeNavigate
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.mediasend.camerax.CameraXUtil
+import org.thoughtcrime.securesms.ryan.permissions.Permissions
+import org.thoughtcrime.securesms.ryan.util.navigation.safeNavigate
 
 class MediaSelectionNavigator(
   private val toCamera: Int = -1,

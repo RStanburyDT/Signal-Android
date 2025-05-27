@@ -3,11 +3,11 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.service.webrtc
+package org.thoughtcrime.securesms.ryan.service.webrtc
 
 import org.signal.ringrtc.CallId
 import org.signal.ringrtc.PeekInfo
-import org.thoughtcrime.securesms.recipients.Recipient
+import org.thoughtcrime.securesms.ryan.recipients.Recipient
 
 /**
  * App-level peek info object for call links.

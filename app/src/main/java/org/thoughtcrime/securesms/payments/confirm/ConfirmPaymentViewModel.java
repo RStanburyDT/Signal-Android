@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.payments.confirm;
+package org.thoughtcrime.securesms.ryan.payments.confirm;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -10,18 +10,18 @@ import androidx.lifecycle.ViewModelProvider;
 
 import org.signal.core.util.logging.Log;
 import org.signal.core.util.money.FiatMoney;
-import org.thoughtcrime.securesms.database.PaymentTable.PaymentTransaction;
-import org.thoughtcrime.securesms.dependencies.AppDependencies;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
-import org.thoughtcrime.securesms.payments.CreatePaymentDetails;
-import org.thoughtcrime.securesms.payments.FiatMoneyUtil;
-import org.thoughtcrime.securesms.payments.PaymentTransactionLiveData;
-import org.thoughtcrime.securesms.payments.PaymentsAddressException;
-import org.thoughtcrime.securesms.payments.confirm.ConfirmPaymentRepository.ConfirmPaymentResult;
-import org.thoughtcrime.securesms.util.DefaultValueLiveData;
-import org.thoughtcrime.securesms.util.SingleLiveEvent;
-import org.thoughtcrime.securesms.util.livedata.LiveDataUtil;
-import org.thoughtcrime.securesms.util.livedata.Store;
+import org.thoughtcrime.securesms.ryan.database.PaymentTable.PaymentTransaction;
+import org.thoughtcrime.securesms.ryan.dependencies.AppDependencies;
+import org.thoughtcrime.securesms.ryan.keyvalue.SignalStore;
+import org.thoughtcrime.securesms.ryan.payments.CreatePaymentDetails;
+import org.thoughtcrime.securesms.ryan.payments.FiatMoneyUtil;
+import org.thoughtcrime.securesms.ryan.payments.PaymentTransactionLiveData;
+import org.thoughtcrime.securesms.ryan.payments.PaymentsAddressException;
+import org.thoughtcrime.securesms.ryan.payments.confirm.ConfirmPaymentRepository.ConfirmPaymentResult;
+import org.thoughtcrime.securesms.ryan.util.DefaultValueLiveData;
+import org.thoughtcrime.securesms.ryan.util.SingleLiveEvent;
+import org.thoughtcrime.securesms.ryan.util.livedata.LiveDataUtil;
+import org.thoughtcrime.securesms.ryan.util.livedata.Store;
 import org.whispersystems.signalservice.api.payments.Money;
 
 import java.util.Optional;

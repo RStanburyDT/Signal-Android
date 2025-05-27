@@ -1,13 +1,13 @@
-package org.thoughtcrime.securesms.notifications.v2
+package org.thoughtcrime.securesms.ryan.notifications.v2
 
 import android.app.PendingIntent
 import android.content.Context
 import android.content.Intent
 import org.signal.core.util.PendingIntentFlags
-import org.thoughtcrime.securesms.notifications.DeleteNotificationReceiver
-import org.thoughtcrime.securesms.notifications.MarkReadReceiver
-import org.thoughtcrime.securesms.notifications.NotificationIds
-import org.thoughtcrime.securesms.recipients.Recipient
+import org.thoughtcrime.securesms.ryan.notifications.DeleteNotificationReceiver
+import org.thoughtcrime.securesms.ryan.notifications.MarkReadReceiver
+import org.thoughtcrime.securesms.ryan.notifications.NotificationIds
+import org.thoughtcrime.securesms.ryan.recipients.Recipient
 
 /**
  * Hold all state for notifications for all conversations.

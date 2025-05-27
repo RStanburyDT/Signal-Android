@@ -1,9 +1,9 @@
-package org.thoughtcrime.securesms.conversationlist
+package org.thoughtcrime.securesms.ryan.conversationlist
 
 import android.os.Parcelable
 import kotlinx.parcelize.Parcelize
-import org.thoughtcrime.securesms.components.settings.app.chats.folders.ChatFolderRecord
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingModel
+import org.thoughtcrime.securesms.ryan.components.settings.app.chats.folders.ChatFolderRecord
+import org.thoughtcrime.securesms.ryan.util.adapter.mapping.MappingModel
 
 /**
  * Mapping model of folders used in [ChatFolderAdapter]

@@ -3,13 +3,13 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.conversation.v2.items
+package org.thoughtcrime.securesms.ryan.conversation.v2.items
 
 import android.widget.Space
-import org.thoughtcrime.securesms.components.QuoteView
-import org.thoughtcrime.securesms.databinding.V2ConversationItemMediaIncomingBinding
-import org.thoughtcrime.securesms.databinding.V2ConversationItemMediaOutgoingBinding
-import org.thoughtcrime.securesms.util.views.Stub
+import org.thoughtcrime.securesms.ryan.components.QuoteView
+import org.thoughtcrime.securesms.ryan.databinding.V2ConversationItemMediaIncomingBinding
+import org.thoughtcrime.securesms.ryan.databinding.V2ConversationItemMediaOutgoingBinding
+import org.thoughtcrime.securesms.ryan.util.views.Stub
 
 /**
  * Pass-through interface for bridging incoming and outgoing media message views.

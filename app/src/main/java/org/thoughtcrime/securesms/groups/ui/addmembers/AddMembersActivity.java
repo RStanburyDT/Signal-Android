@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.groups.ui.addmembers;
+package org.thoughtcrime.securesms.ryan.groups.ui.addmembers;
 
 import android.content.Context;
 import android.content.Intent;
@@ -15,20 +15,20 @@ import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 
 import org.signal.core.util.DimensionUnit;
 import org.signal.core.util.concurrent.SimpleTask;
-import org.thoughtcrime.securesms.ContactSelectionActivity;
-import org.thoughtcrime.securesms.ContactSelectionListFragment;
-import org.thoughtcrime.securesms.PushContactSelectionActivity;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.contacts.paged.ChatType;
-import org.thoughtcrime.securesms.groups.GroupId;
-import org.thoughtcrime.securesms.groups.SelectionLimits;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.recipients.RecipientId;
-import org.thoughtcrime.securesms.recipients.RecipientRepository;
-import org.thoughtcrime.securesms.recipients.ui.findby.FindByActivity;
-import org.thoughtcrime.securesms.recipients.ui.findby.FindByMode;
-import org.thoughtcrime.securesms.util.Util;
-import org.thoughtcrime.securesms.util.views.SimpleProgressDialog;
+import org.thoughtcrime.securesms.ryan.ContactSelectionActivity;
+import org.thoughtcrime.securesms.ryan.ContactSelectionListFragment;
+import org.thoughtcrime.securesms.ryan.PushContactSelectionActivity;
+import org.thoughtcrime.securesms.ryan.R;
+import org.thoughtcrime.securesms.ryan.contacts.paged.ChatType;
+import org.thoughtcrime.securesms.ryan.groups.GroupId;
+import org.thoughtcrime.securesms.ryan.groups.SelectionLimits;
+import org.thoughtcrime.securesms.ryan.recipients.Recipient;
+import org.thoughtcrime.securesms.ryan.recipients.RecipientId;
+import org.thoughtcrime.securesms.ryan.recipients.RecipientRepository;
+import org.thoughtcrime.securesms.ryan.recipients.ui.findby.FindByActivity;
+import org.thoughtcrime.securesms.ryan.recipients.ui.findby.FindByMode;
+import org.thoughtcrime.securesms.ryan.util.Util;
+import org.thoughtcrime.securesms.ryan.util.views.SimpleProgressDialog;
 
 import java.util.ArrayList;
 import java.util.List;

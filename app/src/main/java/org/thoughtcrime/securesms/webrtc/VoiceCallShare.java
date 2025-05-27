@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.webrtc;
+package org.thoughtcrime.securesms.ryan.webrtc;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -9,15 +9,15 @@ import android.text.TextUtils;
 
 import org.signal.core.util.concurrent.SimpleTask;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.components.webrtc.v2.CallIntent;
-import org.thoughtcrime.securesms.dependencies.AppDependencies;
-import org.thoughtcrime.securesms.recipients.Recipient;
+import org.thoughtcrime.securesms.ryan.components.webrtc.v2.CallIntent;
+import org.thoughtcrime.securesms.ryan.dependencies.AppDependencies;
+import org.thoughtcrime.securesms.ryan.recipients.Recipient;
 
 public class VoiceCallShare extends Activity {
   
   private static final String TAG = Log.tag(VoiceCallShare.class);
 
-  private static final String VIDEO_CALL_MIME_TYPE = "vnd.android.cursor.item/vnd.org.thoughtcrime.securesms.videocall";
+  private static final String VIDEO_CALL_MIME_TYPE = "vnd.android.cursor.item/vnd.org.thoughtcrime.securesms.ryan.videocall";
   
   @Override
   public void onCreate(Bundle icicle) {

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.groups.ui.creategroup.details;
+package org.thoughtcrime.securesms.ryan.groups.ui.creategroup.details;
 
 import android.app.Dialog;
 import android.content.Context;
@@ -9,14 +9,14 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.navigation.fragment.NavHostFragment;
 
-import org.thoughtcrime.securesms.PassphraseRequiredActivity;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.conversation.ConversationIntents;
-import org.thoughtcrime.securesms.groups.ui.managegroup.dialogs.GroupInviteSentDialog;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.recipients.RecipientId;
-import org.thoughtcrime.securesms.util.DynamicNoActionBarTheme;
-import org.thoughtcrime.securesms.util.DynamicTheme;
+import org.thoughtcrime.securesms.ryan.PassphraseRequiredActivity;
+import org.thoughtcrime.securesms.ryan.R;
+import org.thoughtcrime.securesms.ryan.conversation.ConversationIntents;
+import org.thoughtcrime.securesms.ryan.groups.ui.managegroup.dialogs.GroupInviteSentDialog;
+import org.thoughtcrime.securesms.ryan.recipients.Recipient;
+import org.thoughtcrime.securesms.ryan.recipients.RecipientId;
+import org.thoughtcrime.securesms.ryan.util.DynamicNoActionBarTheme;
+import org.thoughtcrime.securesms.ryan.util.DynamicTheme;
 
 import java.util.ArrayList;
 import java.util.Collection;

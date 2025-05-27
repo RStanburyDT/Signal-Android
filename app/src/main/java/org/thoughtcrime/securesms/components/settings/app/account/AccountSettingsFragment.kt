@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.settings.app.account
+package org.thoughtcrime.securesms.ryan.components.settings.app.account
 
 import android.content.Context
 import android.content.DialogInterface
@@ -20,24 +20,24 @@ import androidx.navigation.Navigation
 import com.google.android.material.button.MaterialButton
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import com.google.android.material.snackbar.Snackbar
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.settings.DSLConfiguration
-import org.thoughtcrime.securesms.components.settings.DSLSettingsFragment
-import org.thoughtcrime.securesms.components.settings.DSLSettingsText
-import org.thoughtcrime.securesms.components.settings.configure
-import org.thoughtcrime.securesms.contactshare.SimpleTextWatcher
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.lock.v2.CreateSvrPinActivity
-import org.thoughtcrime.securesms.lock.v2.PinKeyboardType
-import org.thoughtcrime.securesms.lock.v2.SvrConstants
-import org.thoughtcrime.securesms.pin.RegistrationLockV2Dialog
-import org.thoughtcrime.securesms.registration.ui.RegistrationActivity
-import org.thoughtcrime.securesms.util.PlayStoreUtil
-import org.thoughtcrime.securesms.util.ServiceUtil
-import org.thoughtcrime.securesms.util.ViewUtil
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingAdapter
-import org.thoughtcrime.securesms.util.navigation.safeNavigate
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.components.settings.DSLConfiguration
+import org.thoughtcrime.securesms.ryan.components.settings.DSLSettingsFragment
+import org.thoughtcrime.securesms.ryan.components.settings.DSLSettingsText
+import org.thoughtcrime.securesms.ryan.components.settings.configure
+import org.thoughtcrime.securesms.ryan.contactshare.SimpleTextWatcher
+import org.thoughtcrime.securesms.ryan.dependencies.AppDependencies
+import org.thoughtcrime.securesms.ryan.keyvalue.SignalStore
+import org.thoughtcrime.securesms.ryan.lock.v2.CreateSvrPinActivity
+import org.thoughtcrime.securesms.ryan.lock.v2.PinKeyboardType
+import org.thoughtcrime.securesms.ryan.lock.v2.SvrConstants
+import org.thoughtcrime.securesms.ryan.pin.RegistrationLockV2Dialog
+import org.thoughtcrime.securesms.ryan.registration.ui.RegistrationActivity
+import org.thoughtcrime.securesms.ryan.util.PlayStoreUtil
+import org.thoughtcrime.securesms.ryan.util.ServiceUtil
+import org.thoughtcrime.securesms.ryan.util.ViewUtil
+import org.thoughtcrime.securesms.ryan.util.adapter.mapping.MappingAdapter
+import org.thoughtcrime.securesms.ryan.util.navigation.safeNavigate
 import org.whispersystems.signalservice.api.kbs.PinHashUtil
 
 class AccountSettingsFragment : DSLSettingsFragment(R.string.AccountSettingsFragment__account) {

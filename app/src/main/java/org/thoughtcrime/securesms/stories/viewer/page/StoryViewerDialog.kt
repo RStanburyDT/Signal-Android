@@ -1,6 +1,6 @@
-package org.thoughtcrime.securesms.stories.viewer.page
+package org.thoughtcrime.securesms.ryan.stories.viewer.page
 
-import org.thoughtcrime.securesms.recipients.RecipientId
+import org.thoughtcrime.securesms.ryan.recipients.RecipientId
 
 /**
  * Dialogs that can be displayed and should override requests to continue playback of stories.

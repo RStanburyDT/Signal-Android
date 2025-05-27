@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.sharing;
+package org.thoughtcrime.securesms.ryan.sharing;
 
 import android.content.Context;
 
@@ -6,7 +6,7 @@ import androidx.annotation.NonNull;
 
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 
-import org.thoughtcrime.securesms.R;
+import org.thoughtcrime.securesms.ryan.R;
 
 public final class MultiShareDialogs {
   private MultiShareDialogs() {

@@ -7,7 +7,7 @@ android {
     namespace 'org.signal.contactstest'
 
     defaultConfig {
-        applicationId "org.signal.contactstest"
+        applicationId "org.signal.contactstest.ryan"
     }
 }
 

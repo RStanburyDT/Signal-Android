@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.contacts.paged
+package org.thoughtcrime.securesms.ryan.contacts.paged
 
 import android.app.Application
 import io.mockk.every
@@ -15,16 +15,16 @@ import org.junit.runner.RunWith
 import org.robolectric.RobolectricTestRunner
 import org.robolectric.annotation.Config
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.crypto.IdentityKeyUtil
-import org.thoughtcrime.securesms.crypto.storage.SignalIdentityKeyStore
-import org.thoughtcrime.securesms.database.IdentityTable
-import org.thoughtcrime.securesms.database.RecipientDatabaseTestUtils
-import org.thoughtcrime.securesms.database.model.IdentityRecord
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.testutil.MockAppDependenciesRule
-import org.thoughtcrime.securesms.testutil.SystemOutLogger
-import org.thoughtcrime.securesms.util.IdentityUtil
+import org.thoughtcrime.securesms.ryan.crypto.IdentityKeyUtil
+import org.thoughtcrime.securesms.ryan.crypto.storage.SignalIdentityKeyStore
+import org.thoughtcrime.securesms.ryan.database.IdentityTable
+import org.thoughtcrime.securesms.ryan.database.RecipientDatabaseTestUtils
+import org.thoughtcrime.securesms.ryan.database.model.IdentityRecord
+import org.thoughtcrime.securesms.ryan.recipients.Recipient
+import org.thoughtcrime.securesms.ryan.recipients.RecipientId
+import org.thoughtcrime.securesms.ryan.testutil.MockAppDependenciesRule
+import org.thoughtcrime.securesms.ryan.testutil.SystemOutLogger
+import org.thoughtcrime.securesms.ryan.util.IdentityUtil
 import org.whispersystems.signalservice.api.push.exceptions.NonSuccessfulResponseCodeException
 import org.whispersystems.signalservice.api.services.ProfileService
 import org.whispersystems.signalservice.internal.ServiceResponse

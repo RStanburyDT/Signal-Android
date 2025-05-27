@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.service.webrtc;
+package org.thoughtcrime.securesms.ryan.service.webrtc;
 
 import android.content.Context;
 
@@ -11,12 +11,12 @@ import org.signal.libsignal.protocol.ecc.ECPublicKey;
 import org.signal.ringrtc.CallManager;
 import org.signal.ringrtc.GroupCall;
 import org.signal.ringrtc.PeekInfo;
-import org.thoughtcrime.securesms.dependencies.AppDependencies;
-import org.thoughtcrime.securesms.events.WebRtcViewModel;
-import org.thoughtcrime.securesms.service.webrtc.state.WebRtcServiceState;
-import org.thoughtcrime.securesms.webrtc.audio.AudioManagerCompat;
-import org.thoughtcrime.securesms.webrtc.audio.SignalAudioManager;
-import org.thoughtcrime.securesms.webrtc.locks.LockManager;
+import org.thoughtcrime.securesms.ryan.dependencies.AppDependencies;
+import org.thoughtcrime.securesms.ryan.events.WebRtcViewModel;
+import org.thoughtcrime.securesms.ryan.service.webrtc.state.WebRtcServiceState;
+import org.thoughtcrime.securesms.ryan.webrtc.audio.AudioManagerCompat;
+import org.thoughtcrime.securesms.ryan.webrtc.audio.SignalAudioManager;
+import org.thoughtcrime.securesms.ryan.webrtc.locks.LockManager;
 import org.whispersystems.signalservice.api.messages.calls.HangupMessage;
 import org.whispersystems.signalservice.api.messages.calls.OfferMessage;
 import org.whispersystems.signalservice.api.messages.calls.OpaqueMessage;

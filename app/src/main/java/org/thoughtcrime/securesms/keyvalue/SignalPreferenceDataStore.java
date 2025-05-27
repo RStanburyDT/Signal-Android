@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.keyvalue;
+package org.thoughtcrime.securesms.ryan.keyvalue;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;

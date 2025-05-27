@@ -1,6 +1,6 @@
 @file:Suppress("ktlint:standard:filename")
 
-package org.thoughtcrime.securesms.database
+package org.thoughtcrime.securesms.ryan.database
 
 import android.content.ContentValues
 import android.content.Context
@@ -15,12 +15,12 @@ import org.signal.core.util.requireNonNullString
 import org.signal.core.util.requireString
 import org.signal.core.util.toInt
 import org.signal.core.util.update
-import org.thoughtcrime.securesms.conversation.colors.AvatarColor
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.notifications.profiles.NotificationProfile
-import org.thoughtcrime.securesms.notifications.profiles.NotificationProfileId
-import org.thoughtcrime.securesms.notifications.profiles.NotificationProfileSchedule
-import org.thoughtcrime.securesms.recipients.RecipientId
+import org.thoughtcrime.securesms.ryan.conversation.colors.AvatarColor
+import org.thoughtcrime.securesms.ryan.dependencies.AppDependencies
+import org.thoughtcrime.securesms.ryan.notifications.profiles.NotificationProfile
+import org.thoughtcrime.securesms.ryan.notifications.profiles.NotificationProfileId
+import org.thoughtcrime.securesms.ryan.notifications.profiles.NotificationProfileSchedule
+import org.thoughtcrime.securesms.ryan.recipients.RecipientId
 import java.time.DayOfWeek
 
 /**

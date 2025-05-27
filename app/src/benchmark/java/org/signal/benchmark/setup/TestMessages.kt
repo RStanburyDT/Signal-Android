@@ -1,15 +1,15 @@
 package org.signal.benchmark.setup
 
-import org.thoughtcrime.securesms.attachments.Cdn
-import org.thoughtcrime.securesms.attachments.PointerAttachment
-import org.thoughtcrime.securesms.database.AttachmentTable
-import org.thoughtcrime.securesms.database.MessageType
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.database.TestDbUtils
-import org.thoughtcrime.securesms.mms.IncomingMessage
-import org.thoughtcrime.securesms.mms.OutgoingMessage
-import org.thoughtcrime.securesms.mms.QuoteModel
-import org.thoughtcrime.securesms.recipients.Recipient
+import org.thoughtcrime.securesms.ryan.attachments.Cdn
+import org.thoughtcrime.securesms.ryan.attachments.PointerAttachment
+import org.thoughtcrime.securesms.ryan.database.AttachmentTable
+import org.thoughtcrime.securesms.ryan.database.MessageType
+import org.thoughtcrime.securesms.ryan.database.SignalDatabase
+import org.thoughtcrime.securesms.ryan.database.TestDbUtils
+import org.thoughtcrime.securesms.ryan.mms.IncomingMessage
+import org.thoughtcrime.securesms.ryan.mms.OutgoingMessage
+import org.thoughtcrime.securesms.ryan.mms.QuoteModel
+import org.thoughtcrime.securesms.ryan.recipients.Recipient
 import org.whispersystems.signalservice.api.messages.SignalServiceAttachment
 import org.whispersystems.signalservice.api.messages.SignalServiceAttachmentPointer
 import org.whispersystems.signalservice.api.messages.SignalServiceAttachmentRemoteId

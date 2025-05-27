@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.restore.choosebackup
+package org.thoughtcrime.securesms.ryan.restore.choosebackup
 
 import android.content.Context
 import android.content.Intent
@@ -18,14 +18,14 @@ import androidx.core.text.HtmlCompat
 import androidx.fragment.app.activityViewModels
 import androidx.navigation.fragment.NavHostFragment
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.LoggingFragment
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.ViewBinderDelegate
-import org.thoughtcrime.securesms.databinding.FragmentChooseBackupBinding
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.registration.fragments.RegistrationViewDelegate
-import org.thoughtcrime.securesms.restore.RestoreViewModel
-import org.thoughtcrime.securesms.util.navigation.safeNavigate
+import org.thoughtcrime.securesms.ryan.LoggingFragment
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.components.ViewBinderDelegate
+import org.thoughtcrime.securesms.ryan.databinding.FragmentChooseBackupBinding
+import org.thoughtcrime.securesms.ryan.keyvalue.SignalStore
+import org.thoughtcrime.securesms.ryan.registration.fragments.RegistrationViewDelegate
+import org.thoughtcrime.securesms.ryan.restore.RestoreViewModel
+import org.thoughtcrime.securesms.ryan.util.navigation.safeNavigate
 
 /**
  * This fragment presents a button to the user to browse their local file system for a legacy backup file.

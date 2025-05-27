@@ -1,7 +1,7 @@
-package org.thoughtcrime.securesms.sharing.v2
+package org.thoughtcrime.securesms.ryan.sharing.v2
 
 import android.net.Uri
-import org.thoughtcrime.securesms.sharing.MultiShareArgs
+import org.thoughtcrime.securesms.ryan.sharing.MultiShareArgs
 import java.lang.UnsupportedOperationException
 
 sealed class ResolvedShareData {
@@ -25,7 +25,7 @@ sealed class ResolvedShareData {
   }
 
   data class Media(
-    val media: List<org.thoughtcrime.securesms.mediasend.Media>
+    val media: List<org.thoughtcrime.securesms.ryan.mediasend.Media>
   ) : ResolvedShareData() {
     override fun toMultiShareArgs(): MultiShareArgs {
       return MultiShareArgs.Builder(setOf()).withMedia(media).build()

@@ -1,11 +1,15 @@
-package org.thoughtcrime.securesms.messages.protocol
+package org.thoughtcrime.securesms.ryan.messages.protocol
 
 import org.signal.libsignal.protocol.IdentityKey
 import org.signal.libsignal.protocol.IdentityKeyPair
 import org.signal.libsignal.protocol.SignalProtocolAddress
 import org.signal.libsignal.protocol.state.IdentityKeyStore
+<<<<<<< HEAD
+import org.thoughtcrime.securesms.ryan.database.SignalDatabase
+=======
 import org.signal.libsignal.protocol.state.IdentityKeyStore.IdentityChange
 import org.thoughtcrime.securesms.database.SignalDatabase
+>>>>>>> 23669c3c372284d42db486a218d9f29bef247abf
 import org.whispersystems.signalservice.api.SignalServiceAccountDataStore
 import org.whispersystems.signalservice.api.push.ServiceId
 

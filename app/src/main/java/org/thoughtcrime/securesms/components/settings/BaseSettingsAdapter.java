@@ -1,10 +1,10 @@
-package org.thoughtcrime.securesms.components.settings;
+package org.thoughtcrime.securesms.ryan.components.settings;
 
 import androidx.annotation.NonNull;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.util.adapter.mapping.LayoutFactory;
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingAdapter;
+import org.thoughtcrime.securesms.ryan.R;
+import org.thoughtcrime.securesms.ryan.util.adapter.mapping.LayoutFactory;
+import org.thoughtcrime.securesms.ryan.util.adapter.mapping.MappingAdapter;
 
 /**
  * Reusable adapter for generic settings list.

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.jobmanager
+package org.thoughtcrime.securesms.ryan.jobmanager
 
 /**
  * Create a subclass of this to perform a migration on persisted [Job]s. A migration targets

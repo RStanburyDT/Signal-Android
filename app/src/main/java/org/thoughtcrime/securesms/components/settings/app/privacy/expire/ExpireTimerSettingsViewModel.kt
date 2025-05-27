@@ -1,14 +1,14 @@
-package org.thoughtcrime.securesms.components.settings.app.privacy.expire
+package org.thoughtcrime.securesms.ryan.components.settings.app.privacy.expire
 
 import android.content.Context
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.util.livedata.ProcessState
-import org.thoughtcrime.securesms.util.livedata.Store
+import org.thoughtcrime.securesms.ryan.keyvalue.SignalStore
+import org.thoughtcrime.securesms.ryan.recipients.Recipient
+import org.thoughtcrime.securesms.ryan.recipients.RecipientId
+import org.thoughtcrime.securesms.ryan.util.livedata.ProcessState
+import org.thoughtcrime.securesms.ryan.util.livedata.Store
 
 class ExpireTimerSettingsViewModel(val config: Config, private val repository: ExpireTimerSettingsRepository) : ViewModel() {
 

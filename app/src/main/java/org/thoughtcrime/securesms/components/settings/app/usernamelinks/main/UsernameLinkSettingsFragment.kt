@@ -1,6 +1,6 @@
 @file:OptIn(ExperimentalMaterial3Api::class, ExperimentalPermissionsApi::class)
 
-package org.thoughtcrime.securesms.components.settings.app.usernamelinks.main
+package org.thoughtcrime.securesms.ryan.components.settings.app.usernamelinks.main
 
 import android.Manifest
 import android.app.Activity
@@ -68,16 +68,16 @@ import org.signal.core.ui.compose.Dialogs
 import org.signal.core.ui.compose.Snackbars
 import org.signal.core.ui.compose.theme.SignalTheme
 import org.signal.core.util.concurrent.LifecycleDisposable
-import org.thoughtcrime.securesms.MainActivity
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.settings.app.usernamelinks.QrCodeData
-import org.thoughtcrime.securesms.components.settings.app.usernamelinks.QrCodeState
-import org.thoughtcrime.securesms.components.settings.app.usernamelinks.UsernameQrCodeColorScheme
-import org.thoughtcrime.securesms.components.settings.app.usernamelinks.main.UsernameLinkSettingsState.ActiveTab
-import org.thoughtcrime.securesms.compose.ComposeFragment
-import org.thoughtcrime.securesms.permissions.Permissions
-import org.thoughtcrime.securesms.providers.BlobProvider
-import org.thoughtcrime.securesms.util.CommunicationActions
+import org.thoughtcrime.securesms.ryan.MainActivity
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.components.settings.app.usernamelinks.QrCodeData
+import org.thoughtcrime.securesms.ryan.components.settings.app.usernamelinks.QrCodeState
+import org.thoughtcrime.securesms.ryan.components.settings.app.usernamelinks.UsernameQrCodeColorScheme
+import org.thoughtcrime.securesms.ryan.components.settings.app.usernamelinks.main.UsernameLinkSettingsState.ActiveTab
+import org.thoughtcrime.securesms.ryan.compose.ComposeFragment
+import org.thoughtcrime.securesms.ryan.permissions.Permissions
+import org.thoughtcrime.securesms.ryan.providers.BlobProvider
+import org.thoughtcrime.securesms.ryan.util.CommunicationActions
 import java.io.ByteArrayOutputStream
 import java.util.UUID
 

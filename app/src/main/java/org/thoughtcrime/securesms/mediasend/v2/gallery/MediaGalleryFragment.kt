@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.mediasend.v2.gallery
+package org.thoughtcrime.securesms.ryan.mediasend.v2.gallery
 
 import android.Manifest
 import android.os.Bundle
@@ -16,24 +16,24 @@ import androidx.lifecycle.map
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.ItemTouchHelper
 import org.signal.core.util.Stopwatch
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.recyclerview.GridDividerDecoration
-import org.thoughtcrime.securesms.conversation.ManageContextMenu
-import org.thoughtcrime.securesms.databinding.V2MediaGalleryFragmentBinding
-import org.thoughtcrime.securesms.mediasend.Media
-import org.thoughtcrime.securesms.mediasend.MediaRepository
-import org.thoughtcrime.securesms.mediasend.camerax.CameraXUtil
-import org.thoughtcrime.securesms.mediasend.v2.review.MediaGalleryGridItemTouchListener
-import org.thoughtcrime.securesms.permissions.PermissionCompat
-import org.thoughtcrime.securesms.permissions.Permissions
-import org.thoughtcrime.securesms.util.Material3OnScrollHelper
-import org.thoughtcrime.securesms.util.StorageUtil
-import org.thoughtcrime.securesms.util.SystemWindowInsetsSetter
-import org.thoughtcrime.securesms.util.ViewUtil
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingAdapter
-import org.thoughtcrime.securesms.util.fragments.requireListener
-import org.thoughtcrime.securesms.util.livedata.LiveDataUtil
-import org.thoughtcrime.securesms.util.visible
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.components.recyclerview.GridDividerDecoration
+import org.thoughtcrime.securesms.ryan.conversation.ManageContextMenu
+import org.thoughtcrime.securesms.ryan.databinding.V2MediaGalleryFragmentBinding
+import org.thoughtcrime.securesms.ryan.mediasend.Media
+import org.thoughtcrime.securesms.ryan.mediasend.MediaRepository
+import org.thoughtcrime.securesms.ryan.mediasend.camerax.CameraXUtil
+import org.thoughtcrime.securesms.ryan.mediasend.v2.review.MediaGalleryGridItemTouchListener
+import org.thoughtcrime.securesms.ryan.permissions.PermissionCompat
+import org.thoughtcrime.securesms.ryan.permissions.Permissions
+import org.thoughtcrime.securesms.ryan.util.Material3OnScrollHelper
+import org.thoughtcrime.securesms.ryan.util.StorageUtil
+import org.thoughtcrime.securesms.ryan.util.SystemWindowInsetsSetter
+import org.thoughtcrime.securesms.ryan.util.ViewUtil
+import org.thoughtcrime.securesms.ryan.util.adapter.mapping.MappingAdapter
+import org.thoughtcrime.securesms.ryan.util.fragments.requireListener
+import org.thoughtcrime.securesms.ryan.util.livedata.LiveDataUtil
+import org.thoughtcrime.securesms.ryan.util.visible
 
 /**
  * Displays a collection of files and folders to the user to allow them to select

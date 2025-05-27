@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.megaphone
+package org.thoughtcrime.securesms.ryan.megaphone
 
 import androidx.annotation.ColorRes
 import androidx.annotation.DrawableRes
@@ -47,6 +47,15 @@ import androidx.compose.ui.unit.dp
 import org.signal.core.ui.compose.IconButtons
 import org.signal.core.ui.compose.Previews
 import org.signal.core.ui.compose.SignalPreview
+<<<<<<< HEAD
+import org.thoughtcrime.securesms.ryan.InviteActivity
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.groups.ui.creategroup.CreateGroupActivity
+import org.thoughtcrime.securesms.ryan.keyvalue.SignalStore
+import org.thoughtcrime.securesms.ryan.main.EmptyMegaphoneActionController
+import org.thoughtcrime.securesms.ryan.profiles.manage.EditProfileActivity
+import org.thoughtcrime.securesms.ryan.wallpaper.ChatWallpaperActivity
+=======
 import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.components.settings.app.AppSettingsActivity
 import org.thoughtcrime.securesms.groups.ui.creategroup.CreateGroupActivity
@@ -54,6 +63,7 @@ import org.thoughtcrime.securesms.keyvalue.SignalStore
 import org.thoughtcrime.securesms.main.EmptyMegaphoneActionController
 import org.thoughtcrime.securesms.profiles.manage.EditProfileActivity
 import org.thoughtcrime.securesms.wallpaper.ChatWallpaperActivity
+>>>>>>> 23669c3c372284d42db486a218d9f29bef247abf
 
 /**
  * The onboarding megaphone (list of cards)

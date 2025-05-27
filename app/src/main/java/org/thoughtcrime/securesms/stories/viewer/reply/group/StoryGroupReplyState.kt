@@ -1,7 +1,7 @@
-package org.thoughtcrime.securesms.stories.viewer.reply.group
+package org.thoughtcrime.securesms.ryan.stories.viewer.reply.group
 
-import org.thoughtcrime.securesms.conversation.colors.NameColor
-import org.thoughtcrime.securesms.recipients.RecipientId
+import org.thoughtcrime.securesms.ryan.conversation.colors.NameColor
+import org.thoughtcrime.securesms.ryan.recipients.RecipientId
 
 data class StoryGroupReplyState(
   val threadId: Long = 0L,

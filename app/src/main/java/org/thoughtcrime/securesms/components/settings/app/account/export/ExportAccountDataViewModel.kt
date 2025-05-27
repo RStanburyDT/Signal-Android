@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.settings.app.account.export
+package org.thoughtcrime.securesms.ryan.components.settings.app.account.export
 
 import androidx.compose.runtime.State
 import androidx.compose.runtime.mutableStateOf

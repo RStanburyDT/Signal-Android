@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.settings.app.subscription.donate.paypal
+package org.thoughtcrime.securesms.ryan.components.settings.app.subscription.donate.paypal
 
 import androidx.lifecycle.ViewModel
 import io.reactivex.rxjava3.android.schedulers.AndroidSchedulers
@@ -14,18 +14,18 @@ import org.signal.core.util.logging.Log
 import org.signal.donations.InAppPaymentType
 import org.signal.donations.PayPalPaymentSource
 import org.signal.donations.PaymentSourceType
-import org.thoughtcrime.securesms.components.settings.app.subscription.InAppPaymentsRepository
-import org.thoughtcrime.securesms.components.settings.app.subscription.InAppPaymentsRepository.requireSubscriberType
-import org.thoughtcrime.securesms.components.settings.app.subscription.RecurringInAppPaymentRepository
-import org.thoughtcrime.securesms.components.settings.app.subscription.donate.InAppPaymentProcessorStage
-import org.thoughtcrime.securesms.components.settings.app.subscription.donate.RequiredActionHandler
-import org.thoughtcrime.securesms.components.settings.app.subscription.donate.SharedInAppPaymentPipeline
-import org.thoughtcrime.securesms.database.InAppPaymentTable
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.database.model.InAppPaymentSubscriberRecord
-import org.thoughtcrime.securesms.jobs.MultiDeviceSubscriptionSyncRequestJob
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.util.rx.RxStore
+import org.thoughtcrime.securesms.ryan.components.settings.app.subscription.InAppPaymentsRepository
+import org.thoughtcrime.securesms.ryan.components.settings.app.subscription.InAppPaymentsRepository.requireSubscriberType
+import org.thoughtcrime.securesms.ryan.components.settings.app.subscription.RecurringInAppPaymentRepository
+import org.thoughtcrime.securesms.ryan.components.settings.app.subscription.donate.InAppPaymentProcessorStage
+import org.thoughtcrime.securesms.ryan.components.settings.app.subscription.donate.RequiredActionHandler
+import org.thoughtcrime.securesms.ryan.components.settings.app.subscription.donate.SharedInAppPaymentPipeline
+import org.thoughtcrime.securesms.ryan.database.InAppPaymentTable
+import org.thoughtcrime.securesms.ryan.database.SignalDatabase
+import org.thoughtcrime.securesms.ryan.database.model.InAppPaymentSubscriberRecord
+import org.thoughtcrime.securesms.ryan.jobs.MultiDeviceSubscriptionSyncRequestJob
+import org.thoughtcrime.securesms.ryan.keyvalue.SignalStore
+import org.thoughtcrime.securesms.ryan.util.rx.RxStore
 import org.whispersystems.signalservice.api.util.Preconditions
 
 class PayPalPaymentInProgressViewModel : ViewModel() {

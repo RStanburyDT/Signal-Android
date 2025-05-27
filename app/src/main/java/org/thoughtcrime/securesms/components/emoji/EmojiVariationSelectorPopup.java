@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.emoji;
+package org.thoughtcrime.securesms.ryan.components.emoji;
 
 import android.content.Context;
 import android.os.Build;
@@ -10,7 +10,7 @@ import android.widget.PopupWindow;
 import androidx.annotation.NonNull;
 import androidx.core.content.ContextCompat;
 
-import org.thoughtcrime.securesms.R;
+import org.thoughtcrime.securesms.ryan.R;
 
 import java.util.List;
 

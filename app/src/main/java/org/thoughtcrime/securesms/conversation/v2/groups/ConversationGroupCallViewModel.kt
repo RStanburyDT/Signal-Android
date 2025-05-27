@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.conversation.v2.groups
+package org.thoughtcrime.securesms.ryan.conversation.v2.groups
 
 import androidx.lifecycle.ViewModel
 import io.reactivex.rxjava3.android.schedulers.AndroidSchedulers
@@ -9,10 +9,10 @@ import io.reactivex.rxjava3.kotlin.subscribeBy
 import io.reactivex.rxjava3.processors.PublishProcessor
 import io.reactivex.rxjava3.schedulers.Schedulers
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.conversation.v2.ConversationRecipientRepository
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.events.GroupCallPeekEvent
-import org.thoughtcrime.securesms.util.rx.RxStore
+import org.thoughtcrime.securesms.ryan.conversation.v2.ConversationRecipientRepository
+import org.thoughtcrime.securesms.ryan.dependencies.AppDependencies
+import org.thoughtcrime.securesms.ryan.events.GroupCallPeekEvent
+import org.thoughtcrime.securesms.ryan.util.rx.RxStore
 
 /**
  * ViewModel which manages state associated with group calls.

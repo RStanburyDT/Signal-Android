@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.profiles.manage;
+package org.thoughtcrime.securesms.ryan.profiles.manage;
 
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
@@ -26,14 +26,14 @@ import org.signal.core.util.BreakIteratorCompat;
 import org.signal.core.util.EditTextUtil;
 import org.signal.core.util.StringUtil;
 import org.signal.core.util.concurrent.LifecycleDisposable;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.components.emoji.EmojiUtil;
-import org.thoughtcrime.securesms.reactions.any.ReactWithAnyEmojiBottomSheetDialogFragment;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.util.ViewUtil;
-import org.thoughtcrime.securesms.util.adapter.AlwaysChangedDiffUtil;
-import org.thoughtcrime.securesms.util.text.AfterTextChanged;
-import org.thoughtcrime.securesms.util.views.CircularProgressMaterialButton;
+import org.thoughtcrime.securesms.ryan.R;
+import org.thoughtcrime.securesms.ryan.components.emoji.EmojiUtil;
+import org.thoughtcrime.securesms.ryan.reactions.any.ReactWithAnyEmojiBottomSheetDialogFragment;
+import org.thoughtcrime.securesms.ryan.recipients.Recipient;
+import org.thoughtcrime.securesms.ryan.util.ViewUtil;
+import org.thoughtcrime.securesms.ryan.util.adapter.AlwaysChangedDiffUtil;
+import org.thoughtcrime.securesms.ryan.util.text.AfterTextChanged;
+import org.thoughtcrime.securesms.ryan.util.views.CircularProgressMaterialButton;
 import org.whispersystems.signalservice.api.crypto.ProfileCipher;
 
 import java.util.Arrays;

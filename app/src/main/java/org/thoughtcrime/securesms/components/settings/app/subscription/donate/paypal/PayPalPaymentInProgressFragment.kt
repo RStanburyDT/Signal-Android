@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.settings.app.subscription.donate.paypal
+package org.thoughtcrime.securesms.ryan.components.settings.app.subscription.donate.paypal
 
 import android.app.Dialog
 import android.graphics.Color
@@ -21,19 +21,19 @@ import io.reactivex.rxjava3.schedulers.Schedulers
 import org.signal.core.util.concurrent.LifecycleDisposable
 import org.signal.core.util.getParcelableCompat
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.ViewBinderDelegate
-import org.thoughtcrime.securesms.components.settings.app.subscription.InAppPaymentsRepository.toErrorSource
-import org.thoughtcrime.securesms.components.settings.app.subscription.donate.InAppPaymentProcessorAction
-import org.thoughtcrime.securesms.components.settings.app.subscription.donate.InAppPaymentProcessorActionResult
-import org.thoughtcrime.securesms.components.settings.app.subscription.donate.InAppPaymentProcessorStage
-import org.thoughtcrime.securesms.components.settings.app.subscription.errors.DonationError
-import org.thoughtcrime.securesms.database.InAppPaymentTable
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.database.model.InAppPaymentSubscriberRecord
-import org.thoughtcrime.securesms.database.model.databaseprotos.InAppPaymentData
-import org.thoughtcrime.securesms.databinding.DonationInProgressFragmentBinding
-import org.thoughtcrime.securesms.util.navigation.safeNavigate
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.components.ViewBinderDelegate
+import org.thoughtcrime.securesms.ryan.components.settings.app.subscription.InAppPaymentsRepository.toErrorSource
+import org.thoughtcrime.securesms.ryan.components.settings.app.subscription.donate.InAppPaymentProcessorAction
+import org.thoughtcrime.securesms.ryan.components.settings.app.subscription.donate.InAppPaymentProcessorActionResult
+import org.thoughtcrime.securesms.ryan.components.settings.app.subscription.donate.InAppPaymentProcessorStage
+import org.thoughtcrime.securesms.ryan.components.settings.app.subscription.errors.DonationError
+import org.thoughtcrime.securesms.ryan.database.InAppPaymentTable
+import org.thoughtcrime.securesms.ryan.database.SignalDatabase
+import org.thoughtcrime.securesms.ryan.database.model.InAppPaymentSubscriberRecord
+import org.thoughtcrime.securesms.ryan.database.model.databaseprotos.InAppPaymentData
+import org.thoughtcrime.securesms.ryan.databinding.DonationInProgressFragmentBinding
+import org.thoughtcrime.securesms.ryan.util.navigation.safeNavigate
 import org.whispersystems.signalservice.api.subscriptions.PayPalCreatePaymentIntentResponse
 import org.whispersystems.signalservice.api.subscriptions.PayPalCreatePaymentMethodResponse
 

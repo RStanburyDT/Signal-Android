@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.emoji;
+package org.thoughtcrime.securesms.ryan.components.emoji;
 
 import android.content.ClipData;
 import android.content.ClipboardManager;
@@ -14,13 +14,13 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.widget.AppCompatEditText;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.components.emoji.EmojiProvider.EmojiDrawable;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
-import org.thoughtcrime.securesms.util.EditTextExtensionsKt;
-import org.thoughtcrime.securesms.util.ServiceUtil;
-import org.thoughtcrime.securesms.util.TextSecurePreferences;
-import org.thoughtcrime.securesms.util.Util;
+import org.thoughtcrime.securesms.ryan.R;
+import org.thoughtcrime.securesms.ryan.components.emoji.EmojiProvider.EmojiDrawable;
+import org.thoughtcrime.securesms.ryan.keyvalue.SignalStore;
+import org.thoughtcrime.securesms.ryan.util.EditTextExtensionsKt;
+import org.thoughtcrime.securesms.ryan.util.ServiceUtil;
+import org.thoughtcrime.securesms.ryan.util.TextSecurePreferences;
+import org.thoughtcrime.securesms.ryan.util.Util;
 
 import java.util.HashSet;
 import java.util.Set;

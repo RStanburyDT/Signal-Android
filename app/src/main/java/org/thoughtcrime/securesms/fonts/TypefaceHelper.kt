@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.fonts
+package org.thoughtcrime.securesms.ryan.fonts
 
 import android.graphics.Typeface
 import android.os.Build

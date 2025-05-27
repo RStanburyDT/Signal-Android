@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.mediapreview.mediarail
+package org.thoughtcrime.securesms.ryan.mediapreview.mediarail
 
 import android.graphics.Rect
 import android.view.View

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.emoji;
+package org.thoughtcrime.securesms.ryan.emoji;
 
 import android.content.Context;
 

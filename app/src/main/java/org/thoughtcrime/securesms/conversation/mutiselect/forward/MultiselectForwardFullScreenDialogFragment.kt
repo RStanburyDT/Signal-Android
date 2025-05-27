@@ -1,15 +1,15 @@
-package org.thoughtcrime.securesms.conversation.mutiselect.forward
+package org.thoughtcrime.securesms.ryan.conversation.mutiselect.forward
 
 import android.os.Bundle
 import android.view.View
 import android.view.ViewGroup
 import androidx.core.content.ContextCompat
 import androidx.fragment.app.setFragmentResult
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.FullScreenDialogFragment
-import org.thoughtcrime.securesms.conversation.mutiselect.forward.MultiselectForwardFragment.Companion.DIALOG_TITLE
-import org.thoughtcrime.securesms.stories.Stories
-import org.thoughtcrime.securesms.util.fragments.findListener
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.components.FullScreenDialogFragment
+import org.thoughtcrime.securesms.ryan.conversation.mutiselect.forward.MultiselectForwardFragment.Companion.DIALOG_TITLE
+import org.thoughtcrime.securesms.ryan.stories.Stories
+import org.thoughtcrime.securesms.ryan.util.fragments.findListener
 
 class MultiselectForwardFullScreenDialogFragment : FullScreenDialogFragment(), MultiselectForwardFragment.Callback {
   override fun getTitle(): Int = requireArguments().getInt(DIALOG_TITLE)

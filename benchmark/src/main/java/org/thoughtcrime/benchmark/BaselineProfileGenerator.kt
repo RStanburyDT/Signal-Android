@@ -25,7 +25,7 @@ class BaselineProfileGenerator {
   fun startup() {
     var setup = false
     baselineProfileRule.collectBaselineProfile(
-      packageName = "org.thoughtcrime.securesms",
+      packageName = "org.thoughtcrime.securesms.ryan",
       profileBlock = {
         if (!setup) {
           BenchmarkSetup.setup("cold-start", device)

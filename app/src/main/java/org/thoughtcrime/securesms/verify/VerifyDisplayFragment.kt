@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.verify
+package org.thoughtcrime.securesms.ryan.verify
 
 import android.content.ActivityNotFoundException
 import android.content.Context
@@ -28,18 +28,18 @@ import org.signal.core.util.logging.Log
 import org.signal.core.util.requireParcelableCompat
 import org.signal.libsignal.protocol.fingerprint.Fingerprint
 import org.signal.libsignal.protocol.fingerprint.FingerprintVersionMismatchException
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.ViewBinderDelegate
-import org.thoughtcrime.securesms.components.verify.SafetyNumberQrView
-import org.thoughtcrime.securesms.components.verify.SafetyNumberQrView.Companion.getSegments
-import org.thoughtcrime.securesms.crypto.IdentityKeyParcelable
-import org.thoughtcrime.securesms.databinding.VerifyDisplayFragmentBinding
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.util.RemoteConfig
-import org.thoughtcrime.securesms.util.Util
-import org.thoughtcrime.securesms.util.ViewUtil
-import org.thoughtcrime.securesms.util.visible
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.components.ViewBinderDelegate
+import org.thoughtcrime.securesms.ryan.components.verify.SafetyNumberQrView
+import org.thoughtcrime.securesms.ryan.components.verify.SafetyNumberQrView.Companion.getSegments
+import org.thoughtcrime.securesms.ryan.crypto.IdentityKeyParcelable
+import org.thoughtcrime.securesms.ryan.databinding.VerifyDisplayFragmentBinding
+import org.thoughtcrime.securesms.ryan.recipients.Recipient
+import org.thoughtcrime.securesms.ryan.recipients.RecipientId
+import org.thoughtcrime.securesms.ryan.util.RemoteConfig
+import org.thoughtcrime.securesms.ryan.util.Util
+import org.thoughtcrime.securesms.ryan.util.ViewUtil
+import org.thoughtcrime.securesms.ryan.util.visible
 import java.nio.charset.StandardCharsets
 import java.util.Locale
 import kotlin.math.max

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.profiles.spoofing;
+package org.thoughtcrime.securesms.ryan.profiles.spoofing;
 
 import android.content.Context;
 import android.graphics.drawable.Drawable;
@@ -16,9 +16,9 @@ import androidx.annotation.StringRes;
 import androidx.core.content.ContextCompat;
 import androidx.recyclerview.widget.RecyclerView;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.databinding.ReviewCardBinding;
-import org.thoughtcrime.securesms.util.SpanUtil;
+import org.thoughtcrime.securesms.ryan.R;
+import org.thoughtcrime.securesms.ryan.databinding.ReviewCardBinding;
+import org.thoughtcrime.securesms.ryan.util.SpanUtil;
 import org.whispersystems.signalservice.api.util.Preconditions;
 
 import java.util.ArrayList;

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.devicetransfer.olddevice;
+package org.thoughtcrime.securesms.ryan.devicetransfer.olddevice;
 
 import android.os.Bundle;
 import android.view.View;
@@ -12,9 +12,9 @@ import androidx.navigation.fragment.NavHostFragment;
 import org.greenrobot.eventbus.EventBus;
 import org.signal.devicetransfer.DeviceToDeviceTransferService;
 import org.signal.devicetransfer.TransferStatus;
-import org.thoughtcrime.securesms.LoggingFragment;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.util.navigation.SafeNavigation;
+import org.thoughtcrime.securesms.ryan.LoggingFragment;
+import org.thoughtcrime.securesms.ryan.R;
+import org.thoughtcrime.securesms.ryan.util.navigation.SafeNavigation;
 
 /**
  * Provides instructions for the old device on how to start a device-to-device transfer.

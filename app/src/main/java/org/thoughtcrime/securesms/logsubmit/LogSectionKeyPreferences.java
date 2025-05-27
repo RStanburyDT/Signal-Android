@@ -1,14 +1,14 @@
-package org.thoughtcrime.securesms.logsubmit;
+package org.thoughtcrime.securesms.ryan.logsubmit;
 
 import android.content.Context;
 
 import androidx.annotation.NonNull;
 
-import org.thoughtcrime.securesms.keyvalue.KeepMessagesDuration;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.util.TextSecurePreferences;
-import org.thoughtcrime.securesms.util.Util;
+import org.thoughtcrime.securesms.ryan.keyvalue.KeepMessagesDuration;
+import org.thoughtcrime.securesms.ryan.keyvalue.SignalStore;
+import org.thoughtcrime.securesms.ryan.recipients.Recipient;
+import org.thoughtcrime.securesms.ryan.util.TextSecurePreferences;
+import org.thoughtcrime.securesms.ryan.util.Util;
 
 final class LogSectionKeyPreferences implements LogSection {
 

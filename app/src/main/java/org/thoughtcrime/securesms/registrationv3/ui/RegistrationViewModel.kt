@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.registrationv3.ui
+package org.thoughtcrime.securesms.ryan.registrationv3.ui
 
 import android.Manifest
 import android.content.Context
@@ -25,6 +25,60 @@ import kotlinx.coroutines.withContext
 import org.signal.core.util.Base64
 import org.signal.core.util.isNotNullOrBlank
 import org.signal.core.util.logging.Log
+<<<<<<< HEAD
+import org.thoughtcrime.securesms.ryan.backup.v2.BackupRepository
+import org.thoughtcrime.securesms.ryan.database.model.databaseprotos.RestoreDecisionState
+import org.thoughtcrime.securesms.ryan.dependencies.AppDependencies
+import org.thoughtcrime.securesms.ryan.jobs.MultiDeviceProfileContentUpdateJob
+import org.thoughtcrime.securesms.ryan.jobs.MultiDeviceProfileKeyUpdateJob
+import org.thoughtcrime.securesms.ryan.jobs.ProfileUploadJob
+import org.thoughtcrime.securesms.ryan.jobs.ReclaimUsernameAndLinkJob
+import org.thoughtcrime.securesms.ryan.keyvalue.NewAccount
+import org.thoughtcrime.securesms.ryan.keyvalue.SignalStore
+import org.thoughtcrime.securesms.ryan.keyvalue.Skipped
+import org.thoughtcrime.securesms.ryan.keyvalue.Start
+import org.thoughtcrime.securesms.ryan.keyvalue.intendToRestore
+import org.thoughtcrime.securesms.ryan.keyvalue.isDecisionPending
+import org.thoughtcrime.securesms.ryan.keyvalue.isTerminal
+import org.thoughtcrime.securesms.ryan.keyvalue.isWantingManualRemoteRestore
+import org.thoughtcrime.securesms.ryan.permissions.Permissions
+import org.thoughtcrime.securesms.ryan.pin.SvrRepository
+import org.thoughtcrime.securesms.ryan.pin.SvrWrongPinException
+import org.thoughtcrime.securesms.ryan.registration.data.AccountRegistrationResult
+import org.thoughtcrime.securesms.ryan.registration.data.LocalRegistrationMetadataUtil
+import org.thoughtcrime.securesms.ryan.registration.data.RegistrationData
+import org.thoughtcrime.securesms.ryan.registration.data.network.BackupAuthCheckResult
+import org.thoughtcrime.securesms.ryan.registration.data.network.Challenge
+import org.thoughtcrime.securesms.ryan.registration.data.network.RegisterAccountResult
+import org.thoughtcrime.securesms.ryan.registration.data.network.RegistrationSessionCheckResult
+import org.thoughtcrime.securesms.ryan.registration.data.network.RegistrationSessionCreationResult
+import org.thoughtcrime.securesms.ryan.registration.data.network.RegistrationSessionResult
+import org.thoughtcrime.securesms.ryan.registration.data.network.SessionMetadataResult
+import org.thoughtcrime.securesms.ryan.registration.data.network.VerificationCodeRequestResult
+import org.thoughtcrime.securesms.ryan.registration.data.network.VerificationCodeRequestResult.AlreadyVerified
+import org.thoughtcrime.securesms.ryan.registration.data.network.VerificationCodeRequestResult.ChallengeRequired
+import org.thoughtcrime.securesms.ryan.registration.data.network.VerificationCodeRequestResult.ExternalServiceFailure
+import org.thoughtcrime.securesms.ryan.registration.data.network.VerificationCodeRequestResult.ImpossibleNumber
+import org.thoughtcrime.securesms.ryan.registration.data.network.VerificationCodeRequestResult.InvalidTransportModeFailure
+import org.thoughtcrime.securesms.ryan.registration.data.network.VerificationCodeRequestResult.MalformedRequest
+import org.thoughtcrime.securesms.ryan.registration.data.network.VerificationCodeRequestResult.NoSuchSession
+import org.thoughtcrime.securesms.ryan.registration.data.network.VerificationCodeRequestResult.NonNormalizedNumber
+import org.thoughtcrime.securesms.ryan.registration.data.network.VerificationCodeRequestResult.RateLimited
+import org.thoughtcrime.securesms.ryan.registration.data.network.VerificationCodeRequestResult.RegistrationLocked
+import org.thoughtcrime.securesms.ryan.registration.data.network.VerificationCodeRequestResult.RequestVerificationCodeRateLimited
+import org.thoughtcrime.securesms.ryan.registration.data.network.VerificationCodeRequestResult.SubmitVerificationCodeRateLimited
+import org.thoughtcrime.securesms.ryan.registration.data.network.VerificationCodeRequestResult.Success
+import org.thoughtcrime.securesms.ryan.registration.data.network.VerificationCodeRequestResult.TokenNotAccepted
+import org.thoughtcrime.securesms.ryan.registration.data.network.VerificationCodeRequestResult.UnknownError
+import org.thoughtcrime.securesms.ryan.registration.ui.toE164
+import org.thoughtcrime.securesms.ryan.registration.util.RegistrationUtil
+import org.thoughtcrime.securesms.ryan.registration.viewmodel.SvrAuthCredentialSet
+import org.thoughtcrime.securesms.ryan.registrationv3.data.RegistrationRepository
+import org.thoughtcrime.securesms.ryan.registrationv3.ui.restore.StorageServiceRestore
+import org.thoughtcrime.securesms.ryan.util.RemoteConfig
+import org.thoughtcrime.securesms.ryan.util.Util
+import org.thoughtcrime.securesms.ryan.util.dualsim.MccMncProducer
+=======
 import org.signal.libsignal.protocol.IdentityKeyPair
 import org.thoughtcrime.securesms.backup.v2.BackupRepository
 import org.thoughtcrime.securesms.database.model.databaseprotos.RestoreDecisionState
@@ -78,6 +132,7 @@ import org.thoughtcrime.securesms.registrationv3.ui.restore.StorageServiceRestor
 import org.thoughtcrime.securesms.util.RemoteConfig
 import org.thoughtcrime.securesms.util.Util
 import org.thoughtcrime.securesms.util.dualsim.MccMncProducer
+>>>>>>> 23669c3c372284d42db486a218d9f29bef247abf
 import org.whispersystems.signalservice.api.AccountEntropyPool
 import org.whispersystems.signalservice.api.SvrNoDataException
 import org.whispersystems.signalservice.api.kbs.MasterKey

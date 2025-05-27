@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.avatar.picker
+package org.thoughtcrime.securesms.ryan.avatar.picker
 
 import android.content.Context
 import android.net.Uri
@@ -8,19 +8,19 @@ import org.signal.core.util.StreamUtil
 import org.signal.core.util.ThreadUtil
 import org.signal.core.util.concurrent.SignalExecutors
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.avatar.Avatar
-import org.thoughtcrime.securesms.avatar.AvatarPickerStorage
-import org.thoughtcrime.securesms.avatar.AvatarRenderer
-import org.thoughtcrime.securesms.avatar.Avatars
-import org.thoughtcrime.securesms.conversation.colors.AvatarColor
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.groups.GroupId
-import org.thoughtcrime.securesms.mediasend.Media
-import org.thoughtcrime.securesms.profiles.AvatarHelper
-import org.thoughtcrime.securesms.providers.BlobProvider
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.util.NameUtil
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.avatar.Avatar
+import org.thoughtcrime.securesms.ryan.avatar.AvatarPickerStorage
+import org.thoughtcrime.securesms.ryan.avatar.AvatarRenderer
+import org.thoughtcrime.securesms.ryan.avatar.Avatars
+import org.thoughtcrime.securesms.ryan.conversation.colors.AvatarColor
+import org.thoughtcrime.securesms.ryan.database.SignalDatabase
+import org.thoughtcrime.securesms.ryan.groups.GroupId
+import org.thoughtcrime.securesms.ryan.mediasend.Media
+import org.thoughtcrime.securesms.ryan.profiles.AvatarHelper
+import org.thoughtcrime.securesms.ryan.providers.BlobProvider
+import org.thoughtcrime.securesms.ryan.recipients.Recipient
+import org.thoughtcrime.securesms.ryan.util.NameUtil
 import org.whispersystems.signalservice.api.util.StreamDetails
 import java.io.IOException
 

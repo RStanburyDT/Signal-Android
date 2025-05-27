@@ -1,15 +1,15 @@
-package org.thoughtcrime.securesms.mediasend.v2.stories
+package org.thoughtcrime.securesms.ryan.mediasend.v2.stories
 
 import org.signal.core.util.DimensionUnit
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.settings.DSLConfiguration
-import org.thoughtcrime.securesms.components.settings.DSLSettingsAdapter
-import org.thoughtcrime.securesms.components.settings.DSLSettingsBottomSheetFragment
-import org.thoughtcrime.securesms.components.settings.DSLSettingsIcon
-import org.thoughtcrime.securesms.components.settings.DSLSettingsText
-import org.thoughtcrime.securesms.components.settings.configure
-import org.thoughtcrime.securesms.components.settings.conversation.preferences.LargeIconClickPreference
-import org.thoughtcrime.securesms.util.fragments.requireListener
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.components.settings.DSLConfiguration
+import org.thoughtcrime.securesms.ryan.components.settings.DSLSettingsAdapter
+import org.thoughtcrime.securesms.ryan.components.settings.DSLSettingsBottomSheetFragment
+import org.thoughtcrime.securesms.ryan.components.settings.DSLSettingsIcon
+import org.thoughtcrime.securesms.ryan.components.settings.DSLSettingsText
+import org.thoughtcrime.securesms.ryan.components.settings.configure
+import org.thoughtcrime.securesms.ryan.components.settings.conversation.preferences.LargeIconClickPreference
+import org.thoughtcrime.securesms.ryan.util.fragments.requireListener
 
 class ChooseStoryTypeBottomSheet : DSLSettingsBottomSheetFragment(
   layoutId = R.layout.dsl_settings_bottom_sheet

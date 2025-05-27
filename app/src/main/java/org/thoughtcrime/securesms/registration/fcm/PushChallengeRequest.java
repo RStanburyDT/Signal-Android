@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.registration.fcm;
+package org.thoughtcrime.securesms.ryan.registration.fcm;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.WorkerThread;

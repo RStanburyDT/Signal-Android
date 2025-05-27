@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.groups.ui.migration;
+package org.thoughtcrime.securesms.ryan.groups.ui.migration;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -14,13 +14,13 @@ import androidx.lifecycle.ViewModelProvider;
 
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.groups.GroupMigrationMembershipChange;
-import org.thoughtcrime.securesms.groups.ui.GroupMemberListView;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.util.BottomSheetUtil;
-import org.thoughtcrime.securesms.util.ThemeUtil;
-import org.thoughtcrime.securesms.util.WindowUtil;
+import org.thoughtcrime.securesms.ryan.R;
+import org.thoughtcrime.securesms.ryan.groups.GroupMigrationMembershipChange;
+import org.thoughtcrime.securesms.ryan.groups.ui.GroupMemberListView;
+import org.thoughtcrime.securesms.ryan.recipients.Recipient;
+import org.thoughtcrime.securesms.ryan.util.BottomSheetUtil;
+import org.thoughtcrime.securesms.ryan.util.ThemeUtil;
+import org.thoughtcrime.securesms.ryan.util.WindowUtil;
 
 import java.util.List;
 

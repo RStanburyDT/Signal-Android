@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.voice
+package org.thoughtcrime.securesms.ryan.components.voice
 
 import android.content.Context
 import android.media.AudioManager
@@ -31,11 +31,11 @@ import com.google.common.util.concurrent.ListenableFuture
 import org.signal.core.util.ThreadUtil
 import org.signal.core.util.concurrent.SimpleTask
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.database.NoSuchMessageException
-import org.thoughtcrime.securesms.database.SignalDatabase.Companion.messages
-import org.thoughtcrime.securesms.database.model.MessageRecord
-import org.thoughtcrime.securesms.util.hasAudio
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.database.NoSuchMessageException
+import org.thoughtcrime.securesms.ryan.database.SignalDatabase.Companion.messages
+import org.thoughtcrime.securesms.ryan.database.model.MessageRecord
+import org.thoughtcrime.securesms.ryan.util.hasAudio
 import java.util.concurrent.Executor
 import java.util.concurrent.Executors
 import kotlin.math.max

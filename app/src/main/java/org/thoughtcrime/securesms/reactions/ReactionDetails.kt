@@ -1,6 +1,6 @@
-package org.thoughtcrime.securesms.reactions
+package org.thoughtcrime.securesms.ryan.reactions
 
-import org.thoughtcrime.securesms.recipients.Recipient
+import org.thoughtcrime.securesms.ryan.recipients.Recipient
 
 /**
  * A UI model for a reaction in the [ReactionsBottomSheetDialogFragment]

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.mediapreview
+package org.thoughtcrime.securesms.ryan.mediapreview
 
 import android.content.Context
 import android.content.Intent
@@ -11,21 +11,21 @@ import io.reactivex.rxjava3.schedulers.Schedulers
 import org.signal.core.util.Stopwatch
 import org.signal.core.util.logging.Log
 import org.signal.core.util.requireLong
-import org.thoughtcrime.securesms.attachments.AttachmentId
-import org.thoughtcrime.securesms.attachments.DatabaseAttachment
-import org.thoughtcrime.securesms.conversation.ConversationIntents
-import org.thoughtcrime.securesms.database.AttachmentTable
-import org.thoughtcrime.securesms.database.MediaTable
-import org.thoughtcrime.securesms.database.MediaTable.Sorting
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.database.SignalDatabase.Companion.media
-import org.thoughtcrime.securesms.database.model.MessageRecord
-import org.thoughtcrime.securesms.database.model.MmsMessageRecord
-import org.thoughtcrime.securesms.jobs.MultiDeviceDeleteSyncJob
-import org.thoughtcrime.securesms.longmessage.resolveBody
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.sms.MessageSender
-import org.thoughtcrime.securesms.util.AttachmentUtil
+import org.thoughtcrime.securesms.ryan.attachments.AttachmentId
+import org.thoughtcrime.securesms.ryan.attachments.DatabaseAttachment
+import org.thoughtcrime.securesms.ryan.conversation.ConversationIntents
+import org.thoughtcrime.securesms.ryan.database.AttachmentTable
+import org.thoughtcrime.securesms.ryan.database.MediaTable
+import org.thoughtcrime.securesms.ryan.database.MediaTable.Sorting
+import org.thoughtcrime.securesms.ryan.database.SignalDatabase
+import org.thoughtcrime.securesms.ryan.database.SignalDatabase.Companion.media
+import org.thoughtcrime.securesms.ryan.database.model.MessageRecord
+import org.thoughtcrime.securesms.ryan.database.model.MmsMessageRecord
+import org.thoughtcrime.securesms.ryan.jobs.MultiDeviceDeleteSyncJob
+import org.thoughtcrime.securesms.ryan.longmessage.resolveBody
+import org.thoughtcrime.securesms.ryan.recipients.RecipientId
+import org.thoughtcrime.securesms.ryan.sms.MessageSender
+import org.thoughtcrime.securesms.ryan.util.AttachmentUtil
 
 /**
  * Repository for accessing the attachments in the encrypted database.

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.util;
+package org.thoughtcrime.securesms.ryan.util;
 
 /**
  * Just like {@link java.util.concurrent.TimeUnit}, but for bytes.

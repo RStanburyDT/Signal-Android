@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.attachments
+package org.thoughtcrime.securesms.ryan.attachments
 
 import android.Manifest
 import android.widget.CheckBox
@@ -18,17 +18,17 @@ import org.signal.core.ui.view.awaitResult
 import org.signal.core.util.concurrent.SignalDispatchers
 import org.signal.core.util.logging.Log
 import org.signal.core.util.orNull
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.ProgressCardDialogFragment
-import org.thoughtcrime.securesms.components.ProgressCardDialogFragmentArgs
-import org.thoughtcrime.securesms.database.MediaTable
-import org.thoughtcrime.securesms.database.model.MmsMessageRecord
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.permissions.Permissions
-import org.thoughtcrime.securesms.util.SaveAttachmentUtil
-import org.thoughtcrime.securesms.util.SaveAttachmentUtil.SaveAttachment
-import org.thoughtcrime.securesms.util.SaveAttachmentUtil.SaveAttachmentsResult
-import org.thoughtcrime.securesms.util.StorageUtil
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.components.ProgressCardDialogFragment
+import org.thoughtcrime.securesms.ryan.components.ProgressCardDialogFragmentArgs
+import org.thoughtcrime.securesms.ryan.database.MediaTable
+import org.thoughtcrime.securesms.ryan.database.model.MmsMessageRecord
+import org.thoughtcrime.securesms.ryan.keyvalue.SignalStore
+import org.thoughtcrime.securesms.ryan.permissions.Permissions
+import org.thoughtcrime.securesms.ryan.util.SaveAttachmentUtil
+import org.thoughtcrime.securesms.ryan.util.SaveAttachmentUtil.SaveAttachment
+import org.thoughtcrime.securesms.ryan.util.SaveAttachmentUtil.SaveAttachmentsResult
+import org.thoughtcrime.securesms.ryan.util.StorageUtil
 import kotlin.coroutines.resume
 import kotlin.coroutines.suspendCoroutine
 

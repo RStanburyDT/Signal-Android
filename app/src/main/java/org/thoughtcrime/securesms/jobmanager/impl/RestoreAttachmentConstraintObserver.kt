@@ -1,7 +1,7 @@
-package org.thoughtcrime.securesms.jobmanager.impl
+package org.thoughtcrime.securesms.ryan.jobmanager.impl
 
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.jobmanager.ConstraintObserver
+import org.thoughtcrime.securesms.ryan.dependencies.AppDependencies
+import org.thoughtcrime.securesms.ryan.jobmanager.ConstraintObserver
 
 /**
  * An observer for the [RestoreAttachmentConstraint]. This is called

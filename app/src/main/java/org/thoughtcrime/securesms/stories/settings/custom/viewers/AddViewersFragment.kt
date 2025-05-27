@@ -1,8 +1,8 @@
-package org.thoughtcrime.securesms.stories.settings.custom.viewers
+package org.thoughtcrime.securesms.ryan.stories.settings.custom.viewers
 
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.database.model.DistributionListId
-import org.thoughtcrime.securesms.stories.settings.select.BaseStoryRecipientSelectionFragment
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.database.model.DistributionListId
+import org.thoughtcrime.securesms.ryan.stories.settings.select.BaseStoryRecipientSelectionFragment
 
 /**
  * Allows user to manage users that can view a story for a given distribution list.

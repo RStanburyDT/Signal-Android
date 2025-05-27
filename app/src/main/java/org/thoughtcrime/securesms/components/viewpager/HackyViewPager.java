@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.viewpager;
+package org.thoughtcrime.securesms.ryan.components.viewpager;
 
 
 import android.content.Context;

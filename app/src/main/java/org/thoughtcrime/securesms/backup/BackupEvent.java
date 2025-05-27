@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.backup;
+package org.thoughtcrime.securesms.ryan.backup;
 
 public class BackupEvent {
   public enum Type {

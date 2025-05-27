@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.database.model.databaseprotos
+package org.thoughtcrime.securesms.ryan.database.model.databaseprotos
 
 import okio.ByteString.Companion.toByteString
 import org.signal.libsignal.zkgroup.groups.GroupMasterKey

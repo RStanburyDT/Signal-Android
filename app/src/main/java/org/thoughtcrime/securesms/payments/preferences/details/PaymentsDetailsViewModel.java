@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.payments.preferences.details;
+package org.thoughtcrime.securesms.ryan.payments.preferences.details;
 
 import android.content.Context;
 
@@ -8,12 +8,12 @@ import androidx.lifecycle.Transformations;
 import androidx.lifecycle.ViewModel;
 import androidx.lifecycle.ViewModelProvider;
 
-import org.thoughtcrime.securesms.database.PaymentTable;
-import org.thoughtcrime.securesms.payments.PaymentTransactionLiveData;
-import org.thoughtcrime.securesms.payments.UnreadPaymentsRepository;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.util.DateUtils;
-import org.thoughtcrime.securesms.util.livedata.LiveDataUtil;
+import org.thoughtcrime.securesms.ryan.database.PaymentTable;
+import org.thoughtcrime.securesms.ryan.payments.PaymentTransactionLiveData;
+import org.thoughtcrime.securesms.ryan.payments.UnreadPaymentsRepository;
+import org.thoughtcrime.securesms.ryan.recipients.Recipient;
+import org.thoughtcrime.securesms.ryan.util.DateUtils;
+import org.thoughtcrime.securesms.ryan.util.livedata.LiveDataUtil;
 
 import java.util.Locale;
 import java.util.UUID;

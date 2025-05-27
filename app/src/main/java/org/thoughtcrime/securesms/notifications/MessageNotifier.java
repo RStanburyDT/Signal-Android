@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.notifications;
+package org.thoughtcrime.securesms.ryan.notifications;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
@@ -8,9 +8,9 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 import org.signal.core.util.concurrent.SignalExecutors;
-import org.thoughtcrime.securesms.dependencies.AppDependencies;
-import org.thoughtcrime.securesms.notifications.v2.ConversationId;
-import org.thoughtcrime.securesms.recipients.Recipient;
+import org.thoughtcrime.securesms.ryan.dependencies.AppDependencies;
+import org.thoughtcrime.securesms.ryan.notifications.v2.ConversationId;
+import org.thoughtcrime.securesms.ryan.recipients.Recipient;
 
 import java.util.Optional;
 

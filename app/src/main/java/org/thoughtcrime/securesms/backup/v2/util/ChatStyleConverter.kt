@@ -3,25 +3,25 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.backup.v2.util
+package org.thoughtcrime.securesms.ryan.backup.v2.util
 
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.attachments.AttachmentId
-import org.thoughtcrime.securesms.backup.v2.ImportState
-import org.thoughtcrime.securesms.backup.v2.proto.ChatStyle
-import org.thoughtcrime.securesms.backup.v2.proto.FilePointer
-import org.thoughtcrime.securesms.conversation.colors.ChatColors
-import org.thoughtcrime.securesms.conversation.colors.ChatColorsPalette
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.database.model.databaseprotos.Wallpaper
-import org.thoughtcrime.securesms.mms.PartAuthority
-import org.thoughtcrime.securesms.mms.PartUriParser
-import org.thoughtcrime.securesms.util.UriUtil
-import org.thoughtcrime.securesms.wallpaper.ChatWallpaper
-import org.thoughtcrime.securesms.wallpaper.ChatWallpaperFactory
-import org.thoughtcrime.securesms.wallpaper.GradientChatWallpaper
-import org.thoughtcrime.securesms.wallpaper.SingleColorChatWallpaper
-import org.thoughtcrime.securesms.wallpaper.UriChatWallpaper
+import org.thoughtcrime.securesms.ryan.attachments.AttachmentId
+import org.thoughtcrime.securesms.ryan.backup.v2.ImportState
+import org.thoughtcrime.securesms.ryan.backup.v2.proto.ChatStyle
+import org.thoughtcrime.securesms.ryan.backup.v2.proto.FilePointer
+import org.thoughtcrime.securesms.ryan.conversation.colors.ChatColors
+import org.thoughtcrime.securesms.ryan.conversation.colors.ChatColorsPalette
+import org.thoughtcrime.securesms.ryan.database.SignalDatabase
+import org.thoughtcrime.securesms.ryan.database.model.databaseprotos.Wallpaper
+import org.thoughtcrime.securesms.ryan.mms.PartAuthority
+import org.thoughtcrime.securesms.ryan.mms.PartUriParser
+import org.thoughtcrime.securesms.ryan.util.UriUtil
+import org.thoughtcrime.securesms.ryan.wallpaper.ChatWallpaper
+import org.thoughtcrime.securesms.ryan.wallpaper.ChatWallpaperFactory
+import org.thoughtcrime.securesms.ryan.wallpaper.GradientChatWallpaper
+import org.thoughtcrime.securesms.ryan.wallpaper.SingleColorChatWallpaper
+import org.thoughtcrime.securesms.ryan.wallpaper.UriChatWallpaper
 
 private val TAG = Log.tag(ChatStyleConverter::class)
 

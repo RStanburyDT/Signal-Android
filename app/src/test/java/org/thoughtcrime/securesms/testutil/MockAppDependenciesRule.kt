@@ -3,13 +3,13 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.testutil
+package org.thoughtcrime.securesms.ryan.testutil
 
 import androidx.test.core.app.ApplicationProvider
 import io.mockk.clearMocks
 import org.junit.rules.ExternalResource
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.dependencies.MockApplicationDependencyProvider
+import org.thoughtcrime.securesms.ryan.dependencies.AppDependencies
+import org.thoughtcrime.securesms.ryan.dependencies.MockApplicationDependencyProvider
 import kotlin.reflect.KVisibility
 import kotlin.reflect.full.memberProperties
 

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.migrations;
+package org.thoughtcrime.securesms.ryan.migrations;
 
 import android.content.SharedPreferences;
 import android.preference.PreferenceManager;
@@ -7,12 +7,12 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.dependencies.AppDependencies;
-import org.thoughtcrime.securesms.jobmanager.Job;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
+import org.thoughtcrime.securesms.ryan.dependencies.AppDependencies;
+import org.thoughtcrime.securesms.ryan.jobmanager.Job;
+import org.thoughtcrime.securesms.ryan.keyvalue.SignalStore;
 
-import static org.thoughtcrime.securesms.keyvalue.SettingsValues.THREAD_TRIM_ENABLED;
-import static org.thoughtcrime.securesms.keyvalue.SettingsValues.THREAD_TRIM_LENGTH;
+import static org.thoughtcrime.securesms.ryan.keyvalue.SettingsValues.THREAD_TRIM_ENABLED;
+import static org.thoughtcrime.securesms.ryan.keyvalue.SettingsValues.THREAD_TRIM_LENGTH;
 
 public class TrimByLengthSettingsMigrationJob extends MigrationJob {
 

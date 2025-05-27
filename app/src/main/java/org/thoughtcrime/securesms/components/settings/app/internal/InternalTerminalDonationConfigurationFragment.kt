@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.settings.app.internal
+package org.thoughtcrime.securesms.ryan.components.settings.app.internal
 
 import androidx.compose.foundation.layout.defaultMinSize
 import androidx.compose.foundation.lazy.LazyColumn
@@ -21,13 +21,13 @@ import androidx.navigation.fragment.findNavController
 import org.signal.core.ui.compose.Buttons
 import org.signal.core.ui.compose.Rows
 import org.signal.core.ui.compose.theme.SignalTheme
-import org.thoughtcrime.securesms.components.settings.app.internal.donor.DonationErrorValueCodeSelector
-import org.thoughtcrime.securesms.components.settings.app.internal.donor.DonationErrorValueTypeSelector
-import org.thoughtcrime.securesms.compose.ComposeFragment
-import org.thoughtcrime.securesms.database.model.databaseprotos.DonationErrorValue
-import org.thoughtcrime.securesms.database.model.databaseprotos.PendingOneTimeDonation
-import org.thoughtcrime.securesms.database.model.databaseprotos.TerminalDonationQueue
-import org.thoughtcrime.securesms.keyvalue.SignalStore
+import org.thoughtcrime.securesms.ryan.components.settings.app.internal.donor.DonationErrorValueCodeSelector
+import org.thoughtcrime.securesms.ryan.components.settings.app.internal.donor.DonationErrorValueTypeSelector
+import org.thoughtcrime.securesms.ryan.compose.ComposeFragment
+import org.thoughtcrime.securesms.ryan.database.model.databaseprotos.DonationErrorValue
+import org.thoughtcrime.securesms.ryan.database.model.databaseprotos.PendingOneTimeDonation
+import org.thoughtcrime.securesms.ryan.database.model.databaseprotos.TerminalDonationQueue
+import org.thoughtcrime.securesms.ryan.keyvalue.SignalStore
 
 /**
  * Configuration fragment for [TerminalDonationQueue.TerminalDonation]

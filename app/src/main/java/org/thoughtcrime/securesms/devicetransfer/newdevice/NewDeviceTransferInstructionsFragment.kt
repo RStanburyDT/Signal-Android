@@ -1,13 +1,13 @@
-package org.thoughtcrime.securesms.devicetransfer.newdevice
+package org.thoughtcrime.securesms.ryan.devicetransfer.newdevice
 
 import android.os.Bundle
 import android.view.View
 import androidx.navigation.fragment.findNavController
 import org.greenrobot.eventbus.EventBus
 import org.signal.devicetransfer.TransferStatus
-import org.thoughtcrime.securesms.LoggingFragment
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.util.navigation.safeNavigate
+import org.thoughtcrime.securesms.ryan.LoggingFragment
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.util.navigation.safeNavigate
 
 /**
  * Shows instructions for new device to being transfer.

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.jobmanager;
+package org.thoughtcrime.securesms.ryan.jobmanager;
 
 import android.content.Context;
 
@@ -8,8 +8,8 @@ import androidx.annotation.Nullable;
 import androidx.annotation.WorkerThread;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.jobmanager.impl.BackoffUtil;
-import org.thoughtcrime.securesms.util.RemoteConfig;
+import org.thoughtcrime.securesms.ryan.jobmanager.impl.BackoffUtil;
+import org.thoughtcrime.securesms.ryan.util.RemoteConfig;
 
 import java.lang.annotation.Retention;
 import java.util.LinkedList;

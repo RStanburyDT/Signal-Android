@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.registration.ui.reregisterwithpin
+package org.thoughtcrime.securesms.ryan.registration.ui.reregisterwithpin
 
 data class ReRegisterWithPinState(
   val isLocalVerification: Boolean = false,

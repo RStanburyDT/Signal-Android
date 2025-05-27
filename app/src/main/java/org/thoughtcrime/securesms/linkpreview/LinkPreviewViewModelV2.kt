@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.linkpreview
+package org.thoughtcrime.securesms.ryan.linkpreview
 
 import androidx.lifecycle.SavedStateHandle
 import androidx.lifecycle.ViewModel
@@ -14,10 +14,10 @@ import io.reactivex.rxjava3.disposables.Disposable
 import io.reactivex.rxjava3.kotlin.subscribeBy
 import org.signal.core.util.Result
 import org.signal.core.util.isAbsent
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.util.Debouncer
-import org.thoughtcrime.securesms.util.delegate
-import org.thoughtcrime.securesms.util.rx.RxStore
+import org.thoughtcrime.securesms.ryan.keyvalue.SignalStore
+import org.thoughtcrime.securesms.ryan.util.Debouncer
+import org.thoughtcrime.securesms.ryan.util.delegate
+import org.thoughtcrime.securesms.ryan.util.rx.RxStore
 import java.util.Optional
 
 /**

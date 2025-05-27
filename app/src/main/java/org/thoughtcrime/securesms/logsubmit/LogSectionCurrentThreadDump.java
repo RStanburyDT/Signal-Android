@@ -1,10 +1,10 @@
-package org.thoughtcrime.securesms.logsubmit;
+package org.thoughtcrime.securesms.ryan.logsubmit;
 
 import android.content.Context;
 
 import androidx.annotation.NonNull;
 
-import org.thoughtcrime.securesms.dependencies.AppDependencies;
+import org.thoughtcrime.securesms.ryan.dependencies.AppDependencies;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;

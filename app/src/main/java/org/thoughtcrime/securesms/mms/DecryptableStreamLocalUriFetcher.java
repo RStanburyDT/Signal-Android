@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.mms;
+package org.thoughtcrime.securesms.ryan.mms;
 
 import android.content.ContentResolver;
 import android.content.Context;
@@ -9,11 +9,11 @@ import android.util.Pair;
 import com.bumptech.glide.load.data.StreamLocalUriFetcher;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.attachments.AttachmentId;
-import org.thoughtcrime.securesms.providers.BlobProvider;
-import org.thoughtcrime.securesms.util.BitmapDecodingException;
-import org.thoughtcrime.securesms.util.BitmapUtil;
-import org.thoughtcrime.securesms.util.MediaUtil;
+import org.thoughtcrime.securesms.ryan.attachments.AttachmentId;
+import org.thoughtcrime.securesms.ryan.providers.BlobProvider;
+import org.thoughtcrime.securesms.ryan.util.BitmapDecodingException;
+import org.thoughtcrime.securesms.ryan.util.BitmapUtil;
+import org.thoughtcrime.securesms.ryan.util.MediaUtil;
 
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;

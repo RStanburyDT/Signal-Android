@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.settings.app.internal.donor
+package org.thoughtcrime.securesms.ryan.components.settings.app.internal.donor
 
 import androidx.lifecycle.ViewModel
 import io.reactivex.rxjava3.core.Completable
@@ -8,16 +8,16 @@ import io.reactivex.rxjava3.disposables.CompositeDisposable
 import io.reactivex.rxjava3.kotlin.plusAssign
 import io.reactivex.rxjava3.schedulers.Schedulers
 import org.signal.donations.StripeDeclineCode
-import org.thoughtcrime.securesms.badges.Badges
-import org.thoughtcrime.securesms.badges.models.Badge
-import org.thoughtcrime.securesms.components.settings.app.subscription.errors.UnexpectedSubscriptionCancellation
-import org.thoughtcrime.securesms.components.settings.app.subscription.getBoostBadges
-import org.thoughtcrime.securesms.components.settings.app.subscription.getGiftBadges
-import org.thoughtcrime.securesms.components.settings.app.subscription.getSubscriptionLevels
-import org.thoughtcrime.securesms.database.model.InAppPaymentSubscriberRecord
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.util.rx.RxStore
+import org.thoughtcrime.securesms.ryan.badges.Badges
+import org.thoughtcrime.securesms.ryan.badges.models.Badge
+import org.thoughtcrime.securesms.ryan.components.settings.app.subscription.errors.UnexpectedSubscriptionCancellation
+import org.thoughtcrime.securesms.ryan.components.settings.app.subscription.getBoostBadges
+import org.thoughtcrime.securesms.ryan.components.settings.app.subscription.getGiftBadges
+import org.thoughtcrime.securesms.ryan.components.settings.app.subscription.getSubscriptionLevels
+import org.thoughtcrime.securesms.ryan.database.model.InAppPaymentSubscriberRecord
+import org.thoughtcrime.securesms.ryan.dependencies.AppDependencies
+import org.thoughtcrime.securesms.ryan.keyvalue.SignalStore
+import org.thoughtcrime.securesms.ryan.util.rx.RxStore
 import org.whispersystems.signalservice.api.subscriptions.ActiveSubscription
 import java.util.Locale
 import kotlin.concurrent.withLock

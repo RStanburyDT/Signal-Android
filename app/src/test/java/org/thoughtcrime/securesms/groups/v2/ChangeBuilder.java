@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.groups.v2;
+package org.thoughtcrime.securesms.ryan.groups.v2;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -16,7 +16,7 @@ import org.signal.storageservice.protos.groups.local.DecryptedPendingMemberRemov
 import org.signal.storageservice.protos.groups.local.DecryptedRequestingMember;
 import org.signal.storageservice.protos.groups.local.DecryptedString;
 import org.signal.storageservice.protos.groups.local.DecryptedTimer;
-import org.thoughtcrime.securesms.util.Util;
+import org.thoughtcrime.securesms.ryan.util.Util;
 import org.whispersystems.signalservice.api.push.ServiceId.ACI;
 
 import kotlin.collections.CollectionsKt;

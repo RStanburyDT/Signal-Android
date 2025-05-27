@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.thoughtcrime.securesms.mms;
+package org.thoughtcrime.securesms.ryan.mms;
 
 import android.content.Context;
 import android.content.res.Resources.Theme;
@@ -23,13 +23,13 @@ import android.net.Uri;
 import androidx.annotation.DrawableRes;
 import androidx.annotation.NonNull;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.attachments.Attachment;
-import org.thoughtcrime.securesms.attachments.UriAttachment;
-import org.thoughtcrime.securesms.components.voice.VoiceNoteDraft;
-import org.thoughtcrime.securesms.database.AttachmentTable;
-import org.thoughtcrime.securesms.database.DraftTable;
-import org.thoughtcrime.securesms.util.MediaUtil;
+import org.thoughtcrime.securesms.ryan.R;
+import org.thoughtcrime.securesms.ryan.attachments.Attachment;
+import org.thoughtcrime.securesms.ryan.attachments.UriAttachment;
+import org.thoughtcrime.securesms.ryan.components.voice.VoiceNoteDraft;
+import org.thoughtcrime.securesms.ryan.database.AttachmentTable;
+import org.thoughtcrime.securesms.ryan.database.DraftTable;
+import org.thoughtcrime.securesms.ryan.util.MediaUtil;
 
 
 public class AudioSlide extends Slide {

@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.main
+package org.thoughtcrime.securesms.ryan.main
 
 import androidx.compose.animation.AnimatedContent
 import androidx.compose.animation.AnimatedVisibility
@@ -39,8 +39,8 @@ import androidx.compose.ui.unit.dp
 import org.signal.core.ui.compose.Previews
 import org.signal.core.ui.compose.SignalPreview
 import org.signal.core.ui.compose.theme.SignalTheme
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.window.Navigation
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.window.Navigation
 import kotlin.math.roundToInt
 
 private val ACTION_BUTTON_SIZE = 56.dp

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms
+package org.thoughtcrime.securesms.ryan
 
 import android.graphics.Bitmap
 import android.graphics.Canvas

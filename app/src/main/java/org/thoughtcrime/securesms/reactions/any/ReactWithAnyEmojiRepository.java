@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.reactions.any;
+package org.thoughtcrime.securesms.ryan.reactions.any;
 
 import android.content.Context;
 
@@ -9,16 +9,16 @@ import com.annimon.stream.Stream;
 import org.signal.core.util.ThreadUtil;
 import org.signal.core.util.concurrent.SignalExecutors;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.components.emoji.RecentEmojiPageModel;
-import org.thoughtcrime.securesms.database.SignalDatabase;
-import org.thoughtcrime.securesms.database.model.MessageId;
-import org.thoughtcrime.securesms.database.model.ReactionRecord;
-import org.thoughtcrime.securesms.emoji.EmojiCategory;
-import org.thoughtcrime.securesms.emoji.EmojiSource;
-import org.thoughtcrime.securesms.reactions.ReactionDetails;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.sms.MessageSender;
+import org.thoughtcrime.securesms.ryan.R;
+import org.thoughtcrime.securesms.ryan.components.emoji.RecentEmojiPageModel;
+import org.thoughtcrime.securesms.ryan.database.SignalDatabase;
+import org.thoughtcrime.securesms.ryan.database.model.MessageId;
+import org.thoughtcrime.securesms.ryan.database.model.ReactionRecord;
+import org.thoughtcrime.securesms.ryan.emoji.EmojiCategory;
+import org.thoughtcrime.securesms.ryan.emoji.EmojiSource;
+import org.thoughtcrime.securesms.ryan.reactions.ReactionDetails;
+import org.thoughtcrime.securesms.ryan.recipients.Recipient;
+import org.thoughtcrime.securesms.ryan.sms.MessageSender;
 
 import java.util.Arrays;
 import java.util.Collections;

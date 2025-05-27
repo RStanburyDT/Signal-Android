@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.registration.ui.captcha
+package org.thoughtcrime.securesms.ryan.registration.ui.captcha
 
 import android.annotation.SuppressLint
 import android.os.Bundle
@@ -13,12 +13,12 @@ import android.webkit.WebViewClient
 import androidx.activity.OnBackPressedCallback
 import androidx.activity.addCallback
 import androidx.navigation.fragment.findNavController
-import org.thoughtcrime.securesms.BuildConfig
-import org.thoughtcrime.securesms.LoggingFragment
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.ViewBinderDelegate
-import org.thoughtcrime.securesms.databinding.FragmentRegistrationCaptchaBinding
-import org.thoughtcrime.securesms.registration.fragments.RegistrationConstants
+import org.thoughtcrime.securesms.ryan.BuildConfig
+import org.thoughtcrime.securesms.ryan.LoggingFragment
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.components.ViewBinderDelegate
+import org.thoughtcrime.securesms.ryan.databinding.FragmentRegistrationCaptchaBinding
+import org.thoughtcrime.securesms.ryan.registration.fragments.RegistrationConstants
 
 abstract class CaptchaFragment : LoggingFragment(R.layout.fragment_registration_captcha) {
 

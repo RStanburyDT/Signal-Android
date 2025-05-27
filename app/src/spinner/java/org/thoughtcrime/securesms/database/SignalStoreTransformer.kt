@@ -3,15 +3,15 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.database
+package org.thoughtcrime.securesms.ryan.database
 
 import android.database.Cursor
 import org.signal.core.util.requireBlob
 import org.signal.core.util.requireString
 import org.signal.spinner.ColumnTransformer
 import org.signal.spinner.DefaultColumnTransformer
-import org.thoughtcrime.securesms.database.model.databaseprotos.RestoreDecisionState
-import org.thoughtcrime.securesms.keyvalue.RegistrationValues
+import org.thoughtcrime.securesms.ryan.database.model.databaseprotos.RestoreDecisionState
+import org.thoughtcrime.securesms.ryan.keyvalue.RegistrationValues
 
 /**
  * Transform non-user friendly store values into less-non-user friendly representations.

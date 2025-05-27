@@ -3,14 +3,14 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.attachments
+package org.thoughtcrime.securesms.ryan.attachments
 
 import android.content.Context
 import android.text.TextUtils
 import okio.ByteString.Companion.toByteString
 import org.signal.core.util.Base64
-import org.thoughtcrime.securesms.util.MediaUtil
-import org.thoughtcrime.securesms.util.Util
+import org.thoughtcrime.securesms.ryan.util.MediaUtil
+import org.thoughtcrime.securesms.ryan.util.Util
 import org.whispersystems.signalservice.api.messages.SignalServiceAttachmentRemoteId
 import org.whispersystems.signalservice.api.util.toByteArray
 import org.whispersystems.signalservice.internal.push.AttachmentPointer

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.conversation.ui.payment
+package org.thoughtcrime.securesms.ryan.conversation.ui.payment
 
 import android.content.Context
 import android.content.res.ColorStateList
@@ -11,16 +11,16 @@ import androidx.core.view.ViewCompat
 import com.google.android.material.progressindicator.CircularProgressIndicatorSpec
 import com.google.android.material.progressindicator.IndeterminateDrawable
 import org.signal.core.util.dp
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.quotes.QuoteViewColorTheme
-import org.thoughtcrime.securesms.conversation.colors.Colorizer
-import org.thoughtcrime.securesms.database.model.databaseprotos.PaymentTombstone
-import org.thoughtcrime.securesms.databinding.PaymentMessageViewBinding
-import org.thoughtcrime.securesms.payments.CryptoValueUtil
-import org.thoughtcrime.securesms.payments.Direction
-import org.thoughtcrime.securesms.payments.Payment
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.util.visible
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.components.quotes.QuoteViewColorTheme
+import org.thoughtcrime.securesms.ryan.conversation.colors.Colorizer
+import org.thoughtcrime.securesms.ryan.database.model.databaseprotos.PaymentTombstone
+import org.thoughtcrime.securesms.ryan.databinding.PaymentMessageViewBinding
+import org.thoughtcrime.securesms.ryan.payments.CryptoValueUtil
+import org.thoughtcrime.securesms.ryan.payments.Direction
+import org.thoughtcrime.securesms.ryan.payments.Payment
+import org.thoughtcrime.securesms.ryan.recipients.Recipient
+import org.thoughtcrime.securesms.ryan.util.visible
 import org.whispersystems.signalservice.api.payments.Money
 
 /**

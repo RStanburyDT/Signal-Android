@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.logsubmit;
+package org.thoughtcrime.securesms.ryan.logsubmit;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -11,8 +11,8 @@ import androidx.core.content.ContextCompat;
 import androidx.recyclerview.widget.RecyclerView;
 
 import org.signal.paging.PagingController;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.components.ListenableHorizontalScrollView;
+import org.thoughtcrime.securesms.ryan.R;
+import org.thoughtcrime.securesms.ryan.components.ListenableHorizontalScrollView;
 
 import java.util.ArrayList;
 import java.util.List;

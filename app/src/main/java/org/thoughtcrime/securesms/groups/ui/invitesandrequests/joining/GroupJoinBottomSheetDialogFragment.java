@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.groups.ui.invitesandrequests.joining;
+package org.thoughtcrime.securesms.ryan.groups.ui.invitesandrequests.joining;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -20,18 +20,18 @@ import androidx.lifecycle.ViewModelProvider;
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.components.AvatarImageView;
-import org.thoughtcrime.securesms.components.emoji.EmojiTextView;
-import org.thoughtcrime.securesms.conversation.ConversationIntents;
-import org.thoughtcrime.securesms.conversation.colors.AvatarColor;
-import org.thoughtcrime.securesms.groups.ui.managegroup.dialogs.GroupDescriptionDialog;
-import org.thoughtcrime.securesms.groups.v2.GroupDescriptionUtil;
-import org.thoughtcrime.securesms.groups.v2.GroupInviteLinkUrl;
-import org.thoughtcrime.securesms.util.BottomSheetUtil;
-import org.thoughtcrime.securesms.util.LongClickMovementMethod;
-import org.thoughtcrime.securesms.util.ThemeUtil;
-import org.thoughtcrime.securesms.util.WindowUtil;
+import org.thoughtcrime.securesms.ryan.R;
+import org.thoughtcrime.securesms.ryan.components.AvatarImageView;
+import org.thoughtcrime.securesms.ryan.components.emoji.EmojiTextView;
+import org.thoughtcrime.securesms.ryan.conversation.ConversationIntents;
+import org.thoughtcrime.securesms.ryan.conversation.colors.AvatarColor;
+import org.thoughtcrime.securesms.ryan.groups.ui.managegroup.dialogs.GroupDescriptionDialog;
+import org.thoughtcrime.securesms.ryan.groups.v2.GroupDescriptionUtil;
+import org.thoughtcrime.securesms.ryan.groups.v2.GroupInviteLinkUrl;
+import org.thoughtcrime.securesms.ryan.util.BottomSheetUtil;
+import org.thoughtcrime.securesms.ryan.util.LongClickMovementMethod;
+import org.thoughtcrime.securesms.ryan.util.ThemeUtil;
+import org.thoughtcrime.securesms.ryan.util.WindowUtil;
 
 public final class GroupJoinBottomSheetDialogFragment extends BottomSheetDialogFragment {
 

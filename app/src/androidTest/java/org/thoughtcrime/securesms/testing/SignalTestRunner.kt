@@ -1,9 +1,9 @@
-package org.thoughtcrime.securesms.testing
+package org.thoughtcrime.securesms.ryan.testing
 
 import android.app.Application
 import android.content.Context
 import androidx.test.runner.AndroidJUnitRunner
-import org.thoughtcrime.securesms.SignalInstrumentationApplicationContext
+import org.thoughtcrime.securesms.ryan.SignalInstrumentationApplicationContext
 
 /**
  * Custom runner that replaces application with [SignalInstrumentationApplicationContext].

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.payments;
+package org.thoughtcrime.securesms.ryan.payments;
 
 import android.net.Uri;
 
@@ -7,7 +7,7 @@ import androidx.annotation.RawRes;
 
 import com.mobilecoin.lib.ClientConfig;
 
-import org.thoughtcrime.securesms.dependencies.AppDependencies;
+import org.thoughtcrime.securesms.ryan.dependencies.AppDependencies;
 import org.whispersystems.signalservice.api.SignalServiceAccountManager;
 import org.whispersystems.signalservice.api.payments.PaymentsApi;
 import org.whispersystems.signalservice.internal.push.AuthCredentials;

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.mediasend;
+package org.thoughtcrime.securesms.ryan.mediasend;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -8,9 +8,9 @@ import android.widget.Toast;
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.mediasend.camerax.CameraXUtil;
-import org.thoughtcrime.securesms.mms.MediaConstraints;
+import org.thoughtcrime.securesms.ryan.R;
+import org.thoughtcrime.securesms.ryan.mediasend.camerax.CameraXUtil;
+import org.thoughtcrime.securesms.ryan.mms.MediaConstraints;
 
 import java.io.FileDescriptor;
 import java.util.Optional;

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.contacts.avatars;
+package org.thoughtcrime.securesms.ryan.contacts.avatars;
 
 
 import android.content.Context;
@@ -7,9 +7,9 @@ import android.net.Uri;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import org.thoughtcrime.securesms.database.model.ProfileAvatarFileDetails;
-import org.thoughtcrime.securesms.profiles.AvatarHelper;
-import org.thoughtcrime.securesms.recipients.Recipient;
+import org.thoughtcrime.securesms.ryan.database.model.ProfileAvatarFileDetails;
+import org.thoughtcrime.securesms.ryan.profiles.AvatarHelper;
+import org.thoughtcrime.securesms.ryan.recipients.Recipient;
 
 import java.io.IOException;
 import java.io.InputStream;

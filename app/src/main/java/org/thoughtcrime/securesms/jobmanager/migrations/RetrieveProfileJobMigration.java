@@ -1,10 +1,10 @@
-package org.thoughtcrime.securesms.jobmanager.migrations;
+package org.thoughtcrime.securesms.ryan.jobmanager.migrations;
 
 import androidx.annotation.NonNull;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.jobmanager.JsonJobData;
-import org.thoughtcrime.securesms.jobmanager.JobMigration;
+import org.thoughtcrime.securesms.ryan.jobmanager.JsonJobData;
+import org.thoughtcrime.securesms.ryan.jobmanager.JobMigration;
 
 public class RetrieveProfileJobMigration extends JobMigration {
 

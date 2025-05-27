@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components
+package org.thoughtcrime.securesms.ryan.components
 
 import android.animation.LayoutTransition
 import android.view.View

@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.settings.app.subscription.donate
+package org.thoughtcrime.securesms.ryan.components.settings.app.subscription.donate
 
 import android.content.Context
 import android.content.Intent
@@ -16,9 +16,9 @@ import kotlinx.parcelize.Parcelize
 import org.signal.core.util.getParcelableExtraCompat
 import org.signal.core.util.getSerializableCompat
 import org.signal.donations.InAppPaymentType
-import org.thoughtcrime.securesms.components.FragmentWrapperActivity
-import org.thoughtcrime.securesms.components.settings.app.subscription.GooglePayComponent
-import org.thoughtcrime.securesms.components.settings.app.subscription.GooglePayRepository
+import org.thoughtcrime.securesms.ryan.components.FragmentWrapperActivity
+import org.thoughtcrime.securesms.ryan.components.settings.app.subscription.GooglePayComponent
+import org.thoughtcrime.securesms.ryan.components.settings.app.subscription.GooglePayRepository
 
 /**
  * Home base for all checkout flows.

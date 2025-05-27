@@ -1,12 +1,12 @@
-package org.thoughtcrime.securesms.attachments
+package org.thoughtcrime.securesms.ryan.attachments
 
 import android.net.Uri
 import android.os.Parcel
 import androidx.annotation.VisibleForTesting
 import org.signal.core.util.Base64
-import org.thoughtcrime.securesms.blurhash.BlurHash
-import org.thoughtcrime.securesms.database.AttachmentTable
-import org.thoughtcrime.securesms.stickers.StickerLocator
+import org.thoughtcrime.securesms.ryan.blurhash.BlurHash
+import org.thoughtcrime.securesms.ryan.database.AttachmentTable
+import org.thoughtcrime.securesms.ryan.stickers.StickerLocator
 import org.whispersystems.signalservice.api.InvalidMessageStructureException
 import org.whispersystems.signalservice.api.messages.SignalServiceAttachment
 import org.whispersystems.signalservice.api.util.AttachmentPointerUtil

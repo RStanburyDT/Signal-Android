@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.lock.v2
+package org.thoughtcrime.securesms.ryan.lock.v2
 
 import android.app.Activity
 import android.content.DialogInterface
@@ -8,13 +8,13 @@ import androidx.core.content.ContextCompat
 import androidx.core.view.ViewCompat
 import androidx.lifecycle.ViewModelProvider
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.lock.v2.ConfirmSvrPinViewModel.SaveAnimation
-import org.thoughtcrime.securesms.megaphone.Megaphones
-import org.thoughtcrime.securesms.registration.util.RegistrationUtil
-import org.thoughtcrime.securesms.storage.StorageSyncHelper
-import org.thoughtcrime.securesms.util.SpanUtil
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.dependencies.AppDependencies
+import org.thoughtcrime.securesms.ryan.lock.v2.ConfirmSvrPinViewModel.SaveAnimation
+import org.thoughtcrime.securesms.ryan.megaphone.Megaphones
+import org.thoughtcrime.securesms.ryan.registration.util.RegistrationUtil
+import org.thoughtcrime.securesms.ryan.storage.StorageSyncHelper
+import org.thoughtcrime.securesms.ryan.util.SpanUtil
 
 internal class ConfirmSvrPinFragment : BaseSvrPinFragment<ConfirmSvrPinViewModel>() {
 

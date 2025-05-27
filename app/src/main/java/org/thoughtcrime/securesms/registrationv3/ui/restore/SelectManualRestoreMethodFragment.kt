@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.registrationv3.ui.restore
+package org.thoughtcrime.securesms.ryan.registrationv3.ui.restore
 
 import android.app.Activity
 import androidx.activity.result.ActivityResult
@@ -12,11 +12,11 @@ import androidx.compose.runtime.Composable
 import androidx.fragment.app.activityViewModels
 import androidx.navigation.fragment.findNavController
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.compose.ComposeFragment
-import org.thoughtcrime.securesms.registrationv3.ui.RegistrationViewModel
-import org.thoughtcrime.securesms.registrationv3.ui.phonenumber.EnterPhoneNumberMode
-import org.thoughtcrime.securesms.restore.RestoreActivity
-import org.thoughtcrime.securesms.util.navigation.safeNavigate
+import org.thoughtcrime.securesms.ryan.compose.ComposeFragment
+import org.thoughtcrime.securesms.ryan.registrationv3.ui.RegistrationViewModel
+import org.thoughtcrime.securesms.ryan.registrationv3.ui.phonenumber.EnterPhoneNumberMode
+import org.thoughtcrime.securesms.ryan.restore.RestoreActivity
+import org.thoughtcrime.securesms.ryan.util.navigation.safeNavigate
 
 /**
  * Provide options to select restore/transfer operation and flow during manual registration.

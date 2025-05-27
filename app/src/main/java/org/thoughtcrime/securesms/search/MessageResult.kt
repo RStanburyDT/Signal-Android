@@ -1,6 +1,6 @@
-package org.thoughtcrime.securesms.search
+package org.thoughtcrime.securesms.ryan.search
 
-import org.thoughtcrime.securesms.recipients.Recipient
+import org.thoughtcrime.securesms.ryan.recipients.Recipient
 
 /**
  * Represents a search result for a message.

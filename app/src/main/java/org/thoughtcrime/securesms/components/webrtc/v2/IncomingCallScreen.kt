@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.webrtc.v2
+package org.thoughtcrime.securesms.ryan.components.webrtc.v2
 
 import android.content.res.Configuration
 import androidx.compose.foundation.background
@@ -37,10 +37,10 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import org.signal.core.ui.compose.DarkPreview
 import org.signal.core.ui.compose.Previews
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.avatar.AvatarImage
-import org.thoughtcrime.securesms.compose.GlideImage
-import org.thoughtcrime.securesms.recipients.Recipient
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.avatar.AvatarImage
+import org.thoughtcrime.securesms.ryan.compose.GlideImage
+import org.thoughtcrime.securesms.ryan.recipients.Recipient
 
 private val textShadow = Shadow(
   color = Color(0f, 0f, 0f, 0.25f),

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.mention;
+package org.thoughtcrime.securesms.ryan.components.mention;
 
 
 import android.text.Annotation;
@@ -10,8 +10,8 @@ import androidx.annotation.Nullable;
 
 import com.annimon.stream.Stream;
 
-import org.thoughtcrime.securesms.database.model.Mention;
-import org.thoughtcrime.securesms.recipients.RecipientId;
+import org.thoughtcrime.securesms.ryan.database.model.Mention;
+import org.thoughtcrime.securesms.ryan.recipients.RecipientId;
 
 import java.util.Collections;
 import java.util.List;

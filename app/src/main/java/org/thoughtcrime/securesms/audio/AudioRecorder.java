@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.audio;
+package org.thoughtcrime.securesms.ryan.audio;
 
 import android.content.Context;
 import android.media.AudioManager;
@@ -12,9 +12,9 @@ import androidx.annotation.Nullable;
 import org.signal.core.util.ThreadUtil;
 import org.signal.core.util.concurrent.SignalExecutors;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.components.voice.VoiceNoteDraft;
-import org.thoughtcrime.securesms.providers.BlobProvider;
-import org.thoughtcrime.securesms.util.MediaUtil;
+import org.thoughtcrime.securesms.ryan.components.voice.VoiceNoteDraft;
+import org.thoughtcrime.securesms.ryan.providers.BlobProvider;
+import org.thoughtcrime.securesms.ryan.util.MediaUtil;
 
 import java.io.IOException;
 import java.util.concurrent.ExecutionException;

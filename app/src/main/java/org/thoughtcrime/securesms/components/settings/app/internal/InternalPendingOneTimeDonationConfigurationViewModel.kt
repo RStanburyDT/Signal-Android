@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.settings.app.internal
+package org.thoughtcrime.securesms.ryan.components.settings.app.internal
 
 import androidx.compose.runtime.MutableState
 import androidx.compose.runtime.mutableStateOf
@@ -13,10 +13,10 @@ import io.reactivex.rxjava3.core.Single
 import io.reactivex.rxjava3.disposables.Disposable
 import io.reactivex.rxjava3.schedulers.Schedulers
 import org.signal.core.util.money.FiatMoney
-import org.thoughtcrime.securesms.badges.Badges
-import org.thoughtcrime.securesms.components.settings.app.subscription.DonationSerializationHelper.toFiatValue
-import org.thoughtcrime.securesms.database.model.databaseprotos.PendingOneTimeDonation
-import org.thoughtcrime.securesms.dependencies.AppDependencies
+import org.thoughtcrime.securesms.ryan.badges.Badges
+import org.thoughtcrime.securesms.ryan.components.settings.app.subscription.DonationSerializationHelper.toFiatValue
+import org.thoughtcrime.securesms.ryan.database.model.databaseprotos.PendingOneTimeDonation
+import org.thoughtcrime.securesms.ryan.dependencies.AppDependencies
 import java.math.BigDecimal
 import java.util.Currency
 import java.util.Locale

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.emoji;
+package org.thoughtcrime.securesms.ryan.components.emoji;
 
 import android.content.Context;
 import android.graphics.drawable.Drawable;
@@ -15,14 +15,14 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.LinearSmoothScroller;
 import androidx.recyclerview.widget.RecyclerView;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.components.emoji.EmojiPageViewGridAdapter.EmojiHeader;
-import org.thoughtcrime.securesms.components.emoji.EmojiPageViewGridAdapter.EmojiNoResultsModel;
-import org.thoughtcrime.securesms.components.emoji.EmojiPageViewGridAdapter.VariationSelectorListener;
-import org.thoughtcrime.securesms.util.ContextUtil;
-import org.thoughtcrime.securesms.util.DrawableUtil;
-import org.thoughtcrime.securesms.util.ViewUtil;
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingModel;
+import org.thoughtcrime.securesms.ryan.R;
+import org.thoughtcrime.securesms.ryan.components.emoji.EmojiPageViewGridAdapter.EmojiHeader;
+import org.thoughtcrime.securesms.ryan.components.emoji.EmojiPageViewGridAdapter.EmojiNoResultsModel;
+import org.thoughtcrime.securesms.ryan.components.emoji.EmojiPageViewGridAdapter.VariationSelectorListener;
+import org.thoughtcrime.securesms.ryan.util.ContextUtil;
+import org.thoughtcrime.securesms.ryan.util.DrawableUtil;
+import org.thoughtcrime.securesms.ryan.util.ViewUtil;
+import org.thoughtcrime.securesms.ryan.util.adapter.mapping.MappingModel;
 
 import java.util.List;
 import java.util.Optional;

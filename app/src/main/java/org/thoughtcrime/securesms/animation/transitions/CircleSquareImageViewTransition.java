@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.animation.transitions;
+package org.thoughtcrime.securesms.ryan.animation.transitions;
 
 import android.animation.Animator;
 import android.animation.ObjectAnimator;

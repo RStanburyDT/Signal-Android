@@ -1,12 +1,12 @@
-package org.thoughtcrime.securesms.profiles.edit.pnp
+package org.thoughtcrime.securesms.ryan.profiles.edit.pnp
 
 import io.reactivex.rxjava3.core.Completable
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.jobs.ProfileUploadJob
-import org.thoughtcrime.securesms.jobs.RefreshAttributesJob
-import org.thoughtcrime.securesms.keyvalue.PhoneNumberPrivacyValues
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.storage.StorageSyncHelper
+import org.thoughtcrime.securesms.ryan.dependencies.AppDependencies
+import org.thoughtcrime.securesms.ryan.jobs.ProfileUploadJob
+import org.thoughtcrime.securesms.ryan.jobs.RefreshAttributesJob
+import org.thoughtcrime.securesms.ryan.keyvalue.PhoneNumberPrivacyValues
+import org.thoughtcrime.securesms.ryan.keyvalue.SignalStore
+import org.thoughtcrime.securesms.ryan.storage.StorageSyncHelper
 
 /**
  * Manages the current phone-number listing state.

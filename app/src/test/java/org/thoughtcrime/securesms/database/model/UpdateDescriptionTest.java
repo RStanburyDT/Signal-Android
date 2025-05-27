@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.database.model;
+package org.thoughtcrime.securesms.ryan.database.model;
 
 import android.app.Application;
 import android.text.SpannableString;

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.contacts.sync;
+package org.thoughtcrime.securesms.ryan.contacts.sync;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.mediasend.v2.review
+package org.thoughtcrime.securesms.ryan.mediasend.v2.review
 
 import android.animation.Animator
 import android.animation.ObjectAnimator
@@ -6,8 +6,8 @@ import android.animation.ValueAnimator
 import android.view.View
 import android.view.animation.Interpolator
 import androidx.core.animation.doOnEnd
-import org.thoughtcrime.securesms.mediasend.v2.MediaAnimations
-import org.thoughtcrime.securesms.util.visible
+import org.thoughtcrime.securesms.ryan.mediasend.v2.MediaAnimations
+import org.thoughtcrime.securesms.ryan.util.visible
 
 object MediaReviewAnimatorController {
 

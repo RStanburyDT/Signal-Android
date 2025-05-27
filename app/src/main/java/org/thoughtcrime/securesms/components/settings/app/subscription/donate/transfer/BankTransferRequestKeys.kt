@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.settings.app.subscription.donate.transfer
+package org.thoughtcrime.securesms.ryan.components.settings.app.subscription.donate.transfer
 
 object BankTransferRequestKeys {
   const val REQUEST_KEY = "bank.transfer.result"

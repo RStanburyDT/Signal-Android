@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.voice
+package org.thoughtcrime.securesms.ryan.components.voice
 
 import android.content.Context
 import android.media.AudioFocusRequest
@@ -14,7 +14,7 @@ import androidx.media3.exoplayer.DefaultLoadControl
 import androidx.media3.exoplayer.DefaultRenderersFactory
 import androidx.media3.exoplayer.ExoPlayer
 import androidx.media3.exoplayer.audio.AudioSink
-import org.thoughtcrime.securesms.video.exo.SignalMediaSourceFactory
+import org.thoughtcrime.securesms.ryan.video.exo.SignalMediaSourceFactory
 
 /**
  * A lightweight wrapper around ExoPlayer that compartmentalizes some logic and adds a few functions, most importantly the seek behavior.

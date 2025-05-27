@@ -1,13 +1,13 @@
-package org.thoughtcrime.securesms.payments.preferences.model;
+package org.thoughtcrime.securesms.ryan.payments.preferences.model;
 
 import androidx.annotation.DrawableRes;
 import androidx.annotation.NonNull;
 import androidx.annotation.StringRes;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.keyvalue.PaymentsValues;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingModel;
+import org.thoughtcrime.securesms.ryan.R;
+import org.thoughtcrime.securesms.ryan.keyvalue.PaymentsValues;
+import org.thoughtcrime.securesms.ryan.keyvalue.SignalStore;
+import org.thoughtcrime.securesms.ryan.util.adapter.mapping.MappingModel;
 
 import java.util.ArrayList;
 import java.util.List;

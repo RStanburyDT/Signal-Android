@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.settings.app.subscription.donate.stripe
+package org.thoughtcrime.securesms.ryan.components.settings.app.subscription.donate.stripe
 
 import android.annotation.SuppressLint
 import android.content.DialogInterface
@@ -26,6 +26,17 @@ import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
 import org.signal.core.util.concurrent.LifecycleDisposable
 import org.signal.donations.StripeIntentAccessor
+<<<<<<< HEAD
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.components.ProgressCardDialogFragment
+import org.thoughtcrime.securesms.ryan.components.ViewBinderDelegate
+import org.thoughtcrime.securesms.ryan.components.settings.app.subscription.donate.DonationWebViewOnBackPressedCallback
+import org.thoughtcrime.securesms.ryan.database.SignalDatabase
+import org.thoughtcrime.securesms.ryan.database.model.databaseprotos.InAppPaymentData
+import org.thoughtcrime.securesms.ryan.databinding.DonationWebviewFragmentBinding
+import org.thoughtcrime.securesms.ryan.util.RemoteConfig
+import org.thoughtcrime.securesms.ryan.util.visible
+=======
 import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.components.ProgressCardDialogFragment
 import org.thoughtcrime.securesms.components.ViewBinderDelegate
@@ -36,6 +47,7 @@ import org.thoughtcrime.securesms.databinding.DonationWebviewFragmentBinding
 import org.thoughtcrime.securesms.util.Environment
 import org.thoughtcrime.securesms.util.RemoteConfig
 import org.thoughtcrime.securesms.util.visible
+>>>>>>> 23669c3c372284d42db486a218d9f29bef247abf
 
 /**
  * Full-screen dialog for displaying Stripe 3DS confirmation.

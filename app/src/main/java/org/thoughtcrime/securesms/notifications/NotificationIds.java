@@ -1,8 +1,8 @@
-package org.thoughtcrime.securesms.notifications;
+package org.thoughtcrime.securesms.ryan.notifications;
 
 import androidx.annotation.NonNull;
 
-import org.thoughtcrime.securesms.notifications.v2.ConversationId;
+import org.thoughtcrime.securesms.ryan.notifications.v2.ConversationId;
 
 public final class NotificationIds {
 

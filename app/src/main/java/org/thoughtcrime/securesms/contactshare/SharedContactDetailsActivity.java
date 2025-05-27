@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.contactshare;
+package org.thoughtcrime.securesms.ryan.contactshare;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -22,20 +22,20 @@ import com.bumptech.glide.Glide;
 import com.bumptech.glide.RequestManager;
 import com.bumptech.glide.load.engine.DiskCacheStrategy;
 
-import org.thoughtcrime.securesms.PassphraseRequiredActivity;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.calls.YouAreAlreadyInACallSnackbar;
-import org.thoughtcrime.securesms.database.RecipientTable;
-import org.thoughtcrime.securesms.dependencies.AppDependencies;
-import org.thoughtcrime.securesms.jobs.DirectoryRefreshJob;
-import org.thoughtcrime.securesms.recipients.LiveRecipient;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.recipients.RecipientId;
-import org.thoughtcrime.securesms.util.CommunicationActions;
-import org.thoughtcrime.securesms.util.DynamicLanguage;
-import org.thoughtcrime.securesms.util.DynamicNoActionBarTheme;
-import org.thoughtcrime.securesms.util.DynamicTheme;
-import org.thoughtcrime.securesms.util.WindowUtil;
+import org.thoughtcrime.securesms.ryan.PassphraseRequiredActivity;
+import org.thoughtcrime.securesms.ryan.R;
+import org.thoughtcrime.securesms.ryan.calls.YouAreAlreadyInACallSnackbar;
+import org.thoughtcrime.securesms.ryan.database.RecipientTable;
+import org.thoughtcrime.securesms.ryan.dependencies.AppDependencies;
+import org.thoughtcrime.securesms.ryan.jobs.DirectoryRefreshJob;
+import org.thoughtcrime.securesms.ryan.recipients.LiveRecipient;
+import org.thoughtcrime.securesms.ryan.recipients.Recipient;
+import org.thoughtcrime.securesms.ryan.recipients.RecipientId;
+import org.thoughtcrime.securesms.ryan.util.CommunicationActions;
+import org.thoughtcrime.securesms.ryan.util.DynamicLanguage;
+import org.thoughtcrime.securesms.ryan.util.DynamicNoActionBarTheme;
+import org.thoughtcrime.securesms.ryan.util.DynamicTheme;
+import org.thoughtcrime.securesms.ryan.util.WindowUtil;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -43,7 +43,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import static org.thoughtcrime.securesms.mms.DecryptableStreamUriLoader.DecryptableUri;
+import static org.thoughtcrime.securesms.ryan.mms.DecryptableStreamUriLoader.DecryptableUri;
 
 public class SharedContactDetailsActivity extends PassphraseRequiredActivity {
 

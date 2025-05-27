@@ -1,8 +1,8 @@
-package org.thoughtcrime.securesms.components.settings.conversation.preferences
+package org.thoughtcrime.securesms.ryan.components.settings.conversation.preferences
 
 import android.content.Context
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.util.DateUtils
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.util.DateUtils
 import java.util.Locale
 
 object Utils {

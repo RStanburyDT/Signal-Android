@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.notifications;
+package org.thoughtcrime.securesms.ryan.notifications;
 
 import android.annotation.SuppressLint;
 import android.content.BroadcastReceiver;
@@ -12,17 +12,17 @@ import com.annimon.stream.Stream;
 
 import org.signal.core.util.concurrent.SignalExecutors;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.database.CallTable;
-import org.thoughtcrime.securesms.database.MessageTable.ExpirationInfo;
-import org.thoughtcrime.securesms.database.MessageTable.MarkedMessageInfo;
-import org.thoughtcrime.securesms.database.MessageTable.SyncMessageId;
-import org.thoughtcrime.securesms.database.SignalDatabase;
-import org.thoughtcrime.securesms.dependencies.AppDependencies;
-import org.thoughtcrime.securesms.jobs.CallLogEventSendJob;
-import org.thoughtcrime.securesms.jobs.MultiDeviceReadUpdateJob;
-import org.thoughtcrime.securesms.jobs.SendReadReceiptJob;
-import org.thoughtcrime.securesms.notifications.v2.ConversationId;
-import org.thoughtcrime.securesms.recipients.RecipientId;
+import org.thoughtcrime.securesms.ryan.database.CallTable;
+import org.thoughtcrime.securesms.ryan.database.MessageTable.ExpirationInfo;
+import org.thoughtcrime.securesms.ryan.database.MessageTable.MarkedMessageInfo;
+import org.thoughtcrime.securesms.ryan.database.MessageTable.SyncMessageId;
+import org.thoughtcrime.securesms.ryan.database.SignalDatabase;
+import org.thoughtcrime.securesms.ryan.dependencies.AppDependencies;
+import org.thoughtcrime.securesms.ryan.jobs.CallLogEventSendJob;
+import org.thoughtcrime.securesms.ryan.jobs.MultiDeviceReadUpdateJob;
+import org.thoughtcrime.securesms.ryan.jobs.SendReadReceiptJob;
+import org.thoughtcrime.securesms.ryan.notifications.v2.ConversationId;
+import org.thoughtcrime.securesms.ryan.recipients.RecipientId;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
@@ -32,7 +32,7 @@ import java.util.Map;
 public class MarkReadReceiver extends BroadcastReceiver {
 
   private static final String TAG                   = Log.tag(MarkReadReceiver.class);
-  public static final  String CLEAR_ACTION          = "org.thoughtcrime.securesms.notifications.CLEAR";
+  public static final  String CLEAR_ACTION          = "org.thoughtcrime.securesms.ryan.notifications.CLEAR";
   public static final  String THREADS_EXTRA         = "threads";
   public static final  String NOTIFICATION_ID_EXTRA = "notification_id";
 

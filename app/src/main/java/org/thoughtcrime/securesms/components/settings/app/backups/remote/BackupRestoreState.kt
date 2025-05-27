@@ -3,9 +3,9 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.settings.app.backups.remote
+package org.thoughtcrime.securesms.ryan.components.settings.app.backups.remote
 
-import org.thoughtcrime.securesms.backup.v2.ui.status.BackupStatusData
+import org.thoughtcrime.securesms.ryan.backup.v2.ui.status.BackupStatusData
 
 /**
  * State container for BackupStatusData, including the enabled state.

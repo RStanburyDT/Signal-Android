@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.stories.settings.privacy
+package org.thoughtcrime.securesms.ryan.stories.settings.privacy
 
 import androidx.lifecycle.ViewModel
 import io.reactivex.rxjava3.android.schedulers.AndroidSchedulers
@@ -7,13 +7,13 @@ import io.reactivex.rxjava3.core.Single
 import io.reactivex.rxjava3.disposables.CompositeDisposable
 import io.reactivex.rxjava3.kotlin.plusAssign
 import io.reactivex.rxjava3.kotlin.subscribeBy
-import org.thoughtcrime.securesms.database.model.DistributionListPrivacyMode
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.stories.Stories
-import org.thoughtcrime.securesms.stories.settings.my.MyStorySettingsRepository
-import org.thoughtcrime.securesms.util.rx.RxStore
+import org.thoughtcrime.securesms.ryan.database.model.DistributionListPrivacyMode
+import org.thoughtcrime.securesms.ryan.keyvalue.SignalStore
+import org.thoughtcrime.securesms.ryan.recipients.Recipient
+import org.thoughtcrime.securesms.ryan.recipients.RecipientId
+import org.thoughtcrime.securesms.ryan.stories.Stories
+import org.thoughtcrime.securesms.ryan.stories.settings.my.MyStorySettingsRepository
+import org.thoughtcrime.securesms.ryan.util.rx.RxStore
 
 class ChooseInitialMyStoryMembershipViewModel @JvmOverloads constructor(
   private val repository: MyStorySettingsRepository = MyStorySettingsRepository()

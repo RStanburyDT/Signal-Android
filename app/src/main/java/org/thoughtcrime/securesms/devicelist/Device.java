@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.devicelist;
+package org.thoughtcrime.securesms.ryan.devicelist;
 
 public class Device {
 

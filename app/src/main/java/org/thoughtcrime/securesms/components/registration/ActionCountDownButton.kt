@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.registration
+package org.thoughtcrime.securesms.ryan.components.registration
 
 import android.content.Context
 import android.util.AttributeSet

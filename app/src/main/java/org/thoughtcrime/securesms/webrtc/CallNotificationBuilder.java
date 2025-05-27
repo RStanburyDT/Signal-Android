@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.webrtc;
+package org.thoughtcrime.securesms.ryan.webrtc;
 
 import android.app.Notification;
 import android.app.PendingIntent;
@@ -13,14 +13,14 @@ import androidx.core.app.NotificationCompat;
 import androidx.core.app.Person;
 
 import org.signal.core.util.PendingIntentFlags;
-import org.thoughtcrime.securesms.MainActivity;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.components.webrtc.v2.CallIntent;
-import org.thoughtcrime.securesms.notifications.NotificationChannels;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.service.webrtc.ActiveCallManager;
-import org.thoughtcrime.securesms.util.ConversationUtil;
-import org.thoughtcrime.securesms.util.DeviceProperties;
+import org.thoughtcrime.securesms.ryan.MainActivity;
+import org.thoughtcrime.securesms.ryan.R;
+import org.thoughtcrime.securesms.ryan.components.webrtc.v2.CallIntent;
+import org.thoughtcrime.securesms.ryan.notifications.NotificationChannels;
+import org.thoughtcrime.securesms.ryan.recipients.Recipient;
+import org.thoughtcrime.securesms.ryan.service.webrtc.ActiveCallManager;
+import org.thoughtcrime.securesms.ryan.util.ConversationUtil;
+import org.thoughtcrime.securesms.ryan.util.DeviceProperties;
 
 /**
  * Manages the state of the WebRtc items in the Android notification bar.

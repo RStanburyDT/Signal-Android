@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms;
+package org.thoughtcrime.securesms.ryan;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -8,12 +8,12 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.FragmentManager;
 
 import org.signal.core.util.concurrent.LifecycleDisposable;
-import org.thoughtcrime.securesms.components.settings.app.AppSettingsActivity;
-import org.thoughtcrime.securesms.conversation.ConversationIntents;
-import org.thoughtcrime.securesms.groups.ui.creategroup.CreateGroupActivity;
-import org.thoughtcrime.securesms.main.MainNavigationDetailLocation;
-import org.thoughtcrime.securesms.main.MainNavigationViewModel;
-import org.thoughtcrime.securesms.recipients.RecipientId;
+import org.thoughtcrime.securesms.ryan.components.settings.app.AppSettingsActivity;
+import org.thoughtcrime.securesms.ryan.conversation.ConversationIntents;
+import org.thoughtcrime.securesms.ryan.groups.ui.creategroup.CreateGroupActivity;
+import org.thoughtcrime.securesms.ryan.main.MainNavigationDetailLocation;
+import org.thoughtcrime.securesms.ryan.main.MainNavigationViewModel;
+import org.thoughtcrime.securesms.ryan.recipients.RecipientId;
 
 import io.reactivex.rxjava3.disposables.Disposable;
 

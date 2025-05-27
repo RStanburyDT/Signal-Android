@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.wallpaper;
+package org.thoughtcrime.securesms.ryan.wallpaper;
 
 import android.content.res.ColorStateList;
 import android.graphics.PorterDuff;
@@ -25,14 +25,14 @@ import androidx.navigation.Navigation;
 
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.components.AvatarImageView;
-import org.thoughtcrime.securesms.conversation.colors.ColorizerView;
-import org.thoughtcrime.securesms.util.DisplayMetricsUtil;
-import org.thoughtcrime.securesms.util.Projection;
-import org.thoughtcrime.securesms.util.ThemeUtil;
-import org.thoughtcrime.securesms.util.ViewUtil;
-import org.thoughtcrime.securesms.util.navigation.SafeNavigation;
+import org.thoughtcrime.securesms.ryan.R;
+import org.thoughtcrime.securesms.ryan.components.AvatarImageView;
+import org.thoughtcrime.securesms.ryan.conversation.colors.ColorizerView;
+import org.thoughtcrime.securesms.ryan.util.DisplayMetricsUtil;
+import org.thoughtcrime.securesms.ryan.util.Projection;
+import org.thoughtcrime.securesms.ryan.util.ThemeUtil;
+import org.thoughtcrime.securesms.ryan.util.ViewUtil;
+import org.thoughtcrime.securesms.ryan.util.navigation.SafeNavigation;
 
 import java.util.Collections;
 

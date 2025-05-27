@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.main
+package org.thoughtcrime.securesms.ryan.main
 
 import android.app.Activity
 import android.content.Intent
@@ -16,10 +16,10 @@ import androidx.compose.ui.platform.LocalConfiguration
 import androidx.fragment.app.DialogFragment
 import org.signal.core.ui.compose.Previews
 import org.signal.core.ui.compose.SignalPreview
-import org.thoughtcrime.securesms.megaphone.Megaphone
-import org.thoughtcrime.securesms.megaphone.MegaphoneActionController
-import org.thoughtcrime.securesms.megaphone.MegaphoneComponent
-import org.thoughtcrime.securesms.megaphone.Megaphones
+import org.thoughtcrime.securesms.ryan.megaphone.Megaphone
+import org.thoughtcrime.securesms.ryan.megaphone.MegaphoneActionController
+import org.thoughtcrime.securesms.ryan.megaphone.MegaphoneComponent
+import org.thoughtcrime.securesms.ryan.megaphone.Megaphones
 
 data class MainMegaphoneState(
   val megaphone: Megaphone = Megaphone.NONE,

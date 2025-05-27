@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.mediasend
+package org.thoughtcrime.securesms.ryan.mediasend
 
 import android.net.Uri
 import android.os.Build
@@ -12,18 +12,18 @@ import androidx.annotation.RequiresApi
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.mediasend.v2.MediaSelectionViewModel
-import org.thoughtcrime.securesms.mediasend.v2.videos.VideoTrimData
-import org.thoughtcrime.securesms.mms.MediaConstraints
-import org.thoughtcrime.securesms.mms.VideoSlide
-import org.thoughtcrime.securesms.scribbles.VideoEditorPlayButtonLayout
-import org.thoughtcrime.securesms.util.Throttler
-import org.thoughtcrime.securesms.util.visible
-import org.thoughtcrime.securesms.video.VideoPlayer
-import org.thoughtcrime.securesms.video.VideoPlayer.PlayerCallback
-import org.thoughtcrime.securesms.video.videoconverter.VideoThumbnailsRangeSelectorView
-import org.thoughtcrime.securesms.video.videoconverter.VideoThumbnailsRangeSelectorView.PositionDragListener
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.mediasend.v2.MediaSelectionViewModel
+import org.thoughtcrime.securesms.ryan.mediasend.v2.videos.VideoTrimData
+import org.thoughtcrime.securesms.ryan.mms.MediaConstraints
+import org.thoughtcrime.securesms.ryan.mms.VideoSlide
+import org.thoughtcrime.securesms.ryan.scribbles.VideoEditorPlayButtonLayout
+import org.thoughtcrime.securesms.ryan.util.Throttler
+import org.thoughtcrime.securesms.ryan.util.visible
+import org.thoughtcrime.securesms.ryan.video.VideoPlayer
+import org.thoughtcrime.securesms.ryan.video.VideoPlayer.PlayerCallback
+import org.thoughtcrime.securesms.ryan.video.videoconverter.VideoThumbnailsRangeSelectorView
+import org.thoughtcrime.securesms.ryan.video.videoconverter.VideoThumbnailsRangeSelectorView.PositionDragListener
 import java.io.IOException
 import kotlin.time.Duration.Companion.microseconds
 import kotlin.time.Duration.Companion.milliseconds

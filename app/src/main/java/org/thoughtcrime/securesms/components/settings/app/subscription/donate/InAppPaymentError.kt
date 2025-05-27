@@ -3,10 +3,10 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.settings.app.subscription.donate
+package org.thoughtcrime.securesms.ryan.components.settings.app.subscription.donate
 
-import org.thoughtcrime.securesms.components.settings.app.subscription.errors.DonationError
-import org.thoughtcrime.securesms.database.model.databaseprotos.InAppPaymentData
+import org.thoughtcrime.securesms.ryan.components.settings.app.subscription.errors.DonationError
+import org.thoughtcrime.securesms.ryan.database.model.databaseprotos.InAppPaymentData
 
 /**
  * Wraps an InAppPaymentData.Error in a throwable.

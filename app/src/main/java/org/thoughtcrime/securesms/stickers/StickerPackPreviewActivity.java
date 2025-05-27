@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.stickers;
+package org.thoughtcrime.securesms.ryan.stickers;
 
 import android.content.Intent;
 import android.content.res.Configuration;
@@ -21,17 +21,17 @@ import com.bumptech.glide.load.resource.drawable.DrawableTransitionOptions;
 
 import org.signal.core.util.logging.Log;
 import org.signal.libsignal.protocol.util.Pair;
-import org.thoughtcrime.securesms.PassphraseRequiredActivity;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.conversation.mutiselect.forward.MultiselectForwardFragment;
-import org.thoughtcrime.securesms.conversation.mutiselect.forward.MultiselectForwardFragmentArgs;
-import org.thoughtcrime.securesms.glide.cache.ApngOptions;
-import org.thoughtcrime.securesms.mms.DecryptableStreamUriLoader;
-import org.thoughtcrime.securesms.sharing.MultiShareArgs;
-import org.thoughtcrime.securesms.stickers.StickerManifest.Sticker;
-import org.thoughtcrime.securesms.util.DeviceProperties;
-import org.thoughtcrime.securesms.util.DynamicNoActionBarTheme;
-import org.thoughtcrime.securesms.util.DynamicTheme;
+import org.thoughtcrime.securesms.ryan.PassphraseRequiredActivity;
+import org.thoughtcrime.securesms.ryan.R;
+import org.thoughtcrime.securesms.ryan.conversation.mutiselect.forward.MultiselectForwardFragment;
+import org.thoughtcrime.securesms.ryan.conversation.mutiselect.forward.MultiselectForwardFragmentArgs;
+import org.thoughtcrime.securesms.ryan.glide.cache.ApngOptions;
+import org.thoughtcrime.securesms.ryan.mms.DecryptableStreamUriLoader;
+import org.thoughtcrime.securesms.ryan.sharing.MultiShareArgs;
+import org.thoughtcrime.securesms.ryan.stickers.StickerManifest.Sticker;
+import org.thoughtcrime.securesms.ryan.util.DeviceProperties;
+import org.thoughtcrime.securesms.ryan.util.DynamicNoActionBarTheme;
+import org.thoughtcrime.securesms.ryan.util.DynamicTheme;
 import org.whispersystems.signalservice.api.util.OptionalUtil;
 
 import java.util.Collections;

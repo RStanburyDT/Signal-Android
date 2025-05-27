@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.window
+package org.thoughtcrime.securesms.ryan.window
 
 import android.content.res.Configuration
 import android.content.res.Resources
@@ -38,12 +38,12 @@ import androidx.window.core.ExperimentalWindowCoreApi
 import androidx.window.core.layout.WindowHeightSizeClass
 import androidx.window.core.layout.WindowWidthSizeClass
 import org.signal.core.ui.compose.Previews
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.main.MainFloatingActionButtonsCallback
-import org.thoughtcrime.securesms.main.MainNavigationBar
-import org.thoughtcrime.securesms.main.MainNavigationRail
-import org.thoughtcrime.securesms.main.MainNavigationState
-import org.thoughtcrime.securesms.util.RemoteConfig
+import org.thoughtcrime.securesms.ryan.keyvalue.SignalStore
+import org.thoughtcrime.securesms.ryan.main.MainFloatingActionButtonsCallback
+import org.thoughtcrime.securesms.ryan.main.MainNavigationBar
+import org.thoughtcrime.securesms.ryan.main.MainNavigationRail
+import org.thoughtcrime.securesms.ryan.main.MainNavigationState
+import org.thoughtcrime.securesms.ryan.util.RemoteConfig
 
 enum class Navigation {
   RAIL,

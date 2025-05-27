@@ -1,8 +1,8 @@
-package org.thoughtcrime.securesms.jobmanager;
+package org.thoughtcrime.securesms.ryan.jobmanager;
 
 import androidx.annotation.NonNull;
 
-import org.thoughtcrime.securesms.jobmanager.persistence.JobSpec;
+import org.thoughtcrime.securesms.ryan.jobmanager.persistence.JobSpec;
 
 public interface JobUpdater {
   /**

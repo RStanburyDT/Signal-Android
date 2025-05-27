@@ -16,7 +16,7 @@
  * This file has been modified by Signal.
  */
 
-package org.thoughtcrime.securesms.video.videoconverter;
+package org.thoughtcrime.securesms.ryan.video.videoconverter;
 
 import android.graphics.SurfaceTexture;
 import android.opengl.EGL14;

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.jobmanager;
+package org.thoughtcrime.securesms.ryan.jobmanager;
 
 import android.app.Application;
 import android.os.PowerManager;
@@ -8,8 +8,8 @@ import androidx.annotation.NonNull;
 import com.annimon.stream.Stream;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.jobs.MinimalJobSpec;
-import org.thoughtcrime.securesms.util.WakeLockUtil;
+import org.thoughtcrime.securesms.ryan.jobs.MinimalJobSpec;
+import org.thoughtcrime.securesms.ryan.util.WakeLockUtil;
 
 import java.util.List;
 import java.util.concurrent.TimeUnit;

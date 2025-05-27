@@ -3,22 +3,22 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.registrationv3.ui.restore
+package org.thoughtcrime.securesms.ryan.registrationv3.ui.restore
 
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 import org.signal.core.util.Stopwatch
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.jobmanager.enqueueBlocking
-import org.thoughtcrime.securesms.jobmanager.runJobBlocking
-import org.thoughtcrime.securesms.jobs.ProfileUploadJob
-import org.thoughtcrime.securesms.jobs.ReclaimUsernameAndLinkJob
-import org.thoughtcrime.securesms.jobs.StorageAccountRestoreJob
-import org.thoughtcrime.securesms.jobs.StorageSyncJob
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.registration.util.RegistrationUtil
-import org.thoughtcrime.securesms.registrationv3.data.RegistrationRepository
+import org.thoughtcrime.securesms.ryan.dependencies.AppDependencies
+import org.thoughtcrime.securesms.ryan.jobmanager.enqueueBlocking
+import org.thoughtcrime.securesms.ryan.jobmanager.runJobBlocking
+import org.thoughtcrime.securesms.ryan.jobs.ProfileUploadJob
+import org.thoughtcrime.securesms.ryan.jobs.ReclaimUsernameAndLinkJob
+import org.thoughtcrime.securesms.ryan.jobs.StorageAccountRestoreJob
+import org.thoughtcrime.securesms.ryan.jobs.StorageSyncJob
+import org.thoughtcrime.securesms.ryan.keyvalue.SignalStore
+import org.thoughtcrime.securesms.ryan.registration.util.RegistrationUtil
+import org.thoughtcrime.securesms.ryan.registrationv3.data.RegistrationRepository
 import kotlin.time.Duration.Companion.milliseconds
 import kotlin.time.Duration.Companion.seconds
 

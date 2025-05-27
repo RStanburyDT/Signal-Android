@@ -17,7 +17,7 @@
  * under the License.
  */
 
-package org.thoughtcrime.securesms.util;
+package org.thoughtcrime.securesms.ryan.util;
 
 import androidx.annotation.NonNull;
 

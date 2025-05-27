@@ -3,11 +3,11 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.logsubmit
+package org.thoughtcrime.securesms.ryan.logsubmit
 
 import android.content.Context
-import org.thoughtcrime.securesms.database.LogDatabase
-import org.thoughtcrime.securesms.dependencies.AppDependencies
+import org.thoughtcrime.securesms.ryan.database.LogDatabase
+import org.thoughtcrime.securesms.ryan.dependencies.AppDependencies
 import java.text.SimpleDateFormat
 import java.util.Date
 import java.util.Locale

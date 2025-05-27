@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.recipients;
+package org.thoughtcrime.securesms.ryan.recipients;
 
 
 import androidx.annotation.NonNull;

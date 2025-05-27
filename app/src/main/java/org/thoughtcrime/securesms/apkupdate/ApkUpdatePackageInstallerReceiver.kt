@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.apkupdate
+package org.thoughtcrime.securesms.ryan.apkupdate
 
 import android.content.BroadcastReceiver
 import android.content.Context
@@ -11,8 +11,8 @@ import android.content.Intent
 import android.content.pm.PackageInstaller
 import org.signal.core.util.getParcelableExtraCompat
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.apkupdate.ApkUpdateNotifications.FailureReason
-import org.thoughtcrime.securesms.keyvalue.SignalStore
+import org.thoughtcrime.securesms.ryan.apkupdate.ApkUpdateNotifications.FailureReason
+import org.thoughtcrime.securesms.ryan.keyvalue.SignalStore
 
 /**
  * This is the receiver that is triggered by the [PackageInstaller] to notify of various events. Package installation is initiated

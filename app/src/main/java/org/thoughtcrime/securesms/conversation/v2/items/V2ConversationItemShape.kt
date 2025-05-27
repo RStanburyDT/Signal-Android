@@ -3,13 +3,13 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.conversation.v2.items
+package org.thoughtcrime.securesms.ryan.conversation.v2.items
 
 import org.signal.core.util.dp
-import org.thoughtcrime.securesms.database.model.MessageRecord
-import org.thoughtcrime.securesms.util.DateUtils
-import org.thoughtcrime.securesms.util.Projection
-import org.thoughtcrime.securesms.util.isScheduled
+import org.thoughtcrime.securesms.ryan.database.model.MessageRecord
+import org.thoughtcrime.securesms.ryan.util.DateUtils
+import org.thoughtcrime.securesms.ryan.util.Projection
+import org.thoughtcrime.securesms.ryan.util.isScheduled
 import kotlin.math.abs
 import kotlin.time.Duration.Companion.minutes
 

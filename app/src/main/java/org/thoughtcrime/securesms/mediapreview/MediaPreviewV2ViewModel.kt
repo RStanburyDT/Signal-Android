@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.mediapreview
+package org.thoughtcrime.securesms.ryan.mediapreview
 
 import android.content.Context
 import android.content.Intent
@@ -11,11 +11,11 @@ import io.reactivex.rxjava3.core.Single
 import io.reactivex.rxjava3.disposables.CompositeDisposable
 import io.reactivex.rxjava3.kotlin.plusAssign
 import io.reactivex.rxjava3.schedulers.Schedulers
-import org.thoughtcrime.securesms.attachments.AttachmentId
-import org.thoughtcrime.securesms.attachments.DatabaseAttachment
-import org.thoughtcrime.securesms.database.MediaTable
-import org.thoughtcrime.securesms.mediasend.Media
-import org.thoughtcrime.securesms.util.rx.RxStore
+import org.thoughtcrime.securesms.ryan.attachments.AttachmentId
+import org.thoughtcrime.securesms.ryan.attachments.DatabaseAttachment
+import org.thoughtcrime.securesms.ryan.database.MediaTable
+import org.thoughtcrime.securesms.ryan.mediasend.Media
+import org.thoughtcrime.securesms.ryan.util.rx.RxStore
 import java.util.Optional
 
 class MediaPreviewV2ViewModel : ViewModel() {

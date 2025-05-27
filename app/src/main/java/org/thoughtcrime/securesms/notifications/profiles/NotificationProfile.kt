@@ -1,7 +1,7 @@
-package org.thoughtcrime.securesms.notifications.profiles
+package org.thoughtcrime.securesms.ryan.notifications.profiles
 
-import org.thoughtcrime.securesms.conversation.colors.AvatarColor
-import org.thoughtcrime.securesms.recipients.RecipientId
+import org.thoughtcrime.securesms.ryan.conversation.colors.AvatarColor
+import org.thoughtcrime.securesms.ryan.recipients.RecipientId
 
 data class NotificationProfile(
   val id: Long,

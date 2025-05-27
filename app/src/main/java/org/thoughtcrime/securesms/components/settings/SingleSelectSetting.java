@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.settings;
+package org.thoughtcrime.securesms.ryan.components.settings;
 
 import android.text.TextUtils;
 import android.view.View;
@@ -9,9 +9,9 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingModel;
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingViewHolder;
+import org.thoughtcrime.securesms.ryan.R;
+import org.thoughtcrime.securesms.ryan.util.adapter.mapping.MappingModel;
+import org.thoughtcrime.securesms.ryan.util.adapter.mapping.MappingViewHolder;
 
 import java.util.Objects;
 

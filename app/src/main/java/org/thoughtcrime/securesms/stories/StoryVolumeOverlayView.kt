@@ -1,11 +1,11 @@
-package org.thoughtcrime.securesms.stories
+package org.thoughtcrime.securesms.ryan.stories
 
 import android.content.Context
 import android.util.AttributeSet
 import android.view.View
 import androidx.constraintlayout.widget.ConstraintLayout
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.util.visible
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.util.visible
 
 /**
  * Displays a volume bar along with an indicator specifiying whether or not

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.settings
+package org.thoughtcrime.securesms.ryan.components.settings
 
 import android.content.Context
 import android.os.Build
@@ -14,10 +14,10 @@ import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.ConcatAdapter
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import org.thoughtcrime.securesms.LoggingFragment
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.util.Material3OnScrollHelper
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingAdapter
+import org.thoughtcrime.securesms.ryan.LoggingFragment
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.util.Material3OnScrollHelper
+import org.thoughtcrime.securesms.ryan.util.adapter.mapping.MappingAdapter
 
 /**
  * The DSL API can be completely replaced by compose.

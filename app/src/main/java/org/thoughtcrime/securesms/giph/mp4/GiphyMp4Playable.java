@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.giph.mp4;
+package org.thoughtcrime.securesms.ryan.giph.mp4;
 
 import android.view.ViewGroup;
 
@@ -7,7 +7,7 @@ import androidx.annotation.Nullable;
 
 import androidx.media3.common.MediaItem;
 
-import org.thoughtcrime.securesms.util.Projection;
+import org.thoughtcrime.securesms.ryan.util.Projection;
 
 public interface GiphyMp4Playable {
   /**

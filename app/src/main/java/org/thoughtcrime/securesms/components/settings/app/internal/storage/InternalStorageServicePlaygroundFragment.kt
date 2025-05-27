@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.settings.app.internal.storage
+package org.thoughtcrime.securesms.ryan.components.settings.app.internal.storage
 
 import android.widget.Toast
 import androidx.compose.foundation.layout.Column
@@ -47,15 +47,15 @@ import org.signal.core.ui.compose.Rows
 import org.signal.core.ui.compose.Rows.TextAndLabel
 import org.signal.core.ui.compose.SignalPreview
 import org.signal.core.util.Hex
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.settings.app.internal.storage.InternalStorageServicePlaygroundViewModel.OneOffEvent
-import org.thoughtcrime.securesms.components.settings.app.internal.storage.InternalStorageServicePlaygroundViewModel.StorageInsights
-import org.thoughtcrime.securesms.compose.ComposeFragment
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.jobs.StorageForcePushJob
-import org.thoughtcrime.securesms.jobs.StorageSyncJob
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.util.Util
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.components.settings.app.internal.storage.InternalStorageServicePlaygroundViewModel.OneOffEvent
+import org.thoughtcrime.securesms.ryan.components.settings.app.internal.storage.InternalStorageServicePlaygroundViewModel.StorageInsights
+import org.thoughtcrime.securesms.ryan.compose.ComposeFragment
+import org.thoughtcrime.securesms.ryan.dependencies.AppDependencies
+import org.thoughtcrime.securesms.ryan.jobs.StorageForcePushJob
+import org.thoughtcrime.securesms.ryan.jobs.StorageSyncJob
+import org.thoughtcrime.securesms.ryan.keyvalue.SignalStore
+import org.thoughtcrime.securesms.ryan.util.Util
 import org.whispersystems.signalservice.api.kbs.MasterKey
 import org.whispersystems.signalservice.api.storage.RecordIkm
 import org.whispersystems.signalservice.api.storage.SignalStorageManifest

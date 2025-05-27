@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.linkpreview;
+package org.thoughtcrime.securesms.ryan.linkpreview;
 
 import android.os.Parcel;
 import android.os.Parcelable;
@@ -11,10 +11,10 @@ import androidx.core.text.HtmlCompat;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
-import org.thoughtcrime.securesms.attachments.Attachment;
-import org.thoughtcrime.securesms.attachments.AttachmentId;
-import org.thoughtcrime.securesms.attachments.DatabaseAttachment;
-import org.thoughtcrime.securesms.util.JsonUtils;
+import org.thoughtcrime.securesms.ryan.attachments.Attachment;
+import org.thoughtcrime.securesms.ryan.attachments.AttachmentId;
+import org.thoughtcrime.securesms.ryan.attachments.DatabaseAttachment;
+import org.thoughtcrime.securesms.ryan.util.JsonUtils;
 
 import java.io.IOException;
 import java.util.Optional;

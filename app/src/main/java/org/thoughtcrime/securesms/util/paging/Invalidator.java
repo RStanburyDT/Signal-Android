@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.util.paging;
+package org.thoughtcrime.securesms.ryan.util.paging;
 
 import androidx.annotation.NonNull;
 

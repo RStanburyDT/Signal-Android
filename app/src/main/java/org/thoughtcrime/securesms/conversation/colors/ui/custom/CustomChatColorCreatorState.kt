@@ -1,6 +1,6 @@
-package org.thoughtcrime.securesms.conversation.colors.ui.custom
+package org.thoughtcrime.securesms.ryan.conversation.colors.ui.custom
 
-import org.thoughtcrime.securesms.wallpaper.ChatWallpaper
+import org.thoughtcrime.securesms.ryan.wallpaper.ChatWallpaper
 import java.util.EnumMap
 
 data class CustomChatColorCreatorState(

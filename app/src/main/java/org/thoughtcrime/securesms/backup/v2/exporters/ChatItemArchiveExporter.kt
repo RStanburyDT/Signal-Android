@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.backup.v2.exporters
+package org.thoughtcrime.securesms.ryan.backup.v2.exporters
 
 import android.database.Cursor
 import okio.ByteString.Companion.toByteString
@@ -25,70 +25,70 @@ import org.signal.core.util.requireInt
 import org.signal.core.util.requireLong
 import org.signal.core.util.requireLongOrNull
 import org.signal.core.util.requireString
-import org.thoughtcrime.securesms.attachments.AttachmentId
-import org.thoughtcrime.securesms.attachments.DatabaseAttachment
-import org.thoughtcrime.securesms.backup.v2.ExportOddities
-import org.thoughtcrime.securesms.backup.v2.ExportSkips
-import org.thoughtcrime.securesms.backup.v2.ExportState
-import org.thoughtcrime.securesms.backup.v2.proto.ChatItem
-import org.thoughtcrime.securesms.backup.v2.proto.ChatUpdateMessage
-import org.thoughtcrime.securesms.backup.v2.proto.ContactAttachment
-import org.thoughtcrime.securesms.backup.v2.proto.ContactMessage
-import org.thoughtcrime.securesms.backup.v2.proto.DirectStoryReplyMessage
-import org.thoughtcrime.securesms.backup.v2.proto.ExpirationTimerChatUpdate
-import org.thoughtcrime.securesms.backup.v2.proto.GenericGroupUpdate
-import org.thoughtcrime.securesms.backup.v2.proto.GroupCall
-import org.thoughtcrime.securesms.backup.v2.proto.GroupChangeChatUpdate
-import org.thoughtcrime.securesms.backup.v2.proto.GroupExpirationTimerUpdate
-import org.thoughtcrime.securesms.backup.v2.proto.GroupV2MigrationUpdate
-import org.thoughtcrime.securesms.backup.v2.proto.IndividualCall
-import org.thoughtcrime.securesms.backup.v2.proto.LearnedProfileChatUpdate
-import org.thoughtcrime.securesms.backup.v2.proto.MessageAttachment
-import org.thoughtcrime.securesms.backup.v2.proto.PaymentNotification
-import org.thoughtcrime.securesms.backup.v2.proto.ProfileChangeChatUpdate
-import org.thoughtcrime.securesms.backup.v2.proto.Quote
-import org.thoughtcrime.securesms.backup.v2.proto.Reaction
-import org.thoughtcrime.securesms.backup.v2.proto.RemoteDeletedMessage
-import org.thoughtcrime.securesms.backup.v2.proto.SendStatus
-import org.thoughtcrime.securesms.backup.v2.proto.SessionSwitchoverChatUpdate
-import org.thoughtcrime.securesms.backup.v2.proto.SimpleChatUpdate
-import org.thoughtcrime.securesms.backup.v2.proto.StandardMessage
-import org.thoughtcrime.securesms.backup.v2.proto.Sticker
-import org.thoughtcrime.securesms.backup.v2.proto.StickerMessage
-import org.thoughtcrime.securesms.backup.v2.proto.Text
-import org.thoughtcrime.securesms.backup.v2.proto.ThreadMergeChatUpdate
-import org.thoughtcrime.securesms.backup.v2.proto.ViewOnceMessage
-import org.thoughtcrime.securesms.backup.v2.util.clampToValidBackupRange
-import org.thoughtcrime.securesms.backup.v2.util.toRemoteFilePointer
-import org.thoughtcrime.securesms.contactshare.Contact
-import org.thoughtcrime.securesms.database.AttachmentTable
-import org.thoughtcrime.securesms.database.CallTable
-import org.thoughtcrime.securesms.database.GroupReceiptTable
-import org.thoughtcrime.securesms.database.MessageTable
-import org.thoughtcrime.securesms.database.MessageTypes
-import org.thoughtcrime.securesms.database.PaymentTable
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.database.documents.IdentityKeyMismatchSet
-import org.thoughtcrime.securesms.database.documents.NetworkFailureSet
-import org.thoughtcrime.securesms.database.model.GroupCallUpdateDetailsUtil
-import org.thoughtcrime.securesms.database.model.GroupsV2UpdateMessageConverter
-import org.thoughtcrime.securesms.database.model.Mention
-import org.thoughtcrime.securesms.database.model.ReactionRecord
-import org.thoughtcrime.securesms.database.model.databaseprotos.BodyRangeList
-import org.thoughtcrime.securesms.database.model.databaseprotos.DecryptedGroupV2Context
-import org.thoughtcrime.securesms.database.model.databaseprotos.GiftBadge
-import org.thoughtcrime.securesms.database.model.databaseprotos.MessageExtras
-import org.thoughtcrime.securesms.database.model.databaseprotos.ProfileChangeDetails
-import org.thoughtcrime.securesms.database.model.databaseprotos.SessionSwitchoverEvent
-import org.thoughtcrime.securesms.database.model.databaseprotos.ThreadMergeEvent
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.linkpreview.LinkPreview
-import org.thoughtcrime.securesms.mms.QuoteModel
-import org.thoughtcrime.securesms.payments.FailureReason
-import org.thoughtcrime.securesms.payments.State
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.util.JsonUtils
-import org.thoughtcrime.securesms.util.MediaUtil
+import org.thoughtcrime.securesms.ryan.attachments.AttachmentId
+import org.thoughtcrime.securesms.ryan.attachments.DatabaseAttachment
+import org.thoughtcrime.securesms.ryan.backup.v2.ExportOddities
+import org.thoughtcrime.securesms.ryan.backup.v2.ExportSkips
+import org.thoughtcrime.securesms.ryan.backup.v2.ExportState
+import org.thoughtcrime.securesms.ryan.backup.v2.proto.ChatItem
+import org.thoughtcrime.securesms.ryan.backup.v2.proto.ChatUpdateMessage
+import org.thoughtcrime.securesms.ryan.backup.v2.proto.ContactAttachment
+import org.thoughtcrime.securesms.ryan.backup.v2.proto.ContactMessage
+import org.thoughtcrime.securesms.ryan.backup.v2.proto.DirectStoryReplyMessage
+import org.thoughtcrime.securesms.ryan.backup.v2.proto.ExpirationTimerChatUpdate
+import org.thoughtcrime.securesms.ryan.backup.v2.proto.GenericGroupUpdate
+import org.thoughtcrime.securesms.ryan.backup.v2.proto.GroupCall
+import org.thoughtcrime.securesms.ryan.backup.v2.proto.GroupChangeChatUpdate
+import org.thoughtcrime.securesms.ryan.backup.v2.proto.GroupExpirationTimerUpdate
+import org.thoughtcrime.securesms.ryan.backup.v2.proto.GroupV2MigrationUpdate
+import org.thoughtcrime.securesms.ryan.backup.v2.proto.IndividualCall
+import org.thoughtcrime.securesms.ryan.backup.v2.proto.LearnedProfileChatUpdate
+import org.thoughtcrime.securesms.ryan.backup.v2.proto.MessageAttachment
+import org.thoughtcrime.securesms.ryan.backup.v2.proto.PaymentNotification
+import org.thoughtcrime.securesms.ryan.backup.v2.proto.ProfileChangeChatUpdate
+import org.thoughtcrime.securesms.ryan.backup.v2.proto.Quote
+import org.thoughtcrime.securesms.ryan.backup.v2.proto.Reaction
+import org.thoughtcrime.securesms.ryan.backup.v2.proto.RemoteDeletedMessage
+import org.thoughtcrime.securesms.ryan.backup.v2.proto.SendStatus
+import org.thoughtcrime.securesms.ryan.backup.v2.proto.SessionSwitchoverChatUpdate
+import org.thoughtcrime.securesms.ryan.backup.v2.proto.SimpleChatUpdate
+import org.thoughtcrime.securesms.ryan.backup.v2.proto.StandardMessage
+import org.thoughtcrime.securesms.ryan.backup.v2.proto.Sticker
+import org.thoughtcrime.securesms.ryan.backup.v2.proto.StickerMessage
+import org.thoughtcrime.securesms.ryan.backup.v2.proto.Text
+import org.thoughtcrime.securesms.ryan.backup.v2.proto.ThreadMergeChatUpdate
+import org.thoughtcrime.securesms.ryan.backup.v2.proto.ViewOnceMessage
+import org.thoughtcrime.securesms.ryan.backup.v2.util.clampToValidBackupRange
+import org.thoughtcrime.securesms.ryan.backup.v2.util.toRemoteFilePointer
+import org.thoughtcrime.securesms.ryan.contactshare.Contact
+import org.thoughtcrime.securesms.ryan.database.AttachmentTable
+import org.thoughtcrime.securesms.ryan.database.CallTable
+import org.thoughtcrime.securesms.ryan.database.GroupReceiptTable
+import org.thoughtcrime.securesms.ryan.database.MessageTable
+import org.thoughtcrime.securesms.ryan.database.MessageTypes
+import org.thoughtcrime.securesms.ryan.database.PaymentTable
+import org.thoughtcrime.securesms.ryan.database.SignalDatabase
+import org.thoughtcrime.securesms.ryan.database.documents.IdentityKeyMismatchSet
+import org.thoughtcrime.securesms.ryan.database.documents.NetworkFailureSet
+import org.thoughtcrime.securesms.ryan.database.model.GroupCallUpdateDetailsUtil
+import org.thoughtcrime.securesms.ryan.database.model.GroupsV2UpdateMessageConverter
+import org.thoughtcrime.securesms.ryan.database.model.Mention
+import org.thoughtcrime.securesms.ryan.database.model.ReactionRecord
+import org.thoughtcrime.securesms.ryan.database.model.databaseprotos.BodyRangeList
+import org.thoughtcrime.securesms.ryan.database.model.databaseprotos.DecryptedGroupV2Context
+import org.thoughtcrime.securesms.ryan.database.model.databaseprotos.GiftBadge
+import org.thoughtcrime.securesms.ryan.database.model.databaseprotos.MessageExtras
+import org.thoughtcrime.securesms.ryan.database.model.databaseprotos.ProfileChangeDetails
+import org.thoughtcrime.securesms.ryan.database.model.databaseprotos.SessionSwitchoverEvent
+import org.thoughtcrime.securesms.ryan.database.model.databaseprotos.ThreadMergeEvent
+import org.thoughtcrime.securesms.ryan.keyvalue.SignalStore
+import org.thoughtcrime.securesms.ryan.linkpreview.LinkPreview
+import org.thoughtcrime.securesms.ryan.mms.QuoteModel
+import org.thoughtcrime.securesms.ryan.payments.FailureReason
+import org.thoughtcrime.securesms.ryan.payments.State
+import org.thoughtcrime.securesms.ryan.recipients.RecipientId
+import org.thoughtcrime.securesms.ryan.util.JsonUtils
+import org.thoughtcrime.securesms.ryan.util.MediaUtil
 import org.whispersystems.signalservice.api.util.UuidUtil
 import org.whispersystems.signalservice.api.util.toByteArray
 import java.io.Closeable
@@ -100,8 +100,8 @@ import java.util.concurrent.ExecutorService
 import java.util.concurrent.Future
 import kotlin.math.max
 import kotlin.time.Duration.Companion.days
-import org.thoughtcrime.securesms.backup.v2.proto.BodyRange as BackupBodyRange
-import org.thoughtcrime.securesms.backup.v2.proto.GiftBadge as BackupGiftBadge
+import org.thoughtcrime.securesms.ryan.backup.v2.proto.BodyRange as BackupBodyRange
+import org.thoughtcrime.securesms.ryan.backup.v2.proto.GiftBadge as BackupGiftBadge
 
 private val TAG = Log.tag(ChatItemArchiveExporter::class.java)
 
@@ -848,8 +848,8 @@ private fun BackupMessageRecord.toRemoteLinkPreviews(attachments: List<DatabaseA
   return emptyList()
 }
 
-private fun LinkPreview.toRemoteLinkPreview(mediaArchiveEnabled: Boolean): org.thoughtcrime.securesms.backup.v2.proto.LinkPreview {
-  return org.thoughtcrime.securesms.backup.v2.proto.LinkPreview(
+private fun LinkPreview.toRemoteLinkPreview(mediaArchiveEnabled: Boolean): org.thoughtcrime.securesms.ryan.backup.v2.proto.LinkPreview {
+  return org.thoughtcrime.securesms.ryan.backup.v2.proto.LinkPreview(
     url = url,
     title = title.nullIfEmpty(),
     image = (thumbnail.orNull() as? DatabaseAttachment)?.toRemoteMessageAttachment(mediaArchiveEnabled)?.pointer,

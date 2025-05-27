@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.recipients.ui.sharablegrouplink.qr;
+package org.thoughtcrime.securesms.ryan.recipients.ui.sharablegrouplink.qr;
 
 import androidx.annotation.NonNull;
 import androidx.lifecycle.LiveData;
@@ -6,9 +6,9 @@ import androidx.lifecycle.Transformations;
 import androidx.lifecycle.ViewModel;
 import androidx.lifecycle.ViewModelProvider;
 
-import org.thoughtcrime.securesms.groups.GroupId;
-import org.thoughtcrime.securesms.groups.LiveGroup;
-import org.thoughtcrime.securesms.groups.v2.GroupLinkUrlAndStatus;
+import org.thoughtcrime.securesms.ryan.groups.GroupId;
+import org.thoughtcrime.securesms.ryan.groups.LiveGroup;
+import org.thoughtcrime.securesms.ryan.groups.v2.GroupLinkUrlAndStatus;
 
 public final class GroupLinkShareQrViewModel extends ViewModel {
 

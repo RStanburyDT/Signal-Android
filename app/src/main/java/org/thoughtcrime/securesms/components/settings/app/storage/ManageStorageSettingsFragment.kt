@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.settings.app.storage
+package org.thoughtcrime.securesms.ryan.components.settings.app.storage
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -62,17 +62,17 @@ import org.signal.core.ui.compose.SignalPreview
 import org.signal.core.ui.compose.Texts
 import org.signal.core.ui.compose.theme.SignalTheme
 import org.signal.core.util.bytes
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.billing.upgrade.UpgradeToEnableOptimizedStorageSheet
-import org.thoughtcrime.securesms.billing.upgrade.UpgradeToPaidTierBottomSheet
-import org.thoughtcrime.securesms.compose.ComposeFragment
-import org.thoughtcrime.securesms.database.MediaTable
-import org.thoughtcrime.securesms.keyvalue.KeepMessagesDuration
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.mediaoverview.MediaOverviewActivity
-import org.thoughtcrime.securesms.preferences.widgets.StorageGraphView
-import org.thoughtcrime.securesms.util.BottomSheetUtil
-import org.thoughtcrime.securesms.util.viewModel
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.billing.upgrade.UpgradeToEnableOptimizedStorageSheet
+import org.thoughtcrime.securesms.ryan.billing.upgrade.UpgradeToPaidTierBottomSheet
+import org.thoughtcrime.securesms.ryan.compose.ComposeFragment
+import org.thoughtcrime.securesms.ryan.database.MediaTable
+import org.thoughtcrime.securesms.ryan.keyvalue.KeepMessagesDuration
+import org.thoughtcrime.securesms.ryan.keyvalue.SignalStore
+import org.thoughtcrime.securesms.ryan.mediaoverview.MediaOverviewActivity
+import org.thoughtcrime.securesms.ryan.preferences.widgets.StorageGraphView
+import org.thoughtcrime.securesms.ryan.util.BottomSheetUtil
+import org.thoughtcrime.securesms.ryan.util.viewModel
 import java.text.NumberFormat
 
 /**

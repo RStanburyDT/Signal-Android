@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.notifications.v2
+package org.thoughtcrime.securesms.ryan.notifications.v2
 
 import android.app.Notification
 import android.app.PendingIntent
@@ -16,22 +16,22 @@ import androidx.core.app.RemoteInput
 import androidx.core.content.LocusIdCompat
 import androidx.core.graphics.drawable.IconCompat
 import org.signal.core.util.PendingIntentFlags.mutable
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.conversation.ConversationIntents
-import org.thoughtcrime.securesms.database.RecipientTable
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.database.model.GroupRecord
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.notifications.NotificationChannels
-import org.thoughtcrime.securesms.notifications.ReplyMethod
-import org.thoughtcrime.securesms.preferences.widgets.NotificationPrivacyPreference
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientUtil
-import org.thoughtcrime.securesms.service.KeyCachingService
-import org.thoughtcrime.securesms.util.AvatarUtil
-import org.thoughtcrime.securesms.util.BubbleUtil
-import org.thoughtcrime.securesms.util.ConversationUtil
-import org.thoughtcrime.securesms.util.TextSecurePreferences
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.conversation.ConversationIntents
+import org.thoughtcrime.securesms.ryan.database.RecipientTable
+import org.thoughtcrime.securesms.ryan.database.SignalDatabase
+import org.thoughtcrime.securesms.ryan.database.model.GroupRecord
+import org.thoughtcrime.securesms.ryan.keyvalue.SignalStore
+import org.thoughtcrime.securesms.ryan.notifications.NotificationChannels
+import org.thoughtcrime.securesms.ryan.notifications.ReplyMethod
+import org.thoughtcrime.securesms.ryan.preferences.widgets.NotificationPrivacyPreference
+import org.thoughtcrime.securesms.ryan.recipients.Recipient
+import org.thoughtcrime.securesms.ryan.recipients.RecipientUtil
+import org.thoughtcrime.securesms.ryan.service.KeyCachingService
+import org.thoughtcrime.securesms.ryan.util.AvatarUtil
+import org.thoughtcrime.securesms.ryan.util.BubbleUtil
+import org.thoughtcrime.securesms.ryan.util.ConversationUtil
+import org.thoughtcrime.securesms.ryan.util.TextSecurePreferences
 import java.util.Optional
 import androidx.core.app.Person as PersonCompat
 

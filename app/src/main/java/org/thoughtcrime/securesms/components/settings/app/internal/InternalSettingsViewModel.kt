@@ -1,17 +1,17 @@
-package org.thoughtcrime.securesms.components.settings.app.internal
+package org.thoughtcrime.securesms.ryan.components.settings.app.internal
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import io.reactivex.rxjava3.core.Observable
 import org.signal.ringrtc.CallManager
-import org.thoughtcrime.securesms.database.model.RemoteMegaphoneRecord
-import org.thoughtcrime.securesms.jobs.StoryOnboardingDownloadJob
-import org.thoughtcrime.securesms.keyvalue.InternalValues
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.stories.Stories
-import org.thoughtcrime.securesms.util.livedata.Store
+import org.thoughtcrime.securesms.ryan.database.model.RemoteMegaphoneRecord
+import org.thoughtcrime.securesms.ryan.jobs.StoryOnboardingDownloadJob
+import org.thoughtcrime.securesms.ryan.keyvalue.InternalValues
+import org.thoughtcrime.securesms.ryan.keyvalue.SignalStore
+import org.thoughtcrime.securesms.ryan.recipients.Recipient
+import org.thoughtcrime.securesms.ryan.stories.Stories
+import org.thoughtcrime.securesms.ryan.util.livedata.Store
 
 class InternalSettingsViewModel(private val repository: InternalSettingsRepository) : ViewModel() {
   private val preferenceDataStore = SignalStore.getPreferenceDataStore()

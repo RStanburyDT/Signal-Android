@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.conversation.v2.keyboard
+package org.thoughtcrime.securesms.ryan.conversation.v2.keyboard
 
 import android.os.Bundle
 import android.view.View
@@ -16,17 +16,17 @@ import io.reactivex.rxjava3.android.schedulers.AndroidSchedulers
 import io.reactivex.rxjava3.kotlin.subscribeBy
 import org.signal.core.util.concurrent.LifecycleDisposable
 import org.signal.core.util.concurrent.addTo
-import org.thoughtcrime.securesms.LoggingFragment
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.conversation.AttachmentKeyboard
-import org.thoughtcrime.securesms.conversation.AttachmentKeyboardButton
-import org.thoughtcrime.securesms.conversation.ManageContextMenu
-import org.thoughtcrime.securesms.conversation.v2.ConversationViewModel
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.mediasend.Media
-import org.thoughtcrime.securesms.permissions.PermissionCompat
-import org.thoughtcrime.securesms.permissions.Permissions
-import org.thoughtcrime.securesms.recipients.Recipient
+import org.thoughtcrime.securesms.ryan.LoggingFragment
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.conversation.AttachmentKeyboard
+import org.thoughtcrime.securesms.ryan.conversation.AttachmentKeyboardButton
+import org.thoughtcrime.securesms.ryan.conversation.ManageContextMenu
+import org.thoughtcrime.securesms.ryan.conversation.v2.ConversationViewModel
+import org.thoughtcrime.securesms.ryan.keyvalue.SignalStore
+import org.thoughtcrime.securesms.ryan.mediasend.Media
+import org.thoughtcrime.securesms.ryan.permissions.PermissionCompat
+import org.thoughtcrime.securesms.ryan.permissions.Permissions
+import org.thoughtcrime.securesms.ryan.recipients.Recipient
 import java.util.function.Predicate
 
 /**

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.contacts
+package org.thoughtcrime.securesms.ryan.contacts
 
 import androidx.annotation.DrawableRes
 import androidx.annotation.StringRes

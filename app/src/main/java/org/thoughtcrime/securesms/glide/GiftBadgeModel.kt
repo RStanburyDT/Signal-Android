@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.glide
+package org.thoughtcrime.securesms.ryan.glide
 
 import com.bumptech.glide.Priority
 import com.bumptech.glide.load.DataSource
@@ -11,9 +11,9 @@ import com.bumptech.glide.load.model.ModelLoaderFactory
 import com.bumptech.glide.load.model.MultiModelLoaderFactory
 import okhttp3.OkHttpClient
 import org.signal.libsignal.zkgroup.receipts.ReceiptCredentialPresentation
-import org.thoughtcrime.securesms.components.settings.app.subscription.getBadge
-import org.thoughtcrime.securesms.database.model.databaseprotos.GiftBadge
-import org.thoughtcrime.securesms.dependencies.AppDependencies
+import org.thoughtcrime.securesms.ryan.components.settings.app.subscription.getBadge
+import org.thoughtcrime.securesms.ryan.database.model.databaseprotos.GiftBadge
+import org.thoughtcrime.securesms.ryan.dependencies.AppDependencies
 import java.io.InputStream
 import java.security.MessageDigest
 import java.util.Locale

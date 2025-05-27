@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.ringrtc;
+package org.thoughtcrime.securesms.ryan.ringrtc;
 
 import android.content.Context;
 import android.hardware.camera2.CameraAccessException;
@@ -13,7 +13,7 @@ import com.annimon.stream.Stream;
 
 import org.signal.core.util.logging.Log;
 import org.signal.ringrtc.CameraControl;
-import org.thoughtcrime.securesms.components.webrtc.EglBaseWrapper;
+import org.thoughtcrime.securesms.ryan.components.webrtc.EglBaseWrapper;
 import org.webrtc.Camera1Enumerator;
 import org.webrtc.Camera2Capturer;
 import org.webrtc.Camera2Enumerator;
@@ -26,10 +26,10 @@ import org.webrtc.VideoFrame;
 import java.util.LinkedList;
 import java.util.List;
 
-import static org.thoughtcrime.securesms.ringrtc.CameraState.Direction.BACK;
-import static org.thoughtcrime.securesms.ringrtc.CameraState.Direction.FRONT;
-import static org.thoughtcrime.securesms.ringrtc.CameraState.Direction.NONE;
-import static org.thoughtcrime.securesms.ringrtc.CameraState.Direction.PENDING;
+import static org.thoughtcrime.securesms.ryan.ringrtc.CameraState.Direction.BACK;
+import static org.thoughtcrime.securesms.ryan.ringrtc.CameraState.Direction.FRONT;
+import static org.thoughtcrime.securesms.ryan.ringrtc.CameraState.Direction.NONE;
+import static org.thoughtcrime.securesms.ryan.ringrtc.CameraState.Direction.PENDING;
 
 /**
  * Encapsulate the camera functionality needed for video calling.

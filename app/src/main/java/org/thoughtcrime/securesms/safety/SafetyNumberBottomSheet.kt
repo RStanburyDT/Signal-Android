@@ -1,16 +1,16 @@
-package org.thoughtcrime.securesms.safety
+package org.thoughtcrime.securesms.ryan.safety
 
 import android.content.Context
 import android.os.Bundle
 import androidx.fragment.app.FragmentManager
 import org.signal.core.util.getParcelableCompat
-import org.thoughtcrime.securesms.contacts.paged.ContactSearchKey
-import org.thoughtcrime.securesms.conversation.ui.error.SafetyNumberChangeDialog
-import org.thoughtcrime.securesms.database.model.IdentityRecord
-import org.thoughtcrime.securesms.database.model.MessageId
-import org.thoughtcrime.securesms.database.model.MessageRecord
-import org.thoughtcrime.securesms.database.model.MmsMessageRecord
-import org.thoughtcrime.securesms.recipients.RecipientId
+import org.thoughtcrime.securesms.ryan.contacts.paged.ContactSearchKey
+import org.thoughtcrime.securesms.ryan.conversation.ui.error.SafetyNumberChangeDialog
+import org.thoughtcrime.securesms.ryan.database.model.IdentityRecord
+import org.thoughtcrime.securesms.ryan.database.model.MessageId
+import org.thoughtcrime.securesms.ryan.database.model.MessageRecord
+import org.thoughtcrime.securesms.ryan.database.model.MmsMessageRecord
+import org.thoughtcrime.securesms.ryan.recipients.RecipientId
 import org.whispersystems.signalservice.api.util.Preconditions
 
 /**

@@ -1,6 +1,6 @@
-package org.thoughtcrime.securesms.mediasend.v2.gallery
+package org.thoughtcrime.securesms.ryan.mediasend.v2.gallery
 
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingModel
+import org.thoughtcrime.securesms.ryan.util.adapter.mapping.MappingModel
 
 data class MediaGalleryState(
   val bucketId: String?,

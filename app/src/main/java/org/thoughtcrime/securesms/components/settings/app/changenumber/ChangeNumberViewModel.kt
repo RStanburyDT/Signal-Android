@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.settings.app.changenumber
+package org.thoughtcrime.securesms.ryan.components.settings.app.changenumber
 
 import android.content.Context
 import androidx.lifecycle.ViewModel
@@ -20,20 +20,20 @@ import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
 import org.signal.core.util.concurrent.SignalExecutors
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.registration.data.RegistrationData
-import org.thoughtcrime.securesms.registration.data.RegistrationRepository
-import org.thoughtcrime.securesms.registration.data.network.Challenge
-import org.thoughtcrime.securesms.registration.data.network.RegistrationSessionCreationResult
-import org.thoughtcrime.securesms.registration.data.network.SessionMetadataResult
-import org.thoughtcrime.securesms.registration.data.network.VerificationCodeRequestResult
-import org.thoughtcrime.securesms.registration.sms.SmsRetrieverReceiver
-import org.thoughtcrime.securesms.registration.ui.RegistrationViewModel
-import org.thoughtcrime.securesms.registration.ui.countrycode.Country
-import org.thoughtcrime.securesms.registration.viewmodel.NumberViewState
-import org.thoughtcrime.securesms.registration.viewmodel.SvrAuthCredentialSet
-import org.thoughtcrime.securesms.util.dualsim.MccMncProducer
+import org.thoughtcrime.securesms.ryan.dependencies.AppDependencies
+import org.thoughtcrime.securesms.ryan.keyvalue.SignalStore
+import org.thoughtcrime.securesms.ryan.registration.data.RegistrationData
+import org.thoughtcrime.securesms.ryan.registration.data.RegistrationRepository
+import org.thoughtcrime.securesms.ryan.registration.data.network.Challenge
+import org.thoughtcrime.securesms.ryan.registration.data.network.RegistrationSessionCreationResult
+import org.thoughtcrime.securesms.ryan.registration.data.network.SessionMetadataResult
+import org.thoughtcrime.securesms.ryan.registration.data.network.VerificationCodeRequestResult
+import org.thoughtcrime.securesms.ryan.registration.sms.SmsRetrieverReceiver
+import org.thoughtcrime.securesms.ryan.registration.ui.RegistrationViewModel
+import org.thoughtcrime.securesms.ryan.registration.ui.countrycode.Country
+import org.thoughtcrime.securesms.ryan.registration.viewmodel.NumberViewState
+import org.thoughtcrime.securesms.ryan.registration.viewmodel.SvrAuthCredentialSet
+import org.thoughtcrime.securesms.ryan.util.dualsim.MccMncProducer
 import org.whispersystems.signalservice.api.push.ServiceId
 import java.io.IOException
 import java.util.concurrent.locks.ReentrantLock

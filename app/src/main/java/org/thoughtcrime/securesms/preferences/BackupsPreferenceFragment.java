@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.preferences;
+package org.thoughtcrime.securesms.ryan.preferences;
 
 import android.Manifest;
 import android.app.Activity;
@@ -30,19 +30,19 @@ import org.greenrobot.eventbus.Subscribe;
 import org.greenrobot.eventbus.ThreadMode;
 import org.signal.core.util.ThreadUtil;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.backup.BackupDialog;
-import org.thoughtcrime.securesms.backup.BackupEvent;
-import org.thoughtcrime.securesms.database.NoExternalStorageException;
-import org.thoughtcrime.securesms.dependencies.AppDependencies;
-import org.thoughtcrime.securesms.jobs.LocalBackupJob;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
-import org.thoughtcrime.securesms.permissions.Permissions;
-import org.thoughtcrime.securesms.service.LocalBackupListener;
-import org.thoughtcrime.securesms.util.BackupUtil;
-import org.thoughtcrime.securesms.util.JavaTimeExtensionsKt;
-import org.thoughtcrime.securesms.util.StorageUtil;
-import org.thoughtcrime.securesms.util.TextSecurePreferences;
+import org.thoughtcrime.securesms.ryan.R;
+import org.thoughtcrime.securesms.ryan.backup.BackupDialog;
+import org.thoughtcrime.securesms.ryan.backup.BackupEvent;
+import org.thoughtcrime.securesms.ryan.database.NoExternalStorageException;
+import org.thoughtcrime.securesms.ryan.dependencies.AppDependencies;
+import org.thoughtcrime.securesms.ryan.jobs.LocalBackupJob;
+import org.thoughtcrime.securesms.ryan.keyvalue.SignalStore;
+import org.thoughtcrime.securesms.ryan.permissions.Permissions;
+import org.thoughtcrime.securesms.ryan.service.LocalBackupListener;
+import org.thoughtcrime.securesms.ryan.util.BackupUtil;
+import org.thoughtcrime.securesms.ryan.util.JavaTimeExtensionsKt;
+import org.thoughtcrime.securesms.ryan.util.StorageUtil;
+import org.thoughtcrime.securesms.ryan.util.TextSecurePreferences;
 
 import java.text.NumberFormat;
 import java.time.LocalTime;

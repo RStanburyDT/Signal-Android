@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.settings.app.chats.folders
+package org.thoughtcrime.securesms.ryan.components.settings.app.chats.folders
 
 import android.os.Parcelable
 import kotlinx.parcelize.IgnoredOnParcel
@@ -6,7 +6,7 @@ import kotlinx.parcelize.Parcelize
 import org.whispersystems.signalservice.api.storage.StorageId
 
 /**
- * Represents an entry in the [org.thoughtcrime.securesms.database.ChatFolderTables].
+ * Represents an entry in the [org.thoughtcrime.securesms.ryan.database.ChatFolderTables].
  */
 @Parcelize
 data class ChatFolderRecord(

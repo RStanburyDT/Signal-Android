@@ -1,17 +1,17 @@
-package org.thoughtcrime.securesms.components.settings.conversation.preferences
+package org.thoughtcrime.securesms.ryan.components.settings.conversation.preferences
 
 import androidx.annotation.DrawableRes
 import androidx.annotation.StringRes
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.database.CallTable
-import org.thoughtcrime.securesms.database.MessageTypes
-import org.thoughtcrime.securesms.database.model.MessageRecord
-import org.thoughtcrime.securesms.databinding.ConversationSettingsCallPreferenceItemBinding
-import org.thoughtcrime.securesms.util.DateUtils
-import org.thoughtcrime.securesms.util.adapter.mapping.BindingFactory
-import org.thoughtcrime.securesms.util.adapter.mapping.BindingViewHolder
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingAdapter
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingModel
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.database.CallTable
+import org.thoughtcrime.securesms.ryan.database.MessageTypes
+import org.thoughtcrime.securesms.ryan.database.model.MessageRecord
+import org.thoughtcrime.securesms.ryan.databinding.ConversationSettingsCallPreferenceItemBinding
+import org.thoughtcrime.securesms.ryan.util.DateUtils
+import org.thoughtcrime.securesms.ryan.util.adapter.mapping.BindingFactory
+import org.thoughtcrime.securesms.ryan.util.adapter.mapping.BindingViewHolder
+import org.thoughtcrime.securesms.ryan.util.adapter.mapping.MappingAdapter
+import org.thoughtcrime.securesms.ryan.util.adapter.mapping.MappingModel
 
 /**
  * Renders a single call preference row when displaying call info.

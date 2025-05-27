@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.payments.preferences.details;
+package org.thoughtcrime.securesms.ryan.payments.preferences.details;
 
 import android.content.Context;
 import android.os.Bundle;
@@ -22,20 +22,20 @@ import androidx.navigation.Navigation;
 
 import org.signal.core.util.StringUtil;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.LoggingFragment;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.badges.BadgeImageView;
-import org.thoughtcrime.securesms.components.AvatarImageView;
-import org.thoughtcrime.securesms.database.PaymentTable;
-import org.thoughtcrime.securesms.payments.Direction;
-import org.thoughtcrime.securesms.payments.MoneyView;
-import org.thoughtcrime.securesms.payments.Payee;
-import org.thoughtcrime.securesms.payments.Payment;
-import org.thoughtcrime.securesms.payments.State;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.util.DateUtils;
-import org.thoughtcrime.securesms.util.SpanUtil;
-import org.thoughtcrime.securesms.util.views.LearnMoreTextView;
+import org.thoughtcrime.securesms.ryan.LoggingFragment;
+import org.thoughtcrime.securesms.ryan.R;
+import org.thoughtcrime.securesms.ryan.badges.BadgeImageView;
+import org.thoughtcrime.securesms.ryan.components.AvatarImageView;
+import org.thoughtcrime.securesms.ryan.database.PaymentTable;
+import org.thoughtcrime.securesms.ryan.payments.Direction;
+import org.thoughtcrime.securesms.ryan.payments.MoneyView;
+import org.thoughtcrime.securesms.ryan.payments.Payee;
+import org.thoughtcrime.securesms.ryan.payments.Payment;
+import org.thoughtcrime.securesms.ryan.payments.State;
+import org.thoughtcrime.securesms.ryan.recipients.Recipient;
+import org.thoughtcrime.securesms.ryan.util.DateUtils;
+import org.thoughtcrime.securesms.ryan.util.SpanUtil;
+import org.thoughtcrime.securesms.ryan.util.views.LearnMoreTextView;
 import org.whispersystems.signalservice.api.payments.Money;
 
 import java.util.Locale;

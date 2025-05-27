@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.settings.app.backups
+package org.thoughtcrime.securesms.ryan.components.settings.app.backups
 
 import android.os.Bundle
 import android.view.View
@@ -45,6 +45,16 @@ import org.signal.core.ui.compose.Scaffolds
 import org.signal.core.ui.compose.SignalPreview
 import org.signal.core.ui.compose.Texts
 import org.signal.core.util.money.FiatMoney
+<<<<<<< HEAD
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.backup.v2.MessageBackupTier
+import org.thoughtcrime.securesms.ryan.backup.v2.ui.subscription.MessageBackupsType
+import org.thoughtcrime.securesms.ryan.components.settings.app.subscription.MessageBackupsCheckoutLauncher.createBackupsCheckoutLauncher
+import org.thoughtcrime.securesms.ryan.compose.ComposeFragment
+import org.thoughtcrime.securesms.ryan.payments.FiatMoneyUtil
+import org.thoughtcrime.securesms.ryan.util.DateUtils
+import org.thoughtcrime.securesms.ryan.util.navigation.safeNavigate
+=======
 import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.backup.v2.MessageBackupTier
 import org.thoughtcrime.securesms.backup.v2.ui.subscription.MessageBackupsType
@@ -54,6 +64,7 @@ import org.thoughtcrime.securesms.compose.ComposeFragment
 import org.thoughtcrime.securesms.payments.FiatMoneyUtil
 import org.thoughtcrime.securesms.util.DateUtils
 import org.thoughtcrime.securesms.util.navigation.safeNavigate
+>>>>>>> 23669c3c372284d42db486a218d9f29bef247abf
 import java.math.BigDecimal
 import java.util.Currency
 import java.util.Locale

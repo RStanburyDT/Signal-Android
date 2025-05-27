@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.webrtc;
+package org.thoughtcrime.securesms.ryan.components.webrtc;
 
 import android.Manifest;
 import android.content.Context;
@@ -46,28 +46,28 @@ import org.signal.core.util.DimensionUnit;
 import org.signal.core.util.SetUtil;
 import org.signal.core.util.ThreadUtil;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.components.AccessibleToggleButton;
-import org.thoughtcrime.securesms.components.AvatarImageView;
-import org.thoughtcrime.securesms.components.InsetAwareConstraintLayout;
-import org.thoughtcrime.securesms.components.webrtc.v2.CallScreenControlsListener;
-import org.thoughtcrime.securesms.components.webrtc.v2.PendingParticipantsListener;
-import org.thoughtcrime.securesms.contacts.avatars.ContactPhoto;
-import org.thoughtcrime.securesms.contacts.avatars.ProfileContactPhoto;
-import org.thoughtcrime.securesms.events.CallParticipant;
-import org.thoughtcrime.securesms.events.WebRtcViewModel;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
-import org.thoughtcrime.securesms.permissions.Permissions;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.recipients.RecipientId;
-import org.thoughtcrime.securesms.ringrtc.CameraState;
-import org.thoughtcrime.securesms.components.webrtc.v2.PendingParticipantsState;
-import org.thoughtcrime.securesms.stories.viewer.reply.reaction.MultiReactionBurstLayout;
-import org.thoughtcrime.securesms.util.BlurTransformation;
-import org.thoughtcrime.securesms.util.ThrottledDebouncer;
-import org.thoughtcrime.securesms.util.ViewUtil;
-import org.thoughtcrime.securesms.util.views.Stub;
-import org.thoughtcrime.securesms.webrtc.CallParticipantsViewState;
+import org.thoughtcrime.securesms.ryan.R;
+import org.thoughtcrime.securesms.ryan.components.AccessibleToggleButton;
+import org.thoughtcrime.securesms.ryan.components.AvatarImageView;
+import org.thoughtcrime.securesms.ryan.components.InsetAwareConstraintLayout;
+import org.thoughtcrime.securesms.ryan.components.webrtc.v2.CallScreenControlsListener;
+import org.thoughtcrime.securesms.ryan.components.webrtc.v2.PendingParticipantsListener;
+import org.thoughtcrime.securesms.ryan.contacts.avatars.ContactPhoto;
+import org.thoughtcrime.securesms.ryan.contacts.avatars.ProfileContactPhoto;
+import org.thoughtcrime.securesms.ryan.events.CallParticipant;
+import org.thoughtcrime.securesms.ryan.events.WebRtcViewModel;
+import org.thoughtcrime.securesms.ryan.keyvalue.SignalStore;
+import org.thoughtcrime.securesms.ryan.permissions.Permissions;
+import org.thoughtcrime.securesms.ryan.recipients.Recipient;
+import org.thoughtcrime.securesms.ryan.recipients.RecipientId;
+import org.thoughtcrime.securesms.ryan.ringrtc.CameraState;
+import org.thoughtcrime.securesms.ryan.components.webrtc.v2.PendingParticipantsState;
+import org.thoughtcrime.securesms.ryan.stories.viewer.reply.reaction.MultiReactionBurstLayout;
+import org.thoughtcrime.securesms.ryan.util.BlurTransformation;
+import org.thoughtcrime.securesms.ryan.util.ThrottledDebouncer;
+import org.thoughtcrime.securesms.ryan.util.ViewUtil;
+import org.thoughtcrime.securesms.ryan.util.views.Stub;
+import org.thoughtcrime.securesms.ryan.webrtc.CallParticipantsViewState;
 import org.webrtc.RendererCommon;
 import org.whispersystems.signalservice.api.messages.calls.HangupMessage;
 

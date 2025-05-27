@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.conversation
+package org.thoughtcrime.securesms.ryan.conversation
 
 sealed class ConversationItemDisplayMode(val scheduleMessageMode: Boolean = false) {
   /** Normal rendering, used for normal bubbles in the conversation view */

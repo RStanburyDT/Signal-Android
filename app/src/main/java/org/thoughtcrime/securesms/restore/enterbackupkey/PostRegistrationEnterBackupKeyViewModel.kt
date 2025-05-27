@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.restore.enterbackupkey
+package org.thoughtcrime.securesms.ryan.restore.enterbackupkey
 
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
@@ -17,10 +17,10 @@ import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.backup.v2.BackupRepository
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.registrationv3.ui.restore.AccountEntropyPoolVerification
-import org.thoughtcrime.securesms.registrationv3.ui.restore.AccountEntropyPoolVerification.AEPValidationError
+import org.thoughtcrime.securesms.ryan.backup.v2.BackupRepository
+import org.thoughtcrime.securesms.ryan.keyvalue.SignalStore
+import org.thoughtcrime.securesms.ryan.registrationv3.ui.restore.AccountEntropyPoolVerification
+import org.thoughtcrime.securesms.ryan.registrationv3.ui.restore.AccountEntropyPoolVerification.AEPValidationError
 import org.whispersystems.signalservice.api.AccountEntropyPool
 
 class PostRegistrationEnterBackupKeyViewModel : ViewModel() {

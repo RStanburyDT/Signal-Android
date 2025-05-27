@@ -1,17 +1,17 @@
-package org.thoughtcrime.securesms.util
+package org.thoughtcrime.securesms.ryan.util
 
 import android.content.Context
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import io.reactivex.rxjava3.core.Single
 import io.reactivex.rxjava3.core.SingleEmitter
 import org.signal.core.util.concurrent.SignalExecutors
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.database.model.MessageRecord
-import org.thoughtcrime.securesms.jobs.MultiDeviceDeleteSyncJob
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.sms.MessageSender
-import org.thoughtcrime.securesms.util.task.ProgressDialogAsyncTask
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.database.SignalDatabase
+import org.thoughtcrime.securesms.ryan.database.model.MessageRecord
+import org.thoughtcrime.securesms.ryan.jobs.MultiDeviceDeleteSyncJob
+import org.thoughtcrime.securesms.ryan.keyvalue.SignalStore
+import org.thoughtcrime.securesms.ryan.sms.MessageSender
+import org.thoughtcrime.securesms.ryan.util.task.ProgressDialogAsyncTask
 
 object DeleteDialog {
 

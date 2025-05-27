@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.conversation.ui.inlinequery
+package org.thoughtcrime.securesms.ryan.conversation.ui.inlinequery
 
 import android.view.View
 import android.view.ViewGroup
@@ -10,11 +10,11 @@ import io.reactivex.rxjava3.kotlin.subscribeBy
 import org.signal.core.util.DimensionUnit
 import org.signal.core.util.concurrent.LifecycleDisposable
 import org.signal.core.util.concurrent.addTo
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.ComposeText
-import org.thoughtcrime.securesms.conversation.ui.mentions.MentionsPickerFragmentV2
-import org.thoughtcrime.securesms.util.adapter.mapping.AnyMappingModel
-import org.thoughtcrime.securesms.util.doOnEachLayout
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.components.ComposeText
+import org.thoughtcrime.securesms.ryan.conversation.ui.mentions.MentionsPickerFragmentV2
+import org.thoughtcrime.securesms.ryan.util.adapter.mapping.AnyMappingModel
+import org.thoughtcrime.securesms.ryan.util.doOnEachLayout
 
 /**
  * Controller for inline search results.

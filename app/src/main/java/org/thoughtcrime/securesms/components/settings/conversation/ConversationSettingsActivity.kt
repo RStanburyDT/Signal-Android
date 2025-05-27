@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.settings.conversation
+package org.thoughtcrime.securesms.ryan.components.settings.conversation
 
 import android.app.Activity
 import android.content.Context
@@ -9,14 +9,14 @@ import androidx.core.app.ActivityCompat
 import androidx.core.app.ActivityOptionsCompat
 import androidx.core.util.Pair
 import com.google.android.material.transition.platform.MaterialContainerTransformSharedElementCallback
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.settings.DSLSettingsActivity
-import org.thoughtcrime.securesms.groups.GroupId
-import org.thoughtcrime.securesms.groups.ParcelableGroupId
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.util.DynamicConversationSettingsTheme
-import org.thoughtcrime.securesms.util.DynamicTheme
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.components.settings.DSLSettingsActivity
+import org.thoughtcrime.securesms.ryan.groups.GroupId
+import org.thoughtcrime.securesms.ryan.groups.ParcelableGroupId
+import org.thoughtcrime.securesms.ryan.recipients.Recipient
+import org.thoughtcrime.securesms.ryan.recipients.RecipientId
+import org.thoughtcrime.securesms.ryan.util.DynamicConversationSettingsTheme
+import org.thoughtcrime.securesms.ryan.util.DynamicTheme
 
 open class ConversationSettingsActivity : DSLSettingsActivity(), ConversationSettingsFragment.Callback {
 

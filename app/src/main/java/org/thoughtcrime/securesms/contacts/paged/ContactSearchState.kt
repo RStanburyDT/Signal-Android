@@ -1,6 +1,6 @@
-package org.thoughtcrime.securesms.contacts.paged
+package org.thoughtcrime.securesms.ryan.contacts.paged
 
-import org.thoughtcrime.securesms.conversationlist.chatfilter.ConversationFilterRequest
+import org.thoughtcrime.securesms.ryan.conversationlist.chatfilter.ConversationFilterRequest
 
 /**
  * Simple search state for contacts.

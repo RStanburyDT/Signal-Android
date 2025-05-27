@@ -1,9 +1,9 @@
-package org.thoughtcrime.securesms.database.helpers.migration
+package org.thoughtcrime.securesms.ryan.database.helpers.migration
 
 import android.app.Application
-import org.thoughtcrime.securesms.database.MessageTable
-import org.thoughtcrime.securesms.database.RecipientTable
-import org.thoughtcrime.securesms.database.SQLiteDatabase
+import org.thoughtcrime.securesms.ryan.database.MessageTable
+import org.thoughtcrime.securesms.ryan.database.RecipientTable
+import org.thoughtcrime.securesms.ryan.database.SQLiteDatabase
 
 /**
  * Adds a new 'timestamp' column to CallTable and copies in the date_sent column data from

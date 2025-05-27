@@ -3,18 +3,18 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.jobs
+package org.thoughtcrime.securesms.ryan.jobs
 
 import androidx.annotation.WorkerThread
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.groups.GroupId
-import org.thoughtcrime.securesms.jobmanager.Job
-import org.thoughtcrime.securesms.jobmanager.JsonJobData
-import org.thoughtcrime.securesms.jobmanager.impl.ChangeNumberConstraint
-import org.thoughtcrime.securesms.messages.ExceptionMetadata
-import org.thoughtcrime.securesms.messages.MessageContentProcessor
-import org.thoughtcrime.securesms.messages.MessageState
-import org.thoughtcrime.securesms.recipients.Recipient
+import org.thoughtcrime.securesms.ryan.groups.GroupId
+import org.thoughtcrime.securesms.ryan.jobmanager.Job
+import org.thoughtcrime.securesms.ryan.jobmanager.JsonJobData
+import org.thoughtcrime.securesms.ryan.jobmanager.impl.ChangeNumberConstraint
+import org.thoughtcrime.securesms.ryan.messages.ExceptionMetadata
+import org.thoughtcrime.securesms.ryan.messages.MessageContentProcessor
+import org.thoughtcrime.securesms.ryan.messages.MessageState
+import org.thoughtcrime.securesms.ryan.recipients.Recipient
 
 /**
  * Process messages that did not decrypt/validate successfully.

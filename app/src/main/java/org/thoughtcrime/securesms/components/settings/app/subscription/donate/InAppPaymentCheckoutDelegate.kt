@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.settings.app.subscription.donate
+package org.thoughtcrime.securesms.ryan.components.settings.app.subscription.donate
 
 import android.app.Activity
 import android.content.Context
@@ -26,24 +26,24 @@ import org.signal.core.util.getParcelableCompat
 import org.signal.core.util.logging.Log
 import org.signal.donations.GooglePayApi
 import org.signal.donations.InAppPaymentType
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.settings.app.subscription.DonationSerializationHelper.toFiatMoney
-import org.thoughtcrime.securesms.components.settings.app.subscription.GooglePayComponent
-import org.thoughtcrime.securesms.components.settings.app.subscription.InAppDonations
-import org.thoughtcrime.securesms.components.settings.app.subscription.InAppPaymentsRepository
-import org.thoughtcrime.securesms.components.settings.app.subscription.InAppPaymentsRepository.toPaymentSourceType
-import org.thoughtcrime.securesms.components.settings.app.subscription.donate.card.CreditCardFragment
-import org.thoughtcrime.securesms.components.settings.app.subscription.donate.paypal.PayPalPaymentInProgressFragment
-import org.thoughtcrime.securesms.components.settings.app.subscription.donate.stripe.StripePaymentInProgressFragment
-import org.thoughtcrime.securesms.components.settings.app.subscription.donate.stripe.StripePaymentInProgressViewModel
-import org.thoughtcrime.securesms.components.settings.app.subscription.donate.transfer.BankTransferRequestKeys
-import org.thoughtcrime.securesms.components.settings.app.subscription.errors.DonationError
-import org.thoughtcrime.securesms.components.settings.app.subscription.errors.DonationErrorDialogs
-import org.thoughtcrime.securesms.components.settings.app.subscription.errors.DonationErrorParams
-import org.thoughtcrime.securesms.database.InAppPaymentTable
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.database.model.databaseprotos.InAppPaymentData
-import org.thoughtcrime.securesms.util.fragments.requireListener
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.components.settings.app.subscription.DonationSerializationHelper.toFiatMoney
+import org.thoughtcrime.securesms.ryan.components.settings.app.subscription.GooglePayComponent
+import org.thoughtcrime.securesms.ryan.components.settings.app.subscription.InAppDonations
+import org.thoughtcrime.securesms.ryan.components.settings.app.subscription.InAppPaymentsRepository
+import org.thoughtcrime.securesms.ryan.components.settings.app.subscription.InAppPaymentsRepository.toPaymentSourceType
+import org.thoughtcrime.securesms.ryan.components.settings.app.subscription.donate.card.CreditCardFragment
+import org.thoughtcrime.securesms.ryan.components.settings.app.subscription.donate.paypal.PayPalPaymentInProgressFragment
+import org.thoughtcrime.securesms.ryan.components.settings.app.subscription.donate.stripe.StripePaymentInProgressFragment
+import org.thoughtcrime.securesms.ryan.components.settings.app.subscription.donate.stripe.StripePaymentInProgressViewModel
+import org.thoughtcrime.securesms.ryan.components.settings.app.subscription.donate.transfer.BankTransferRequestKeys
+import org.thoughtcrime.securesms.ryan.components.settings.app.subscription.errors.DonationError
+import org.thoughtcrime.securesms.ryan.components.settings.app.subscription.errors.DonationErrorDialogs
+import org.thoughtcrime.securesms.ryan.components.settings.app.subscription.errors.DonationErrorParams
+import org.thoughtcrime.securesms.ryan.database.InAppPaymentTable
+import org.thoughtcrime.securesms.ryan.database.SignalDatabase
+import org.thoughtcrime.securesms.ryan.database.model.databaseprotos.InAppPaymentData
+import org.thoughtcrime.securesms.ryan.util.fragments.requireListener
 
 /**
  * Abstracts out some common UI-level interactions between gift flow and normal donate flow.

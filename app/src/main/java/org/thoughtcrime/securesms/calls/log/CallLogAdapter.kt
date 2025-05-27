@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.calls.log
+package org.thoughtcrime.securesms.ryan.calls.log
 
 import android.content.res.ColorStateList
 import android.text.style.TextAppearanceSpan
@@ -8,22 +8,22 @@ import androidx.annotation.StringRes
 import androidx.core.content.ContextCompat
 import androidx.core.widget.TextViewCompat
 import com.bumptech.glide.Glide
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.database.CallTable
-import org.thoughtcrime.securesms.database.MessageTypes
-import org.thoughtcrime.securesms.databinding.CallLogAdapterItemBinding
-import org.thoughtcrime.securesms.databinding.CallLogCreateCallLinkItemBinding
-import org.thoughtcrime.securesms.databinding.ConversationListItemClearFilterBinding
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.util.DateUtils
-import org.thoughtcrime.securesms.util.SearchUtil
-import org.thoughtcrime.securesms.util.adapter.mapping.BindingFactory
-import org.thoughtcrime.securesms.util.adapter.mapping.BindingViewHolder
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingModel
-import org.thoughtcrime.securesms.util.adapter.mapping.PagingMappingAdapter
-import org.thoughtcrime.securesms.util.setRelativeDrawables
-import org.thoughtcrime.securesms.util.visible
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.database.CallTable
+import org.thoughtcrime.securesms.ryan.database.MessageTypes
+import org.thoughtcrime.securesms.ryan.databinding.CallLogAdapterItemBinding
+import org.thoughtcrime.securesms.ryan.databinding.CallLogCreateCallLinkItemBinding
+import org.thoughtcrime.securesms.ryan.databinding.ConversationListItemClearFilterBinding
+import org.thoughtcrime.securesms.ryan.recipients.Recipient
+import org.thoughtcrime.securesms.ryan.recipients.RecipientId
+import org.thoughtcrime.securesms.ryan.util.DateUtils
+import org.thoughtcrime.securesms.ryan.util.SearchUtil
+import org.thoughtcrime.securesms.ryan.util.adapter.mapping.BindingFactory
+import org.thoughtcrime.securesms.ryan.util.adapter.mapping.BindingViewHolder
+import org.thoughtcrime.securesms.ryan.util.adapter.mapping.MappingModel
+import org.thoughtcrime.securesms.ryan.util.adapter.mapping.PagingMappingAdapter
+import org.thoughtcrime.securesms.ryan.util.setRelativeDrawables
+import org.thoughtcrime.securesms.ryan.util.visible
 import java.util.Locale
 
 /**

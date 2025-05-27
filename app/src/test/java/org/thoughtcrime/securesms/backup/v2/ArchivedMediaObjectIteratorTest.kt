@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.backup.v2
+package org.thoughtcrime.securesms.ryan.backup.v2
 
 import assertk.assertThat
 import assertk.assertions.hasSize
@@ -7,9 +7,9 @@ import io.mockk.mockk
 import io.mockk.mockkObject
 import org.junit.Before
 import org.junit.Test
-import org.thoughtcrime.securesms.MockCursor
-import org.thoughtcrime.securesms.keyvalue.BackupValues
-import org.thoughtcrime.securesms.keyvalue.SignalStore
+import org.thoughtcrime.securesms.ryan.MockCursor
+import org.thoughtcrime.securesms.ryan.keyvalue.BackupValues
+import org.thoughtcrime.securesms.ryan.keyvalue.SignalStore
 import org.whispersystems.signalservice.api.backup.MediaRootBackupKey
 
 class ArchivedMediaObjectIteratorTest {

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.settings.app.subscription.currency
+package org.thoughtcrime.securesms.ryan.components.settings.app.subscription.currency
 
 import java.util.Currency
 

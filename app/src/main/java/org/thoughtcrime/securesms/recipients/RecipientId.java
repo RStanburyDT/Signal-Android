@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.recipients;
+package org.thoughtcrime.securesms.ryan.recipients;
 
 import android.annotation.SuppressLint;
 import android.os.Parcel;
@@ -13,10 +13,10 @@ import com.annimon.stream.Stream;
 import org.signal.core.util.DatabaseId;
 import org.signal.core.util.LongSerializer;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.database.SignalDatabase;
-import org.thoughtcrime.securesms.groups.GroupId;
-import org.thoughtcrime.securesms.util.DelimiterUtil;
-import org.thoughtcrime.securesms.util.Util;
+import org.thoughtcrime.securesms.ryan.database.SignalDatabase;
+import org.thoughtcrime.securesms.ryan.groups.GroupId;
+import org.thoughtcrime.securesms.ryan.util.DelimiterUtil;
+import org.thoughtcrime.securesms.ryan.util.Util;
 import org.whispersystems.signalservice.api.push.ServiceId;
 import org.whispersystems.signalservice.api.push.SignalServiceAddress;
 

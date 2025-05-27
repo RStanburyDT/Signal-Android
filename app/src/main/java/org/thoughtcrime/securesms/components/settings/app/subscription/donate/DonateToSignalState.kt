@@ -1,16 +1,16 @@
-package org.thoughtcrime.securesms.components.settings.app.subscription.donate
+package org.thoughtcrime.securesms.ryan.components.settings.app.subscription.donate
 
 import org.signal.core.util.money.FiatMoney
 import org.signal.donations.InAppPaymentType
-import org.thoughtcrime.securesms.badges.models.Badge
-import org.thoughtcrime.securesms.components.settings.app.subscription.InAppDonations
-import org.thoughtcrime.securesms.components.settings.app.subscription.boost.Boost
-import org.thoughtcrime.securesms.components.settings.app.subscription.manage.NonVerifiedMonthlyDonation
-import org.thoughtcrime.securesms.database.model.databaseprotos.PendingOneTimeDonation
-import org.thoughtcrime.securesms.database.model.isLongRunning
-import org.thoughtcrime.securesms.database.model.isPending
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.subscription.Subscription
+import org.thoughtcrime.securesms.ryan.badges.models.Badge
+import org.thoughtcrime.securesms.ryan.components.settings.app.subscription.InAppDonations
+import org.thoughtcrime.securesms.ryan.components.settings.app.subscription.boost.Boost
+import org.thoughtcrime.securesms.ryan.components.settings.app.subscription.manage.NonVerifiedMonthlyDonation
+import org.thoughtcrime.securesms.ryan.database.model.databaseprotos.PendingOneTimeDonation
+import org.thoughtcrime.securesms.ryan.database.model.isLongRunning
+import org.thoughtcrime.securesms.ryan.database.model.isPending
+import org.thoughtcrime.securesms.ryan.keyvalue.SignalStore
+import org.thoughtcrime.securesms.ryan.subscription.Subscription
 import org.whispersystems.signalservice.api.subscriptions.ActiveSubscription
 import java.math.BigDecimal
 import java.util.Currency

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.payments.preferences;
+package org.thoughtcrime.securesms.ryan.payments.preferences;
 
 import android.os.Bundle;
 import android.view.View;
@@ -10,11 +10,11 @@ import androidx.lifecycle.ViewModelProvider;
 import androidx.navigation.fragment.NavHostFragment;
 import androidx.recyclerview.widget.RecyclerView;
 
-import org.thoughtcrime.securesms.LoggingFragment;
-import org.thoughtcrime.securesms.PaymentPreferencesDirections;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.payments.preferences.model.PaymentItem;
-import org.thoughtcrime.securesms.util.navigation.SafeNavigation;
+import org.thoughtcrime.securesms.ryan.LoggingFragment;
+import org.thoughtcrime.securesms.ryan.PaymentPreferencesDirections;
+import org.thoughtcrime.securesms.ryan.R;
+import org.thoughtcrime.securesms.ryan.payments.preferences.model.PaymentItem;
+import org.thoughtcrime.securesms.ryan.util.navigation.SafeNavigation;
 
 public class PaymentsPagerItemFragment extends LoggingFragment {
 

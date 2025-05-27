@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.webrtc;
+package org.thoughtcrime.securesms.ryan.components.webrtc;
 
 import android.content.Context;
 import android.util.AttributeSet;
@@ -24,19 +24,19 @@ import com.bumptech.glide.load.engine.DiskCacheStrategy;
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 
 import org.signal.core.util.ThreadUtil;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.avatar.fallback.FallbackAvatarDrawable;
-import org.thoughtcrime.securesms.badges.BadgeImageView;
-import org.thoughtcrime.securesms.components.AvatarImageView;
-import org.thoughtcrime.securesms.components.emoji.EmojiTextView;
-import org.thoughtcrime.securesms.contacts.avatars.ContactPhoto;
-import org.thoughtcrime.securesms.contacts.avatars.ProfileContactPhoto;
-import org.thoughtcrime.securesms.conversation.colors.ChatColors;
-import org.thoughtcrime.securesms.events.CallParticipant;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.recipients.RecipientId;
-import org.thoughtcrime.securesms.util.AvatarUtil;
-import org.thoughtcrime.securesms.util.ViewUtil;
+import org.thoughtcrime.securesms.ryan.R;
+import org.thoughtcrime.securesms.ryan.avatar.fallback.FallbackAvatarDrawable;
+import org.thoughtcrime.securesms.ryan.badges.BadgeImageView;
+import org.thoughtcrime.securesms.ryan.components.AvatarImageView;
+import org.thoughtcrime.securesms.ryan.components.emoji.EmojiTextView;
+import org.thoughtcrime.securesms.ryan.contacts.avatars.ContactPhoto;
+import org.thoughtcrime.securesms.ryan.contacts.avatars.ProfileContactPhoto;
+import org.thoughtcrime.securesms.ryan.conversation.colors.ChatColors;
+import org.thoughtcrime.securesms.ryan.events.CallParticipant;
+import org.thoughtcrime.securesms.ryan.recipients.Recipient;
+import org.thoughtcrime.securesms.ryan.recipients.RecipientId;
+import org.thoughtcrime.securesms.ryan.util.AvatarUtil;
+import org.thoughtcrime.securesms.ryan.util.ViewUtil;
 import org.webrtc.RendererCommon;
 import org.whispersystems.signalservice.api.util.Preconditions;
 

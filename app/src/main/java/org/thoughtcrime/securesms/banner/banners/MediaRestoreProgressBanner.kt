@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.banner.banners
+package org.thoughtcrime.securesms.ryan.banner.banners
 
 import android.content.BroadcastReceiver
 import android.content.Context
@@ -23,17 +23,17 @@ import kotlinx.coroutines.flow.flowOn
 import kotlinx.coroutines.flow.map
 import org.signal.core.util.bytes
 import org.signal.core.util.throttleLatest
-import org.thoughtcrime.securesms.backup.v2.ui.status.BackupStatusBanner
-import org.thoughtcrime.securesms.backup.v2.ui.status.BackupStatusData
-import org.thoughtcrime.securesms.banner.Banner
-import org.thoughtcrime.securesms.database.DatabaseObserver
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.jobmanager.impl.BatteryNotLowConstraint
-import org.thoughtcrime.securesms.jobmanager.impl.NetworkConstraint
-import org.thoughtcrime.securesms.jobmanager.impl.WifiConstraint
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.util.safeUnregisterReceiver
+import org.thoughtcrime.securesms.ryan.backup.v2.ui.status.BackupStatusBanner
+import org.thoughtcrime.securesms.ryan.backup.v2.ui.status.BackupStatusData
+import org.thoughtcrime.securesms.ryan.banner.Banner
+import org.thoughtcrime.securesms.ryan.database.DatabaseObserver
+import org.thoughtcrime.securesms.ryan.database.SignalDatabase
+import org.thoughtcrime.securesms.ryan.dependencies.AppDependencies
+import org.thoughtcrime.securesms.ryan.jobmanager.impl.BatteryNotLowConstraint
+import org.thoughtcrime.securesms.ryan.jobmanager.impl.NetworkConstraint
+import org.thoughtcrime.securesms.ryan.jobmanager.impl.WifiConstraint
+import org.thoughtcrime.securesms.ryan.keyvalue.SignalStore
+import org.thoughtcrime.securesms.ryan.util.safeUnregisterReceiver
 import kotlin.time.Duration.Companion.seconds
 
 @OptIn(ExperimentalCoroutinesApi::class)

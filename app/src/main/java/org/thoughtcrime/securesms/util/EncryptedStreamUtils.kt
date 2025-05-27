@@ -1,10 +1,10 @@
-package org.thoughtcrime.securesms.util
+package org.thoughtcrime.securesms.ryan.util
 
 import android.content.Context
 import androidx.annotation.WorkerThread
-import org.thoughtcrime.securesms.crypto.AttachmentSecretProvider
-import org.thoughtcrime.securesms.crypto.ModernDecryptingPartInputStream
-import org.thoughtcrime.securesms.crypto.ModernEncryptingPartOutputStream
+import org.thoughtcrime.securesms.ryan.crypto.AttachmentSecretProvider
+import org.thoughtcrime.securesms.ryan.crypto.ModernDecryptingPartInputStream
+import org.thoughtcrime.securesms.ryan.crypto.ModernEncryptingPartOutputStream
 import java.io.File
 import java.io.InputStream
 import java.io.OutputStream

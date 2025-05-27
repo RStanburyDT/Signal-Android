@@ -1,8 +1,8 @@
-package org.thoughtcrime.securesms.stories.viewer
+package org.thoughtcrime.securesms.ryan.stories.viewer
 
 import androidx.lifecycle.ViewModel
 import io.reactivex.rxjava3.core.Flowable
-import org.thoughtcrime.securesms.util.rx.RxStore
+import org.thoughtcrime.securesms.ryan.util.rx.RxStore
 
 class StoryVolumeViewModel : ViewModel() {
   private val store = RxStore(StoryVolumeState())

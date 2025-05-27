@@ -1,19 +1,19 @@
-package org.thoughtcrime.securesms.conversation.drafts
+package org.thoughtcrime.securesms.ryan.conversation.drafts
 
 import androidx.lifecycle.ViewModel
 import io.reactivex.rxjava3.android.schedulers.AndroidSchedulers
 import io.reactivex.rxjava3.core.Flowable
 import io.reactivex.rxjava3.core.Maybe
 import org.signal.core.util.Base64
-import org.thoughtcrime.securesms.components.location.SignalPlace
-import org.thoughtcrime.securesms.database.DraftTable.Draft
-import org.thoughtcrime.securesms.database.MentionUtil
-import org.thoughtcrime.securesms.database.model.Mention
-import org.thoughtcrime.securesms.database.model.MessageId
-import org.thoughtcrime.securesms.database.model.databaseprotos.BodyRangeList
-import org.thoughtcrime.securesms.mms.QuoteId
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.util.rx.RxStore
+import org.thoughtcrime.securesms.ryan.components.location.SignalPlace
+import org.thoughtcrime.securesms.ryan.database.DraftTable.Draft
+import org.thoughtcrime.securesms.ryan.database.MentionUtil
+import org.thoughtcrime.securesms.ryan.database.model.Mention
+import org.thoughtcrime.securesms.ryan.database.model.MessageId
+import org.thoughtcrime.securesms.ryan.database.model.databaseprotos.BodyRangeList
+import org.thoughtcrime.securesms.ryan.mms.QuoteId
+import org.thoughtcrime.securesms.ryan.recipients.RecipientId
+import org.thoughtcrime.securesms.ryan.util.rx.RxStore
 
 /**
  * ViewModel responsible for holding Voice Note draft state. The intention is to allow

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.badges.gifts
+package org.thoughtcrime.securesms.ryan.badges.gifts
 
 import android.content.Context
 import android.content.res.ColorStateList
@@ -12,11 +12,11 @@ import androidx.swiperefreshlayout.widget.CircularProgressDrawable
 import com.bumptech.glide.RequestManager
 import com.google.android.material.button.MaterialButton
 import org.signal.core.util.DimensionUnit
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.badges.BadgeImageView
-import org.thoughtcrime.securesms.badges.gifts.Gifts.formatExpiry
-import org.thoughtcrime.securesms.database.model.databaseprotos.GiftBadge
-import org.thoughtcrime.securesms.recipients.Recipient
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.badges.BadgeImageView
+import org.thoughtcrime.securesms.ryan.badges.gifts.Gifts.formatExpiry
+import org.thoughtcrime.securesms.ryan.database.model.databaseprotos.GiftBadge
+import org.thoughtcrime.securesms.ryan.recipients.Recipient
 
 /**
  * Displays a gift badge sent to or received from a user, and allows the user to

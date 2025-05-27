@@ -1,11 +1,11 @@
-package org.thoughtcrime.securesms.conversation.colors
+package org.thoughtcrime.securesms.ryan.conversation.colors
 
 import android.content.Context
 import androidx.annotation.ColorInt
 import androidx.core.content.ContextCompat
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientId
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.recipients.Recipient
+import org.thoughtcrime.securesms.ryan.recipients.RecipientId
 import org.whispersystems.signalservice.api.push.ServiceId
 
 /**

@@ -7,7 +7,7 @@ android {
   namespace = "org.signal.donations.app"
 
   defaultConfig {
-    applicationId = "org.signal.donations.app"
+    applicationId = "org.signal.donations.app.ryan"
   }
 }
 

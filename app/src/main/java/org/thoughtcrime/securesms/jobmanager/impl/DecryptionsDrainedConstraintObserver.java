@@ -1,10 +1,10 @@
-package org.thoughtcrime.securesms.jobmanager.impl;
+package org.thoughtcrime.securesms.ryan.jobmanager.impl;
 
 import androidx.annotation.NonNull;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.dependencies.AppDependencies;
-import org.thoughtcrime.securesms.jobmanager.ConstraintObserver;
+import org.thoughtcrime.securesms.ryan.dependencies.AppDependencies;
+import org.thoughtcrime.securesms.ryan.jobmanager.ConstraintObserver;
 
 /**
  * An observer for {@link DecryptionsDrainedConstraint}. Will fire when the websocket is drained and

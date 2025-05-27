@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.sensors;
+package org.thoughtcrime.securesms.ryan.components.sensors;
 
 import androidx.annotation.NonNull;
 

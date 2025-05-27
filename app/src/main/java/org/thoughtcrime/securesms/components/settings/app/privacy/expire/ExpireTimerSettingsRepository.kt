@@ -1,19 +1,19 @@
-package org.thoughtcrime.securesms.components.settings.app.privacy.expire
+package org.thoughtcrime.securesms.ryan.components.settings.app.privacy.expire
 
 import android.content.Context
 import androidx.annotation.WorkerThread
 import org.signal.core.util.concurrent.SignalExecutors
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.database.ThreadTable
-import org.thoughtcrime.securesms.groups.GroupChangeException
-import org.thoughtcrime.securesms.groups.GroupManager
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.mms.OutgoingMessage
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.sms.MessageSender
-import org.thoughtcrime.securesms.storage.StorageSyncHelper
+import org.thoughtcrime.securesms.ryan.database.SignalDatabase
+import org.thoughtcrime.securesms.ryan.database.ThreadTable
+import org.thoughtcrime.securesms.ryan.groups.GroupChangeException
+import org.thoughtcrime.securesms.ryan.groups.GroupManager
+import org.thoughtcrime.securesms.ryan.keyvalue.SignalStore
+import org.thoughtcrime.securesms.ryan.mms.OutgoingMessage
+import org.thoughtcrime.securesms.ryan.recipients.Recipient
+import org.thoughtcrime.securesms.ryan.recipients.RecipientId
+import org.thoughtcrime.securesms.ryan.sms.MessageSender
+import org.thoughtcrime.securesms.ryan.storage.StorageSyncHelper
 import java.io.IOException
 
 private val TAG: String = Log.tag(ExpireTimerSettingsRepository::class.java)

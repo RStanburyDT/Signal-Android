@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.audio;
+package org.thoughtcrime.securesms.ryan.audio;
 
 import android.os.Parcel;
 import android.os.Parcelable;
@@ -6,8 +6,8 @@ import android.os.Parcelable;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import org.thoughtcrime.securesms.database.model.databaseprotos.AudioWaveFormData;
-import org.thoughtcrime.securesms.util.ParcelUtil;
+import org.thoughtcrime.securesms.ryan.database.model.databaseprotos.AudioWaveFormData;
+import org.thoughtcrime.securesms.ryan.util.ParcelUtil;
 import org.signal.core.util.Base64;
 
 import java.io.IOException;

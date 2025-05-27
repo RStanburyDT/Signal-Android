@@ -1,11 +1,11 @@
-package org.thoughtcrime.securesms.service;
+package org.thoughtcrime.securesms.ryan.service;
 
 
 import android.content.Context;
 
-import org.thoughtcrime.securesms.jobs.PreKeysSyncJob;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
-import org.thoughtcrime.securesms.util.TextSecurePreferences;
+import org.thoughtcrime.securesms.ryan.jobs.PreKeysSyncJob;
+import org.thoughtcrime.securesms.ryan.keyvalue.SignalStore;
+import org.thoughtcrime.securesms.ryan.util.TextSecurePreferences;
 
 public class RotateSignedPreKeyListener extends PersistentAlarmManagerListener {
 

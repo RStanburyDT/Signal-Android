@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.backup.v2.ui.status
+package org.thoughtcrime.securesms.ryan.backup.v2.ui.status
 
 import androidx.annotation.DrawableRes
 import androidx.annotation.StringRes
@@ -42,8 +42,8 @@ import org.signal.core.util.ByteSize
 import org.signal.core.util.bytes
 import org.signal.core.util.kibiBytes
 import org.signal.core.util.mebiBytes
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.backup.v2.ui.BackupsIconColors
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.backup.v2.ui.BackupsIconColors
 import kotlin.math.max
 import kotlin.math.min
 

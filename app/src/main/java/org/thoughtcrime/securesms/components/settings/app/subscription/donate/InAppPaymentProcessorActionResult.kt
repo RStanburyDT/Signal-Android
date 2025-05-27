@@ -1,8 +1,8 @@
-package org.thoughtcrime.securesms.components.settings.app.subscription.donate
+package org.thoughtcrime.securesms.ryan.components.settings.app.subscription.donate
 
 import android.os.Parcelable
 import kotlinx.parcelize.Parcelize
-import org.thoughtcrime.securesms.database.InAppPaymentTable
+import org.thoughtcrime.securesms.ryan.database.InAppPaymentTable
 
 @Parcelize
 class InAppPaymentProcessorActionResult(

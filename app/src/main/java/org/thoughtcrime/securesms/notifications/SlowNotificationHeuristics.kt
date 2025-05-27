@@ -3,21 +3,21 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.notifications
+package org.thoughtcrime.securesms.ryan.notifications
 
 import android.os.Build
 import android.text.TextUtils
 import androidx.annotation.WorkerThread
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.database.LocalMetricsDatabase
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.util.DeviceProperties
-import org.thoughtcrime.securesms.util.JsonUtils
-import org.thoughtcrime.securesms.util.LocaleRemoteConfig
-import org.thoughtcrime.securesms.util.PowerManagerCompat
-import org.thoughtcrime.securesms.util.RemoteConfig
-import org.thoughtcrime.securesms.util.SignalLocalMetrics
+import org.thoughtcrime.securesms.ryan.database.LocalMetricsDatabase
+import org.thoughtcrime.securesms.ryan.dependencies.AppDependencies
+import org.thoughtcrime.securesms.ryan.keyvalue.SignalStore
+import org.thoughtcrime.securesms.ryan.util.DeviceProperties
+import org.thoughtcrime.securesms.ryan.util.JsonUtils
+import org.thoughtcrime.securesms.ryan.util.LocaleRemoteConfig
+import org.thoughtcrime.securesms.ryan.util.PowerManagerCompat
+import org.thoughtcrime.securesms.ryan.util.RemoteConfig
+import org.thoughtcrime.securesms.ryan.util.SignalLocalMetrics
 import java.util.concurrent.TimeUnit
 import kotlin.time.Duration.Companion.days
 import kotlin.time.Duration.Companion.hours

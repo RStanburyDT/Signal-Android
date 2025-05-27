@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.stories.viewer
+package org.thoughtcrime.securesms.ryan.stories.viewer
 
 import android.content.BroadcastReceiver
 import android.content.Context
@@ -18,16 +18,16 @@ import org.signal.core.util.dp
 import org.signal.core.util.getParcelableCompat
 import org.signal.core.util.getParcelableExtraCompat
 import org.signal.core.util.sp
-import org.thoughtcrime.securesms.PassphraseRequiredActivity
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.voice.VoiceNoteMediaController
-import org.thoughtcrime.securesms.components.voice.VoiceNoteMediaControllerOwner
-import org.thoughtcrime.securesms.stories.StoryViewerArgs
-import org.thoughtcrime.securesms.stories.viewer.page.StoryViewStateCache
-import org.thoughtcrime.securesms.stories.viewer.page.StoryViewStateViewModel
-import org.thoughtcrime.securesms.util.FullscreenHelper
-import org.thoughtcrime.securesms.util.ServiceUtil
-import org.thoughtcrime.securesms.util.ViewUtil
+import org.thoughtcrime.securesms.ryan.PassphraseRequiredActivity
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.components.voice.VoiceNoteMediaController
+import org.thoughtcrime.securesms.ryan.components.voice.VoiceNoteMediaControllerOwner
+import org.thoughtcrime.securesms.ryan.stories.StoryViewerArgs
+import org.thoughtcrime.securesms.ryan.stories.viewer.page.StoryViewStateCache
+import org.thoughtcrime.securesms.ryan.stories.viewer.page.StoryViewStateViewModel
+import org.thoughtcrime.securesms.ryan.util.FullscreenHelper
+import org.thoughtcrime.securesms.ryan.util.ServiceUtil
+import org.thoughtcrime.securesms.ryan.util.ViewUtil
 import kotlin.math.max
 import kotlin.math.min
 

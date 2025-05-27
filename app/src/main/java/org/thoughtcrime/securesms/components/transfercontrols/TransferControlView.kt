@@ -2,7 +2,7 @@
  * Copyright 2023 Signal Messenger, LLC
  * SPDX-License-Identifier: AGPL-3.0-only
  */
-package org.thoughtcrime.securesms.components.transfercontrols
+package org.thoughtcrime.securesms.ryan.components.transfercontrols
 
 import android.content.Context
 import android.os.Build
@@ -20,18 +20,18 @@ import org.greenrobot.eventbus.ThreadMode
 import org.signal.core.util.ByteSize
 import org.signal.core.util.bytes
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.attachments.Attachment
-import org.thoughtcrime.securesms.attachments.DatabaseAttachment
-import org.thoughtcrime.securesms.components.RecyclerViewParentTransitionController
-import org.thoughtcrime.securesms.database.AttachmentTable
-import org.thoughtcrime.securesms.databinding.TransferControlsViewBinding
-import org.thoughtcrime.securesms.events.PartProgressEvent
-import org.thoughtcrime.securesms.mms.Slide
-import org.thoughtcrime.securesms.util.MediaUtil
-import org.thoughtcrime.securesms.util.ThrottledDebouncer
-import org.thoughtcrime.securesms.util.ViewUtil
-import org.thoughtcrime.securesms.util.visible
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.attachments.Attachment
+import org.thoughtcrime.securesms.ryan.attachments.DatabaseAttachment
+import org.thoughtcrime.securesms.ryan.components.RecyclerViewParentTransitionController
+import org.thoughtcrime.securesms.ryan.database.AttachmentTable
+import org.thoughtcrime.securesms.ryan.databinding.TransferControlsViewBinding
+import org.thoughtcrime.securesms.ryan.events.PartProgressEvent
+import org.thoughtcrime.securesms.ryan.mms.Slide
+import org.thoughtcrime.securesms.ryan.util.MediaUtil
+import org.thoughtcrime.securesms.ryan.util.ThrottledDebouncer
+import org.thoughtcrime.securesms.ryan.util.ViewUtil
+import org.thoughtcrime.securesms.ryan.util.visible
 import java.util.UUID
 import kotlin.math.ceil
 import kotlin.math.roundToInt

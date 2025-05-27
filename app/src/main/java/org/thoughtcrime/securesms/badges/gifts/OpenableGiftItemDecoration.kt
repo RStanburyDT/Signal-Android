@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.badges.gifts
+package org.thoughtcrime.securesms.ryan.badges.gifts
 
 import android.animation.FloatEvaluator
 import android.content.Context
@@ -23,8 +23,8 @@ import androidx.lifecycle.DefaultLifecycleObserver
 import androidx.lifecycle.LifecycleOwner
 import androidx.recyclerview.widget.RecyclerView
 import org.signal.core.util.DimensionUnit
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.util.Projection
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.util.Projection
 import kotlin.math.PI
 import kotlin.math.max
 import kotlin.math.sin

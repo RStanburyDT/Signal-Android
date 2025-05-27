@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.storage
+package org.thoughtcrime.securesms.ryan.storage
 
 import android.app.Application
 import io.mockk.every
@@ -17,10 +17,10 @@ import org.junit.runner.RunWith
 import org.robolectric.RobolectricTestRunner
 import org.robolectric.annotation.Config
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.database.RecipientTable
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.testutil.EmptyLogger
-import org.thoughtcrime.securesms.testutil.MockAppDependenciesRule
+import org.thoughtcrime.securesms.ryan.database.RecipientTable
+import org.thoughtcrime.securesms.ryan.keyvalue.SignalStore
+import org.thoughtcrime.securesms.ryan.testutil.EmptyLogger
+import org.thoughtcrime.securesms.ryan.testutil.MockAppDependenciesRule
 import org.whispersystems.signalservice.api.push.ServiceId.ACI
 import org.whispersystems.signalservice.api.push.ServiceId.PNI
 import org.whispersystems.signalservice.api.storage.SignalContactRecord

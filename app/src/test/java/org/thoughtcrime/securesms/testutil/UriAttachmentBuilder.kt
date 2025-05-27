@@ -1,11 +1,11 @@
-package org.thoughtcrime.securesms.testutil
+package org.thoughtcrime.securesms.ryan.testutil
 
 import android.net.Uri
-import org.thoughtcrime.securesms.attachments.UriAttachment
-import org.thoughtcrime.securesms.audio.AudioHash
-import org.thoughtcrime.securesms.blurhash.BlurHash
-import org.thoughtcrime.securesms.database.AttachmentTable
-import org.thoughtcrime.securesms.stickers.StickerLocator
+import org.thoughtcrime.securesms.ryan.attachments.UriAttachment
+import org.thoughtcrime.securesms.ryan.audio.AudioHash
+import org.thoughtcrime.securesms.ryan.blurhash.BlurHash
+import org.thoughtcrime.securesms.ryan.database.AttachmentTable
+import org.thoughtcrime.securesms.ryan.stickers.StickerLocator
 
 object UriAttachmentBuilder {
   fun build(

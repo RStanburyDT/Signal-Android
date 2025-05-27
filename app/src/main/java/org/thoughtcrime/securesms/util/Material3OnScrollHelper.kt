@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.util
+package org.thoughtcrime.securesms.ryan.util
 
 import android.animation.ValueAnimator
 import android.view.View
@@ -12,8 +12,8 @@ import androidx.lifecycle.LifecycleOwner
 import androidx.recyclerview.widget.RecyclerView
 import com.google.android.material.animation.ArgbEvaluatorCompat
 import com.google.android.material.appbar.AppBarLayout
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.util.views.Stub
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.util.views.Stub
 
 /**
  * Sets the view's isActivated state when the content of the attached recycler can scroll up.

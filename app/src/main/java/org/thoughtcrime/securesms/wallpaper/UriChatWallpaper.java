@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.wallpaper;
+package org.thoughtcrime.securesms.ryan.wallpaper;
 
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -19,8 +19,8 @@ import com.bumptech.glide.request.RequestListener;
 import com.bumptech.glide.request.target.Target;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.database.model.databaseprotos.Wallpaper;
-import org.thoughtcrime.securesms.mms.DecryptableStreamUriLoader;
+import org.thoughtcrime.securesms.ryan.database.model.databaseprotos.Wallpaper;
+import org.thoughtcrime.securesms.ryan.mms.DecryptableStreamUriLoader;
 
 import java.util.Objects;
 import java.util.concurrent.ExecutionException;

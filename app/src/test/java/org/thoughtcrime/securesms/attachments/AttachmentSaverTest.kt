@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.attachments
+package org.thoughtcrime.securesms.ryan.attachments
 
 import android.app.Application
 import android.net.Uri
@@ -25,16 +25,16 @@ import org.junit.Test
 import org.junit.runner.RunWith
 import org.robolectric.RobolectricTestRunner
 import org.robolectric.annotation.Config
-import org.thoughtcrime.securesms.attachments.AttachmentSaver.Host
-import org.thoughtcrime.securesms.attachments.AttachmentSaver.RequestPermissionResult
-import org.thoughtcrime.securesms.attachments.AttachmentSaver.SaveToStorageWarningResult
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.keyvalue.UiHintValues
-import org.thoughtcrime.securesms.testing.CoroutineDispatcherRule
-import org.thoughtcrime.securesms.testutil.MockAppDependenciesRule
-import org.thoughtcrime.securesms.util.SaveAttachmentUtil
-import org.thoughtcrime.securesms.util.SaveAttachmentUtil.SaveAttachmentsResult
-import org.thoughtcrime.securesms.util.StorageUtil
+import org.thoughtcrime.securesms.ryan.attachments.AttachmentSaver.Host
+import org.thoughtcrime.securesms.ryan.attachments.AttachmentSaver.RequestPermissionResult
+import org.thoughtcrime.securesms.ryan.attachments.AttachmentSaver.SaveToStorageWarningResult
+import org.thoughtcrime.securesms.ryan.keyvalue.SignalStore
+import org.thoughtcrime.securesms.ryan.keyvalue.UiHintValues
+import org.thoughtcrime.securesms.ryan.testing.CoroutineDispatcherRule
+import org.thoughtcrime.securesms.ryan.testutil.MockAppDependenciesRule
+import org.thoughtcrime.securesms.ryan.util.SaveAttachmentUtil
+import org.thoughtcrime.securesms.ryan.util.SaveAttachmentUtil.SaveAttachmentsResult
+import org.thoughtcrime.securesms.ryan.util.StorageUtil
 
 @RunWith(RobolectricTestRunner::class)
 @Config(manifest = Config.NONE, application = Application::class)
@@ -49,14 +49,14 @@ class AttachmentSaverTest {
 
   private val testAttachments: Set<SaveAttachmentUtil.SaveAttachment> = setOf(
     SaveAttachmentUtil.SaveAttachment(
-      uri = Uri.parse("content://org.thoughtcrime.securesms/part/111"),
+      uri = Uri.parse("content://org.thoughtcrime.securesms.ryan/part/111"),
       contentType = "image/jpeg",
       date = 1742234803832,
       fileName = null
     ),
 
     SaveAttachmentUtil.SaveAttachment(
-      uri = Uri.parse("content://org.thoughtcrime.securesms/part/222"),
+      uri = Uri.parse("content://org.thoughtcrime.securesms.ryan/part/222"),
       contentType = "image/jpeg",
       date = 1742234384758,
       fileName = null

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.contacts.paged
+package org.thoughtcrime.securesms.ryan.contacts.paged
 
 import androidx.lifecycle.AbstractSavedStateViewModelFactory
 import androidx.lifecycle.LiveData
@@ -15,12 +15,12 @@ import org.signal.paging.LivePagedData
 import org.signal.paging.PagedData
 import org.signal.paging.PagingConfig
 import org.signal.paging.PagingController
-import org.thoughtcrime.securesms.conversationlist.chatfilter.ConversationFilterRequest
-import org.thoughtcrime.securesms.database.model.DistributionListPrivacyMode
-import org.thoughtcrime.securesms.groups.SelectionLimits
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.search.SearchRepository
-import org.thoughtcrime.securesms.util.livedata.Store
+import org.thoughtcrime.securesms.ryan.conversationlist.chatfilter.ConversationFilterRequest
+import org.thoughtcrime.securesms.ryan.database.model.DistributionListPrivacyMode
+import org.thoughtcrime.securesms.ryan.groups.SelectionLimits
+import org.thoughtcrime.securesms.ryan.recipients.Recipient
+import org.thoughtcrime.securesms.ryan.search.SearchRepository
+import org.thoughtcrime.securesms.ryan.util.livedata.Store
 import org.whispersystems.signalservice.api.util.Preconditions
 
 /**

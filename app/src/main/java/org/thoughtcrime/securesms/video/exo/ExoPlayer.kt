@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.video.exo
+package org.thoughtcrime.securesms.ryan.video.exo
 
 import androidx.media3.common.Player
 import androidx.media3.exoplayer.ExoPlayer

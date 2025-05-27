@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.registration.util;
+package org.thoughtcrime.securesms.ryan.registration.util;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -20,11 +20,11 @@ import com.google.i18n.phonenumbers.AsYouTypeFormatter;
 import com.google.i18n.phonenumbers.PhoneNumberUtil;
 
 import org.signal.core.util.E164Util;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.components.LabeledEditText;
-import org.thoughtcrime.securesms.registration.ui.countrycode.Country;
-import org.thoughtcrime.securesms.registration.ui.countrycode.CountryUtils;
-import org.thoughtcrime.securesms.registration.viewmodel.NumberViewState;
+import org.thoughtcrime.securesms.ryan.R;
+import org.thoughtcrime.securesms.ryan.components.LabeledEditText;
+import org.thoughtcrime.securesms.ryan.registration.ui.countrycode.Country;
+import org.thoughtcrime.securesms.ryan.registration.ui.countrycode.CountryUtils;
+import org.thoughtcrime.securesms.ryan.registration.viewmodel.NumberViewState;
 
 /**
  * Handle the logic and formatting of phone number input specifically for change number flows.

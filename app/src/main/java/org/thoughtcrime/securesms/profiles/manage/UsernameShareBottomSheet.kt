@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.profiles.manage
+package org.thoughtcrime.securesms.ryan.profiles.manage
 
 import android.content.ActivityNotFoundException
 import android.content.Intent
@@ -12,15 +12,15 @@ import org.signal.core.util.Base64
 import org.signal.core.util.DimensionUnit
 import org.signal.core.util.concurrent.LifecycleDisposable
 import org.signal.libsignal.usernames.Username
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.settings.DSLConfiguration
-import org.thoughtcrime.securesms.components.settings.DSLSettingsAdapter
-import org.thoughtcrime.securesms.components.settings.DSLSettingsBottomSheetFragment
-import org.thoughtcrime.securesms.components.settings.DSLSettingsText
-import org.thoughtcrime.securesms.components.settings.configure
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.util.FragmentResultContract
-import org.thoughtcrime.securesms.util.Util
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.components.settings.DSLConfiguration
+import org.thoughtcrime.securesms.ryan.components.settings.DSLSettingsAdapter
+import org.thoughtcrime.securesms.ryan.components.settings.DSLSettingsBottomSheetFragment
+import org.thoughtcrime.securesms.ryan.components.settings.DSLSettingsText
+import org.thoughtcrime.securesms.ryan.components.settings.configure
+import org.thoughtcrime.securesms.ryan.recipients.Recipient
+import org.thoughtcrime.securesms.ryan.util.FragmentResultContract
+import org.thoughtcrime.securesms.ryan.util.Util
 
 /**
  * Allows the user to either share their username directly or to copy it to their clipboard.

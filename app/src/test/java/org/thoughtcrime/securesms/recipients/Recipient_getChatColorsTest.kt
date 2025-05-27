@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.recipients
+package org.thoughtcrime.securesms.ryan.recipients
 
 import android.app.Application
 import android.graphics.Color
@@ -15,15 +15,15 @@ import org.junit.Test
 import org.junit.runner.RunWith
 import org.robolectric.RobolectricTestRunner
 import org.robolectric.annotation.Config
-import org.thoughtcrime.securesms.conversation.colors.ChatColors
-import org.thoughtcrime.securesms.conversation.colors.ChatColorsPalette
-import org.thoughtcrime.securesms.crypto.AttachmentSecretProvider
-import org.thoughtcrime.securesms.database.RecipientDatabaseTestUtils.createRecipient
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.keyvalue.ChatColorsValues
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.keyvalue.WallpaperValues
-import org.thoughtcrime.securesms.wallpaper.ChatWallpaper
+import org.thoughtcrime.securesms.ryan.conversation.colors.ChatColors
+import org.thoughtcrime.securesms.ryan.conversation.colors.ChatColorsPalette
+import org.thoughtcrime.securesms.ryan.crypto.AttachmentSecretProvider
+import org.thoughtcrime.securesms.ryan.database.RecipientDatabaseTestUtils.createRecipient
+import org.thoughtcrime.securesms.ryan.dependencies.AppDependencies
+import org.thoughtcrime.securesms.ryan.keyvalue.ChatColorsValues
+import org.thoughtcrime.securesms.ryan.keyvalue.SignalStore
+import org.thoughtcrime.securesms.ryan.keyvalue.WallpaperValues
+import org.thoughtcrime.securesms.ryan.wallpaper.ChatWallpaper
 
 @Suppress("ClassName")
 @RunWith(RobolectricTestRunner::class)

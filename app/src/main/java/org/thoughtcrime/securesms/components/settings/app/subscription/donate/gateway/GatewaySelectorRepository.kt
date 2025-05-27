@@ -1,14 +1,14 @@
-package org.thoughtcrime.securesms.components.settings.app.subscription.donate.gateway
+package org.thoughtcrime.securesms.ryan.components.settings.app.subscription.donate.gateway
 
 import io.reactivex.rxjava3.core.Single
 import org.signal.core.util.money.FiatMoney
-import org.thoughtcrime.securesms.components.settings.app.subscription.InAppPaymentsRepository
-import org.thoughtcrime.securesms.components.settings.app.subscription.getAvailablePaymentMethods
-import org.thoughtcrime.securesms.database.InAppPaymentTable
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.database.model.databaseprotos.InAppPaymentData
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.payments.currency.CurrencyUtil
+import org.thoughtcrime.securesms.ryan.components.settings.app.subscription.InAppPaymentsRepository
+import org.thoughtcrime.securesms.ryan.components.settings.app.subscription.getAvailablePaymentMethods
+import org.thoughtcrime.securesms.ryan.database.InAppPaymentTable
+import org.thoughtcrime.securesms.ryan.database.SignalDatabase
+import org.thoughtcrime.securesms.ryan.database.model.databaseprotos.InAppPaymentData
+import org.thoughtcrime.securesms.ryan.dependencies.AppDependencies
+import org.thoughtcrime.securesms.ryan.payments.currency.CurrencyUtil
 import org.whispersystems.signalservice.internal.push.SubscriptionsConfiguration
 import java.util.Locale
 

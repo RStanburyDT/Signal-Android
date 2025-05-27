@@ -1,12 +1,12 @@
-package org.thoughtcrime.securesms.conversation.ui.error;
+package org.thoughtcrime.securesms.ryan.conversation.ui.error;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 import com.annimon.stream.Stream;
 
-import org.thoughtcrime.securesms.database.model.MessageRecord;
-import org.thoughtcrime.securesms.recipients.RecipientId;
+import org.thoughtcrime.securesms.ryan.database.model.MessageRecord;
+import org.thoughtcrime.securesms.ryan.recipients.RecipientId;
 
 import java.util.List;
 

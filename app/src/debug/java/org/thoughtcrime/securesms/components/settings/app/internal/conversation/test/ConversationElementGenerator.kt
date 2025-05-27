@@ -3,19 +3,19 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.settings.app.internal.conversation.test
+package org.thoughtcrime.securesms.ryan.components.settings.app.internal.conversation.test
 
-import org.thoughtcrime.securesms.conversation.ConversationMessage.ConversationMessageFactory
-import org.thoughtcrime.securesms.conversation.v2.data.ConversationElementKey
-import org.thoughtcrime.securesms.conversation.v2.data.IncomingTextOnly
-import org.thoughtcrime.securesms.conversation.v2.data.OutgoingTextOnly
-import org.thoughtcrime.securesms.database.MessageTypes
-import org.thoughtcrime.securesms.database.model.MmsMessageRecord
-import org.thoughtcrime.securesms.database.model.StoryType
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.mms.SlideDeck
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingModel
+import org.thoughtcrime.securesms.ryan.conversation.ConversationMessage.ConversationMessageFactory
+import org.thoughtcrime.securesms.ryan.conversation.v2.data.ConversationElementKey
+import org.thoughtcrime.securesms.ryan.conversation.v2.data.IncomingTextOnly
+import org.thoughtcrime.securesms.ryan.conversation.v2.data.OutgoingTextOnly
+import org.thoughtcrime.securesms.ryan.database.MessageTypes
+import org.thoughtcrime.securesms.ryan.database.model.MmsMessageRecord
+import org.thoughtcrime.securesms.ryan.database.model.StoryType
+import org.thoughtcrime.securesms.ryan.dependencies.AppDependencies
+import org.thoughtcrime.securesms.ryan.mms.SlideDeck
+import org.thoughtcrime.securesms.ryan.recipients.Recipient
+import org.thoughtcrime.securesms.ryan.util.adapter.mapping.MappingModel
 import java.security.SecureRandom
 import kotlin.time.Duration.Companion.milliseconds
 

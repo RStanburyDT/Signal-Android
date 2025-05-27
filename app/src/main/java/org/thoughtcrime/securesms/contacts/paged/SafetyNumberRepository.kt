@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.contacts.paged
+package org.thoughtcrime.securesms.ryan.contacts.paged
 
 import androidx.annotation.VisibleForTesting
 import io.reactivex.rxjava3.core.Single
@@ -6,11 +6,11 @@ import org.signal.core.util.Stopwatch
 import org.signal.core.util.concurrent.SignalExecutors
 import org.signal.core.util.concurrent.safeBlockingGet
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.crypto.storage.SignalIdentityKeyStore
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.util.IdentityUtil
+import org.thoughtcrime.securesms.ryan.crypto.storage.SignalIdentityKeyStore
+import org.thoughtcrime.securesms.ryan.dependencies.AppDependencies
+import org.thoughtcrime.securesms.ryan.recipients.Recipient
+import org.thoughtcrime.securesms.ryan.recipients.RecipientId
+import org.thoughtcrime.securesms.ryan.util.IdentityUtil
 import org.whispersystems.signalservice.api.services.ProfileService
 import org.whispersystems.signalservice.internal.ServiceResponseProcessor
 import org.whispersystems.signalservice.internal.push.IdentityCheckResponse

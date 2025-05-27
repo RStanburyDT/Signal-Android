@@ -3,10 +3,10 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.badges.self.expired
+package org.thoughtcrime.securesms.ryan.badges.self.expired
 
 import androidx.annotation.StringRes
-import org.thoughtcrime.securesms.badges.models.Badge
+import org.thoughtcrime.securesms.ryan.badges.models.Badge
 
 data class MonthlyDonationCanceledState(
   val loadState: LoadState = LoadState.LOADING,

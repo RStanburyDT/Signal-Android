@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.mms;
+package org.thoughtcrime.securesms.ryan.mms;
 
 import android.content.Context;
 
@@ -6,13 +6,13 @@ import androidx.annotation.IntRange;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import org.thoughtcrime.securesms.dependencies.AppDependencies;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
-import org.thoughtcrime.securesms.util.RemoteConfig;
-import org.thoughtcrime.securesms.util.LocaleRemoteConfig;
-import org.thoughtcrime.securesms.util.Util;
-import org.thoughtcrime.securesms.video.TranscodingPreset;
-import org.thoughtcrime.securesms.video.videoconverter.utils.DeviceCapabilities;
+import org.thoughtcrime.securesms.ryan.dependencies.AppDependencies;
+import org.thoughtcrime.securesms.ryan.keyvalue.SignalStore;
+import org.thoughtcrime.securesms.ryan.util.RemoteConfig;
+import org.thoughtcrime.securesms.ryan.util.LocaleRemoteConfig;
+import org.thoughtcrime.securesms.ryan.util.Util;
+import org.thoughtcrime.securesms.ryan.video.TranscodingPreset;
+import org.thoughtcrime.securesms.ryan.video.videoconverter.utils.DeviceCapabilities;
 
 import java.util.Arrays;
 

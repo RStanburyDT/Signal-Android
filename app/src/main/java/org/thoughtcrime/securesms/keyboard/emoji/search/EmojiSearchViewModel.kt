@@ -1,14 +1,14 @@
-package org.thoughtcrime.securesms.keyboard.emoji.search
+package org.thoughtcrime.securesms.ryan.keyboard.emoji.search
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import org.thoughtcrime.securesms.components.emoji.EmojiPageModel
-import org.thoughtcrime.securesms.components.emoji.RecentEmojiPageModel
-import org.thoughtcrime.securesms.keyboard.emoji.toMappingModels
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingModel
-import org.thoughtcrime.securesms.util.livedata.LiveDataUtil
+import org.thoughtcrime.securesms.ryan.components.emoji.EmojiPageModel
+import org.thoughtcrime.securesms.ryan.components.emoji.RecentEmojiPageModel
+import org.thoughtcrime.securesms.ryan.keyboard.emoji.toMappingModels
+import org.thoughtcrime.securesms.ryan.util.adapter.mapping.MappingModel
+import org.thoughtcrime.securesms.ryan.util.livedata.LiveDataUtil
 
 class EmojiSearchViewModel(private val repository: EmojiSearchRepository) : ViewModel() {
 

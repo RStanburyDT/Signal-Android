@@ -1,9 +1,9 @@
-package org.thoughtcrime.securesms.conversation.mutiselect
+package org.thoughtcrime.securesms.ryan.conversation.mutiselect
 
-import org.thoughtcrime.securesms.conversation.ConversationMessage
-import org.thoughtcrime.securesms.database.model.MmsMessageRecord
-import org.thoughtcrime.securesms.mms.SlideDeck
-import org.thoughtcrime.securesms.mms.TextSlide
+import org.thoughtcrime.securesms.ryan.conversation.ConversationMessage
+import org.thoughtcrime.securesms.ryan.database.model.MmsMessageRecord
+import org.thoughtcrime.securesms.ryan.mms.SlideDeck
+import org.thoughtcrime.securesms.ryan.mms.TextSlide
 
 /**
  * General helper object for all things multiselect. This is only utilized by

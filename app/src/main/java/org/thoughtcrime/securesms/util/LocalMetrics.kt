@@ -1,13 +1,13 @@
-package org.thoughtcrime.securesms.util
+package org.thoughtcrime.securesms.ryan.util
 
 import android.os.SystemClock
 import org.signal.core.util.ThreadUtil
 import org.signal.core.util.concurrent.SignalExecutors
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.database.LocalMetricsDatabase
-import org.thoughtcrime.securesms.database.model.LocalMetricsEvent
-import org.thoughtcrime.securesms.database.model.LocalMetricsSplit
-import org.thoughtcrime.securesms.dependencies.AppDependencies
+import org.thoughtcrime.securesms.ryan.database.LocalMetricsDatabase
+import org.thoughtcrime.securesms.ryan.database.model.LocalMetricsEvent
+import org.thoughtcrime.securesms.ryan.database.model.LocalMetricsSplit
+import org.thoughtcrime.securesms.ryan.dependencies.AppDependencies
 import java.util.concurrent.Executor
 import java.util.concurrent.TimeUnit
 

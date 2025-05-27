@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.blurhash;
+package org.thoughtcrime.securesms.ryan.blurhash;
 
 import androidx.annotation.NonNull;
 

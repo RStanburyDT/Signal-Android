@@ -1,6 +1,6 @@
-package org.thoughtcrime.securesms.conversation.v2.groups
+package org.thoughtcrime.securesms.ryan.conversation.v2.groups
 
-import org.thoughtcrime.securesms.database.GroupTable
+import org.thoughtcrime.securesms.ryan.database.GroupTable
 
 /**
  * @param groupTableMemberLevel Self membership level

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.conversation;
+package org.thoughtcrime.securesms.ryan.conversation;
 
 import androidx.annotation.NonNull;
 import androidx.lifecycle.LiveData;
@@ -7,9 +7,9 @@ import androidx.lifecycle.ViewModel;
 import androidx.lifecycle.ViewModelProvider;
 
 import org.signal.core.util.ThreadUtil;
-import org.thoughtcrime.securesms.search.MessageResult;
-import org.thoughtcrime.securesms.search.SearchRepository;
-import org.thoughtcrime.securesms.util.Debouncer;
+import org.thoughtcrime.securesms.ryan.search.MessageResult;
+import org.thoughtcrime.securesms.ryan.search.SearchRepository;
+import org.thoughtcrime.securesms.ryan.util.Debouncer;
 
 import java.util.Collections;
 import java.util.List;

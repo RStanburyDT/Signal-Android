@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.recipients;
+package org.thoughtcrime.securesms.ryan.recipients;
 
 import android.content.Context;
 import android.database.Cursor;
@@ -11,16 +11,16 @@ import androidx.annotation.VisibleForTesting;
 import org.signal.core.util.ThreadUtil;
 import org.signal.core.util.concurrent.SignalExecutors;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.database.RecipientTable;
-import org.thoughtcrime.securesms.database.RecipientTable.MissingRecipientException;
-import org.thoughtcrime.securesms.database.SignalDatabase;
-import org.thoughtcrime.securesms.database.ThreadTable;
-import org.thoughtcrime.securesms.database.model.ThreadRecord;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
+import org.thoughtcrime.securesms.ryan.database.RecipientTable;
+import org.thoughtcrime.securesms.ryan.database.RecipientTable.MissingRecipientException;
+import org.thoughtcrime.securesms.ryan.database.SignalDatabase;
+import org.thoughtcrime.securesms.ryan.database.ThreadTable;
+import org.thoughtcrime.securesms.ryan.database.model.ThreadRecord;
+import org.thoughtcrime.securesms.ryan.keyvalue.SignalStore;
 import org.signal.core.util.CursorUtil;
-import org.thoughtcrime.securesms.util.LRUCache;
+import org.thoughtcrime.securesms.ryan.util.LRUCache;
 import org.signal.core.util.Stopwatch;
-import org.thoughtcrime.securesms.util.concurrent.FilteredExecutor;
+import org.thoughtcrime.securesms.ryan.util.concurrent.FilteredExecutor;
 import org.whispersystems.signalservice.api.push.ServiceId.ACI;
 
 import java.util.ArrayList;

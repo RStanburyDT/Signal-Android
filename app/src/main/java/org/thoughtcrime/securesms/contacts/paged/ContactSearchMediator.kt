@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.contacts.paged
+package org.thoughtcrime.securesms.ryan.contacts.paged
 
 import android.content.Context
 import android.view.View
@@ -10,18 +10,18 @@ import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import io.reactivex.rxjava3.android.schedulers.AndroidSchedulers
 import io.reactivex.rxjava3.core.Observable
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.conversationlist.chatfilter.ConversationFilterRequest
-import org.thoughtcrime.securesms.groups.SelectionLimits
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.search.SearchRepository
-import org.thoughtcrime.securesms.stories.settings.custom.PrivateStorySettingsFragment
-import org.thoughtcrime.securesms.stories.settings.my.MyStorySettingsFragment
-import org.thoughtcrime.securesms.stories.settings.privacy.ChooseInitialMyStoryMembershipBottomSheetDialogFragment
-import org.thoughtcrime.securesms.util.Debouncer
-import org.thoughtcrime.securesms.util.SpanUtil
-import org.thoughtcrime.securesms.util.adapter.mapping.PagingMappingAdapter
-import org.thoughtcrime.securesms.util.livedata.LiveDataUtil
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.conversationlist.chatfilter.ConversationFilterRequest
+import org.thoughtcrime.securesms.ryan.groups.SelectionLimits
+import org.thoughtcrime.securesms.ryan.keyvalue.SignalStore
+import org.thoughtcrime.securesms.ryan.search.SearchRepository
+import org.thoughtcrime.securesms.ryan.stories.settings.custom.PrivateStorySettingsFragment
+import org.thoughtcrime.securesms.ryan.stories.settings.my.MyStorySettingsFragment
+import org.thoughtcrime.securesms.ryan.stories.settings.privacy.ChooseInitialMyStoryMembershipBottomSheetDialogFragment
+import org.thoughtcrime.securesms.ryan.util.Debouncer
+import org.thoughtcrime.securesms.ryan.util.SpanUtil
+import org.thoughtcrime.securesms.ryan.util.adapter.mapping.PagingMappingAdapter
+import org.thoughtcrime.securesms.ryan.util.livedata.LiveDataUtil
 import java.util.concurrent.TimeUnit
 
 /**

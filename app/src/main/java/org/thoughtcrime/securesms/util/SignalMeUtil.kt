@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.util
+package org.thoughtcrime.securesms.ryan.util
 
 import com.google.i18n.phonenumbers.PhoneNumberUtil
 import java.util.Locale

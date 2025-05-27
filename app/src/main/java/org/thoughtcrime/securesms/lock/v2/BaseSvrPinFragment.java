@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.lock.v2;
+package org.thoughtcrime.securesms.ryan.lock.v2;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -22,16 +22,16 @@ import androidx.appcompat.widget.Toolbar;
 
 import com.google.android.material.button.MaterialButton;
 
-import org.thoughtcrime.securesms.LoggingFragment;
-import org.thoughtcrime.securesms.PassphraseRequiredActivity;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
-import org.thoughtcrime.securesms.pin.PinOptOutDialog;
-import org.thoughtcrime.securesms.registration.util.RegistrationUtil;
-import org.thoughtcrime.securesms.util.CommunicationActions;
-import org.thoughtcrime.securesms.util.text.AfterTextChanged;
-import org.thoughtcrime.securesms.util.views.CircularProgressMaterialButton;
-import org.thoughtcrime.securesms.util.views.LearnMoreTextView;
+import org.thoughtcrime.securesms.ryan.LoggingFragment;
+import org.thoughtcrime.securesms.ryan.PassphraseRequiredActivity;
+import org.thoughtcrime.securesms.ryan.R;
+import org.thoughtcrime.securesms.ryan.keyvalue.SignalStore;
+import org.thoughtcrime.securesms.ryan.pin.PinOptOutDialog;
+import org.thoughtcrime.securesms.ryan.registration.util.RegistrationUtil;
+import org.thoughtcrime.securesms.ryan.util.CommunicationActions;
+import org.thoughtcrime.securesms.ryan.util.text.AfterTextChanged;
+import org.thoughtcrime.securesms.ryan.util.views.CircularProgressMaterialButton;
+import org.thoughtcrime.securesms.ryan.util.views.LearnMoreTextView;
 
 public abstract class BaseSvrPinFragment<ViewModel extends BaseSvrPinViewModel> extends LoggingFragment {
 

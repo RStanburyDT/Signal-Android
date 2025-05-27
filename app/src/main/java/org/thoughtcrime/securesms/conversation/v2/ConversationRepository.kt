@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.conversation.v2
+package org.thoughtcrime.securesms.ryan.conversation.v2
 
 import android.content.Context
 import android.graphics.Bitmap
@@ -31,62 +31,62 @@ import org.signal.core.util.dp
 import org.signal.core.util.logging.Log
 import org.signal.paging.PagedData
 import org.signal.paging.PagingConfig
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.ShortcutLauncherActivity
-import org.thoughtcrime.securesms.attachments.TombstoneAttachment
-import org.thoughtcrime.securesms.avatar.fallback.FallbackAvatarDrawable
-import org.thoughtcrime.securesms.components.emoji.EmojiStrings
-import org.thoughtcrime.securesms.contactshare.Contact
-import org.thoughtcrime.securesms.contactshare.ContactUtil
-import org.thoughtcrime.securesms.conversation.ConversationMessage
-import org.thoughtcrime.securesms.conversation.mutiselect.MultiselectPart
-import org.thoughtcrime.securesms.conversation.v2.RequestReviewState.GroupReviewState
-import org.thoughtcrime.securesms.conversation.v2.RequestReviewState.IndividualReviewState
-import org.thoughtcrime.securesms.conversation.v2.data.ConversationDataSource
-import org.thoughtcrime.securesms.crypto.ReentrantSessionLock
-import org.thoughtcrime.securesms.database.GroupTable
-import org.thoughtcrime.securesms.database.IdentityTable.VerifiedStatus
-import org.thoughtcrime.securesms.database.MessageTable
-import org.thoughtcrime.securesms.database.RecipientTable
-import org.thoughtcrime.securesms.database.RxDatabaseObserver
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.database.SignalDatabase.Companion.attachments
-import org.thoughtcrime.securesms.database.SignalDatabase.Companion.recipients
-import org.thoughtcrime.securesms.database.model.GroupRecord
-import org.thoughtcrime.securesms.database.model.IdentityRecord
-import org.thoughtcrime.securesms.database.model.Mention
-import org.thoughtcrime.securesms.database.model.MessageId
-import org.thoughtcrime.securesms.database.model.MessageRecord
-import org.thoughtcrime.securesms.database.model.MmsMessageRecord
-import org.thoughtcrime.securesms.database.model.ReactionRecord
-import org.thoughtcrime.securesms.database.model.StickerRecord
-import org.thoughtcrime.securesms.database.model.databaseprotos.BodyRangeList
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.jobs.MultiDeviceViewOnceOpenJob
-import org.thoughtcrime.securesms.keyboard.KeyboardUtil
-import org.thoughtcrime.securesms.linkpreview.LinkPreview
-import org.thoughtcrime.securesms.messagerequests.MessageRequestState
-import org.thoughtcrime.securesms.mms.OutgoingMessage
-import org.thoughtcrime.securesms.mms.PartAuthority
-import org.thoughtcrime.securesms.mms.QuoteModel
-import org.thoughtcrime.securesms.mms.Slide
-import org.thoughtcrime.securesms.mms.SlideDeck
-import org.thoughtcrime.securesms.profiles.spoofing.ReviewRecipient
-import org.thoughtcrime.securesms.providers.BlobProvider
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.sms.MessageSender
-import org.thoughtcrime.securesms.sms.MessageSender.PreUploadResult
-import org.thoughtcrime.securesms.util.DrawableUtil
-import org.thoughtcrime.securesms.util.MediaUtil
-import org.thoughtcrime.securesms.util.MessageUtil
-import org.thoughtcrime.securesms.util.SignalLocalMetrics
-import org.thoughtcrime.securesms.util.Util
-import org.thoughtcrime.securesms.util.hasLinkPreview
-import org.thoughtcrime.securesms.util.hasSharedContact
-import org.thoughtcrime.securesms.util.hasTextSlide
-import org.thoughtcrime.securesms.util.isViewOnceMessage
-import org.thoughtcrime.securesms.util.requireTextSlide
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.ShortcutLauncherActivity
+import org.thoughtcrime.securesms.ryan.attachments.TombstoneAttachment
+import org.thoughtcrime.securesms.ryan.avatar.fallback.FallbackAvatarDrawable
+import org.thoughtcrime.securesms.ryan.components.emoji.EmojiStrings
+import org.thoughtcrime.securesms.ryan.contactshare.Contact
+import org.thoughtcrime.securesms.ryan.contactshare.ContactUtil
+import org.thoughtcrime.securesms.ryan.conversation.ConversationMessage
+import org.thoughtcrime.securesms.ryan.conversation.mutiselect.MultiselectPart
+import org.thoughtcrime.securesms.ryan.conversation.v2.RequestReviewState.GroupReviewState
+import org.thoughtcrime.securesms.ryan.conversation.v2.RequestReviewState.IndividualReviewState
+import org.thoughtcrime.securesms.ryan.conversation.v2.data.ConversationDataSource
+import org.thoughtcrime.securesms.ryan.crypto.ReentrantSessionLock
+import org.thoughtcrime.securesms.ryan.database.GroupTable
+import org.thoughtcrime.securesms.ryan.database.IdentityTable.VerifiedStatus
+import org.thoughtcrime.securesms.ryan.database.MessageTable
+import org.thoughtcrime.securesms.ryan.database.RecipientTable
+import org.thoughtcrime.securesms.ryan.database.RxDatabaseObserver
+import org.thoughtcrime.securesms.ryan.database.SignalDatabase
+import org.thoughtcrime.securesms.ryan.database.SignalDatabase.Companion.attachments
+import org.thoughtcrime.securesms.ryan.database.SignalDatabase.Companion.recipients
+import org.thoughtcrime.securesms.ryan.database.model.GroupRecord
+import org.thoughtcrime.securesms.ryan.database.model.IdentityRecord
+import org.thoughtcrime.securesms.ryan.database.model.Mention
+import org.thoughtcrime.securesms.ryan.database.model.MessageId
+import org.thoughtcrime.securesms.ryan.database.model.MessageRecord
+import org.thoughtcrime.securesms.ryan.database.model.MmsMessageRecord
+import org.thoughtcrime.securesms.ryan.database.model.ReactionRecord
+import org.thoughtcrime.securesms.ryan.database.model.StickerRecord
+import org.thoughtcrime.securesms.ryan.database.model.databaseprotos.BodyRangeList
+import org.thoughtcrime.securesms.ryan.dependencies.AppDependencies
+import org.thoughtcrime.securesms.ryan.jobs.MultiDeviceViewOnceOpenJob
+import org.thoughtcrime.securesms.ryan.keyboard.KeyboardUtil
+import org.thoughtcrime.securesms.ryan.linkpreview.LinkPreview
+import org.thoughtcrime.securesms.ryan.messagerequests.MessageRequestState
+import org.thoughtcrime.securesms.ryan.mms.OutgoingMessage
+import org.thoughtcrime.securesms.ryan.mms.PartAuthority
+import org.thoughtcrime.securesms.ryan.mms.QuoteModel
+import org.thoughtcrime.securesms.ryan.mms.Slide
+import org.thoughtcrime.securesms.ryan.mms.SlideDeck
+import org.thoughtcrime.securesms.ryan.profiles.spoofing.ReviewRecipient
+import org.thoughtcrime.securesms.ryan.providers.BlobProvider
+import org.thoughtcrime.securesms.ryan.recipients.Recipient
+import org.thoughtcrime.securesms.ryan.recipients.RecipientId
+import org.thoughtcrime.securesms.ryan.sms.MessageSender
+import org.thoughtcrime.securesms.ryan.sms.MessageSender.PreUploadResult
+import org.thoughtcrime.securesms.ryan.util.DrawableUtil
+import org.thoughtcrime.securesms.ryan.util.MediaUtil
+import org.thoughtcrime.securesms.ryan.util.MessageUtil
+import org.thoughtcrime.securesms.ryan.util.SignalLocalMetrics
+import org.thoughtcrime.securesms.ryan.util.Util
+import org.thoughtcrime.securesms.ryan.util.hasLinkPreview
+import org.thoughtcrime.securesms.ryan.util.hasSharedContact
+import org.thoughtcrime.securesms.ryan.util.hasTextSlide
+import org.thoughtcrime.securesms.ryan.util.isViewOnceMessage
+import org.thoughtcrime.securesms.ryan.util.requireTextSlide
 import java.io.IOException
 import kotlin.math.max
 import kotlin.time.Duration
@@ -102,7 +102,7 @@ class ConversationRepository(
   }
 
   private val applicationContext = localContext.applicationContext
-  private val oldConversationRepository = org.thoughtcrime.securesms.conversation.ConversationRepository()
+  private val oldConversationRepository = org.thoughtcrime.securesms.ryan.conversation.ConversationRepository()
 
   /**
    * Gets image details for an image sent from the keyboard

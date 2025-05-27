@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.payments;
+package org.thoughtcrime.securesms.ryan.payments;
 
 import android.net.Uri;
 

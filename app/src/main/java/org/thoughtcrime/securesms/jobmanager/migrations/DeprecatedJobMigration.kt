@@ -3,9 +3,9 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.jobmanager.migrations
+package org.thoughtcrime.securesms.ryan.jobmanager.migrations
 
-import org.thoughtcrime.securesms.jobmanager.JobMigration
+import org.thoughtcrime.securesms.ryan.jobmanager.JobMigration
 
 /**
  * Used as a replacement for another JobMigration that is no longer necessary.

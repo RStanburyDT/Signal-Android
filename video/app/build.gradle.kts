@@ -20,7 +20,7 @@ android {
   compileSdkVersion = signalCompileSdkVersion
 
   defaultConfig {
-    applicationId = "org.thoughtcrime.video.app"
+    applicationId = "org.thoughtcrime.video.app.ryan"
     minSdk = 23
     targetSdk = signalTargetSdkVersion
     versionCode = 1

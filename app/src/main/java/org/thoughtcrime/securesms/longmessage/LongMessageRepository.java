@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.longmessage;
+package org.thoughtcrime.securesms.ryan.longmessage;
 
 import android.content.Context;
 import android.database.Cursor;
@@ -8,10 +8,10 @@ import androidx.annotation.WorkerThread;
 
 import org.signal.core.util.concurrent.SignalExecutors;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.conversation.ConversationMessage;
-import org.thoughtcrime.securesms.database.MessageTable;
-import org.thoughtcrime.securesms.database.SignalDatabase;
-import org.thoughtcrime.securesms.database.model.MmsMessageRecord;
+import org.thoughtcrime.securesms.ryan.conversation.ConversationMessage;
+import org.thoughtcrime.securesms.ryan.database.MessageTable;
+import org.thoughtcrime.securesms.ryan.database.SignalDatabase;
+import org.thoughtcrime.securesms.ryan.database.model.MmsMessageRecord;
 
 import java.util.Optional;
 

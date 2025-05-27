@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.registration.ui.phonenumber
+package org.thoughtcrime.securesms.ryan.registration.ui.phonenumber
 
 import android.content.Context
 import androidx.lifecycle.ViewModel
@@ -15,11 +15,11 @@ import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.update
 import org.signal.core.util.E164Util
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.registration.data.RegistrationRepository
-import org.thoughtcrime.securesms.registration.ui.countrycode.Country
-import org.thoughtcrime.securesms.registration.ui.countrycode.CountryUtils
-import org.thoughtcrime.securesms.registration.util.CountryPrefix
-import org.thoughtcrime.securesms.util.Util
+import org.thoughtcrime.securesms.ryan.registration.data.RegistrationRepository
+import org.thoughtcrime.securesms.ryan.registration.ui.countrycode.Country
+import org.thoughtcrime.securesms.ryan.registration.ui.countrycode.CountryUtils
+import org.thoughtcrime.securesms.ryan.registration.util.CountryPrefix
+import org.thoughtcrime.securesms.ryan.util.Util
 
 /**
  * ViewModel for the phone number entry screen.

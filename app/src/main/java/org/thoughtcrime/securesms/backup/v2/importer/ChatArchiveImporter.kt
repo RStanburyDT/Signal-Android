@@ -3,25 +3,25 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.backup.v2.importer
+package org.thoughtcrime.securesms.ryan.backup.v2.importer
 
 import androidx.core.content.contentValuesOf
 import org.signal.core.util.SqlUtil
 import org.signal.core.util.insertInto
 import org.signal.core.util.toInt
-import org.thoughtcrime.securesms.attachments.AttachmentId
-import org.thoughtcrime.securesms.backup.v2.ImportState
-import org.thoughtcrime.securesms.backup.v2.database.restoreWallpaperAttachment
-import org.thoughtcrime.securesms.backup.v2.proto.Chat
-import org.thoughtcrime.securesms.backup.v2.util.parseChatWallpaper
-import org.thoughtcrime.securesms.backup.v2.util.toLocal
-import org.thoughtcrime.securesms.backup.v2.util.toLocalAttachment
-import org.thoughtcrime.securesms.conversation.colors.ChatColors
-import org.thoughtcrime.securesms.database.RecipientTable
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.database.ThreadTable
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.wallpaper.UriChatWallpaper
+import org.thoughtcrime.securesms.ryan.attachments.AttachmentId
+import org.thoughtcrime.securesms.ryan.backup.v2.ImportState
+import org.thoughtcrime.securesms.ryan.backup.v2.database.restoreWallpaperAttachment
+import org.thoughtcrime.securesms.ryan.backup.v2.proto.Chat
+import org.thoughtcrime.securesms.ryan.backup.v2.util.parseChatWallpaper
+import org.thoughtcrime.securesms.ryan.backup.v2.util.toLocal
+import org.thoughtcrime.securesms.ryan.backup.v2.util.toLocalAttachment
+import org.thoughtcrime.securesms.ryan.conversation.colors.ChatColors
+import org.thoughtcrime.securesms.ryan.database.RecipientTable
+import org.thoughtcrime.securesms.ryan.database.SignalDatabase
+import org.thoughtcrime.securesms.ryan.database.ThreadTable
+import org.thoughtcrime.securesms.ryan.recipients.RecipientId
+import org.thoughtcrime.securesms.ryan.wallpaper.UriChatWallpaper
 import kotlin.time.Duration.Companion.milliseconds
 
 /**

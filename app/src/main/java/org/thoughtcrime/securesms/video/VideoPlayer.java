@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.thoughtcrime.securesms.video;
+package org.thoughtcrime.securesms.ryan.video;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -47,10 +47,10 @@ import androidx.media3.ui.LegacyPlayerControlView;
 import androidx.media3.ui.PlayerView;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.dependencies.AppDependencies;
-import org.thoughtcrime.securesms.mediapreview.MediaPreviewPlayerControlView;
-import org.thoughtcrime.securesms.mms.VideoSlide;
+import org.thoughtcrime.securesms.ryan.R;
+import org.thoughtcrime.securesms.ryan.dependencies.AppDependencies;
+import org.thoughtcrime.securesms.ryan.mediapreview.MediaPreviewPlayerControlView;
+import org.thoughtcrime.securesms.ryan.mms.VideoSlide;
 
 import java.util.Objects;
 

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components;
+package org.thoughtcrime.securesms.ryan.components;
 
 
 import android.content.Context;
@@ -22,12 +22,12 @@ import org.greenrobot.eventbus.Subscribe;
 import org.greenrobot.eventbus.ThreadMode;
 import org.signal.core.util.ByteSize;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.database.AttachmentTable;
-import org.thoughtcrime.securesms.events.PartProgressEvent;
-import org.thoughtcrime.securesms.mms.Slide;
-import org.thoughtcrime.securesms.mms.SlideClickListener;
-import org.thoughtcrime.securesms.mms.SlidesClickedListener;
+import org.thoughtcrime.securesms.ryan.R;
+import org.thoughtcrime.securesms.ryan.database.AttachmentTable;
+import org.thoughtcrime.securesms.ryan.events.PartProgressEvent;
+import org.thoughtcrime.securesms.ryan.mms.Slide;
+import org.thoughtcrime.securesms.ryan.mms.SlideClickListener;
+import org.thoughtcrime.securesms.ryan.mms.SlidesClickedListener;
 import org.whispersystems.signalservice.api.util.OptionalUtil;
 
 import java.util.Collections;

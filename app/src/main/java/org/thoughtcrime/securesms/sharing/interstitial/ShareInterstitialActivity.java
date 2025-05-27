@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.sharing.interstitial;
+package org.thoughtcrime.securesms.ryan.sharing.interstitial;
 
 import android.content.Context;
 import android.content.Intent;
@@ -13,21 +13,21 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.annimon.stream.Stream;
 import com.bumptech.glide.Glide;
 
-import org.thoughtcrime.securesms.PassphraseRequiredActivity;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.components.LinkPreviewView;
-import org.thoughtcrime.securesms.components.SelectionAwareEmojiEditText;
-import org.thoughtcrime.securesms.linkpreview.LinkPreviewRepository;
-import org.thoughtcrime.securesms.linkpreview.LinkPreviewViewModel;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.sharing.MultiShareArgs;
-import org.thoughtcrime.securesms.sharing.MultiShareDialogs;
-import org.thoughtcrime.securesms.sharing.ShareFlowConstants;
-import org.thoughtcrime.securesms.util.DynamicNoActionBarTheme;
-import org.thoughtcrime.securesms.util.DynamicTheme;
-import org.thoughtcrime.securesms.util.ViewUtil;
-import org.thoughtcrime.securesms.util.text.AfterTextChanged;
-import org.thoughtcrime.securesms.util.views.CircularProgressMaterialButton;
+import org.thoughtcrime.securesms.ryan.PassphraseRequiredActivity;
+import org.thoughtcrime.securesms.ryan.R;
+import org.thoughtcrime.securesms.ryan.components.LinkPreviewView;
+import org.thoughtcrime.securesms.ryan.components.SelectionAwareEmojiEditText;
+import org.thoughtcrime.securesms.ryan.linkpreview.LinkPreviewRepository;
+import org.thoughtcrime.securesms.ryan.linkpreview.LinkPreviewViewModel;
+import org.thoughtcrime.securesms.ryan.recipients.Recipient;
+import org.thoughtcrime.securesms.ryan.sharing.MultiShareArgs;
+import org.thoughtcrime.securesms.ryan.sharing.MultiShareDialogs;
+import org.thoughtcrime.securesms.ryan.sharing.ShareFlowConstants;
+import org.thoughtcrime.securesms.ryan.util.DynamicNoActionBarTheme;
+import org.thoughtcrime.securesms.ryan.util.DynamicTheme;
+import org.thoughtcrime.securesms.ryan.util.ViewUtil;
+import org.thoughtcrime.securesms.ryan.util.text.AfterTextChanged;
+import org.thoughtcrime.securesms.ryan.util.views.CircularProgressMaterialButton;
 
 import java.util.Objects;
 

@@ -1,9 +1,9 @@
-package org.thoughtcrime.securesms.stories.viewer.page
+package org.thoughtcrime.securesms.ryan.stories.viewer.page
 
 import android.os.Parcel
 import android.os.Parcelable
 import kotlinx.parcelize.Parcelize
-import org.thoughtcrime.securesms.util.ParcelUtil
+import org.thoughtcrime.securesms.ryan.util.ParcelUtil
 
 /**
  * Activity-bounds ViewModel which tracks the viewed state for stories.

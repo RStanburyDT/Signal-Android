@@ -3,10 +3,10 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.registration.data.network
+package org.thoughtcrime.securesms.ryan.registration.data.network
 
-import org.thoughtcrime.securesms.pin.SvrWrongPinException
-import org.thoughtcrime.securesms.registration.data.AccountRegistrationResult
+import org.thoughtcrime.securesms.ryan.pin.SvrWrongPinException
+import org.thoughtcrime.securesms.ryan.registration.data.AccountRegistrationResult
 import org.whispersystems.signalservice.api.NetworkResult
 import org.whispersystems.signalservice.api.SvrNoDataException
 import org.whispersystems.signalservice.api.push.exceptions.AuthorizationFailedException

@@ -3,13 +3,13 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.video.postprocessing
+package org.thoughtcrime.securesms.ryan.video.postprocessing
 
 import org.signal.core.util.readLength
 import org.signal.core.util.stream.LimitedInputStream
 import org.signal.libsignal.media.Mp4Sanitizer
 import org.signal.libsignal.media.SanitizedMetadata
-import org.thoughtcrime.securesms.video.exceptions.VideoPostProcessingException
+import org.thoughtcrime.securesms.ryan.video.exceptions.VideoPostProcessingException
 import java.io.ByteArrayInputStream
 import java.io.InputStream
 import java.io.OutputStream

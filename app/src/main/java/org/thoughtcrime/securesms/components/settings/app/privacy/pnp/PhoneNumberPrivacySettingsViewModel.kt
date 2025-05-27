@@ -1,8 +1,20 @@
-package org.thoughtcrime.securesms.components.settings.app.privacy.pnp
+package org.thoughtcrime.securesms.ryan.components.settings.app.privacy.pnp
 
 import androidx.compose.runtime.State
 import androidx.compose.runtime.mutableStateOf
 import androidx.lifecycle.ViewModel
+<<<<<<< HEAD
+import org.thoughtcrime.securesms.ryan.database.SignalDatabase
+import org.thoughtcrime.securesms.ryan.dependencies.AppDependencies
+import org.thoughtcrime.securesms.ryan.jobs.ProfileUploadJob
+import org.thoughtcrime.securesms.ryan.jobs.RefreshAttributesJob
+import org.thoughtcrime.securesms.ryan.jobs.RefreshOwnProfileJob
+import org.thoughtcrime.securesms.ryan.keyvalue.PhoneNumberPrivacyValues.PhoneNumberDiscoverabilityMode
+import org.thoughtcrime.securesms.ryan.keyvalue.PhoneNumberPrivacyValues.PhoneNumberSharingMode
+import org.thoughtcrime.securesms.ryan.keyvalue.SignalStore
+import org.thoughtcrime.securesms.ryan.recipients.Recipient
+import org.thoughtcrime.securesms.ryan.storage.StorageSyncHelper
+=======
 import androidx.lifecycle.viewModelScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.delay
@@ -19,6 +31,7 @@ import org.thoughtcrime.securesms.keyvalue.SignalStore
 import org.thoughtcrime.securesms.recipients.Recipient
 import org.thoughtcrime.securesms.storage.StorageSyncHelper
 import kotlin.time.Duration.Companion.seconds
+>>>>>>> 23669c3c372284d42db486a218d9f29bef247abf
 
 class PhoneNumberPrivacySettingsViewModel : ViewModel() {
 

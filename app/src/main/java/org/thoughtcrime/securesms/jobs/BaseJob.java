@@ -1,15 +1,15 @@
-package org.thoughtcrime.securesms.jobs;
+package org.thoughtcrime.securesms.ryan.jobs;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 import org.signal.core.util.logging.Log;
 import org.signal.core.util.tracing.Tracer;
-import org.thoughtcrime.securesms.jobmanager.Job;
-import org.thoughtcrime.securesms.jobmanager.JobLogger;
-import org.thoughtcrime.securesms.jobmanager.JobManager.Chain;
-import org.thoughtcrime.securesms.jobmanager.impl.BackoffUtil;
-import org.thoughtcrime.securesms.util.RemoteConfig;
+import org.thoughtcrime.securesms.ryan.jobmanager.Job;
+import org.thoughtcrime.securesms.ryan.jobmanager.JobLogger;
+import org.thoughtcrime.securesms.ryan.jobmanager.JobManager.Chain;
+import org.thoughtcrime.securesms.ryan.jobmanager.impl.BackoffUtil;
+import org.thoughtcrime.securesms.ryan.util.RemoteConfig;
 
 public abstract class BaseJob extends Job {
 

@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.conversation.v2
+package org.thoughtcrime.securesms.ryan.conversation.v2
 
 import android.content.Context
 import android.transition.ChangeBounds
@@ -16,20 +16,20 @@ import android.view.View
 import androidx.appcompat.widget.LinearLayoutCompat
 import androidx.compose.ui.platform.ComposeView
 import androidx.core.transition.addListener
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.banner.Banner
-import org.thoughtcrime.securesms.banner.BannerManager
-import org.thoughtcrime.securesms.components.identity.UnverifiedBannerView
-import org.thoughtcrime.securesms.components.voice.VoiceNotePlayerView
-import org.thoughtcrime.securesms.database.identity.IdentityRecordList
-import org.thoughtcrime.securesms.database.model.IdentityRecord
-import org.thoughtcrime.securesms.groups.GroupId
-import org.thoughtcrime.securesms.profiles.spoofing.ReviewBannerView
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.util.IdentityUtil
-import org.thoughtcrime.securesms.util.ViewUtil
-import org.thoughtcrime.securesms.util.views.Stub
-import org.thoughtcrime.securesms.util.visible
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.banner.Banner
+import org.thoughtcrime.securesms.ryan.banner.BannerManager
+import org.thoughtcrime.securesms.ryan.components.identity.UnverifiedBannerView
+import org.thoughtcrime.securesms.ryan.components.voice.VoiceNotePlayerView
+import org.thoughtcrime.securesms.ryan.database.identity.IdentityRecordList
+import org.thoughtcrime.securesms.ryan.database.model.IdentityRecord
+import org.thoughtcrime.securesms.ryan.groups.GroupId
+import org.thoughtcrime.securesms.ryan.profiles.spoofing.ReviewBannerView
+import org.thoughtcrime.securesms.ryan.recipients.RecipientId
+import org.thoughtcrime.securesms.ryan.util.IdentityUtil
+import org.thoughtcrime.securesms.ryan.util.ViewUtil
+import org.thoughtcrime.securesms.ryan.util.views.Stub
+import org.thoughtcrime.securesms.ryan.util.visible
 
 /**
  * Responsible for showing the various "banner" views at the top of a conversation

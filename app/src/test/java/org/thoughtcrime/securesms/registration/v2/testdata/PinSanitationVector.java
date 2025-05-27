@@ -1,9 +1,9 @@
-package org.thoughtcrime.securesms.registration.testdata;
+package org.thoughtcrime.securesms.ryan.registration.testdata;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
 
-import org.thoughtcrime.securesms.testutil.HexDeserializer;
+import org.thoughtcrime.securesms.ryan.testutil.HexDeserializer;
 
 public class PinSanitationVector {
 

@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.settings.app.subscription.completed
+package org.thoughtcrime.securesms.ryan.components.settings.app.subscription.completed
 
 import androidx.fragment.app.FragmentManager
 import androidx.lifecycle.DefaultLifecycleObserver
@@ -13,20 +13,20 @@ import io.reactivex.rxjava3.core.Single
 import io.reactivex.rxjava3.kotlin.subscribeBy
 import io.reactivex.rxjava3.schedulers.Schedulers
 import org.signal.core.util.concurrent.LifecycleDisposable
-import org.thoughtcrime.securesms.backup.v2.ui.BackupAlert
-import org.thoughtcrime.securesms.backup.v2.ui.BackupAlertBottomSheet
-import org.thoughtcrime.securesms.badges.Badges
-import org.thoughtcrime.securesms.badges.self.expired.MonthlyDonationCanceledBottomSheetDialogFragment
-import org.thoughtcrime.securesms.components.settings.app.subscription.DonationPendingBottomSheet
-import org.thoughtcrime.securesms.components.settings.app.subscription.DonationPendingBottomSheetArgs
-import org.thoughtcrime.securesms.components.settings.app.subscription.thanks.ThanksForYourSupportBottomSheetDialogFragment
-import org.thoughtcrime.securesms.components.settings.app.subscription.thanks.ThanksForYourSupportBottomSheetDialogFragmentArgs
-import org.thoughtcrime.securesms.database.InAppPaymentTable
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.database.model.databaseprotos.DonationErrorValue
-import org.thoughtcrime.securesms.database.model.databaseprotos.InAppPaymentData
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.util.RemoteConfig
+import org.thoughtcrime.securesms.ryan.backup.v2.ui.BackupAlert
+import org.thoughtcrime.securesms.ryan.backup.v2.ui.BackupAlertBottomSheet
+import org.thoughtcrime.securesms.ryan.badges.Badges
+import org.thoughtcrime.securesms.ryan.badges.self.expired.MonthlyDonationCanceledBottomSheetDialogFragment
+import org.thoughtcrime.securesms.ryan.components.settings.app.subscription.DonationPendingBottomSheet
+import org.thoughtcrime.securesms.ryan.components.settings.app.subscription.DonationPendingBottomSheetArgs
+import org.thoughtcrime.securesms.ryan.components.settings.app.subscription.thanks.ThanksForYourSupportBottomSheetDialogFragment
+import org.thoughtcrime.securesms.ryan.components.settings.app.subscription.thanks.ThanksForYourSupportBottomSheetDialogFragmentArgs
+import org.thoughtcrime.securesms.ryan.database.InAppPaymentTable
+import org.thoughtcrime.securesms.ryan.database.SignalDatabase
+import org.thoughtcrime.securesms.ryan.database.model.databaseprotos.DonationErrorValue
+import org.thoughtcrime.securesms.ryan.database.model.databaseprotos.InAppPaymentData
+import org.thoughtcrime.securesms.ryan.keyvalue.SignalStore
+import org.thoughtcrime.securesms.ryan.util.RemoteConfig
 
 /**
  * Handles displaying bottom sheets for in-app payments. The current policy is to "fire and forget".

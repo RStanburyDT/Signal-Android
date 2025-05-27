@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.settings.app.account
+package org.thoughtcrime.securesms.ryan.components.settings.app.account
 
 data class AccountSettingsState(
   val hasPin: Boolean,

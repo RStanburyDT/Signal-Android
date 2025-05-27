@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.util
+package org.thoughtcrime.securesms.ryan.util
 
 import androidx.annotation.GuardedBy
 import androidx.annotation.VisibleForTesting
@@ -8,17 +8,17 @@ import org.json.JSONObject
 import org.signal.core.util.gibiBytes
 import org.signal.core.util.logging.Log
 import org.signal.core.util.mebiBytes
-import org.thoughtcrime.securesms.BuildConfig
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.groups.SelectionLimits
-import org.thoughtcrime.securesms.jobs.RemoteConfigRefreshJob
-import org.thoughtcrime.securesms.jobs.Svr3MirrorJob
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.messageprocessingalarm.RoutineMessageFetchReceiver
-import org.thoughtcrime.securesms.net.SignalNetwork
-import org.thoughtcrime.securesms.util.RemoteConfig.Config
-import org.thoughtcrime.securesms.util.RemoteConfig.remoteBoolean
-import org.thoughtcrime.securesms.util.RemoteConfig.remoteValue
+import org.thoughtcrime.securesms.ryan.BuildConfig
+import org.thoughtcrime.securesms.ryan.dependencies.AppDependencies
+import org.thoughtcrime.securesms.ryan.groups.SelectionLimits
+import org.thoughtcrime.securesms.ryan.jobs.RemoteConfigRefreshJob
+import org.thoughtcrime.securesms.ryan.jobs.Svr3MirrorJob
+import org.thoughtcrime.securesms.ryan.keyvalue.SignalStore
+import org.thoughtcrime.securesms.ryan.messageprocessingalarm.RoutineMessageFetchReceiver
+import org.thoughtcrime.securesms.ryan.net.SignalNetwork
+import org.thoughtcrime.securesms.ryan.util.RemoteConfig.Config
+import org.thoughtcrime.securesms.ryan.util.RemoteConfig.remoteBoolean
+import org.thoughtcrime.securesms.ryan.util.RemoteConfig.remoteValue
 import org.whispersystems.signalservice.api.NetworkResultUtil
 import java.io.IOException
 import java.util.TreeMap

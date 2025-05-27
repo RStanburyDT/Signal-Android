@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.groups.ui;
+package org.thoughtcrime.securesms.ryan.groups.ui;
 
 import android.content.Context;
 
@@ -6,8 +6,8 @@ import androidx.annotation.NonNull;
 
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.util.RemoteConfig;
+import org.thoughtcrime.securesms.ryan.R;
+import org.thoughtcrime.securesms.ryan.util.RemoteConfig;
 
 public final class GroupLimitDialog {
 

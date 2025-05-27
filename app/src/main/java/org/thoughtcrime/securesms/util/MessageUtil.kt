@@ -1,9 +1,9 @@
-package org.thoughtcrime.securesms.util
+package org.thoughtcrime.securesms.ryan.util
 
 import android.content.Context
 import org.signal.core.util.splitByByteLength
-import org.thoughtcrime.securesms.mms.TextSlide
-import org.thoughtcrime.securesms.providers.BlobProvider
+import org.thoughtcrime.securesms.ryan.mms.TextSlide
+import org.thoughtcrime.securesms.ryan.providers.BlobProvider
 import java.text.SimpleDateFormat
 import java.util.Date
 import java.util.Locale

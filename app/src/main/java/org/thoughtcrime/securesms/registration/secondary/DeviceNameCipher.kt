@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.registration.secondary
+package org.thoughtcrime.securesms.ryan.registration.secondary
 
 import okio.ByteString.Companion.toByteString
 import org.signal.core.util.logging.Log
@@ -8,7 +8,7 @@ import org.signal.libsignal.protocol.ecc.Curve
 import org.signal.libsignal.protocol.ecc.ECKeyPair
 import org.signal.libsignal.protocol.ecc.ECPrivateKey
 import org.signal.libsignal.protocol.util.ByteUtil
-import org.thoughtcrime.securesms.devicelist.protos.DeviceName
+import org.thoughtcrime.securesms.ryan.devicelist.protos.DeviceName
 import java.nio.charset.Charset
 import java.security.GeneralSecurityException
 import java.security.MessageDigest

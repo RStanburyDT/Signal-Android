@@ -3,21 +3,21 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.testutil
+package org.thoughtcrime.securesms.ryan.testutil
 
 import io.mockk.every
 import io.mockk.mockk
 import io.mockk.mockkObject
 import io.mockk.unmockkObject
 import org.junit.rules.ExternalResource
-import org.thoughtcrime.securesms.keyvalue.AccountValues
-import org.thoughtcrime.securesms.keyvalue.BackupValues
-import org.thoughtcrime.securesms.keyvalue.EmojiValues
-import org.thoughtcrime.securesms.keyvalue.InAppPaymentValues
-import org.thoughtcrime.securesms.keyvalue.PhoneNumberPrivacyValues
-import org.thoughtcrime.securesms.keyvalue.RegistrationValues
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.keyvalue.SvrValues
+import org.thoughtcrime.securesms.ryan.keyvalue.AccountValues
+import org.thoughtcrime.securesms.ryan.keyvalue.BackupValues
+import org.thoughtcrime.securesms.ryan.keyvalue.EmojiValues
+import org.thoughtcrime.securesms.ryan.keyvalue.InAppPaymentValues
+import org.thoughtcrime.securesms.ryan.keyvalue.PhoneNumberPrivacyValues
+import org.thoughtcrime.securesms.ryan.keyvalue.RegistrationValues
+import org.thoughtcrime.securesms.ryan.keyvalue.SignalStore
+import org.thoughtcrime.securesms.ryan.keyvalue.SvrValues
 import kotlin.reflect.KClass
 
 /**

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.conversationlist.chatfilter
+package org.thoughtcrime.securesms.ryan.conversationlist.chatfilter
 
 /**
  * Describes where the chat filter was applied from.

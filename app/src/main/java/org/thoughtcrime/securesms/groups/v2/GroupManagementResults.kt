@@ -1,7 +1,7 @@
-package org.thoughtcrime.securesms.groups.v2
+package org.thoughtcrime.securesms.ryan.groups.v2
 
-import org.thoughtcrime.securesms.groups.ui.GroupChangeFailureReason
-import org.thoughtcrime.securesms.recipients.Recipient
+import org.thoughtcrime.securesms.ryan.groups.ui.GroupChangeFailureReason
+import org.thoughtcrime.securesms.ryan.recipients.Recipient
 
 sealed class GroupBlockJoinRequestResult {
   object Success : GroupBlockJoinRequestResult()

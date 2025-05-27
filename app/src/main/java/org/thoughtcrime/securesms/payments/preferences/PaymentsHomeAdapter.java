@@ -1,22 +1,22 @@
-package org.thoughtcrime.securesms.payments.preferences;
+package org.thoughtcrime.securesms.ryan.payments.preferences;
 
 import androidx.annotation.NonNull;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.components.settings.SettingHeader;
-import org.thoughtcrime.securesms.payments.preferences.model.InProgress;
-import org.thoughtcrime.securesms.payments.preferences.model.InfoCard;
-import org.thoughtcrime.securesms.payments.preferences.model.IntroducingPayments;
-import org.thoughtcrime.securesms.payments.preferences.model.NoRecentActivity;
-import org.thoughtcrime.securesms.payments.preferences.model.PaymentItem;
-import org.thoughtcrime.securesms.payments.preferences.model.SeeAll;
-import org.thoughtcrime.securesms.payments.preferences.viewholder.InProgressViewHolder;
-import org.thoughtcrime.securesms.payments.preferences.viewholder.InfoCardViewHolder;
-import org.thoughtcrime.securesms.payments.preferences.viewholder.IntroducingPaymentViewHolder;
-import org.thoughtcrime.securesms.payments.preferences.viewholder.NoRecentActivityViewHolder;
-import org.thoughtcrime.securesms.payments.preferences.viewholder.PaymentItemViewHolder;
-import org.thoughtcrime.securesms.payments.preferences.viewholder.SeeAllViewHolder;
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingAdapter;
+import org.thoughtcrime.securesms.ryan.R;
+import org.thoughtcrime.securesms.ryan.components.settings.SettingHeader;
+import org.thoughtcrime.securesms.ryan.payments.preferences.model.InProgress;
+import org.thoughtcrime.securesms.ryan.payments.preferences.model.InfoCard;
+import org.thoughtcrime.securesms.ryan.payments.preferences.model.IntroducingPayments;
+import org.thoughtcrime.securesms.ryan.payments.preferences.model.NoRecentActivity;
+import org.thoughtcrime.securesms.ryan.payments.preferences.model.PaymentItem;
+import org.thoughtcrime.securesms.ryan.payments.preferences.model.SeeAll;
+import org.thoughtcrime.securesms.ryan.payments.preferences.viewholder.InProgressViewHolder;
+import org.thoughtcrime.securesms.ryan.payments.preferences.viewholder.InfoCardViewHolder;
+import org.thoughtcrime.securesms.ryan.payments.preferences.viewholder.IntroducingPaymentViewHolder;
+import org.thoughtcrime.securesms.ryan.payments.preferences.viewholder.NoRecentActivityViewHolder;
+import org.thoughtcrime.securesms.ryan.payments.preferences.viewholder.PaymentItemViewHolder;
+import org.thoughtcrime.securesms.ryan.payments.preferences.viewholder.SeeAllViewHolder;
+import org.thoughtcrime.securesms.ryan.util.adapter.mapping.MappingAdapter;
 
 public class PaymentsHomeAdapter extends MappingAdapter {
 

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.database.model
+package org.thoughtcrime.securesms.ryan.database.model
 
 /**
  * Represents whether a given story can be replied to.

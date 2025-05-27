@@ -1,13 +1,13 @@
-package org.thoughtcrime.securesms.payments.preferences.viewholder;
+package org.thoughtcrime.securesms.ryan.payments.preferences.viewholder;
 
 import android.view.View;
 
 import androidx.annotation.NonNull;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.payments.preferences.PaymentsHomeAdapter;
-import org.thoughtcrime.securesms.payments.preferences.model.SeeAll;
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingViewHolder;
+import org.thoughtcrime.securesms.ryan.R;
+import org.thoughtcrime.securesms.ryan.payments.preferences.PaymentsHomeAdapter;
+import org.thoughtcrime.securesms.ryan.payments.preferences.model.SeeAll;
+import org.thoughtcrime.securesms.ryan.util.adapter.mapping.MappingViewHolder;
 
 public class SeeAllViewHolder extends MappingViewHolder<SeeAll> {
 

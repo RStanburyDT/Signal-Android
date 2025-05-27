@@ -1,9 +1,9 @@
-package org.thoughtcrime.securesms.components.webrtc
+package org.thoughtcrime.securesms.ryan.components.webrtc
 
 import android.view.View
 import com.google.android.flexbox.FlexDirection
 import com.google.android.flexbox.FlexboxLayout
-import org.thoughtcrime.securesms.events.CallParticipant
+import org.thoughtcrime.securesms.ryan.events.CallParticipant
 import org.webrtc.RendererCommon
 
 object CallParticipantsLayoutStrategies {

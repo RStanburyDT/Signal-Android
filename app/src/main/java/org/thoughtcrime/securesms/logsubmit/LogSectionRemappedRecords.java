@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.logsubmit;
+package org.thoughtcrime.securesms.ryan.logsubmit;
 
 import android.content.Context;
 import android.database.Cursor;
@@ -6,7 +6,7 @@ import android.database.Cursor;
 import androidx.annotation.NonNull;
 
 import org.signal.core.util.AsciiArt;
-import org.thoughtcrime.securesms.database.SignalDatabase;
+import org.thoughtcrime.securesms.ryan.database.SignalDatabase;
 
 /**
  * Renders data pertaining to sender key. While all private info is obfuscated, this is still only intended to be printed for internal users.

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.util.adapter.mapping;
+package org.thoughtcrime.securesms.ryan.util.adapter.mapping;
 
 import android.content.Context;
 import android.view.View;

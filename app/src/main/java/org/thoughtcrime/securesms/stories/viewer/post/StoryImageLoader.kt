@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.stories.viewer.post
+package org.thoughtcrime.securesms.ryan.stories.viewer.post
 
 import android.graphics.drawable.Drawable
 import android.widget.ImageView
@@ -10,9 +10,9 @@ import com.bumptech.glide.load.engine.GlideException
 import com.bumptech.glide.request.RequestListener
 import com.bumptech.glide.request.target.Target
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.mms.DecryptableStreamUriLoader
-import org.thoughtcrime.securesms.stories.viewer.page.StoryCache
-import org.thoughtcrime.securesms.stories.viewer.page.StoryDisplay
+import org.thoughtcrime.securesms.ryan.mms.DecryptableStreamUriLoader
+import org.thoughtcrime.securesms.ryan.stories.viewer.page.StoryCache
+import org.thoughtcrime.securesms.ryan.stories.viewer.page.StoryDisplay
 
 /**
  * Render logic for story image posts

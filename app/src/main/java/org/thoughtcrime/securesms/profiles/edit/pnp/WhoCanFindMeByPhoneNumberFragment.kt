@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.profiles.edit.pnp
+package org.thoughtcrime.securesms.ryan.profiles.edit.pnp
 
 import android.os.Bundle
 import androidx.core.content.ContextCompat
@@ -8,14 +8,14 @@ import androidx.navigation.fragment.findNavController
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import io.reactivex.rxjava3.kotlin.subscribeBy
 import org.signal.core.util.concurrent.LifecycleDisposable
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.ViewBinderDelegate
-import org.thoughtcrime.securesms.components.settings.DSLConfiguration
-import org.thoughtcrime.securesms.components.settings.DSLSettingsFragment
-import org.thoughtcrime.securesms.components.settings.DSLSettingsText
-import org.thoughtcrime.securesms.components.settings.configure
-import org.thoughtcrime.securesms.databinding.WhoCanFindMeByPhoneNumberFragmentBinding
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingAdapter
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.components.ViewBinderDelegate
+import org.thoughtcrime.securesms.ryan.components.settings.DSLConfiguration
+import org.thoughtcrime.securesms.ryan.components.settings.DSLSettingsFragment
+import org.thoughtcrime.securesms.ryan.components.settings.DSLSettingsText
+import org.thoughtcrime.securesms.ryan.components.settings.configure
+import org.thoughtcrime.securesms.ryan.databinding.WhoCanFindMeByPhoneNumberFragmentBinding
+import org.thoughtcrime.securesms.ryan.util.adapter.mapping.MappingAdapter
 
 /**
  * Allows the user to select who can see their phone number during registration.

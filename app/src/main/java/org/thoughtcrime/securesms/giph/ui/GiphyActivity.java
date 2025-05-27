@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.giph.ui;
+package org.thoughtcrime.securesms.ryan.giph.ui;
 
 
 import android.annotation.SuppressLint;
@@ -12,24 +12,24 @@ import androidx.appcompat.app.AlertDialog;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProvider;
 
-import org.thoughtcrime.securesms.PassphraseRequiredActivity;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.conversation.MessageSendType;
-import org.thoughtcrime.securesms.giph.mp4.GiphyMp4Fragment;
-import org.thoughtcrime.securesms.giph.mp4.GiphyMp4SaveResult;
-import org.thoughtcrime.securesms.giph.mp4.GiphyMp4ViewModel;
-import org.thoughtcrime.securesms.keyboard.emoji.KeyboardPageSearchView;
-import org.thoughtcrime.securesms.mediasend.Media;
-import org.thoughtcrime.securesms.mediasend.v2.MediaSelectionActivity;
-import org.thoughtcrime.securesms.mms.SlideFactory;
-import org.thoughtcrime.securesms.providers.BlobProvider;
-import org.thoughtcrime.securesms.recipients.RecipientId;
-import org.thoughtcrime.securesms.util.DynamicNoActionBarTheme;
-import org.thoughtcrime.securesms.util.DynamicTheme;
-import org.thoughtcrime.securesms.util.RemoteConfig;
-import org.thoughtcrime.securesms.util.MediaUtil;
-import org.thoughtcrime.securesms.util.ViewUtil;
-import org.thoughtcrime.securesms.util.views.SimpleProgressDialog;
+import org.thoughtcrime.securesms.ryan.PassphraseRequiredActivity;
+import org.thoughtcrime.securesms.ryan.R;
+import org.thoughtcrime.securesms.ryan.conversation.MessageSendType;
+import org.thoughtcrime.securesms.ryan.giph.mp4.GiphyMp4Fragment;
+import org.thoughtcrime.securesms.ryan.giph.mp4.GiphyMp4SaveResult;
+import org.thoughtcrime.securesms.ryan.giph.mp4.GiphyMp4ViewModel;
+import org.thoughtcrime.securesms.ryan.keyboard.emoji.KeyboardPageSearchView;
+import org.thoughtcrime.securesms.ryan.mediasend.Media;
+import org.thoughtcrime.securesms.ryan.mediasend.v2.MediaSelectionActivity;
+import org.thoughtcrime.securesms.ryan.mms.SlideFactory;
+import org.thoughtcrime.securesms.ryan.providers.BlobProvider;
+import org.thoughtcrime.securesms.ryan.recipients.RecipientId;
+import org.thoughtcrime.securesms.ryan.util.DynamicNoActionBarTheme;
+import org.thoughtcrime.securesms.ryan.util.DynamicTheme;
+import org.thoughtcrime.securesms.ryan.util.RemoteConfig;
+import org.thoughtcrime.securesms.ryan.util.MediaUtil;
+import org.thoughtcrime.securesms.ryan.util.ViewUtil;
+import org.thoughtcrime.securesms.ryan.util.views.SimpleProgressDialog;
 
 import java.util.Collections;
 import java.util.Objects;

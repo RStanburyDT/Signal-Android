@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.stories.viewer.reply
+package org.thoughtcrime.securesms.ryan.stories.viewer.reply
 
 /**
  * Implemented by a Fragment that may be the child of a view-pager.

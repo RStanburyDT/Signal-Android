@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.settings.app.internal.sqlite
+package org.thoughtcrime.securesms.ryan.components.settings.app.internal.sqlite
 
 import androidx.compose.foundation.ScrollState
 import androidx.compose.foundation.clickable
@@ -50,10 +50,10 @@ import org.signal.core.ui.compose.Buttons
 import org.signal.core.ui.compose.Previews
 import org.signal.core.ui.compose.SignalPreview
 import org.signal.libsignal.protocol.util.Hex
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.settings.app.internal.sqlite.InternalSqlitePlaygroundViewModel.QueryResult
-import org.thoughtcrime.securesms.compose.ComposeFragment
-import org.thoughtcrime.securesms.util.Util
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.components.settings.app.internal.sqlite.InternalSqlitePlaygroundViewModel.QueryResult
+import org.thoughtcrime.securesms.ryan.compose.ComposeFragment
+import org.thoughtcrime.securesms.ryan.util.Util
 
 class InternalSqlitePlaygroundFragment : ComposeFragment() {
 

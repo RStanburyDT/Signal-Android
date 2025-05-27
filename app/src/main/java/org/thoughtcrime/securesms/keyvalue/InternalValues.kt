@@ -1,9 +1,9 @@
-package org.thoughtcrime.securesms.keyvalue
+package org.thoughtcrime.securesms.ryan.keyvalue
 
 import org.signal.ringrtc.CallManager.DataMode
-import org.thoughtcrime.securesms.BuildConfig
-import org.thoughtcrime.securesms.util.Environment.Calling.defaultSfuUrl
-import org.thoughtcrime.securesms.util.RemoteConfig
+import org.thoughtcrime.securesms.ryan.BuildConfig
+import org.thoughtcrime.securesms.ryan.util.Environment.Calling.defaultSfuUrl
+import org.thoughtcrime.securesms.ryan.util.RemoteConfig
 
 class InternalValues internal constructor(store: KeyValueStore) : SignalStoreValues(store) {
   companion object {
@@ -61,7 +61,7 @@ class InternalValues internal constructor(store: KeyValueStore) : SignalStoreVal
   var gv2IgnoreP2PChanges by booleanValue(GV2_IGNORE_P2P_CHANGES, false).defaultForExternalUsers()
 
   /**
-   * Show detailed recipient info in the [org.thoughtcrime.securesms.components.settings.conversation.InternalConversationSettingsFragment].
+   * Show detailed recipient info in the [org.thoughtcrime.securesms.ryan.components.settings.conversation.InternalConversationSettingsFragment].
    */
   var recipientDetails by booleanValue(RECIPIENT_DETAILS, true).falseForExternalUsers()
 

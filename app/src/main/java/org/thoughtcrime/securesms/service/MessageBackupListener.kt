@@ -3,14 +3,14 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.service
+package org.thoughtcrime.securesms.ryan.service
 
 import android.content.Context
-import org.thoughtcrime.securesms.backup.v2.BackupFrequency
-import org.thoughtcrime.securesms.jobs.BackupMessagesJob
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.util.RemoteConfig
-import org.thoughtcrime.securesms.util.toMillis
+import org.thoughtcrime.securesms.ryan.backup.v2.BackupFrequency
+import org.thoughtcrime.securesms.ryan.jobs.BackupMessagesJob
+import org.thoughtcrime.securesms.ryan.keyvalue.SignalStore
+import org.thoughtcrime.securesms.ryan.util.RemoteConfig
+import org.thoughtcrime.securesms.ryan.util.toMillis
 import java.time.LocalDateTime
 import java.util.Random
 import kotlin.time.Duration.Companion.minutes

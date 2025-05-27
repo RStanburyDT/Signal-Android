@@ -1,17 +1,17 @@
 @file:JvmName("MessageRecordUtil")
 
-package org.thoughtcrime.securesms.util
+package org.thoughtcrime.securesms.ryan.util
 
 import android.content.Context
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.database.MessageTypes
-import org.thoughtcrime.securesms.database.model.MessageRecord
-import org.thoughtcrime.securesms.database.model.MmsMessageRecord
-import org.thoughtcrime.securesms.database.model.Quote
-import org.thoughtcrime.securesms.database.model.databaseprotos.GiftBadge
-import org.thoughtcrime.securesms.mms.QuoteModel
-import org.thoughtcrime.securesms.mms.TextSlide
-import org.thoughtcrime.securesms.stickers.StickerUrl
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.database.MessageTypes
+import org.thoughtcrime.securesms.ryan.database.model.MessageRecord
+import org.thoughtcrime.securesms.ryan.database.model.MmsMessageRecord
+import org.thoughtcrime.securesms.ryan.database.model.Quote
+import org.thoughtcrime.securesms.ryan.database.model.databaseprotos.GiftBadge
+import org.thoughtcrime.securesms.ryan.mms.QuoteModel
+import org.thoughtcrime.securesms.ryan.mms.TextSlide
+import org.thoughtcrime.securesms.ryan.stickers.StickerUrl
 
 const val MAX_BODY_DISPLAY_LENGTH = 1000
 

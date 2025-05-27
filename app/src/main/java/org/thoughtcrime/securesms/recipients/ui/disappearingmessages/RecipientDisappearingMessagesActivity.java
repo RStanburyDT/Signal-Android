@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.recipients.ui.disappearingmessages;
+package org.thoughtcrime.securesms.ryan.recipients.ui.disappearingmessages;
 
 import android.content.Context;
 import android.content.Intent;
@@ -6,10 +6,10 @@ import android.content.Intent;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.components.settings.DSLSettingsActivity;
-import org.thoughtcrime.securesms.components.settings.app.privacy.expire.ExpireTimerSettingsFragmentArgs;
-import org.thoughtcrime.securesms.recipients.RecipientId;
+import org.thoughtcrime.securesms.ryan.R;
+import org.thoughtcrime.securesms.ryan.components.settings.DSLSettingsActivity;
+import org.thoughtcrime.securesms.ryan.components.settings.app.privacy.expire.ExpireTimerSettingsFragmentArgs;
+import org.thoughtcrime.securesms.ryan.recipients.RecipientId;
 
 /**
  * For select a expire timer for a recipient (individual or group).

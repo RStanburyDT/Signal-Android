@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.settings.app
+package org.thoughtcrime.securesms.ryan.components.settings.app
 
 import android.content.Context
 import android.content.Intent
@@ -8,22 +8,22 @@ import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import io.reactivex.rxjava3.subjects.PublishSubject
 import io.reactivex.rxjava3.subjects.Subject
 import org.signal.donations.InAppPaymentType
-import org.thoughtcrime.securesms.MainActivity
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.settings.DSLSettingsActivity
-import org.thoughtcrime.securesms.components.settings.app.chats.folders.CreateFoldersFragmentArgs
-import org.thoughtcrime.securesms.components.settings.app.notifications.profiles.EditNotificationProfileScheduleFragmentArgs
-import org.thoughtcrime.securesms.components.settings.app.subscription.GooglePayComponent
-import org.thoughtcrime.securesms.components.settings.app.subscription.GooglePayRepository
-import org.thoughtcrime.securesms.help.HelpFragment
-import org.thoughtcrime.securesms.keyvalue.SettingsValues
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.service.KeyCachingService
-import org.thoughtcrime.securesms.util.CachedInflater
-import org.thoughtcrime.securesms.util.DynamicTheme
-import org.thoughtcrime.securesms.util.SignalE164Util
-import org.thoughtcrime.securesms.util.navigation.safeNavigate
+import org.thoughtcrime.securesms.ryan.MainActivity
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.components.settings.DSLSettingsActivity
+import org.thoughtcrime.securesms.ryan.components.settings.app.chats.folders.CreateFoldersFragmentArgs
+import org.thoughtcrime.securesms.ryan.components.settings.app.notifications.profiles.EditNotificationProfileScheduleFragmentArgs
+import org.thoughtcrime.securesms.ryan.components.settings.app.subscription.GooglePayComponent
+import org.thoughtcrime.securesms.ryan.components.settings.app.subscription.GooglePayRepository
+import org.thoughtcrime.securesms.ryan.help.HelpFragment
+import org.thoughtcrime.securesms.ryan.keyvalue.SettingsValues
+import org.thoughtcrime.securesms.ryan.keyvalue.SignalStore
+import org.thoughtcrime.securesms.ryan.recipients.Recipient
+import org.thoughtcrime.securesms.ryan.service.KeyCachingService
+import org.thoughtcrime.securesms.ryan.util.CachedInflater
+import org.thoughtcrime.securesms.ryan.util.DynamicTheme
+import org.thoughtcrime.securesms.ryan.util.SignalE164Util
+import org.thoughtcrime.securesms.ryan.util.navigation.safeNavigate
 
 private const val START_LOCATION = "app.settings.start.location"
 private const val START_ARGUMENTS = "app.settings.start.arguments"

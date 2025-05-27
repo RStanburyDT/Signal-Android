@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.groups;
+package org.thoughtcrime.securesms.ryan.groups;
 
 import android.content.Context;
 
@@ -13,14 +13,14 @@ import org.signal.libsignal.zkgroup.groups.GroupSecretParams;
 import org.signal.libsignal.zkgroup.groups.UuidCiphertext;
 import org.signal.storageservice.protos.groups.GroupExternalCredential;
 import org.signal.storageservice.protos.groups.local.DecryptedGroupJoinInfo;
-import org.thoughtcrime.securesms.database.GroupTable;
-import org.thoughtcrime.securesms.database.SignalDatabase;
-import org.thoughtcrime.securesms.database.model.GroupRecord;
-import org.thoughtcrime.securesms.groups.v2.GroupInviteLinkUrl;
-import org.thoughtcrime.securesms.groups.v2.GroupLinkPassword;
-import org.thoughtcrime.securesms.groups.v2.processing.GroupUpdateResult;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.recipients.RecipientId;
+import org.thoughtcrime.securesms.ryan.database.GroupTable;
+import org.thoughtcrime.securesms.ryan.database.SignalDatabase;
+import org.thoughtcrime.securesms.ryan.database.model.GroupRecord;
+import org.thoughtcrime.securesms.ryan.groups.v2.GroupInviteLinkUrl;
+import org.thoughtcrime.securesms.ryan.groups.v2.GroupLinkPassword;
+import org.thoughtcrime.securesms.ryan.groups.v2.processing.GroupUpdateResult;
+import org.thoughtcrime.securesms.ryan.recipients.Recipient;
+import org.thoughtcrime.securesms.ryan.recipients.RecipientId;
 import org.whispersystems.signalservice.api.groupsv2.GroupLinkNotActiveException;
 import org.whispersystems.signalservice.api.push.ServiceId;
 

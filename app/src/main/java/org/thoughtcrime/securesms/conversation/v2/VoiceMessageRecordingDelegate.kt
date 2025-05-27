@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.conversation.v2
+package org.thoughtcrime.securesms.ryan.conversation.v2
 
 import android.content.pm.ActivityInfo
 import android.view.WindowManager
@@ -16,11 +16,11 @@ import io.reactivex.rxjava3.disposables.Disposable
 import org.signal.core.util.concurrent.LifecycleDisposable
 import org.signal.core.util.concurrent.addTo
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.audio.AudioRecorder
-import org.thoughtcrime.securesms.components.voice.VoiceNoteDraft
-import org.thoughtcrime.securesms.conversation.VoiceRecorderWakeLock
-import org.thoughtcrime.securesms.util.ServiceUtil
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.audio.AudioRecorder
+import org.thoughtcrime.securesms.ryan.components.voice.VoiceNoteDraft
+import org.thoughtcrime.securesms.ryan.conversation.VoiceRecorderWakeLock
+import org.thoughtcrime.securesms.ryan.util.ServiceUtil
 
 /**
  * Delegate class for VoiceMessage recording.

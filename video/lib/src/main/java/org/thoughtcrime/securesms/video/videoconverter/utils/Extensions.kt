@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.video.videoconverter.utils
+package org.thoughtcrime.securesms.ryan.video.videoconverter.utils
 
 import kotlin.math.ceil
 import kotlin.math.floor

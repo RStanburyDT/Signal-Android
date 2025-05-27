@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.webrtc;
+package org.thoughtcrime.securesms.ryan.components.webrtc;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -9,8 +9,8 @@ import androidx.recyclerview.widget.DiffUtil;
 import androidx.recyclerview.widget.ListAdapter;
 import androidx.recyclerview.widget.RecyclerView;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.events.CallParticipant;
+import org.thoughtcrime.securesms.ryan.R;
+import org.thoughtcrime.securesms.ryan.events.CallParticipant;
 import org.webrtc.RendererCommon;
 
 class WebRtcCallParticipantsPagerAdapter extends ListAdapter<WebRtcCallParticipantsPage, WebRtcCallParticipantsPagerAdapter.ViewHolder> {

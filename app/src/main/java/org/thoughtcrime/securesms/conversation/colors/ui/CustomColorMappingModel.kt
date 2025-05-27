@@ -1,6 +1,6 @@
-package org.thoughtcrime.securesms.conversation.colors.ui
+package org.thoughtcrime.securesms.ryan.conversation.colors.ui
 
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingModel
+import org.thoughtcrime.securesms.ryan.util.adapter.mapping.MappingModel
 
 class CustomColorMappingModel : MappingModel<CustomColorMappingModel> {
   override fun areItemsTheSame(newItem: CustomColorMappingModel): Boolean {

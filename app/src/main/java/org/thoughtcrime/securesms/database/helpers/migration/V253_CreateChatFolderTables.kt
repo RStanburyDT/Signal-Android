@@ -1,8 +1,13 @@
-package org.thoughtcrime.securesms.database.helpers.migration
+package org.thoughtcrime.securesms.ryan.database.helpers.migration
 
 import android.app.Application
+<<<<<<< HEAD
+import org.thoughtcrime.securesms.ryan.database.ChatFolderTables
+import org.thoughtcrime.securesms.ryan.database.SQLiteDatabase
+=======
 import androidx.core.content.contentValuesOf
 import org.thoughtcrime.securesms.database.SQLiteDatabase
+>>>>>>> 23669c3c372284d42db486a218d9f29bef247abf
 
 /**
  * Adds the tables for managing chat folders

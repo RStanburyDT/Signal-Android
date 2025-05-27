@@ -3,9 +3,9 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.backup.v2
+package org.thoughtcrime.securesms.ryan.backup.v2
 
-import org.thoughtcrime.securesms.database.CallTable
+import org.thoughtcrime.securesms.ryan.database.CallTable
 
 /**
  * These represent situations where we will skip exporting a data frame due to the data being invalid.

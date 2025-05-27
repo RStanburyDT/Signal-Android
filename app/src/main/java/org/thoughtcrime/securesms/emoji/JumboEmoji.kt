@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.emoji
+package org.thoughtcrime.securesms.ryan.emoji
 
 import android.content.Context
 import android.graphics.Bitmap
@@ -9,12 +9,12 @@ import org.signal.core.util.ThreadUtil
 import org.signal.core.util.concurrent.SignalExecutors
 import org.signal.core.util.concurrent.SimpleTask
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.components.emoji.parsing.EmojiDrawInfo
-import org.thoughtcrime.securesms.emoji.protos.JumbomojiPack
-import org.thoughtcrime.securesms.jobmanager.impl.AutoDownloadEmojiConstraint
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.util.ListenableFutureTask
-import org.thoughtcrime.securesms.util.SoftHashMap
+import org.thoughtcrime.securesms.ryan.components.emoji.parsing.EmojiDrawInfo
+import org.thoughtcrime.securesms.ryan.emoji.protos.JumbomojiPack
+import org.thoughtcrime.securesms.ryan.jobmanager.impl.AutoDownloadEmojiConstraint
+import org.thoughtcrime.securesms.ryan.keyvalue.SignalStore
+import org.thoughtcrime.securesms.ryan.util.ListenableFutureTask
+import org.thoughtcrime.securesms.ryan.util.SoftHashMap
 import java.io.IOException
 import java.util.UUID
 import java.util.concurrent.ExecutionException

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.scribbles.stickers
+package org.thoughtcrime.securesms.ryan.scribbles.stickers
 
 import android.content.Context
 import android.graphics.drawable.Animatable
@@ -6,15 +6,15 @@ import android.os.Bundle
 import android.view.View
 import android.widget.ImageView
 import android.widget.TextView
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.keyboard.sticker.KeyboardStickerListAdapter
-import org.thoughtcrime.securesms.keyboard.sticker.StickerKeyboardPageFragment
-import org.thoughtcrime.securesms.util.Throttler
-import org.thoughtcrime.securesms.util.adapter.mapping.LayoutFactory
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingModel
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingModelList
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingViewHolder
-import org.thoughtcrime.securesms.util.fragments.findListener
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.keyboard.sticker.KeyboardStickerListAdapter
+import org.thoughtcrime.securesms.ryan.keyboard.sticker.StickerKeyboardPageFragment
+import org.thoughtcrime.securesms.ryan.util.Throttler
+import org.thoughtcrime.securesms.ryan.util.adapter.mapping.LayoutFactory
+import org.thoughtcrime.securesms.ryan.util.adapter.mapping.MappingModel
+import org.thoughtcrime.securesms.ryan.util.adapter.mapping.MappingModelList
+import org.thoughtcrime.securesms.ryan.util.adapter.mapping.MappingViewHolder
+import org.thoughtcrime.securesms.ryan.util.fragments.findListener
 
 /**
  * Sticker chooser fragment for the image editor. Implement the Callback for

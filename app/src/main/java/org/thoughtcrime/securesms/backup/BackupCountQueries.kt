@@ -1,8 +1,8 @@
-package org.thoughtcrime.securesms.backup
+package org.thoughtcrime.securesms.ryan.backup
 
-import org.thoughtcrime.securesms.database.AttachmentTable
-import org.thoughtcrime.securesms.database.GroupReceiptTable
-import org.thoughtcrime.securesms.database.MessageTable
+import org.thoughtcrime.securesms.ryan.database.AttachmentTable
+import org.thoughtcrime.securesms.ryan.database.GroupReceiptTable
+import org.thoughtcrime.securesms.ryan.database.MessageTable
 
 /**
  * Queries used by backup exporter to estimate total counts for various complicated tables.

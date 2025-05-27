@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.webrtc
+package org.thoughtcrime.securesms.ryan.components.webrtc
 
 import android.content.Context
 import android.util.AttributeSet
@@ -11,8 +11,8 @@ import android.view.View
 import androidx.constraintlayout.widget.Barrier
 import androidx.coordinatorlayout.widget.CoordinatorLayout
 import com.google.android.material.bottomsheet.BottomSheetBehavior
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.util.views.SlideUpWithDependencyBehavior
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.util.views.SlideUpWithDependencyBehavior
 import kotlin.math.max
 
 /**

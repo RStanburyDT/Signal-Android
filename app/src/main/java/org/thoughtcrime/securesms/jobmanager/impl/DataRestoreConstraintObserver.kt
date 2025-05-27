@@ -1,6 +1,6 @@
-package org.thoughtcrime.securesms.jobmanager.impl
+package org.thoughtcrime.securesms.ryan.jobmanager.impl
 
-import org.thoughtcrime.securesms.jobmanager.ConstraintObserver
+import org.thoughtcrime.securesms.ryan.jobmanager.ConstraintObserver
 
 /**
  * An observer for the [DataRestoreConstraint]. This class expects to be told when a change happens,

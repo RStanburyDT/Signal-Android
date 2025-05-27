@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.transport;
+package org.thoughtcrime.securesms.ryan.transport;
 
 public class UndeliverableMessageException extends Exception {
   public UndeliverableMessageException() {

@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.webrtc.v2
+package org.thoughtcrime.securesms.ryan.components.webrtc.v2
 
 import android.os.Build
 import androidx.compose.foundation.clickable
@@ -36,12 +36,12 @@ import org.signal.core.ui.compose.DarkPreview
 import org.signal.core.ui.compose.IconButtons
 import org.signal.core.ui.compose.Previews
 import org.signal.core.ui.compose.Rows
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.webrtc.AudioStateUpdater
-import org.thoughtcrime.securesms.components.webrtc.ToggleButtonOutputState
-import org.thoughtcrime.securesms.components.webrtc.WebRtcAudioDevice
-import org.thoughtcrime.securesms.components.webrtc.WebRtcAudioOutput
-import org.thoughtcrime.securesms.components.webrtc.WebRtcAudioPicker31
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.components.webrtc.AudioStateUpdater
+import org.thoughtcrime.securesms.ryan.components.webrtc.ToggleButtonOutputState
+import org.thoughtcrime.securesms.ryan.components.webrtc.WebRtcAudioDevice
+import org.thoughtcrime.securesms.ryan.components.webrtc.WebRtcAudioOutput
+import org.thoughtcrime.securesms.ryan.components.webrtc.WebRtcAudioPicker31
 import org.signal.core.ui.R as CoreUiR
 
 private const val SHOW_PICKER_THRESHOLD = 3

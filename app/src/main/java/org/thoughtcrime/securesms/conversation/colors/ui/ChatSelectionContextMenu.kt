@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.conversation.colors.ui
+package org.thoughtcrime.securesms.ryan.conversation.colors.ui
 
 import android.content.Context
 import android.graphics.Rect
@@ -7,8 +7,8 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.PopupWindow
 import androidx.core.content.ContextCompat
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.util.ViewUtil
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.util.ViewUtil
 
 class ChatSelectionContextMenu(val context: Context) : PopupWindow(context) {
 

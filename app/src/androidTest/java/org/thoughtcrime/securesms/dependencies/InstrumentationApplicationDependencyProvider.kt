@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.dependencies
+package org.thoughtcrime.securesms.ryan.dependencies
 
 import android.app.Application
 import io.mockk.every
@@ -16,14 +16,14 @@ import okio.ByteString
 import org.signal.core.util.Base64
 import org.signal.core.util.billing.BillingApi
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.BuildConfig
-import org.thoughtcrime.securesms.push.SignalServiceNetworkAccess
-import org.thoughtcrime.securesms.push.SignalServiceTrustStore
-import org.thoughtcrime.securesms.recipients.LiveRecipientCache
-import org.thoughtcrime.securesms.testing.Get
-import org.thoughtcrime.securesms.testing.Verb
-import org.thoughtcrime.securesms.testing.runSync
-import org.thoughtcrime.securesms.testing.success
+import org.thoughtcrime.securesms.ryan.BuildConfig
+import org.thoughtcrime.securesms.ryan.push.SignalServiceNetworkAccess
+import org.thoughtcrime.securesms.ryan.push.SignalServiceTrustStore
+import org.thoughtcrime.securesms.ryan.recipients.LiveRecipientCache
+import org.thoughtcrime.securesms.ryan.testing.Get
+import org.thoughtcrime.securesms.ryan.testing.Verb
+import org.thoughtcrime.securesms.ryan.testing.runSync
+import org.thoughtcrime.securesms.ryan.testing.success
 import org.whispersystems.signalservice.api.SignalServiceDataStore
 import org.whispersystems.signalservice.api.SignalServiceMessageSender
 import org.whispersystems.signalservice.api.archive.ArchiveApi

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.profiles.manage;
+package org.thoughtcrime.securesms.ryan.profiles.manage;
 
 import android.animation.LayoutTransition;
 import android.app.Activity;
@@ -24,15 +24,15 @@ import com.google.android.material.textfield.TextInputLayout;
 
 import org.signal.core.util.EditTextUtil;
 import org.signal.core.util.concurrent.LifecycleDisposable;
-import org.thoughtcrime.securesms.LoggingFragment;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.contactshare.SimpleTextWatcher;
-import org.thoughtcrime.securesms.databinding.UsernameEditFragmentBinding;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
-import org.thoughtcrime.securesms.util.FragmentResultContract;
-import org.thoughtcrime.securesms.util.UsernameUtil;
-import org.thoughtcrime.securesms.util.ViewUtil;
-import org.thoughtcrime.securesms.util.views.CircularProgressMaterialButton;
+import org.thoughtcrime.securesms.ryan.LoggingFragment;
+import org.thoughtcrime.securesms.ryan.R;
+import org.thoughtcrime.securesms.ryan.contactshare.SimpleTextWatcher;
+import org.thoughtcrime.securesms.ryan.databinding.UsernameEditFragmentBinding;
+import org.thoughtcrime.securesms.ryan.keyvalue.SignalStore;
+import org.thoughtcrime.securesms.ryan.util.FragmentResultContract;
+import org.thoughtcrime.securesms.ryan.util.UsernameUtil;
+import org.thoughtcrime.securesms.ryan.util.ViewUtil;
+import org.thoughtcrime.securesms.ryan.util.views.CircularProgressMaterialButton;
 
 public class UsernameEditFragment extends LoggingFragment {
 

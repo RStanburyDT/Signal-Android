@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.registration.data
+package org.thoughtcrime.securesms.ryan.registration.data
 
 import org.whispersystems.signalservice.api.account.PreKeyCollection
 import org.whispersystems.signalservice.api.kbs.MasterKey

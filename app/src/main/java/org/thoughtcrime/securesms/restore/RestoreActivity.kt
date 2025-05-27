@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.restore
+package org.thoughtcrime.securesms.ryan.restore
 
 import android.content.Context
 import android.content.Intent
@@ -15,14 +15,14 @@ import androidx.navigation.Navigation
 import androidx.navigation.fragment.NavHostFragment
 import org.signal.core.util.getParcelableExtraCompat
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.BaseActivity
-import org.thoughtcrime.securesms.PassphraseRequiredActivity
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.RestoreDirections
-import org.thoughtcrime.securesms.registrationv3.ui.restore.RemoteRestoreActivity
-import org.thoughtcrime.securesms.util.DynamicNoActionBarTheme
-import org.thoughtcrime.securesms.util.RemoteConfig
-import org.thoughtcrime.securesms.util.navigation.safeNavigate
+import org.thoughtcrime.securesms.ryan.BaseActivity
+import org.thoughtcrime.securesms.ryan.PassphraseRequiredActivity
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.RestoreDirections
+import org.thoughtcrime.securesms.ryan.registrationv3.ui.restore.RemoteRestoreActivity
+import org.thoughtcrime.securesms.ryan.util.DynamicNoActionBarTheme
+import org.thoughtcrime.securesms.ryan.util.RemoteConfig
+import org.thoughtcrime.securesms.ryan.util.navigation.safeNavigate
 
 /**
  * Activity to hold the restore from backup flow.

@@ -1,8 +1,8 @@
-package org.thoughtcrime.securesms.mediasend.camerax
+package org.thoughtcrime.securesms.ryan.mediasend.camerax
 
 import android.os.Build
 import org.signal.core.util.asListContains
-import org.thoughtcrime.securesms.util.RemoteConfig
+import org.thoughtcrime.securesms.ryan.util.RemoteConfig
 
 /**
  * Some phones don't work well with CameraX. This class uses a remote config to decide

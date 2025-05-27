@@ -1,11 +1,11 @@
-package org.thoughtcrime.securesms.keyvalue;
+package org.thoughtcrime.securesms.ryan.keyvalue;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 import org.signal.core.util.ByteSerializer;
 import org.signal.core.util.StringSerializer;
-import org.thoughtcrime.securesms.database.model.databaseprotos.SignalStoreList;
+import org.thoughtcrime.securesms.ryan.database.model.databaseprotos.SignalStoreList;
 
 import java.io.IOException;
 import java.util.Collections;

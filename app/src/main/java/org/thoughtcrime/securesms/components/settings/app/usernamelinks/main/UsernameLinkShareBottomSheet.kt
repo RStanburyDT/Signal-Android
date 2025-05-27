@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.settings.app.usernamelinks.main
+package org.thoughtcrime.securesms.ryan.components.settings.app.usernamelinks.main
 
 import android.content.Intent
 import android.content.res.Configuration
@@ -32,13 +32,13 @@ import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.setFragmentResult
 import org.signal.core.ui.compose.BottomSheets
 import org.signal.core.ui.compose.theme.SignalTheme
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.webrtc.requests.CallLinkIncomingRequestSheet
-import org.thoughtcrime.securesms.compose.ComposeBottomSheetDialogFragment
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.profiles.manage.UsernameRepository.toLink
-import org.thoughtcrime.securesms.util.BottomSheetUtil
-import org.thoughtcrime.securesms.util.Util
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.components.webrtc.requests.CallLinkIncomingRequestSheet
+import org.thoughtcrime.securesms.ryan.compose.ComposeBottomSheetDialogFragment
+import org.thoughtcrime.securesms.ryan.keyvalue.SignalStore
+import org.thoughtcrime.securesms.ryan.profiles.manage.UsernameRepository.toLink
+import org.thoughtcrime.securesms.ryan.util.BottomSheetUtil
+import org.thoughtcrime.securesms.ryan.util.Util
 
 class UsernameLinkShareBottomSheet : ComposeBottomSheetDialogFragment() {
 

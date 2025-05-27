@@ -1,9 +1,9 @@
-package org.thoughtcrime.securesms.service.webrtc.state
+package org.thoughtcrime.securesms.ryan.service.webrtc.state
 
-import org.thoughtcrime.securesms.components.sensors.Orientation
-import org.thoughtcrime.securesms.events.CallParticipant
-import org.thoughtcrime.securesms.ringrtc.CameraState
-import org.thoughtcrime.securesms.webrtc.audio.SignalAudioManager
+import org.thoughtcrime.securesms.ryan.components.sensors.Orientation
+import org.thoughtcrime.securesms.ryan.events.CallParticipant
+import org.thoughtcrime.securesms.ryan.ringrtc.CameraState
+import org.thoughtcrime.securesms.ryan.webrtc.audio.SignalAudioManager
 import org.webrtc.PeerConnection
 
 /**

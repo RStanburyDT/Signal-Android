@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.logsubmit;
+package org.thoughtcrime.securesms.ryan.logsubmit;
 
 import android.app.NotificationChannel;
 import android.app.NotificationManager;
@@ -8,9 +8,9 @@ import android.os.Build;
 import androidx.annotation.NonNull;
 import androidx.annotation.RequiresApi;
 
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
-import org.thoughtcrime.securesms.notifications.SlowNotificationHeuristics;
-import org.thoughtcrime.securesms.util.ServiceUtil;
+import org.thoughtcrime.securesms.ryan.keyvalue.SignalStore;
+import org.thoughtcrime.securesms.ryan.notifications.SlowNotificationHeuristics;
+import org.thoughtcrime.securesms.ryan.util.ServiceUtil;
 
 final class LogSectionNotifications implements LogSection {
 

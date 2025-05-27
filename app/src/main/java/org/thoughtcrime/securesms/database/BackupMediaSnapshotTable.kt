@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.database
+package org.thoughtcrime.securesms.ryan.database
 
 import android.content.Context
 import android.database.Cursor
@@ -19,9 +19,13 @@ import org.signal.core.util.requireNonNullBlob
 import org.signal.core.util.requireNonNullString
 import org.signal.core.util.select
 import org.signal.core.util.toInt
+<<<<<<< HEAD
+import org.thoughtcrime.securesms.ryan.backup.v2.ArchivedMediaObject
+=======
 import org.signal.core.util.update
 import org.signal.core.util.updateAll
 import org.thoughtcrime.securesms.backup.v2.ArchivedMediaObject
+>>>>>>> 23669c3c372284d42db486a218d9f29bef247abf
 
 /**
  * When we delete attachments locally, we can't immediately delete them from the archive CDN. This is because there is still a backup that exists that

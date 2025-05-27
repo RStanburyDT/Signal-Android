@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.database.helpers;
+package org.thoughtcrime.securesms.ryan.database.helpers;
 
 
 import android.content.ContentValues;
@@ -10,7 +10,7 @@ import org.signal.core.util.Conversions;
 import org.signal.core.util.logging.Log;
 import org.signal.libsignal.protocol.InvalidMessageException;
 import org.signal.libsignal.protocol.state.SessionRecord;
-import org.thoughtcrime.securesms.database.SessionTable;
+import org.thoughtcrime.securesms.ryan.database.SessionTable;
 import org.whispersystems.signalservice.api.push.SignalServiceAddress;
 
 import java.io.File;

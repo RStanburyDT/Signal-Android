@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.registrationv3.ui
+package org.thoughtcrime.securesms.ryan.registrationv3.ui
 
 /**
  * An ordered list of checkpoints of the registration process.

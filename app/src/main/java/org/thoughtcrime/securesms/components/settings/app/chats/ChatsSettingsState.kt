@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.settings.app.chats
+package org.thoughtcrime.securesms.ryan.components.settings.app.chats
 
 data class ChatsSettingsState(
   val generateLinkPreviews: Boolean,

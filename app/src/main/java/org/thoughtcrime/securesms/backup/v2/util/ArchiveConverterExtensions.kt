@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.backup.v2.util
+package org.thoughtcrime.securesms.ryan.backup.v2.util
 
 import okio.ByteString
 import okio.ByteString.Companion.toByteString
@@ -11,24 +11,24 @@ import org.signal.core.util.Base64
 import org.signal.core.util.emptyIfNull
 import org.signal.core.util.nullIfBlank
 import org.signal.core.util.orNull
-import org.thoughtcrime.securesms.attachments.ArchivedAttachment
-import org.thoughtcrime.securesms.attachments.Attachment
-import org.thoughtcrime.securesms.attachments.Cdn
-import org.thoughtcrime.securesms.attachments.DatabaseAttachment
-import org.thoughtcrime.securesms.attachments.PointerAttachment
-import org.thoughtcrime.securesms.attachments.TombstoneAttachment
-import org.thoughtcrime.securesms.backup.v2.ImportState
-import org.thoughtcrime.securesms.backup.v2.getMediaName
-import org.thoughtcrime.securesms.backup.v2.proto.FilePointer
-import org.thoughtcrime.securesms.conversation.colors.AvatarColor
-import org.thoughtcrime.securesms.database.AttachmentTable
-import org.thoughtcrime.securesms.stickers.StickerLocator
+import org.thoughtcrime.securesms.ryan.attachments.ArchivedAttachment
+import org.thoughtcrime.securesms.ryan.attachments.Attachment
+import org.thoughtcrime.securesms.ryan.attachments.Cdn
+import org.thoughtcrime.securesms.ryan.attachments.DatabaseAttachment
+import org.thoughtcrime.securesms.ryan.attachments.PointerAttachment
+import org.thoughtcrime.securesms.ryan.attachments.TombstoneAttachment
+import org.thoughtcrime.securesms.ryan.backup.v2.ImportState
+import org.thoughtcrime.securesms.ryan.backup.v2.getMediaName
+import org.thoughtcrime.securesms.ryan.backup.v2.proto.FilePointer
+import org.thoughtcrime.securesms.ryan.conversation.colors.AvatarColor
+import org.thoughtcrime.securesms.ryan.database.AttachmentTable
+import org.thoughtcrime.securesms.ryan.stickers.StickerLocator
 import org.whispersystems.signalservice.api.backup.MediaName
 import org.whispersystems.signalservice.api.messages.SignalServiceAttachmentPointer
 import org.whispersystems.signalservice.api.messages.SignalServiceAttachmentRemoteId
 import org.whispersystems.signalservice.api.util.UuidUtil
 import java.util.Optional
-import org.thoughtcrime.securesms.backup.v2.proto.AvatarColor as RemoteAvatarColor
+import org.thoughtcrime.securesms.ryan.backup.v2.proto.AvatarColor as RemoteAvatarColor
 
 /**
  * Converts a [FilePointer] to a local [Attachment] object for inserting into the database.

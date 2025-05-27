@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.util;
+package org.thoughtcrime.securesms.ryan.util;
 
 import android.app.usage.UsageEvents;
 import android.app.usage.UsageStatsManager;

@@ -1,13 +1,13 @@
-package org.thoughtcrime.securesms.migrations;
+package org.thoughtcrime.securesms.ryan.migrations;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.jobmanager.Job;
-import org.thoughtcrime.securesms.jobmanager.JobLogger;
-import org.thoughtcrime.securesms.jobmanager.impl.BackoffUtil;
-import org.thoughtcrime.securesms.util.RemoteConfig;
+import org.thoughtcrime.securesms.ryan.jobmanager.Job;
+import org.thoughtcrime.securesms.ryan.jobmanager.JobLogger;
+import org.thoughtcrime.securesms.ryan.jobmanager.impl.BackoffUtil;
+import org.thoughtcrime.securesms.ryan.util.RemoteConfig;
 
 /**
  * A base class for jobs that are intended to be used in {@link ApplicationMigrations}. Some

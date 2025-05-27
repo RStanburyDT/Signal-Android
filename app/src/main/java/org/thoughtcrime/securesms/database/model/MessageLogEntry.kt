@@ -1,11 +1,11 @@
-package org.thoughtcrime.securesms.database.model
+package org.thoughtcrime.securesms.ryan.database.model
 
-import org.thoughtcrime.securesms.recipients.RecipientId
+import org.thoughtcrime.securesms.ryan.recipients.RecipientId
 import org.whispersystems.signalservice.api.crypto.ContentHint
 import org.whispersystems.signalservice.internal.push.Content
 
 /**
- * Model class for reading from the [org.thoughtcrime.securesms.database.MessageSendLogTables].
+ * Model class for reading from the [org.thoughtcrime.securesms.ryan.database.MessageSendLogTables].
  */
 data class MessageLogEntry(
   val recipientId: RecipientId,

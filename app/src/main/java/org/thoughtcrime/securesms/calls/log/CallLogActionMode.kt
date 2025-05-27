@@ -1,10 +1,10 @@
-package org.thoughtcrime.securesms.calls.log
+package org.thoughtcrime.securesms.ryan.calls.log
 
 import android.content.res.Resources
 import android.view.Menu
 import android.view.MenuItem
 import androidx.appcompat.view.ActionMode
-import org.thoughtcrime.securesms.R
+import org.thoughtcrime.securesms.ryan.R
 
 class CallLogActionMode(
   private val callback: Callback

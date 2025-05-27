@@ -1,9 +1,9 @@
-package org.thoughtcrime.securesms.megaphone;
+package org.thoughtcrime.securesms.ryan.megaphone;
 
 import androidx.annotation.VisibleForTesting;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
+import org.thoughtcrime.securesms.ryan.keyvalue.SignalStore;
 
 import java.util.Locale;
 import java.util.concurrent.TimeUnit;

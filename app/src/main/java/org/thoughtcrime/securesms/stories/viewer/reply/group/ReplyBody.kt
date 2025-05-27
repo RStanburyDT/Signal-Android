@@ -1,9 +1,9 @@
-package org.thoughtcrime.securesms.stories.viewer.reply.group
+package org.thoughtcrime.securesms.ryan.stories.viewer.reply.group
 
-import org.thoughtcrime.securesms.conversation.ConversationMessage
-import org.thoughtcrime.securesms.database.model.MessageId
-import org.thoughtcrime.securesms.database.model.MessageRecord
-import org.thoughtcrime.securesms.recipients.Recipient
+import org.thoughtcrime.securesms.ryan.conversation.ConversationMessage
+import org.thoughtcrime.securesms.ryan.database.model.MessageId
+import org.thoughtcrime.securesms.ryan.database.model.MessageRecord
+import org.thoughtcrime.securesms.ryan.recipients.Recipient
 
 sealed class ReplyBody(val messageRecord: MessageRecord) {
 

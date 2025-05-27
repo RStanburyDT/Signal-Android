@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.jobmanager
+package org.thoughtcrime.securesms.ryan.jobmanager
 
 import io.mockk.every
 import io.mockk.mockk
@@ -9,9 +9,9 @@ import org.junit.Assert.assertTrue
 import org.junit.BeforeClass
 import org.junit.Test
 import org.signal.core.util.logging.Log.initialize
-import org.thoughtcrime.securesms.jobmanager.persistence.JobSpec
-import org.thoughtcrime.securesms.jobmanager.persistence.JobStorage
-import org.thoughtcrime.securesms.testutil.EmptyLogger
+import org.thoughtcrime.securesms.ryan.jobmanager.persistence.JobSpec
+import org.thoughtcrime.securesms.ryan.jobmanager.persistence.JobStorage
+import org.thoughtcrime.securesms.ryan.testutil.EmptyLogger
 
 class JobMigratorTest {
   @Test

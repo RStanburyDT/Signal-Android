@@ -1,12 +1,12 @@
-package org.thoughtcrime.securesms.groups;
+package org.thoughtcrime.securesms.ryan.groups;
 
 import androidx.annotation.WorkerThread;
 
 import org.signal.core.util.ThreadUtil;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.crypto.ReentrantSessionLock;
-import org.thoughtcrime.securesms.database.SignalDatabase;
-import org.thoughtcrime.securesms.util.RemoteConfig;
+import org.thoughtcrime.securesms.ryan.crypto.ReentrantSessionLock;
+import org.thoughtcrime.securesms.ryan.database.SignalDatabase;
+import org.thoughtcrime.securesms.ryan.util.RemoteConfig;
 
 import java.io.Closeable;
 import java.util.concurrent.TimeUnit;

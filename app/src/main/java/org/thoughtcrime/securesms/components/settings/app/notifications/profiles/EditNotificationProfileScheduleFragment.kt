@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.settings.app.notifications.profiles
+package org.thoughtcrime.securesms.ryan.components.settings.app.notifications.profiles
 
 import android.content.Context
 import android.os.Bundle
@@ -20,15 +20,15 @@ import com.google.android.material.timepicker.MaterialTimePicker
 import com.google.android.material.timepicker.TimeFormat
 import io.reactivex.rxjava3.kotlin.subscribeBy
 import org.signal.core.util.concurrent.LifecycleDisposable
-import org.thoughtcrime.securesms.LoggingFragment
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.settings.app.notifications.profiles.EditNotificationProfileScheduleViewModel.SaveScheduleResult
-import org.thoughtcrime.securesms.util.ViewUtil
-import org.thoughtcrime.securesms.util.formatHours
-import org.thoughtcrime.securesms.util.navigation.safeNavigate
-import org.thoughtcrime.securesms.util.orderOfDaysInWeek
-import org.thoughtcrime.securesms.util.views.CircularProgressMaterialButton
-import org.thoughtcrime.securesms.util.visible
+import org.thoughtcrime.securesms.ryan.LoggingFragment
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.components.settings.app.notifications.profiles.EditNotificationProfileScheduleViewModel.SaveScheduleResult
+import org.thoughtcrime.securesms.ryan.util.ViewUtil
+import org.thoughtcrime.securesms.ryan.util.formatHours
+import org.thoughtcrime.securesms.ryan.util.navigation.safeNavigate
+import org.thoughtcrime.securesms.ryan.util.orderOfDaysInWeek
+import org.thoughtcrime.securesms.ryan.util.views.CircularProgressMaterialButton
+import org.thoughtcrime.securesms.ryan.util.visible
 import java.time.DayOfWeek
 import java.time.LocalTime
 import java.time.format.DateTimeFormatter

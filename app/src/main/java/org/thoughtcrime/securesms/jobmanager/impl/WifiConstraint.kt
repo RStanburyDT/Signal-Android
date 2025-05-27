@@ -3,13 +3,13 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.jobmanager.impl
+package org.thoughtcrime.securesms.ryan.jobmanager.impl
 
 import android.app.Application
 import android.app.job.JobInfo
 import android.content.Context
-import org.thoughtcrime.securesms.jobmanager.Constraint
-import org.thoughtcrime.securesms.util.NetworkUtil
+import org.thoughtcrime.securesms.ryan.jobmanager.Constraint
+import org.thoughtcrime.securesms.ryan.util.NetworkUtil
 
 /**
  * Constraint that, when added, means that a job cannot be performed unless the user has Wifi

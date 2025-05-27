@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.main
+package org.thoughtcrime.securesms.ryan.main
 
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.runtime.Composable
@@ -13,7 +13,7 @@ import androidx.compose.ui.graphics.RectangleShape
 import androidx.compose.ui.graphics.Shape
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
-import org.thoughtcrime.securesms.window.WindowSizeClass
+import org.thoughtcrime.securesms.ryan.window.WindowSizeClass
 
 private val MEDIUM_CONTENT_CORNERS = 18.dp
 private val EXTENDED_CONTENT_CORNERS = 14.dp

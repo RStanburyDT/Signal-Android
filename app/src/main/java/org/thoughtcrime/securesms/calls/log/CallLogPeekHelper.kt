@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.calls.log
+package org.thoughtcrime.securesms.ryan.calls.log
 
 import android.os.Bundle
 import android.os.ResultReceiver
@@ -11,12 +11,12 @@ import androidx.lifecycle.DefaultLifecycleObserver
 import androidx.lifecycle.LifecycleOwner
 import org.signal.core.util.concurrent.SignalExecutors
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.service.webrtc.ActiveCallData
-import org.thoughtcrime.securesms.service.webrtc.links.CallLinkRoomId
-import org.thoughtcrime.securesms.util.ThrottledDebouncer
-import org.thoughtcrime.securesms.util.concurrent.SerialExecutor
+import org.thoughtcrime.securesms.ryan.dependencies.AppDependencies
+import org.thoughtcrime.securesms.ryan.recipients.RecipientId
+import org.thoughtcrime.securesms.ryan.service.webrtc.ActiveCallData
+import org.thoughtcrime.securesms.ryan.service.webrtc.links.CallLinkRoomId
+import org.thoughtcrime.securesms.ryan.util.ThrottledDebouncer
+import org.thoughtcrime.securesms.ryan.util.concurrent.SerialExecutor
 import java.util.concurrent.Executor
 import kotlin.time.Duration.Companion.days
 import kotlin.time.Duration.Companion.seconds

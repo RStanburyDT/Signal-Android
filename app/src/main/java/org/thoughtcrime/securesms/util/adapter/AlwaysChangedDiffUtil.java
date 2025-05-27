@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.util.adapter;
+package org.thoughtcrime.securesms.ryan.util.adapter;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.DiffUtil;

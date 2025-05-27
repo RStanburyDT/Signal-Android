@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.groups.ui.invitesandrequests.joining;
+package org.thoughtcrime.securesms.ryan.groups.ui.invitesandrequests.joining;
 
 import android.content.Context;
 
@@ -10,13 +10,13 @@ import org.signal.core.util.concurrent.SignalExecutors;
 import org.signal.core.util.logging.Log;
 import org.signal.libsignal.zkgroup.VerificationFailedException;
 import org.signal.storageservice.protos.groups.local.DecryptedGroupJoinInfo;
-import org.thoughtcrime.securesms.groups.GroupChangeBusyException;
-import org.thoughtcrime.securesms.groups.GroupChangeFailedException;
-import org.thoughtcrime.securesms.groups.GroupManager;
-import org.thoughtcrime.securesms.groups.MembershipNotSuitableForV2Exception;
-import org.thoughtcrime.securesms.groups.v2.GroupInviteLinkUrl;
-import org.thoughtcrime.securesms.jobs.AvatarGroupsV2DownloadJob;
-import org.thoughtcrime.securesms.util.AsynchronousCallback;
+import org.thoughtcrime.securesms.ryan.groups.GroupChangeBusyException;
+import org.thoughtcrime.securesms.ryan.groups.GroupChangeFailedException;
+import org.thoughtcrime.securesms.ryan.groups.GroupManager;
+import org.thoughtcrime.securesms.ryan.groups.MembershipNotSuitableForV2Exception;
+import org.thoughtcrime.securesms.ryan.groups.v2.GroupInviteLinkUrl;
+import org.thoughtcrime.securesms.ryan.jobs.AvatarGroupsV2DownloadJob;
+import org.thoughtcrime.securesms.ryan.util.AsynchronousCallback;
 import org.whispersystems.signalservice.api.groupsv2.GroupLinkNotActiveException;
 
 import java.io.IOException;

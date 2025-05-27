@@ -1,12 +1,12 @@
-package org.thoughtcrime.securesms.mediasend;
+package org.thoughtcrime.securesms.ryan.mediasend;
 
 import android.content.Context;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.WorkerThread;
 
-import org.thoughtcrime.securesms.database.AttachmentTable;
-import org.thoughtcrime.securesms.mms.SentMediaQuality;
+import org.thoughtcrime.securesms.ryan.database.AttachmentTable;
+import org.thoughtcrime.securesms.ryan.mms.SentMediaQuality;
 
 import java.util.Optional;
 

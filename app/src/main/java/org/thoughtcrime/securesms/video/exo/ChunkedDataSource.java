@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.video.exo;
+package org.thoughtcrime.securesms.ryan.video.exo;
 
 import android.content.Context;
 import android.net.Uri;
@@ -13,8 +13,8 @@ import androidx.media3.datasource.DataSource;
 import androidx.media3.datasource.DataSpec;
 import androidx.media3.datasource.TransferListener;
 
-import org.thoughtcrime.securesms.dependencies.AppDependencies;
-import org.thoughtcrime.securesms.net.ChunkedDataFetcher;
+import org.thoughtcrime.securesms.ryan.dependencies.AppDependencies;
+import org.thoughtcrime.securesms.ryan.net.ChunkedDataFetcher;
 
 import java.io.EOFException;
 import java.io.IOException;

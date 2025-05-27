@@ -1,9 +1,9 @@
-package org.thoughtcrime.securesms.groups.ui;
+package org.thoughtcrime.securesms.ryan.groups.ui;
 
 import androidx.annotation.Nullable;
 import androidx.annotation.StringRes;
 
-import org.thoughtcrime.securesms.R;
+import org.thoughtcrime.securesms.ryan.R;
 
 public final class GroupErrors {
   private GroupErrors() {

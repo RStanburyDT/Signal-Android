@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.storage
+package org.thoughtcrime.securesms.ryan.storage
 
 import org.whispersystems.signalservice.api.storage.SignalRecord
 

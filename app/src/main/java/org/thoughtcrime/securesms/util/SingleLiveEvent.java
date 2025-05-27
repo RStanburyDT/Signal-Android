@@ -14,7 +14,7 @@
  *  limitations under the License.
  */
 
-package org.thoughtcrime.securesms.util;
+package org.thoughtcrime.securesms.ryan.util;
 
 import androidx.annotation.MainThread;
 import androidx.annotation.NonNull;

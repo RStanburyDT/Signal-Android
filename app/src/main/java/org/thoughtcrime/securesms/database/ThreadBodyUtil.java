@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.database;
+package org.thoughtcrime.securesms.ryan.database;
 
 import android.content.Context;
 import android.text.SpannableStringBuilder;
@@ -9,17 +9,17 @@ import androidx.annotation.Nullable;
 import androidx.annotation.StringRes;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.components.emoji.EmojiStrings;
-import org.thoughtcrime.securesms.contactshare.Contact;
-import org.thoughtcrime.securesms.contactshare.ContactUtil;
-import org.thoughtcrime.securesms.database.model.MessageRecord;
-import org.thoughtcrime.securesms.database.model.MmsMessageRecord;
-import org.thoughtcrime.securesms.mms.GifSlide;
-import org.thoughtcrime.securesms.mms.Slide;
-import org.thoughtcrime.securesms.mms.StickerSlide;
-import org.thoughtcrime.securesms.util.MessageRecordUtil;
-import org.thoughtcrime.securesms.util.Util;
+import org.thoughtcrime.securesms.ryan.R;
+import org.thoughtcrime.securesms.ryan.components.emoji.EmojiStrings;
+import org.thoughtcrime.securesms.ryan.contactshare.Contact;
+import org.thoughtcrime.securesms.ryan.contactshare.ContactUtil;
+import org.thoughtcrime.securesms.ryan.database.model.MessageRecord;
+import org.thoughtcrime.securesms.ryan.database.model.MmsMessageRecord;
+import org.thoughtcrime.securesms.ryan.mms.GifSlide;
+import org.thoughtcrime.securesms.ryan.mms.Slide;
+import org.thoughtcrime.securesms.ryan.mms.StickerSlide;
+import org.thoughtcrime.securesms.ryan.util.MessageRecordUtil;
+import org.thoughtcrime.securesms.ryan.util.Util;
 
 import java.util.ArrayList;
 import java.util.Collections;

@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.settings.app.internal.conversation.test
+package org.thoughtcrime.securesms.ryan.components.settings.app.internal.conversation.test
 
 import android.net.Uri
 import android.os.Bundle
@@ -19,34 +19,34 @@ import io.reactivex.rxjava3.kotlin.subscribeBy
 import org.signal.core.util.concurrent.LifecycleDisposable
 import org.signal.core.util.logging.Log
 import org.signal.ringrtc.CallLinkRootKey
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.ViewBinderDelegate
-import org.thoughtcrime.securesms.components.recyclerview.SmoothScrollingLinearLayoutManager
-import org.thoughtcrime.securesms.components.settings.app.internal.conversation.springboard.InternalConversationSpringboardViewModel
-import org.thoughtcrime.securesms.components.voice.VoiceNotePlaybackState
-import org.thoughtcrime.securesms.contactshare.Contact
-import org.thoughtcrime.securesms.conversation.ConversationAdapter.ItemClickListener
-import org.thoughtcrime.securesms.conversation.ConversationItem
-import org.thoughtcrime.securesms.conversation.ConversationMessage
-import org.thoughtcrime.securesms.conversation.colors.ChatColors
-import org.thoughtcrime.securesms.conversation.colors.ChatColorsPalette
-import org.thoughtcrime.securesms.conversation.colors.Colorizer
-import org.thoughtcrime.securesms.conversation.colors.RecyclerViewColorizer
-import org.thoughtcrime.securesms.conversation.mutiselect.MultiselectPart
-import org.thoughtcrime.securesms.conversation.v2.ConversationAdapterV2
-import org.thoughtcrime.securesms.conversation.v2.items.ChatColorsDrawable
-import org.thoughtcrime.securesms.database.model.InMemoryMessageRecord
-import org.thoughtcrime.securesms.database.model.MessageRecord
-import org.thoughtcrime.securesms.database.model.MmsMessageRecord
-import org.thoughtcrime.securesms.databinding.ConversationTestFragmentBinding
-import org.thoughtcrime.securesms.groups.GroupId
-import org.thoughtcrime.securesms.groups.GroupMigrationMembershipChange
-import org.thoughtcrime.securesms.linkpreview.LinkPreview
-import org.thoughtcrime.securesms.mediapreview.MediaIntentFactory
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.stickers.StickerLocator
-import org.thoughtcrime.securesms.util.doAfterNextLayout
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.components.ViewBinderDelegate
+import org.thoughtcrime.securesms.ryan.components.recyclerview.SmoothScrollingLinearLayoutManager
+import org.thoughtcrime.securesms.ryan.components.settings.app.internal.conversation.springboard.InternalConversationSpringboardViewModel
+import org.thoughtcrime.securesms.ryan.components.voice.VoiceNotePlaybackState
+import org.thoughtcrime.securesms.ryan.contactshare.Contact
+import org.thoughtcrime.securesms.ryan.conversation.ConversationAdapter.ItemClickListener
+import org.thoughtcrime.securesms.ryan.conversation.ConversationItem
+import org.thoughtcrime.securesms.ryan.conversation.ConversationMessage
+import org.thoughtcrime.securesms.ryan.conversation.colors.ChatColors
+import org.thoughtcrime.securesms.ryan.conversation.colors.ChatColorsPalette
+import org.thoughtcrime.securesms.ryan.conversation.colors.Colorizer
+import org.thoughtcrime.securesms.ryan.conversation.colors.RecyclerViewColorizer
+import org.thoughtcrime.securesms.ryan.conversation.mutiselect.MultiselectPart
+import org.thoughtcrime.securesms.ryan.conversation.v2.ConversationAdapterV2
+import org.thoughtcrime.securesms.ryan.conversation.v2.items.ChatColorsDrawable
+import org.thoughtcrime.securesms.ryan.database.model.InMemoryMessageRecord
+import org.thoughtcrime.securesms.ryan.database.model.MessageRecord
+import org.thoughtcrime.securesms.ryan.database.model.MmsMessageRecord
+import org.thoughtcrime.securesms.ryan.databinding.ConversationTestFragmentBinding
+import org.thoughtcrime.securesms.ryan.groups.GroupId
+import org.thoughtcrime.securesms.ryan.groups.GroupMigrationMembershipChange
+import org.thoughtcrime.securesms.ryan.linkpreview.LinkPreview
+import org.thoughtcrime.securesms.ryan.mediapreview.MediaIntentFactory
+import org.thoughtcrime.securesms.ryan.recipients.Recipient
+import org.thoughtcrime.securesms.ryan.recipients.RecipientId
+import org.thoughtcrime.securesms.ryan.stickers.StickerLocator
+import org.thoughtcrime.securesms.ryan.util.doAfterNextLayout
 
 class InternalConversationTestFragment : Fragment(R.layout.conversation_test_fragment) {
 

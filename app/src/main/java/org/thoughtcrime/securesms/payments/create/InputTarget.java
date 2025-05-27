@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.payments.create;
+package org.thoughtcrime.securesms.ryan.payments.create;
 
 enum InputTarget {
   MONEY() {

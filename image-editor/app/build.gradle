@@ -8,7 +8,7 @@ android {
     namespace = "org.signal.imageeditor.app"
 
     defaultConfig {
-        applicationId = "org.signal.imageeditor.app"
+        applicationId = "org.signal.imageeditor.app.ryan"
     }
 }
 

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.settings.app.subscription.donate.paypal
+package org.thoughtcrime.securesms.ryan.components.settings.app.subscription.donate.paypal
 
 import android.annotation.SuppressLint
 import android.content.DialogInterface
@@ -16,12 +16,12 @@ import androidx.lifecycle.DefaultLifecycleObserver
 import androidx.lifecycle.LifecycleOwner
 import androidx.navigation.fragment.navArgs
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.ViewBinderDelegate
-import org.thoughtcrime.securesms.components.settings.app.subscription.PayPalRepository
-import org.thoughtcrime.securesms.components.settings.app.subscription.donate.DonationWebViewOnBackPressedCallback
-import org.thoughtcrime.securesms.databinding.DonationWebviewFragmentBinding
-import org.thoughtcrime.securesms.util.visible
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.components.ViewBinderDelegate
+import org.thoughtcrime.securesms.ryan.components.settings.app.subscription.PayPalRepository
+import org.thoughtcrime.securesms.ryan.components.settings.app.subscription.donate.DonationWebViewOnBackPressedCallback
+import org.thoughtcrime.securesms.ryan.databinding.DonationWebviewFragmentBinding
+import org.thoughtcrime.securesms.ryan.util.visible
 
 /**
  * Full-screen dialog for displaying PayPal confirmation.

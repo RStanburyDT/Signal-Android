@@ -3,16 +3,16 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.attachments
+package org.thoughtcrime.securesms.ryan.attachments
 
 import android.content.Context
 import android.graphics.Bitmap
 import android.os.Build
 import org.signal.core.util.logging.Log
 import org.signal.protos.resumableuploads.ResumableUpload
-import org.thoughtcrime.securesms.blurhash.BlurHashEncoder
-import org.thoughtcrime.securesms.mms.PartAuthority
-import org.thoughtcrime.securesms.util.MediaUtil
+import org.thoughtcrime.securesms.ryan.blurhash.BlurHashEncoder
+import org.thoughtcrime.securesms.ryan.mms.PartAuthority
+import org.thoughtcrime.securesms.ryan.util.MediaUtil
 import org.whispersystems.signalservice.api.messages.SignalServiceAttachment
 import org.whispersystems.signalservice.api.messages.SignalServiceAttachment.ProgressListener
 import org.whispersystems.signalservice.api.messages.SignalServiceAttachmentStream

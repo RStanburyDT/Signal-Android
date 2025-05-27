@@ -1,17 +1,17 @@
-package org.thoughtcrime.securesms.components.settings.app.chats
+package org.thoughtcrime.securesms.ryan.components.settings.app.chats
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
-import org.thoughtcrime.securesms.components.settings.app.chats.folders.ChatFoldersRepository
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.util.BackupUtil
-import org.thoughtcrime.securesms.util.ConversationUtil
-import org.thoughtcrime.securesms.util.ThrottledDebouncer
-import org.thoughtcrime.securesms.util.livedata.Store
+import org.thoughtcrime.securesms.ryan.components.settings.app.chats.folders.ChatFoldersRepository
+import org.thoughtcrime.securesms.ryan.dependencies.AppDependencies
+import org.thoughtcrime.securesms.ryan.keyvalue.SignalStore
+import org.thoughtcrime.securesms.ryan.util.BackupUtil
+import org.thoughtcrime.securesms.ryan.util.ConversationUtil
+import org.thoughtcrime.securesms.ryan.util.ThrottledDebouncer
+import org.thoughtcrime.securesms.ryan.util.livedata.Store
 
 class ChatsSettingsViewModel @JvmOverloads constructor(
   private val repository: ChatsSettingsRepository = ChatsSettingsRepository()

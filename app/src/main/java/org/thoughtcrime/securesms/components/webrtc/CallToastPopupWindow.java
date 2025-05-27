@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.webrtc;
+package org.thoughtcrime.securesms.ryan.components.webrtc;
 
 import android.view.Gravity;
 import android.view.LayoutInflater;
@@ -10,8 +10,8 @@ import android.widget.TextView;
 import androidx.annotation.DrawableRes;
 import androidx.annotation.NonNull;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.util.ViewUtil;
+import org.thoughtcrime.securesms.ryan.R;
+import org.thoughtcrime.securesms.ryan.util.ViewUtil;
 
 import java.util.concurrent.TimeUnit;
 

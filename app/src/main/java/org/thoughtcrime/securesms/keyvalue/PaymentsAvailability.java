@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.keyvalue;
+package org.thoughtcrime.securesms.ryan.keyvalue;
 
 public enum PaymentsAvailability {
   NOT_IN_REGION(false, false),

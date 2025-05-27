@@ -14,7 +14,7 @@ import androidx.work.WorkManager
 import androidx.work.WorkQuery
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.emptyFlow
-import org.thoughtcrime.securesms.video.TranscodingPreset
+import org.thoughtcrime.securesms.ryan.video.TranscodingPreset
 import java.util.UUID
 import kotlin.math.absoluteValue
 import kotlin.random.Random

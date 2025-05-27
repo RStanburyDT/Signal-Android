@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.thoughtcrime.securesms.util;
+package org.thoughtcrime.securesms.ryan.util;
 
 import android.annotation.SuppressLint;
 import android.app.ActivityManager;
@@ -45,11 +45,18 @@ import com.google.i18n.phonenumbers.Phonenumber;
 import org.signal.core.util.Base64;
 import org.signal.core.util.PendingIntentFlags;
 import org.signal.core.util.logging.Log;
+<<<<<<< HEAD
+import org.thoughtcrime.securesms.ryan.BuildConfig;
+import org.thoughtcrime.securesms.ryan.R;
+import org.thoughtcrime.securesms.ryan.components.ComposeText;
+import org.thoughtcrime.securesms.ryan.keyvalue.SignalStore;
+=======
 import org.thoughtcrime.securesms.BuildConfig;
 import org.thoughtcrime.securesms.R;
 import org.thoughtcrime.securesms.components.ComposeText;
 import org.thoughtcrime.securesms.keyvalue.SignalStore;
 import org.thoughtcrime.securesms.payments.backup.phrase.ClearClipboardAlarmReceiver;
+>>>>>>> 23669c3c372284d42db486a218d9f29bef247abf
 
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;

@@ -1,8 +1,8 @@
-package org.thoughtcrime.securesms.audio;
+package org.thoughtcrime.securesms.ryan.audio;
 
 import androidx.annotation.NonNull;
 
-import org.thoughtcrime.securesms.database.model.databaseprotos.AudioWaveFormData;
+import org.thoughtcrime.securesms.ryan.database.model.databaseprotos.AudioWaveFormData;
 
 import java.util.concurrent.TimeUnit;
 

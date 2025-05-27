@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.safety
+package org.thoughtcrime.securesms.ryan.safety
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
@@ -8,12 +8,12 @@ import io.reactivex.rxjava3.core.Maybe
 import io.reactivex.rxjava3.core.Single
 import io.reactivex.rxjava3.disposables.CompositeDisposable
 import io.reactivex.rxjava3.kotlin.plusAssign
-import org.thoughtcrime.securesms.contacts.paged.ContactSearchKey
-import org.thoughtcrime.securesms.conversation.ui.error.SafetyNumberChangeRepository
-import org.thoughtcrime.securesms.conversation.ui.error.TrustAndVerifyResult
-import org.thoughtcrime.securesms.database.model.IdentityRecord
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.util.rx.RxStore
+import org.thoughtcrime.securesms.ryan.contacts.paged.ContactSearchKey
+import org.thoughtcrime.securesms.ryan.conversation.ui.error.SafetyNumberChangeRepository
+import org.thoughtcrime.securesms.ryan.conversation.ui.error.TrustAndVerifyResult
+import org.thoughtcrime.securesms.ryan.database.model.IdentityRecord
+import org.thoughtcrime.securesms.ryan.recipients.RecipientId
+import org.thoughtcrime.securesms.ryan.util.rx.RxStore
 
 class SafetyNumberBottomSheetViewModel(
   private val args: SafetyNumberBottomSheetArgs,

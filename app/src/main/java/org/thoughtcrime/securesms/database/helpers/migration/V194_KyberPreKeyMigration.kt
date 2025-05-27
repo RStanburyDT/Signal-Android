@@ -3,13 +3,13 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.database.helpers.migration
+package org.thoughtcrime.securesms.ryan.database.helpers.migration
 
 import android.app.Application
-import org.thoughtcrime.securesms.database.SQLiteDatabase
+import org.thoughtcrime.securesms.ryan.database.SQLiteDatabase
 
 /**
- * Introduces [org.thoughtcrime.securesms.database.KyberPreKeyTable].
+ * Introduces [org.thoughtcrime.securesms.ryan.database.KyberPreKeyTable].
  */
 @Suppress("ClassName")
 object V194_KyberPreKeyMigration : SignalDatabaseMigration {

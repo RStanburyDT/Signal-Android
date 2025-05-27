@@ -1,6 +1,6 @@
-package org.thoughtcrime.securesms.stories.viewer.views
+package org.thoughtcrime.securesms.ryan.stories.viewer.views
 
-import org.thoughtcrime.securesms.recipients.Recipient
+import org.thoughtcrime.securesms.ryan.recipients.Recipient
 
 data class StoryViewItemData(
   val recipient: Recipient,

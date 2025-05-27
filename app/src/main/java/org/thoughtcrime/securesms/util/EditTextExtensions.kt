@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.util
+package org.thoughtcrime.securesms.ryan.util
 
 import android.widget.EditText
 import androidx.appcompat.widget.SearchView
@@ -6,7 +6,7 @@ import androidx.appcompat.widget.SearchView
 /**
  * Since this value is only supported on API26+ we hard-code it here
  *  to avoid issues with older versions. This mirrors the approach
- *  taken by [org.thoughtcrime.securesms.components.ComposeText].
+ *  taken by [org.thoughtcrime.securesms.ryan.components.ComposeText].
  */
 private const val INCOGNITO_KEYBOARD = 16777216
 

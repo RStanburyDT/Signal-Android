@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.linkdevice
+package org.thoughtcrime.securesms.ryan.linkdevice
 
 import android.Manifest
 import android.annotation.SuppressLint
@@ -25,11 +25,11 @@ import com.google.accompanist.permissions.rememberPermissionState
 import org.signal.core.ui.compose.Previews
 import org.signal.core.ui.compose.Scaffolds
 import org.signal.core.ui.compose.SignalPreview
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.compose.ComposeFragment
-import org.thoughtcrime.securesms.permissions.Permissions
-import org.thoughtcrime.securesms.util.VibrateUtil
-import org.thoughtcrime.securesms.util.navigation.safeNavigate
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.compose.ComposeFragment
+import org.thoughtcrime.securesms.ryan.permissions.Permissions
+import org.thoughtcrime.securesms.ryan.util.VibrateUtil
+import org.thoughtcrime.securesms.ryan.util.navigation.safeNavigate
 
 /**
  * Fragment that allows users to scan a QR code from their camera to link a device

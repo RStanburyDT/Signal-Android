@@ -1,11 +1,11 @@
-package org.thoughtcrime.securesms.compose
+package org.thoughtcrime.securesms.ryan.compose
 
 import android.animation.ValueAnimator
 import android.app.Activity
 import androidx.core.content.ContextCompat
 import com.google.android.material.animation.ArgbEvaluatorCompat
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.util.WindowUtil
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.util.WindowUtil
 
 /**
  * Controls status-bar color based off ability to scroll up

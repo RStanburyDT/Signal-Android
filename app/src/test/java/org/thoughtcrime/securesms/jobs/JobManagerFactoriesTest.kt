@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.jobs
+package org.thoughtcrime.securesms.ryan.jobs
 
 import android.app.Application
 import io.mockk.mockk

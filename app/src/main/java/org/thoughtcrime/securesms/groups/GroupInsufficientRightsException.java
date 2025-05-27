@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.groups;
+package org.thoughtcrime.securesms.ryan.groups;
 
 public final class GroupInsufficientRightsException extends GroupChangeException {
 

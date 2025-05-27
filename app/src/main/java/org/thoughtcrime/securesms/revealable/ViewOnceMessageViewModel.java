@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.revealable;
+package org.thoughtcrime.securesms.ryan.revealable;
 
 import androidx.annotation.NonNull;
 import androidx.lifecycle.LiveData;
@@ -8,9 +8,9 @@ import androidx.lifecycle.ViewModelProvider;
 
 import org.signal.core.util.ThreadUtil;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.database.DatabaseObserver;
-import org.thoughtcrime.securesms.database.model.MmsMessageRecord;
-import org.thoughtcrime.securesms.dependencies.AppDependencies;
+import org.thoughtcrime.securesms.ryan.database.DatabaseObserver;
+import org.thoughtcrime.securesms.ryan.database.model.MmsMessageRecord;
+import org.thoughtcrime.securesms.ryan.dependencies.AppDependencies;
 
 import java.util.Optional;
 

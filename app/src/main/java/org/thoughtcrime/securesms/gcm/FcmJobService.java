@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.gcm;
+package org.thoughtcrime.securesms.ryan.gcm;
 
 import android.app.job.JobInfo;
 import android.app.job.JobParameters;
@@ -11,10 +11,10 @@ import androidx.annotation.RequiresApi;
 
 import org.signal.core.util.concurrent.SignalExecutors;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.dependencies.AppDependencies;
-import org.thoughtcrime.securesms.messages.WebSocketDrainer;
-import org.thoughtcrime.securesms.util.AppForegroundObserver;
-import org.thoughtcrime.securesms.util.ServiceUtil;
+import org.thoughtcrime.securesms.ryan.dependencies.AppDependencies;
+import org.thoughtcrime.securesms.ryan.messages.WebSocketDrainer;
+import org.thoughtcrime.securesms.ryan.util.AppForegroundObserver;
+import org.thoughtcrime.securesms.ryan.util.ServiceUtil;
 
 /**
  * Pulls down messages. Used when we fail to pull down messages in {@link FcmReceiveService}.

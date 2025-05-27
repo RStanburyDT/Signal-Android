@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.backup.v2.ui.status
+package org.thoughtcrime.securesms.ryan.backup.v2.ui.status
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
@@ -39,7 +39,7 @@ import org.signal.core.ui.compose.Previews
 import org.signal.core.ui.compose.Rows
 import org.signal.core.ui.compose.SignalPreview
 import org.signal.core.util.ByteSize
-import org.thoughtcrime.securesms.R
+import org.thoughtcrime.securesms.ryan.R
 import kotlin.math.roundToInt
 import org.signal.core.ui.R as CoreUiR
 

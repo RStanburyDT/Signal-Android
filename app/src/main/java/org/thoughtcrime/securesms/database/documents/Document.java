@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.database.documents;
+package org.thoughtcrime.securesms.ryan.database.documents;
 
 import java.util.Set;
 

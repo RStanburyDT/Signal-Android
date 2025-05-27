@@ -1,12 +1,12 @@
-package org.thoughtcrime.securesms.keyvalue
+package org.thoughtcrime.securesms.ryan.keyvalue
 
 import androidx.annotation.CheckResult
 import androidx.annotation.VisibleForTesting
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.BuildConfig
-import org.thoughtcrime.securesms.database.model.databaseprotos.LocalRegistrationMetadata
-import org.thoughtcrime.securesms.database.model.databaseprotos.RestoreDecisionState
-import org.thoughtcrime.securesms.dependencies.AppDependencies
+import org.thoughtcrime.securesms.ryan.BuildConfig
+import org.thoughtcrime.securesms.ryan.database.model.databaseprotos.LocalRegistrationMetadata
+import org.thoughtcrime.securesms.ryan.database.model.databaseprotos.RestoreDecisionState
+import org.thoughtcrime.securesms.ryan.dependencies.AppDependencies
 
 class RegistrationValues internal constructor(store: KeyValueStore) : SignalStoreValues(store) {
 

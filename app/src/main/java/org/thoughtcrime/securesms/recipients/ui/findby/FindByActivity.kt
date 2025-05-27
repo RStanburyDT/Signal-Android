@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.recipients.ui.findby
+package org.thoughtcrime.securesms.ryan.recipients.ui.findby
 
 import android.content.Context
 import android.content.Intent
@@ -70,17 +70,17 @@ import org.signal.core.ui.compose.TextFields
 import org.signal.core.ui.compose.theme.SignalTheme
 import org.signal.core.util.E164Util
 import org.signal.core.util.getParcelableExtraCompat
-import org.thoughtcrime.securesms.PassphraseRequiredActivity
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.settings.app.usernamelinks.main.UsernameQrScannerActivity
-import org.thoughtcrime.securesms.invites.InviteActions
-import org.thoughtcrime.securesms.phonenumbers.PhoneNumberVisualTransformation
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.registration.ui.countrycode.Country
-import org.thoughtcrime.securesms.registration.ui.countrycode.CountryCodeSelectScreen
-import org.thoughtcrime.securesms.registration.ui.countrycode.CountryCodeState
-import org.thoughtcrime.securesms.util.DynamicNoActionBarTheme
-import org.thoughtcrime.securesms.util.viewModel
+import org.thoughtcrime.securesms.ryan.PassphraseRequiredActivity
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.components.settings.app.usernamelinks.main.UsernameQrScannerActivity
+import org.thoughtcrime.securesms.ryan.invites.InviteActions
+import org.thoughtcrime.securesms.ryan.phonenumbers.PhoneNumberVisualTransformation
+import org.thoughtcrime.securesms.ryan.recipients.RecipientId
+import org.thoughtcrime.securesms.ryan.registration.ui.countrycode.Country
+import org.thoughtcrime.securesms.ryan.registration.ui.countrycode.CountryCodeSelectScreen
+import org.thoughtcrime.securesms.ryan.registration.ui.countrycode.CountryCodeState
+import org.thoughtcrime.securesms.ryan.util.DynamicNoActionBarTheme
+import org.thoughtcrime.securesms.ryan.util.viewModel
 import org.signal.core.ui.R as CoreUiR
 
 /**

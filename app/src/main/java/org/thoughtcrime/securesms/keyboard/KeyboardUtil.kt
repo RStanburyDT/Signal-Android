@@ -3,14 +3,14 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.keyboard
+package org.thoughtcrime.securesms.ryan.keyboard
 
 import android.net.Uri
 import androidx.annotation.WorkerThread
 import androidx.core.util.component1
 import androidx.core.util.component2
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.util.BitmapUtil
+import org.thoughtcrime.securesms.ryan.dependencies.AppDependencies
+import org.thoughtcrime.securesms.ryan.util.BitmapUtil
 import java.util.concurrent.ExecutionException
 import java.util.concurrent.TimeoutException
 

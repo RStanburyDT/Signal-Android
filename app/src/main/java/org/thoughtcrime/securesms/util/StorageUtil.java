@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.util;
+package org.thoughtcrime.securesms.ryan.util;
 
 import android.Manifest;
 import android.content.Context;
@@ -13,12 +13,12 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.annotation.RequiresApi;
 
-import org.thoughtcrime.securesms.BuildConfig;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.database.NoExternalStorageException;
-import org.thoughtcrime.securesms.dependencies.AppDependencies;
-import org.thoughtcrime.securesms.permissions.PermissionCompat;
-import org.thoughtcrime.securesms.permissions.Permissions;
+import org.thoughtcrime.securesms.ryan.BuildConfig;
+import org.thoughtcrime.securesms.ryan.R;
+import org.thoughtcrime.securesms.ryan.database.NoExternalStorageException;
+import org.thoughtcrime.securesms.ryan.dependencies.AppDependencies;
+import org.thoughtcrime.securesms.ryan.permissions.PermissionCompat;
+import org.thoughtcrime.securesms.ryan.permissions.Permissions;
 
 import java.io.File;
 import java.util.List;
@@ -26,7 +26,7 @@ import java.util.Objects;
 
 public class StorageUtil {
 
-  private static final String PRODUCTION_PACKAGE_ID = "org.thoughtcrime.securesms";
+  private static final String PRODUCTION_PACKAGE_ID = "org.thoughtcrime.securesms.ryan";
 
   public static File getOrCreateBackupDirectory() throws NoExternalStorageException {
     File storage = Environment.getExternalStorageDirectory();

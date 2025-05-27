@@ -1,9 +1,9 @@
-package org.thoughtcrime.securesms.components.settings.app
+package org.thoughtcrime.securesms.ryan.components.settings.app
 
 import androidx.compose.runtime.Immutable
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.util.Environment
-import org.thoughtcrime.securesms.util.RemoteConfig
+import org.thoughtcrime.securesms.ryan.keyvalue.SignalStore
+import org.thoughtcrime.securesms.ryan.util.Environment
+import org.thoughtcrime.securesms.ryan.util.RemoteConfig
 
 @Immutable
 data class AppSettingsState(

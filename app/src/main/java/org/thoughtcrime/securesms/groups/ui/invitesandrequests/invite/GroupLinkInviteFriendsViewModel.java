@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.groups.ui.invitesandrequests.invite;
+package org.thoughtcrime.securesms.ryan.groups.ui.invitesandrequests.invite;
 
 import android.content.Context;
 
@@ -10,12 +10,12 @@ import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 import androidx.lifecycle.ViewModelProvider;
 
-import org.thoughtcrime.securesms.groups.GroupId;
-import org.thoughtcrime.securesms.groups.LiveGroup;
-import org.thoughtcrime.securesms.groups.v2.GroupInviteLinkUrl;
-import org.thoughtcrime.securesms.groups.v2.GroupLinkUrlAndStatus;
-import org.thoughtcrime.securesms.util.AsynchronousCallback;
-import org.thoughtcrime.securesms.util.SingleLiveEvent;
+import org.thoughtcrime.securesms.ryan.groups.GroupId;
+import org.thoughtcrime.securesms.ryan.groups.LiveGroup;
+import org.thoughtcrime.securesms.ryan.groups.v2.GroupInviteLinkUrl;
+import org.thoughtcrime.securesms.ryan.groups.v2.GroupLinkUrlAndStatus;
+import org.thoughtcrime.securesms.ryan.util.AsynchronousCallback;
+import org.thoughtcrime.securesms.ryan.util.SingleLiveEvent;
 
 public class GroupLinkInviteFriendsViewModel extends ViewModel {
 

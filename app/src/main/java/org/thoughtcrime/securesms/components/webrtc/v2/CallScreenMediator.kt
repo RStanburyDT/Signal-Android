@@ -3,17 +3,17 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.webrtc.v2
+package org.thoughtcrime.securesms.ryan.components.webrtc.v2
 
 import android.content.Context
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.webrtc.CallParticipantListUpdate
-import org.thoughtcrime.securesms.components.webrtc.WebRtcControls
-import org.thoughtcrime.securesms.events.WebRtcViewModel
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.util.RemoteConfig
-import org.thoughtcrime.securesms.webrtc.CallParticipantsViewState
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.components.webrtc.CallParticipantListUpdate
+import org.thoughtcrime.securesms.ryan.components.webrtc.WebRtcControls
+import org.thoughtcrime.securesms.ryan.events.WebRtcViewModel
+import org.thoughtcrime.securesms.ryan.keyvalue.SignalStore
+import org.thoughtcrime.securesms.ryan.recipients.Recipient
+import org.thoughtcrime.securesms.ryan.util.RemoteConfig
+import org.thoughtcrime.securesms.ryan.webrtc.CallParticipantsViewState
 import org.whispersystems.signalservice.api.messages.calls.HangupMessage
 
 /**

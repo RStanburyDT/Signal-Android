@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.conversation;
+package org.thoughtcrime.securesms.ryan.conversation;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
@@ -27,20 +27,20 @@ import com.bumptech.glide.RequestManager;
 import org.signal.core.util.DimensionUnit;
 import org.signal.core.util.concurrent.SignalExecutors;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.components.emoji.EmojiTextView;
-import org.thoughtcrime.securesms.conversation.colors.AvatarGradientColors;
-import org.thoughtcrime.securesms.conversation.v2.data.AvatarDownloadStateCache;
-import org.thoughtcrime.securesms.database.SignalDatabase;
-import org.thoughtcrime.securesms.databinding.ConversationHeaderViewBinding;
-import org.thoughtcrime.securesms.fonts.SignalSymbols;
-import org.thoughtcrime.securesms.jobs.AvatarGroupsV2DownloadJob;
-import org.thoughtcrime.securesms.jobs.RetrieveProfileAvatarJob;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.util.ContextUtil;
-import org.thoughtcrime.securesms.util.LongClickMovementMethod;
-import org.thoughtcrime.securesms.util.SpanUtil;
-import org.thoughtcrime.securesms.util.ViewUtil;
+import org.thoughtcrime.securesms.ryan.R;
+import org.thoughtcrime.securesms.ryan.components.emoji.EmojiTextView;
+import org.thoughtcrime.securesms.ryan.conversation.colors.AvatarGradientColors;
+import org.thoughtcrime.securesms.ryan.conversation.v2.data.AvatarDownloadStateCache;
+import org.thoughtcrime.securesms.ryan.database.SignalDatabase;
+import org.thoughtcrime.securesms.ryan.databinding.ConversationHeaderViewBinding;
+import org.thoughtcrime.securesms.ryan.fonts.SignalSymbols;
+import org.thoughtcrime.securesms.ryan.jobs.AvatarGroupsV2DownloadJob;
+import org.thoughtcrime.securesms.ryan.jobs.RetrieveProfileAvatarJob;
+import org.thoughtcrime.securesms.ryan.recipients.Recipient;
+import org.thoughtcrime.securesms.ryan.util.ContextUtil;
+import org.thoughtcrime.securesms.ryan.util.LongClickMovementMethod;
+import org.thoughtcrime.securesms.ryan.util.SpanUtil;
+import org.thoughtcrime.securesms.ryan.util.ViewUtil;
 import org.whispersystems.signalservice.api.util.Preconditions;
 
 public class ConversationHeaderView extends ConstraintLayout {

@@ -1,10 +1,10 @@
-package org.thoughtcrime.securesms.mediasend
+package org.thoughtcrime.securesms.ryan.mediasend
 
 import android.content.Context
 import androidx.annotation.WorkerThread
-import org.thoughtcrime.securesms.database.AttachmentTable.TransformProperties
-import org.thoughtcrime.securesms.mediasend.v2.videos.VideoTrimData
-import org.thoughtcrime.securesms.mms.SentMediaQuality
+import org.thoughtcrime.securesms.ryan.database.AttachmentTable.TransformProperties
+import org.thoughtcrime.securesms.ryan.mediasend.v2.videos.VideoTrimData
+import org.thoughtcrime.securesms.ryan.mms.SentMediaQuality
 import java.util.Optional
 
 class VideoTrimTransform(private val data: VideoTrimData) : MediaTransform {

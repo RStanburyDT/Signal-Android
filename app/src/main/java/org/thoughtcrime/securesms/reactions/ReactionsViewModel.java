@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.reactions;
+package org.thoughtcrime.securesms.ryan.reactions;
 
 import androidx.annotation.NonNull;
 import androidx.lifecycle.ViewModel;
@@ -6,7 +6,7 @@ import androidx.lifecycle.ViewModelProvider;
 
 import com.annimon.stream.Stream;
 
-import org.thoughtcrime.securesms.database.model.MessageId;
+import org.thoughtcrime.securesms.ryan.database.model.MessageId;
 
 import java.util.Comparator;
 import java.util.List;

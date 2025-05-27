@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.thoughtcrime.securesms;
+package org.thoughtcrime.securesms.ryan;
 
 import android.content.Context;
 import android.os.AsyncTask;
@@ -26,14 +26,14 @@ import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
 
 import org.signal.core.util.DimensionUnit;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.components.ContactFilterView;
-import org.thoughtcrime.securesms.contacts.ContactSelectionDisplayMode;
-import org.thoughtcrime.securesms.contacts.paged.ChatType;
-import org.thoughtcrime.securesms.contacts.sync.ContactDiscovery;
-import org.thoughtcrime.securesms.recipients.RecipientId;
-import org.thoughtcrime.securesms.util.DynamicNoActionBarTheme;
-import org.thoughtcrime.securesms.util.DynamicTheme;
-import org.thoughtcrime.securesms.util.ServiceUtil;
+import org.thoughtcrime.securesms.ryan.components.ContactFilterView;
+import org.thoughtcrime.securesms.ryan.contacts.ContactSelectionDisplayMode;
+import org.thoughtcrime.securesms.ryan.contacts.paged.ChatType;
+import org.thoughtcrime.securesms.ryan.contacts.sync.ContactDiscovery;
+import org.thoughtcrime.securesms.ryan.recipients.RecipientId;
+import org.thoughtcrime.securesms.ryan.util.DynamicNoActionBarTheme;
+import org.thoughtcrime.securesms.ryan.util.DynamicTheme;
+import org.thoughtcrime.securesms.ryan.util.ServiceUtil;
 
 import java.io.IOException;
 import java.lang.ref.WeakReference;

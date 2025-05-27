@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.delete;
+package org.thoughtcrime.securesms.ryan.delete;
 
 import androidx.annotation.NonNull;
 

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.profiles.manage;
+package org.thoughtcrime.securesms.ryan.profiles.manage;
 
 import android.content.Context;
 import android.content.Intent;
@@ -11,12 +11,12 @@ import androidx.navigation.NavDirections;
 import androidx.navigation.NavGraph;
 import androidx.navigation.fragment.NavHostFragment;
 
-import org.thoughtcrime.securesms.PassphraseRequiredActivity;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.reactions.any.ReactWithAnyEmojiBottomSheetDialogFragment;
-import org.thoughtcrime.securesms.util.DynamicNoActionBarTheme;
-import org.thoughtcrime.securesms.util.DynamicTheme;
-import org.thoughtcrime.securesms.util.navigation.SafeNavigation;
+import org.thoughtcrime.securesms.ryan.PassphraseRequiredActivity;
+import org.thoughtcrime.securesms.ryan.R;
+import org.thoughtcrime.securesms.ryan.reactions.any.ReactWithAnyEmojiBottomSheetDialogFragment;
+import org.thoughtcrime.securesms.ryan.util.DynamicNoActionBarTheme;
+import org.thoughtcrime.securesms.ryan.util.DynamicTheme;
+import org.thoughtcrime.securesms.ryan.util.navigation.SafeNavigation;
 
 /**
  * Activity for editing your profile after you're already registered.

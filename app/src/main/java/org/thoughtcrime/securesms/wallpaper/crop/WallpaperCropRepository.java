@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.wallpaper.crop;
+package org.thoughtcrime.securesms.ryan.wallpaper.crop;
 
 import android.content.Context;
 
@@ -7,12 +7,12 @@ import androidx.annotation.Nullable;
 import androidx.annotation.WorkerThread;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.database.SignalDatabase;
-import org.thoughtcrime.securesms.dependencies.AppDependencies;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
-import org.thoughtcrime.securesms.recipients.RecipientId;
-import org.thoughtcrime.securesms.wallpaper.ChatWallpaper;
-import org.thoughtcrime.securesms.wallpaper.WallpaperStorage;
+import org.thoughtcrime.securesms.ryan.database.SignalDatabase;
+import org.thoughtcrime.securesms.ryan.dependencies.AppDependencies;
+import org.thoughtcrime.securesms.ryan.keyvalue.SignalStore;
+import org.thoughtcrime.securesms.ryan.recipients.RecipientId;
+import org.thoughtcrime.securesms.ryan.wallpaper.ChatWallpaper;
+import org.thoughtcrime.securesms.ryan.wallpaper.WallpaperStorage;
 
 import java.io.ByteArrayInputStream;
 import java.io.IOException;

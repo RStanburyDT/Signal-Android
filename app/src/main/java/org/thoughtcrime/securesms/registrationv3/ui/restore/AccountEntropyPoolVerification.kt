@@ -3,9 +3,9 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.registrationv3.ui.restore
+package org.thoughtcrime.securesms.ryan.registrationv3.ui.restore
 
-import org.thoughtcrime.securesms.restore.enterbackupkey.PostRegistrationEnterBackupKeyViewModel
+import org.thoughtcrime.securesms.ryan.restore.enterbackupkey.PostRegistrationEnterBackupKeyViewModel
 import org.whispersystems.signalservice.api.AccountEntropyPool
 
 /**

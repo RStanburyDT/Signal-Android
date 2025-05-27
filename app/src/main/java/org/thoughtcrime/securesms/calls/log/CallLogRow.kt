@@ -3,14 +3,14 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.calls.log
+package org.thoughtcrime.securesms.ryan.calls.log
 
-import org.thoughtcrime.securesms.database.CallLinkTable
-import org.thoughtcrime.securesms.database.CallTable
-import org.thoughtcrime.securesms.database.model.databaseprotos.GroupCallUpdateDetails
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.service.webrtc.CallLinkPeekInfo
-import org.thoughtcrime.securesms.service.webrtc.links.CallLinkRoomId
+import org.thoughtcrime.securesms.ryan.database.CallLinkTable
+import org.thoughtcrime.securesms.ryan.database.CallTable
+import org.thoughtcrime.securesms.ryan.database.model.databaseprotos.GroupCallUpdateDetails
+import org.thoughtcrime.securesms.ryan.recipients.Recipient
+import org.thoughtcrime.securesms.ryan.service.webrtc.CallLinkPeekInfo
+import org.thoughtcrime.securesms.ryan.service.webrtc.links.CallLinkRoomId
 
 /**
  * A row to be displayed in the call log

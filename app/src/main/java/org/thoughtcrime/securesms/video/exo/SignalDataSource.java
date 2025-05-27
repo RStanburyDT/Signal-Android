@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.video.exo;
+package org.thoughtcrime.securesms.ryan.video.exo;
 
 import android.content.Context;
 import android.net.Uri;
@@ -16,8 +16,8 @@ import androidx.media3.datasource.DefaultDataSource;
 import androidx.media3.datasource.DefaultDataSourceFactory;
 import androidx.media3.datasource.TransferListener;
 
-import org.thoughtcrime.securesms.mms.PartAuthority;
-import org.thoughtcrime.securesms.providers.BlobProvider;
+import org.thoughtcrime.securesms.ryan.mms.PartAuthority;
+import org.thoughtcrime.securesms.ryan.providers.BlobProvider;
 
 import java.io.IOException;
 import java.util.Collections;

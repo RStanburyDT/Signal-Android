@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.groups
+package org.thoughtcrime.securesms.ryan.groups
 
 class GroupNotAMemberException : GroupChangeException {
   constructor()

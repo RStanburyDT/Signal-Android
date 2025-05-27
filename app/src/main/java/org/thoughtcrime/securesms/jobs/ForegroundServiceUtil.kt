@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.jobs
+package org.thoughtcrime.securesms.ryan.jobs
 
 import android.app.AlarmManager
 import android.app.ForegroundServiceStartNotAllowedException
@@ -12,10 +12,10 @@ import androidx.annotation.WorkerThread
 import androidx.core.content.ContextCompat
 import org.signal.core.util.PendingIntentFlags
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.service.GenericForegroundService
-import org.thoughtcrime.securesms.service.NotificationController
-import org.thoughtcrime.securesms.util.AppForegroundObserver
-import org.thoughtcrime.securesms.util.ServiceUtil
+import org.thoughtcrime.securesms.ryan.service.GenericForegroundService
+import org.thoughtcrime.securesms.ryan.service.NotificationController
+import org.thoughtcrime.securesms.ryan.util.AppForegroundObserver
+import org.thoughtcrime.securesms.ryan.util.ServiceUtil
 import java.util.concurrent.CountDownLatch
 import java.util.concurrent.TimeUnit
 import java.util.concurrent.locks.ReentrantLock

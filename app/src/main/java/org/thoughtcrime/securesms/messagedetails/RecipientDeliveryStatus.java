@@ -1,12 +1,12 @@
-package org.thoughtcrime.securesms.messagedetails;
+package org.thoughtcrime.securesms.ryan.messagedetails;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import org.thoughtcrime.securesms.database.documents.IdentityKeyMismatch;
-import org.thoughtcrime.securesms.database.documents.NetworkFailure;
-import org.thoughtcrime.securesms.database.model.MessageRecord;
-import org.thoughtcrime.securesms.recipients.Recipient;
+import org.thoughtcrime.securesms.ryan.database.documents.IdentityKeyMismatch;
+import org.thoughtcrime.securesms.ryan.database.documents.NetworkFailure;
+import org.thoughtcrime.securesms.ryan.database.model.MessageRecord;
+import org.thoughtcrime.securesms.ryan.recipients.Recipient;
 
 public final class RecipientDeliveryStatus {
 

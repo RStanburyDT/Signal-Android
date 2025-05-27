@@ -1,7 +1,7 @@
-package org.thoughtcrime.securesms.mediapreview
+package org.thoughtcrime.securesms.ryan.mediapreview
 
 import android.net.Uri
-import org.thoughtcrime.securesms.video.VideoPlayer
+import org.thoughtcrime.securesms.ryan.video.VideoPlayer
 
 /**
  * Class to manage video playback in preview screen.

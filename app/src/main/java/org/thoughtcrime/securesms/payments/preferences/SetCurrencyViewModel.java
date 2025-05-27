@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.payments.preferences;
+package org.thoughtcrime.securesms.ryan.payments.preferences;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -11,20 +11,20 @@ import com.annimon.stream.Stream;
 
 import org.signal.core.util.logging.Log;
 import org.signal.libsignal.protocol.util.Pair;
-import org.thoughtcrime.securesms.BuildConfig;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.components.settings.SettingHeader;
-import org.thoughtcrime.securesms.components.settings.SettingProgress;
-import org.thoughtcrime.securesms.components.settings.SingleSelectSetting;
-import org.thoughtcrime.securesms.dependencies.AppDependencies;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
-import org.thoughtcrime.securesms.payments.currency.CurrencyExchange;
-import org.thoughtcrime.securesms.payments.currency.CurrencyExchangeRepository;
-import org.thoughtcrime.securesms.payments.currency.CurrencyUtil;
-import org.thoughtcrime.securesms.util.AsynchronousCallback;
+import org.thoughtcrime.securesms.ryan.BuildConfig;
+import org.thoughtcrime.securesms.ryan.R;
+import org.thoughtcrime.securesms.ryan.components.settings.SettingHeader;
+import org.thoughtcrime.securesms.ryan.components.settings.SettingProgress;
+import org.thoughtcrime.securesms.ryan.components.settings.SingleSelectSetting;
+import org.thoughtcrime.securesms.ryan.dependencies.AppDependencies;
+import org.thoughtcrime.securesms.ryan.keyvalue.SignalStore;
+import org.thoughtcrime.securesms.ryan.payments.currency.CurrencyExchange;
+import org.thoughtcrime.securesms.ryan.payments.currency.CurrencyExchangeRepository;
+import org.thoughtcrime.securesms.ryan.payments.currency.CurrencyUtil;
+import org.thoughtcrime.securesms.ryan.util.AsynchronousCallback;
 import org.signal.core.util.SetUtil;
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingModelList;
-import org.thoughtcrime.securesms.util.livedata.Store;
+import org.thoughtcrime.securesms.ryan.util.adapter.mapping.MappingModelList;
+import org.thoughtcrime.securesms.ryan.util.livedata.Store;
 
 import java.util.Collection;
 import java.util.Currency;

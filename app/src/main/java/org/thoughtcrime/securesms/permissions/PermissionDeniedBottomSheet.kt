@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.permissions
+package org.thoughtcrime.securesms.ryan.permissions
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.Column
@@ -27,8 +27,8 @@ import org.signal.core.ui.compose.BottomSheets
 import org.signal.core.ui.compose.Buttons
 import org.signal.core.ui.compose.Previews
 import org.signal.core.ui.compose.SignalPreview
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.compose.ComposeBottomSheetDialogFragment
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.compose.ComposeBottomSheetDialogFragment
 
 private const val PLACEHOLDER = "__RADIO_BUTTON_PLACEHOLDER__"
 

@@ -3,12 +3,12 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.settings.app.subscription.donate.transfer.mandate
+package org.thoughtcrime.securesms.ryan.components.settings.app.subscription.donate.transfer.mandate
 
 import io.reactivex.rxjava3.core.Single
 import io.reactivex.rxjava3.schedulers.Schedulers
 import org.signal.donations.PaymentSourceType
-import org.thoughtcrime.securesms.dependencies.AppDependencies
+import org.thoughtcrime.securesms.ryan.dependencies.AppDependencies
 import java.util.Locale
 
 object BankTransferMandateRepository {

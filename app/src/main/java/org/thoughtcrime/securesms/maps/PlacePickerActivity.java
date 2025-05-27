@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.maps;
+package org.thoughtcrime.securesms.ryan.maps;
 
 import android.Manifest;
 import android.annotation.SuppressLint;
@@ -34,14 +34,14 @@ import com.google.android.gms.maps.model.MapStyleOptions;
 
 import org.signal.core.util.concurrent.ListenableFuture;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.components.location.SignalMapView;
-import org.thoughtcrime.securesms.providers.BlobProvider;
-import org.thoughtcrime.securesms.util.BitmapUtil;
-import org.thoughtcrime.securesms.util.DynamicNoActionBarTheme;
-import org.thoughtcrime.securesms.util.DynamicTheme;
-import org.thoughtcrime.securesms.util.MediaUtil;
-import org.thoughtcrime.securesms.util.views.SimpleProgressDialog;
+import org.thoughtcrime.securesms.ryan.R;
+import org.thoughtcrime.securesms.ryan.components.location.SignalMapView;
+import org.thoughtcrime.securesms.ryan.providers.BlobProvider;
+import org.thoughtcrime.securesms.ryan.util.BitmapUtil;
+import org.thoughtcrime.securesms.ryan.util.DynamicNoActionBarTheme;
+import org.thoughtcrime.securesms.ryan.util.DynamicTheme;
+import org.thoughtcrime.securesms.ryan.util.MediaUtil;
+import org.thoughtcrime.securesms.ryan.util.views.SimpleProgressDialog;
 
 import java.io.IOException;
 import java.util.List;

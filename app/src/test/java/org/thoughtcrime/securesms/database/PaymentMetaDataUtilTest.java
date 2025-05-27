@@ -1,8 +1,8 @@
-package org.thoughtcrime.securesms.database;
+package org.thoughtcrime.securesms.ryan.database;
 
 import org.junit.Test;
-import org.thoughtcrime.securesms.payments.proto.PaymentMetaData;
-import org.thoughtcrime.securesms.util.Util;
+import org.thoughtcrime.securesms.ryan.payments.proto.PaymentMetaData;
+import org.thoughtcrime.securesms.ryan.util.Util;
 
 import java.util.Collections;
 

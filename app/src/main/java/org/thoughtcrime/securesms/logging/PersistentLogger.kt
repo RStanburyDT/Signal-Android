@@ -1,14 +1,14 @@
-package org.thoughtcrime.securesms.logging
+package org.thoughtcrime.securesms.ryan.logging
 
 import android.app.Application
 import android.os.Looper
 import org.signal.core.util.logging.Log
 import org.signal.core.util.logging.Scrubber
-import org.thoughtcrime.securesms.BuildConfig
-import org.thoughtcrime.securesms.database.LogDatabase
-import org.thoughtcrime.securesms.database.model.LogEntry
-import org.thoughtcrime.securesms.logging.PersistentLogger.LogRequest
-import org.thoughtcrime.securesms.logging.PersistentLogger.WriteThread
+import org.thoughtcrime.securesms.ryan.BuildConfig
+import org.thoughtcrime.securesms.ryan.database.LogDatabase
+import org.thoughtcrime.securesms.ryan.database.model.LogEntry
+import org.thoughtcrime.securesms.ryan.logging.PersistentLogger.LogRequest
+import org.thoughtcrime.securesms.ryan.logging.PersistentLogger.WriteThread
 import java.io.ByteArrayOutputStream
 import java.io.PrintStream
 import java.text.SimpleDateFormat

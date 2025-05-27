@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.video.interfaces
+package org.thoughtcrime.securesms.ryan.video.interfaces
 
 import android.media.MediaExtractor
 import java.io.Closeable

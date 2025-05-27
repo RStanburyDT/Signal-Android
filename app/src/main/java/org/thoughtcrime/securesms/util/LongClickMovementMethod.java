@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.util;
+package org.thoughtcrime.securesms.ryan.util;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -14,9 +14,9 @@ import android.widget.TextView;
 
 import androidx.core.content.ContextCompat;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.components.spoiler.SpoilerAnnotation;
-import org.thoughtcrime.securesms.dependencies.AppDependencies;
+import org.thoughtcrime.securesms.ryan.R;
+import org.thoughtcrime.securesms.ryan.components.spoiler.SpoilerAnnotation;
+import org.thoughtcrime.securesms.ryan.dependencies.AppDependencies;
 
 import java.lang.ref.WeakReference;
 

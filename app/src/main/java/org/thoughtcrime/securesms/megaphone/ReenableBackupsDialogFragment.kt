@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.megaphone
+package org.thoughtcrime.securesms.ryan.megaphone
 
 import android.annotation.SuppressLint
 import android.app.Activity
@@ -11,8 +11,8 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.activity.result.ActivityResultLauncher
 import androidx.activity.result.contract.ActivityResultContracts
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.FixedRoundedCornerBottomSheetDialogFragment
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.components.FixedRoundedCornerBottomSheetDialogFragment
 
 /**
  * Bottom sheet dialog to prompt user to enable schedule alarms permission for triggering backups.

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.messagerequests
+package org.thoughtcrime.securesms.ryan.messagerequests
 
 import android.content.Context
 import android.content.res.ColorStateList
@@ -7,14 +7,14 @@ import android.view.View
 import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.core.text.HtmlCompat
 import com.google.android.material.button.MaterialButton
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.messagerequests.MessageRequestBarColorTheme.Companion.resolveTheme
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.util.CommunicationActions
-import org.thoughtcrime.securesms.util.Debouncer
-import org.thoughtcrime.securesms.util.HtmlUtil
-import org.thoughtcrime.securesms.util.views.LearnMoreTextView
-import org.thoughtcrime.securesms.util.visible
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.messagerequests.MessageRequestBarColorTheme.Companion.resolveTheme
+import org.thoughtcrime.securesms.ryan.recipients.Recipient
+import org.thoughtcrime.securesms.ryan.util.CommunicationActions
+import org.thoughtcrime.securesms.ryan.util.Debouncer
+import org.thoughtcrime.securesms.ryan.util.HtmlUtil
+import org.thoughtcrime.securesms.ryan.util.views.LearnMoreTextView
+import org.thoughtcrime.securesms.ryan.util.visible
 
 /**
  * View shown in a conversation during a message request state or related state (e.g., blocked).

@@ -1,9 +1,9 @@
-package org.thoughtcrime.securesms.fonts
+package org.thoughtcrime.securesms.ryan.fonts
 
 import android.graphics.Typeface
 import androidx.annotation.DrawableRes
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.database.model.databaseprotos.StoryTextPost
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.database.model.databaseprotos.StoryTextPost
 
 /**
  * Describes which font the user wishes to render content in.

@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.contactsupport
+package org.thoughtcrime.securesms.ryan.components.contactsupport
 
 import androidx.annotation.StringRes
 import androidx.compose.runtime.Composable
@@ -13,9 +13,9 @@ import androidx.compose.ui.res.stringResource
 import org.signal.core.ui.compose.Dialogs
 import org.signal.core.ui.compose.Previews
 import org.signal.core.ui.compose.SignalPreview
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.util.CommunicationActions
-import org.thoughtcrime.securesms.util.SupportEmailUtil
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.util.CommunicationActions
+import org.thoughtcrime.securesms.ryan.util.SupportEmailUtil
 
 interface ContactSupportCallbacks {
   fun submitWithDebuglog()

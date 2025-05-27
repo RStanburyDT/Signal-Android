@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.groups
+package org.thoughtcrime.securesms.ryan.groups
 
 import android.content.Context
 import androidx.annotation.Discouraged
@@ -16,10 +16,10 @@ import kotlinx.coroutines.rx3.asFlow
 import kotlinx.coroutines.withContext
 import org.signal.core.util.logging.Log
 import org.signal.core.util.logging.logV
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientId
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.database.SignalDatabase
+import org.thoughtcrime.securesms.ryan.recipients.Recipient
+import org.thoughtcrime.securesms.ryan.recipients.RecipientId
 
 /**
  * Centralizes operations for retrieving groups that a given recipient has in common with another user.

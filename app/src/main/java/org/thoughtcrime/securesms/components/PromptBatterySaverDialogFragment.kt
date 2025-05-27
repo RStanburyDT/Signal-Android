@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components
+package org.thoughtcrime.securesms.ryan.components
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -15,13 +15,13 @@ import androidx.core.os.bundleOf
 import androidx.fragment.app.FragmentManager
 import org.signal.core.util.concurrent.LifecycleDisposable
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.databinding.PromptBatterySaverBottomSheetBinding
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.notifications.DeviceSpecificNotificationConfig
-import org.thoughtcrime.securesms.util.BottomSheetUtil
-import org.thoughtcrime.securesms.util.LocalMetrics
-import org.thoughtcrime.securesms.util.PowerManagerCompat
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.databinding.PromptBatterySaverBottomSheetBinding
+import org.thoughtcrime.securesms.ryan.keyvalue.SignalStore
+import org.thoughtcrime.securesms.ryan.notifications.DeviceSpecificNotificationConfig
+import org.thoughtcrime.securesms.ryan.util.BottomSheetUtil
+import org.thoughtcrime.securesms.ryan.util.LocalMetrics
+import org.thoughtcrime.securesms.ryan.util.PowerManagerCompat
 
 @RequiresApi(23)
 class PromptBatterySaverDialogFragment : FixedRoundedCornerBottomSheetDialogFragment() {

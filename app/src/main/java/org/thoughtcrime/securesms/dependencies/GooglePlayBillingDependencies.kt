@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.dependencies
+package org.thoughtcrime.securesms.ryan.dependencies
 
 import android.content.Context
 import org.signal.core.util.billing.BillingDependencies

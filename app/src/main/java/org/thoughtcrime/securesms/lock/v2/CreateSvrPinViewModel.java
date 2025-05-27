@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.lock.v2;
+package org.thoughtcrime.securesms.ryan.lock.v2;
 
 import androidx.annotation.MainThread;
 import androidx.annotation.NonNull;
@@ -6,7 +6,7 @@ import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
-import org.thoughtcrime.securesms.util.SingleLiveEvent;
+import org.thoughtcrime.securesms.ryan.util.SingleLiveEvent;
 import org.whispersystems.signalservice.api.kbs.PinValidityChecker;
 import org.whispersystems.signalservice.api.util.Preconditions;
 

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.ratelimit;
+package org.thoughtcrime.securesms.ryan.ratelimit;
 
 import android.content.Context;
 
@@ -6,10 +6,10 @@ import androidx.annotation.NonNull;
 import androidx.annotation.WorkerThread;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.database.SignalDatabase;
-import org.thoughtcrime.securesms.dependencies.AppDependencies;
-import org.thoughtcrime.securesms.jobs.PushGroupSendJob;
-import org.thoughtcrime.securesms.jobs.IndividualSendJob;
+import org.thoughtcrime.securesms.ryan.database.SignalDatabase;
+import org.thoughtcrime.securesms.ryan.dependencies.AppDependencies;
+import org.thoughtcrime.securesms.ryan.jobs.PushGroupSendJob;
+import org.thoughtcrime.securesms.ryan.jobs.IndividualSendJob;
 
 import java.util.Set;
 

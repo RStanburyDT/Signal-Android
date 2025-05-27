@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.badges.gifts.flow
+package org.thoughtcrime.securesms.ryan.badges.gifts.flow
 
 import android.graphics.Color
 import android.os.Bundle
@@ -10,15 +10,15 @@ import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.viewModels
 import androidx.navigation.fragment.findNavController
 import org.signal.core.util.getParcelableArrayListCompat
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.contacts.paged.ContactSearchConfiguration
-import org.thoughtcrime.securesms.contacts.paged.ContactSearchKey
-import org.thoughtcrime.securesms.contacts.paged.ContactSearchState
-import org.thoughtcrime.securesms.conversation.mutiselect.forward.MultiselectForwardFragment
-import org.thoughtcrime.securesms.conversation.mutiselect.forward.MultiselectForwardFragmentArgs
-import org.thoughtcrime.securesms.conversation.mutiselect.forward.SearchConfigurationProvider
-import org.thoughtcrime.securesms.database.RecipientTable
-import org.thoughtcrime.securesms.util.navigation.safeNavigate
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.contacts.paged.ContactSearchConfiguration
+import org.thoughtcrime.securesms.ryan.contacts.paged.ContactSearchKey
+import org.thoughtcrime.securesms.ryan.contacts.paged.ContactSearchState
+import org.thoughtcrime.securesms.ryan.conversation.mutiselect.forward.MultiselectForwardFragment
+import org.thoughtcrime.securesms.ryan.conversation.mutiselect.forward.MultiselectForwardFragmentArgs
+import org.thoughtcrime.securesms.ryan.conversation.mutiselect.forward.SearchConfigurationProvider
+import org.thoughtcrime.securesms.ryan.database.RecipientTable
+import org.thoughtcrime.securesms.ryan.util.navigation.safeNavigate
 
 /**
  * Allows the user to select a recipient to send a gift to.

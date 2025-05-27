@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.payments.backup.phrase;
+package org.thoughtcrime.securesms.ryan.payments.backup.phrase;
 
 import android.content.BroadcastReceiver;
 import android.content.ClipData;
@@ -8,8 +8,8 @@ import android.content.Intent;
 import android.os.Build;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.util.ServiceUtil;
+import org.thoughtcrime.securesms.ryan.R;
+import org.thoughtcrime.securesms.ryan.util.ServiceUtil;
 
 public class ClearClipboardAlarmReceiver extends BroadcastReceiver {
   private static final String TAG = Log.tag(ClearClipboardAlarmReceiver.class);

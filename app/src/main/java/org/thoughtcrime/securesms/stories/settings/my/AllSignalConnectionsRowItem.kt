@@ -1,12 +1,12 @@
-package org.thoughtcrime.securesms.stories.settings.my
+package org.thoughtcrime.securesms.ryan.stories.settings.my
 
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.databinding.AllSignalConnectionsRowItemBinding
-import org.thoughtcrime.securesms.util.adapter.mapping.BindingFactory
-import org.thoughtcrime.securesms.util.adapter.mapping.BindingViewHolder
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingAdapter
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingModel
-import org.thoughtcrime.securesms.util.visible
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.databinding.AllSignalConnectionsRowItemBinding
+import org.thoughtcrime.securesms.ryan.util.adapter.mapping.BindingFactory
+import org.thoughtcrime.securesms.ryan.util.adapter.mapping.BindingViewHolder
+import org.thoughtcrime.securesms.ryan.util.adapter.mapping.MappingAdapter
+import org.thoughtcrime.securesms.ryan.util.adapter.mapping.MappingModel
+import org.thoughtcrime.securesms.ryan.util.visible
 
 /**
  * AllSignalConnections privacy setting row item with "View" support

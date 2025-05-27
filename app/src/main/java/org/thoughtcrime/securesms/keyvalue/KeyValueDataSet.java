@@ -1,8 +1,8 @@
-package org.thoughtcrime.securesms.keyvalue;
+package org.thoughtcrime.securesms.ryan.keyvalue;
 
 import androidx.annotation.NonNull;
 
-import org.thoughtcrime.securesms.util.Util;
+import org.thoughtcrime.securesms.ryan.util.Util;
 
 import java.util.Collection;
 import java.util.HashMap;

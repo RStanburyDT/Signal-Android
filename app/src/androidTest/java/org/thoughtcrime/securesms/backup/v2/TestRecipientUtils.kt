@@ -3,9 +3,9 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.backup.v2
+package org.thoughtcrime.securesms.ryan.backup.v2
 
-import org.thoughtcrime.securesms.crypto.ProfileKeyUtil
+import org.thoughtcrime.securesms.ryan.crypto.ProfileKeyUtil
 import org.whispersystems.signalservice.api.util.toByteArray
 import java.util.UUID
 import kotlin.random.Random

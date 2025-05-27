@@ -7,7 +7,7 @@ android {
   namespace = "org.signal.pagingtest"
 
   defaultConfig {
-    applicationId = "org.signal.pagingtest"
+    applicationId = "org.signal.pagingtest.ryan"
   }
 }
 

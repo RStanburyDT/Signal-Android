@@ -1,11 +1,11 @@
-package org.thoughtcrime.securesms.profiles.edit.pnp
+package org.thoughtcrime.securesms.ryan.profiles.edit.pnp
 
 import androidx.lifecycle.ViewModel
 import io.reactivex.rxjava3.android.schedulers.AndroidSchedulers
 import io.reactivex.rxjava3.core.Completable
 import io.reactivex.rxjava3.core.Flowable
 import io.reactivex.rxjava3.disposables.CompositeDisposable
-import org.thoughtcrime.securesms.util.rx.RxStore
+import org.thoughtcrime.securesms.ryan.util.rx.RxStore
 
 class WhoCanFindMeByPhoneNumberViewModel : ViewModel() {
 

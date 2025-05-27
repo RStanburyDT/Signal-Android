@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.messages
+package org.thoughtcrime.securesms.ryan.messages
 
 import androidx.test.ext.junit.runners.AndroidJUnit4
 import assertk.assertThat
@@ -9,14 +9,14 @@ import org.junit.Before
 import org.junit.Rule
 import org.junit.Test
 import org.junit.runner.RunWith
-import org.thoughtcrime.securesms.database.GroupReceiptTable
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.messages.SignalServiceProtoUtil.buildWith
-import org.thoughtcrime.securesms.testing.GroupTestingUtils
-import org.thoughtcrime.securesms.testing.GroupTestingUtils.asMember
-import org.thoughtcrime.securesms.testing.MessageContentFuzzer
-import org.thoughtcrime.securesms.testing.SignalActivityRule
-import org.thoughtcrime.securesms.util.MessageTableTestUtils
+import org.thoughtcrime.securesms.ryan.database.GroupReceiptTable
+import org.thoughtcrime.securesms.ryan.database.SignalDatabase
+import org.thoughtcrime.securesms.ryan.messages.SignalServiceProtoUtil.buildWith
+import org.thoughtcrime.securesms.ryan.testing.GroupTestingUtils
+import org.thoughtcrime.securesms.ryan.testing.GroupTestingUtils.asMember
+import org.thoughtcrime.securesms.ryan.testing.MessageContentFuzzer
+import org.thoughtcrime.securesms.ryan.testing.SignalActivityRule
+import org.thoughtcrime.securesms.ryan.util.MessageTableTestUtils
 import org.whispersystems.signalservice.internal.push.DataMessage
 import org.whispersystems.signalservice.internal.push.GroupContextV2
 

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.groups.ui.chooseadmin;
+package org.thoughtcrime.securesms.ryan.groups.ui.chooseadmin;
 
 import android.content.Context;
 import android.content.Intent;
@@ -14,19 +14,19 @@ import androidx.lifecycle.ViewModelProvider;
 import com.annimon.stream.Collectors;
 import com.annimon.stream.Stream;
 
-import org.thoughtcrime.securesms.MainActivity;
-import org.thoughtcrime.securesms.PassphraseRequiredActivity;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.groups.BadGroupIdException;
-import org.thoughtcrime.securesms.groups.GroupId;
-import org.thoughtcrime.securesms.groups.ui.GroupChangeResult;
-import org.thoughtcrime.securesms.groups.ui.GroupErrors;
-import org.thoughtcrime.securesms.groups.ui.GroupMemberEntry;
-import org.thoughtcrime.securesms.groups.ui.GroupMemberListView;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.util.DynamicNoActionBarTheme;
-import org.thoughtcrime.securesms.util.DynamicTheme;
-import org.thoughtcrime.securesms.util.views.CircularProgressMaterialButton;
+import org.thoughtcrime.securesms.ryan.MainActivity;
+import org.thoughtcrime.securesms.ryan.PassphraseRequiredActivity;
+import org.thoughtcrime.securesms.ryan.R;
+import org.thoughtcrime.securesms.ryan.groups.BadGroupIdException;
+import org.thoughtcrime.securesms.ryan.groups.GroupId;
+import org.thoughtcrime.securesms.ryan.groups.ui.GroupChangeResult;
+import org.thoughtcrime.securesms.ryan.groups.ui.GroupErrors;
+import org.thoughtcrime.securesms.ryan.groups.ui.GroupMemberEntry;
+import org.thoughtcrime.securesms.ryan.groups.ui.GroupMemberListView;
+import org.thoughtcrime.securesms.ryan.recipients.Recipient;
+import org.thoughtcrime.securesms.ryan.util.DynamicNoActionBarTheme;
+import org.thoughtcrime.securesms.ryan.util.DynamicTheme;
+import org.thoughtcrime.securesms.ryan.util.views.CircularProgressMaterialButton;
 
 import java.util.Objects;
 

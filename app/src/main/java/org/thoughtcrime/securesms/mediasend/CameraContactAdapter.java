@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.mediasend;
+package org.thoughtcrime.securesms.ryan.mediasend;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -13,12 +13,12 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.RequestManager;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.components.AvatarImageView;
-import org.thoughtcrime.securesms.components.FromTextView;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.util.adapter.SectionedRecyclerViewAdapter;
-import org.thoughtcrime.securesms.util.adapter.StableIdGenerator;
+import org.thoughtcrime.securesms.ryan.R;
+import org.thoughtcrime.securesms.ryan.components.AvatarImageView;
+import org.thoughtcrime.securesms.ryan.components.FromTextView;
+import org.thoughtcrime.securesms.ryan.recipients.Recipient;
+import org.thoughtcrime.securesms.ryan.util.adapter.SectionedRecyclerViewAdapter;
+import org.thoughtcrime.securesms.ryan.util.adapter.StableIdGenerator;
 
 import java.util.ArrayList;
 import java.util.Collection;

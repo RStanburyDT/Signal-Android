@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.maps;
+package org.thoughtcrime.securesms.ryan.maps;
 
 import android.Manifest;
 import android.annotation.SuppressLint;
@@ -17,7 +17,7 @@ import androidx.lifecycle.DefaultLifecycleObserver;
 import androidx.lifecycle.LifecycleOwner;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.util.ServiceUtil;
+import org.thoughtcrime.securesms.ryan.util.ServiceUtil;
 
 /**
  * A lifecycle-safe way to retrieve a single location update. If a cached location is available,

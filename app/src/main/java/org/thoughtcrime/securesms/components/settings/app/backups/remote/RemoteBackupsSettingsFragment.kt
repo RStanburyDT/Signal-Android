@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.settings.app.backups.remote
+package org.thoughtcrime.securesms.ryan.components.settings.app.backups.remote
 
 import android.os.Bundle
 import android.view.View
@@ -88,6 +88,31 @@ import org.signal.core.util.gibiBytes
 import org.signal.core.util.logging.Log
 import org.signal.core.util.mebiBytes
 import org.signal.core.util.money.FiatMoney
+<<<<<<< HEAD
+import org.thoughtcrime.securesms.ryan.BiometricDeviceAuthentication
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.backup.ArchiveUploadProgress
+import org.thoughtcrime.securesms.ryan.backup.v2.BackupFrequency
+import org.thoughtcrime.securesms.ryan.backup.v2.MessageBackupTier
+import org.thoughtcrime.securesms.ryan.backup.v2.ui.BackupAlert
+import org.thoughtcrime.securesms.ryan.backup.v2.ui.BackupAlertBottomSheet
+import org.thoughtcrime.securesms.ryan.backup.v2.ui.status.BackupStatusData
+import org.thoughtcrime.securesms.ryan.backup.v2.ui.status.BackupStatusRow
+import org.thoughtcrime.securesms.ryan.backup.v2.ui.subscription.MessageBackupsType
+import org.thoughtcrime.securesms.ryan.billing.launchManageBackupsSubscription
+import org.thoughtcrime.securesms.ryan.components.settings.app.AppSettingsActivity
+import org.thoughtcrime.securesms.ryan.components.settings.app.subscription.MessageBackupsCheckoutLauncher.createBackupsCheckoutLauncher
+import org.thoughtcrime.securesms.ryan.compose.ComposeFragment
+import org.thoughtcrime.securesms.ryan.fonts.SignalSymbols
+import org.thoughtcrime.securesms.ryan.fonts.SignalSymbols.signalSymbolText
+import org.thoughtcrime.securesms.ryan.help.HelpFragment
+import org.thoughtcrime.securesms.ryan.keyvalue.protos.ArchiveUploadProgressState
+import org.thoughtcrime.securesms.ryan.payments.FiatMoneyUtil
+import org.thoughtcrime.securesms.ryan.util.DateUtils
+import org.thoughtcrime.securesms.ryan.util.ServiceUtil
+import org.thoughtcrime.securesms.ryan.util.navigation.safeNavigate
+import org.thoughtcrime.securesms.ryan.util.viewModel
+=======
 import org.thoughtcrime.securesms.BiometricDeviceAuthentication
 import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.backup.ArchiveUploadProgress
@@ -112,6 +137,7 @@ import org.thoughtcrime.securesms.util.DateUtils
 import org.thoughtcrime.securesms.util.ServiceUtil
 import org.thoughtcrime.securesms.util.navigation.safeNavigate
 import org.thoughtcrime.securesms.util.viewModel
+>>>>>>> 23669c3c372284d42db486a218d9f29bef247abf
 import java.math.BigDecimal
 import java.util.Currency
 import java.util.Locale

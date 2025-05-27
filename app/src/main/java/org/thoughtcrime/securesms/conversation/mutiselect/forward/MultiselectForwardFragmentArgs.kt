@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.conversation.mutiselect.forward
+package org.thoughtcrime.securesms.ryan.conversation.mutiselect.forward
 
 import android.content.Context
 import android.net.Uri
@@ -10,19 +10,19 @@ import kotlinx.parcelize.Parcelize
 import org.signal.core.util.StreamUtil
 import org.signal.core.util.ThreadUtil
 import org.signal.core.util.concurrent.SignalExecutors
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.attachments.Attachment
-import org.thoughtcrime.securesms.color.ViewColorSet
-import org.thoughtcrime.securesms.conversation.ConversationMessage
-import org.thoughtcrime.securesms.conversation.MessageStyler
-import org.thoughtcrime.securesms.conversation.mutiselect.MultiselectPart
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.database.model.MmsMessageRecord
-import org.thoughtcrime.securesms.mediasend.Media
-import org.thoughtcrime.securesms.mms.PartAuthority
-import org.thoughtcrime.securesms.sharing.MultiShareArgs
-import org.thoughtcrime.securesms.stories.Stories
-import org.thoughtcrime.securesms.util.hasSharedContact
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.attachments.Attachment
+import org.thoughtcrime.securesms.ryan.color.ViewColorSet
+import org.thoughtcrime.securesms.ryan.conversation.ConversationMessage
+import org.thoughtcrime.securesms.ryan.conversation.MessageStyler
+import org.thoughtcrime.securesms.ryan.conversation.mutiselect.MultiselectPart
+import org.thoughtcrime.securesms.ryan.database.SignalDatabase
+import org.thoughtcrime.securesms.ryan.database.model.MmsMessageRecord
+import org.thoughtcrime.securesms.ryan.mediasend.Media
+import org.thoughtcrime.securesms.ryan.mms.PartAuthority
+import org.thoughtcrime.securesms.ryan.sharing.MultiShareArgs
+import org.thoughtcrime.securesms.ryan.stories.Stories
+import org.thoughtcrime.securesms.ryan.util.hasSharedContact
 import java.util.Optional
 import java.util.function.Consumer
 

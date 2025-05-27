@@ -3,14 +3,14 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.apkupdate
+package org.thoughtcrime.securesms.ryan.apkupdate
 
 import android.app.DownloadManager
 import android.content.BroadcastReceiver
 import android.content.Context
 import android.content.Intent
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.keyvalue.SignalStore
+import org.thoughtcrime.securesms.ryan.keyvalue.SignalStore
 
 /**
  * Provided to the DownloadManager as a callback receiver for when it has finished downloading the APK we're trying to install.

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.settings.app.notifications
+package org.thoughtcrime.securesms.ryan.components.settings.app.notifications
 
 import android.content.SharedPreferences
 import android.net.Uri
@@ -6,14 +6,14 @@ import android.os.Build
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.notifications.DeviceSpecificNotificationConfig
-import org.thoughtcrime.securesms.notifications.NotificationChannels
-import org.thoughtcrime.securesms.notifications.SlowNotificationHeuristics
-import org.thoughtcrime.securesms.preferences.widgets.NotificationPrivacyPreference
-import org.thoughtcrime.securesms.util.TextSecurePreferences
-import org.thoughtcrime.securesms.util.livedata.Store
+import org.thoughtcrime.securesms.ryan.dependencies.AppDependencies
+import org.thoughtcrime.securesms.ryan.keyvalue.SignalStore
+import org.thoughtcrime.securesms.ryan.notifications.DeviceSpecificNotificationConfig
+import org.thoughtcrime.securesms.ryan.notifications.NotificationChannels
+import org.thoughtcrime.securesms.ryan.notifications.SlowNotificationHeuristics
+import org.thoughtcrime.securesms.ryan.preferences.widgets.NotificationPrivacyPreference
+import org.thoughtcrime.securesms.ryan.util.TextSecurePreferences
+import org.thoughtcrime.securesms.ryan.util.livedata.Store
 
 class NotificationsSettingsViewModel(private val sharedPreferences: SharedPreferences) : ViewModel() {
 

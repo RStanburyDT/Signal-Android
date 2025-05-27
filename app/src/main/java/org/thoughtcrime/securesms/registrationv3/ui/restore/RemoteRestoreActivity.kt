@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.registrationv3.ui.restore
+package org.thoughtcrime.securesms.ryan.registrationv3.ui.restore
 
 import android.content.Context
 import android.content.Intent
@@ -48,23 +48,23 @@ import org.signal.core.ui.compose.Previews
 import org.signal.core.ui.compose.SignalPreview
 import org.signal.core.ui.compose.theme.SignalTheme
 import org.signal.core.util.bytes
-import org.thoughtcrime.securesms.BaseActivity
-import org.thoughtcrime.securesms.MainActivity
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.backup.v2.MessageBackupTier
-import org.thoughtcrime.securesms.backup.v2.RestoreV2Event
-import org.thoughtcrime.securesms.backup.v2.ui.subscription.MessageBackupsTypeFeature
-import org.thoughtcrime.securesms.backup.v2.ui.subscription.MessageBackupsTypeFeatureRow
-import org.thoughtcrime.securesms.components.contactsupport.ContactSupportCallbacks
-import org.thoughtcrime.securesms.components.contactsupport.ContactSupportDialog
-import org.thoughtcrime.securesms.components.contactsupport.ContactSupportViewModel
-import org.thoughtcrime.securesms.components.contactsupport.SendSupportEmailEffect
-import org.thoughtcrime.securesms.conversation.v2.registerForLifecycle
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.registrationv3.ui.shared.RegistrationScreen
-import org.thoughtcrime.securesms.util.DateUtils
-import org.thoughtcrime.securesms.util.PlayStoreUtil
-import org.thoughtcrime.securesms.util.viewModel
+import org.thoughtcrime.securesms.ryan.BaseActivity
+import org.thoughtcrime.securesms.ryan.MainActivity
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.backup.v2.MessageBackupTier
+import org.thoughtcrime.securesms.ryan.backup.v2.RestoreV2Event
+import org.thoughtcrime.securesms.ryan.backup.v2.ui.subscription.MessageBackupsTypeFeature
+import org.thoughtcrime.securesms.ryan.backup.v2.ui.subscription.MessageBackupsTypeFeatureRow
+import org.thoughtcrime.securesms.ryan.components.contactsupport.ContactSupportCallbacks
+import org.thoughtcrime.securesms.ryan.components.contactsupport.ContactSupportDialog
+import org.thoughtcrime.securesms.ryan.components.contactsupport.ContactSupportViewModel
+import org.thoughtcrime.securesms.ryan.components.contactsupport.SendSupportEmailEffect
+import org.thoughtcrime.securesms.ryan.conversation.v2.registerForLifecycle
+import org.thoughtcrime.securesms.ryan.keyvalue.SignalStore
+import org.thoughtcrime.securesms.ryan.registrationv3.ui.shared.RegistrationScreen
+import org.thoughtcrime.securesms.ryan.util.DateUtils
+import org.thoughtcrime.securesms.ryan.util.PlayStoreUtil
+import org.thoughtcrime.securesms.ryan.util.viewModel
 import java.util.Locale
 
 /**

@@ -1,20 +1,20 @@
-package org.thoughtcrime.securesms.components.settings.app.notifications.manual
+package org.thoughtcrime.securesms.ryan.components.settings.app.notifications.manual
 
 import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.viewModels
 import org.signal.core.util.DimensionUnit
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.settings.DSLConfiguration
-import org.thoughtcrime.securesms.components.settings.DSLSettingsAdapter
-import org.thoughtcrime.securesms.components.settings.DSLSettingsBottomSheetFragment
-import org.thoughtcrime.securesms.components.settings.DSLSettingsText
-import org.thoughtcrime.securesms.components.settings.app.AppSettingsActivity
-import org.thoughtcrime.securesms.components.settings.app.notifications.manual.models.NotificationProfileSelection
-import org.thoughtcrime.securesms.components.settings.app.notifications.profiles.NotificationProfilesRepository
-import org.thoughtcrime.securesms.components.settings.configure
-import org.thoughtcrime.securesms.notifications.profiles.NotificationProfile
-import org.thoughtcrime.securesms.notifications.profiles.NotificationProfiles
-import org.thoughtcrime.securesms.util.BottomSheetUtil
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.components.settings.DSLConfiguration
+import org.thoughtcrime.securesms.ryan.components.settings.DSLSettingsAdapter
+import org.thoughtcrime.securesms.ryan.components.settings.DSLSettingsBottomSheetFragment
+import org.thoughtcrime.securesms.ryan.components.settings.DSLSettingsText
+import org.thoughtcrime.securesms.ryan.components.settings.app.AppSettingsActivity
+import org.thoughtcrime.securesms.ryan.components.settings.app.notifications.manual.models.NotificationProfileSelection
+import org.thoughtcrime.securesms.ryan.components.settings.app.notifications.profiles.NotificationProfilesRepository
+import org.thoughtcrime.securesms.ryan.components.settings.configure
+import org.thoughtcrime.securesms.ryan.notifications.profiles.NotificationProfile
+import org.thoughtcrime.securesms.ryan.notifications.profiles.NotificationProfiles
+import org.thoughtcrime.securesms.ryan.util.BottomSheetUtil
 
 /**
  * BottomSheetDialogFragment that allows a user to select a notification profile to manually enable/disable.

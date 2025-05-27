@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.settings.app.subscription.donate
+package org.thoughtcrime.securesms.ryan.components.settings.app.subscription.donate
 
 import android.app.Application
 import assertk.assertThat
@@ -19,20 +19,20 @@ import org.signal.donations.InAppPaymentType
 import org.signal.donations.PayPalPaymentSource
 import org.signal.donations.SEPADebitPaymentSource
 import org.signal.donations.StripeApi
-import org.thoughtcrime.securesms.components.settings.app.subscription.InAppPaymentsRepository
-import org.thoughtcrime.securesms.components.settings.app.subscription.InAppPaymentsRepository.toErrorSource
-import org.thoughtcrime.securesms.components.settings.app.subscription.InAppPaymentsTestRule
-import org.thoughtcrime.securesms.components.settings.app.subscription.errors.DonationError
-import org.thoughtcrime.securesms.database.InAppPaymentTable
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.database.model.databaseprotos.InAppPaymentData
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.jobs.InAppPaymentPayPalOneTimeSetupJob
-import org.thoughtcrime.securesms.jobs.InAppPaymentPayPalRecurringSetupJob
-import org.thoughtcrime.securesms.jobs.InAppPaymentStripeOneTimeSetupJob
-import org.thoughtcrime.securesms.jobs.InAppPaymentStripeRecurringSetupJob
-import org.thoughtcrime.securesms.testutil.MockAppDependenciesRule
-import org.thoughtcrime.securesms.testutil.RxPluginsRule
+import org.thoughtcrime.securesms.ryan.components.settings.app.subscription.InAppPaymentsRepository
+import org.thoughtcrime.securesms.ryan.components.settings.app.subscription.InAppPaymentsRepository.toErrorSource
+import org.thoughtcrime.securesms.ryan.components.settings.app.subscription.InAppPaymentsTestRule
+import org.thoughtcrime.securesms.ryan.components.settings.app.subscription.errors.DonationError
+import org.thoughtcrime.securesms.ryan.database.InAppPaymentTable
+import org.thoughtcrime.securesms.ryan.database.SignalDatabase
+import org.thoughtcrime.securesms.ryan.database.model.databaseprotos.InAppPaymentData
+import org.thoughtcrime.securesms.ryan.dependencies.AppDependencies
+import org.thoughtcrime.securesms.ryan.jobs.InAppPaymentPayPalOneTimeSetupJob
+import org.thoughtcrime.securesms.ryan.jobs.InAppPaymentPayPalRecurringSetupJob
+import org.thoughtcrime.securesms.ryan.jobs.InAppPaymentStripeOneTimeSetupJob
+import org.thoughtcrime.securesms.ryan.jobs.InAppPaymentStripeRecurringSetupJob
+import org.thoughtcrime.securesms.ryan.testutil.MockAppDependenciesRule
+import org.thoughtcrime.securesms.ryan.testutil.RxPluginsRule
 import java.util.concurrent.TimeUnit
 import kotlin.time.Duration.Companion.milliseconds
 

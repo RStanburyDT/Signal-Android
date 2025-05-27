@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.glide;
+package org.thoughtcrime.securesms.ryan.glide;
 
 import android.graphics.Bitmap;
 import android.graphics.drawable.Drawable;

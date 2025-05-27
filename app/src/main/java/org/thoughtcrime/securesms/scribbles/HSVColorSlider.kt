@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.scribbles
+package org.thoughtcrime.securesms.ryan.scribbles
 
 import android.animation.FloatEvaluator
 import android.graphics.Canvas
@@ -16,10 +16,10 @@ import androidx.annotation.ColorInt
 import androidx.annotation.Dimension
 import androidx.appcompat.widget.AppCompatSeekBar
 import androidx.core.graphics.ColorUtils
-import org.thoughtcrime.securesms.scribbles.HSVColorSlider.toHue
-import org.thoughtcrime.securesms.util.Util
-import org.thoughtcrime.securesms.util.ViewUtil
-import org.thoughtcrime.securesms.util.customizeOnDraw
+import org.thoughtcrime.securesms.ryan.scribbles.HSVColorSlider.toHue
+import org.thoughtcrime.securesms.ryan.util.Util
+import org.thoughtcrime.securesms.ryan.util.ViewUtil
+import org.thoughtcrime.securesms.ryan.util.customizeOnDraw
 
 /**
  * One stop shop to turn an AppCompatSeekBar into an HSV Color Slider.

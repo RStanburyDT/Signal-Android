@@ -3,12 +3,12 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.jobmanager.migrations
+package org.thoughtcrime.securesms.ryan.jobmanager.migrations
 
-import org.thoughtcrime.securesms.jobmanager.JobMigration
-import org.thoughtcrime.securesms.jobmanager.JsonJobData
-import org.thoughtcrime.securesms.jobs.protos.GroupCallPeekJobData
-import org.thoughtcrime.securesms.recipients.RecipientId
+import org.thoughtcrime.securesms.ryan.jobmanager.JobMigration
+import org.thoughtcrime.securesms.ryan.jobmanager.JsonJobData
+import org.thoughtcrime.securesms.ryan.jobs.protos.GroupCallPeekJobData
+import org.thoughtcrime.securesms.ryan.recipients.RecipientId
 
 /**
  * Migrate jobs with just the recipient id to utilize the new data proto.

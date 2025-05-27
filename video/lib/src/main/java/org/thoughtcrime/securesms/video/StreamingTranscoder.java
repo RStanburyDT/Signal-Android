@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.video;
+package org.thoughtcrime.securesms.ryan.video;
 
 import android.media.MediaDataSource;
 import android.media.MediaMetadataRetriever;
@@ -11,12 +11,12 @@ import androidx.annotation.VisibleForTesting;
 import com.google.common.io.CountingOutputStream;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.video.exceptions.VideoSizeException;
-import org.thoughtcrime.securesms.video.exceptions.VideoSourceException;
-import org.thoughtcrime.securesms.video.interfaces.TranscoderCancelationSignal;
-import org.thoughtcrime.securesms.video.videoconverter.MediaConverter;
-import org.thoughtcrime.securesms.video.videoconverter.exceptions.EncodingException;
-import org.thoughtcrime.securesms.video.videoconverter.mediadatasource.MediaDataSourceMediaInput;
+import org.thoughtcrime.securesms.ryan.video.exceptions.VideoSizeException;
+import org.thoughtcrime.securesms.ryan.video.exceptions.VideoSourceException;
+import org.thoughtcrime.securesms.ryan.video.interfaces.TranscoderCancelationSignal;
+import org.thoughtcrime.securesms.ryan.video.videoconverter.MediaConverter;
+import org.thoughtcrime.securesms.ryan.video.videoconverter.exceptions.EncodingException;
+import org.thoughtcrime.securesms.ryan.video.videoconverter.mediadatasource.MediaDataSourceMediaInput;
 
 import java.io.FilterOutputStream;
 import java.io.IOException;

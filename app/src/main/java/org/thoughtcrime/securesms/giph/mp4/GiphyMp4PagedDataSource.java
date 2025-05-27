@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.giph.mp4;
+package org.thoughtcrime.securesms.ryan.giph.mp4;
 
 import android.net.Uri;
 import android.text.TextUtils;
@@ -8,12 +8,12 @@ import androidx.annotation.Nullable;
 
 import org.signal.core.util.logging.Log;
 import org.signal.paging.PagedDataSource;
-import org.thoughtcrime.securesms.BuildConfig;
-import org.thoughtcrime.securesms.dependencies.AppDependencies;
-import org.thoughtcrime.securesms.giph.model.GiphyImage;
-import org.thoughtcrime.securesms.giph.model.GiphyResponse;
-import org.thoughtcrime.securesms.net.ContentProxySelector;
-import org.thoughtcrime.securesms.util.JsonUtils;
+import org.thoughtcrime.securesms.ryan.BuildConfig;
+import org.thoughtcrime.securesms.ryan.dependencies.AppDependencies;
+import org.thoughtcrime.securesms.ryan.giph.model.GiphyImage;
+import org.thoughtcrime.securesms.ryan.giph.model.GiphyResponse;
+import org.thoughtcrime.securesms.ryan.net.ContentProxySelector;
+import org.thoughtcrime.securesms.ryan.util.JsonUtils;
 
 import java.io.IOException;
 import java.util.LinkedList;

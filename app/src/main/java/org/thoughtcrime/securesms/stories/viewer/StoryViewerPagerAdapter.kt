@@ -1,12 +1,12 @@
-package org.thoughtcrime.securesms.stories.viewer
+package org.thoughtcrime.securesms.ryan.stories.viewer
 
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.RecyclerView
 import androidx.viewpager2.adapter.FragmentStateAdapter
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.stories.viewer.page.StoryViewerPageArgs
-import org.thoughtcrime.securesms.stories.viewer.page.StoryViewerPageFragment
+import org.thoughtcrime.securesms.ryan.recipients.RecipientId
+import org.thoughtcrime.securesms.ryan.stories.viewer.page.StoryViewerPageArgs
+import org.thoughtcrime.securesms.ryan.stories.viewer.page.StoryViewerPageFragment
 
 class StoryViewerPagerAdapter(
   fragment: Fragment,

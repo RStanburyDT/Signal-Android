@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components;
+package org.thoughtcrime.securesms.ryan.components;
 
 import android.content.Context;
 import android.content.res.Configuration;
@@ -30,29 +30,29 @@ import androidx.core.view.inputmethod.InputContentInfoCompat;
 
 import org.signal.core.util.StringUtil;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.components.emoji.EmojiEditText;
-import org.thoughtcrime.securesms.components.mention.MentionAnnotation;
-import org.thoughtcrime.securesms.components.mention.MentionDeleter;
-import org.thoughtcrime.securesms.components.mention.MentionRendererDelegate;
-import org.thoughtcrime.securesms.components.mention.MentionValidatorWatcher;
-import org.thoughtcrime.securesms.components.spoiler.SpoilerRendererDelegate;
-import org.thoughtcrime.securesms.conversation.MessageSendType;
-import org.thoughtcrime.securesms.conversation.MessageStyler;
-import org.thoughtcrime.securesms.conversation.ui.inlinequery.InlineQuery;
-import org.thoughtcrime.securesms.conversation.ui.inlinequery.InlineQueryChangedListener;
-import org.thoughtcrime.securesms.conversation.ui.inlinequery.InlineQueryReplacement;
-import org.thoughtcrime.securesms.database.model.Mention;
-import org.thoughtcrime.securesms.database.model.databaseprotos.BodyRangeList;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
-import org.thoughtcrime.securesms.recipients.RecipientId;
-import org.thoughtcrime.securesms.util.TextSecurePreferences;
+import org.thoughtcrime.securesms.ryan.R;
+import org.thoughtcrime.securesms.ryan.components.emoji.EmojiEditText;
+import org.thoughtcrime.securesms.ryan.components.mention.MentionAnnotation;
+import org.thoughtcrime.securesms.ryan.components.mention.MentionDeleter;
+import org.thoughtcrime.securesms.ryan.components.mention.MentionRendererDelegate;
+import org.thoughtcrime.securesms.ryan.components.mention.MentionValidatorWatcher;
+import org.thoughtcrime.securesms.ryan.components.spoiler.SpoilerRendererDelegate;
+import org.thoughtcrime.securesms.ryan.conversation.MessageSendType;
+import org.thoughtcrime.securesms.ryan.conversation.MessageStyler;
+import org.thoughtcrime.securesms.ryan.conversation.ui.inlinequery.InlineQuery;
+import org.thoughtcrime.securesms.ryan.conversation.ui.inlinequery.InlineQueryChangedListener;
+import org.thoughtcrime.securesms.ryan.conversation.ui.inlinequery.InlineQueryReplacement;
+import org.thoughtcrime.securesms.ryan.database.model.Mention;
+import org.thoughtcrime.securesms.ryan.database.model.databaseprotos.BodyRangeList;
+import org.thoughtcrime.securesms.ryan.keyvalue.SignalStore;
+import org.thoughtcrime.securesms.ryan.recipients.RecipientId;
+import org.thoughtcrime.securesms.ryan.util.TextSecurePreferences;
 
 import java.util.List;
 import java.util.Objects;
 import java.util.regex.Pattern;
 
-import static org.thoughtcrime.securesms.database.MentionUtil.MENTION_STARTER;
+import static org.thoughtcrime.securesms.ryan.database.MentionUtil.MENTION_STARTER;
 
 public class ComposeText extends EmojiEditText {
 

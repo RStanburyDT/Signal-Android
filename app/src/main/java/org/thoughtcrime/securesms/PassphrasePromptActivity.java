@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.thoughtcrime.securesms;
+package org.thoughtcrime.securesms.ryan;
 
 import android.animation.Animator;
 import android.app.KeyguardManager;
@@ -49,18 +49,18 @@ import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 
 import org.signal.core.util.ThreadUtil;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.animation.AnimationCompleteListener;
-import org.thoughtcrime.securesms.components.AnimatingToggle;
-import org.thoughtcrime.securesms.crypto.InvalidPassphraseException;
-import org.thoughtcrime.securesms.crypto.MasterSecret;
-import org.thoughtcrime.securesms.crypto.MasterSecretUtil;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
-import org.thoughtcrime.securesms.logsubmit.SubmitDebugLogActivity;
-import org.thoughtcrime.securesms.util.CommunicationActions;
-import org.thoughtcrime.securesms.util.DynamicIntroTheme;
-import org.thoughtcrime.securesms.util.DynamicLanguage;
-import org.thoughtcrime.securesms.util.SupportEmailUtil;
-import org.thoughtcrime.securesms.util.views.LearnMoreTextView;
+import org.thoughtcrime.securesms.ryan.animation.AnimationCompleteListener;
+import org.thoughtcrime.securesms.ryan.components.AnimatingToggle;
+import org.thoughtcrime.securesms.ryan.crypto.InvalidPassphraseException;
+import org.thoughtcrime.securesms.ryan.crypto.MasterSecret;
+import org.thoughtcrime.securesms.ryan.crypto.MasterSecretUtil;
+import org.thoughtcrime.securesms.ryan.keyvalue.SignalStore;
+import org.thoughtcrime.securesms.ryan.logsubmit.SubmitDebugLogActivity;
+import org.thoughtcrime.securesms.ryan.util.CommunicationActions;
+import org.thoughtcrime.securesms.ryan.util.DynamicIntroTheme;
+import org.thoughtcrime.securesms.ryan.util.DynamicLanguage;
+import org.thoughtcrime.securesms.ryan.util.SupportEmailUtil;
+import org.thoughtcrime.securesms.ryan.util.views.LearnMoreTextView;
 
 import kotlin.Unit;
 

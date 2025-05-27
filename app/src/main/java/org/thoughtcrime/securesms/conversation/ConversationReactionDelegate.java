@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.conversation;
+package org.thoughtcrime.securesms.ryan.conversation;
 
 import android.app.Activity;
 import android.graphics.PointF;
@@ -6,9 +6,9 @@ import android.view.MotionEvent;
 
 import androidx.annotation.NonNull;
 
-import org.thoughtcrime.securesms.database.model.MessageRecord;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.util.views.Stub;
+import org.thoughtcrime.securesms.ryan.database.model.MessageRecord;
+import org.thoughtcrime.securesms.ryan.recipients.Recipient;
+import org.thoughtcrime.securesms.ryan.util.views.Stub;
 
 /**
  * Delegate class that mimics the ConversationReactionOverlay public API

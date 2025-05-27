@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.util
+package org.thoughtcrime.securesms.ryan.util
 
 import androidx.documentfile.provider.DocumentFile
 import io.mockk.every
@@ -9,8 +9,8 @@ import org.junit.Assert.assertThrows
 import org.junit.BeforeClass
 import org.junit.Test
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.testutil.EmptyLogger
-import org.thoughtcrime.securesms.util.BackupUtil.BackupFileException
+import org.thoughtcrime.securesms.ryan.testutil.EmptyLogger
+import org.thoughtcrime.securesms.ryan.util.BackupUtil.BackupFileException
 
 class BackupUtilTest {
   companion object {

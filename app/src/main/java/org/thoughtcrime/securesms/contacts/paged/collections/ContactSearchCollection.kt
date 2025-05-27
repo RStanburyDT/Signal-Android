@@ -1,8 +1,8 @@
-package org.thoughtcrime.securesms.contacts.paged.collections
+package org.thoughtcrime.securesms.ryan.contacts.paged.collections
 
 import androidx.collection.SparseArrayCompat
-import org.thoughtcrime.securesms.contacts.paged.ContactSearchConfiguration
-import org.thoughtcrime.securesms.contacts.paged.ContactSearchData
+import org.thoughtcrime.securesms.ryan.contacts.paged.ContactSearchConfiguration
+import org.thoughtcrime.securesms.ryan.contacts.paged.ContactSearchData
 import kotlin.math.min
 
 /**

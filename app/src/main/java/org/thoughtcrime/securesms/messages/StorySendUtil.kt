@@ -1,8 +1,8 @@
-package org.thoughtcrime.securesms.messages
+package org.thoughtcrime.securesms.ryan.messages
 
 import org.signal.core.util.Base64
-import org.thoughtcrime.securesms.database.model.databaseprotos.StoryTextPost
-import org.thoughtcrime.securesms.mms.OutgoingMessage
+import org.thoughtcrime.securesms.ryan.database.model.databaseprotos.StoryTextPost
+import org.thoughtcrime.securesms.ryan.mms.OutgoingMessage
 import org.whispersystems.signalservice.api.messages.SignalServicePreview
 import org.whispersystems.signalservice.api.messages.SignalServiceTextAttachment
 import java.io.IOException

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.database.loaders;
+package org.thoughtcrime.securesms.ryan.database.loaders;
 
 import android.content.Context;
 import android.database.Cursor;
@@ -9,11 +9,11 @@ import androidx.loader.content.AsyncTaskLoader;
 
 import org.signal.core.util.ThreadUtil;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.database.DatabaseObserver;
-import org.thoughtcrime.securesms.database.MediaTable;
-import org.thoughtcrime.securesms.dependencies.AppDependencies;
-import org.thoughtcrime.securesms.util.CalendarDateOnly;
+import org.thoughtcrime.securesms.ryan.R;
+import org.thoughtcrime.securesms.ryan.database.DatabaseObserver;
+import org.thoughtcrime.securesms.ryan.database.MediaTable;
+import org.thoughtcrime.securesms.ryan.dependencies.AppDependencies;
+import org.thoughtcrime.securesms.ryan.util.CalendarDateOnly;
 
 import java.text.SimpleDateFormat;
 import java.util.Calendar;

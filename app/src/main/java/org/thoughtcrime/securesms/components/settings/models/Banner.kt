@@ -3,14 +3,14 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.settings.models
+package org.thoughtcrime.securesms.ryan.components.settings.models
 
 import androidx.annotation.StringRes
-import org.thoughtcrime.securesms.databinding.DslBannerBinding
-import org.thoughtcrime.securesms.util.adapter.mapping.BindingFactory
-import org.thoughtcrime.securesms.util.adapter.mapping.BindingViewHolder
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingAdapter
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingModel
+import org.thoughtcrime.securesms.ryan.databinding.DslBannerBinding
+import org.thoughtcrime.securesms.ryan.util.adapter.mapping.BindingFactory
+import org.thoughtcrime.securesms.ryan.util.adapter.mapping.BindingViewHolder
+import org.thoughtcrime.securesms.ryan.util.adapter.mapping.MappingAdapter
+import org.thoughtcrime.securesms.ryan.util.adapter.mapping.MappingModel
 
 /**
  * Displays a banner to notify the user of certain state or action that needs to be taken.

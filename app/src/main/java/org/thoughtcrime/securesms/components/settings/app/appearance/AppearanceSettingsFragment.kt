@@ -1,18 +1,18 @@
-package org.thoughtcrime.securesms.components.settings.app.appearance
+package org.thoughtcrime.securesms.ryan.components.settings.app.appearance
 
 import android.os.Build
 import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.Navigation
 import org.signal.core.util.concurrent.observe
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.settings.DSLConfiguration
-import org.thoughtcrime.securesms.components.settings.DSLSettingsFragment
-import org.thoughtcrime.securesms.components.settings.DSLSettingsText
-import org.thoughtcrime.securesms.components.settings.app.appearance.navbar.ChooseNavigationBarStyleFragment
-import org.thoughtcrime.securesms.components.settings.configure
-import org.thoughtcrime.securesms.keyvalue.SettingsValues
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingAdapter
-import org.thoughtcrime.securesms.util.navigation.safeNavigate
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.components.settings.DSLConfiguration
+import org.thoughtcrime.securesms.ryan.components.settings.DSLSettingsFragment
+import org.thoughtcrime.securesms.ryan.components.settings.DSLSettingsText
+import org.thoughtcrime.securesms.ryan.components.settings.app.appearance.navbar.ChooseNavigationBarStyleFragment
+import org.thoughtcrime.securesms.ryan.components.settings.configure
+import org.thoughtcrime.securesms.ryan.keyvalue.SettingsValues
+import org.thoughtcrime.securesms.ryan.util.adapter.mapping.MappingAdapter
+import org.thoughtcrime.securesms.ryan.util.navigation.safeNavigate
 
 class AppearanceSettingsFragment : DSLSettingsFragment(R.string.preferences__appearance) {
 

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.groups.v2.processing
+package org.thoughtcrime.securesms.ryan.groups.v2.processing
 
 import org.signal.libsignal.zkgroup.groupsend.GroupSendEndorsementsResponse
 import org.signal.storageservice.protos.groups.local.DecryptedGroup

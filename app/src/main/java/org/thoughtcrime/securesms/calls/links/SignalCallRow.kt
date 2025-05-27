@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.calls.links
+package org.thoughtcrime.securesms.ryan.calls.links
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
@@ -38,14 +38,14 @@ import androidx.compose.ui.unit.dp
 import org.signal.core.ui.compose.Buttons
 import org.signal.core.ui.compose.Previews
 import org.signal.core.ui.compose.SignalPreview
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.conversation.colors.AvatarColorPair
-import org.thoughtcrime.securesms.database.CallLinkTable
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.service.webrtc.CallLinkPeekInfo
-import org.thoughtcrime.securesms.service.webrtc.links.CallLinkCredentials
-import org.thoughtcrime.securesms.service.webrtc.links.CallLinkRoomId
-import org.thoughtcrime.securesms.service.webrtc.links.SignalCallLinkState
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.conversation.colors.AvatarColorPair
+import org.thoughtcrime.securesms.ryan.database.CallLinkTable
+import org.thoughtcrime.securesms.ryan.recipients.RecipientId
+import org.thoughtcrime.securesms.ryan.service.webrtc.CallLinkPeekInfo
+import org.thoughtcrime.securesms.ryan.service.webrtc.links.CallLinkCredentials
+import org.thoughtcrime.securesms.ryan.service.webrtc.links.CallLinkRoomId
+import org.thoughtcrime.securesms.ryan.service.webrtc.links.SignalCallLinkState
 import java.time.Instant
 import org.signal.core.ui.R as CoreUiR
 

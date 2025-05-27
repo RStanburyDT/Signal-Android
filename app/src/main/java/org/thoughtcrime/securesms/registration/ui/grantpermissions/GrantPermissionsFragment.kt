@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.registration.ui.grantpermissions
+package org.thoughtcrime.securesms.ryan.registration.ui.grantpermissions
 
 import android.app.Activity
 import android.content.pm.PackageManager
@@ -22,14 +22,14 @@ import androidx.navigation.fragment.NavHostFragment
 import androidx.navigation.fragment.findNavController
 import androidx.navigation.fragment.navArgs
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.compose.ComposeFragment
-import org.thoughtcrime.securesms.registration.compose.GrantPermissionsScreen
-import org.thoughtcrime.securesms.registration.fragments.WelcomePermissions
-import org.thoughtcrime.securesms.registration.ui.RegistrationCheckpoint
-import org.thoughtcrime.securesms.registration.ui.RegistrationViewModel
-import org.thoughtcrime.securesms.restore.RestoreActivity
-import org.thoughtcrime.securesms.util.BackupUtil
-import org.thoughtcrime.securesms.util.navigation.safeNavigate
+import org.thoughtcrime.securesms.ryan.compose.ComposeFragment
+import org.thoughtcrime.securesms.ryan.registration.compose.GrantPermissionsScreen
+import org.thoughtcrime.securesms.ryan.registration.fragments.WelcomePermissions
+import org.thoughtcrime.securesms.ryan.registration.ui.RegistrationCheckpoint
+import org.thoughtcrime.securesms.ryan.registration.ui.RegistrationViewModel
+import org.thoughtcrime.securesms.ryan.restore.RestoreActivity
+import org.thoughtcrime.securesms.ryan.util.BackupUtil
+import org.thoughtcrime.securesms.ryan.util.navigation.safeNavigate
 
 /**
  * Screen in account registration that provides rationales for the suggested runtime permissions.

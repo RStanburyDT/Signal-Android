@@ -1,11 +1,11 @@
-package org.thoughtcrime.securesms.service.webrtc.state;
+package org.thoughtcrime.securesms.ryan.service.webrtc.state;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import org.thoughtcrime.securesms.components.webrtc.BroadcastVideoSink;
-import org.thoughtcrime.securesms.components.webrtc.EglBaseWrapper;
-import org.thoughtcrime.securesms.ringrtc.Camera;
+import org.thoughtcrime.securesms.ryan.components.webrtc.BroadcastVideoSink;
+import org.thoughtcrime.securesms.ryan.components.webrtc.EglBaseWrapper;
+import org.thoughtcrime.securesms.ryan.ringrtc.Camera;
 
 import java.util.Objects;
 

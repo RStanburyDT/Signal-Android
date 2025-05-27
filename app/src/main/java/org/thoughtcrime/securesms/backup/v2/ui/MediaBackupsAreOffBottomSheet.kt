@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.backup.v2.ui
+package org.thoughtcrime.securesms.ryan.backup.v2.ui
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.Box
@@ -39,9 +39,9 @@ import org.signal.core.ui.compose.Previews
 import org.signal.core.ui.compose.SignalPreview
 import org.signal.core.util.gibiBytes
 import org.signal.core.util.money.FiatMoney
-import org.thoughtcrime.securesms.backup.v2.ui.subscription.MessageBackupsType
-import org.thoughtcrime.securesms.billing.upgrade.UpgradeToPaidTierBottomSheet
-import org.thoughtcrime.securesms.payments.FiatMoneyUtil
+import org.thoughtcrime.securesms.ryan.backup.v2.ui.subscription.MessageBackupsType
+import org.thoughtcrime.securesms.ryan.billing.upgrade.UpgradeToPaidTierBottomSheet
+import org.thoughtcrime.securesms.ryan.payments.FiatMoneyUtil
 import java.math.BigDecimal
 import java.util.Currency
 import kotlin.time.Duration.Companion.days
@@ -100,14 +100,14 @@ private fun SheetContent(
 
     Box {
       Image(
-        imageVector = ImageVector.vectorResource(id = org.thoughtcrime.securesms.R.drawable.image_signal_backups),
+        imageVector = ImageVector.vectorResource(id = org.thoughtcrime.securesms.ryan.R.drawable.image_signal_backups),
         contentDescription = null,
         modifier = Modifier
           .size(80.dp)
           .padding(2.dp)
       )
       Icon(
-        imageVector = ImageVector.vectorResource(org.thoughtcrime.securesms.R.drawable.symbol_error_circle_fill_24),
+        imageVector = ImageVector.vectorResource(org.thoughtcrime.securesms.ryan.R.drawable.symbol_error_circle_fill_24),
         contentDescription = null,
         tint = MaterialTheme.colorScheme.error,
         modifier = Modifier.align(Alignment.TopEnd)
@@ -119,6 +119,9 @@ private fun SheetContent(
     }
 
     Text(
+<<<<<<< HEAD
+      text = pluralStringResource(id = org.thoughtcrime.securesms.ryan.R.plurals.BackupAlertBottomSheet__your_backup_plan_has_expired, daysUntilDeletion, daysUntilDeletion),
+=======
       text = stringResource(org.thoughtcrime.securesms.R.string.BackupAlertBottomSheet__your_backups_subscription_expired),
       style = MaterialTheme.typography.titleLarge,
       modifier = Modifier.padding(top = 16.dp, bottom = 12.dp)
@@ -126,13 +129,14 @@ private fun SheetContent(
 
     Text(
       text = pluralStringResource(id = org.thoughtcrime.securesms.R.plurals.BackupAlertBottomSheet__your_backup_plan_has_expired, daysUntilDeletion, daysUntilDeletion),
+>>>>>>> 23669c3c372284d42db486a218d9f29bef247abf
       textAlign = TextAlign.Center,
       color = MaterialTheme.colorScheme.onSurfaceVariant,
       modifier = Modifier.padding(bottom = 24.dp)
     )
 
     Text(
-      text = stringResource(id = org.thoughtcrime.securesms.R.string.BackupAlertBottomSheet__you_can_begin_paying_for_backups_again),
+      text = stringResource(id = org.thoughtcrime.securesms.ryan.R.string.BackupAlertBottomSheet__you_can_begin_paying_for_backups_again),
       textAlign = TextAlign.Center,
       color = MaterialTheme.colorScheme.onSurfaceVariant,
       modifier = Modifier.padding(bottom = 36.dp)
@@ -145,7 +149,7 @@ private fun SheetContent(
         .defaultMinSize(minWidth = 220.dp)
         .padding(bottom = 16.dp)
     ) {
-      Text(text = stringResource(org.thoughtcrime.securesms.R.string.BackupAlertBottomSheet__subscribe_for_s_month, pricePerMonth))
+      Text(text = stringResource(org.thoughtcrime.securesms.ryan.R.string.BackupAlertBottomSheet__subscribe_for_s_month, pricePerMonth))
     }
 
     TextButton(
@@ -153,7 +157,7 @@ private fun SheetContent(
       onClick = onNotNowClick,
       modifier = Modifier.padding(bottom = 32.dp)
     ) {
-      Text(text = stringResource(id = org.thoughtcrime.securesms.R.string.BackupAlertBottomSheet__not_now))
+      Text(text = stringResource(id = org.thoughtcrime.securesms.ryan.R.string.BackupAlertBottomSheet__not_now))
     }
   }
 }

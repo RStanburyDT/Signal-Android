@@ -3,9 +3,9 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.pin
+package org.thoughtcrime.securesms.ryan.pin
 
-import org.thoughtcrime.securesms.util.RemoteConfig
+import org.thoughtcrime.securesms.ryan.util.RemoteConfig
 
 object Svr3Migration {
 

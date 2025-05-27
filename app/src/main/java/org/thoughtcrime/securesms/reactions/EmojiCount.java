@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.reactions;
+package org.thoughtcrime.securesms.ryan.reactions;
 
 import androidx.annotation.NonNull;
 

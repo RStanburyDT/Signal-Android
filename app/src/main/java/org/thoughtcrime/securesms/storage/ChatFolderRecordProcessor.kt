@@ -1,10 +1,10 @@
-package org.thoughtcrime.securesms.storage
+package org.thoughtcrime.securesms.ryan.storage
 
 import org.signal.core.util.SqlUtil
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.components.settings.app.chats.folders.ChatFolderId
-import org.thoughtcrime.securesms.database.ChatFolderTables
-import org.thoughtcrime.securesms.database.SignalDatabase
+import org.thoughtcrime.securesms.ryan.components.settings.app.chats.folders.ChatFolderId
+import org.thoughtcrime.securesms.ryan.database.ChatFolderTables
+import org.thoughtcrime.securesms.ryan.database.SignalDatabase
 import org.whispersystems.signalservice.api.push.ServiceId
 import org.whispersystems.signalservice.api.storage.SignalChatFolderRecord
 import org.whispersystems.signalservice.api.storage.StorageId

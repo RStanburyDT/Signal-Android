@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.badges.models
+package org.thoughtcrime.securesms.ryan.badges.models
 
 import android.animation.ObjectAnimator
 import android.net.Uri
@@ -12,13 +12,13 @@ import com.bumptech.glide.load.Key
 import com.bumptech.glide.load.engine.DiskCacheStrategy
 import com.bumptech.glide.load.resource.bitmap.DownsampleStrategy
 import kotlinx.parcelize.Parcelize
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.badges.glide.BadgeSpriteTransformation
-import org.thoughtcrime.securesms.components.settings.PreferenceModel
-import org.thoughtcrime.securesms.util.ThemeUtil
-import org.thoughtcrime.securesms.util.adapter.mapping.LayoutFactory
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingAdapter
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingViewHolder
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.badges.glide.BadgeSpriteTransformation
+import org.thoughtcrime.securesms.ryan.components.settings.PreferenceModel
+import org.thoughtcrime.securesms.ryan.util.ThemeUtil
+import org.thoughtcrime.securesms.ryan.util.adapter.mapping.LayoutFactory
+import org.thoughtcrime.securesms.ryan.util.adapter.mapping.MappingAdapter
+import org.thoughtcrime.securesms.ryan.util.adapter.mapping.MappingViewHolder
 import java.security.MessageDigest
 
 typealias OnBadgeClicked = (Badge, Boolean, Boolean) -> Unit

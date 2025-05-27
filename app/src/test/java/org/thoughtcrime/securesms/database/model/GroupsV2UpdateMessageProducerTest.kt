@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.database.model
+package org.thoughtcrime.securesms.ryan.database.model
 
 import android.app.Application
 import androidx.test.core.app.ApplicationProvider
@@ -26,13 +26,13 @@ import org.signal.storageservice.protos.groups.local.DecryptedGroup
 import org.signal.storageservice.protos.groups.local.DecryptedGroupChange
 import org.signal.storageservice.protos.groups.local.DecryptedMember
 import org.signal.storageservice.protos.groups.local.DecryptedPendingMember
-import org.thoughtcrime.securesms.database.model.GroupsV2UpdateMessageConverter.translateDecryptedChangeNewGroup
-import org.thoughtcrime.securesms.database.model.GroupsV2UpdateMessageConverter.translateDecryptedChangeUpdate
-import org.thoughtcrime.securesms.database.model.databaseprotos.DecryptedGroupV2Context
-import org.thoughtcrime.securesms.groups.v2.ChangeBuilder
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.Recipient.Companion.resolved
-import org.thoughtcrime.securesms.recipients.RecipientId
+import org.thoughtcrime.securesms.ryan.database.model.GroupsV2UpdateMessageConverter.translateDecryptedChangeNewGroup
+import org.thoughtcrime.securesms.ryan.database.model.GroupsV2UpdateMessageConverter.translateDecryptedChangeUpdate
+import org.thoughtcrime.securesms.ryan.database.model.databaseprotos.DecryptedGroupV2Context
+import org.thoughtcrime.securesms.ryan.groups.v2.ChangeBuilder
+import org.thoughtcrime.securesms.ryan.recipients.Recipient
+import org.thoughtcrime.securesms.ryan.recipients.Recipient.Companion.resolved
+import org.thoughtcrime.securesms.ryan.recipients.RecipientId
 import org.whispersystems.signalservice.api.push.ServiceId
 import org.whispersystems.signalservice.api.push.ServiceId.ACI
 import org.whispersystems.signalservice.api.push.ServiceId.PNI

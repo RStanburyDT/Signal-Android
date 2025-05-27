@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.notifications
+package org.thoughtcrime.securesms.ryan.notifications
 
 import android.app.Application
 import io.mockk.every
@@ -14,20 +14,20 @@ import org.junit.runner.RunWith
 import org.robolectric.RobolectricTestRunner
 import org.robolectric.annotation.Config
 import org.signal.libsignal.protocol.util.Pair
-import org.thoughtcrime.securesms.database.MessageTable.ExpirationInfo
-import org.thoughtcrime.securesms.database.MessageTable.MarkedMessageInfo
-import org.thoughtcrime.securesms.database.MessageTable.SyncMessageId
-import org.thoughtcrime.securesms.database.model.MessageId
-import org.thoughtcrime.securesms.database.model.StoryType
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.jobmanager.Job
-import org.thoughtcrime.securesms.jobmanager.JobManager
-import org.thoughtcrime.securesms.jobmanager.JsonJobData
-import org.thoughtcrime.securesms.jobs.MultiDeviceReadUpdateJob
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.testutil.MockAppDependenciesRule
-import org.thoughtcrime.securesms.util.TextSecurePreferences
+import org.thoughtcrime.securesms.ryan.database.MessageTable.ExpirationInfo
+import org.thoughtcrime.securesms.ryan.database.MessageTable.MarkedMessageInfo
+import org.thoughtcrime.securesms.ryan.database.MessageTable.SyncMessageId
+import org.thoughtcrime.securesms.ryan.database.model.MessageId
+import org.thoughtcrime.securesms.ryan.database.model.StoryType
+import org.thoughtcrime.securesms.ryan.dependencies.AppDependencies
+import org.thoughtcrime.securesms.ryan.jobmanager.Job
+import org.thoughtcrime.securesms.ryan.jobmanager.JobManager
+import org.thoughtcrime.securesms.ryan.jobmanager.JsonJobData
+import org.thoughtcrime.securesms.ryan.jobs.MultiDeviceReadUpdateJob
+import org.thoughtcrime.securesms.ryan.recipients.Recipient
+import org.thoughtcrime.securesms.ryan.recipients.RecipientId
+import org.thoughtcrime.securesms.ryan.testutil.MockAppDependenciesRule
+import org.thoughtcrime.securesms.ryan.util.TextSecurePreferences
 import java.util.LinkedList
 
 @RunWith(RobolectricTestRunner::class)

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.mediasend;
+package org.thoughtcrime.securesms.ryan.mediasend;
 
 import android.net.Uri;
 import android.os.Bundle;
@@ -13,8 +13,8 @@ import androidx.fragment.app.Fragment;
 
 import com.bumptech.glide.Glide;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.mms.DecryptableStreamUriLoader;
+import org.thoughtcrime.securesms.ryan.R;
+import org.thoughtcrime.securesms.ryan.mms.DecryptableStreamUriLoader;
 
 public class MediaSendGifFragment extends Fragment implements MediaSendPageFragment {
 

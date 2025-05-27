@@ -1,12 +1,12 @@
-package org.thoughtcrime.securesms.mediasend.camerax
+package org.thoughtcrime.securesms.ryan.mediasend.camerax
 
 import android.content.Context
 import android.os.Build
 import androidx.camera.view.CameraController
 import org.signal.core.util.asListContains
-import org.thoughtcrime.securesms.mms.MediaConstraints
-import org.thoughtcrime.securesms.util.RemoteConfig
-import org.thoughtcrime.securesms.video.VideoUtil
+import org.thoughtcrime.securesms.ryan.mms.MediaConstraints
+import org.thoughtcrime.securesms.ryan.util.RemoteConfig
+import org.thoughtcrime.securesms.ryan.video.VideoUtil
 
 /**
  * Describes device capabilities

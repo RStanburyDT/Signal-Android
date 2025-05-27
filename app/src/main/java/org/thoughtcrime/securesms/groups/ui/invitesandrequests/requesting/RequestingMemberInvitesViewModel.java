@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.groups.ui.invitesandrequests.requesting;
+package org.thoughtcrime.securesms.ryan.groups.ui.invitesandrequests.requesting;
 
 import android.content.Context;
 
@@ -9,15 +9,15 @@ import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 import androidx.lifecycle.ViewModelProvider;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.groups.GroupId;
-import org.thoughtcrime.securesms.groups.LiveGroup;
-import org.thoughtcrime.securesms.groups.ui.GroupChangeFailureReason;
-import org.thoughtcrime.securesms.groups.ui.GroupErrors;
-import org.thoughtcrime.securesms.groups.ui.GroupMemberEntry;
-import org.thoughtcrime.securesms.groups.v2.GroupLinkUrlAndStatus;
-import org.thoughtcrime.securesms.util.AsynchronousCallback;
-import org.thoughtcrime.securesms.util.SingleLiveEvent;
+import org.thoughtcrime.securesms.ryan.R;
+import org.thoughtcrime.securesms.ryan.groups.GroupId;
+import org.thoughtcrime.securesms.ryan.groups.LiveGroup;
+import org.thoughtcrime.securesms.ryan.groups.ui.GroupChangeFailureReason;
+import org.thoughtcrime.securesms.ryan.groups.ui.GroupErrors;
+import org.thoughtcrime.securesms.ryan.groups.ui.GroupMemberEntry;
+import org.thoughtcrime.securesms.ryan.groups.v2.GroupLinkUrlAndStatus;
+import org.thoughtcrime.securesms.ryan.util.AsynchronousCallback;
+import org.thoughtcrime.securesms.ryan.util.SingleLiveEvent;
 
 import java.util.List;
 

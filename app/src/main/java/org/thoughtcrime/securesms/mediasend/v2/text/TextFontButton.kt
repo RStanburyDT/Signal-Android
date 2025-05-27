@@ -1,10 +1,10 @@
-package org.thoughtcrime.securesms.mediasend.v2.text
+package org.thoughtcrime.securesms.ryan.mediasend.v2.text
 
 import android.content.Context
 import android.util.AttributeSet
 import androidx.appcompat.widget.AppCompatImageView
-import org.thoughtcrime.securesms.fonts.TextFont
-import org.thoughtcrime.securesms.util.next
+import org.thoughtcrime.securesms.ryan.fonts.TextFont
+import org.thoughtcrime.securesms.ryan.util.next
 
 typealias OnTextFontChanged = (TextFont) -> Unit
 

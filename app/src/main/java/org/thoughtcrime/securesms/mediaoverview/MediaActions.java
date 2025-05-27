@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.mediaoverview;
+package org.thoughtcrime.securesms.ryan.mediaoverview;
 
 import android.content.Context;
 import android.content.res.Resources;
@@ -8,14 +8,14 @@ import androidx.fragment.app.Fragment;
 
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.attachments.AttachmentSaver;
-import org.thoughtcrime.securesms.database.MediaTable;
-import org.thoughtcrime.securesms.database.model.MessageRecord;
-import org.thoughtcrime.securesms.jobs.MultiDeviceDeleteSyncJob;
-import org.thoughtcrime.securesms.util.AttachmentUtil;
-import org.thoughtcrime.securesms.util.Util;
-import org.thoughtcrime.securesms.util.task.ProgressDialogAsyncTask;
+import org.thoughtcrime.securesms.ryan.R;
+import org.thoughtcrime.securesms.ryan.attachments.AttachmentSaver;
+import org.thoughtcrime.securesms.ryan.database.MediaTable;
+import org.thoughtcrime.securesms.ryan.database.model.MessageRecord;
+import org.thoughtcrime.securesms.ryan.jobs.MultiDeviceDeleteSyncJob;
+import org.thoughtcrime.securesms.ryan.util.AttachmentUtil;
+import org.thoughtcrime.securesms.ryan.util.Util;
+import org.thoughtcrime.securesms.ryan.util.task.ProgressDialogAsyncTask;
 
 import java.util.Collection;
 import java.util.HashSet;

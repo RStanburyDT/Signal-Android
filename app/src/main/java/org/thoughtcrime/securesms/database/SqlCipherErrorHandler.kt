@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.database
+package org.thoughtcrime.securesms.ryan.database
 
 import android.app.Application
 import android.content.Context
@@ -9,7 +9,7 @@ import net.zetetic.database.sqlcipher.SQLiteDatabaseHook
 import org.signal.core.util.CursorUtil
 import org.signal.core.util.ExceptionUtil
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.crypto.DatabaseSecretProvider
+import org.thoughtcrime.securesms.ryan.crypto.DatabaseSecretProvider
 import java.util.concurrent.CountDownLatch
 import java.util.concurrent.atomic.AtomicBoolean
 import java.util.concurrent.atomic.AtomicReference

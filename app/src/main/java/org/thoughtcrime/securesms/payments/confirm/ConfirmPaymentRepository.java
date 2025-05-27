@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.payments.confirm;
+package org.thoughtcrime.securesms.ryan.payments.confirm;
 
 import androidx.annotation.AnyThread;
 import androidx.annotation.NonNull;
@@ -8,16 +8,16 @@ import androidx.core.util.Consumer;
 
 import org.signal.core.util.concurrent.SignalExecutors;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.jobs.PaymentSendJob;
-import org.thoughtcrime.securesms.payments.Balance;
-import org.thoughtcrime.securesms.payments.MobileCoinPublicAddress;
-import org.thoughtcrime.securesms.payments.Payee;
-import org.thoughtcrime.securesms.payments.PaymentsAddressException;
-import org.thoughtcrime.securesms.payments.Wallet;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.recipients.RecipientId;
-import org.thoughtcrime.securesms.util.ProfileUtil;
-import org.thoughtcrime.securesms.util.Util;
+import org.thoughtcrime.securesms.ryan.jobs.PaymentSendJob;
+import org.thoughtcrime.securesms.ryan.payments.Balance;
+import org.thoughtcrime.securesms.ryan.payments.MobileCoinPublicAddress;
+import org.thoughtcrime.securesms.ryan.payments.Payee;
+import org.thoughtcrime.securesms.ryan.payments.PaymentsAddressException;
+import org.thoughtcrime.securesms.ryan.payments.Wallet;
+import org.thoughtcrime.securesms.ryan.recipients.Recipient;
+import org.thoughtcrime.securesms.ryan.recipients.RecipientId;
+import org.thoughtcrime.securesms.ryan.util.ProfileUtil;
+import org.thoughtcrime.securesms.ryan.util.Util;
 import org.whispersystems.signalservice.api.payments.Money;
 
 import java.io.IOException;

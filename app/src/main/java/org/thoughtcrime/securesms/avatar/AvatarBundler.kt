@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.avatar
+package org.thoughtcrime.securesms.ryan.avatar
 
 import android.net.Uri
 import android.os.Bundle
@@ -9,12 +9,12 @@ import org.signal.core.util.getParcelableCompat
  */
 object AvatarBundler {
 
-  private const val TEXT = "org.thoughtcrime.securesms.avatar.TEXT"
-  private const val COLOR = "org.thoughtcrime.securesms.avatar.COLOR"
-  private const val URI = "org.thoughtcrime.securesms.avatar.URI"
-  private const val KEY = "org.thoughtcrime.securesms.avatar.KEY"
-  private const val DATABASE_ID = "org.thoughtcrime.securesms.avatar.DATABASE_ID"
-  private const val SIZE = "org.thoughtcrime.securesms.avatar.SIZE"
+  private const val TEXT = "org.thoughtcrime.securesms.ryan.avatar.TEXT"
+  private const val COLOR = "org.thoughtcrime.securesms.ryan.avatar.COLOR"
+  private const val URI = "org.thoughtcrime.securesms.ryan.avatar.URI"
+  private const val KEY = "org.thoughtcrime.securesms.ryan.avatar.KEY"
+  private const val DATABASE_ID = "org.thoughtcrime.securesms.ryan.avatar.DATABASE_ID"
+  private const val SIZE = "org.thoughtcrime.securesms.ryan.avatar.SIZE"
 
   fun bundleText(text: Avatar.Text): Bundle = Bundle().apply {
     putString(TEXT, text.text)

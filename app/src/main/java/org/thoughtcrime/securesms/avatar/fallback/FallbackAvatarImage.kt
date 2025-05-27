@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.avatar.fallback
+package org.thoughtcrime.securesms.ryan.avatar.fallback
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
@@ -30,10 +30,10 @@ import androidx.compose.ui.unit.dp
 import org.signal.core.ui.compose.Previews
 import org.signal.core.ui.compose.SignalPreview
 import org.signal.core.util.DimensionUnit
-import org.thoughtcrime.securesms.avatar.AvatarRenderer
-import org.thoughtcrime.securesms.avatar.Avatars
-import org.thoughtcrime.securesms.conversation.colors.AvatarColor
-import org.thoughtcrime.securesms.conversation.colors.AvatarColorPair
+import org.thoughtcrime.securesms.ryan.avatar.AvatarRenderer
+import org.thoughtcrime.securesms.ryan.avatar.Avatars
+import org.thoughtcrime.securesms.ryan.conversation.colors.AvatarColor
+import org.thoughtcrime.securesms.ryan.conversation.colors.AvatarColorPair
 
 @Composable
 fun FallbackAvatarImage(

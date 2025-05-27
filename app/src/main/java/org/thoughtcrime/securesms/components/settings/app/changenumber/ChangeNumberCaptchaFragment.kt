@@ -3,13 +3,13 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.settings.app.changenumber
+package org.thoughtcrime.securesms.ryan.components.settings.app.changenumber
 
 import android.os.Bundle
 import android.view.View
 import androidx.fragment.app.activityViewModels
-import org.thoughtcrime.securesms.registration.data.network.Challenge
-import org.thoughtcrime.securesms.registration.ui.captcha.CaptchaFragment
+import org.thoughtcrime.securesms.ryan.registration.data.network.Challenge
+import org.thoughtcrime.securesms.ryan.registration.ui.captcha.CaptchaFragment
 
 /**
  * Screen visible to the user when they are to solve a captcha. @see [CaptchaFragment]

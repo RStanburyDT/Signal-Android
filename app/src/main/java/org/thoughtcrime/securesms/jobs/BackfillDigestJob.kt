@@ -3,18 +3,18 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.jobs
+package org.thoughtcrime.securesms.ryan.jobs
 
 import org.signal.core.util.Base64
 import org.signal.core.util.copyTo
 import org.signal.core.util.logging.Log
 import org.signal.core.util.stream.NullOutputStream
 import org.signal.core.util.withinTransaction
-import org.thoughtcrime.securesms.attachments.AttachmentId
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.jobmanager.Job
-import org.thoughtcrime.securesms.jobs.protos.BackfillDigestJobData
-import org.thoughtcrime.securesms.util.Util
+import org.thoughtcrime.securesms.ryan.attachments.AttachmentId
+import org.thoughtcrime.securesms.ryan.database.SignalDatabase
+import org.thoughtcrime.securesms.ryan.jobmanager.Job
+import org.thoughtcrime.securesms.ryan.jobs.protos.BackfillDigestJobData
+import org.thoughtcrime.securesms.ryan.util.Util
 import org.whispersystems.signalservice.api.crypto.AttachmentCipherOutputStream
 import org.whispersystems.signalservice.internal.crypto.PaddingInputStream
 import java.io.IOException

@@ -1,11 +1,11 @@
-package org.thoughtcrime.securesms.fonts
+package org.thoughtcrime.securesms.ryan.fonts
 
 import android.content.Context
 import androidx.annotation.WorkerThread
 import com.fasterxml.jackson.databind.ObjectMapper
 import com.fasterxml.jackson.module.kotlin.registerKotlinModule
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.util.EncryptedStreamUtils
+import org.thoughtcrime.securesms.ryan.util.EncryptedStreamUtils
 import java.io.File
 
 /**

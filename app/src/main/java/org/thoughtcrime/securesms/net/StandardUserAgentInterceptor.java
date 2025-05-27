@@ -1,8 +1,8 @@
-package org.thoughtcrime.securesms.net;
+package org.thoughtcrime.securesms.ryan.net;
 
 import android.os.Build;
 
-import org.thoughtcrime.securesms.BuildConfig;
+import org.thoughtcrime.securesms.ryan.BuildConfig;
 
 /**
  * The user agent that should be used by default -- includes app name, version, etc.

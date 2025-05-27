@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.lock.v2;
+package org.thoughtcrime.securesms.ryan.lock.v2;
 
 
 import android.content.Context;
@@ -10,12 +10,12 @@ import androidx.annotation.Nullable;
 import androidx.navigation.NavGraph;
 import androidx.navigation.Navigation;
 
-import org.thoughtcrime.securesms.BaseActivity;
-import org.thoughtcrime.securesms.PassphrasePromptActivity;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.service.KeyCachingService;
-import org.thoughtcrime.securesms.util.DynamicRegistrationTheme;
-import org.thoughtcrime.securesms.util.DynamicTheme;
+import org.thoughtcrime.securesms.ryan.BaseActivity;
+import org.thoughtcrime.securesms.ryan.PassphrasePromptActivity;
+import org.thoughtcrime.securesms.ryan.R;
+import org.thoughtcrime.securesms.ryan.service.KeyCachingService;
+import org.thoughtcrime.securesms.ryan.util.DynamicRegistrationTheme;
+import org.thoughtcrime.securesms.ryan.util.DynamicTheme;
 
 public class CreateSvrPinActivity extends BaseActivity {
 

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.groups.v2.processing
+package org.thoughtcrime.securesms.ryan.groups.v2.processing
 
 import assertk.assertThat
 import assertk.assertions.containsOnly
@@ -14,7 +14,7 @@ import org.signal.storageservice.protos.groups.local.DecryptedGroup
 import org.signal.storageservice.protos.groups.local.DecryptedGroupChange
 import org.signal.storageservice.protos.groups.local.DecryptedMember
 import org.signal.storageservice.protos.groups.local.DecryptedString
-import org.thoughtcrime.securesms.testutil.LogRecorder
+import org.thoughtcrime.securesms.ryan.testutil.LogRecorder
 import org.whispersystems.signalservice.api.groupsv2.DecryptedGroupChangeLog
 import org.whispersystems.signalservice.api.push.ServiceId
 import org.whispersystems.signalservice.api.util.UuidUtil

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.payments.preferences.viewholder;
+package org.thoughtcrime.securesms.ryan.payments.preferences.viewholder;
 
 import android.text.SpannableString;
 import android.text.Spanned;
@@ -16,10 +16,10 @@ import androidx.appcompat.widget.Toolbar;
 
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.payments.preferences.PaymentsHomeAdapter;
-import org.thoughtcrime.securesms.payments.preferences.model.InfoCard;
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingViewHolder;
+import org.thoughtcrime.securesms.ryan.R;
+import org.thoughtcrime.securesms.ryan.payments.preferences.PaymentsHomeAdapter;
+import org.thoughtcrime.securesms.ryan.payments.preferences.model.InfoCard;
+import org.thoughtcrime.securesms.ryan.util.adapter.mapping.MappingViewHolder;
 
 public class InfoCardViewHolder extends MappingViewHolder<InfoCard> {
 

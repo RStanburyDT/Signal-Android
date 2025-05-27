@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.compose
+package org.thoughtcrime.securesms.ryan.compose
 
 import android.graphics.drawable.Drawable
 import android.widget.ImageView

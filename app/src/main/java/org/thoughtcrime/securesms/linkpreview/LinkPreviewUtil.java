@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.linkpreview;
+package org.thoughtcrime.securesms.ryan.linkpreview;
 
 import android.annotation.SuppressLint;
 import android.text.SpannableString;
@@ -13,9 +13,9 @@ import androidx.core.text.util.LinkifyCompat;
 import com.annimon.stream.Collectors;
 import com.annimon.stream.Stream;
 
-import org.thoughtcrime.securesms.util.DateUtils;
-import org.thoughtcrime.securesms.util.LinkUtil;
-import org.thoughtcrime.securesms.util.Util;
+import org.thoughtcrime.securesms.ryan.util.DateUtils;
+import org.thoughtcrime.securesms.ryan.util.LinkUtil;
+import org.thoughtcrime.securesms.ryan.util.Util;
 import org.whispersystems.signalservice.api.util.OptionalUtil;
 
 import java.util.Collections;

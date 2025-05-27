@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.service.webrtc
+package org.thoughtcrime.securesms.ryan.service.webrtc
 
 import android.Manifest
 import android.app.Notification
@@ -28,20 +28,20 @@ import io.reactivex.rxjava3.kotlin.subscribeBy
 import io.reactivex.rxjava3.schedulers.Schedulers
 import org.signal.core.util.PendingIntentFlags
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.jobs.UnableToStartException
-import org.thoughtcrime.securesms.permissions.Permissions
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.service.SafeForegroundService
-import org.thoughtcrime.securesms.util.DeviceProperties
-import org.thoughtcrime.securesms.util.TelephonyUtil
-import org.thoughtcrime.securesms.webrtc.CallNotificationBuilder
-import org.thoughtcrime.securesms.webrtc.UncaughtExceptionHandlerManager
-import org.thoughtcrime.securesms.webrtc.audio.AudioManagerCommand
-import org.thoughtcrime.securesms.webrtc.audio.SignalAudioManager
-import org.thoughtcrime.securesms.webrtc.audio.SignalAudioManager.Companion.create
-import org.thoughtcrime.securesms.webrtc.locks.LockManager
+import org.thoughtcrime.securesms.ryan.dependencies.AppDependencies
+import org.thoughtcrime.securesms.ryan.jobs.UnableToStartException
+import org.thoughtcrime.securesms.ryan.permissions.Permissions
+import org.thoughtcrime.securesms.ryan.recipients.Recipient
+import org.thoughtcrime.securesms.ryan.recipients.RecipientId
+import org.thoughtcrime.securesms.ryan.service.SafeForegroundService
+import org.thoughtcrime.securesms.ryan.util.DeviceProperties
+import org.thoughtcrime.securesms.ryan.util.TelephonyUtil
+import org.thoughtcrime.securesms.ryan.webrtc.CallNotificationBuilder
+import org.thoughtcrime.securesms.ryan.webrtc.UncaughtExceptionHandlerManager
+import org.thoughtcrime.securesms.ryan.webrtc.audio.AudioManagerCommand
+import org.thoughtcrime.securesms.ryan.webrtc.audio.SignalAudioManager
+import org.thoughtcrime.securesms.ryan.webrtc.audio.SignalAudioManager.Companion.create
+import org.thoughtcrime.securesms.ryan.webrtc.locks.LockManager
 import java.util.concurrent.locks.ReentrantLock
 import kotlin.concurrent.withLock
 
@@ -425,8 +425,8 @@ class ActiveCallManager(
   class ActiveCallServiceReceiver : BroadcastReceiver() {
 
     companion object {
-      const val ACTION_DENY = "org.thoughtcrime.securesms.service.webrtc.ActiveCallAction.DENY"
-      const val ACTION_HANGUP = "org.thoughtcrime.securesms.service.webrtc.ActiveCallAction.HANGUP"
+      const val ACTION_DENY = "org.thoughtcrime.securesms.ryan.service.webrtc.ActiveCallAction.DENY"
+      const val ACTION_HANGUP = "org.thoughtcrime.securesms.ryan.service.webrtc.ActiveCallAction.HANGUP"
     }
 
     override fun onReceive(context: Context?, intent: Intent?) {

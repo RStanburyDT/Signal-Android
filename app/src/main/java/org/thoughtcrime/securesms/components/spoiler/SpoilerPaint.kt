@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.spoiler
+package org.thoughtcrime.securesms.ryan.components.spoiler
 
 import android.graphics.Bitmap
 import android.graphics.BitmapShader
@@ -10,9 +10,9 @@ import android.graphics.Shader
 import androidx.annotation.MainThread
 import org.signal.core.util.DimensionUnit
 import org.signal.core.util.dp
-import org.thoughtcrime.securesms.components.spoiler.SpoilerPaint.update
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.util.Util
+import org.thoughtcrime.securesms.ryan.components.spoiler.SpoilerPaint.update
+import org.thoughtcrime.securesms.ryan.dependencies.AppDependencies
+import org.thoughtcrime.securesms.ryan.util.Util
 import kotlin.random.Random
 
 /**

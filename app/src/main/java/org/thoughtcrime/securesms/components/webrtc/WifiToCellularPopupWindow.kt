@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.webrtc
+package org.thoughtcrime.securesms.ryan.components.webrtc
 
 import android.view.Gravity
 import android.view.LayoutInflater
@@ -6,8 +6,8 @@ import android.view.ViewGroup
 import android.view.WindowManager
 import android.widget.PopupWindow
 import androidx.core.view.postDelayed
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.util.VibrateUtil
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.util.VibrateUtil
 import java.util.concurrent.TimeUnit
 
 /**

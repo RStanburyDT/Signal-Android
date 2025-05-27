@@ -1,6 +1,6 @@
-package org.thoughtcrime.securesms.stories.settings.group
+package org.thoughtcrime.securesms.ryan.stories.settings.group
 
-import org.thoughtcrime.securesms.recipients.RecipientId
+import org.thoughtcrime.securesms.ryan.recipients.RecipientId
 
 /**
  * Minimum data needed to launch ConversationActivity for a given grou

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.payments.preferences.transfer;
+package org.thoughtcrime.securesms.ryan.payments.preferences.transfer;
 
 import android.Manifest;
 import android.os.Bundle;
@@ -17,13 +17,13 @@ import androidx.navigation.Navigation;
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.LoggingFragment;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.payments.MobileCoinPublicAddress;
-import org.thoughtcrime.securesms.payments.preferences.model.PayeeParcelable;
-import org.thoughtcrime.securesms.permissions.Permissions;
-import org.thoughtcrime.securesms.util.ViewUtil;
-import org.thoughtcrime.securesms.util.navigation.SafeNavigation;
+import org.thoughtcrime.securesms.ryan.LoggingFragment;
+import org.thoughtcrime.securesms.ryan.R;
+import org.thoughtcrime.securesms.ryan.payments.MobileCoinPublicAddress;
+import org.thoughtcrime.securesms.ryan.payments.preferences.model.PayeeParcelable;
+import org.thoughtcrime.securesms.ryan.permissions.Permissions;
+import org.thoughtcrime.securesms.ryan.util.ViewUtil;
+import org.thoughtcrime.securesms.ryan.util.navigation.SafeNavigation;
 
 public final class PaymentsTransferFragment extends LoggingFragment {
 

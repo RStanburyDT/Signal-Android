@@ -1,7 +1,7 @@
-package org.thoughtcrime.securesms.keyvalue
+package org.thoughtcrime.securesms.ryan.keyvalue
 
-import org.thoughtcrime.securesms.conversation.colors.ChatColors
-import org.thoughtcrime.securesms.database.model.databaseprotos.ChatColor
+import org.thoughtcrime.securesms.ryan.conversation.colors.ChatColors
+import org.thoughtcrime.securesms.ryan.database.model.databaseprotos.ChatColor
 import java.io.IOException
 
 class ChatColorsValues internal constructor(store: KeyValueStore) : SignalStoreValues(store) {

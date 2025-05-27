@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.payments.backup;
+package org.thoughtcrime.securesms.ryan.payments.backup;
 
 public enum RecoveryPhraseStates {
   FROM_PAYMENTS_MENU_WITH_MNEMONIC_CONFIRMED,

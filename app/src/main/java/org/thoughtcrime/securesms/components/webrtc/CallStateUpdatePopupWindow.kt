@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.webrtc
+package org.thoughtcrime.securesms.ryan.components.webrtc
 
 import android.view.Gravity
 import android.view.LayoutInflater
@@ -9,10 +9,10 @@ import android.widget.PopupWindow
 import android.widget.TextView
 import androidx.core.view.ViewCompat
 import org.signal.core.util.dp
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.webrtc.v2.CallControlsChange
-import org.thoughtcrime.securesms.util.Debouncer
-import org.thoughtcrime.securesms.util.visible
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.components.webrtc.v2.CallControlsChange
+import org.thoughtcrime.securesms.ryan.util.Debouncer
+import org.thoughtcrime.securesms.ryan.util.visible
 import java.util.concurrent.TimeUnit
 
 /**

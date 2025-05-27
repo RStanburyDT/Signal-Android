@@ -1,16 +1,16 @@
-package org.thoughtcrime.securesms.conversationlist.model;
+package org.thoughtcrime.securesms.ryan.conversationlist.model;
 
 import androidx.annotation.Nullable;
 import androidx.annotation.WorkerThread;
 import androidx.lifecycle.LiveData;
 
 import org.signal.core.util.concurrent.SignalExecutors;
-import org.thoughtcrime.securesms.database.DatabaseObserver;
-import org.thoughtcrime.securesms.database.PaymentTable;
-import org.thoughtcrime.securesms.database.SignalDatabase;
-import org.thoughtcrime.securesms.dependencies.AppDependencies;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.util.concurrent.SerialMonoLifoExecutor;
+import org.thoughtcrime.securesms.ryan.database.DatabaseObserver;
+import org.thoughtcrime.securesms.ryan.database.PaymentTable;
+import org.thoughtcrime.securesms.ryan.database.SignalDatabase;
+import org.thoughtcrime.securesms.ryan.dependencies.AppDependencies;
+import org.thoughtcrime.securesms.ryan.recipients.Recipient;
+import org.thoughtcrime.securesms.ryan.util.concurrent.SerialMonoLifoExecutor;
 
 import java.util.List;
 import java.util.Optional;

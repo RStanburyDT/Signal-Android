@@ -3,13 +3,13 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.settings.app
+package org.thoughtcrime.securesms.ryan.components.settings.app
 
 import androidx.compose.runtime.Immutable
 import com.google.common.base.Objects
-import org.thoughtcrime.securesms.badges.models.Badge
-import org.thoughtcrime.securesms.profiles.ProfileName
-import org.thoughtcrime.securesms.recipients.Recipient
+import org.thoughtcrime.securesms.ryan.badges.models.Badge
+import org.thoughtcrime.securesms.ryan.profiles.ProfileName
+import org.thoughtcrime.securesms.ryan.recipients.Recipient
 
 /**
  * Derived state class of recipient for BioRow

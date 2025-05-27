@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.preferences;
+package org.thoughtcrime.securesms.ryan.preferences;
 
 
 import android.annotation.SuppressLint;
@@ -16,8 +16,8 @@ import androidx.preference.PreferenceScreen;
 import androidx.preference.PreferenceViewHolder;
 import androidx.recyclerview.widget.RecyclerView;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.components.CustomDefaultPreference;
+import org.thoughtcrime.securesms.ryan.R;
+import org.thoughtcrime.securesms.ryan.components.CustomDefaultPreference;
 
 public abstract class CorrectedPreferenceFragment extends PreferenceFragmentCompat {
 

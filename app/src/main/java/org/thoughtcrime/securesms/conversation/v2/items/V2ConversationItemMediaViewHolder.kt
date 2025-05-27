@@ -3,19 +3,19 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.conversation.v2.items
+package org.thoughtcrime.securesms.ryan.conversation.v2.items
 
 import android.util.TypedValue
 import android.view.View
-import org.thoughtcrime.securesms.components.QuoteView
-import org.thoughtcrime.securesms.conversation.v2.data.ConversationMessageElement
-import org.thoughtcrime.securesms.database.model.MmsMessageRecord
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingModel
-import org.thoughtcrime.securesms.util.changeConstraints
-import org.thoughtcrime.securesms.util.isStoryReaction
-import org.thoughtcrime.securesms.util.visible
+import org.thoughtcrime.securesms.ryan.components.QuoteView
+import org.thoughtcrime.securesms.ryan.conversation.v2.data.ConversationMessageElement
+import org.thoughtcrime.securesms.ryan.database.model.MmsMessageRecord
+import org.thoughtcrime.securesms.ryan.keyvalue.SignalStore
+import org.thoughtcrime.securesms.ryan.recipients.Recipient
+import org.thoughtcrime.securesms.ryan.util.adapter.mapping.MappingModel
+import org.thoughtcrime.securesms.ryan.util.changeConstraints
+import org.thoughtcrime.securesms.ryan.util.isStoryReaction
+import org.thoughtcrime.securesms.ryan.util.visible
 
 /**
  * Represents a media-backed conversation item.

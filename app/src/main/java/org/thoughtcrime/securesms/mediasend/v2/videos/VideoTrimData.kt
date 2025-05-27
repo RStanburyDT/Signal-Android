@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.mediasend.v2.videos
+package org.thoughtcrime.securesms.ryan.mediasend.v2.videos
 
 import android.os.Bundle
 import kotlin.time.Duration

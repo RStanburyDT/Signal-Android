@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.settings.conversation
+package org.thoughtcrime.securesms.ryan.components.settings.conversation
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
@@ -21,25 +21,25 @@ import org.signal.core.util.ThreadUtil
 import org.signal.core.util.concurrent.SignalDispatchers
 import org.signal.core.util.concurrent.SignalExecutors
 import org.signal.core.util.readToList
-import org.thoughtcrime.securesms.components.settings.conversation.preferences.ButtonStripPreference
-import org.thoughtcrime.securesms.components.settings.conversation.preferences.CallPreference
-import org.thoughtcrime.securesms.components.settings.conversation.preferences.LegacyGroupPreference
-import org.thoughtcrime.securesms.database.MediaTable
-import org.thoughtcrime.securesms.database.RecipientTable
-import org.thoughtcrime.securesms.database.model.StoryViewState
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.groups.GroupId
-import org.thoughtcrime.securesms.groups.LiveGroup
-import org.thoughtcrime.securesms.groups.ui.GroupChangeFailureReason
-import org.thoughtcrime.securesms.groups.v2.GroupAddMembersResult
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.messagerequests.MessageRequestRepository
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.recipients.RecipientUtil
-import org.thoughtcrime.securesms.util.TextSecurePreferences
-import org.thoughtcrime.securesms.util.livedata.LiveDataUtil
-import org.thoughtcrime.securesms.util.livedata.Store
+import org.thoughtcrime.securesms.ryan.components.settings.conversation.preferences.ButtonStripPreference
+import org.thoughtcrime.securesms.ryan.components.settings.conversation.preferences.CallPreference
+import org.thoughtcrime.securesms.ryan.components.settings.conversation.preferences.LegacyGroupPreference
+import org.thoughtcrime.securesms.ryan.database.MediaTable
+import org.thoughtcrime.securesms.ryan.database.RecipientTable
+import org.thoughtcrime.securesms.ryan.database.model.StoryViewState
+import org.thoughtcrime.securesms.ryan.dependencies.AppDependencies
+import org.thoughtcrime.securesms.ryan.groups.GroupId
+import org.thoughtcrime.securesms.ryan.groups.LiveGroup
+import org.thoughtcrime.securesms.ryan.groups.ui.GroupChangeFailureReason
+import org.thoughtcrime.securesms.ryan.groups.v2.GroupAddMembersResult
+import org.thoughtcrime.securesms.ryan.keyvalue.SignalStore
+import org.thoughtcrime.securesms.ryan.messagerequests.MessageRequestRepository
+import org.thoughtcrime.securesms.ryan.recipients.Recipient
+import org.thoughtcrime.securesms.ryan.recipients.RecipientId
+import org.thoughtcrime.securesms.ryan.recipients.RecipientUtil
+import org.thoughtcrime.securesms.ryan.util.TextSecurePreferences
+import org.thoughtcrime.securesms.ryan.util.livedata.LiveDataUtil
+import org.thoughtcrime.securesms.ryan.util.livedata.Store
 
 sealed class ConversationSettingsViewModel(
   private val callMessageIds: LongArray,

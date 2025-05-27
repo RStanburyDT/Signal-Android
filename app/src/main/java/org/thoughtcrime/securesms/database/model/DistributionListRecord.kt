@@ -1,10 +1,10 @@
-package org.thoughtcrime.securesms.database.model
+package org.thoughtcrime.securesms.ryan.database.model
 
-import org.thoughtcrime.securesms.recipients.RecipientId
+import org.thoughtcrime.securesms.ryan.recipients.RecipientId
 import org.whispersystems.signalservice.api.push.DistributionId
 
 /**
- * Represents an entry in the [org.thoughtcrime.securesms.database.DistributionListTables].
+ * Represents an entry in the [org.thoughtcrime.securesms.ryan.database.DistributionListTables].
  */
 data class DistributionListRecord(
   val id: DistributionListId,

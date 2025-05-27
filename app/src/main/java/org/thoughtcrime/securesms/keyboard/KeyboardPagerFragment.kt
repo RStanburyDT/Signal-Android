@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.keyboard
+package org.thoughtcrime.securesms.ryan.keyboard
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -8,19 +8,19 @@ import android.view.Window
 import androidx.fragment.app.DialogFragment
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.InputAwareConstraintLayout
-import org.thoughtcrime.securesms.components.emoji.MediaKeyboard
-import org.thoughtcrime.securesms.keyboard.emoji.EmojiKeyboardPageFragment
-import org.thoughtcrime.securesms.keyboard.gif.GifKeyboardPageFragment
-import org.thoughtcrime.securesms.keyboard.sticker.StickerKeyboardPageFragment
-import org.thoughtcrime.securesms.util.ThemeUtil
-import org.thoughtcrime.securesms.util.ThemedFragment.themeResId
-import org.thoughtcrime.securesms.util.ThemedFragment.themedInflate
-import org.thoughtcrime.securesms.util.ThemedFragment.withTheme
-import org.thoughtcrime.securesms.util.WindowUtil
-import org.thoughtcrime.securesms.util.fragments.findListener
-import org.thoughtcrime.securesms.util.visible
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.components.InputAwareConstraintLayout
+import org.thoughtcrime.securesms.ryan.components.emoji.MediaKeyboard
+import org.thoughtcrime.securesms.ryan.keyboard.emoji.EmojiKeyboardPageFragment
+import org.thoughtcrime.securesms.ryan.keyboard.gif.GifKeyboardPageFragment
+import org.thoughtcrime.securesms.ryan.keyboard.sticker.StickerKeyboardPageFragment
+import org.thoughtcrime.securesms.ryan.util.ThemeUtil
+import org.thoughtcrime.securesms.ryan.util.ThemedFragment.themeResId
+import org.thoughtcrime.securesms.ryan.util.ThemedFragment.themedInflate
+import org.thoughtcrime.securesms.ryan.util.ThemedFragment.withTheme
+import org.thoughtcrime.securesms.ryan.util.WindowUtil
+import org.thoughtcrime.securesms.ryan.util.fragments.findListener
+import org.thoughtcrime.securesms.ryan.util.visible
 import kotlin.reflect.KClass
 
 class KeyboardPagerFragment : Fragment(), InputAwareConstraintLayout.InputFragment {

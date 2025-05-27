@@ -1,6 +1,6 @@
-package org.thoughtcrime.securesms.mediasend.v2.capture
+package org.thoughtcrime.securesms.ryan.mediasend.v2.capture
 
-import org.thoughtcrime.securesms.mediasend.Media
+import org.thoughtcrime.securesms.ryan.mediasend.Media
 
 data class MediaCaptureState(
   val mostRecentMedia: Media? = null

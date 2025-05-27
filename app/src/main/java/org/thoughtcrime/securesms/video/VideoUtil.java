@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.video;
+package org.thoughtcrime.securesms.ryan.video;
 
 import android.content.Context;
 import android.content.res.Resources;
@@ -7,8 +7,8 @@ import android.util.Size;
 
 import androidx.annotation.NonNull;
 
-import org.thoughtcrime.securesms.mms.MediaConstraints;
-import org.thoughtcrime.securesms.video.videoconverter.utils.VideoConstants;
+import org.thoughtcrime.securesms.ryan.mms.MediaConstraints;
+import org.thoughtcrime.securesms.ryan.video.videoconverter.utils.VideoConstants;
 
 public final class VideoUtil {
 

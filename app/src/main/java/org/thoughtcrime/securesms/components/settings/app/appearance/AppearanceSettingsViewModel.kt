@@ -1,13 +1,13 @@
-package org.thoughtcrime.securesms.components.settings.app.appearance
+package org.thoughtcrime.securesms.ryan.components.settings.app.appearance
 
 import android.app.Activity
 import androidx.lifecycle.ViewModel
 import io.reactivex.rxjava3.core.Flowable
-import org.thoughtcrime.securesms.jobs.EmojiSearchIndexDownloadJob
-import org.thoughtcrime.securesms.keyvalue.SettingsValues.Theme
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.util.SplashScreenUtil
-import org.thoughtcrime.securesms.util.rx.RxStore
+import org.thoughtcrime.securesms.ryan.jobs.EmojiSearchIndexDownloadJob
+import org.thoughtcrime.securesms.ryan.keyvalue.SettingsValues.Theme
+import org.thoughtcrime.securesms.ryan.keyvalue.SignalStore
+import org.thoughtcrime.securesms.ryan.util.SplashScreenUtil
+import org.thoughtcrime.securesms.ryan.util.rx.RxStore
 
 class AppearanceSettingsViewModel : ViewModel() {
   private val store = RxStore(getState())

@@ -1,20 +1,20 @@
-package org.thoughtcrime.securesms.keyboard.emoji
+package org.thoughtcrime.securesms.ryan.keyboard.emoji
 
 import android.content.Context
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.emoji.EmojiPageModel
-import org.thoughtcrime.securesms.components.emoji.EmojiPageViewGridAdapter.EmojiHeader
-import org.thoughtcrime.securesms.components.emoji.RecentEmojiPageModel
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.emoji.EmojiCategory
-import org.thoughtcrime.securesms.util.DefaultValueLiveData
-import org.thoughtcrime.securesms.util.TextSecurePreferences
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingModelList
-import org.thoughtcrime.securesms.util.livedata.LiveDataUtil
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.components.emoji.EmojiPageModel
+import org.thoughtcrime.securesms.ryan.components.emoji.EmojiPageViewGridAdapter.EmojiHeader
+import org.thoughtcrime.securesms.ryan.components.emoji.RecentEmojiPageModel
+import org.thoughtcrime.securesms.ryan.dependencies.AppDependencies
+import org.thoughtcrime.securesms.ryan.emoji.EmojiCategory
+import org.thoughtcrime.securesms.ryan.util.DefaultValueLiveData
+import org.thoughtcrime.securesms.ryan.util.TextSecurePreferences
+import org.thoughtcrime.securesms.ryan.util.adapter.mapping.MappingModelList
+import org.thoughtcrime.securesms.ryan.util.livedata.LiveDataUtil
 
 class EmojiKeyboardPageViewModel(private val repository: EmojiKeyboardPageRepository) : ViewModel() {
 

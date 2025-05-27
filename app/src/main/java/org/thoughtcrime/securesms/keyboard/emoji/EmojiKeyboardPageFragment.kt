@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.keyboard.emoji
+package org.thoughtcrime.securesms.ryan.keyboard.emoji
 
 import android.os.Bundle
 import android.view.KeyEvent
@@ -11,17 +11,17 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import androidx.recyclerview.widget.RecyclerView.SCROLL_STATE_IDLE
 import com.google.android.material.appbar.AppBarLayout
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.emoji.EmojiEventListener
-import org.thoughtcrime.securesms.components.emoji.EmojiPageView
-import org.thoughtcrime.securesms.components.emoji.EmojiPageViewGridAdapter
-import org.thoughtcrime.securesms.components.emoji.EmojiPageViewGridAdapter.EmojiHeader
-import org.thoughtcrime.securesms.keyboard.KeyboardPageCategoryIconMappingModel
-import org.thoughtcrime.securesms.keyboard.KeyboardPageSelected
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.util.ThemedFragment.themedInflate
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingModel
-import org.thoughtcrime.securesms.util.fragments.requireListener
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.components.emoji.EmojiEventListener
+import org.thoughtcrime.securesms.ryan.components.emoji.EmojiPageView
+import org.thoughtcrime.securesms.ryan.components.emoji.EmojiPageViewGridAdapter
+import org.thoughtcrime.securesms.ryan.components.emoji.EmojiPageViewGridAdapter.EmojiHeader
+import org.thoughtcrime.securesms.ryan.keyboard.KeyboardPageCategoryIconMappingModel
+import org.thoughtcrime.securesms.ryan.keyboard.KeyboardPageSelected
+import org.thoughtcrime.securesms.ryan.keyvalue.SignalStore
+import org.thoughtcrime.securesms.ryan.util.ThemedFragment.themedInflate
+import org.thoughtcrime.securesms.ryan.util.adapter.mapping.MappingModel
+import org.thoughtcrime.securesms.ryan.util.fragments.requireListener
 import java.util.Optional
 
 private val DELETE_KEY_EVENT: KeyEvent = KeyEvent(KeyEvent.ACTION_DOWN, KeyEvent.KEYCODE_DEL)

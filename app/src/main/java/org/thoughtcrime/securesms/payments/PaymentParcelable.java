@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.payments;
+package org.thoughtcrime.securesms.ryan.payments;
 
 import android.os.Parcel;
 import android.os.Parcelable;
@@ -6,8 +6,8 @@ import android.os.Parcelable;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import org.thoughtcrime.securesms.payments.preferences.model.PayeeParcelable;
-import org.thoughtcrime.securesms.payments.proto.PaymentMetaData;
+import org.thoughtcrime.securesms.ryan.payments.preferences.model.PayeeParcelable;
+import org.thoughtcrime.securesms.ryan.payments.proto.PaymentMetaData;
 import org.whispersystems.signalservice.api.payments.Money;
 
 import java.io.IOException;

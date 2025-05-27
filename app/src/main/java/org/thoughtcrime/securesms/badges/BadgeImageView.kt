@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.badges
+package org.thoughtcrime.securesms.ryan.badges
 
 import android.content.Context
 import android.util.AttributeSet
@@ -7,16 +7,16 @@ import androidx.core.content.res.use
 import com.bumptech.glide.Glide
 import com.bumptech.glide.RequestManager
 import com.bumptech.glide.load.resource.bitmap.DownsampleStrategy
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.badges.glide.BadgeSpriteTransformation
-import org.thoughtcrime.securesms.badges.models.Badge
-import org.thoughtcrime.securesms.components.settings.app.subscription.BadgeImageSize
-import org.thoughtcrime.securesms.database.model.databaseprotos.GiftBadge
-import org.thoughtcrime.securesms.glide.GiftBadgeModel
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.util.ScreenDensity
-import org.thoughtcrime.securesms.util.ThemeUtil
-import org.thoughtcrime.securesms.util.visible
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.badges.glide.BadgeSpriteTransformation
+import org.thoughtcrime.securesms.ryan.badges.models.Badge
+import org.thoughtcrime.securesms.ryan.components.settings.app.subscription.BadgeImageSize
+import org.thoughtcrime.securesms.ryan.database.model.databaseprotos.GiftBadge
+import org.thoughtcrime.securesms.ryan.glide.GiftBadgeModel
+import org.thoughtcrime.securesms.ryan.recipients.Recipient
+import org.thoughtcrime.securesms.ryan.util.ScreenDensity
+import org.thoughtcrime.securesms.ryan.util.ThemeUtil
+import org.thoughtcrime.securesms.ryan.util.visible
 
 class BadgeImageView @JvmOverloads constructor(
   context: Context,

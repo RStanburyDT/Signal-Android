@@ -1,16 +1,16 @@
-package org.thoughtcrime.securesms
+package org.thoughtcrime.securesms.ryan
 
 import android.content.Context
 import android.view.View
 import android.widget.TextView
 import com.google.android.material.button.MaterialButton
-import org.thoughtcrime.securesms.contacts.paged.ContactSearchAdapter
-import org.thoughtcrime.securesms.contacts.paged.ContactSearchConfiguration
-import org.thoughtcrime.securesms.contacts.paged.ContactSearchData
-import org.thoughtcrime.securesms.contacts.paged.ContactSearchKey
-import org.thoughtcrime.securesms.util.adapter.mapping.LayoutFactory
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingModel
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingViewHolder
+import org.thoughtcrime.securesms.ryan.contacts.paged.ContactSearchAdapter
+import org.thoughtcrime.securesms.ryan.contacts.paged.ContactSearchConfiguration
+import org.thoughtcrime.securesms.ryan.contacts.paged.ContactSearchData
+import org.thoughtcrime.securesms.ryan.contacts.paged.ContactSearchKey
+import org.thoughtcrime.securesms.ryan.util.adapter.mapping.LayoutFactory
+import org.thoughtcrime.securesms.ryan.util.adapter.mapping.MappingModel
+import org.thoughtcrime.securesms.ryan.util.adapter.mapping.MappingViewHolder
 
 class ContactSelectionListAdapter(
   context: Context,
@@ -152,7 +152,7 @@ class ContactSelectionListAdapter(
     override fun bind(model: FindByUsernameModel) = Unit
   }
 
-  class ArbitraryRepository : org.thoughtcrime.securesms.contacts.paged.ArbitraryRepository {
+  class ArbitraryRepository : org.thoughtcrime.securesms.ryan.contacts.paged.ArbitraryRepository {
 
     enum class ArbitraryRow(val code: String) {
       NEW_GROUP("new-group"),

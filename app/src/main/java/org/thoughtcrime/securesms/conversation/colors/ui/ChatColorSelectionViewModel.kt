@@ -1,13 +1,13 @@
-package org.thoughtcrime.securesms.conversation.colors.ui
+package org.thoughtcrime.securesms.ryan.conversation.colors.ui
 
 import androidx.fragment.app.FragmentActivity
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import org.thoughtcrime.securesms.conversation.colors.ChatColors
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.util.SingleLiveEvent
-import org.thoughtcrime.securesms.util.livedata.Store
+import org.thoughtcrime.securesms.ryan.conversation.colors.ChatColors
+import org.thoughtcrime.securesms.ryan.recipients.RecipientId
+import org.thoughtcrime.securesms.ryan.util.SingleLiveEvent
+import org.thoughtcrime.securesms.ryan.util.livedata.Store
 
 class ChatColorSelectionViewModel(private val repository: ChatColorSelectionRepository) : ViewModel() {
 

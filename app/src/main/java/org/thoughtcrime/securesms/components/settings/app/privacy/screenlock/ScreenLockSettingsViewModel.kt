@@ -1,10 +1,10 @@
-package org.thoughtcrime.securesms.components.settings.app.privacy.screenlock
+package org.thoughtcrime.securesms.ryan.components.settings.app.privacy.screenlock
 
 import androidx.lifecycle.ViewModel
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.update
-import org.thoughtcrime.securesms.keyvalue.SignalStore
+import org.thoughtcrime.securesms.ryan.keyvalue.SignalStore
 
 /**
  * Maintains the state of the [ScreenLockSettingsFragment]

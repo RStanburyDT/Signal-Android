@@ -1,11 +1,11 @@
-package org.thoughtcrime.securesms.service;
+package org.thoughtcrime.securesms.ryan.service;
 
 
 import android.content.Context;
 
-import org.thoughtcrime.securesms.dependencies.AppDependencies;
-import org.thoughtcrime.securesms.jobs.RotateCertificateJob;
-import org.thoughtcrime.securesms.util.TextSecurePreferences;
+import org.thoughtcrime.securesms.ryan.dependencies.AppDependencies;
+import org.thoughtcrime.securesms.ryan.jobs.RotateCertificateJob;
+import org.thoughtcrime.securesms.ryan.util.TextSecurePreferences;
 
 import java.util.concurrent.TimeUnit;
 

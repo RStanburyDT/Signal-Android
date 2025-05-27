@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.safety
+package org.thoughtcrime.securesms.ryan.safety
 
 import android.content.DialogInterface
 import android.view.View
@@ -9,23 +9,23 @@ import com.google.android.material.button.MaterialButton
 import org.signal.core.util.DimensionUnit
 import org.signal.core.util.concurrent.LifecycleDisposable
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.WrapperDialogFragment
-import org.thoughtcrime.securesms.components.menu.ActionItem
-import org.thoughtcrime.securesms.components.settings.DSLConfiguration
-import org.thoughtcrime.securesms.components.settings.DSLSettingsAdapter
-import org.thoughtcrime.securesms.components.settings.DSLSettingsBottomSheetFragment
-import org.thoughtcrime.securesms.components.settings.DSLSettingsText
-import org.thoughtcrime.securesms.components.settings.configure
-import org.thoughtcrime.securesms.components.settings.models.SplashImage
-import org.thoughtcrime.securesms.conversation.ui.error.SafetyNumberChangeRepository
-import org.thoughtcrime.securesms.conversation.ui.error.TrustAndVerifyResult
-import org.thoughtcrime.securesms.crypto.IdentityKeyParcelable
-import org.thoughtcrime.securesms.database.IdentityTable
-import org.thoughtcrime.securesms.safety.review.SafetyNumberReviewConnectionsFragment
-import org.thoughtcrime.securesms.util.fragments.findListener
-import org.thoughtcrime.securesms.util.visible
-import org.thoughtcrime.securesms.verify.VerifyIdentityFragment
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.components.WrapperDialogFragment
+import org.thoughtcrime.securesms.ryan.components.menu.ActionItem
+import org.thoughtcrime.securesms.ryan.components.settings.DSLConfiguration
+import org.thoughtcrime.securesms.ryan.components.settings.DSLSettingsAdapter
+import org.thoughtcrime.securesms.ryan.components.settings.DSLSettingsBottomSheetFragment
+import org.thoughtcrime.securesms.ryan.components.settings.DSLSettingsText
+import org.thoughtcrime.securesms.ryan.components.settings.configure
+import org.thoughtcrime.securesms.ryan.components.settings.models.SplashImage
+import org.thoughtcrime.securesms.ryan.conversation.ui.error.SafetyNumberChangeRepository
+import org.thoughtcrime.securesms.ryan.conversation.ui.error.TrustAndVerifyResult
+import org.thoughtcrime.securesms.ryan.crypto.IdentityKeyParcelable
+import org.thoughtcrime.securesms.ryan.database.IdentityTable
+import org.thoughtcrime.securesms.ryan.safety.review.SafetyNumberReviewConnectionsFragment
+import org.thoughtcrime.securesms.ryan.util.fragments.findListener
+import org.thoughtcrime.securesms.ryan.util.visible
+import org.thoughtcrime.securesms.ryan.verify.VerifyIdentityFragment
 
 /**
  * Displays a bottom sheet containing information about safety number changes and allows the user to

@@ -3,16 +3,16 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.jobs
+package org.thoughtcrime.securesms.ryan.jobs
 
 import org.signal.core.util.concurrent.safeBlockingGet
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.jobmanager.Job
-import org.thoughtcrime.securesms.jobmanager.impl.NetworkConstraint
-import org.thoughtcrime.securesms.service.webrtc.links.CallLinkCredentials
-import org.thoughtcrime.securesms.service.webrtc.links.ReadCallLinkResult
-import org.thoughtcrime.securesms.service.webrtc.links.SignalCallLinkManager
+import org.thoughtcrime.securesms.ryan.database.SignalDatabase
+import org.thoughtcrime.securesms.ryan.dependencies.AppDependencies
+import org.thoughtcrime.securesms.ryan.jobmanager.Job
+import org.thoughtcrime.securesms.ryan.jobmanager.impl.NetworkConstraint
+import org.thoughtcrime.securesms.ryan.service.webrtc.links.CallLinkCredentials
+import org.thoughtcrime.securesms.ryan.service.webrtc.links.ReadCallLinkResult
+import org.thoughtcrime.securesms.ryan.service.webrtc.links.SignalCallLinkManager
 import org.whispersystems.signalservice.internal.push.SyncMessage.CallLinkUpdate
 import java.util.concurrent.TimeUnit
 

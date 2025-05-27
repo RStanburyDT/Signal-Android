@@ -1,9 +1,9 @@
-package org.thoughtcrime.securesms.messagerequests
+package org.thoughtcrime.securesms.ryan.messagerequests
 
 import android.content.Context
 import androidx.annotation.ColorInt
 import androidx.core.content.ContextCompat
-import org.thoughtcrime.securesms.R
+import org.thoughtcrime.securesms.ryan.R
 
 enum class MessageRequestBarColorTheme(
   private val containerBackgroundColor: Int,

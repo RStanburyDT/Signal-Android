@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.glide;
+package org.thoughtcrime.securesms.ryan.glide;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -9,8 +9,8 @@ import com.bumptech.glide.load.model.ModelLoader;
 import com.bumptech.glide.load.model.ModelLoaderFactory;
 import com.bumptech.glide.load.model.MultiModelLoaderFactory;
 
-import org.thoughtcrime.securesms.badges.models.Badge;
-import org.thoughtcrime.securesms.dependencies.AppDependencies;
+import org.thoughtcrime.securesms.ryan.badges.models.Badge;
+import org.thoughtcrime.securesms.ryan.dependencies.AppDependencies;
 
 import java.io.InputStream;
 

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.database.helpers;
+package org.thoughtcrime.securesms.ryan.database.helpers;
 
 import android.database.Cursor;
 import android.text.TextUtils;
@@ -6,8 +6,8 @@ import android.text.TextUtils;
 import androidx.annotation.NonNull;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.database.SQLiteDatabase;
-import org.thoughtcrime.securesms.util.DelimiterUtil;
+import org.thoughtcrime.securesms.ryan.database.SQLiteDatabase;
+import org.thoughtcrime.securesms.ryan.util.DelimiterUtil;
 
 import java.util.HashSet;
 import java.util.Set;

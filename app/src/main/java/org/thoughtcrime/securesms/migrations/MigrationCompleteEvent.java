@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.migrations;
+package org.thoughtcrime.securesms.ryan.migrations;
 
 public class MigrationCompleteEvent {
 

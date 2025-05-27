@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.giph.mp4;
+package org.thoughtcrime.securesms.ryan.giph.mp4;
 
 import android.graphics.drawable.ColorDrawable;
 import android.graphics.drawable.Drawable;
@@ -19,14 +19,14 @@ import androidx.media3.common.MediaItem;
 import androidx.media3.common.util.UnstableApi;
 import androidx.media3.ui.AspectRatioFrameLayout;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.conversation.colors.ChatColorsPalette;
-import org.thoughtcrime.securesms.giph.model.ChunkedImageUrl;
-import org.thoughtcrime.securesms.giph.model.GiphyImage;
-import org.thoughtcrime.securesms.util.Projection;
-import org.thoughtcrime.securesms.util.Util;
-import org.thoughtcrime.securesms.util.ViewUtil;
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingViewHolder;
+import org.thoughtcrime.securesms.ryan.R;
+import org.thoughtcrime.securesms.ryan.conversation.colors.ChatColorsPalette;
+import org.thoughtcrime.securesms.ryan.giph.model.ChunkedImageUrl;
+import org.thoughtcrime.securesms.ryan.giph.model.GiphyImage;
+import org.thoughtcrime.securesms.ryan.util.Projection;
+import org.thoughtcrime.securesms.ryan.util.Util;
+import org.thoughtcrime.securesms.ryan.util.ViewUtil;
+import org.thoughtcrime.securesms.ryan.util.adapter.mapping.MappingViewHolder;
 
 /**
  * Holds a view which will either play back an MP4 gif or show its still.

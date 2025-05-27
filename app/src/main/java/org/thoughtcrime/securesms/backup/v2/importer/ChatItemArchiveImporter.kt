@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.backup.v2.importer
+package org.thoughtcrime.securesms.ryan.backup.v2.importer
 
 import android.content.ContentValues
 import androidx.core.content.contentValuesOf
@@ -16,64 +16,64 @@ import org.signal.core.util.orNull
 import org.signal.core.util.requireLong
 import org.signal.core.util.toInt
 import org.signal.core.util.update
-import org.thoughtcrime.securesms.attachments.Attachment
-import org.thoughtcrime.securesms.attachments.PointerAttachment
-import org.thoughtcrime.securesms.attachments.TombstoneAttachment
-import org.thoughtcrime.securesms.backup.v2.ImportSkips
-import org.thoughtcrime.securesms.backup.v2.ImportState
-import org.thoughtcrime.securesms.backup.v2.proto.BodyRange
-import org.thoughtcrime.securesms.backup.v2.proto.ChatItem
-import org.thoughtcrime.securesms.backup.v2.proto.ChatUpdateMessage
-import org.thoughtcrime.securesms.backup.v2.proto.ContactAttachment
-import org.thoughtcrime.securesms.backup.v2.proto.DirectStoryReplyMessage
-import org.thoughtcrime.securesms.backup.v2.proto.GroupCall
-import org.thoughtcrime.securesms.backup.v2.proto.IndividualCall
-import org.thoughtcrime.securesms.backup.v2.proto.LinkPreview
-import org.thoughtcrime.securesms.backup.v2.proto.MessageAttachment
-import org.thoughtcrime.securesms.backup.v2.proto.PaymentNotification
-import org.thoughtcrime.securesms.backup.v2.proto.Quote
-import org.thoughtcrime.securesms.backup.v2.proto.Reaction
-import org.thoughtcrime.securesms.backup.v2.proto.SendStatus
-import org.thoughtcrime.securesms.backup.v2.proto.SimpleChatUpdate
-import org.thoughtcrime.securesms.backup.v2.proto.StandardMessage
-import org.thoughtcrime.securesms.backup.v2.proto.Sticker
-import org.thoughtcrime.securesms.backup.v2.proto.ViewOnceMessage
-import org.thoughtcrime.securesms.backup.v2.util.toLocalAttachment
-import org.thoughtcrime.securesms.contactshare.Contact
-import org.thoughtcrime.securesms.database.CallTable
-import org.thoughtcrime.securesms.database.GroupReceiptTable
-import org.thoughtcrime.securesms.database.MessageTable
-import org.thoughtcrime.securesms.database.MessageTypes
-import org.thoughtcrime.securesms.database.ReactionTable
-import org.thoughtcrime.securesms.database.SQLiteDatabase
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.database.SignalDatabase.Companion.recipients
-import org.thoughtcrime.securesms.database.documents.IdentityKeyMismatch
-import org.thoughtcrime.securesms.database.documents.IdentityKeyMismatchSet
-import org.thoughtcrime.securesms.database.documents.NetworkFailure
-import org.thoughtcrime.securesms.database.documents.NetworkFailureSet
-import org.thoughtcrime.securesms.database.model.GroupCallUpdateDetailsUtil
-import org.thoughtcrime.securesms.database.model.Mention
-import org.thoughtcrime.securesms.database.model.databaseprotos.BodyRangeList
-import org.thoughtcrime.securesms.database.model.databaseprotos.CryptoValue
-import org.thoughtcrime.securesms.database.model.databaseprotos.GV2UpdateDescription
-import org.thoughtcrime.securesms.database.model.databaseprotos.GiftBadge
-import org.thoughtcrime.securesms.database.model.databaseprotos.MessageExtras
-import org.thoughtcrime.securesms.database.model.databaseprotos.PaymentTombstone
-import org.thoughtcrime.securesms.database.model.databaseprotos.ProfileChangeDetails
-import org.thoughtcrime.securesms.database.model.databaseprotos.SessionSwitchoverEvent
-import org.thoughtcrime.securesms.database.model.databaseprotos.ThreadMergeEvent
-import org.thoughtcrime.securesms.mms.QuoteModel
-import org.thoughtcrime.securesms.payments.CryptoValueUtil
-import org.thoughtcrime.securesms.payments.Direction
-import org.thoughtcrime.securesms.payments.FailureReason
-import org.thoughtcrime.securesms.payments.State
-import org.thoughtcrime.securesms.payments.proto.PaymentMetaData
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.stickers.StickerLocator
-import org.thoughtcrime.securesms.util.JsonUtils
-import org.thoughtcrime.securesms.util.MediaUtil
+import org.thoughtcrime.securesms.ryan.attachments.Attachment
+import org.thoughtcrime.securesms.ryan.attachments.PointerAttachment
+import org.thoughtcrime.securesms.ryan.attachments.TombstoneAttachment
+import org.thoughtcrime.securesms.ryan.backup.v2.ImportSkips
+import org.thoughtcrime.securesms.ryan.backup.v2.ImportState
+import org.thoughtcrime.securesms.ryan.backup.v2.proto.BodyRange
+import org.thoughtcrime.securesms.ryan.backup.v2.proto.ChatItem
+import org.thoughtcrime.securesms.ryan.backup.v2.proto.ChatUpdateMessage
+import org.thoughtcrime.securesms.ryan.backup.v2.proto.ContactAttachment
+import org.thoughtcrime.securesms.ryan.backup.v2.proto.DirectStoryReplyMessage
+import org.thoughtcrime.securesms.ryan.backup.v2.proto.GroupCall
+import org.thoughtcrime.securesms.ryan.backup.v2.proto.IndividualCall
+import org.thoughtcrime.securesms.ryan.backup.v2.proto.LinkPreview
+import org.thoughtcrime.securesms.ryan.backup.v2.proto.MessageAttachment
+import org.thoughtcrime.securesms.ryan.backup.v2.proto.PaymentNotification
+import org.thoughtcrime.securesms.ryan.backup.v2.proto.Quote
+import org.thoughtcrime.securesms.ryan.backup.v2.proto.Reaction
+import org.thoughtcrime.securesms.ryan.backup.v2.proto.SendStatus
+import org.thoughtcrime.securesms.ryan.backup.v2.proto.SimpleChatUpdate
+import org.thoughtcrime.securesms.ryan.backup.v2.proto.StandardMessage
+import org.thoughtcrime.securesms.ryan.backup.v2.proto.Sticker
+import org.thoughtcrime.securesms.ryan.backup.v2.proto.ViewOnceMessage
+import org.thoughtcrime.securesms.ryan.backup.v2.util.toLocalAttachment
+import org.thoughtcrime.securesms.ryan.contactshare.Contact
+import org.thoughtcrime.securesms.ryan.database.CallTable
+import org.thoughtcrime.securesms.ryan.database.GroupReceiptTable
+import org.thoughtcrime.securesms.ryan.database.MessageTable
+import org.thoughtcrime.securesms.ryan.database.MessageTypes
+import org.thoughtcrime.securesms.ryan.database.ReactionTable
+import org.thoughtcrime.securesms.ryan.database.SQLiteDatabase
+import org.thoughtcrime.securesms.ryan.database.SignalDatabase
+import org.thoughtcrime.securesms.ryan.database.SignalDatabase.Companion.recipients
+import org.thoughtcrime.securesms.ryan.database.documents.IdentityKeyMismatch
+import org.thoughtcrime.securesms.ryan.database.documents.IdentityKeyMismatchSet
+import org.thoughtcrime.securesms.ryan.database.documents.NetworkFailure
+import org.thoughtcrime.securesms.ryan.database.documents.NetworkFailureSet
+import org.thoughtcrime.securesms.ryan.database.model.GroupCallUpdateDetailsUtil
+import org.thoughtcrime.securesms.ryan.database.model.Mention
+import org.thoughtcrime.securesms.ryan.database.model.databaseprotos.BodyRangeList
+import org.thoughtcrime.securesms.ryan.database.model.databaseprotos.CryptoValue
+import org.thoughtcrime.securesms.ryan.database.model.databaseprotos.GV2UpdateDescription
+import org.thoughtcrime.securesms.ryan.database.model.databaseprotos.GiftBadge
+import org.thoughtcrime.securesms.ryan.database.model.databaseprotos.MessageExtras
+import org.thoughtcrime.securesms.ryan.database.model.databaseprotos.PaymentTombstone
+import org.thoughtcrime.securesms.ryan.database.model.databaseprotos.ProfileChangeDetails
+import org.thoughtcrime.securesms.ryan.database.model.databaseprotos.SessionSwitchoverEvent
+import org.thoughtcrime.securesms.ryan.database.model.databaseprotos.ThreadMergeEvent
+import org.thoughtcrime.securesms.ryan.mms.QuoteModel
+import org.thoughtcrime.securesms.ryan.payments.CryptoValueUtil
+import org.thoughtcrime.securesms.ryan.payments.Direction
+import org.thoughtcrime.securesms.ryan.payments.FailureReason
+import org.thoughtcrime.securesms.ryan.payments.State
+import org.thoughtcrime.securesms.ryan.payments.proto.PaymentMetaData
+import org.thoughtcrime.securesms.ryan.recipients.Recipient
+import org.thoughtcrime.securesms.ryan.recipients.RecipientId
+import org.thoughtcrime.securesms.ryan.stickers.StickerLocator
+import org.thoughtcrime.securesms.ryan.util.JsonUtils
+import org.thoughtcrime.securesms.ryan.util.MediaUtil
 import org.whispersystems.signalservice.api.payments.Money
 import org.whispersystems.signalservice.api.push.ServiceId
 import org.whispersystems.signalservice.api.util.UuidUtil
@@ -81,7 +81,7 @@ import org.whispersystems.signalservice.internal.push.DataMessage
 import java.math.BigInteger
 import java.util.Optional
 import java.util.UUID
-import org.thoughtcrime.securesms.backup.v2.proto.GiftBadge as BackupGiftBadge
+import org.thoughtcrime.securesms.ryan.backup.v2.proto.GiftBadge as BackupGiftBadge
 
 /**
  * An object that will ingest all fo the [ChatItem]s you want to write, buffer them until hitting a specified batch size, and then batch insert them
@@ -1063,8 +1063,8 @@ class ChatItemArchiveImporter(
     )
   }
 
-  private fun LinkPreview.toLocalLinkPreview(): org.thoughtcrime.securesms.linkpreview.LinkPreview {
-    return org.thoughtcrime.securesms.linkpreview.LinkPreview(
+  private fun LinkPreview.toLocalLinkPreview(): org.thoughtcrime.securesms.ryan.linkpreview.LinkPreview {
+    return org.thoughtcrime.securesms.ryan.linkpreview.LinkPreview(
       this.url,
       this.title ?: "",
       this.description ?: "",

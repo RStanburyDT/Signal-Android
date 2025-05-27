@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.thoughtcrime.securesms.conversation;
+package org.thoughtcrime.securesms.ryan.conversation;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -43,23 +43,23 @@ import com.bumptech.glide.RequestManager;
 
 import org.signal.core.util.logging.Log;
 import org.signal.paging.PagingController;
-import org.thoughtcrime.securesms.BindableConversationItem;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.conversation.colors.Colorizable;
-import org.thoughtcrime.securesms.conversation.colors.Colorizer;
-import org.thoughtcrime.securesms.conversation.mutiselect.MultiselectPart;
-import org.thoughtcrime.securesms.database.model.MmsMessageRecord;
-import org.thoughtcrime.securesms.database.model.MessageRecord;
-import org.thoughtcrime.securesms.giph.mp4.GiphyMp4Playable;
-import org.thoughtcrime.securesms.giph.mp4.GiphyMp4PlaybackPolicyEnforcer;
-import org.thoughtcrime.securesms.recipients.RecipientId;
-import org.thoughtcrime.securesms.util.CachedInflater;
-import org.thoughtcrime.securesms.util.DateUtils;
-import org.thoughtcrime.securesms.util.Projection;
-import org.thoughtcrime.securesms.util.ProjectionList;
-import org.thoughtcrime.securesms.util.StickyHeaderDecoration;
-import org.thoughtcrime.securesms.util.ThemeUtil;
-import org.thoughtcrime.securesms.util.ViewUtil;
+import org.thoughtcrime.securesms.ryan.BindableConversationItem;
+import org.thoughtcrime.securesms.ryan.R;
+import org.thoughtcrime.securesms.ryan.conversation.colors.Colorizable;
+import org.thoughtcrime.securesms.ryan.conversation.colors.Colorizer;
+import org.thoughtcrime.securesms.ryan.conversation.mutiselect.MultiselectPart;
+import org.thoughtcrime.securesms.ryan.database.model.MmsMessageRecord;
+import org.thoughtcrime.securesms.ryan.database.model.MessageRecord;
+import org.thoughtcrime.securesms.ryan.giph.mp4.GiphyMp4Playable;
+import org.thoughtcrime.securesms.ryan.giph.mp4.GiphyMp4PlaybackPolicyEnforcer;
+import org.thoughtcrime.securesms.ryan.recipients.RecipientId;
+import org.thoughtcrime.securesms.ryan.util.CachedInflater;
+import org.thoughtcrime.securesms.ryan.util.DateUtils;
+import org.thoughtcrime.securesms.ryan.util.Projection;
+import org.thoughtcrime.securesms.ryan.util.ProjectionList;
+import org.thoughtcrime.securesms.ryan.util.StickyHeaderDecoration;
+import org.thoughtcrime.securesms.ryan.util.ThemeUtil;
+import org.thoughtcrime.securesms.ryan.util.ViewUtil;
 
 import java.util.Calendar;
 import java.util.HashSet;

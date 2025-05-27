@@ -1,13 +1,13 @@
-package org.thoughtcrime.securesms.giph.mp4;
+package org.thoughtcrime.securesms.ryan.giph.mp4;
 
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.giph.model.GiphyImage;
-import org.thoughtcrime.securesms.util.adapter.mapping.LayoutFactory;
-import org.thoughtcrime.securesms.util.adapter.mapping.PagingMappingAdapter;
+import org.thoughtcrime.securesms.ryan.R;
+import org.thoughtcrime.securesms.ryan.giph.model.GiphyImage;
+import org.thoughtcrime.securesms.ryan.util.adapter.mapping.LayoutFactory;
+import org.thoughtcrime.securesms.ryan.util.adapter.mapping.PagingMappingAdapter;
 
 /**
  * Maintains and displays a list of GiphyImage objects. This Adapter always displays gifs

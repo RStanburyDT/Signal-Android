@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.util.views;
+package org.thoughtcrime.securesms.ryan.util.views;
 
 import android.content.Context;
 import android.graphics.PorterDuff;
@@ -8,7 +8,7 @@ import androidx.annotation.Nullable;
 import androidx.appcompat.widget.Toolbar;
 import androidx.core.content.ContextCompat;
 
-import org.thoughtcrime.securesms.R;
+import org.thoughtcrime.securesms.ryan.R;
 
 /**
  * It seems to be impossible to tint the overflow icon in an ActionMode independently from the

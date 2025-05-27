@@ -1,14 +1,14 @@
-package org.thoughtcrime.securesms.notifications.profiles
+package org.thoughtcrime.securesms.ryan.notifications.profiles
 
 import android.content.Context
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.keyvalue.NotificationProfileValues
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.util.formatHours
-import org.thoughtcrime.securesms.util.toLocalDateTime
-import org.thoughtcrime.securesms.util.toLocalTime
-import org.thoughtcrime.securesms.util.toMillis
-import org.thoughtcrime.securesms.util.toOffset
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.keyvalue.NotificationProfileValues
+import org.thoughtcrime.securesms.ryan.keyvalue.SignalStore
+import org.thoughtcrime.securesms.ryan.util.formatHours
+import org.thoughtcrime.securesms.ryan.util.toLocalDateTime
+import org.thoughtcrime.securesms.ryan.util.toLocalTime
+import org.thoughtcrime.securesms.ryan.util.toMillis
+import org.thoughtcrime.securesms.ryan.util.toOffset
 import java.time.LocalDateTime
 import java.time.ZoneId
 

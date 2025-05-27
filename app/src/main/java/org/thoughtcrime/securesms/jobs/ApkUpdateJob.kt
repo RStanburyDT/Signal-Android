@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.jobs
+package org.thoughtcrime.securesms.ryan.jobs
 
 import android.app.DownloadManager
 import android.content.Context
@@ -15,14 +15,14 @@ import org.signal.core.util.logging.Log
 import org.signal.core.util.requireInt
 import org.signal.core.util.requireLong
 import org.signal.core.util.requireString
-import org.thoughtcrime.securesms.BuildConfig
-import org.thoughtcrime.securesms.apkupdate.ApkUpdateDownloadManagerReceiver
-import org.thoughtcrime.securesms.jobmanager.Job
-import org.thoughtcrime.securesms.jobmanager.impl.NetworkConstraint
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.util.Environment
-import org.thoughtcrime.securesms.util.FileUtils
-import org.thoughtcrime.securesms.util.JsonUtils
+import org.thoughtcrime.securesms.ryan.BuildConfig
+import org.thoughtcrime.securesms.ryan.apkupdate.ApkUpdateDownloadManagerReceiver
+import org.thoughtcrime.securesms.ryan.jobmanager.Job
+import org.thoughtcrime.securesms.ryan.jobmanager.impl.NetworkConstraint
+import org.thoughtcrime.securesms.ryan.keyvalue.SignalStore
+import org.thoughtcrime.securesms.ryan.util.Environment
+import org.thoughtcrime.securesms.ryan.util.FileUtils
+import org.thoughtcrime.securesms.ryan.util.JsonUtils
 import java.io.FileInputStream
 import java.io.IOException
 import java.security.MessageDigest

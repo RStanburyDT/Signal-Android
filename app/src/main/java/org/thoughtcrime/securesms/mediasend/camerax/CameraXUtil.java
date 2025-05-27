@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.mediasend.camerax;
+package org.thoughtcrime.securesms.ryan.mediasend.camerax;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -26,8 +26,8 @@ import androidx.camera.core.ImageProxy;
 
 import org.signal.core.util.Stopwatch;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.util.BitmapDecodingException;
-import org.thoughtcrime.securesms.util.BitmapUtil;
+import org.thoughtcrime.securesms.ryan.util.BitmapDecodingException;
+import org.thoughtcrime.securesms.ryan.util.BitmapUtil;
 
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;

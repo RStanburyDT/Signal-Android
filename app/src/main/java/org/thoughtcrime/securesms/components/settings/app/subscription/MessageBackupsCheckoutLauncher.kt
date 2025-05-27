@@ -3,16 +3,16 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.settings.app.subscription
+package org.thoughtcrime.securesms.ryan.components.settings.app.subscription
 
 import androidx.activity.result.ActivityResultLauncher
 import androidx.fragment.app.Fragment
 import org.signal.core.util.getSerializableCompat
-import org.thoughtcrime.securesms.backup.v2.MessageBackupTier
-import org.thoughtcrime.securesms.backup.v2.ui.CreateBackupBottomSheet
-import org.thoughtcrime.securesms.backup.v2.ui.subscription.MessageBackupsCheckoutActivity
-import org.thoughtcrime.securesms.components.settings.app.subscription.donate.InAppPaymentProcessorAction
-import org.thoughtcrime.securesms.util.BottomSheetUtil
+import org.thoughtcrime.securesms.ryan.backup.v2.MessageBackupTier
+import org.thoughtcrime.securesms.ryan.backup.v2.ui.CreateBackupBottomSheet
+import org.thoughtcrime.securesms.ryan.backup.v2.ui.subscription.MessageBackupsCheckoutActivity
+import org.thoughtcrime.securesms.ryan.components.settings.app.subscription.donate.InAppPaymentProcessorAction
+import org.thoughtcrime.securesms.ryan.util.BottomSheetUtil
 
 object MessageBackupsCheckoutLauncher {
 

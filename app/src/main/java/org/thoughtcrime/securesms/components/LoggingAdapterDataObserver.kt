@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components
+package org.thoughtcrime.securesms.ryan.components
 
 import androidx.recyclerview.widget.RecyclerView.AdapterDataObserver
 import org.signal.core.util.logging.Log

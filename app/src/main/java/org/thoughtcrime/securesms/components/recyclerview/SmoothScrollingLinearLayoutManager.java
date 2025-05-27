@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.recyclerview;
+package org.thoughtcrime.securesms.ryan.components.recyclerview;
 
 import android.content.Context;
 import android.util.DisplayMetrics;

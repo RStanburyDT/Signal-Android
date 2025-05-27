@@ -1,11 +1,11 @@
-package org.thoughtcrime.securesms.migrations
+package org.thoughtcrime.securesms.ryan.migrations
 
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.jobmanager.Job
-import org.thoughtcrime.securesms.jobs.PaymentLedgerUpdateJob
-import org.thoughtcrime.securesms.jobs.PaymentTransactionCheckJob
+import org.thoughtcrime.securesms.ryan.database.SignalDatabase
+import org.thoughtcrime.securesms.ryan.dependencies.AppDependencies
+import org.thoughtcrime.securesms.ryan.jobmanager.Job
+import org.thoughtcrime.securesms.ryan.jobs.PaymentLedgerUpdateJob
+import org.thoughtcrime.securesms.ryan.jobs.PaymentTransactionCheckJob
 
 /**
  * Migration to recheck incoming payments that may have been missed due to db race.

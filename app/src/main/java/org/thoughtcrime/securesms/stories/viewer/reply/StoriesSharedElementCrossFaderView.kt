@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.stories.viewer.reply
+package org.thoughtcrime.securesms.ryan.stories.viewer.reply
 
 import android.animation.FloatEvaluator
 import android.content.Context
@@ -13,12 +13,12 @@ import com.bumptech.glide.request.RequestListener
 import com.bumptech.glide.request.target.Target
 import com.google.android.material.card.MaterialCardView
 import org.signal.core.util.DimensionUnit
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.animation.transitions.CrossfaderTransition
-import org.thoughtcrime.securesms.blurhash.BlurHash
-import org.thoughtcrime.securesms.database.model.MmsMessageRecord
-import org.thoughtcrime.securesms.mms.DecryptableStreamUriLoader
-import org.thoughtcrime.securesms.stories.StoryTextPostModel
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.animation.transitions.CrossfaderTransition
+import org.thoughtcrime.securesms.ryan.blurhash.BlurHash
+import org.thoughtcrime.securesms.ryan.database.model.MmsMessageRecord
+import org.thoughtcrime.securesms.ryan.mms.DecryptableStreamUriLoader
+import org.thoughtcrime.securesms.ryan.stories.StoryTextPostModel
 import kotlin.reflect.KProperty
 
 class StoriesSharedElementCrossFaderView @JvmOverloads constructor(

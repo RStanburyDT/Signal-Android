@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.video.videoconverter;
+package org.thoughtcrime.securesms.ryan.video.videoconverter;
 
 import android.graphics.Bitmap;
 import android.media.MediaCodec;
@@ -10,7 +10,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.RequiresApi;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.video.interfaces.MediaInput;
+import org.thoughtcrime.securesms.ryan.video.interfaces.MediaInput;
 
 import java.nio.ByteBuffer;
 import java.nio.ByteOrder;

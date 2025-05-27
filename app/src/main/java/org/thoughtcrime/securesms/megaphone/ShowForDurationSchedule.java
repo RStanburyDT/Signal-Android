@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.megaphone;
+package org.thoughtcrime.securesms.ryan.megaphone;
 
 import java.util.concurrent.TimeUnit;
 

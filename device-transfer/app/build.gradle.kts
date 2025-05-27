@@ -7,7 +7,7 @@ android {
   namespace = "org.signal.devicetransfer.app"
 
   defaultConfig {
-    applicationId = "org.signal.devicetransfer.app"
+    applicationId = "org.signal.devicetransfer.app.ryan"
 
     ndk {
       abiFilters += setOf("armeabi-v7a", "arm64-v8a", "x86", "x86_64")

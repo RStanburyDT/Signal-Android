@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.profiles.manage;
+package org.thoughtcrime.securesms.ryan.profiles.manage;
 
 import android.os.Bundle;
 import android.text.Editable;
@@ -19,12 +19,12 @@ import androidx.navigation.Navigation;
 
 import org.signal.core.util.EditTextUtil;
 import org.signal.core.util.StringUtil;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.profiles.ProfileName;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.util.ViewUtil;
-import org.thoughtcrime.securesms.util.text.AfterTextChanged;
-import org.thoughtcrime.securesms.util.views.CircularProgressMaterialButton;
+import org.thoughtcrime.securesms.ryan.R;
+import org.thoughtcrime.securesms.ryan.profiles.ProfileName;
+import org.thoughtcrime.securesms.ryan.recipients.Recipient;
+import org.thoughtcrime.securesms.ryan.util.ViewUtil;
+import org.thoughtcrime.securesms.ryan.util.text.AfterTextChanged;
+import org.thoughtcrime.securesms.ryan.util.views.CircularProgressMaterialButton;
 
 /**
  * Simple fragment to edit your profile name.

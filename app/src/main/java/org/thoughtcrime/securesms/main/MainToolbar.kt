@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.main
+package org.thoughtcrime.securesms.ryan.main
 
 import androidx.annotation.DrawableRes
 import androidx.annotation.StringRes
@@ -73,12 +73,12 @@ import org.signal.core.ui.compose.Previews
 import org.signal.core.ui.compose.SignalPreview
 import org.signal.core.ui.compose.TextFields
 import org.signal.core.ui.compose.Tooltips
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.avatar.AvatarImage
-import org.thoughtcrime.securesms.calls.log.CallLogFilter
-import org.thoughtcrime.securesms.components.settings.app.subscription.BadgeImageSmall
-import org.thoughtcrime.securesms.conversationlist.model.ConversationFilter
-import org.thoughtcrime.securesms.recipients.Recipient
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.avatar.AvatarImage
+import org.thoughtcrime.securesms.ryan.calls.log.CallLogFilter
+import org.thoughtcrime.securesms.ryan.components.settings.app.subscription.BadgeImageSmall
+import org.thoughtcrime.securesms.ryan.conversationlist.model.ConversationFilter
+import org.thoughtcrime.securesms.ryan.recipients.Recipient
 
 interface MainToolbarCallback {
   fun onNewGroupClick()

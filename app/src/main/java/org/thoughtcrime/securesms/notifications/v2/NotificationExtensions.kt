@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.notifications.v2
+package org.thoughtcrime.securesms.ryan.notifications.v2
 
 import android.app.NotificationManager
 import android.content.Context
@@ -11,16 +11,16 @@ import com.bumptech.glide.Glide
 import com.bumptech.glide.load.MultiTransformation
 import com.bumptech.glide.load.engine.DiskCacheStrategy
 import com.bumptech.glide.load.resource.bitmap.CircleCrop
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.avatar.fallback.FallbackAvatar
-import org.thoughtcrime.securesms.avatar.fallback.FallbackAvatarDrawable
-import org.thoughtcrime.securesms.contacts.avatars.ContactPhoto
-import org.thoughtcrime.securesms.contacts.avatars.ProfileContactPhoto
-import org.thoughtcrime.securesms.conversation.colors.AvatarGradientColors
-import org.thoughtcrime.securesms.mms.DecryptableStreamUriLoader.DecryptableUri
-import org.thoughtcrime.securesms.notifications.NotificationIds
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.util.BitmapUtil
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.avatar.fallback.FallbackAvatar
+import org.thoughtcrime.securesms.ryan.avatar.fallback.FallbackAvatarDrawable
+import org.thoughtcrime.securesms.ryan.contacts.avatars.ContactPhoto
+import org.thoughtcrime.securesms.ryan.contacts.avatars.ProfileContactPhoto
+import org.thoughtcrime.securesms.ryan.conversation.colors.AvatarGradientColors
+import org.thoughtcrime.securesms.ryan.mms.DecryptableStreamUriLoader.DecryptableUri
+import org.thoughtcrime.securesms.ryan.notifications.NotificationIds
+import org.thoughtcrime.securesms.ryan.recipients.Recipient
+import org.thoughtcrime.securesms.ryan.util.BitmapUtil
 import java.util.concurrent.ExecutionException
 
 fun Drawable?.toLargeBitmap(context: Context): Bitmap? {

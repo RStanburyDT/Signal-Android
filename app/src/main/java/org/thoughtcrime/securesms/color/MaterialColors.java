@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.color;
+package org.thoughtcrime.securesms.ryan.color;
 
 import android.content.Context;
 

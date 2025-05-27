@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.profiles;
+package org.thoughtcrime.securesms.ryan.profiles;
 
 import android.os.Parcel;
 import android.os.Parcelable;
@@ -10,7 +10,7 @@ import androidx.annotation.VisibleForTesting;
 import com.annimon.stream.Stream;
 
 import org.signal.core.util.StringUtil;
-import org.thoughtcrime.securesms.util.cjkv.CJKVUtil;
+import org.thoughtcrime.securesms.ryan.util.cjkv.CJKVUtil;
 import org.whispersystems.signalservice.api.crypto.ProfileCipher;
 
 import java.util.Objects;

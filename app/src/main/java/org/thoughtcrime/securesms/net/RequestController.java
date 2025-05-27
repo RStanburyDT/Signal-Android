@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.net;
+package org.thoughtcrime.securesms.ryan.net;
 
 public interface RequestController {
 

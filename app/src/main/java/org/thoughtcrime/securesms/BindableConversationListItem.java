@@ -1,12 +1,12 @@
-package org.thoughtcrime.securesms;
+package org.thoughtcrime.securesms.ryan;
 
 import androidx.annotation.NonNull;
 import androidx.lifecycle.LifecycleOwner;
 
 import com.bumptech.glide.RequestManager;
 
-import org.thoughtcrime.securesms.conversationlist.model.ConversationSet;
-import org.thoughtcrime.securesms.database.model.ThreadRecord;
+import org.thoughtcrime.securesms.ryan.conversationlist.model.ConversationSet;
+import org.thoughtcrime.securesms.ryan.database.model.ThreadRecord;
 
 import java.util.Locale;
 import java.util.Set;

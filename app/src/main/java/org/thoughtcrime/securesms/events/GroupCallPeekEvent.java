@@ -1,9 +1,9 @@
-package org.thoughtcrime.securesms.events;
+package org.thoughtcrime.securesms.ryan.events;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import org.thoughtcrime.securesms.recipients.RecipientId;
+import org.thoughtcrime.securesms.ryan.recipients.RecipientId;
 
 public final class GroupCallPeekEvent {
   private final RecipientId groupRecipientId;

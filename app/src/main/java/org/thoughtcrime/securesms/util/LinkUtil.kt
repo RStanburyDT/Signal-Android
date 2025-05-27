@@ -1,7 +1,7 @@
-package org.thoughtcrime.securesms.util
+package org.thoughtcrime.securesms.ryan.util
 
 import okhttp3.HttpUrl.Companion.toHttpUrlOrNull
-import org.thoughtcrime.securesms.stickers.StickerUrl
+import org.thoughtcrime.securesms.ryan.stickers.StickerUrl
 import java.net.URI
 import java.net.URISyntaxException
 import java.util.Objects

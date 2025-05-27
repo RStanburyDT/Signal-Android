@@ -1,10 +1,10 @@
-package org.thoughtcrime.securesms.util.dynamiclanguage;
+package org.thoughtcrime.securesms.ryan.util.dynamiclanguage;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.core.os.LocaleListCompat;
 
-import org.thoughtcrime.securesms.BuildConfig;
+import org.thoughtcrime.securesms.ryan.BuildConfig;
 
 import java.util.Arrays;
 import java.util.Locale;

@@ -1,13 +1,13 @@
-package org.thoughtcrime.securesms.payments.backup.entry;
+package org.thoughtcrime.securesms.ryan.payments.backup.entry;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.ViewModel;
 
-import org.thoughtcrime.securesms.payments.Mnemonic;
-import org.thoughtcrime.securesms.util.SingleLiveEvent;
-import org.thoughtcrime.securesms.util.livedata.Store;
+import org.thoughtcrime.securesms.ryan.payments.Mnemonic;
+import org.thoughtcrime.securesms.ryan.util.SingleLiveEvent;
+import org.thoughtcrime.securesms.ryan.util.livedata.Store;
 import org.whispersystems.signalservice.api.payments.PaymentsConstants;
 
 public class PaymentsRecoveryEntryViewModel extends ViewModel {

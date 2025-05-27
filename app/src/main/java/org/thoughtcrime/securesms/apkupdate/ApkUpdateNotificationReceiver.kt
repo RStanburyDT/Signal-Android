@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.apkupdate
+package org.thoughtcrime.securesms.ryan.apkupdate
 
 import android.content.BroadcastReceiver
 import android.content.Context

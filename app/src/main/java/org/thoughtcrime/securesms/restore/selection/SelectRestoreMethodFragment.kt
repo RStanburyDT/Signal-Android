@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.restore.selection
+package org.thoughtcrime.securesms.ryan.restore.selection
 
 import androidx.compose.runtime.Composable
 import androidx.fragment.app.activityViewModels
@@ -14,14 +14,14 @@ import kotlinx.coroutines.isActive
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
 import org.signal.core.ui.compose.Dialogs
-import org.thoughtcrime.securesms.MainActivity
-import org.thoughtcrime.securesms.compose.ComposeFragment
-import org.thoughtcrime.securesms.registrationv3.data.QuickRegistrationRepository
-import org.thoughtcrime.securesms.registrationv3.ui.restore.RemoteRestoreActivity
-import org.thoughtcrime.securesms.registrationv3.ui.restore.RestoreMethod
-import org.thoughtcrime.securesms.registrationv3.ui.restore.SelectRestoreMethodScreen
-import org.thoughtcrime.securesms.restore.RestoreViewModel
-import org.thoughtcrime.securesms.util.navigation.safeNavigate
+import org.thoughtcrime.securesms.ryan.MainActivity
+import org.thoughtcrime.securesms.ryan.compose.ComposeFragment
+import org.thoughtcrime.securesms.ryan.registrationv3.data.QuickRegistrationRepository
+import org.thoughtcrime.securesms.ryan.registrationv3.ui.restore.RemoteRestoreActivity
+import org.thoughtcrime.securesms.ryan.registrationv3.ui.restore.RestoreMethod
+import org.thoughtcrime.securesms.ryan.registrationv3.ui.restore.SelectRestoreMethodScreen
+import org.thoughtcrime.securesms.ryan.restore.RestoreViewModel
+import org.thoughtcrime.securesms.ryan.util.navigation.safeNavigate
 import org.whispersystems.signalservice.api.provisioning.RestoreMethod as ApiRestoreMethod
 
 /**

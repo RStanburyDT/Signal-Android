@@ -1,7 +1,7 @@
-package org.thoughtcrime.securesms.jobmanager.persistence
+package org.thoughtcrime.securesms.ryan.jobmanager.persistence
 
 import androidx.annotation.WorkerThread
-import org.thoughtcrime.securesms.jobs.MinimalJobSpec
+import org.thoughtcrime.securesms.ryan.jobs.MinimalJobSpec
 import java.util.function.Predicate
 
 interface JobStorage {

@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.calls.links.create
+package org.thoughtcrime.securesms.ryan.calls.links.create
 
 import android.content.ActivityNotFoundException
 import android.content.Intent
@@ -46,21 +46,21 @@ import org.signal.core.ui.compose.SignalPreview
 import org.signal.core.util.concurrent.LifecycleDisposable
 import org.signal.core.util.logging.Log
 import org.signal.ringrtc.CallLinkState
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.calls.YouAreAlreadyInACallSnackbar.YouAreAlreadyInACallSnackbar
-import org.thoughtcrime.securesms.calls.links.CallLinks
-import org.thoughtcrime.securesms.calls.links.EditCallLinkNameDialogFragment
-import org.thoughtcrime.securesms.calls.links.SignalCallRow
-import org.thoughtcrime.securesms.compose.ComposeBottomSheetDialogFragment
-import org.thoughtcrime.securesms.database.CallLinkTable
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.service.webrtc.links.CallLinkRoomId
-import org.thoughtcrime.securesms.service.webrtc.links.CreateCallLinkResult
-import org.thoughtcrime.securesms.service.webrtc.links.SignalCallLinkState
-import org.thoughtcrime.securesms.service.webrtc.links.UpdateCallLinkResult
-import org.thoughtcrime.securesms.sharing.v2.ShareActivity
-import org.thoughtcrime.securesms.util.CommunicationActions
-import org.thoughtcrime.securesms.util.Util
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.calls.YouAreAlreadyInACallSnackbar.YouAreAlreadyInACallSnackbar
+import org.thoughtcrime.securesms.ryan.calls.links.CallLinks
+import org.thoughtcrime.securesms.ryan.calls.links.EditCallLinkNameDialogFragment
+import org.thoughtcrime.securesms.ryan.calls.links.SignalCallRow
+import org.thoughtcrime.securesms.ryan.compose.ComposeBottomSheetDialogFragment
+import org.thoughtcrime.securesms.ryan.database.CallLinkTable
+import org.thoughtcrime.securesms.ryan.recipients.RecipientId
+import org.thoughtcrime.securesms.ryan.service.webrtc.links.CallLinkRoomId
+import org.thoughtcrime.securesms.ryan.service.webrtc.links.CreateCallLinkResult
+import org.thoughtcrime.securesms.ryan.service.webrtc.links.SignalCallLinkState
+import org.thoughtcrime.securesms.ryan.service.webrtc.links.UpdateCallLinkResult
+import org.thoughtcrime.securesms.ryan.sharing.v2.ShareActivity
+import org.thoughtcrime.securesms.ryan.util.CommunicationActions
+import org.thoughtcrime.securesms.ryan.util.Util
 import java.time.Instant
 import org.signal.core.ui.R as CoreUiR
 

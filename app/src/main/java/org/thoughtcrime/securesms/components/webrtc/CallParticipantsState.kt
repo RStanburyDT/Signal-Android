@@ -1,23 +1,23 @@
-package org.thoughtcrime.securesms.components.webrtc
+package org.thoughtcrime.securesms.ryan.components.webrtc
 
 import android.content.Context
 import androidx.annotation.PluralsRes
 import androidx.annotation.StringRes
 import com.annimon.stream.OptionalLong
 import kotlinx.collections.immutable.toImmutableList
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.webrtc.WebRtcControls.FoldableState
-import org.thoughtcrime.securesms.events.CallParticipant
-import org.thoughtcrime.securesms.events.CallParticipant.Companion.HAND_LOWERED
-import org.thoughtcrime.securesms.events.CallParticipant.Companion.createLocal
-import org.thoughtcrime.securesms.events.GroupCallRaiseHandEvent
-import org.thoughtcrime.securesms.events.GroupCallReactionEvent
-import org.thoughtcrime.securesms.events.WebRtcViewModel
-import org.thoughtcrime.securesms.groups.ui.GroupMemberEntry
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.ringrtc.CameraState
-import org.thoughtcrime.securesms.service.webrtc.collections.ParticipantCollection
-import org.thoughtcrime.securesms.service.webrtc.state.WebRtcEphemeralState
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.components.webrtc.WebRtcControls.FoldableState
+import org.thoughtcrime.securesms.ryan.events.CallParticipant
+import org.thoughtcrime.securesms.ryan.events.CallParticipant.Companion.HAND_LOWERED
+import org.thoughtcrime.securesms.ryan.events.CallParticipant.Companion.createLocal
+import org.thoughtcrime.securesms.ryan.events.GroupCallRaiseHandEvent
+import org.thoughtcrime.securesms.ryan.events.GroupCallReactionEvent
+import org.thoughtcrime.securesms.ryan.events.WebRtcViewModel
+import org.thoughtcrime.securesms.ryan.groups.ui.GroupMemberEntry
+import org.thoughtcrime.securesms.ryan.recipients.Recipient
+import org.thoughtcrime.securesms.ryan.ringrtc.CameraState
+import org.thoughtcrime.securesms.ryan.service.webrtc.collections.ParticipantCollection
+import org.thoughtcrime.securesms.ryan.service.webrtc.state.WebRtcEphemeralState
 import java.util.concurrent.TimeUnit
 
 /**

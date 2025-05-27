@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.database
+package org.thoughtcrime.securesms.ryan.database
 
 import android.annotation.SuppressLint
 import android.app.Application
@@ -22,10 +22,10 @@ import org.signal.core.util.requireNonNullString
 import org.signal.core.util.select
 import org.signal.core.util.update
 import org.signal.core.util.withinTransaction
-import org.thoughtcrime.securesms.crash.CrashConfig
-import org.thoughtcrime.securesms.crypto.DatabaseSecret
-import org.thoughtcrime.securesms.crypto.DatabaseSecretProvider
-import org.thoughtcrime.securesms.database.model.LogEntry
+import org.thoughtcrime.securesms.ryan.crash.CrashConfig
+import org.thoughtcrime.securesms.ryan.crypto.DatabaseSecret
+import org.thoughtcrime.securesms.ryan.crypto.DatabaseSecretProvider
+import org.thoughtcrime.securesms.ryan.database.model.LogEntry
 import java.io.Closeable
 import kotlin.math.abs
 import kotlin.time.Duration.Companion.days

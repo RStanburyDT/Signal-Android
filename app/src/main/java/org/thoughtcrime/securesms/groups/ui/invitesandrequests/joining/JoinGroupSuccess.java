@@ -1,6 +1,6 @@
-package org.thoughtcrime.securesms.groups.ui.invitesandrequests.joining;
+package org.thoughtcrime.securesms.ryan.groups.ui.invitesandrequests.joining;
 
-import org.thoughtcrime.securesms.recipients.Recipient;
+import org.thoughtcrime.securesms.ryan.recipients.Recipient;
 
 final class JoinGroupSuccess {
   private final Recipient groupRecipient;

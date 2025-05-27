@@ -6,6 +6,6 @@
     <changeImageTransform />
     <changeBounds />
 
-    <transition class="org.thoughtcrime.securesms.animation.transitions.SquareToCircleImageViewTransition" />
+    <transition class="org.thoughtcrime.securesms.ryan.animation.transitions.SquareToCircleImageViewTransition" />
 
 </transitionSet>

@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.avatar.fallback
+package org.thoughtcrime.securesms.ryan.avatar.fallback
 
 import android.content.Context
 import android.content.res.ColorStateList
@@ -17,10 +17,10 @@ import com.google.android.material.shape.MaterialShapeDrawable
 import com.google.android.material.shape.RelativeCornerSize
 import com.google.android.material.shape.RoundedCornerTreatment
 import com.google.android.material.shape.ShapeAppearanceModel
-import org.thoughtcrime.securesms.avatar.Avatar
-import org.thoughtcrime.securesms.avatar.Avatars
-import org.thoughtcrime.securesms.avatar.TextAvatarDrawable
-import org.thoughtcrime.securesms.conversation.colors.AvatarColorPair
+import org.thoughtcrime.securesms.ryan.avatar.Avatar
+import org.thoughtcrime.securesms.ryan.avatar.Avatars
+import org.thoughtcrime.securesms.ryan.avatar.TextAvatarDrawable
+import org.thoughtcrime.securesms.ryan.conversation.colors.AvatarColorPair
 
 class FallbackAvatarDrawable(
   private val context: Context,

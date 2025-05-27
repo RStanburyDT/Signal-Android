@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.database
+package org.thoughtcrime.securesms.ryan.database
 
 import android.content.Context
 import android.database.Cursor
@@ -23,6 +23,18 @@ import org.signal.core.util.select
 import org.signal.core.util.toInt
 import org.signal.core.util.update
 import org.signal.core.util.withinTransaction
+<<<<<<< HEAD
+import org.thoughtcrime.securesms.ryan.crypto.AttachmentSecret
+import org.thoughtcrime.securesms.ryan.crypto.ModernDecryptingPartInputStream
+import org.thoughtcrime.securesms.ryan.crypto.ModernEncryptingPartOutputStream
+import org.thoughtcrime.securesms.ryan.database.model.IncomingSticker
+import org.thoughtcrime.securesms.ryan.database.model.StickerPackRecord
+import org.thoughtcrime.securesms.ryan.database.model.StickerRecord
+import org.thoughtcrime.securesms.ryan.mms.DecryptableStreamUriLoader.DecryptableUri
+import org.thoughtcrime.securesms.ryan.stickers.BlessedPacks
+import org.thoughtcrime.securesms.ryan.stickers.StickerPackInstallEvent
+import org.thoughtcrime.securesms.ryan.util.MediaUtil
+=======
 import org.thoughtcrime.securesms.crypto.AttachmentSecret
 import org.thoughtcrime.securesms.crypto.ModernDecryptingPartInputStream
 import org.thoughtcrime.securesms.crypto.ModernEncryptingPartOutputStream
@@ -34,6 +46,7 @@ import org.thoughtcrime.securesms.mms.DecryptableStreamUriLoader.DecryptableUri
 import org.thoughtcrime.securesms.stickers.BlessedPacks
 import org.thoughtcrime.securesms.stickers.StickerPackInstallEvent
 import org.thoughtcrime.securesms.util.MediaUtil
+>>>>>>> 23669c3c372284d42db486a218d9f29bef247abf
 import java.io.Closeable
 import java.io.File
 import java.io.IOException

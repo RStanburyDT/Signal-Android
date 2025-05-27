@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.conversation
+package org.thoughtcrime.securesms.ryan.conversation
 
 import android.graphics.Canvas
 import android.graphics.Color
@@ -7,7 +7,7 @@ import android.graphics.Region
 import android.graphics.drawable.ColorDrawable
 import android.graphics.drawable.Drawable
 import android.graphics.drawable.LayerDrawable
-import org.thoughtcrime.securesms.util.Projection
+import org.thoughtcrime.securesms.ryan.util.Projection
 
 /**
  * Drawable which clips out the given projection

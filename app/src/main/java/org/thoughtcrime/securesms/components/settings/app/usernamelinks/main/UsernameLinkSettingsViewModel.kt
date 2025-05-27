@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.settings.app.usernamelinks.main
+package org.thoughtcrime.securesms.ryan.components.settings.app.usernamelinks.main
 
 import android.content.Context
 import android.graphics.Bitmap
@@ -35,16 +35,16 @@ import io.reactivex.rxjava3.kotlin.subscribeBy
 import io.reactivex.rxjava3.schedulers.Schedulers
 import io.reactivex.rxjava3.subjects.BehaviorSubject
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.settings.app.usernamelinks.QrCodeData
-import org.thoughtcrime.securesms.components.settings.app.usernamelinks.QrCodeState
-import org.thoughtcrime.securesms.components.settings.app.usernamelinks.drawQr
-import org.thoughtcrime.securesms.components.settings.app.usernamelinks.main.UsernameLinkSettingsState.ActiveTab
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.profiles.manage.UsernameRepository
-import org.thoughtcrime.securesms.profiles.manage.UsernameRepository.toLink
-import org.thoughtcrime.securesms.util.NetworkUtil
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.components.settings.app.usernamelinks.QrCodeData
+import org.thoughtcrime.securesms.ryan.components.settings.app.usernamelinks.QrCodeState
+import org.thoughtcrime.securesms.ryan.components.settings.app.usernamelinks.drawQr
+import org.thoughtcrime.securesms.ryan.components.settings.app.usernamelinks.main.UsernameLinkSettingsState.ActiveTab
+import org.thoughtcrime.securesms.ryan.dependencies.AppDependencies
+import org.thoughtcrime.securesms.ryan.keyvalue.SignalStore
+import org.thoughtcrime.securesms.ryan.profiles.manage.UsernameRepository
+import org.thoughtcrime.securesms.ryan.profiles.manage.UsernameRepository.toLink
+import org.thoughtcrime.securesms.ryan.util.NetworkUtil
 import org.whispersystems.signalservice.api.push.UsernameLinkComponents
 import java.util.Optional
 import java.util.UUID

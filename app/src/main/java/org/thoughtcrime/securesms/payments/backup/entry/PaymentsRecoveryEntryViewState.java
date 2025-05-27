@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.payments.backup.entry;
+package org.thoughtcrime.securesms.ryan.payments.backup.entry;
 
 import androidx.annotation.Nullable;
 

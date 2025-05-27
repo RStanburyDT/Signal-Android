@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.thoughtcrime.securesms.conversationlist;
+package org.thoughtcrime.securesms.ryan.conversationlist;
 
 import android.content.Context;
 import android.graphics.Rect;
@@ -51,44 +51,44 @@ import com.makeramen.roundedimageview.RoundedDrawable;
 import org.signal.core.util.DimensionUnit;
 import org.signal.core.util.StringUtil;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.BindableConversationListItem;
-import org.thoughtcrime.securesms.OverlayTransformation;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.Unbindable;
-import org.thoughtcrime.securesms.badges.BadgeImageView;
-import org.thoughtcrime.securesms.components.AlertView;
-import org.thoughtcrime.securesms.components.AvatarImageView;
-import org.thoughtcrime.securesms.components.DeliveryStatusView;
-import org.thoughtcrime.securesms.components.FromTextView;
-import org.thoughtcrime.securesms.components.TypingIndicatorView;
-import org.thoughtcrime.securesms.components.emoji.EmojiStrings;
-import org.thoughtcrime.securesms.components.emoji.EmojiTextView;
-import org.thoughtcrime.securesms.contacts.paged.ContactSearchData;
-import org.thoughtcrime.securesms.conversation.MessageStyler;
-import org.thoughtcrime.securesms.conversationlist.model.Conversation;
-import org.thoughtcrime.securesms.conversationlist.model.ConversationSet;
-import org.thoughtcrime.securesms.database.MessageTypes;
-import org.thoughtcrime.securesms.database.ThreadTable;
-import org.thoughtcrime.securesms.database.model.LiveUpdateMessage;
-import org.thoughtcrime.securesms.database.model.MessageRecord;
-import org.thoughtcrime.securesms.database.model.ThreadRecord;
-import org.thoughtcrime.securesms.database.model.UpdateDescription;
-import org.thoughtcrime.securesms.fonts.SignalSymbols.Glyph;
-import org.thoughtcrime.securesms.glide.GlideLiveDataTarget;
-import org.thoughtcrime.securesms.mms.DecryptableStreamUriLoader;
-import org.thoughtcrime.securesms.recipients.LiveRecipient;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.recipients.RecipientId;
-import org.thoughtcrime.securesms.search.MessageResult;
-import org.thoughtcrime.securesms.util.ContextUtil;
-import org.thoughtcrime.securesms.util.DateUtils;
-import org.thoughtcrime.securesms.util.ExpirationUtil;
-import org.thoughtcrime.securesms.util.MediaUtil;
-import org.thoughtcrime.securesms.util.SearchUtil;
-import org.thoughtcrime.securesms.util.SignalE164Util;
-import org.thoughtcrime.securesms.util.SpanUtil;
-import org.thoughtcrime.securesms.util.Util;
-import org.thoughtcrime.securesms.util.livedata.LiveDataUtil;
+import org.thoughtcrime.securesms.ryan.BindableConversationListItem;
+import org.thoughtcrime.securesms.ryan.OverlayTransformation;
+import org.thoughtcrime.securesms.ryan.R;
+import org.thoughtcrime.securesms.ryan.Unbindable;
+import org.thoughtcrime.securesms.ryan.badges.BadgeImageView;
+import org.thoughtcrime.securesms.ryan.components.AlertView;
+import org.thoughtcrime.securesms.ryan.components.AvatarImageView;
+import org.thoughtcrime.securesms.ryan.components.DeliveryStatusView;
+import org.thoughtcrime.securesms.ryan.components.FromTextView;
+import org.thoughtcrime.securesms.ryan.components.TypingIndicatorView;
+import org.thoughtcrime.securesms.ryan.components.emoji.EmojiStrings;
+import org.thoughtcrime.securesms.ryan.components.emoji.EmojiTextView;
+import org.thoughtcrime.securesms.ryan.contacts.paged.ContactSearchData;
+import org.thoughtcrime.securesms.ryan.conversation.MessageStyler;
+import org.thoughtcrime.securesms.ryan.conversationlist.model.Conversation;
+import org.thoughtcrime.securesms.ryan.conversationlist.model.ConversationSet;
+import org.thoughtcrime.securesms.ryan.database.MessageTypes;
+import org.thoughtcrime.securesms.ryan.database.ThreadTable;
+import org.thoughtcrime.securesms.ryan.database.model.LiveUpdateMessage;
+import org.thoughtcrime.securesms.ryan.database.model.MessageRecord;
+import org.thoughtcrime.securesms.ryan.database.model.ThreadRecord;
+import org.thoughtcrime.securesms.ryan.database.model.UpdateDescription;
+import org.thoughtcrime.securesms.ryan.fonts.SignalSymbols.Glyph;
+import org.thoughtcrime.securesms.ryan.glide.GlideLiveDataTarget;
+import org.thoughtcrime.securesms.ryan.mms.DecryptableStreamUriLoader;
+import org.thoughtcrime.securesms.ryan.recipients.LiveRecipient;
+import org.thoughtcrime.securesms.ryan.recipients.Recipient;
+import org.thoughtcrime.securesms.ryan.recipients.RecipientId;
+import org.thoughtcrime.securesms.ryan.search.MessageResult;
+import org.thoughtcrime.securesms.ryan.util.ContextUtil;
+import org.thoughtcrime.securesms.ryan.util.DateUtils;
+import org.thoughtcrime.securesms.ryan.util.ExpirationUtil;
+import org.thoughtcrime.securesms.ryan.util.MediaUtil;
+import org.thoughtcrime.securesms.ryan.util.SearchUtil;
+import org.thoughtcrime.securesms.ryan.util.SignalE164Util;
+import org.thoughtcrime.securesms.ryan.util.SpanUtil;
+import org.thoughtcrime.securesms.ryan.util.Util;
+import org.thoughtcrime.securesms.ryan.util.livedata.LiveDataUtil;
 
 import java.util.List;
 import java.util.Locale;
@@ -100,7 +100,7 @@ import io.reactivex.rxjava3.core.Single;
 import io.reactivex.rxjava3.disposables.Disposable;
 import io.reactivex.rxjava3.schedulers.Schedulers;
 
-import static org.thoughtcrime.securesms.database.model.LiveUpdateMessage.recipientToStringAsync;
+import static org.thoughtcrime.securesms.ryan.database.model.LiveUpdateMessage.recipientToStringAsync;
 
 public final class ConversationListItem extends ConstraintLayout implements BindableConversationListItem, Unbindable {
   @SuppressWarnings("unused")

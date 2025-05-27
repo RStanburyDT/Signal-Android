@@ -1,9 +1,9 @@
-package org.thoughtcrime.securesms.messages.protocol
+package org.thoughtcrime.securesms.ryan.messages.protocol
 
 import org.signal.libsignal.protocol.InvalidKeyIdException
 import org.signal.libsignal.protocol.state.SignedPreKeyRecord
 import org.signal.libsignal.protocol.state.SignedPreKeyStore
-import org.thoughtcrime.securesms.database.SignalDatabase
+import org.thoughtcrime.securesms.ryan.database.SignalDatabase
 import org.whispersystems.signalservice.api.SignalServiceAccountDataStore
 import org.whispersystems.signalservice.api.push.ServiceId
 

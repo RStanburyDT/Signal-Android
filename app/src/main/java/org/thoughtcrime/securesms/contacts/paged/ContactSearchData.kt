@@ -1,14 +1,14 @@
-package org.thoughtcrime.securesms.contacts.paged
+package org.thoughtcrime.securesms.ryan.contacts.paged
 
 import android.os.Bundle
 import androidx.annotation.VisibleForTesting
-import org.thoughtcrime.securesms.contacts.HeaderAction
-import org.thoughtcrime.securesms.database.model.DistributionListPrivacyMode
-import org.thoughtcrime.securesms.database.model.GroupRecord
-import org.thoughtcrime.securesms.database.model.ThreadRecord
-import org.thoughtcrime.securesms.groups.GroupsInCommonSummary
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.search.MessageResult
+import org.thoughtcrime.securesms.ryan.contacts.HeaderAction
+import org.thoughtcrime.securesms.ryan.database.model.DistributionListPrivacyMode
+import org.thoughtcrime.securesms.ryan.database.model.GroupRecord
+import org.thoughtcrime.securesms.ryan.database.model.ThreadRecord
+import org.thoughtcrime.securesms.ryan.groups.GroupsInCommonSummary
+import org.thoughtcrime.securesms.ryan.recipients.Recipient
+import org.thoughtcrime.securesms.ryan.search.MessageResult
 
 /**
  * Represents the data backed by a ContactSearchKey

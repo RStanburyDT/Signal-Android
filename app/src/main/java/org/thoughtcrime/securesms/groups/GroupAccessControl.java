@@ -1,8 +1,8 @@
-package org.thoughtcrime.securesms.groups;
+package org.thoughtcrime.securesms.ryan.groups;
 
 import androidx.annotation.StringRes;
 
-import org.thoughtcrime.securesms.R;
+import org.thoughtcrime.securesms.ryan.R;
 
 public enum GroupAccessControl {
   ALL_MEMBERS(R.string.GroupManagement_access_level_all_members),

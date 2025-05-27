@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.ringrtc;
+package org.thoughtcrime.securesms.ryan.ringrtc;
 
 import android.os.Parcel;
 import android.os.Parcelable;

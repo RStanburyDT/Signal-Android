@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.groups.v2;
+package org.thoughtcrime.securesms.ryan.groups.v2;
 
 import androidx.annotation.NonNull;
 

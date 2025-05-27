@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.service.webrtc;
+package org.thoughtcrime.securesms.ryan.service.webrtc;
 
 import android.content.Context;
 import android.net.Uri;
@@ -9,17 +9,17 @@ import androidx.annotation.Nullable;
 import org.signal.ringrtc.CallId;
 import org.signal.ringrtc.CallManager;
 import org.signal.ringrtc.GroupCall;
-import org.thoughtcrime.securesms.database.CallTable;
-import org.thoughtcrime.securesms.groups.GroupId;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.recipients.RecipientId;
-import org.thoughtcrime.securesms.ringrtc.CameraEventListener;
-import org.thoughtcrime.securesms.ringrtc.RemotePeer;
-import org.thoughtcrime.securesms.service.webrtc.state.WebRtcServiceState;
-import org.thoughtcrime.securesms.util.AppForegroundObserver;
-import org.thoughtcrime.securesms.webrtc.audio.AudioManagerCommand;
-import org.thoughtcrime.securesms.webrtc.audio.SignalAudioManager;
-import org.thoughtcrime.securesms.webrtc.locks.LockManager;
+import org.thoughtcrime.securesms.ryan.database.CallTable;
+import org.thoughtcrime.securesms.ryan.groups.GroupId;
+import org.thoughtcrime.securesms.ryan.recipients.Recipient;
+import org.thoughtcrime.securesms.ryan.recipients.RecipientId;
+import org.thoughtcrime.securesms.ryan.ringrtc.CameraEventListener;
+import org.thoughtcrime.securesms.ryan.ringrtc.RemotePeer;
+import org.thoughtcrime.securesms.ryan.service.webrtc.state.WebRtcServiceState;
+import org.thoughtcrime.securesms.ryan.util.AppForegroundObserver;
+import org.thoughtcrime.securesms.ryan.webrtc.audio.AudioManagerCommand;
+import org.thoughtcrime.securesms.ryan.webrtc.audio.SignalAudioManager;
+import org.thoughtcrime.securesms.ryan.webrtc.locks.LockManager;
 import org.whispersystems.signalservice.api.messages.calls.SignalServiceCallMessage;
 
 import java.util.Collection;

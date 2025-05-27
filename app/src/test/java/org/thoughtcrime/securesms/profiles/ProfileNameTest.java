@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.profiles;
+package org.thoughtcrime.securesms.ryan.profiles;
 
 import android.app.Application;
 

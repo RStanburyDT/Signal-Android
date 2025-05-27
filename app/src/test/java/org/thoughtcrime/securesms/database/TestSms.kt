@@ -1,11 +1,11 @@
-package org.thoughtcrime.securesms.database
+package org.thoughtcrime.securesms.ryan.database
 
 import android.content.ContentValues
 import androidx.sqlite.db.SupportSQLiteDatabase
 import org.signal.core.util.orNull
-import org.thoughtcrime.securesms.groups.GroupId
-import org.thoughtcrime.securesms.mms.IncomingMessage
-import org.thoughtcrime.securesms.recipients.RecipientId
+import org.thoughtcrime.securesms.ryan.groups.GroupId
+import org.thoughtcrime.securesms.ryan.mms.IncomingMessage
+import org.thoughtcrime.securesms.ryan.recipients.RecipientId
 import java.util.Optional
 import java.util.UUID
 

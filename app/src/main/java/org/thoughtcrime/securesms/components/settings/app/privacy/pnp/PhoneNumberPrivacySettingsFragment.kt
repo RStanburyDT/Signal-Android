@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.settings.app.privacy.pnp
+package org.thoughtcrime.securesms.ryan.components.settings.app.privacy.pnp
 
 import android.content.res.Configuration
 import android.os.Bundle
@@ -31,9 +31,9 @@ import org.signal.core.ui.compose.Rows
 import org.signal.core.ui.compose.Scaffolds
 import org.signal.core.ui.compose.Texts
 import org.signal.core.ui.compose.theme.SignalTheme
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.compose.ComposeFragment
-import org.thoughtcrime.securesms.compose.StatusBarColorNestedScrollConnection
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.compose.ComposeFragment
+import org.thoughtcrime.securesms.ryan.compose.StatusBarColorNestedScrollConnection
 import org.signal.core.ui.R as CoreUiR
 
 class PhoneNumberPrivacySettingsFragment : ComposeFragment() {

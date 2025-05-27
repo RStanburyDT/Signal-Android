@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.database;
+package org.thoughtcrime.securesms.ryan.database;
 
 import android.content.ContentValues;
 import android.content.Context;
@@ -9,9 +9,9 @@ import androidx.annotation.NonNull;
 import net.zetetic.database.sqlcipher.SQLiteDatabase;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.database.model.PendingRetryReceiptModel;
-import org.thoughtcrime.securesms.dependencies.AppDependencies;
-import org.thoughtcrime.securesms.recipients.RecipientId;
+import org.thoughtcrime.securesms.ryan.database.model.PendingRetryReceiptModel;
+import org.thoughtcrime.securesms.ryan.dependencies.AppDependencies;
+import org.thoughtcrime.securesms.ryan.recipients.RecipientId;
 import org.signal.core.util.CursorUtil;
 import org.signal.core.util.SqlUtil;
 

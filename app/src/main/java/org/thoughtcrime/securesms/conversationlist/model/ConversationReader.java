@@ -1,13 +1,13 @@
-package org.thoughtcrime.securesms.conversationlist.model;
+package org.thoughtcrime.securesms.ryan.conversationlist.model;
 
 import android.database.Cursor;
 
 import androidx.annotation.NonNull;
 
-import org.thoughtcrime.securesms.database.ThreadTable;
-import org.thoughtcrime.securesms.database.model.ThreadRecord;
-import org.thoughtcrime.securesms.dependencies.AppDependencies;
-import org.thoughtcrime.securesms.recipients.Recipient;
+import org.thoughtcrime.securesms.ryan.database.ThreadTable;
+import org.thoughtcrime.securesms.ryan.database.model.ThreadRecord;
+import org.thoughtcrime.securesms.ryan.dependencies.AppDependencies;
+import org.thoughtcrime.securesms.ryan.recipients.Recipient;
 import org.signal.core.util.CursorUtil;
 
 public class ConversationReader extends ThreadTable.StaticReader {

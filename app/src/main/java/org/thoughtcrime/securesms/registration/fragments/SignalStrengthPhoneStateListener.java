@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.registration.fragments;
+package org.thoughtcrime.securesms.ryan.registration.fragments;
 
 import android.content.Context;
 import android.os.Build;
@@ -16,8 +16,8 @@ import androidx.lifecycle.DefaultLifecycleObserver;
 import androidx.lifecycle.LifecycleOwner;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.dependencies.AppDependencies;
-import org.thoughtcrime.securesms.util.Debouncer;
+import org.thoughtcrime.securesms.ryan.dependencies.AppDependencies;
+import org.thoughtcrime.securesms.ryan.util.Debouncer;
 
 // TODO [nicholas]: move to v2 package and make package-private. convert to Kotlin
 public final class SignalStrengthPhoneStateListener extends PhoneStateListener

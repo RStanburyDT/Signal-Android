@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.sharing;
+package org.thoughtcrime.securesms.ryan.sharing;
 
 import android.net.Uri;
 import android.os.Parcel;
@@ -12,17 +12,17 @@ import com.annimon.stream.Stream;
 
 import org.signal.core.util.BreakIteratorCompat;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.contacts.paged.ContactSearchKey;
-import org.thoughtcrime.securesms.contactshare.Contact;
-import org.thoughtcrime.securesms.database.model.Mention;
-import org.thoughtcrime.securesms.database.model.databaseprotos.BodyRangeList;
-import org.thoughtcrime.securesms.linkpreview.LinkPreview;
-import org.thoughtcrime.securesms.mediasend.Media;
-import org.thoughtcrime.securesms.stickers.StickerLocator;
-import org.thoughtcrime.securesms.stories.Stories;
-import org.thoughtcrime.securesms.util.MediaUtil;
-import org.thoughtcrime.securesms.util.ParcelUtil;
-import org.thoughtcrime.securesms.util.Util;
+import org.thoughtcrime.securesms.ryan.contacts.paged.ContactSearchKey;
+import org.thoughtcrime.securesms.ryan.contactshare.Contact;
+import org.thoughtcrime.securesms.ryan.database.model.Mention;
+import org.thoughtcrime.securesms.ryan.database.model.databaseprotos.BodyRangeList;
+import org.thoughtcrime.securesms.ryan.linkpreview.LinkPreview;
+import org.thoughtcrime.securesms.ryan.mediasend.Media;
+import org.thoughtcrime.securesms.ryan.stickers.StickerLocator;
+import org.thoughtcrime.securesms.ryan.stories.Stories;
+import org.thoughtcrime.securesms.ryan.util.MediaUtil;
+import org.thoughtcrime.securesms.ryan.util.ParcelUtil;
+import org.thoughtcrime.securesms.ryan.util.Util;
 
 import java.io.IOException;
 import java.util.ArrayList;

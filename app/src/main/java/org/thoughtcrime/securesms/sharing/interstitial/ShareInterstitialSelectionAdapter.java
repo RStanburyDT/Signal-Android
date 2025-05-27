@@ -1,8 +1,8 @@
-package org.thoughtcrime.securesms.sharing.interstitial;
+package org.thoughtcrime.securesms.ryan.sharing.interstitial;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingAdapter;
-import org.thoughtcrime.securesms.util.viewholders.RecipientViewHolder;
+import org.thoughtcrime.securesms.ryan.R;
+import org.thoughtcrime.securesms.ryan.util.adapter.mapping.MappingAdapter;
+import org.thoughtcrime.securesms.ryan.util.viewholders.RecipientViewHolder;
 
 class ShareInterstitialSelectionAdapter extends MappingAdapter {
   ShareInterstitialSelectionAdapter() {

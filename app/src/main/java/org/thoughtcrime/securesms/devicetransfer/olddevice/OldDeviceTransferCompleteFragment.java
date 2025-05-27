@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.devicetransfer.olddevice;
+package org.thoughtcrime.securesms.ryan.devicetransfer.olddevice;
 
 import android.os.Bundle;
 import android.view.View;
@@ -7,8 +7,8 @@ import androidx.activity.OnBackPressedCallback;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import org.thoughtcrime.securesms.LoggingFragment;
-import org.thoughtcrime.securesms.R;
+import org.thoughtcrime.securesms.ryan.LoggingFragment;
+import org.thoughtcrime.securesms.ryan.R;
 
 /**
  * Shown after the old device successfully completes sending a backup to the new device.

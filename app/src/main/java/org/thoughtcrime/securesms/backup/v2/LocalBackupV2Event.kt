@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.backup.v2
+package org.thoughtcrime.securesms.ryan.backup.v2
 
 class LocalBackupV2Event(val type: Type, val count: Long = 0, val estimatedTotalCount: Long = 0) {
   enum class Type {

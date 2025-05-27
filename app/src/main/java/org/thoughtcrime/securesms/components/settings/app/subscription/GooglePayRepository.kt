@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.settings.app.subscription
+package org.thoughtcrime.securesms.ryan.components.settings.app.subscription
 
 import android.app.Activity
 import android.content.Intent
@@ -12,7 +12,7 @@ import org.signal.core.util.logging.Log
 import org.signal.core.util.money.FiatMoney
 import org.signal.donations.GooglePayApi
 import org.signal.donations.StripeApi
-import org.thoughtcrime.securesms.util.Environment
+import org.thoughtcrime.securesms.ryan.util.Environment
 
 /**
  * Extraction of components that only deal with GooglePay from StripeRepository

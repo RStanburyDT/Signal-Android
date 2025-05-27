@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.messagedetails
+package org.thoughtcrime.securesms.ryan.messagedetails
 
 import android.content.Context
 import android.widget.Toast
@@ -32,14 +32,14 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.core.os.bundleOf
 import androidx.fragment.app.FragmentActivity
-import org.thoughtcrime.securesms.compose.ComposeFullScreenDialogFragment
-import org.thoughtcrime.securesms.database.model.MessageRecord
-import org.thoughtcrime.securesms.messagedetails.InternalMessageDetailsViewModel.AttachmentInfo
-import org.thoughtcrime.securesms.messagedetails.InternalMessageDetailsViewModel.ViewState
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.recipients.ui.bottomsheet.RecipientBottomSheetDialogFragment
-import org.thoughtcrime.securesms.util.Util
-import org.thoughtcrime.securesms.util.viewModel
+import org.thoughtcrime.securesms.ryan.compose.ComposeFullScreenDialogFragment
+import org.thoughtcrime.securesms.ryan.database.model.MessageRecord
+import org.thoughtcrime.securesms.ryan.messagedetails.InternalMessageDetailsViewModel.AttachmentInfo
+import org.thoughtcrime.securesms.ryan.messagedetails.InternalMessageDetailsViewModel.ViewState
+import org.thoughtcrime.securesms.ryan.recipients.RecipientId
+import org.thoughtcrime.securesms.ryan.recipients.ui.bottomsheet.RecipientBottomSheetDialogFragment
+import org.thoughtcrime.securesms.ryan.util.Util
+import org.thoughtcrime.securesms.ryan.util.viewModel
 
 class InternalMessageDetailsFragment : ComposeFullScreenDialogFragment() {
   companion object {

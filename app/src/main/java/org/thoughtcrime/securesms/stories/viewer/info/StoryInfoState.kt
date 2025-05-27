@@ -1,7 +1,7 @@
-package org.thoughtcrime.securesms.stories.viewer.info
+package org.thoughtcrime.securesms.ryan.stories.viewer.info
 
-import org.thoughtcrime.securesms.database.model.MmsMessageRecord
-import org.thoughtcrime.securesms.messagedetails.MessageDetails
+import org.thoughtcrime.securesms.ryan.database.model.MmsMessageRecord
+import org.thoughtcrime.securesms.ryan.messagedetails.MessageDetails
 
 /**
  * Contains the needed information to render the story info sheet.

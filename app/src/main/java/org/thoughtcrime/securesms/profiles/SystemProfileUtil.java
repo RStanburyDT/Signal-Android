@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.profiles;
+package org.thoughtcrime.securesms.ryan.profiles;
 
 
 import android.accounts.Account;
@@ -17,9 +17,9 @@ import androidx.annotation.Nullable;
 import org.signal.core.util.concurrent.ListenableFuture;
 import org.signal.core.util.concurrent.SettableFuture;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.mms.MediaConstraints;
-import org.thoughtcrime.securesms.util.BitmapDecodingException;
-import org.thoughtcrime.securesms.util.BitmapUtil;
+import org.thoughtcrime.securesms.ryan.mms.MediaConstraints;
+import org.thoughtcrime.securesms.ryan.util.BitmapDecodingException;
+import org.thoughtcrime.securesms.ryan.util.BitmapUtil;
 
 public class SystemProfileUtil {
 

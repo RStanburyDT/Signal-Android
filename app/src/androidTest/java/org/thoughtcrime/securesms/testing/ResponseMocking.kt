@@ -1,9 +1,9 @@
-package org.thoughtcrime.securesms.testing
+package org.thoughtcrime.securesms.ryan.testing
 
 import okhttp3.mockwebserver.MockResponse
 import okhttp3.mockwebserver.RecordedRequest
 import okhttp3.mockwebserver.SocketPolicy
-import org.thoughtcrime.securesms.util.JsonUtils
+import org.thoughtcrime.securesms.ryan.util.JsonUtils
 import java.util.concurrent.TimeUnit
 
 typealias ResponseFactory = (request: RecordedRequest) -> MockResponse

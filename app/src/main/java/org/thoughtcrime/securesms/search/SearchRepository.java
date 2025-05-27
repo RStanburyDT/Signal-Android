@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.search;
+package org.thoughtcrime.securesms.ryan.search;
 
 import android.content.Context;
 import android.database.Cursor;
@@ -15,28 +15,28 @@ import org.signal.core.util.CursorUtil;
 import org.signal.core.util.StringUtil;
 import org.signal.core.util.concurrent.SignalExecutors;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.contacts.ContactRepository;
-import org.thoughtcrime.securesms.conversation.MessageStyler;
-import org.thoughtcrime.securesms.database.BodyAdjustment;
-import org.thoughtcrime.securesms.database.BodyRangeUtil;
-import org.thoughtcrime.securesms.database.GroupTable;
-import org.thoughtcrime.securesms.database.MentionTable;
-import org.thoughtcrime.securesms.database.MentionUtil;
-import org.thoughtcrime.securesms.database.MessageTable;
-import org.thoughtcrime.securesms.database.RecipientTable;
-import org.thoughtcrime.securesms.database.SearchTable;
-import org.thoughtcrime.securesms.database.SignalDatabase;
-import org.thoughtcrime.securesms.database.ThreadTable;
-import org.thoughtcrime.securesms.database.model.GroupRecord;
-import org.thoughtcrime.securesms.database.model.Mention;
-import org.thoughtcrime.securesms.database.model.MessageRecord;
-import org.thoughtcrime.securesms.database.model.ThreadRecord;
-import org.thoughtcrime.securesms.database.model.databaseprotos.BodyRangeList;
-import org.thoughtcrime.securesms.dependencies.AppDependencies;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.recipients.RecipientId;
-import org.thoughtcrime.securesms.util.Util;
-import org.thoughtcrime.securesms.util.concurrent.SerialExecutor;
+import org.thoughtcrime.securesms.ryan.contacts.ContactRepository;
+import org.thoughtcrime.securesms.ryan.conversation.MessageStyler;
+import org.thoughtcrime.securesms.ryan.database.BodyAdjustment;
+import org.thoughtcrime.securesms.ryan.database.BodyRangeUtil;
+import org.thoughtcrime.securesms.ryan.database.GroupTable;
+import org.thoughtcrime.securesms.ryan.database.MentionTable;
+import org.thoughtcrime.securesms.ryan.database.MentionUtil;
+import org.thoughtcrime.securesms.ryan.database.MessageTable;
+import org.thoughtcrime.securesms.ryan.database.RecipientTable;
+import org.thoughtcrime.securesms.ryan.database.SearchTable;
+import org.thoughtcrime.securesms.ryan.database.SignalDatabase;
+import org.thoughtcrime.securesms.ryan.database.ThreadTable;
+import org.thoughtcrime.securesms.ryan.database.model.GroupRecord;
+import org.thoughtcrime.securesms.ryan.database.model.Mention;
+import org.thoughtcrime.securesms.ryan.database.model.MessageRecord;
+import org.thoughtcrime.securesms.ryan.database.model.ThreadRecord;
+import org.thoughtcrime.securesms.ryan.database.model.databaseprotos.BodyRangeList;
+import org.thoughtcrime.securesms.ryan.dependencies.AppDependencies;
+import org.thoughtcrime.securesms.ryan.recipients.Recipient;
+import org.thoughtcrime.securesms.ryan.recipients.RecipientId;
+import org.thoughtcrime.securesms.ryan.util.Util;
+import org.thoughtcrime.securesms.ryan.util.concurrent.SerialExecutor;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -51,7 +51,7 @@ import java.util.Objects;
 import java.util.Set;
 import java.util.concurrent.Executor;
 
-import static org.thoughtcrime.securesms.database.SearchTable.SNIPPET_WRAP;
+import static org.thoughtcrime.securesms.ryan.database.SearchTable.SNIPPET_WRAP;
 
 /**
  * Manages data retrieval for search.

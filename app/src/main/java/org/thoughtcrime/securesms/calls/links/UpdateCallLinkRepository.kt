@@ -3,18 +3,18 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.calls.links
+package org.thoughtcrime.securesms.ryan.calls.links
 
 import io.reactivex.rxjava3.core.Single
 import io.reactivex.rxjava3.schedulers.Schedulers
 import org.signal.ringrtc.CallLinkState
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.jobs.CallLinkUpdateSendJob
-import org.thoughtcrime.securesms.service.webrtc.links.CallLinkCredentials
-import org.thoughtcrime.securesms.service.webrtc.links.SignalCallLinkManager
-import org.thoughtcrime.securesms.service.webrtc.links.UpdateCallLinkResult
-import org.thoughtcrime.securesms.storage.StorageSyncHelper
+import org.thoughtcrime.securesms.ryan.database.SignalDatabase
+import org.thoughtcrime.securesms.ryan.dependencies.AppDependencies
+import org.thoughtcrime.securesms.ryan.jobs.CallLinkUpdateSendJob
+import org.thoughtcrime.securesms.ryan.service.webrtc.links.CallLinkCredentials
+import org.thoughtcrime.securesms.ryan.service.webrtc.links.SignalCallLinkManager
+import org.thoughtcrime.securesms.ryan.service.webrtc.links.UpdateCallLinkResult
+import org.thoughtcrime.securesms.ryan.storage.StorageSyncHelper
 
 /**
  * Repository for performing update operations on call links:

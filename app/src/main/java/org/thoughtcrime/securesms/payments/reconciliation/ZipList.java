@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.payments.reconciliation;
+package org.thoughtcrime.securesms.ryan.payments.reconciliation;
 
 import androidx.annotation.NonNull;
 

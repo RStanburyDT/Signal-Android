@@ -1,8 +1,8 @@
-package org.thoughtcrime.securesms.components.settings.app.subscription.manage
+package org.thoughtcrime.securesms.ryan.components.settings.app.subscription.manage
 
-import org.thoughtcrime.securesms.badges.models.Badge
-import org.thoughtcrime.securesms.database.model.databaseprotos.PendingOneTimeDonation
-import org.thoughtcrime.securesms.subscription.Subscription
+import org.thoughtcrime.securesms.ryan.badges.models.Badge
+import org.thoughtcrime.securesms.ryan.database.model.databaseprotos.PendingOneTimeDonation
+import org.thoughtcrime.securesms.ryan.subscription.Subscription
 import org.whispersystems.signalservice.api.subscriptions.ActiveSubscription
 
 data class ManageDonationsState(

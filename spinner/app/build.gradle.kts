@@ -7,7 +7,7 @@ android {
   namespace = "org.signal.spinnertest"
 
   defaultConfig {
-    applicationId = "org.signal.spinnertest"
+    applicationId = "org.signal.spinnertest.ryan"
   }
 }
 

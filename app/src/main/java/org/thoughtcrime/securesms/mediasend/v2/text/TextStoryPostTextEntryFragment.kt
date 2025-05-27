@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.mediasend.v2.text
+package org.thoughtcrime.securesms.ryan.mediasend.v2.text
 
 import android.animation.Animator
 import android.animation.ObjectAnimator
@@ -27,18 +27,18 @@ import androidx.transition.TransitionManager
 import com.airbnb.lottie.SimpleColorFilter
 import io.reactivex.rxjava3.kotlin.subscribeBy
 import org.signal.core.util.concurrent.LifecycleDisposable
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.KeyboardEntryDialogFragment
-import org.thoughtcrime.securesms.mediasend.v2.MediaAnimations
-import org.thoughtcrime.securesms.scribbles.HSVColorSlider
-import org.thoughtcrime.securesms.scribbles.HSVColorSlider.getColor
-import org.thoughtcrime.securesms.scribbles.HSVColorSlider.setColor
-import org.thoughtcrime.securesms.scribbles.HSVColorSlider.setUpForColor
-import org.thoughtcrime.securesms.util.RemoteConfig
-import org.thoughtcrime.securesms.util.TextSecurePreferences
-import org.thoughtcrime.securesms.util.ViewUtil
-import org.thoughtcrime.securesms.util.fragments.findListener
-import org.thoughtcrime.securesms.util.setIncognitoKeyboardEnabled
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.components.KeyboardEntryDialogFragment
+import org.thoughtcrime.securesms.ryan.mediasend.v2.MediaAnimations
+import org.thoughtcrime.securesms.ryan.scribbles.HSVColorSlider
+import org.thoughtcrime.securesms.ryan.scribbles.HSVColorSlider.getColor
+import org.thoughtcrime.securesms.ryan.scribbles.HSVColorSlider.setColor
+import org.thoughtcrime.securesms.ryan.scribbles.HSVColorSlider.setUpForColor
+import org.thoughtcrime.securesms.ryan.util.RemoteConfig
+import org.thoughtcrime.securesms.ryan.util.TextSecurePreferences
+import org.thoughtcrime.securesms.ryan.util.ViewUtil
+import org.thoughtcrime.securesms.ryan.util.fragments.findListener
+import org.thoughtcrime.securesms.ryan.util.setIncognitoKeyboardEnabled
 import java.util.Locale
 
 /**

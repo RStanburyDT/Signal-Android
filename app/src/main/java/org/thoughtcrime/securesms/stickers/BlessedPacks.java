@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.stickers;
+package org.thoughtcrime.securesms.ryan.stickers;
 
 import androidx.annotation.NonNull;
 

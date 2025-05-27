@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.stories.dialogs
+package org.thoughtcrime.securesms.ryan.stories.dialogs
 
 import android.content.ActivityNotFoundException
 import android.content.Context
@@ -16,23 +16,23 @@ import kotlinx.coroutines.withContext
 import org.signal.core.util.Base64
 import org.signal.core.util.DimensionUnit
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.attachments.Attachment
-import org.thoughtcrime.securesms.attachments.AttachmentSaver
-import org.thoughtcrime.securesms.components.menu.ActionItem
-import org.thoughtcrime.securesms.components.menu.SignalContextMenu
-import org.thoughtcrime.securesms.database.model.MessageRecord
-import org.thoughtcrime.securesms.database.model.MmsMessageRecord
-import org.thoughtcrime.securesms.database.model.databaseprotos.StoryTextPost
-import org.thoughtcrime.securesms.providers.BlobProvider
-import org.thoughtcrime.securesms.stories.StoryTextPostModel
-import org.thoughtcrime.securesms.stories.landing.StoriesLandingItem
-import org.thoughtcrime.securesms.stories.viewer.page.StoryPost
-import org.thoughtcrime.securesms.stories.viewer.page.StoryViewerPageState
-import org.thoughtcrime.securesms.util.BitmapUtil
-import org.thoughtcrime.securesms.util.DeleteDialog
-import org.thoughtcrime.securesms.util.MediaUtil
-import org.thoughtcrime.securesms.util.SaveAttachmentUtil
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.attachments.Attachment
+import org.thoughtcrime.securesms.ryan.attachments.AttachmentSaver
+import org.thoughtcrime.securesms.ryan.components.menu.ActionItem
+import org.thoughtcrime.securesms.ryan.components.menu.SignalContextMenu
+import org.thoughtcrime.securesms.ryan.database.model.MessageRecord
+import org.thoughtcrime.securesms.ryan.database.model.MmsMessageRecord
+import org.thoughtcrime.securesms.ryan.database.model.databaseprotos.StoryTextPost
+import org.thoughtcrime.securesms.ryan.providers.BlobProvider
+import org.thoughtcrime.securesms.ryan.stories.StoryTextPostModel
+import org.thoughtcrime.securesms.ryan.stories.landing.StoriesLandingItem
+import org.thoughtcrime.securesms.ryan.stories.viewer.page.StoryPost
+import org.thoughtcrime.securesms.ryan.stories.viewer.page.StoryViewerPageState
+import org.thoughtcrime.securesms.ryan.util.BitmapUtil
+import org.thoughtcrime.securesms.ryan.util.DeleteDialog
+import org.thoughtcrime.securesms.ryan.util.MediaUtil
+import org.thoughtcrime.securesms.ryan.util.SaveAttachmentUtil
 import java.io.ByteArrayInputStream
 
 object StoryContextMenu {

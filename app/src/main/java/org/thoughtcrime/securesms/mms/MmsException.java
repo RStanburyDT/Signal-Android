@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package org.thoughtcrime.securesms.mms;
+package org.thoughtcrime.securesms.ryan.mms;
 
 /**
  * A generic exception that is thrown by the Mms client.

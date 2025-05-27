@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.settings.app.subscription.errors
+package org.thoughtcrime.securesms.ryan.components.settings.app.subscription.errors
 
 /**
  * Error states that can occur if we detect that a user's subscription has been cancelled and the manual

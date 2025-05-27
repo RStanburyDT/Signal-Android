@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.giph.mp4;
+package org.thoughtcrime.securesms.ryan.giph.mp4;
 
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -21,9 +21,9 @@ import androidx.media3.ui.AspectRatioFrameLayout;
 import androidx.media3.ui.PlayerView;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.components.CornerMask;
-import org.thoughtcrime.securesms.util.Projection;
+import org.thoughtcrime.securesms.ryan.R;
+import org.thoughtcrime.securesms.ryan.components.CornerMask;
+import org.thoughtcrime.securesms.ryan.util.Projection;
 
 /**
  * Video Player class specifically created for the GiphyMp4Fragment.

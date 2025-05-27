@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.util;
+package org.thoughtcrime.securesms.ryan.util;
 
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -27,14 +27,14 @@ import com.bumptech.glide.request.transition.Transition;
 
 import org.signal.core.util.ThreadUtil;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.avatar.fallback.FallbackAvatar;
-import org.thoughtcrime.securesms.avatar.fallback.FallbackAvatarDrawable;
-import org.thoughtcrime.securesms.contacts.avatars.ContactPhoto;
-import org.thoughtcrime.securesms.contacts.avatars.ProfileContactPhoto;
-import org.thoughtcrime.securesms.conversation.colors.AvatarGradientColors;
-import org.thoughtcrime.securesms.providers.AvatarProvider;
-import org.thoughtcrime.securesms.recipients.Recipient;
+import org.thoughtcrime.securesms.ryan.R;
+import org.thoughtcrime.securesms.ryan.avatar.fallback.FallbackAvatar;
+import org.thoughtcrime.securesms.ryan.avatar.fallback.FallbackAvatarDrawable;
+import org.thoughtcrime.securesms.ryan.contacts.avatars.ContactPhoto;
+import org.thoughtcrime.securesms.ryan.contacts.avatars.ProfileContactPhoto;
+import org.thoughtcrime.securesms.ryan.conversation.colors.AvatarGradientColors;
+import org.thoughtcrime.securesms.ryan.providers.AvatarProvider;
+import org.thoughtcrime.securesms.ryan.recipients.Recipient;
 
 import java.util.Objects;
 import java.util.concurrent.CountDownLatch;

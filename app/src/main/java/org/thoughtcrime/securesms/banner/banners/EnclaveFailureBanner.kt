@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.banner.banners
+package org.thoughtcrime.securesms.ryan.banner.banners
 
 import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.runtime.Composable
@@ -14,12 +14,12 @@ import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.flowOf
 import org.signal.core.ui.compose.Previews
 import org.signal.core.ui.compose.SignalPreview
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.banner.Banner
-import org.thoughtcrime.securesms.banner.ui.compose.Action
-import org.thoughtcrime.securesms.banner.ui.compose.DefaultBanner
-import org.thoughtcrime.securesms.banner.ui.compose.Importance
-import org.thoughtcrime.securesms.util.PlayStoreUtil
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.banner.Banner
+import org.thoughtcrime.securesms.ryan.banner.ui.compose.Action
+import org.thoughtcrime.securesms.ryan.banner.ui.compose.DefaultBanner
+import org.thoughtcrime.securesms.ryan.banner.ui.compose.Importance
+import org.thoughtcrime.securesms.ryan.util.PlayStoreUtil
 
 class EnclaveFailureBanner(private val enclaveFailed: Boolean) : Banner<Unit>() {
   override val enabled: Boolean

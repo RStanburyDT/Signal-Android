@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.conversation.colors.ui
+package org.thoughtcrime.securesms.ryan.conversation.colors.ui
 
 import android.os.Bundle
 import android.view.View
@@ -7,9 +7,9 @@ import androidx.fragment.app.Fragment
 import androidx.navigation.Navigation
 import androidx.recyclerview.widget.RecyclerView
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.conversation.colors.ChatColors
-import org.thoughtcrime.securesms.util.navigation.safeNavigate
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.conversation.colors.ChatColors
+import org.thoughtcrime.securesms.ryan.util.navigation.safeNavigate
 
 class ChatColorSelectionFragment : Fragment(R.layout.chat_color_selection_fragment) {
 

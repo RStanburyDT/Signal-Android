@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.voice
+package org.thoughtcrime.securesms.ryan.components.voice
 
 import android.app.Application
 import android.content.Context

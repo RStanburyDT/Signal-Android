@@ -3,9 +3,9 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.settings.app.subscription.manage
+package org.thoughtcrime.securesms.ryan.components.settings.app.subscription.manage
 
-import org.thoughtcrime.securesms.database.model.databaseprotos.PendingOneTimeDonation
+import org.thoughtcrime.securesms.ryan.database.model.databaseprotos.PendingOneTimeDonation
 
 /**
  * Represent the status of a donation as represented in the job system.

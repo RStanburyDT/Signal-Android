@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.backup.v2.ui.subscription
+package org.thoughtcrime.securesms.ryan.backup.v2.ui.subscription
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.Arrangement
@@ -31,9 +31,13 @@ import androidx.compose.ui.unit.dp
 import org.signal.core.ui.compose.Buttons
 import org.signal.core.ui.compose.Previews
 import org.signal.core.ui.compose.Scaffolds
+<<<<<<< HEAD
+import org.thoughtcrime.securesms.ryan.R
+=======
 import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.components.compose.BetaHeader
 import org.thoughtcrime.securesms.components.compose.TextWithBetaLabel
+>>>>>>> 23669c3c372284d42db486a218d9f29bef247abf
 import org.signal.core.ui.R as CoreUiR
 
 /**

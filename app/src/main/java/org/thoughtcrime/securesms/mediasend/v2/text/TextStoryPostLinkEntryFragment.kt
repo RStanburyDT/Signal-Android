@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.mediasend.v2.text
+package org.thoughtcrime.securesms.ryan.mediasend.v2.text
 
 import android.content.DialogInterface
 import android.os.Bundle
@@ -10,16 +10,16 @@ import androidx.core.widget.addTextChangedListener
 import androidx.fragment.app.activityViewModels
 import androidx.fragment.app.viewModels
 import com.google.android.material.snackbar.Snackbar
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.KeyboardEntryDialogFragment
-import org.thoughtcrime.securesms.linkpreview.LinkPreviewRepository
-import org.thoughtcrime.securesms.linkpreview.LinkPreviewViewModel
-import org.thoughtcrime.securesms.stories.StoryLinkPreviewView
-import org.thoughtcrime.securesms.util.LinkUtil
-import org.thoughtcrime.securesms.util.TextSecurePreferences
-import org.thoughtcrime.securesms.util.ViewUtil
-import org.thoughtcrime.securesms.util.setIncognitoKeyboardEnabled
-import org.thoughtcrime.securesms.util.visible
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.components.KeyboardEntryDialogFragment
+import org.thoughtcrime.securesms.ryan.linkpreview.LinkPreviewRepository
+import org.thoughtcrime.securesms.ryan.linkpreview.LinkPreviewViewModel
+import org.thoughtcrime.securesms.ryan.stories.StoryLinkPreviewView
+import org.thoughtcrime.securesms.ryan.util.LinkUtil
+import org.thoughtcrime.securesms.ryan.util.TextSecurePreferences
+import org.thoughtcrime.securesms.ryan.util.ViewUtil
+import org.thoughtcrime.securesms.ryan.util.setIncognitoKeyboardEnabled
+import org.thoughtcrime.securesms.ryan.util.visible
 
 class TextStoryPostLinkEntryFragment(private val shouldPreset: Boolean = false) : KeyboardEntryDialogFragment(
   contentLayoutId = R.layout.stories_text_post_link_entry_fragment

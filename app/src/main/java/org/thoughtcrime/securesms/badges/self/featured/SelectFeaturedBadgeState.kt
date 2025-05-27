@@ -1,6 +1,6 @@
-package org.thoughtcrime.securesms.badges.self.featured
+package org.thoughtcrime.securesms.ryan.badges.self.featured
 
-import org.thoughtcrime.securesms.badges.models.Badge
+import org.thoughtcrime.securesms.ryan.badges.models.Badge
 
 data class SelectFeaturedBadgeState(
   val stage: Stage = Stage.INIT,

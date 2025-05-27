@@ -18,13 +18,13 @@
  * CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
 
-package org.thoughtcrime.securesms.components.emoji.parsing;
+package org.thoughtcrime.securesms.ryan.components.emoji.parsing;
 
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import org.thoughtcrime.securesms.emoji.JumboEmoji;
+import org.thoughtcrime.securesms.ryan.emoji.JumboEmoji;
 
 import java.util.Iterator;
 import java.util.LinkedList;

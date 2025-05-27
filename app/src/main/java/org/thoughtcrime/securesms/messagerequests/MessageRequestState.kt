@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.messagerequests
+package org.thoughtcrime.securesms.ryan.messagerequests
 
 /**
  * Data necessary to render message request view.

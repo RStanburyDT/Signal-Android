@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.payments.create;
+package org.thoughtcrime.securesms.ryan.payments.create;
 
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
@@ -21,17 +21,17 @@ import androidx.transition.TransitionManager;
 
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 
-import org.thoughtcrime.securesms.LoggingFragment;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.components.emoji.EmojiTextView;
-import org.thoughtcrime.securesms.payments.FiatMoneyUtil;
-import org.thoughtcrime.securesms.payments.MoneyView;
-import org.thoughtcrime.securesms.payments.preferences.RecipientHasNotEnabledPaymentsDialog;
-import org.thoughtcrime.securesms.util.CommunicationActions;
-import org.thoughtcrime.securesms.util.PlayStoreUtil;
-import org.thoughtcrime.securesms.util.SpanUtil;
-import org.thoughtcrime.securesms.util.ViewUtil;
-import org.thoughtcrime.securesms.util.navigation.SafeNavigation;
+import org.thoughtcrime.securesms.ryan.LoggingFragment;
+import org.thoughtcrime.securesms.ryan.R;
+import org.thoughtcrime.securesms.ryan.components.emoji.EmojiTextView;
+import org.thoughtcrime.securesms.ryan.payments.FiatMoneyUtil;
+import org.thoughtcrime.securesms.ryan.payments.MoneyView;
+import org.thoughtcrime.securesms.ryan.payments.preferences.RecipientHasNotEnabledPaymentsDialog;
+import org.thoughtcrime.securesms.ryan.util.CommunicationActions;
+import org.thoughtcrime.securesms.ryan.util.PlayStoreUtil;
+import org.thoughtcrime.securesms.ryan.util.SpanUtil;
+import org.thoughtcrime.securesms.ryan.util.ViewUtil;
+import org.thoughtcrime.securesms.ryan.util.navigation.SafeNavigation;
 import org.whispersystems.signalservice.api.payments.FormatterOptions;
 import org.whispersystems.signalservice.api.payments.Money;
 

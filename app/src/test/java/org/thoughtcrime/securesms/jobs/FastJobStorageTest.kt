@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.jobs
+package org.thoughtcrime.securesms.ryan.jobs
 
 import assertk.assertThat
 import assertk.assertions.isEqualTo
@@ -10,13 +10,13 @@ import io.mockk.every
 import io.mockk.mockk
 import io.mockk.verify
 import org.junit.Test
-import org.thoughtcrime.securesms.database.JobDatabase
-import org.thoughtcrime.securesms.jobmanager.Job
-import org.thoughtcrime.securesms.jobmanager.persistence.ConstraintSpec
-import org.thoughtcrime.securesms.jobmanager.persistence.DependencySpec
-import org.thoughtcrime.securesms.jobmanager.persistence.FullSpec
-import org.thoughtcrime.securesms.jobmanager.persistence.JobSpec
-import org.thoughtcrime.securesms.testutil.TestHelpers
+import org.thoughtcrime.securesms.ryan.database.JobDatabase
+import org.thoughtcrime.securesms.ryan.jobmanager.Job
+import org.thoughtcrime.securesms.ryan.jobmanager.persistence.ConstraintSpec
+import org.thoughtcrime.securesms.ryan.jobmanager.persistence.DependencySpec
+import org.thoughtcrime.securesms.ryan.jobmanager.persistence.FullSpec
+import org.thoughtcrime.securesms.ryan.jobmanager.persistence.JobSpec
+import org.thoughtcrime.securesms.ryan.testutil.TestHelpers
 import java.nio.charset.Charset
 
 class FastJobStorageTest {

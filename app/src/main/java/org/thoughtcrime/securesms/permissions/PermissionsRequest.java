@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.permissions;
+package org.thoughtcrime.securesms.ryan.permissions;
 
 
 import android.content.pm.PackageManager;

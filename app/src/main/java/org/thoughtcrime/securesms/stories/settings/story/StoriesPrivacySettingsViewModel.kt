@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.stories.settings.story
+package org.thoughtcrime.securesms.ryan.stories.settings.story
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
@@ -10,14 +10,14 @@ import io.reactivex.rxjava3.kotlin.plusAssign
 import org.signal.paging.PagedData
 import org.signal.paging.PagingConfig
 import org.signal.paging.ProxyPagingController
-import org.thoughtcrime.securesms.contacts.paged.ContactSearchConfiguration
-import org.thoughtcrime.securesms.contacts.paged.ContactSearchKey
-import org.thoughtcrime.securesms.contacts.paged.ContactSearchPagedDataSource
-import org.thoughtcrime.securesms.contacts.paged.ContactSearchPagedDataSourceRepository
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.stories.Stories
-import org.thoughtcrime.securesms.util.rx.RxStore
+import org.thoughtcrime.securesms.ryan.contacts.paged.ContactSearchConfiguration
+import org.thoughtcrime.securesms.ryan.contacts.paged.ContactSearchKey
+import org.thoughtcrime.securesms.ryan.contacts.paged.ContactSearchPagedDataSource
+import org.thoughtcrime.securesms.ryan.contacts.paged.ContactSearchPagedDataSourceRepository
+import org.thoughtcrime.securesms.ryan.keyvalue.SignalStore
+import org.thoughtcrime.securesms.ryan.recipients.RecipientId
+import org.thoughtcrime.securesms.ryan.stories.Stories
+import org.thoughtcrime.securesms.ryan.util.rx.RxStore
 
 class StoriesPrivacySettingsViewModel(
   contactSearchPagedDataSourceRepository: ContactSearchPagedDataSourceRepository

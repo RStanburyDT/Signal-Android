@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.database;
+package org.thoughtcrime.securesms.ryan.database;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -10,7 +10,7 @@ import com.mobilecoin.lib.RistrettoPublic;
 import com.mobilecoin.lib.Transaction;
 import com.mobilecoin.lib.exceptions.SerializationException;
 
-import org.thoughtcrime.securesms.payments.proto.PaymentMetaData;
+import org.thoughtcrime.securesms.ryan.payments.proto.PaymentMetaData;
 
 import java.io.IOException;
 import java.util.ArrayList;

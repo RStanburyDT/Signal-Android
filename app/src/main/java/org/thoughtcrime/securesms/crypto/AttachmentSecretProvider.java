@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.crypto;
+package org.thoughtcrime.securesms.ryan.crypto;
 
 
 import android.content.Context;
@@ -6,7 +6,7 @@ import android.os.Build;
 
 import androidx.annotation.NonNull;
 
-import org.thoughtcrime.securesms.util.TextSecurePreferences;
+import org.thoughtcrime.securesms.ryan.util.TextSecurePreferences;
 
 import java.security.SecureRandom;
 

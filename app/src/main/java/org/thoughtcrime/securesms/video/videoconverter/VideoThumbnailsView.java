@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.video.videoconverter;
+package org.thoughtcrime.securesms.ryan.video.videoconverter;
 
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -17,9 +17,9 @@ import androidx.annotation.Nullable;
 import androidx.annotation.RequiresApi;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.media.DecryptableUriMediaInput;
-import org.thoughtcrime.securesms.util.ViewUtil;
-import org.thoughtcrime.securesms.video.interfaces.MediaInput;
+import org.thoughtcrime.securesms.ryan.media.DecryptableUriMediaInput;
+import org.thoughtcrime.securesms.ryan.util.ViewUtil;
+import org.thoughtcrime.securesms.ryan.video.interfaces.MediaInput;
 
 import java.io.IOException;
 import java.lang.ref.WeakReference;

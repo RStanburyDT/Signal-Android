@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.groups.v2
+package org.thoughtcrime.securesms.ryan.groups.v2
 
 import android.content.Context
 import androidx.core.util.Consumer
@@ -8,17 +8,17 @@ import io.reactivex.rxjava3.schedulers.Schedulers
 import org.signal.core.util.Result
 import org.signal.core.util.concurrent.SignalExecutors
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.contacts.sync.ContactDiscovery
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.groups.GroupChangeBusyException
-import org.thoughtcrime.securesms.groups.GroupChangeException
-import org.thoughtcrime.securesms.groups.GroupChangeFailedException
-import org.thoughtcrime.securesms.groups.GroupId
-import org.thoughtcrime.securesms.groups.GroupManager
-import org.thoughtcrime.securesms.groups.ui.GroupChangeFailureReason
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientId
+import org.thoughtcrime.securesms.ryan.contacts.sync.ContactDiscovery
+import org.thoughtcrime.securesms.ryan.database.SignalDatabase
+import org.thoughtcrime.securesms.ryan.dependencies.AppDependencies
+import org.thoughtcrime.securesms.ryan.groups.GroupChangeBusyException
+import org.thoughtcrime.securesms.ryan.groups.GroupChangeException
+import org.thoughtcrime.securesms.ryan.groups.GroupChangeFailedException
+import org.thoughtcrime.securesms.ryan.groups.GroupId
+import org.thoughtcrime.securesms.ryan.groups.GroupManager
+import org.thoughtcrime.securesms.ryan.groups.ui.GroupChangeFailureReason
+import org.thoughtcrime.securesms.ryan.recipients.Recipient
+import org.thoughtcrime.securesms.ryan.recipients.RecipientId
 import java.io.IOException
 
 private val TAG: String = Log.tag(GroupManagementRepository::class.java)

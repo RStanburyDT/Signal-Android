@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.webrtc.v2
+package org.thoughtcrime.securesms.ryan.components.webrtc.v2
 
 import android.content.res.Configuration
 import androidx.compose.animation.AnimatedContent
@@ -58,11 +58,11 @@ import org.signal.core.ui.compose.BottomSheets
 import org.signal.core.ui.compose.Previews
 import org.signal.core.ui.compose.TriggerAlignedPopupState
 import org.signal.core.util.DimensionUnit
-import org.thoughtcrime.securesms.components.webrtc.WebRtcLocalRenderState
-import org.thoughtcrime.securesms.events.CallParticipant
-import org.thoughtcrime.securesms.events.GroupCallReactionEvent
-import org.thoughtcrime.securesms.events.WebRtcViewModel
-import org.thoughtcrime.securesms.recipients.Recipient
+import org.thoughtcrime.securesms.ryan.components.webrtc.WebRtcLocalRenderState
+import org.thoughtcrime.securesms.ryan.events.CallParticipant
+import org.thoughtcrime.securesms.ryan.events.GroupCallReactionEvent
+import org.thoughtcrime.securesms.ryan.events.WebRtcViewModel
+import org.thoughtcrime.securesms.ryan.recipients.Recipient
 import kotlin.math.max
 import kotlin.math.round
 import kotlin.time.Duration.Companion.seconds

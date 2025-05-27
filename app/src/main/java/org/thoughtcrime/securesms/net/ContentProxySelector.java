@@ -1,8 +1,8 @@
-package org.thoughtcrime.securesms.net;
+package org.thoughtcrime.securesms.ryan.net;
 
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.BuildConfig;
+import org.thoughtcrime.securesms.ryan.BuildConfig;
 
 import java.io.IOException;
 import java.net.InetSocketAddress;

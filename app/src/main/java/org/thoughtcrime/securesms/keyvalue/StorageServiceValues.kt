@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.keyvalue
+package org.thoughtcrime.securesms.ryan.keyvalue
 
 import org.signal.core.util.logging.Log
 import org.whispersystems.signalservice.api.storage.SignalStorageManifest

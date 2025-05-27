@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.messagerequests;
+package org.thoughtcrime.securesms.ryan.messagerequests;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -16,10 +16,10 @@ import androidx.lifecycle.ViewModelProvider;
 
 import com.bumptech.glide.Glide;
 
-import org.thoughtcrime.securesms.BaseActivity;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.components.AvatarImageView;
-import org.thoughtcrime.securesms.recipients.RecipientId;
+import org.thoughtcrime.securesms.ryan.BaseActivity;
+import org.thoughtcrime.securesms.ryan.R;
+import org.thoughtcrime.securesms.ryan.components.AvatarImageView;
+import org.thoughtcrime.securesms.ryan.recipients.RecipientId;
 
 import java.util.concurrent.TimeUnit;
 

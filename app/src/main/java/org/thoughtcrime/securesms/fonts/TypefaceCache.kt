@@ -1,11 +1,11 @@
-package org.thoughtcrime.securesms.fonts
+package org.thoughtcrime.securesms.ryan.fonts
 
 import android.content.Context
 import android.graphics.Typeface
 import io.reactivex.rxjava3.core.Single
 import io.reactivex.rxjava3.schedulers.Schedulers
-import org.thoughtcrime.securesms.util.FutureTaskListener
-import org.thoughtcrime.securesms.util.LocaleUtil
+import org.thoughtcrime.securesms.ryan.util.FutureTaskListener
+import org.thoughtcrime.securesms.ryan.util.LocaleUtil
 import java.util.Collections
 import java.util.concurrent.ExecutionException
 

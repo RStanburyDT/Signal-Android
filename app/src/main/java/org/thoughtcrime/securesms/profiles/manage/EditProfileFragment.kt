@@ -1,6 +1,6 @@
 @file:Suppress("DEPRECATION")
 
-package org.thoughtcrime.securesms.profiles.manage
+package org.thoughtcrime.securesms.ryan.profiles.manage
 
 import android.content.DialogInterface
 import android.graphics.drawable.Drawable
@@ -24,29 +24,29 @@ import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import com.google.android.material.snackbar.Snackbar
 import org.signal.core.util.concurrent.LifecycleDisposable
 import org.signal.core.util.getParcelableCompat
-import org.thoughtcrime.securesms.AvatarPreviewActivity
-import org.thoughtcrime.securesms.LoggingFragment
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.avatar.Avatars.getForegroundColor
-import org.thoughtcrime.securesms.avatar.Avatars.getTextSizeForLength
-import org.thoughtcrime.securesms.avatar.picker.AvatarPickerFragment
-import org.thoughtcrime.securesms.badges.models.Badge
-import org.thoughtcrime.securesms.badges.self.none.BecomeASustainerFragment.Companion.show
-import org.thoughtcrime.securesms.components.emoji.EmojiUtil
-import org.thoughtcrime.securesms.databinding.EditProfileFragmentBinding
-import org.thoughtcrime.securesms.keyvalue.AccountValues
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.mediasend.Media
-import org.thoughtcrime.securesms.profiles.ProfileName
-import org.thoughtcrime.securesms.profiles.manage.EditProfileViewModel.AvatarState
-import org.thoughtcrime.securesms.profiles.manage.UsernameRepository.UsernameDeleteResult
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.registration.ui.RegistrationActivity
-import org.thoughtcrime.securesms.util.NameUtil.getAbbreviation
-import org.thoughtcrime.securesms.util.PlayStoreUtil
-import org.thoughtcrime.securesms.util.livedata.LiveDataUtil
-import org.thoughtcrime.securesms.util.navigation.safeNavigate
-import org.thoughtcrime.securesms.util.views.SimpleProgressDialog
+import org.thoughtcrime.securesms.ryan.AvatarPreviewActivity
+import org.thoughtcrime.securesms.ryan.LoggingFragment
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.avatar.Avatars.getForegroundColor
+import org.thoughtcrime.securesms.ryan.avatar.Avatars.getTextSizeForLength
+import org.thoughtcrime.securesms.ryan.avatar.picker.AvatarPickerFragment
+import org.thoughtcrime.securesms.ryan.badges.models.Badge
+import org.thoughtcrime.securesms.ryan.badges.self.none.BecomeASustainerFragment.Companion.show
+import org.thoughtcrime.securesms.ryan.components.emoji.EmojiUtil
+import org.thoughtcrime.securesms.ryan.databinding.EditProfileFragmentBinding
+import org.thoughtcrime.securesms.ryan.keyvalue.AccountValues
+import org.thoughtcrime.securesms.ryan.keyvalue.SignalStore
+import org.thoughtcrime.securesms.ryan.mediasend.Media
+import org.thoughtcrime.securesms.ryan.profiles.ProfileName
+import org.thoughtcrime.securesms.ryan.profiles.manage.EditProfileViewModel.AvatarState
+import org.thoughtcrime.securesms.ryan.profiles.manage.UsernameRepository.UsernameDeleteResult
+import org.thoughtcrime.securesms.ryan.recipients.Recipient
+import org.thoughtcrime.securesms.ryan.registration.ui.RegistrationActivity
+import org.thoughtcrime.securesms.ryan.util.NameUtil.getAbbreviation
+import org.thoughtcrime.securesms.ryan.util.PlayStoreUtil
+import org.thoughtcrime.securesms.ryan.util.livedata.LiveDataUtil
+import org.thoughtcrime.securesms.ryan.util.navigation.safeNavigate
+import org.thoughtcrime.securesms.ryan.util.views.SimpleProgressDialog
 import java.util.Arrays
 import java.util.Optional
 

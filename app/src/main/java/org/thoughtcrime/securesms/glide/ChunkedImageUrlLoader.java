@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.glide;
+package org.thoughtcrime.securesms.ryan.glide;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -8,11 +8,11 @@ import com.bumptech.glide.load.model.ModelLoader;
 import com.bumptech.glide.load.model.ModelLoaderFactory;
 import com.bumptech.glide.load.model.MultiModelLoaderFactory;
 
-import org.thoughtcrime.securesms.giph.model.ChunkedImageUrl;
-import org.thoughtcrime.securesms.net.ContentProxySafetyInterceptor;
-import org.thoughtcrime.securesms.net.ContentProxySelector;
-import org.thoughtcrime.securesms.net.StandardUserAgentInterceptor;
-import org.thoughtcrime.securesms.push.SignalServiceNetworkAccess;
+import org.thoughtcrime.securesms.ryan.giph.model.ChunkedImageUrl;
+import org.thoughtcrime.securesms.ryan.net.ContentProxySafetyInterceptor;
+import org.thoughtcrime.securesms.ryan.net.ContentProxySelector;
+import org.thoughtcrime.securesms.ryan.net.StandardUserAgentInterceptor;
+import org.thoughtcrime.securesms.ryan.push.SignalServiceNetworkAccess;
 
 import java.io.InputStream;
 

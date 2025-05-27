@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms
+package org.thoughtcrime.securesms.ryan
 
 import android.Manifest
 import android.annotation.SuppressLint
@@ -66,6 +66,70 @@ import org.signal.core.util.concurrent.LifecycleDisposable
 import org.signal.core.util.getSerializableCompat
 import org.signal.core.util.logging.Log
 import org.signal.donations.StripeApi
+<<<<<<< HEAD
+import org.thoughtcrime.securesms.ryan.calls.YouAreAlreadyInACallSnackbar.show
+import org.thoughtcrime.securesms.ryan.calls.log.CallLogFilter
+import org.thoughtcrime.securesms.ryan.calls.new.NewCallActivity
+import org.thoughtcrime.securesms.ryan.components.ConnectivityWarningBottomSheet
+import org.thoughtcrime.securesms.ryan.components.DebugLogsPromptDialogFragment
+import org.thoughtcrime.securesms.ryan.components.DeviceSpecificNotificationBottomSheet
+import org.thoughtcrime.securesms.ryan.components.PromptBatterySaverDialogFragment
+import org.thoughtcrime.securesms.ryan.components.settings.app.AppSettingsActivity
+import org.thoughtcrime.securesms.ryan.components.settings.app.AppSettingsActivity.Companion.manageSubscriptions
+import org.thoughtcrime.securesms.ryan.components.settings.app.notifications.manual.NotificationProfileSelectionFragment
+import org.thoughtcrime.securesms.ryan.components.voice.VoiceNoteMediaController
+import org.thoughtcrime.securesms.ryan.components.voice.VoiceNoteMediaControllerOwner
+import org.thoughtcrime.securesms.ryan.conversation.ConversationIntents
+import org.thoughtcrime.securesms.ryan.conversation.v2.ConversationFragment
+import org.thoughtcrime.securesms.ryan.conversation.v2.MotionEventRelay
+import org.thoughtcrime.securesms.ryan.conversation.v2.ShareDataTimestampViewModel
+import org.thoughtcrime.securesms.ryan.conversationlist.RelinkDevicesReminderBottomSheetFragment
+import org.thoughtcrime.securesms.ryan.conversationlist.RestoreCompleteBottomSheetDialog
+import org.thoughtcrime.securesms.ryan.conversationlist.model.ConversationFilter
+import org.thoughtcrime.securesms.ryan.devicetransfer.olddevice.OldDeviceExitActivity
+import org.thoughtcrime.securesms.ryan.groups.ui.creategroup.CreateGroupActivity
+import org.thoughtcrime.securesms.ryan.keyvalue.SignalStore
+import org.thoughtcrime.securesms.ryan.lock.v2.CreateSvrPinActivity
+import org.thoughtcrime.securesms.ryan.main.MainActivityListHostFragment
+import org.thoughtcrime.securesms.ryan.main.MainBottomChrome
+import org.thoughtcrime.securesms.ryan.main.MainBottomChromeCallback
+import org.thoughtcrime.securesms.ryan.main.MainBottomChromeState
+import org.thoughtcrime.securesms.ryan.main.MainContentLayoutData
+import org.thoughtcrime.securesms.ryan.main.MainMegaphoneState
+import org.thoughtcrime.securesms.ryan.main.MainNavigationBar
+import org.thoughtcrime.securesms.ryan.main.MainNavigationDetailLocation
+import org.thoughtcrime.securesms.ryan.main.MainNavigationListLocation
+import org.thoughtcrime.securesms.ryan.main.MainNavigationRail
+import org.thoughtcrime.securesms.ryan.main.MainNavigationViewModel
+import org.thoughtcrime.securesms.ryan.main.MainToolbar
+import org.thoughtcrime.securesms.ryan.main.MainToolbarCallback
+import org.thoughtcrime.securesms.ryan.main.MainToolbarMode
+import org.thoughtcrime.securesms.ryan.main.MainToolbarViewModel
+import org.thoughtcrime.securesms.ryan.main.NavigationBarSpacerCompat
+import org.thoughtcrime.securesms.ryan.main.SnackbarState
+import org.thoughtcrime.securesms.ryan.mediasend.camerax.CameraXUtil
+import org.thoughtcrime.securesms.ryan.mediasend.v2.MediaSelectionActivity
+import org.thoughtcrime.securesms.ryan.megaphone.Megaphone
+import org.thoughtcrime.securesms.ryan.megaphone.MegaphoneActionController
+import org.thoughtcrime.securesms.ryan.megaphone.Megaphones
+import org.thoughtcrime.securesms.ryan.net.DeviceTransferBlockingInterceptor
+import org.thoughtcrime.securesms.ryan.notifications.VitalsViewModel
+import org.thoughtcrime.securesms.ryan.permissions.Permissions
+import org.thoughtcrime.securesms.ryan.profiles.manage.UsernameEditFragment
+import org.thoughtcrime.securesms.ryan.service.KeyCachingService
+import org.thoughtcrime.securesms.ryan.stories.Stories
+import org.thoughtcrime.securesms.ryan.stories.settings.StorySettingsActivity
+import org.thoughtcrime.securesms.ryan.util.AppForegroundObserver
+import org.thoughtcrime.securesms.ryan.util.AppStartup
+import org.thoughtcrime.securesms.ryan.util.CachedInflater
+import org.thoughtcrime.securesms.ryan.util.CommunicationActions
+import org.thoughtcrime.securesms.ryan.util.DynamicNoActionBarTheme
+import org.thoughtcrime.securesms.ryan.util.DynamicTheme
+import org.thoughtcrime.securesms.ryan.util.SplashScreenUtil
+import org.thoughtcrime.securesms.ryan.util.viewModel
+import org.thoughtcrime.securesms.ryan.window.AppScaffold
+import org.thoughtcrime.securesms.ryan.window.WindowSizeClass
+=======
 import org.thoughtcrime.securesms.calls.YouAreAlreadyInACallSnackbar.show
 import org.thoughtcrime.securesms.calls.log.CallLogFilter
 import org.thoughtcrime.securesms.calls.log.CallLogFragment
@@ -141,6 +205,7 @@ import org.thoughtcrime.securesms.util.viewModel
 import org.thoughtcrime.securesms.window.AppScaffold
 import org.thoughtcrime.securesms.window.WindowSizeClass
 import org.whispersystems.signalservice.api.websocket.WebSocketConnectionState
+>>>>>>> 23669c3c372284d42db486a218d9f29bef247abf
 
 class MainActivity : PassphraseRequiredActivity(), VoiceNoteMediaControllerOwner, MainNavigator.NavigatorProvider, Material3OnScrollHelperBinder, ConversationListFragment.Callback, CallLogFragment.Callback {
 

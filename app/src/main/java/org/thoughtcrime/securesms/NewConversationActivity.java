@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.thoughtcrime.securesms;
+package org.thoughtcrime.securesms.ryan;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -39,6 +39,25 @@ import org.signal.core.util.DimensionUnit;
 import org.signal.core.util.concurrent.LifecycleDisposable;
 import org.signal.core.util.concurrent.SimpleTask;
 import org.signal.core.util.logging.Log;
+<<<<<<< HEAD
+import org.thoughtcrime.securesms.ryan.calls.YouAreAlreadyInACallSnackbar;
+import org.thoughtcrime.securesms.ryan.components.menu.ActionItem;
+import org.thoughtcrime.securesms.ryan.components.menu.SignalContextMenu;
+import org.thoughtcrime.securesms.ryan.contacts.management.ContactsManagementRepository;
+import org.thoughtcrime.securesms.ryan.contacts.management.ContactsManagementViewModel;
+import org.thoughtcrime.securesms.ryan.contacts.paged.ChatType;
+import org.thoughtcrime.securesms.ryan.contacts.paged.ContactSearchKey;
+import org.thoughtcrime.securesms.ryan.conversation.ConversationIntents;
+import org.thoughtcrime.securesms.ryan.groups.ui.creategroup.CreateGroupActivity;
+import org.thoughtcrime.securesms.ryan.keyvalue.SignalStore;
+import org.thoughtcrime.securesms.ryan.recipients.Recipient;
+import org.thoughtcrime.securesms.ryan.recipients.RecipientId;
+import org.thoughtcrime.securesms.ryan.recipients.RecipientRepository;
+import org.thoughtcrime.securesms.ryan.recipients.ui.findby.FindByActivity;
+import org.thoughtcrime.securesms.ryan.recipients.ui.findby.FindByMode;
+import org.thoughtcrime.securesms.ryan.util.CommunicationActions;
+import org.thoughtcrime.securesms.ryan.util.views.SimpleProgressDialog;
+=======
 import org.thoughtcrime.securesms.calls.YouAreAlreadyInACallSnackbar;
 import org.thoughtcrime.securesms.components.menu.ActionItem;
 import org.thoughtcrime.securesms.components.menu.SignalContextMenu;
@@ -57,6 +76,7 @@ import org.thoughtcrime.securesms.recipients.ui.findby.FindByActivity;
 import org.thoughtcrime.securesms.recipients.ui.findby.FindByMode;
 import org.thoughtcrime.securesms.util.CommunicationActions;
 import org.thoughtcrime.securesms.util.views.SimpleProgressDialog;
+>>>>>>> 23669c3c372284d42db486a218d9f29bef247abf
 
 import java.util.List;
 import java.util.Objects;

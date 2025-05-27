@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.wallpaper.crop;
+package org.thoughtcrime.securesms.ryan.wallpaper.crop;
 
 import android.content.Context;
 import android.content.Intent;
@@ -26,18 +26,18 @@ import org.signal.imageeditor.core.ImageEditorView;
 import org.signal.imageeditor.core.model.EditorElement;
 import org.signal.imageeditor.core.model.EditorModel;
 import org.signal.imageeditor.core.renderers.FaceBlurRenderer;
-import org.thoughtcrime.securesms.BaseActivity;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.components.ProgressCard;
-import org.thoughtcrime.securesms.conversation.colors.ColorizerView;
-import org.thoughtcrime.securesms.recipients.RecipientId;
-import org.thoughtcrime.securesms.scribbles.UriGlideRenderer;
-import org.thoughtcrime.securesms.util.AsynchronousCallback;
-import org.thoughtcrime.securesms.util.DynamicTheme;
-import org.thoughtcrime.securesms.util.Projection;
-import org.thoughtcrime.securesms.util.ViewUtil;
-import org.thoughtcrime.securesms.wallpaper.ChatWallpaper;
-import org.thoughtcrime.securesms.wallpaper.ChatWallpaperPreviewActivity;
+import org.thoughtcrime.securesms.ryan.BaseActivity;
+import org.thoughtcrime.securesms.ryan.R;
+import org.thoughtcrime.securesms.ryan.components.ProgressCard;
+import org.thoughtcrime.securesms.ryan.conversation.colors.ColorizerView;
+import org.thoughtcrime.securesms.ryan.recipients.RecipientId;
+import org.thoughtcrime.securesms.ryan.scribbles.UriGlideRenderer;
+import org.thoughtcrime.securesms.ryan.util.AsynchronousCallback;
+import org.thoughtcrime.securesms.ryan.util.DynamicTheme;
+import org.thoughtcrime.securesms.ryan.util.Projection;
+import org.thoughtcrime.securesms.ryan.util.ViewUtil;
+import org.thoughtcrime.securesms.ryan.wallpaper.ChatWallpaper;
+import org.thoughtcrime.securesms.ryan.wallpaper.ChatWallpaperPreviewActivity;
 
 import java.util.Collections;
 import java.util.Locale;

@@ -1,10 +1,10 @@
-package org.thoughtcrime.securesms.stories.settings.custom.name
+package org.thoughtcrime.securesms.ryan.stories.settings.custom.name
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import io.reactivex.rxjava3.android.schedulers.AndroidSchedulers
 import io.reactivex.rxjava3.core.Completable
-import org.thoughtcrime.securesms.database.model.DistributionListId
+import org.thoughtcrime.securesms.ryan.database.model.DistributionListId
 
 class EditStoryNameViewModel(private val privateStoryId: DistributionListId, private val repository: EditStoryNameRepository) : ViewModel() {
 

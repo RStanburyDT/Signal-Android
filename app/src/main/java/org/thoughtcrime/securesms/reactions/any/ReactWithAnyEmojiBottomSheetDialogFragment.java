@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.reactions.any;
+package org.thoughtcrime.securesms.ryan.reactions.any;
 
 import android.app.Dialog;
 import android.content.Context;
@@ -26,20 +26,20 @@ import com.google.android.material.bottomsheet.BottomSheetBehavior;
 import com.google.android.material.bottomsheet.BottomSheetDialog;
 
 import org.signal.core.util.concurrent.LifecycleDisposable;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.components.FixedRoundedCornerBottomSheetDialogFragment;
-import org.thoughtcrime.securesms.components.emoji.EmojiEventListener;
-import org.thoughtcrime.securesms.components.emoji.EmojiPageView;
-import org.thoughtcrime.securesms.components.emoji.EmojiPageViewGridAdapter;
-import org.thoughtcrime.securesms.database.model.MessageRecord;
-import org.thoughtcrime.securesms.keyboard.KeyboardPageCategoryIconMappingModel;
-import org.thoughtcrime.securesms.keyboard.emoji.EmojiKeyboardPageCategoriesAdapter;
-import org.thoughtcrime.securesms.keyboard.emoji.KeyboardPageSearchView;
-import org.thoughtcrime.securesms.reactions.ReactionsRepository;
-import org.thoughtcrime.securesms.reactions.edit.EditReactionsActivity;
-import org.thoughtcrime.securesms.util.TextSecurePreferences;
-import org.thoughtcrime.securesms.util.ViewUtil;
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingModel;
+import org.thoughtcrime.securesms.ryan.R;
+import org.thoughtcrime.securesms.ryan.components.FixedRoundedCornerBottomSheetDialogFragment;
+import org.thoughtcrime.securesms.ryan.components.emoji.EmojiEventListener;
+import org.thoughtcrime.securesms.ryan.components.emoji.EmojiPageView;
+import org.thoughtcrime.securesms.ryan.components.emoji.EmojiPageViewGridAdapter;
+import org.thoughtcrime.securesms.ryan.database.model.MessageRecord;
+import org.thoughtcrime.securesms.ryan.keyboard.KeyboardPageCategoryIconMappingModel;
+import org.thoughtcrime.securesms.ryan.keyboard.emoji.EmojiKeyboardPageCategoriesAdapter;
+import org.thoughtcrime.securesms.ryan.keyboard.emoji.KeyboardPageSearchView;
+import org.thoughtcrime.securesms.ryan.reactions.ReactionsRepository;
+import org.thoughtcrime.securesms.ryan.reactions.edit.EditReactionsActivity;
+import org.thoughtcrime.securesms.ryan.util.TextSecurePreferences;
+import org.thoughtcrime.securesms.ryan.util.ViewUtil;
+import org.thoughtcrime.securesms.ryan.util.adapter.mapping.MappingModel;
 
 import java.util.Optional;
 

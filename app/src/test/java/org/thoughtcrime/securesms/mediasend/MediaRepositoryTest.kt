@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.mediasend
+package org.thoughtcrime.securesms.ryan.mediasend
 
 import android.app.Application
 import android.content.Context
@@ -13,9 +13,9 @@ import org.junit.runner.RunWith
 import org.robolectric.RobolectricTestRunner
 import org.robolectric.annotation.Config
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.database.AttachmentTable.TransformProperties
-import org.thoughtcrime.securesms.testutil.EmptyLogger
-import org.thoughtcrime.securesms.util.MediaUtil
+import org.thoughtcrime.securesms.ryan.database.AttachmentTable.TransformProperties
+import org.thoughtcrime.securesms.ryan.testutil.EmptyLogger
+import org.thoughtcrime.securesms.ryan.util.MediaUtil
 import java.util.Optional
 
 @RunWith(RobolectricTestRunner::class)

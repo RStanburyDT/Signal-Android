@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.notifications.profiles
+package org.thoughtcrime.securesms.ryan.notifications.profiles
 
 import android.app.Application
 import assertk.assertThat
@@ -15,10 +15,10 @@ import org.junit.Test
 import org.junit.runner.RunWith
 import org.robolectric.RobolectricTestRunner
 import org.robolectric.annotation.Config
-import org.thoughtcrime.securesms.keyvalue.NotificationProfileValues
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.testutil.MockAppDependenciesRule
-import org.thoughtcrime.securesms.util.toMillis
+import org.thoughtcrime.securesms.ryan.keyvalue.NotificationProfileValues
+import org.thoughtcrime.securesms.ryan.keyvalue.SignalStore
+import org.thoughtcrime.securesms.ryan.testutil.MockAppDependenciesRule
+import org.thoughtcrime.securesms.ryan.util.toMillis
 import java.time.DayOfWeek
 import java.time.LocalDateTime
 import java.time.ZoneId

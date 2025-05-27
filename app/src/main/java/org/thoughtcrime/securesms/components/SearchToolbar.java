@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components;
+package org.thoughtcrime.securesms.ryan.components;
 
 
 import android.animation.Animator;
@@ -18,10 +18,10 @@ import androidx.appcompat.widget.SearchView;
 import androidx.appcompat.widget.Toolbar;
 import androidx.core.content.ContextCompat;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.animation.AnimationCompleteListener;
-import org.thoughtcrime.securesms.util.EditTextExtensionsKt;
-import org.thoughtcrime.securesms.util.TextSecurePreferences;
+import org.thoughtcrime.securesms.ryan.R;
+import org.thoughtcrime.securesms.ryan.animation.AnimationCompleteListener;
+import org.thoughtcrime.securesms.ryan.util.EditTextExtensionsKt;
+import org.thoughtcrime.securesms.ryan.util.TextSecurePreferences;
 
 public class SearchToolbar extends LinearLayout {
 

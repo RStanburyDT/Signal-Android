@@ -1,17 +1,17 @@
-package org.thoughtcrime.securesms.keyboard.sticker
+package org.thoughtcrime.securesms.ryan.keyboard.sticker
 
 import android.content.res.ColorStateList
 import android.view.View
 import android.widget.ImageView
 import androidx.core.widget.ImageViewCompat
 import com.bumptech.glide.RequestManager
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.glide.cache.ApngOptions
-import org.thoughtcrime.securesms.mms.DecryptableStreamUriLoader.DecryptableUri
-import org.thoughtcrime.securesms.util.adapter.mapping.LayoutFactory
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingAdapter
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingModel
-import org.thoughtcrime.securesms.util.adapter.mapping.MappingViewHolder
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.glide.cache.ApngOptions
+import org.thoughtcrime.securesms.ryan.mms.DecryptableStreamUriLoader.DecryptableUri
+import org.thoughtcrime.securesms.ryan.util.adapter.mapping.LayoutFactory
+import org.thoughtcrime.securesms.ryan.util.adapter.mapping.MappingAdapter
+import org.thoughtcrime.securesms.ryan.util.adapter.mapping.MappingModel
+import org.thoughtcrime.securesms.ryan.util.adapter.mapping.MappingViewHolder
 
 class KeyboardStickerPackListAdapter(private val requestManager: RequestManager, private val allowApngAnimation: Boolean, private val onTabSelected: (StickerPack) -> Unit) : MappingAdapter() {
 

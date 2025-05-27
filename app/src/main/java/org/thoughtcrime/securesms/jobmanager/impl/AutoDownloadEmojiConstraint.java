@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.jobmanager.impl;
+package org.thoughtcrime.securesms.ryan.jobmanager.impl;
 
 import android.app.job.JobInfo;
 import android.content.Context;
@@ -6,9 +6,9 @@ import android.content.Context;
 import androidx.annotation.NonNull;
 import androidx.annotation.RequiresApi;
 
-import org.thoughtcrime.securesms.jobmanager.Constraint;
-import org.thoughtcrime.securesms.util.NetworkUtil;
-import org.thoughtcrime.securesms.util.TextSecurePreferences;
+import org.thoughtcrime.securesms.ryan.jobmanager.Constraint;
+import org.thoughtcrime.securesms.ryan.util.NetworkUtil;
+import org.thoughtcrime.securesms.ryan.util.TextSecurePreferences;
 
 import java.util.Collections;
 import java.util.Set;

@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.banner.banners
+package org.thoughtcrime.securesms.ryan.banner.banners
 
 import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.runtime.Composable
@@ -13,13 +13,13 @@ import androidx.fragment.app.FragmentManager
 import kotlinx.coroutines.flow.flowOf
 import org.signal.core.ui.compose.Previews
 import org.signal.core.ui.compose.SignalPreview
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.banner.Banner
-import org.thoughtcrime.securesms.banner.ui.compose.Action
-import org.thoughtcrime.securesms.banner.ui.compose.DefaultBanner
-import org.thoughtcrime.securesms.banner.ui.compose.Importance
-import org.thoughtcrime.securesms.contacts.sync.CdsTemporaryErrorBottomSheet
-import org.thoughtcrime.securesms.keyvalue.SignalStore
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.banner.Banner
+import org.thoughtcrime.securesms.ryan.banner.ui.compose.Action
+import org.thoughtcrime.securesms.ryan.banner.ui.compose.DefaultBanner
+import org.thoughtcrime.securesms.ryan.banner.ui.compose.Importance
+import org.thoughtcrime.securesms.ryan.contacts.sync.CdsTemporaryErrorBottomSheet
+import org.thoughtcrime.securesms.ryan.keyvalue.SignalStore
 
 class CdsTemporaryErrorBanner(private val fragmentManager: FragmentManager) : Banner<Unit>() {
 

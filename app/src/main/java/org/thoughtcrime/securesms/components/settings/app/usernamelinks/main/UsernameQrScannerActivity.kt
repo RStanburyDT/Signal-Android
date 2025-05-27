@@ -5,7 +5,7 @@
 
 @file:OptIn(ExperimentalPermissionsApi::class)
 
-package org.thoughtcrime.securesms.components.settings.app.usernamelinks.main
+package org.thoughtcrime.securesms.ryan.components.settings.app.usernamelinks.main
 
 import android.Manifest
 import android.annotation.SuppressLint
@@ -41,13 +41,13 @@ import org.signal.core.ui.compose.Dialogs
 import org.signal.core.ui.compose.theme.SignalTheme
 import org.signal.core.util.concurrent.LifecycleDisposable
 import org.signal.core.util.getParcelableExtraCompat
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.settings.app.usernamelinks.main.UsernameQrScannerActivity.Contract
-import org.thoughtcrime.securesms.permissions.PermissionCompat
-import org.thoughtcrime.securesms.permissions.Permissions
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.util.DynamicTheme
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.components.settings.app.usernamelinks.main.UsernameQrScannerActivity.Contract
+import org.thoughtcrime.securesms.ryan.permissions.PermissionCompat
+import org.thoughtcrime.securesms.ryan.permissions.Permissions
+import org.thoughtcrime.securesms.ryan.recipients.Recipient
+import org.thoughtcrime.securesms.ryan.recipients.RecipientId
+import org.thoughtcrime.securesms.ryan.util.DynamicTheme
 
 /**
  * Prompts the user to scan a username QR code. Uses the activity result to communicate the recipient that was found, or null if no valid usernames were scanned.

@@ -1,26 +1,26 @@
-package org.thoughtcrime.securesms.jobs;
+package org.thoughtcrime.securesms.ryan.jobs;
 
 import androidx.annotation.AnyThread;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.database.PaymentTable;
-import org.thoughtcrime.securesms.database.SignalDatabase;
-import org.thoughtcrime.securesms.dependencies.AppDependencies;
-import org.thoughtcrime.securesms.jobmanager.JsonJobData;
-import org.thoughtcrime.securesms.jobmanager.Job;
-import org.thoughtcrime.securesms.jobmanager.JobManager;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
-import org.thoughtcrime.securesms.net.NotPushRegisteredException;
-import org.thoughtcrime.securesms.payments.FailureReason;
-import org.thoughtcrime.securesms.payments.MobileCoinPublicAddress;
-import org.thoughtcrime.securesms.payments.PaymentSubmissionResult;
-import org.thoughtcrime.securesms.payments.PaymentTransactionId;
-import org.thoughtcrime.securesms.payments.TransactionSubmissionResult;
-import org.thoughtcrime.securesms.payments.Wallet;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.recipients.RecipientId;
+import org.thoughtcrime.securesms.ryan.database.PaymentTable;
+import org.thoughtcrime.securesms.ryan.database.SignalDatabase;
+import org.thoughtcrime.securesms.ryan.dependencies.AppDependencies;
+import org.thoughtcrime.securesms.ryan.jobmanager.JsonJobData;
+import org.thoughtcrime.securesms.ryan.jobmanager.Job;
+import org.thoughtcrime.securesms.ryan.jobmanager.JobManager;
+import org.thoughtcrime.securesms.ryan.keyvalue.SignalStore;
+import org.thoughtcrime.securesms.ryan.net.NotPushRegisteredException;
+import org.thoughtcrime.securesms.ryan.payments.FailureReason;
+import org.thoughtcrime.securesms.ryan.payments.MobileCoinPublicAddress;
+import org.thoughtcrime.securesms.ryan.payments.PaymentSubmissionResult;
+import org.thoughtcrime.securesms.ryan.payments.PaymentTransactionId;
+import org.thoughtcrime.securesms.ryan.payments.TransactionSubmissionResult;
+import org.thoughtcrime.securesms.ryan.payments.Wallet;
+import org.thoughtcrime.securesms.ryan.recipients.Recipient;
+import org.thoughtcrime.securesms.ryan.recipients.RecipientId;
 import org.signal.core.util.Stopwatch;
 import org.whispersystems.signalservice.api.payments.Money;
 

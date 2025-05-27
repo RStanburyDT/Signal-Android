@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.payments.preferences;
+package org.thoughtcrime.securesms.ryan.payments.preferences;
 
 import androidx.annotation.NonNull;
 

@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.webrtc
+package org.thoughtcrime.securesms.ryan.components.webrtc
 
 import android.view.LayoutInflater
 import android.view.View
@@ -11,10 +11,18 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
+<<<<<<< HEAD
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.components.emoji.EmojiImageView
+import org.thoughtcrime.securesms.ryan.components.emoji.EmojiTextView
+import org.thoughtcrime.securesms.ryan.events.GroupCallReactionEvent
+import org.thoughtcrime.securesms.ryan.recipients.Recipient
+=======
 import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.components.emoji.EmojiTextView
 import org.thoughtcrime.securesms.events.GroupCallReactionEvent
 import org.thoughtcrime.securesms.recipients.Recipient
+>>>>>>> 23669c3c372284d42db486a218d9f29bef247abf
 
 /**
  * RecyclerView adapter for the reactions feed. This takes in a list of [GroupCallReactionEvent] and renders them onto the screen.

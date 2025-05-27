@@ -1,9 +1,9 @@
-package org.thoughtcrime.securesms.scribbles;
+package org.thoughtcrime.securesms.ryan.scribbles;
 
 import androidx.annotation.NonNull;
 
 import org.signal.imageeditor.core.HiddenEditText;
-import org.thoughtcrime.securesms.components.emoji.EmojiUtil;
+import org.thoughtcrime.securesms.ryan.components.emoji.EmojiUtil;
 
 class RemoveEmojiTextFilter implements HiddenEditText.TextFilter {
   @Override

@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.registration.fragments;
+package org.thoughtcrime.securesms.ryan.registration.fragments;
 
 public final class RegistrationConstants {
 

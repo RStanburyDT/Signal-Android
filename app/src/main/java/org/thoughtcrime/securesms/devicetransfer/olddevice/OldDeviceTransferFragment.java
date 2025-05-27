@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.devicetransfer.olddevice;
+package org.thoughtcrime.securesms.ryan.devicetransfer.olddevice;
 
 import android.os.Bundle;
 import android.view.View;
@@ -12,9 +12,9 @@ import org.greenrobot.eventbus.Subscribe;
 import org.greenrobot.eventbus.ThreadMode;
 import org.signal.devicetransfer.DeviceToDeviceTransferService;
 import org.signal.devicetransfer.TransferStatus;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.restore.devicetransfer.DeviceTransferFragment;
-import org.thoughtcrime.securesms.util.navigation.SafeNavigation;
+import org.thoughtcrime.securesms.ryan.R;
+import org.thoughtcrime.securesms.ryan.restore.devicetransfer.DeviceTransferFragment;
+import org.thoughtcrime.securesms.ryan.util.navigation.SafeNavigation;
 
 import java.text.NumberFormat;
 

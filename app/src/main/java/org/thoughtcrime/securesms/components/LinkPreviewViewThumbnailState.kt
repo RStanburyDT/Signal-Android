@@ -1,10 +1,10 @@
-package org.thoughtcrime.securesms.components
+package org.thoughtcrime.securesms.ryan.components
 
 import android.os.Parcelable
 import kotlinx.parcelize.IgnoredOnParcel
 import kotlinx.parcelize.Parcelize
-import org.thoughtcrime.securesms.mms.SlidesClickedListener
-import org.thoughtcrime.securesms.util.views.Stub
+import org.thoughtcrime.securesms.ryan.mms.SlidesClickedListener
+import org.thoughtcrime.securesms.ryan.util.views.Stub
 
 @Parcelize
 data class LinkPreviewViewThumbnailState(

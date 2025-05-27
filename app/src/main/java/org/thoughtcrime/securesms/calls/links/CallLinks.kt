@@ -3,17 +3,17 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.calls.links
+package org.thoughtcrime.securesms.ryan.calls.links
 
 import io.reactivex.rxjava3.core.Observable
 import org.signal.core.util.logging.Log
 import org.signal.ringrtc.CallException
 import org.signal.ringrtc.CallLinkRootKey
-import org.thoughtcrime.securesms.database.CallLinkTable
-import org.thoughtcrime.securesms.database.DatabaseObserver
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.service.webrtc.links.CallLinkRoomId
+import org.thoughtcrime.securesms.ryan.database.CallLinkTable
+import org.thoughtcrime.securesms.ryan.database.DatabaseObserver
+import org.thoughtcrime.securesms.ryan.database.SignalDatabase
+import org.thoughtcrime.securesms.ryan.dependencies.AppDependencies
+import org.thoughtcrime.securesms.ryan.service.webrtc.links.CallLinkRoomId
 import java.net.URLDecoder
 
 /**

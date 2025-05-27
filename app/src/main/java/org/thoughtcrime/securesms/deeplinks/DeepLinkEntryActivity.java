@@ -1,11 +1,11 @@
-package org.thoughtcrime.securesms.deeplinks;
+package org.thoughtcrime.securesms.ryan.deeplinks;
 
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 
-import org.thoughtcrime.securesms.MainActivity;
-import org.thoughtcrime.securesms.PassphraseRequiredActivity;
+import org.thoughtcrime.securesms.ryan.MainActivity;
+import org.thoughtcrime.securesms.ryan.PassphraseRequiredActivity;
 
 public class DeepLinkEntryActivity extends PassphraseRequiredActivity {
   @Override

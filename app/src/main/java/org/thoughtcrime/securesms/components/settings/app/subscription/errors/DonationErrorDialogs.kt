@@ -1,13 +1,13 @@
-package org.thoughtcrime.securesms.components.settings.app.subscription.errors
+package org.thoughtcrime.securesms.ryan.components.settings.app.subscription.errors
 
 import android.content.Context
 import android.content.DialogInterface
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.settings.app.AppSettingsActivity
-import org.thoughtcrime.securesms.database.InAppPaymentTable
-import org.thoughtcrime.securesms.help.HelpFragment
-import org.thoughtcrime.securesms.util.CommunicationActions
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.components.settings.app.AppSettingsActivity
+import org.thoughtcrime.securesms.ryan.database.InAppPaymentTable
+import org.thoughtcrime.securesms.ryan.help.HelpFragment
+import org.thoughtcrime.securesms.ryan.util.CommunicationActions
 
 /**
  * Donation Error Dialogs.

@@ -1,7 +1,7 @@
-package org.thoughtcrime.securesms.database.helpers.migration
+package org.thoughtcrime.securesms.ryan.database.helpers.migration
 
 import android.app.Application
-import org.thoughtcrime.securesms.database.SQLiteDatabase
+import org.thoughtcrime.securesms.ryan.database.SQLiteDatabase
 
 /**
  * In order to support scheduled sending, we need to add another column to keep track of when to send the message. We also use this

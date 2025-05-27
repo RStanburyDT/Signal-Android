@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.profiles.spoofing;
+package org.thoughtcrime.securesms.ryan.profiles.spoofing;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -16,14 +16,14 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.components.FullScreenDialogFragment;
-import org.thoughtcrime.securesms.groups.BadGroupIdException;
-import org.thoughtcrime.securesms.groups.GroupId;
-import org.thoughtcrime.securesms.recipients.RecipientId;
-import org.thoughtcrime.securesms.recipients.ui.bottomsheet.RecipientBottomSheetDialogFragment;
-import org.thoughtcrime.securesms.stories.settings.my.SignalConnectionsBottomSheetDialogFragment;
-import org.thoughtcrime.securesms.util.BottomSheetUtil;
+import org.thoughtcrime.securesms.ryan.R;
+import org.thoughtcrime.securesms.ryan.components.FullScreenDialogFragment;
+import org.thoughtcrime.securesms.ryan.groups.BadGroupIdException;
+import org.thoughtcrime.securesms.ryan.groups.GroupId;
+import org.thoughtcrime.securesms.ryan.recipients.RecipientId;
+import org.thoughtcrime.securesms.ryan.recipients.ui.bottomsheet.RecipientBottomSheetDialogFragment;
+import org.thoughtcrime.securesms.ryan.stories.settings.my.SignalConnectionsBottomSheetDialogFragment;
+import org.thoughtcrime.securesms.ryan.util.BottomSheetUtil;
 
 public class ReviewCardDialogFragment extends FullScreenDialogFragment {
 

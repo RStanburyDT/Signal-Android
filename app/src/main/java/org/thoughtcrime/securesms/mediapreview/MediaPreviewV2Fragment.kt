@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.mediapreview
+package org.thoughtcrime.securesms.ryan.mediapreview
 
 import android.annotation.SuppressLint
 import android.content.ActivityNotFoundException
@@ -43,6 +43,40 @@ import kotlinx.coroutines.launch
 import org.signal.core.util.concurrent.LifecycleDisposable
 import org.signal.core.util.concurrent.addTo
 import org.signal.core.util.logging.Log
+<<<<<<< HEAD
+import org.thoughtcrime.securesms.ryan.LoggingFragment
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.attachments.AttachmentSaver
+import org.thoughtcrime.securesms.ryan.attachments.DatabaseAttachment
+import org.thoughtcrime.securesms.ryan.components.DeleteSyncEducationDialog
+import org.thoughtcrime.securesms.ryan.components.ViewBinderDelegate
+import org.thoughtcrime.securesms.ryan.components.mention.MentionAnnotation
+import org.thoughtcrime.securesms.ryan.conversation.mutiselect.forward.MultiselectForwardFragment
+import org.thoughtcrime.securesms.ryan.conversation.mutiselect.forward.MultiselectForwardFragmentArgs
+import org.thoughtcrime.securesms.ryan.database.DatabaseObserver
+import org.thoughtcrime.securesms.ryan.database.MediaTable
+import org.thoughtcrime.securesms.ryan.database.SignalDatabase
+import org.thoughtcrime.securesms.ryan.databinding.FragmentMediaPreviewV2Binding
+import org.thoughtcrime.securesms.ryan.dependencies.AppDependencies
+import org.thoughtcrime.securesms.ryan.mediapreview.caption.ExpandingCaptionView
+import org.thoughtcrime.securesms.ryan.mediapreview.mediarail.CenterDecoration
+import org.thoughtcrime.securesms.ryan.mediapreview.mediarail.MediaRailAdapter
+import org.thoughtcrime.securesms.ryan.mediapreview.mediarail.MediaRailAdapter.ImageLoadingListener
+import org.thoughtcrime.securesms.ryan.mediasend.Media
+import org.thoughtcrime.securesms.ryan.mediasend.v2.MediaSelectionActivity
+import org.thoughtcrime.securesms.ryan.mms.PartAuthority
+import org.thoughtcrime.securesms.ryan.recipients.Recipient
+import org.thoughtcrime.securesms.ryan.util.ContextUtil
+import org.thoughtcrime.securesms.ryan.util.DateUtils
+import org.thoughtcrime.securesms.ryan.util.Debouncer
+import org.thoughtcrime.securesms.ryan.util.FullscreenHelper
+import org.thoughtcrime.securesms.ryan.util.MediaUtil
+import org.thoughtcrime.securesms.ryan.util.MessageConstraintsUtil
+import org.thoughtcrime.securesms.ryan.util.SaveAttachmentUtil
+import org.thoughtcrime.securesms.ryan.util.SpanUtil
+import org.thoughtcrime.securesms.ryan.util.ViewUtil
+import org.thoughtcrime.securesms.ryan.util.visible
+=======
 import org.thoughtcrime.securesms.LoggingFragment
 import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.attachments.AttachmentSaver
@@ -75,6 +109,7 @@ import org.thoughtcrime.securesms.util.SaveAttachmentUtil
 import org.thoughtcrime.securesms.util.SpanUtil
 import org.thoughtcrime.securesms.util.ViewUtil
 import org.thoughtcrime.securesms.util.visible
+>>>>>>> 23669c3c372284d42db486a218d9f29bef247abf
 import java.util.Locale
 import java.util.concurrent.TimeUnit
 import kotlin.math.roundToInt

@@ -3,10 +3,10 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.stickers
+package org.thoughtcrime.securesms.ryan.stickers
 
-import org.thoughtcrime.securesms.database.model.StickerPackRecord
-import org.thoughtcrime.securesms.database.model.StickerRecord
+import org.thoughtcrime.securesms.ryan.database.model.StickerPackRecord
+import org.thoughtcrime.securesms.ryan.database.model.StickerRecord
 import java.util.UUID
 
 /**

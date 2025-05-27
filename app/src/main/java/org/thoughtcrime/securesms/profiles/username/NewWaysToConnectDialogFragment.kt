@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.profiles.username
+package org.thoughtcrime.securesms.ryan.profiles.username
 
 import android.os.Bundle
 import androidx.compose.foundation.Image
@@ -30,9 +30,9 @@ import androidx.compose.ui.unit.dp
 import org.signal.core.ui.compose.Buttons
 import org.signal.core.ui.compose.Previews
 import org.signal.core.ui.compose.Scaffolds
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.compose.ComposeDialogFragment
-import org.thoughtcrime.securesms.profiles.manage.EditProfileActivity
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.compose.ComposeDialogFragment
+import org.thoughtcrime.securesms.ryan.profiles.manage.EditProfileActivity
 import org.signal.core.ui.R as CoreUiR
 
 /**

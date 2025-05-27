@@ -1,9 +1,9 @@
-package org.thoughtcrime.securesms.payments.backup.phrase;
+package org.thoughtcrime.securesms.ryan.payments.backup.phrase;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.ViewModel;
 
-import org.thoughtcrime.securesms.util.SingleLiveEvent;
+import org.thoughtcrime.securesms.ryan.util.SingleLiveEvent;
 
 import java.util.List;
 

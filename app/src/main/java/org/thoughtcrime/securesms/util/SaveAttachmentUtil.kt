@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.util
+package org.thoughtcrime.securesms.ryan.util
 
 import android.annotation.SuppressLint
 import android.content.ContentResolver
@@ -22,9 +22,9 @@ import kotlinx.coroutines.withContext
 import org.signal.core.util.StreamUtil
 import org.signal.core.util.logging.Log
 import org.signal.core.util.logging.logI
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.mms.PartAuthority
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.dependencies.AppDependencies
+import org.thoughtcrime.securesms.ryan.mms.PartAuthority
 import java.io.File
 import java.io.FileOutputStream
 import java.io.IOException

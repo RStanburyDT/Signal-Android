@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.settings.app.subscription.donate
+package org.thoughtcrime.securesms.ryan.components.settings.app.subscription.donate
 
 import androidx.annotation.CheckResult
 import io.reactivex.rxjava3.core.Completable
@@ -12,19 +12,19 @@ import org.signal.core.util.logging.Log
 import org.signal.donations.InAppPaymentType
 import org.signal.donations.PaymentSource
 import org.signal.donations.PaymentSourceType
-import org.thoughtcrime.securesms.components.settings.app.subscription.InAppPaymentsRepository
-import org.thoughtcrime.securesms.components.settings.app.subscription.InAppPaymentsRepository.toErrorSource
-import org.thoughtcrime.securesms.components.settings.app.subscription.errors.DonationError
-import org.thoughtcrime.securesms.components.settings.app.subscription.errors.DonationError.BadgeRedemptionError
-import org.thoughtcrime.securesms.components.settings.app.subscription.errors.DonationErrorSource
-import org.thoughtcrime.securesms.database.InAppPaymentTable
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.database.model.databaseprotos.InAppPaymentData
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.jobs.InAppPaymentPayPalOneTimeSetupJob
-import org.thoughtcrime.securesms.jobs.InAppPaymentPayPalRecurringSetupJob
-import org.thoughtcrime.securesms.jobs.InAppPaymentStripeOneTimeSetupJob
-import org.thoughtcrime.securesms.jobs.InAppPaymentStripeRecurringSetupJob
+import org.thoughtcrime.securesms.ryan.components.settings.app.subscription.InAppPaymentsRepository
+import org.thoughtcrime.securesms.ryan.components.settings.app.subscription.InAppPaymentsRepository.toErrorSource
+import org.thoughtcrime.securesms.ryan.components.settings.app.subscription.errors.DonationError
+import org.thoughtcrime.securesms.ryan.components.settings.app.subscription.errors.DonationError.BadgeRedemptionError
+import org.thoughtcrime.securesms.ryan.components.settings.app.subscription.errors.DonationErrorSource
+import org.thoughtcrime.securesms.ryan.database.InAppPaymentTable
+import org.thoughtcrime.securesms.ryan.database.SignalDatabase
+import org.thoughtcrime.securesms.ryan.database.model.databaseprotos.InAppPaymentData
+import org.thoughtcrime.securesms.ryan.dependencies.AppDependencies
+import org.thoughtcrime.securesms.ryan.jobs.InAppPaymentPayPalOneTimeSetupJob
+import org.thoughtcrime.securesms.ryan.jobs.InAppPaymentPayPalRecurringSetupJob
+import org.thoughtcrime.securesms.ryan.jobs.InAppPaymentStripeOneTimeSetupJob
+import org.thoughtcrime.securesms.ryan.jobs.InAppPaymentStripeRecurringSetupJob
 import java.util.concurrent.TimeUnit
 
 /**

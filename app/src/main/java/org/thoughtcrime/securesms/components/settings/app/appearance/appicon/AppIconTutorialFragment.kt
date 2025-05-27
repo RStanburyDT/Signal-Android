@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.settings.app.appearance.appicon
+package org.thoughtcrime.securesms.ryan.components.settings.app.appearance.appicon
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.border
@@ -31,8 +31,8 @@ import androidx.compose.ui.unit.dp
 import androidx.navigation.fragment.findNavController
 import org.signal.core.ui.compose.Scaffolds
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.compose.ComposeFragment
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.compose.ComposeFragment
 
 class AppIconTutorialFragment : ComposeFragment() {
 

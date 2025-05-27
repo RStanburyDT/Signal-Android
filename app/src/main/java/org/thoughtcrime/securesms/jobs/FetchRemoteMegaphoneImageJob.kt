@@ -1,14 +1,14 @@
-package org.thoughtcrime.securesms.jobs
+package org.thoughtcrime.securesms.ryan.jobs
 
 import okhttp3.ResponseBody
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.jobmanager.Job
-import org.thoughtcrime.securesms.jobmanager.JsonJobData
-import org.thoughtcrime.securesms.jobmanager.impl.AutoDownloadEmojiConstraint
-import org.thoughtcrime.securesms.providers.BlobProvider
-import org.thoughtcrime.securesms.s3.S3
-import org.thoughtcrime.securesms.transport.RetryLaterException
+import org.thoughtcrime.securesms.ryan.database.SignalDatabase
+import org.thoughtcrime.securesms.ryan.jobmanager.Job
+import org.thoughtcrime.securesms.ryan.jobmanager.JsonJobData
+import org.thoughtcrime.securesms.ryan.jobmanager.impl.AutoDownloadEmojiConstraint
+import org.thoughtcrime.securesms.ryan.providers.BlobProvider
+import org.thoughtcrime.securesms.ryan.s3.S3
+import org.thoughtcrime.securesms.ryan.transport.RetryLaterException
 import java.io.IOException
 import java.util.concurrent.TimeUnit
 

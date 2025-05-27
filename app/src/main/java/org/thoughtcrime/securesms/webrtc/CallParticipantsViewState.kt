@@ -1,7 +1,7 @@
-package org.thoughtcrime.securesms.webrtc
+package org.thoughtcrime.securesms.ryan.webrtc
 
-import org.thoughtcrime.securesms.components.webrtc.CallParticipantsState
-import org.thoughtcrime.securesms.service.webrtc.state.WebRtcEphemeralState
+import org.thoughtcrime.securesms.ryan.components.webrtc.CallParticipantsState
+import org.thoughtcrime.securesms.ryan.service.webrtc.state.WebRtcEphemeralState
 
 class CallParticipantsViewState(
   callParticipantsState: CallParticipantsState,

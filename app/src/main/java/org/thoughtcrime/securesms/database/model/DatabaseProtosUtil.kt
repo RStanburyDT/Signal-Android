@@ -1,9 +1,9 @@
 @file:JvmName("DatabaseProtosUtil")
 
-package org.thoughtcrime.securesms.database.model
+package org.thoughtcrime.securesms.ryan.database.model
 
-import org.thoughtcrime.securesms.database.model.databaseprotos.BodyRangeList
-import org.thoughtcrime.securesms.database.model.databaseprotos.PendingOneTimeDonation
+import org.thoughtcrime.securesms.ryan.database.model.databaseprotos.BodyRangeList
+import org.thoughtcrime.securesms.ryan.database.model.databaseprotos.PendingOneTimeDonation
 import org.whispersystems.signalservice.internal.push.BodyRange
 import kotlin.time.Duration.Companion.days
 

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.util;
+package org.thoughtcrime.securesms.ryan.util;
 
 import android.content.Context;
 import android.content.res.Resources;
@@ -37,7 +37,7 @@ import androidx.annotation.StyleRes;
 import androidx.core.content.ContextCompat;
 
 import org.signal.core.util.DimensionUnit;
-import org.thoughtcrime.securesms.R;
+import org.thoughtcrime.securesms.ryan.R;
 
 public final class SpanUtil {
 

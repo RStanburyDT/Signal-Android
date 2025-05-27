@@ -1,9 +1,13 @@
+<<<<<<< HEAD:app/src/main/java/org/thoughtcrime/securesms/components/DeviceSpecificNotificationBottomSheet.kt
+package org.thoughtcrime.securesms.ryan.components
+=======
 /*
  * Copyright 2025 Signal Messenger, LLC
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
 package org.thoughtcrime.securesms.components.compose
+>>>>>>> 23669c3c372284d42db486a218d9f29bef247abf:app/src/main/java/org/thoughtcrime/securesms/components/compose/DeviceSpecificNotificationBottomSheet.kt
 
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
@@ -29,12 +33,12 @@ import org.signal.core.ui.compose.BottomSheets
 import org.signal.core.ui.compose.Buttons
 import org.signal.core.ui.compose.Previews
 import org.signal.core.ui.compose.SignalPreview
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.compose.ComposeBottomSheetDialogFragment
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.notifications.DeviceSpecificNotificationConfig
-import org.thoughtcrime.securesms.util.BottomSheetUtil
-import org.thoughtcrime.securesms.util.CommunicationActions
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.compose.ComposeBottomSheetDialogFragment
+import org.thoughtcrime.securesms.ryan.keyvalue.SignalStore
+import org.thoughtcrime.securesms.ryan.notifications.DeviceSpecificNotificationConfig
+import org.thoughtcrime.securesms.ryan.util.BottomSheetUtil
+import org.thoughtcrime.securesms.ryan.util.CommunicationActions
 
 class DeviceSpecificNotificationBottomSheet : ComposeBottomSheetDialogFragment() {
 

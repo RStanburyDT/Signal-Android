@@ -1,6 +1,6 @@
-package org.thoughtcrime.securesms.stories.settings.custom
+package org.thoughtcrime.securesms.ryan.stories.settings.custom
 
-import org.thoughtcrime.securesms.database.model.DistributionListRecord
+import org.thoughtcrime.securesms.ryan.database.model.DistributionListRecord
 
 data class PrivateStorySettingsState(
   val privateStory: DistributionListRecord? = null,

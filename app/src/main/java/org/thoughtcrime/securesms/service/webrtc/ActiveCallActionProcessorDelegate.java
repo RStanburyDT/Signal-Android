@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.service.webrtc;
+package org.thoughtcrime.securesms.ryan.service.webrtc;
 
 import android.os.ResultReceiver;
 
@@ -10,22 +10,22 @@ import org.signal.core.util.logging.Log;
 import org.signal.ringrtc.CallException;
 import org.signal.ringrtc.CallId;
 import org.signal.ringrtc.CallManager.CallEvent;
-import org.thoughtcrime.securesms.dependencies.AppDependencies;
-import org.thoughtcrime.securesms.events.CallParticipant;
-import org.thoughtcrime.securesms.events.WebRtcViewModel;
-import org.thoughtcrime.securesms.ringrtc.CallState;
-import org.thoughtcrime.securesms.ringrtc.RemotePeer;
-import org.thoughtcrime.securesms.service.webrtc.state.WebRtcServiceState;
-import org.thoughtcrime.securesms.webrtc.audio.OutgoingRinger;
+import org.thoughtcrime.securesms.ryan.dependencies.AppDependencies;
+import org.thoughtcrime.securesms.ryan.events.CallParticipant;
+import org.thoughtcrime.securesms.ryan.events.WebRtcViewModel;
+import org.thoughtcrime.securesms.ryan.ringrtc.CallState;
+import org.thoughtcrime.securesms.ryan.ringrtc.RemotePeer;
+import org.thoughtcrime.securesms.ryan.service.webrtc.state.WebRtcServiceState;
+import org.thoughtcrime.securesms.ryan.webrtc.audio.OutgoingRinger;
 
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Objects;
 
-import static org.thoughtcrime.securesms.webrtc.CallNotificationBuilder.TYPE_ESTABLISHED;
-import static org.thoughtcrime.securesms.webrtc.CallNotificationBuilder.TYPE_INCOMING_CONNECTING;
-import static org.thoughtcrime.securesms.webrtc.CallNotificationBuilder.TYPE_INCOMING_RINGING;
-import static org.thoughtcrime.securesms.webrtc.CallNotificationBuilder.TYPE_OUTGOING_RINGING;
+import static org.thoughtcrime.securesms.ryan.webrtc.CallNotificationBuilder.TYPE_ESTABLISHED;
+import static org.thoughtcrime.securesms.ryan.webrtc.CallNotificationBuilder.TYPE_INCOMING_CONNECTING;
+import static org.thoughtcrime.securesms.ryan.webrtc.CallNotificationBuilder.TYPE_INCOMING_RINGING;
+import static org.thoughtcrime.securesms.ryan.webrtc.CallNotificationBuilder.TYPE_OUTGOING_RINGING;
 
 /**
  * Encapsulates the shared logic to manage an active 1:1 call. An active call is any call that is being setup

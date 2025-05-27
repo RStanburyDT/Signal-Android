@@ -1,15 +1,15 @@
-package org.thoughtcrime.securesms.events
+package org.thoughtcrime.securesms.ryan.events
 
 import com.annimon.stream.OptionalLong
 import org.signal.ringrtc.GroupCall.GroupCallEndReason
-import org.thoughtcrime.securesms.components.webrtc.BroadcastVideoSink
-import org.thoughtcrime.securesms.events.CallParticipant.Companion.createLocal
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.service.webrtc.CallLinkDisconnectReason
-import org.thoughtcrime.securesms.service.webrtc.PendingParticipantCollection
-import org.thoughtcrime.securesms.service.webrtc.state.WebRtcServiceState
-import org.thoughtcrime.securesms.webrtc.audio.SignalAudioManager
+import org.thoughtcrime.securesms.ryan.components.webrtc.BroadcastVideoSink
+import org.thoughtcrime.securesms.ryan.events.CallParticipant.Companion.createLocal
+import org.thoughtcrime.securesms.ryan.recipients.Recipient
+import org.thoughtcrime.securesms.ryan.recipients.RecipientId
+import org.thoughtcrime.securesms.ryan.service.webrtc.CallLinkDisconnectReason
+import org.thoughtcrime.securesms.ryan.service.webrtc.PendingParticipantCollection
+import org.thoughtcrime.securesms.ryan.service.webrtc.state.WebRtcServiceState
+import org.thoughtcrime.securesms.ryan.webrtc.audio.SignalAudioManager
 import org.webrtc.PeerConnection
 
 class WebRtcViewModel(state: WebRtcServiceState) {

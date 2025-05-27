@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.video.videoconverter.mediadatasource
+package org.thoughtcrime.securesms.ryan.video.videoconverter.mediadatasource
 
 import android.media.MediaDataSource
 import androidx.annotation.RequiresApi

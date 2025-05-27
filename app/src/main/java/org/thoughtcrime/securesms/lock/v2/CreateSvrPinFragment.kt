@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.lock.v2
+package org.thoughtcrime.securesms.ryan.lock.v2
 
 import android.view.animation.Animation
 import android.view.animation.TranslateAnimation
@@ -9,11 +9,11 @@ import androidx.core.content.ContextCompat
 import androidx.core.view.ViewCompat
 import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.Navigation.findNavController
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.lock.v2.CreateSvrPinViewModel.NavigationEvent
-import org.thoughtcrime.securesms.lock.v2.CreateSvrPinViewModel.PinErrorEvent
-import org.thoughtcrime.securesms.util.SpanUtil
-import org.thoughtcrime.securesms.util.navigation.safeNavigate
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.lock.v2.CreateSvrPinViewModel.NavigationEvent
+import org.thoughtcrime.securesms.ryan.lock.v2.CreateSvrPinViewModel.PinErrorEvent
+import org.thoughtcrime.securesms.ryan.util.SpanUtil
+import org.thoughtcrime.securesms.ryan.util.navigation.safeNavigate
 
 class CreateSvrPinFragment : BaseSvrPinFragment<CreateSvrPinViewModel?>() {
   override fun initializeViewStates() {

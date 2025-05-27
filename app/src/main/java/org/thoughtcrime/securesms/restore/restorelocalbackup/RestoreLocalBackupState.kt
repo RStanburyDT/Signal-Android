@@ -3,12 +3,12 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.restore.restorelocalbackup
+package org.thoughtcrime.securesms.ryan.restore.restorelocalbackup
 
 import android.net.Uri
-import org.thoughtcrime.securesms.restore.RestoreRepository
-import org.thoughtcrime.securesms.util.BackupUtil
-import org.thoughtcrime.securesms.util.BackupUtil.BackupInfo
+import org.thoughtcrime.securesms.ryan.restore.RestoreRepository
+import org.thoughtcrime.securesms.ryan.util.BackupUtil
+import org.thoughtcrime.securesms.ryan.util.BackupUtil.BackupInfo
 
 /**
  * State holder for a backup restore.

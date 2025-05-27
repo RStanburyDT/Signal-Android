@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.contacts.paged
+package org.thoughtcrime.securesms.ryan.contacts.paged
 
 enum class ContactSearchError {
   CONTACT_NOT_SELECTABLE,

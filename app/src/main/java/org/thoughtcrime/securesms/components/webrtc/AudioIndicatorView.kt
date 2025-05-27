@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.webrtc
+package org.thoughtcrime.securesms.ryan.components.webrtc
 
 import android.animation.ValueAnimator
 import android.content.Context
@@ -13,10 +13,10 @@ import android.view.animation.DecelerateInterpolator
 import android.widget.FrameLayout
 import androidx.core.content.ContextCompat
 import org.signal.core.util.DimensionUnit
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.events.CallParticipant
-import org.thoughtcrime.securesms.service.webrtc.WebRtcActionProcessor
-import org.thoughtcrime.securesms.util.visible
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.events.CallParticipant
+import org.thoughtcrime.securesms.ryan.service.webrtc.WebRtcActionProcessor
+import org.thoughtcrime.securesms.ryan.util.visible
 
 /**
  * An indicator shown for each participant in a call which shows the state of their audio.

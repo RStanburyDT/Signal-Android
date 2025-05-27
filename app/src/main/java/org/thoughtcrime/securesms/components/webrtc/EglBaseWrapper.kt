@@ -1,8 +1,8 @@
-package org.thoughtcrime.securesms.components.webrtc
+package org.thoughtcrime.securesms.ryan.components.webrtc
 
 import android.opengl.EGL14
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.components.webrtc.EglBaseWrapper.Companion.acquireEglBase
+import org.thoughtcrime.securesms.ryan.components.webrtc.EglBaseWrapper.Companion.acquireEglBase
 import org.webrtc.EglBase
 import org.webrtc.EglBase10
 import org.webrtc.EglBase14

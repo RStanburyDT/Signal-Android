@@ -1,18 +1,18 @@
-package org.thoughtcrime.securesms.jobmanager.migrations
+package org.thoughtcrime.securesms.ryan.jobmanager.migrations
 
 import io.mockk.every
 import io.mockk.mockk
 import org.junit.Assert.assertEquals
 import org.junit.Test
-import org.thoughtcrime.securesms.database.GroupTable
-import org.thoughtcrime.securesms.database.model.GroupRecord
-import org.thoughtcrime.securesms.groups.GroupId
-import org.thoughtcrime.securesms.jobmanager.JobMigration.JobData
-import org.thoughtcrime.securesms.jobmanager.JsonJobData
-import org.thoughtcrime.securesms.jobs.FailingJob
-import org.thoughtcrime.securesms.jobs.SenderKeyDistributionSendJob
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.util.Util
+import org.thoughtcrime.securesms.ryan.database.GroupTable
+import org.thoughtcrime.securesms.ryan.database.model.GroupRecord
+import org.thoughtcrime.securesms.ryan.groups.GroupId
+import org.thoughtcrime.securesms.ryan.jobmanager.JobMigration.JobData
+import org.thoughtcrime.securesms.ryan.jobmanager.JsonJobData
+import org.thoughtcrime.securesms.ryan.jobs.FailingJob
+import org.thoughtcrime.securesms.ryan.jobs.SenderKeyDistributionSendJob
+import org.thoughtcrime.securesms.ryan.recipients.RecipientId
+import org.thoughtcrime.securesms.ryan.util.Util
 import java.util.Optional
 
 class SenderKeyDistributionSendJobRecipientMigrationTest {

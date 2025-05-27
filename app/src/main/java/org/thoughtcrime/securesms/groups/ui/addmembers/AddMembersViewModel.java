@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.groups.ui.addmembers;
+package org.thoughtcrime.securesms.ryan.groups.ui.addmembers;
 
 import android.text.TextUtils;
 
@@ -9,12 +9,12 @@ import androidx.core.util.Consumer;
 import androidx.lifecycle.ViewModel;
 import androidx.lifecycle.ViewModelProvider;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.contacts.SelectedContact;
-import org.thoughtcrime.securesms.dependencies.AppDependencies;
-import org.thoughtcrime.securesms.groups.GroupId;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.recipients.RecipientId;
+import org.thoughtcrime.securesms.ryan.R;
+import org.thoughtcrime.securesms.ryan.contacts.SelectedContact;
+import org.thoughtcrime.securesms.ryan.dependencies.AppDependencies;
+import org.thoughtcrime.securesms.ryan.groups.GroupId;
+import org.thoughtcrime.securesms.ryan.recipients.Recipient;
+import org.thoughtcrime.securesms.ryan.recipients.RecipientId;
 import org.signal.core.util.concurrent.SimpleTask;
 import org.whispersystems.signalservice.api.util.Preconditions;
 

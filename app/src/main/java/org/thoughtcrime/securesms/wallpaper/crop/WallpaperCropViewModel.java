@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.wallpaper.crop;
+package org.thoughtcrime.securesms.ryan.wallpaper.crop;
 
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -16,13 +16,13 @@ import androidx.lifecycle.ViewModelProvider;
 import org.signal.core.util.concurrent.SignalExecutors;
 import org.signal.core.util.logging.Log;
 import org.signal.imageeditor.core.model.EditorModel;
-import org.thoughtcrime.securesms.fonts.FontTypefaceProvider;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.recipients.RecipientId;
-import org.thoughtcrime.securesms.util.AsynchronousCallback;
-import org.thoughtcrime.securesms.util.BitmapUtil;
-import org.thoughtcrime.securesms.util.livedata.LiveDataUtil;
-import org.thoughtcrime.securesms.wallpaper.ChatWallpaper;
+import org.thoughtcrime.securesms.ryan.fonts.FontTypefaceProvider;
+import org.thoughtcrime.securesms.ryan.recipients.Recipient;
+import org.thoughtcrime.securesms.ryan.recipients.RecipientId;
+import org.thoughtcrime.securesms.ryan.util.AsynchronousCallback;
+import org.thoughtcrime.securesms.ryan.util.BitmapUtil;
+import org.thoughtcrime.securesms.ryan.util.livedata.LiveDataUtil;
+import org.thoughtcrime.securesms.ryan.wallpaper.ChatWallpaper;
 
 import java.io.IOException;
 import java.util.Objects;

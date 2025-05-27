@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.database
+package org.thoughtcrime.securesms.ryan.database
 
 internal interface RecipientIdDatabaseReference {
   fun remapRecipient(fromId: RecipientId?, toId: RecipientId?)

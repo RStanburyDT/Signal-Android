@@ -1,6 +1,6 @@
-package org.thoughtcrime.securesms.util
+package org.thoughtcrime.securesms.ryan.util
 
-import org.thoughtcrime.securesms.BuildConfig
+import org.thoughtcrime.securesms.ryan.BuildConfig
 import java.util.concurrent.Executors
 import androidx.tracing.Trace as AndroidTrace
 

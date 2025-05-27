@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.stickers
+package org.thoughtcrime.securesms.ryan.stickers
 
 import androidx.annotation.Discouraged
 import kotlinx.coroutines.CoroutineScope
@@ -14,19 +14,19 @@ import kotlinx.coroutines.flow.callbackFlow
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
 import org.signal.core.util.requireNonNullString
-import org.thoughtcrime.securesms.database.AttachmentTable
-import org.thoughtcrime.securesms.database.DatabaseObserver
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.database.StickerTable
-import org.thoughtcrime.securesms.database.StickerTable.StickerPackRecordReader
-import org.thoughtcrime.securesms.database.model.StickerPackId
-import org.thoughtcrime.securesms.database.model.StickerPackKey
-import org.thoughtcrime.securesms.database.model.StickerPackRecord
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.jobmanager.JobManager
-import org.thoughtcrime.securesms.jobs.MultiDeviceStickerPackOperationJob
-import org.thoughtcrime.securesms.jobs.StickerPackDownloadJob
-import org.thoughtcrime.securesms.keyvalue.SignalStore
+import org.thoughtcrime.securesms.ryan.database.AttachmentTable
+import org.thoughtcrime.securesms.ryan.database.DatabaseObserver
+import org.thoughtcrime.securesms.ryan.database.SignalDatabase
+import org.thoughtcrime.securesms.ryan.database.StickerTable
+import org.thoughtcrime.securesms.ryan.database.StickerTable.StickerPackRecordReader
+import org.thoughtcrime.securesms.ryan.database.model.StickerPackId
+import org.thoughtcrime.securesms.ryan.database.model.StickerPackKey
+import org.thoughtcrime.securesms.ryan.database.model.StickerPackRecord
+import org.thoughtcrime.securesms.ryan.dependencies.AppDependencies
+import org.thoughtcrime.securesms.ryan.jobmanager.JobManager
+import org.thoughtcrime.securesms.ryan.jobs.MultiDeviceStickerPackOperationJob
+import org.thoughtcrime.securesms.ryan.jobs.StickerPackDownloadJob
+import org.thoughtcrime.securesms.ryan.keyvalue.SignalStore
 
 /**
  * Handles the retrieval and modification of sticker pack data.

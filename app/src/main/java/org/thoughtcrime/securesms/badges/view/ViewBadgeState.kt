@@ -1,7 +1,7 @@
-package org.thoughtcrime.securesms.badges.view
+package org.thoughtcrime.securesms.ryan.badges.view
 
-import org.thoughtcrime.securesms.badges.models.Badge
-import org.thoughtcrime.securesms.recipients.Recipient
+import org.thoughtcrime.securesms.ryan.badges.models.Badge
+import org.thoughtcrime.securesms.ryan.recipients.Recipient
 
 data class ViewBadgeState(
   val allBadgesVisibleOnProfile: List<Badge> = listOf(),

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.conversation
+package org.thoughtcrime.securesms.ryan.conversation
 
 import android.os.Handler
 import android.os.Looper
@@ -6,7 +6,7 @@ import androidx.annotation.VisibleForTesting
 import androidx.lifecycle.DefaultLifecycleObserver
 import androidx.lifecycle.LifecycleOwner
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.util.Util
+import org.thoughtcrime.securesms.ryan.util.Util
 import java.util.concurrent.TimeUnit
 
 /**

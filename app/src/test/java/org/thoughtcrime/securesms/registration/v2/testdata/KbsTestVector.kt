@@ -1,8 +1,8 @@
-package org.thoughtcrime.securesms.registration.v2.testdata
+package org.thoughtcrime.securesms.ryan.registration.v2.testdata
 
 import com.fasterxml.jackson.annotation.JsonProperty
 import com.fasterxml.jackson.databind.annotation.JsonDeserialize
-import org.thoughtcrime.securesms.testutil.HexDeserializer
+import org.thoughtcrime.securesms.ryan.testutil.HexDeserializer
 
 data class KbsTestVector(
   @JsonProperty("backup_id")

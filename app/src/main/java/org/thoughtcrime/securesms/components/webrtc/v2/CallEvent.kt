@@ -3,12 +3,16 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.webrtc.v2
+package org.thoughtcrime.securesms.ryan.components.webrtc.v2
 
+<<<<<<< HEAD
+import org.thoughtcrime.securesms.ryan.database.model.IdentityRecord
+=======
 import android.content.Context
 import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.database.model.IdentityRecord
 import org.thoughtcrime.securesms.recipients.Recipient
+>>>>>>> 23669c3c372284d42db486a218d9f29bef247abf
 
 /**
  * Replacement sealed class for WebRtcCallViewModel.Event

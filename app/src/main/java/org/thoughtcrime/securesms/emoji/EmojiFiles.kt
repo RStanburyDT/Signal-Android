@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.emoji
+package org.thoughtcrime.securesms.ryan.emoji
 
 import android.content.Context
 import android.net.Uri
@@ -13,10 +13,10 @@ import okio.blackholeSink
 import okio.buffer
 import okio.source
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.crypto.AttachmentSecretProvider
-import org.thoughtcrime.securesms.crypto.ModernDecryptingPartInputStream
-import org.thoughtcrime.securesms.crypto.ModernEncryptingPartOutputStream
-import org.thoughtcrime.securesms.mms.PartAuthority
+import org.thoughtcrime.securesms.ryan.crypto.AttachmentSecretProvider
+import org.thoughtcrime.securesms.ryan.crypto.ModernDecryptingPartInputStream
+import org.thoughtcrime.securesms.ryan.crypto.ModernEncryptingPartOutputStream
+import org.thoughtcrime.securesms.ryan.mms.PartAuthority
 import java.io.File
 import java.io.IOException
 import java.io.InputStream

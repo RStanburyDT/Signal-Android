@@ -1,7 +1,7 @@
-package org.thoughtcrime.securesms.keyvalue
+package org.thoughtcrime.securesms.ryan.keyvalue
 
 import org.signal.core.util.ByteSerializer
-import org.thoughtcrime.securesms.database.model.databaseprotos.PendingChangeNumberMetadata
+import org.thoughtcrime.securesms.ryan.database.model.databaseprotos.PendingChangeNumberMetadata
 
 /**
  * Serialize [PendingChangeNumberMetadata]

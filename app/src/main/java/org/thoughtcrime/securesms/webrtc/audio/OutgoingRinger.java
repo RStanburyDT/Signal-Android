@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.webrtc.audio;
+package org.thoughtcrime.securesms.ryan.webrtc.audio;
 
 import android.content.Context;
 import android.media.AudioAttributes;
@@ -10,7 +10,7 @@ import android.os.Build;
 import androidx.annotation.NonNull;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.R;
+import org.thoughtcrime.securesms.ryan.R;
 
 import java.io.IOException;
 

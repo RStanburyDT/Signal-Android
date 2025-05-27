@@ -1,16 +1,16 @@
-package org.thoughtcrime.securesms.jobs
+package org.thoughtcrime.securesms.ryan.jobs
 
 import androidx.annotation.VisibleForTesting
 import org.signal.core.util.Stopwatch
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.database.JobDatabase
-import org.thoughtcrime.securesms.jobmanager.Job
-import org.thoughtcrime.securesms.jobmanager.persistence.ConstraintSpec
-import org.thoughtcrime.securesms.jobmanager.persistence.DependencySpec
-import org.thoughtcrime.securesms.jobmanager.persistence.FullSpec
-import org.thoughtcrime.securesms.jobmanager.persistence.JobSpec
-import org.thoughtcrime.securesms.jobmanager.persistence.JobStorage
-import org.thoughtcrime.securesms.util.LRUCache
+import org.thoughtcrime.securesms.ryan.database.JobDatabase
+import org.thoughtcrime.securesms.ryan.jobmanager.Job
+import org.thoughtcrime.securesms.ryan.jobmanager.persistence.ConstraintSpec
+import org.thoughtcrime.securesms.ryan.jobmanager.persistence.DependencySpec
+import org.thoughtcrime.securesms.ryan.jobmanager.persistence.FullSpec
+import org.thoughtcrime.securesms.ryan.jobmanager.persistence.JobSpec
+import org.thoughtcrime.securesms.ryan.jobmanager.persistence.JobStorage
+import org.thoughtcrime.securesms.ryan.util.LRUCache
 import java.util.TreeSet
 import java.util.function.Predicate
 

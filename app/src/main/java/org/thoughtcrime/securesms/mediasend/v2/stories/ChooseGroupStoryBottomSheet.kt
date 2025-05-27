@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.mediasend.v2.stories
+package org.thoughtcrime.securesms.ryan.mediasend.v2.stories
 
 import android.animation.AnimatorSet
 import android.animation.ObjectAnimator
@@ -14,18 +14,18 @@ import androidx.fragment.app.setFragmentResult
 import androidx.recyclerview.widget.RecyclerView
 import org.signal.core.util.DimensionUnit
 import org.signal.core.util.getParcelableArrayListCompat
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.FixedRoundedCornerBottomSheetDialogFragment
-import org.thoughtcrime.securesms.contacts.paged.ContactSearchAdapter
-import org.thoughtcrime.securesms.contacts.paged.ContactSearchConfiguration
-import org.thoughtcrime.securesms.contacts.paged.ContactSearchKey
-import org.thoughtcrime.securesms.contacts.paged.ContactSearchMediator
-import org.thoughtcrime.securesms.contacts.paged.ContactSearchSortOrder
-import org.thoughtcrime.securesms.recipients.RecipientId
-import org.thoughtcrime.securesms.sharing.ShareContact
-import org.thoughtcrime.securesms.sharing.ShareSelectionAdapter
-import org.thoughtcrime.securesms.sharing.ShareSelectionMappingModel
-import org.thoughtcrime.securesms.util.RemoteConfig
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.components.FixedRoundedCornerBottomSheetDialogFragment
+import org.thoughtcrime.securesms.ryan.contacts.paged.ContactSearchAdapter
+import org.thoughtcrime.securesms.ryan.contacts.paged.ContactSearchConfiguration
+import org.thoughtcrime.securesms.ryan.contacts.paged.ContactSearchKey
+import org.thoughtcrime.securesms.ryan.contacts.paged.ContactSearchMediator
+import org.thoughtcrime.securesms.ryan.contacts.paged.ContactSearchSortOrder
+import org.thoughtcrime.securesms.ryan.recipients.RecipientId
+import org.thoughtcrime.securesms.ryan.sharing.ShareContact
+import org.thoughtcrime.securesms.ryan.sharing.ShareSelectionAdapter
+import org.thoughtcrime.securesms.ryan.sharing.ShareSelectionMappingModel
+import org.thoughtcrime.securesms.ryan.util.RemoteConfig
 
 class ChooseGroupStoryBottomSheet : FixedRoundedCornerBottomSheetDialogFragment() {
 

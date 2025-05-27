@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.thoughtcrime.securesms.mediaoverview;
+package org.thoughtcrime.securesms.ryan.mediaoverview;
 
 import android.content.Context;
 import android.content.Intent;
@@ -37,17 +37,17 @@ import com.google.android.material.tabs.TabLayout;
 import com.google.android.material.transition.platform.MaterialContainerTransformSharedElementCallback;
 
 import org.signal.libsignal.protocol.util.Pair;
-import org.thoughtcrime.securesms.PassphraseRequiredActivity;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.components.AnimatingToggle;
-import org.thoughtcrime.securesms.components.BoldSelectionTabItem;
-import org.thoughtcrime.securesms.components.ControllableTabLayout;
-import org.thoughtcrime.securesms.database.MediaTable;
-import org.thoughtcrime.securesms.database.MediaTable.Sorting;
-import org.thoughtcrime.securesms.database.SignalDatabase;
-import org.thoughtcrime.securesms.database.loaders.MediaLoader;
-import org.thoughtcrime.securesms.util.DynamicNoActionBarTheme;
-import org.thoughtcrime.securesms.util.DynamicTheme;
+import org.thoughtcrime.securesms.ryan.PassphraseRequiredActivity;
+import org.thoughtcrime.securesms.ryan.R;
+import org.thoughtcrime.securesms.ryan.components.AnimatingToggle;
+import org.thoughtcrime.securesms.ryan.components.BoldSelectionTabItem;
+import org.thoughtcrime.securesms.ryan.components.ControllableTabLayout;
+import org.thoughtcrime.securesms.ryan.database.MediaTable;
+import org.thoughtcrime.securesms.ryan.database.MediaTable.Sorting;
+import org.thoughtcrime.securesms.ryan.database.SignalDatabase;
+import org.thoughtcrime.securesms.ryan.database.loaders.MediaLoader;
+import org.thoughtcrime.securesms.ryan.util.DynamicNoActionBarTheme;
+import org.thoughtcrime.securesms.ryan.util.DynamicTheme;
 import org.signal.core.util.concurrent.SimpleTask;
 
 import java.util.ArrayList;

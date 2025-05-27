@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.contacts;
+package org.thoughtcrime.securesms.ryan.contacts;
 
 import android.database.Cursor;
 import android.database.CursorWrapper;
@@ -9,11 +9,11 @@ import androidx.annotation.WorkerThread;
 
 import org.signal.core.util.CursorUtil;
 import org.signal.libsignal.protocol.util.Pair;
-import org.thoughtcrime.securesms.contacts.paged.ContactSearchSortOrder;
-import org.thoughtcrime.securesms.database.RecipientTable;
-import org.thoughtcrime.securesms.database.SignalDatabase;
-import org.thoughtcrime.securesms.util.SignalE164Util;
-import org.thoughtcrime.securesms.util.Util;
+import org.thoughtcrime.securesms.ryan.contacts.paged.ContactSearchSortOrder;
+import org.thoughtcrime.securesms.ryan.database.RecipientTable;
+import org.thoughtcrime.securesms.ryan.database.SignalDatabase;
+import org.thoughtcrime.securesms.ryan.util.SignalE164Util;
+import org.thoughtcrime.securesms.ryan.util.Util;
 
 import java.util.ArrayList;
 import java.util.HashMap;

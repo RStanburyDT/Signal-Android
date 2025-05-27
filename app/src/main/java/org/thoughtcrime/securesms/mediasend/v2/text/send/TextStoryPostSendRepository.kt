@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.mediasend.v2.text.send
+package org.thoughtcrime.securesms.ryan.mediasend.v2.text.send
 
 import android.graphics.Bitmap
 import android.net.Uri
@@ -7,20 +7,20 @@ import io.reactivex.rxjava3.schedulers.Schedulers
 import org.signal.core.util.Base64
 import org.signal.core.util.ThreadUtil
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.contacts.paged.ContactSearchKey
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.database.model.StoryType
-import org.thoughtcrime.securesms.database.model.databaseprotos.StoryTextPost
-import org.thoughtcrime.securesms.fonts.TextFont
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.keyvalue.StorySend
-import org.thoughtcrime.securesms.linkpreview.LinkPreview
-import org.thoughtcrime.securesms.mediasend.v2.UntrustedRecords
-import org.thoughtcrime.securesms.mediasend.v2.text.TextStoryPostCreationState
-import org.thoughtcrime.securesms.mms.OutgoingMessage
-import org.thoughtcrime.securesms.providers.BlobProvider
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.stories.Stories
+import org.thoughtcrime.securesms.ryan.contacts.paged.ContactSearchKey
+import org.thoughtcrime.securesms.ryan.database.SignalDatabase
+import org.thoughtcrime.securesms.ryan.database.model.StoryType
+import org.thoughtcrime.securesms.ryan.database.model.databaseprotos.StoryTextPost
+import org.thoughtcrime.securesms.ryan.fonts.TextFont
+import org.thoughtcrime.securesms.ryan.keyvalue.SignalStore
+import org.thoughtcrime.securesms.ryan.keyvalue.StorySend
+import org.thoughtcrime.securesms.ryan.linkpreview.LinkPreview
+import org.thoughtcrime.securesms.ryan.mediasend.v2.UntrustedRecords
+import org.thoughtcrime.securesms.ryan.mediasend.v2.text.TextStoryPostCreationState
+import org.thoughtcrime.securesms.ryan.mms.OutgoingMessage
+import org.thoughtcrime.securesms.ryan.providers.BlobProvider
+import org.thoughtcrime.securesms.ryan.recipients.Recipient
+import org.thoughtcrime.securesms.ryan.stories.Stories
 import java.io.ByteArrayOutputStream
 
 private val TAG = Log.tag(TextStoryPostSendRepository::class.java)

@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.registrationv3.ui.restore
+package org.thoughtcrime.securesms.ryan.registrationv3.ui.restore
 
 import android.os.Bundle
 import android.view.View
@@ -22,17 +22,17 @@ import kotlinx.coroutines.flow.filterNotNull
 import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.launch
 import org.signal.core.ui.compose.Dialogs
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.contactsupport.ContactSupportDialog
-import org.thoughtcrime.securesms.components.contactsupport.ContactSupportViewModel
-import org.thoughtcrime.securesms.components.contactsupport.SendSupportEmailEffect
-import org.thoughtcrime.securesms.compose.ComposeFragment
-import org.thoughtcrime.securesms.registration.data.network.RegisterAccountResult
-import org.thoughtcrime.securesms.registrationv3.ui.RegistrationCheckpoint
-import org.thoughtcrime.securesms.registrationv3.ui.RegistrationViewModel
-import org.thoughtcrime.securesms.registrationv3.ui.phonenumber.EnterPhoneNumberMode
-import org.thoughtcrime.securesms.util.CommunicationActions
-import org.thoughtcrime.securesms.util.navigation.safeNavigate
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.components.contactsupport.ContactSupportDialog
+import org.thoughtcrime.securesms.ryan.components.contactsupport.ContactSupportViewModel
+import org.thoughtcrime.securesms.ryan.components.contactsupport.SendSupportEmailEffect
+import org.thoughtcrime.securesms.ryan.compose.ComposeFragment
+import org.thoughtcrime.securesms.ryan.registration.data.network.RegisterAccountResult
+import org.thoughtcrime.securesms.ryan.registrationv3.ui.RegistrationCheckpoint
+import org.thoughtcrime.securesms.ryan.registrationv3.ui.RegistrationViewModel
+import org.thoughtcrime.securesms.ryan.registrationv3.ui.phonenumber.EnterPhoneNumberMode
+import org.thoughtcrime.securesms.ryan.util.CommunicationActions
+import org.thoughtcrime.securesms.ryan.util.navigation.safeNavigate
 
 /**
  * Enter backup key screen for manual Signal Backups restore flow.

@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.billing
+package org.thoughtcrime.securesms.ryan.billing
 
 import android.content.Intent
 import android.net.Uri
@@ -12,8 +12,8 @@ import androidx.lifecycle.lifecycleScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.dependencies.GooglePlayBillingDependencies
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.dependencies.GooglePlayBillingDependencies
 
 /**
  * Launches user to the Google Play backups management screen.

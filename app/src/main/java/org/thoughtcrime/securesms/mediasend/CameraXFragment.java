@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.mediasend;
+package org.thoughtcrime.securesms.ryan.mediasend;
 
 import android.Manifest;
 import android.animation.Animator;
@@ -49,23 +49,23 @@ import org.signal.core.util.Stopwatch;
 import org.signal.core.util.concurrent.SimpleTask;
 import org.signal.core.util.logging.Log;
 import org.signal.qr.QrProcessor;
-import org.thoughtcrime.securesms.LoggingFragment;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.animation.AnimationCompleteListener;
-import org.thoughtcrime.securesms.components.TooltipPopup;
-import org.thoughtcrime.securesms.mediasend.camerax.CameraXFlashToggleView;
-import org.thoughtcrime.securesms.mediasend.camerax.CameraXModePolicy;
-import org.thoughtcrime.securesms.mediasend.camerax.CameraXUtil;
-import org.thoughtcrime.securesms.mediasend.v2.MediaAnimations;
-import org.thoughtcrime.securesms.mediasend.v2.MediaCountIndicatorButton;
-import org.thoughtcrime.securesms.mms.DecryptableStreamUriLoader.DecryptableUri;
-import org.thoughtcrime.securesms.mms.MediaConstraints;
-import org.thoughtcrime.securesms.permissions.Permissions;
-import org.thoughtcrime.securesms.util.BottomSheetUtil;
-import org.thoughtcrime.securesms.util.MemoryFileDescriptor;
-import org.thoughtcrime.securesms.util.TextSecurePreferences;
-import org.thoughtcrime.securesms.util.ViewUtil;
-import org.thoughtcrime.securesms.video.VideoUtil;
+import org.thoughtcrime.securesms.ryan.LoggingFragment;
+import org.thoughtcrime.securesms.ryan.R;
+import org.thoughtcrime.securesms.ryan.animation.AnimationCompleteListener;
+import org.thoughtcrime.securesms.ryan.components.TooltipPopup;
+import org.thoughtcrime.securesms.ryan.mediasend.camerax.CameraXFlashToggleView;
+import org.thoughtcrime.securesms.ryan.mediasend.camerax.CameraXModePolicy;
+import org.thoughtcrime.securesms.ryan.mediasend.camerax.CameraXUtil;
+import org.thoughtcrime.securesms.ryan.mediasend.v2.MediaAnimations;
+import org.thoughtcrime.securesms.ryan.mediasend.v2.MediaCountIndicatorButton;
+import org.thoughtcrime.securesms.ryan.mms.DecryptableStreamUriLoader.DecryptableUri;
+import org.thoughtcrime.securesms.ryan.mms.MediaConstraints;
+import org.thoughtcrime.securesms.ryan.permissions.Permissions;
+import org.thoughtcrime.securesms.ryan.util.BottomSheetUtil;
+import org.thoughtcrime.securesms.ryan.util.MemoryFileDescriptor;
+import org.thoughtcrime.securesms.ryan.util.TextSecurePreferences;
+import org.thoughtcrime.securesms.ryan.util.ViewUtil;
+import org.thoughtcrime.securesms.ryan.video.VideoUtil;
 
 import java.io.FileDescriptor;
 import java.io.IOException;
@@ -76,7 +76,7 @@ import java.util.concurrent.Executors;
 import io.reactivex.rxjava3.android.schedulers.AndroidSchedulers;
 import io.reactivex.rxjava3.disposables.Disposable;
 
-import static org.thoughtcrime.securesms.permissions.PermissionDeniedBottomSheet.showPermissionFragment;
+import static org.thoughtcrime.securesms.ryan.permissions.PermissionDeniedBottomSheet.showPermissionFragment;
 
 /**
  * Camera captured implemented using the CameraX SDK, which uses Camera2 under the hood. Should be

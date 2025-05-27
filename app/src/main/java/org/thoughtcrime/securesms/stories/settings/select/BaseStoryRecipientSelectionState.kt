@@ -1,8 +1,8 @@
-package org.thoughtcrime.securesms.stories.settings.select
+package org.thoughtcrime.securesms.ryan.stories.settings.select
 
-import org.thoughtcrime.securesms.database.model.DistributionListId
-import org.thoughtcrime.securesms.database.model.DistributionListRecord
-import org.thoughtcrime.securesms.recipients.RecipientId
+import org.thoughtcrime.securesms.ryan.database.model.DistributionListId
+import org.thoughtcrime.securesms.ryan.database.model.DistributionListRecord
+import org.thoughtcrime.securesms.ryan.recipients.RecipientId
 
 data class BaseStoryRecipientSelectionState(
   val distributionListId: DistributionListId?,

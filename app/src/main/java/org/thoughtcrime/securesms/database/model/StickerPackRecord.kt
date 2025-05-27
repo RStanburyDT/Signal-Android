@@ -1,9 +1,9 @@
-package org.thoughtcrime.securesms.database.model
+package org.thoughtcrime.securesms.ryan.database.model
 
 import java.util.Optional
 
 /**
- * Represents a record for a sticker pack in the [org.thoughtcrime.securesms.database.StickerTable].
+ * Represents a record for a sticker pack in the [org.thoughtcrime.securesms.ryan.database.StickerTable].
  */
 data class StickerPackRecord(
   @JvmField val packId: String,

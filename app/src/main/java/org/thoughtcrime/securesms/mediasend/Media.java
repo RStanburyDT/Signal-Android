@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.mediasend;
+package org.thoughtcrime.securesms.ryan.mediasend;
 
 import android.net.Uri;
 import android.os.Parcel;
@@ -7,8 +7,8 @@ import android.os.Parcelable;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import org.thoughtcrime.securesms.database.AttachmentTable;
-import org.thoughtcrime.securesms.util.MediaUtil;
+import org.thoughtcrime.securesms.ryan.database.AttachmentTable;
+import org.thoughtcrime.securesms.ryan.util.MediaUtil;
 import org.whispersystems.signalservice.api.util.Preconditions;
 import org.whispersystems.signalservice.internal.util.JsonUtil;
 
@@ -20,7 +20,7 @@ import java.util.Optional;
  */
 public class Media implements Parcelable {
 
-  public static final String ALL_MEDIA_BUCKET_ID = "org.thoughtcrime.securesms.ALL_MEDIA";
+  public static final String ALL_MEDIA_BUCKET_ID = "org.thoughtcrime.securesms.ryan.ALL_MEDIA";
 
   private final Uri    uri;
   private final String contentType;

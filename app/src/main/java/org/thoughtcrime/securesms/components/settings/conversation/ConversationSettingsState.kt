@@ -1,14 +1,14 @@
-package org.thoughtcrime.securesms.components.settings.conversation
+package org.thoughtcrime.securesms.ryan.components.settings.conversation
 
-import org.thoughtcrime.securesms.components.settings.conversation.preferences.ButtonStripPreference
-import org.thoughtcrime.securesms.components.settings.conversation.preferences.CallPreference
-import org.thoughtcrime.securesms.components.settings.conversation.preferences.LegacyGroupPreference
-import org.thoughtcrime.securesms.database.MediaTable
-import org.thoughtcrime.securesms.database.model.IdentityRecord
-import org.thoughtcrime.securesms.database.model.StoryViewState
-import org.thoughtcrime.securesms.groups.GroupId
-import org.thoughtcrime.securesms.groups.ui.GroupMemberEntry
-import org.thoughtcrime.securesms.recipients.Recipient
+import org.thoughtcrime.securesms.ryan.components.settings.conversation.preferences.ButtonStripPreference
+import org.thoughtcrime.securesms.ryan.components.settings.conversation.preferences.CallPreference
+import org.thoughtcrime.securesms.ryan.components.settings.conversation.preferences.LegacyGroupPreference
+import org.thoughtcrime.securesms.ryan.database.MediaTable
+import org.thoughtcrime.securesms.ryan.database.model.IdentityRecord
+import org.thoughtcrime.securesms.ryan.database.model.StoryViewState
+import org.thoughtcrime.securesms.ryan.groups.GroupId
+import org.thoughtcrime.securesms.ryan.groups.ui.GroupMemberEntry
+import org.thoughtcrime.securesms.ryan.recipients.Recipient
 
 data class ConversationSettingsState(
   val threadId: Long = -1,

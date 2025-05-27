@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.payments.preferences;
+package org.thoughtcrime.securesms.ryan.payments.preferences;
 
 import android.content.Context;
 import android.content.Intent;
@@ -9,15 +9,15 @@ import androidx.annotation.Nullable;
 import androidx.navigation.NavController;
 import androidx.navigation.Navigation;
 
-import org.thoughtcrime.securesms.PassphraseRequiredActivity;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.dependencies.AppDependencies;
-import org.thoughtcrime.securesms.jobs.PaymentLedgerUpdateJob;
-import org.thoughtcrime.securesms.payments.preferences.details.PaymentDetailsFragmentArgs;
-import org.thoughtcrime.securesms.payments.preferences.details.PaymentDetailsParcelable;
-import org.thoughtcrime.securesms.util.DynamicNoActionBarTheme;
-import org.thoughtcrime.securesms.util.DynamicTheme;
-import org.thoughtcrime.securesms.util.navigation.SafeNavigation;
+import org.thoughtcrime.securesms.ryan.PassphraseRequiredActivity;
+import org.thoughtcrime.securesms.ryan.R;
+import org.thoughtcrime.securesms.ryan.dependencies.AppDependencies;
+import org.thoughtcrime.securesms.ryan.jobs.PaymentLedgerUpdateJob;
+import org.thoughtcrime.securesms.ryan.payments.preferences.details.PaymentDetailsFragmentArgs;
+import org.thoughtcrime.securesms.ryan.payments.preferences.details.PaymentDetailsParcelable;
+import org.thoughtcrime.securesms.ryan.util.DynamicNoActionBarTheme;
+import org.thoughtcrime.securesms.ryan.util.DynamicTheme;
+import org.thoughtcrime.securesms.ryan.util.navigation.SafeNavigation;
 
 import java.util.UUID;
 

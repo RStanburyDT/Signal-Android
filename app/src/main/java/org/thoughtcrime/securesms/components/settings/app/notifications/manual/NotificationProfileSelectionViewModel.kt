@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.settings.app.notifications.manual
+package org.thoughtcrime.securesms.ryan.components.settings.app.notifications.manual
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.ViewModel
@@ -7,11 +7,11 @@ import io.reactivex.rxjava3.core.Observable
 import io.reactivex.rxjava3.disposables.CompositeDisposable
 import io.reactivex.rxjava3.kotlin.plusAssign
 import io.reactivex.rxjava3.kotlin.subscribeBy
-import org.thoughtcrime.securesms.components.settings.app.notifications.profiles.NotificationProfilesRepository
-import org.thoughtcrime.securesms.notifications.profiles.NotificationProfile
-import org.thoughtcrime.securesms.util.isBetween
-import org.thoughtcrime.securesms.util.livedata.Store
-import org.thoughtcrime.securesms.util.toMillis
+import org.thoughtcrime.securesms.ryan.components.settings.app.notifications.profiles.NotificationProfilesRepository
+import org.thoughtcrime.securesms.ryan.notifications.profiles.NotificationProfile
+import org.thoughtcrime.securesms.ryan.util.isBetween
+import org.thoughtcrime.securesms.ryan.util.livedata.Store
+import org.thoughtcrime.securesms.ryan.util.toMillis
 import java.time.LocalDateTime
 import java.util.concurrent.TimeUnit
 

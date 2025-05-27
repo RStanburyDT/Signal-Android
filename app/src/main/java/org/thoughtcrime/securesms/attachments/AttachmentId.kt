@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.attachments
+package org.thoughtcrime.securesms.ryan.attachments
 
 import android.os.Parcelable
 import com.fasterxml.jackson.annotation.JsonProperty

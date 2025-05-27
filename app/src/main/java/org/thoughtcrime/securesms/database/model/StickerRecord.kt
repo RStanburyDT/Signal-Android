@@ -1,7 +1,7 @@
-package org.thoughtcrime.securesms.database.model
+package org.thoughtcrime.securesms.ryan.database.model
 
 import android.net.Uri
-import org.thoughtcrime.securesms.mms.PartAuthority
+import org.thoughtcrime.securesms.ryan.mms.PartAuthority
 
 /**
  * Represents a record for a sticker pack in the [org.thoughtcrime.securesms.database.StickerTable].

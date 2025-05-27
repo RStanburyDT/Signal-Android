@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.settings.app.usernamelinks.main
+package org.thoughtcrime.securesms.ryan.components.settings.app.usernamelinks.main
 
 import android.content.Context
 import android.content.Intent
@@ -13,9 +13,9 @@ import android.view.WindowManager
 import androidx.activity.result.contract.ActivityResultContract
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.app.AppCompatDelegate
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.mediasend.Media
-import org.thoughtcrime.securesms.mediasend.v2.gallery.MediaGalleryFragment
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.mediasend.Media
+import org.thoughtcrime.securesms.ryan.mediasend.v2.gallery.MediaGalleryFragment
 
 /**
  * Select qr code from gallery instead of using camera. Used in usernames and when linking devices

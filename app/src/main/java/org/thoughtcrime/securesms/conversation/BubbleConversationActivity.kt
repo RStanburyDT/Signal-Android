@@ -1,8 +1,8 @@
-package org.thoughtcrime.securesms.conversation
+package org.thoughtcrime.securesms.ryan.conversation
 
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.conversation.v2.ConversationActivity
-import org.thoughtcrime.securesms.util.ViewUtil
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.conversation.v2.ConversationActivity
+import org.thoughtcrime.securesms.ryan.util.ViewUtil
 
 /**
  * Activity which encapsulates a conversation for a Bubble window.

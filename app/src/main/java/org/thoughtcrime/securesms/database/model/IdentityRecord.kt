@@ -1,8 +1,8 @@
-package org.thoughtcrime.securesms.database.model
+package org.thoughtcrime.securesms.ryan.database.model
 
 import org.signal.libsignal.protocol.IdentityKey
-import org.thoughtcrime.securesms.database.IdentityTable
-import org.thoughtcrime.securesms.recipients.RecipientId
+import org.thoughtcrime.securesms.ryan.database.IdentityTable
+import org.thoughtcrime.securesms.ryan.recipients.RecipientId
 
 data class IdentityRecord(
   val recipientId: RecipientId,

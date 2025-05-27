@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.settings.app.appearance.appicon
+package org.thoughtcrime.securesms.ryan.components.settings.app.appearance.appicon
 
 import android.content.Context
 import androidx.compose.animation.core.CubicBezierEasing
@@ -51,11 +51,11 @@ import kotlinx.collections.immutable.toImmutableList
 import org.signal.core.ui.compose.Scaffolds
 import org.signal.core.ui.compose.theme.SignalTheme
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.settings.app.appearance.appicon.util.AppIconPreset
-import org.thoughtcrime.securesms.components.settings.app.appearance.appicon.util.AppIconUtility
-import org.thoughtcrime.securesms.compose.ComposeFragment
-import org.thoughtcrime.securesms.util.navigation.safeNavigate
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.components.settings.app.appearance.appicon.util.AppIconPreset
+import org.thoughtcrime.securesms.ryan.components.settings.app.appearance.appicon.util.AppIconUtility
+import org.thoughtcrime.securesms.ryan.compose.ComposeFragment
+import org.thoughtcrime.securesms.ryan.util.navigation.safeNavigate
 
 class AppIconSelectionFragment : ComposeFragment() {
   private lateinit var appIconUtility: AppIconUtility

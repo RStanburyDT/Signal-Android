@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.jobmanager;
+package org.thoughtcrime.securesms.ryan.jobmanager;
 
 import android.app.Application;
 import android.content.Intent;
@@ -12,14 +12,14 @@ import androidx.annotation.WorkerThread;
 
 import org.signal.core.util.ThreadUtil;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.jobmanager.impl.DefaultExecutorFactory;
-import org.thoughtcrime.securesms.jobmanager.persistence.JobSpec;
-import org.thoughtcrime.securesms.jobmanager.persistence.JobStorage;
-import org.thoughtcrime.securesms.jobs.MinimalJobSpec;
-import org.thoughtcrime.securesms.util.Debouncer;
-import org.thoughtcrime.securesms.util.TextSecurePreferences;
-import org.thoughtcrime.securesms.util.Util;
-import org.thoughtcrime.securesms.util.concurrent.FilteredExecutor;
+import org.thoughtcrime.securesms.ryan.jobmanager.impl.DefaultExecutorFactory;
+import org.thoughtcrime.securesms.ryan.jobmanager.persistence.JobSpec;
+import org.thoughtcrime.securesms.ryan.jobmanager.persistence.JobStorage;
+import org.thoughtcrime.securesms.ryan.jobs.MinimalJobSpec;
+import org.thoughtcrime.securesms.ryan.util.Debouncer;
+import org.thoughtcrime.securesms.ryan.util.TextSecurePreferences;
+import org.thoughtcrime.securesms.ryan.util.Util;
+import org.thoughtcrime.securesms.ryan.util.concurrent.FilteredExecutor;
 
 import java.util.ArrayList;
 import java.util.Collection;
@@ -65,7 +65,7 @@ public class JobManager implements ConstraintObserver.Notifier {
     this.application   = application;
     this.configuration = configuration;
     this.executor      = new FilteredExecutor(configuration.getExecutorFactory().newSingleThreadExecutor("signal-JobManager"), () -> {
-      return ThreadUtil.isMainThread() || Thread.currentThread().getName().equals("Instr: org.thoughtcrime.securesms.testing.SignalTestRunner");
+      return ThreadUtil.isMainThread() || Thread.currentThread().getName().equals("Instr: org.thoughtcrime.securesms.ryan.testing.SignalTestRunner");
     });
     this.jobTracker    = configuration.getJobTracker();
     this.jobController = new JobController(application,

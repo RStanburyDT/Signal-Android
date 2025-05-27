@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.groups.ui.addtogroup;
+package org.thoughtcrime.securesms.ryan.groups.ui.addtogroup;
 
 import android.app.Application;
 
@@ -7,15 +7,15 @@ import androidx.lifecycle.ViewModel;
 import androidx.lifecycle.ViewModelProvider;
 
 import org.signal.core.util.concurrent.SignalExecutors;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.dependencies.AppDependencies;
-import org.thoughtcrime.securesms.groups.ui.GroupChangeFailureReason;
-import org.thoughtcrime.securesms.groups.ui.GroupErrors;
-import org.thoughtcrime.securesms.groups.v2.GroupAddMembersResult;
-import org.thoughtcrime.securesms.groups.v2.GroupManagementRepository;
-import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.recipients.RecipientId;
-import org.thoughtcrime.securesms.util.SingleLiveEvent;
+import org.thoughtcrime.securesms.ryan.R;
+import org.thoughtcrime.securesms.ryan.dependencies.AppDependencies;
+import org.thoughtcrime.securesms.ryan.groups.ui.GroupChangeFailureReason;
+import org.thoughtcrime.securesms.ryan.groups.ui.GroupErrors;
+import org.thoughtcrime.securesms.ryan.groups.v2.GroupAddMembersResult;
+import org.thoughtcrime.securesms.ryan.groups.v2.GroupManagementRepository;
+import org.thoughtcrime.securesms.ryan.recipients.Recipient;
+import org.thoughtcrime.securesms.ryan.recipients.RecipientId;
+import org.thoughtcrime.securesms.ryan.util.SingleLiveEvent;
 
 import java.util.Collections;
 import java.util.List;

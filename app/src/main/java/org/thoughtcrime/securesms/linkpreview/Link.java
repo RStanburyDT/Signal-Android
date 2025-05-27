@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.linkpreview;
+package org.thoughtcrime.securesms.ryan.linkpreview;
 
 public class Link {
 

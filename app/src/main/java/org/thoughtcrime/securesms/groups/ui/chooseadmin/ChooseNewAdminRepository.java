@@ -1,16 +1,16 @@
-package org.thoughtcrime.securesms.groups.ui.chooseadmin;
+package org.thoughtcrime.securesms.ryan.groups.ui.chooseadmin;
 
 import android.app.Application;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.WorkerThread;
 
-import org.thoughtcrime.securesms.groups.GroupChangeException;
-import org.thoughtcrime.securesms.groups.GroupId;
-import org.thoughtcrime.securesms.groups.GroupManager;
-import org.thoughtcrime.securesms.groups.ui.GroupChangeFailureReason;
-import org.thoughtcrime.securesms.groups.ui.GroupChangeResult;
-import org.thoughtcrime.securesms.recipients.RecipientId;
+import org.thoughtcrime.securesms.ryan.groups.GroupChangeException;
+import org.thoughtcrime.securesms.ryan.groups.GroupId;
+import org.thoughtcrime.securesms.ryan.groups.GroupManager;
+import org.thoughtcrime.securesms.ryan.groups.ui.GroupChangeFailureReason;
+import org.thoughtcrime.securesms.ryan.groups.ui.GroupChangeResult;
+import org.thoughtcrime.securesms.ryan.recipients.RecipientId;
 
 import java.io.IOException;
 import java.util.List;

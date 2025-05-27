@@ -1,8 +1,8 @@
-package org.thoughtcrime.securesms.components.settings.app.internal.donor
+package org.thoughtcrime.securesms.ryan.components.settings.app.internal.donor
 
 import org.signal.donations.StripeDeclineCode
-import org.thoughtcrime.securesms.badges.models.Badge
-import org.thoughtcrime.securesms.components.settings.app.subscription.errors.UnexpectedSubscriptionCancellation
+import org.thoughtcrime.securesms.ryan.badges.models.Badge
+import org.thoughtcrime.securesms.ryan.components.settings.app.subscription.errors.UnexpectedSubscriptionCancellation
 
 data class InternalDonorErrorConfigurationState(
   val badges: List<Badge> = emptyList(),

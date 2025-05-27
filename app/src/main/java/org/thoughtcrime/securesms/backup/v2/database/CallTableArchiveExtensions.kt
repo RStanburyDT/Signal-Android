@@ -3,10 +3,10 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.backup.v2.database
+package org.thoughtcrime.securesms.ryan.backup.v2.database
 
 import org.signal.core.util.select
-import org.thoughtcrime.securesms.database.CallTable
+import org.thoughtcrime.securesms.ryan.database.CallTable
 
 fun CallTable.getAdhocCallsForBackup(): AdHocCallArchiveExporter {
   return AdHocCallArchiveExporter(

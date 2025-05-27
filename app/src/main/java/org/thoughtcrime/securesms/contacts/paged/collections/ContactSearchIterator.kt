@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.contacts.paged.collections
+package org.thoughtcrime.securesms.ryan.contacts.paged.collections
 
 import java.io.Closeable
 

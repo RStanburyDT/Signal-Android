@@ -3,12 +3,12 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.webrtc.v2
+package org.thoughtcrime.securesms.ryan.components.webrtc.v2
 
 import androidx.annotation.RequiresApi
-import org.thoughtcrime.securesms.components.webrtc.CallParticipantsState
-import org.thoughtcrime.securesms.components.webrtc.WebRtcAudioDevice
-import org.thoughtcrime.securesms.components.webrtc.WebRtcAudioOutput
+import org.thoughtcrime.securesms.ryan.components.webrtc.CallParticipantsState
+import org.thoughtcrime.securesms.ryan.components.webrtc.WebRtcAudioDevice
+import org.thoughtcrime.securesms.ryan.components.webrtc.WebRtcAudioOutput
 
 /**
  * Mediator callbacks for call screen signals.

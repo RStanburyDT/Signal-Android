@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.linkdevice
+package org.thoughtcrime.securesms.ryan.linkdevice
 
 import android.os.Bundle
 import android.view.View
@@ -66,15 +66,15 @@ import org.signal.core.ui.compose.Previews
 import org.signal.core.ui.compose.Scaffolds
 import org.signal.core.ui.compose.SignalPreview
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.BiometricDeviceAuthentication
-import org.thoughtcrime.securesms.BiometricDeviceLockContract
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.compose.ComposeFragment
-import org.thoughtcrime.securesms.linkdevice.LinkDeviceSettingsState.DialogState
-import org.thoughtcrime.securesms.util.CommunicationActions
-import org.thoughtcrime.securesms.util.DateUtils
-import org.thoughtcrime.securesms.util.SupportEmailUtil
-import org.thoughtcrime.securesms.util.navigation.safeNavigate
+import org.thoughtcrime.securesms.ryan.BiometricDeviceAuthentication
+import org.thoughtcrime.securesms.ryan.BiometricDeviceLockContract
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.compose.ComposeFragment
+import org.thoughtcrime.securesms.ryan.linkdevice.LinkDeviceSettingsState.DialogState
+import org.thoughtcrime.securesms.ryan.util.CommunicationActions
+import org.thoughtcrime.securesms.ryan.util.DateUtils
+import org.thoughtcrime.securesms.ryan.util.SupportEmailUtil
+import org.thoughtcrime.securesms.ryan.util.navigation.safeNavigate
 import java.util.Locale
 
 private const val PLACEHOLDER = "__ICON_PLACEHOLDER__"

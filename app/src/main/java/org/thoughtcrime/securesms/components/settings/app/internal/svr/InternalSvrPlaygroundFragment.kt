@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.settings.app.internal.svr
+package org.thoughtcrime.securesms.ryan.components.settings.app.internal.svr
 
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
@@ -27,7 +27,7 @@ import androidx.fragment.app.viewModels
 import kotlinx.collections.immutable.persistentListOf
 import org.signal.core.ui.compose.Rows
 import org.signal.core.ui.compose.theme.SignalTheme
-import org.thoughtcrime.securesms.compose.ComposeFragment
+import org.thoughtcrime.securesms.ryan.compose.ComposeFragment
 
 class InternalSvrPlaygroundFragment : ComposeFragment() {
 

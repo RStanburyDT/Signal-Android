@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.util.views;
+package org.thoughtcrime.securesms.ryan.util.views;
 
 import android.content.Context;
 import android.util.AttributeSet;

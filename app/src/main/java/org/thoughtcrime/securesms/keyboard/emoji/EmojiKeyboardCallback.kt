@@ -1,7 +1,7 @@
-package org.thoughtcrime.securesms.keyboard.emoji
+package org.thoughtcrime.securesms.ryan.keyboard.emoji
 
-import org.thoughtcrime.securesms.components.emoji.EmojiEventListener
-import org.thoughtcrime.securesms.keyboard.emoji.search.EmojiSearchFragment
+import org.thoughtcrime.securesms.ryan.components.emoji.EmojiEventListener
+import org.thoughtcrime.securesms.ryan.keyboard.emoji.search.EmojiSearchFragment
 
 interface EmojiKeyboardCallback :
   EmojiEventListener,

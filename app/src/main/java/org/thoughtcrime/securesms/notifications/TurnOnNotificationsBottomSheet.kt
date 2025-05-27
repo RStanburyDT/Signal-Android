@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.notifications
+package org.thoughtcrime.securesms.ryan.notifications
 
 import android.content.Context
 import android.content.Intent
@@ -40,9 +40,9 @@ import androidx.core.os.bundleOf
 import org.signal.core.ui.compose.BottomSheets
 import org.signal.core.ui.compose.Buttons
 import org.signal.core.ui.compose.theme.SignalTheme
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.settings.app.AppSettingsActivity
-import org.thoughtcrime.securesms.compose.ComposeBottomSheetDialogFragment
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.components.settings.app.AppSettingsActivity
+import org.thoughtcrime.securesms.ryan.compose.ComposeBottomSheetDialogFragment
 import org.signal.core.ui.R as CoreUiR
 
 private const val PLACEHOLDER = "__TOGGLE_PLACEHOLDER__"

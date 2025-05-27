@@ -3,10 +3,10 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.registration.ui.phonenumber
+package org.thoughtcrime.securesms.ryan.registration.ui.phonenumber
 
-import org.thoughtcrime.securesms.registration.data.RegistrationRepository
-import org.thoughtcrime.securesms.registration.ui.countrycode.Country
+import org.thoughtcrime.securesms.ryan.registration.data.RegistrationRepository
+import org.thoughtcrime.securesms.ryan.registration.ui.countrycode.Country
 
 /**
  * State holder for the phone number entry screen, including phone number and Play Services errors.

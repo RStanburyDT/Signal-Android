@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.webrtc.v2
+package org.thoughtcrime.securesms.ryan.components.webrtc.v2
 
 import android.content.res.Configuration
 import android.view.LayoutInflater
@@ -13,10 +13,10 @@ import androidx.compose.runtime.Immutable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalConfiguration
 import androidx.compose.ui.viewinterop.AndroidView
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.webrtc.CallParticipantsLayout
-import org.thoughtcrime.securesms.components.webrtc.CallParticipantsLayoutStrategies
-import org.thoughtcrime.securesms.events.CallParticipant
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.components.webrtc.CallParticipantsLayout
+import org.thoughtcrime.securesms.ryan.components.webrtc.CallParticipantsLayoutStrategies
+import org.thoughtcrime.securesms.ryan.events.CallParticipant
 
 @Composable
 fun CallParticipantsPager(

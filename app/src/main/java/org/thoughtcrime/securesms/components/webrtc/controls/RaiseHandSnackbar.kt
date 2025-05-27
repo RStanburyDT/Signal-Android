@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.webrtc.controls
+package org.thoughtcrime.securesms.ryan.components.webrtc.controls
 
 import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.animation.animateContentSize
@@ -48,12 +48,12 @@ import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.map
 import org.signal.core.ui.compose.theme.SignalTheme
 import org.signal.ringrtc.GroupCall
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.webrtc.v2.WebRtcCallViewModel
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.events.CallParticipant
-import org.thoughtcrime.securesms.events.GroupCallRaiseHandEvent
-import org.thoughtcrime.securesms.events.GroupCallSpeechEvent
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.components.webrtc.v2.WebRtcCallViewModel
+import org.thoughtcrime.securesms.ryan.dependencies.AppDependencies
+import org.thoughtcrime.securesms.ryan.events.CallParticipant
+import org.thoughtcrime.securesms.ryan.events.GroupCallRaiseHandEvent
+import org.thoughtcrime.securesms.ryan.events.GroupCallSpeechEvent
 import java.util.concurrent.TimeUnit
 import kotlin.math.max
 import kotlin.time.Duration

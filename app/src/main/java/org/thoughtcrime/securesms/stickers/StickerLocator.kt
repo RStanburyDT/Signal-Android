@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.stickers
+package org.thoughtcrime.securesms.ryan.stickers
 
 import android.os.Parcelable
 import kotlinx.parcelize.Parcelize

@@ -3,18 +3,18 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.apkupdate;
+package org.thoughtcrime.securesms.ryan.apkupdate;
 
 
 import android.content.Context;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.BuildConfig;
-import org.thoughtcrime.securesms.dependencies.AppDependencies;
-import org.thoughtcrime.securesms.jobs.ApkUpdateJob;
-import org.thoughtcrime.securesms.service.PersistentAlarmManagerListener;
-import org.thoughtcrime.securesms.util.Environment;
-import org.thoughtcrime.securesms.util.TextSecurePreferences;
+import org.thoughtcrime.securesms.ryan.BuildConfig;
+import org.thoughtcrime.securesms.ryan.dependencies.AppDependencies;
+import org.thoughtcrime.securesms.ryan.jobs.ApkUpdateJob;
+import org.thoughtcrime.securesms.ryan.service.PersistentAlarmManagerListener;
+import org.thoughtcrime.securesms.ryan.util.Environment;
+import org.thoughtcrime.securesms.ryan.util.TextSecurePreferences;
 
 import java.util.concurrent.TimeUnit;
 

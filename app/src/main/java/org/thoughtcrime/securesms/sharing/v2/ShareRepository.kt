@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.sharing.v2
+package org.thoughtcrime.securesms.ryan.sharing.v2
 
 import android.content.Context
 import android.net.Uri
@@ -9,11 +9,11 @@ import androidx.core.util.toKotlinPair
 import io.reactivex.rxjava3.core.Single
 import io.reactivex.rxjava3.schedulers.Schedulers
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.mediasend.Media
-import org.thoughtcrime.securesms.providers.BlobProvider
-import org.thoughtcrime.securesms.util.MediaUtil
-import org.thoughtcrime.securesms.util.RemoteConfig
-import org.thoughtcrime.securesms.util.UriUtil
+import org.thoughtcrime.securesms.ryan.mediasend.Media
+import org.thoughtcrime.securesms.ryan.providers.BlobProvider
+import org.thoughtcrime.securesms.ryan.util.MediaUtil
+import org.thoughtcrime.securesms.ryan.util.RemoteConfig
+import org.thoughtcrime.securesms.ryan.util.UriUtil
 import java.io.IOException
 import java.io.InputStream
 import java.util.Optional

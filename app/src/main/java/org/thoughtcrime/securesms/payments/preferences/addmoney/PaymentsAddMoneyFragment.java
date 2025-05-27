@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.payments.preferences.addmoney;
+package org.thoughtcrime.securesms.ryan.payments.preferences.addmoney;
 
 import android.content.ClipData;
 import android.content.ClipboardManager;
@@ -14,10 +14,10 @@ import androidx.appcompat.widget.Toolbar;
 import androidx.lifecycle.ViewModelProvider;
 import androidx.navigation.Navigation;
 
-import org.thoughtcrime.securesms.LoggingFragment;
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.components.qr.QrView;
-import org.thoughtcrime.securesms.util.views.LearnMoreTextView;
+import org.thoughtcrime.securesms.ryan.LoggingFragment;
+import org.thoughtcrime.securesms.ryan.R;
+import org.thoughtcrime.securesms.ryan.components.qr.QrView;
+import org.thoughtcrime.securesms.ryan.util.views.LearnMoreTextView;
 
 public final class PaymentsAddMoneyFragment extends LoggingFragment {
 

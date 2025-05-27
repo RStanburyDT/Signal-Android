@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.stories
+package org.thoughtcrime.securesms.ryan.stories
 
 import android.app.Application
 import android.graphics.drawable.Drawable
@@ -22,9 +22,9 @@ import org.junit.runner.RunWith
 import org.robolectric.RobolectricTestRunner
 import org.robolectric.Shadows.shadowOf
 import org.robolectric.annotation.Config
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.blurhash.BlurHash
-import org.thoughtcrime.securesms.util.visible
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.blurhash.BlurHash
+import org.thoughtcrime.securesms.ryan.util.visible
 
 @RunWith(RobolectricTestRunner::class)
 @Config(application = Application::class)

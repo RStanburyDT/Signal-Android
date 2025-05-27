@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.service
+package org.thoughtcrime.securesms.ryan.service
 
 import android.app.PendingIntent
 import android.app.Service
@@ -12,11 +12,11 @@ import androidx.core.app.NotificationCompat
 import androidx.core.app.ServiceCompat
 import org.signal.core.util.PendingIntentFlags.mutable
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.MainActivity
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.jobs.ForegroundServiceUtil
-import org.thoughtcrime.securesms.jobs.UnableToStartException
-import org.thoughtcrime.securesms.notifications.NotificationChannels
+import org.thoughtcrime.securesms.ryan.MainActivity
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.jobs.ForegroundServiceUtil
+import org.thoughtcrime.securesms.ryan.jobs.UnableToStartException
+import org.thoughtcrime.securesms.ryan.notifications.NotificationChannels
 import org.whispersystems.signalservice.api.util.Preconditions
 import java.util.concurrent.atomic.AtomicInteger
 import java.util.concurrent.locks.ReentrantLock

@@ -1,12 +1,12 @@
-package org.thoughtcrime.securesms.stories.settings.privacy
+package org.thoughtcrime.securesms.ryan.stories.settings.privacy
 
 import androidx.appcompat.widget.Toolbar
 import androidx.fragment.app.DialogFragment
 import androidx.fragment.app.Fragment
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.WrapperDialogFragment
-import org.thoughtcrime.securesms.database.model.DistributionListId
-import org.thoughtcrime.securesms.stories.settings.select.BaseStoryRecipientSelectionFragment
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.components.WrapperDialogFragment
+import org.thoughtcrime.securesms.ryan.database.model.DistributionListId
+import org.thoughtcrime.securesms.ryan.stories.settings.select.BaseStoryRecipientSelectionFragment
 
 abstract class ChangeMyStoryMembershipFragment : BaseStoryRecipientSelectionFragment() {
   override val actionButtonLabel: Int = R.string.HideStoryFromFragment__done

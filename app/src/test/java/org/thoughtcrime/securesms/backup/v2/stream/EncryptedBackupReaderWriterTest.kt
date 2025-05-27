@@ -3,16 +3,16 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.backup.v2.stream
+package org.thoughtcrime.securesms.ryan.backup.v2.stream
 
 import org.junit.Assert.assertEquals
 import org.junit.Test
 import org.signal.core.util.Base64
 import org.signal.core.util.Hex
-import org.thoughtcrime.securesms.backup.v2.proto.AccountData
-import org.thoughtcrime.securesms.backup.v2.proto.BackupInfo
-import org.thoughtcrime.securesms.backup.v2.proto.Frame
-import org.thoughtcrime.securesms.util.Util
+import org.thoughtcrime.securesms.ryan.backup.v2.proto.AccountData
+import org.thoughtcrime.securesms.ryan.backup.v2.proto.BackupInfo
+import org.thoughtcrime.securesms.ryan.backup.v2.proto.Frame
+import org.thoughtcrime.securesms.ryan.util.Util
 import org.whispersystems.signalservice.api.backup.MessageBackupKey
 import org.whispersystems.signalservice.api.push.ServiceId.ACI
 import java.io.ByteArrayOutputStream

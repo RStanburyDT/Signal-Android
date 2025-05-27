@@ -10,7 +10,11 @@
     android:layout_gravity="center_vertical"
     android:orientation="horizontal">
 
+<<<<<<< HEAD
+    <org.thoughtcrime.securesms.ryan.components.emoji.EmojiImageView
+=======
     <org.thoughtcrime.securesms.components.emoji.EmojiTextView
+>>>>>>> 23669c3c372284d42db486a218d9f29bef247abf
         android:id="@+id/webrtc_call_reaction_emoji_view"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
@@ -18,7 +22,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginEnd="8dp"/>
 
-    <org.thoughtcrime.securesms.components.emoji.EmojiTextView
+    <org.thoughtcrime.securesms.ryan.components.emoji.EmojiTextView
         android:id="@+id/webrtc_call_reaction_name_textview"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"

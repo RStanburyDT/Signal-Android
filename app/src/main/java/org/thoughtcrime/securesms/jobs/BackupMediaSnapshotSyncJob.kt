@@ -3,11 +3,21 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.jobs
+package org.thoughtcrime.securesms.ryan.jobs
 
 import org.signal.core.util.forEach
 import org.signal.core.util.logging.Log
 import org.signal.core.util.nullIfBlank
+<<<<<<< HEAD
+import org.thoughtcrime.securesms.ryan.backup.v2.ArchivedMediaObject
+import org.thoughtcrime.securesms.ryan.backup.v2.BackupRepository
+import org.thoughtcrime.securesms.ryan.database.SignalDatabase
+import org.thoughtcrime.securesms.ryan.dependencies.AppDependencies
+import org.thoughtcrime.securesms.ryan.jobmanager.Job
+import org.thoughtcrime.securesms.ryan.jobmanager.impl.NetworkConstraint
+import org.thoughtcrime.securesms.ryan.jobs.protos.BackupMediaSnapshotSyncJobData
+import org.thoughtcrime.securesms.ryan.keyvalue.SignalStore
+=======
 import org.thoughtcrime.securesms.backup.v2.ArchivedMediaObject
 import org.thoughtcrime.securesms.backup.v2.BackupRepository
 import org.thoughtcrime.securesms.database.BackupMediaSnapshotTable
@@ -17,6 +27,7 @@ import org.thoughtcrime.securesms.jobmanager.Job
 import org.thoughtcrime.securesms.jobmanager.impl.NetworkConstraint
 import org.thoughtcrime.securesms.jobs.protos.BackupMediaSnapshotSyncJobData
 import org.thoughtcrime.securesms.keyvalue.SignalStore
+>>>>>>> 23669c3c372284d42db486a218d9f29bef247abf
 import org.whispersystems.signalservice.api.NetworkResult
 import org.whispersystems.signalservice.api.archive.ArchiveGetMediaItemsResponse
 import java.lang.RuntimeException
@@ -27,7 +38,7 @@ import kotlin.time.Duration.Companion.hours
  * When we delete attachments locally, we can't immediately delete them from the archive CDN. This is because there is still a backup that exists that
  * references that attachment -- at least until a new backup is made.
  *
- * This job uses data we store locally in [org.thoughtcrime.securesms.database.BackupMediaSnapshotTable] to determine which media objects can be safely
+ * This job uses data we store locally in [org.thoughtcrime.securesms.ryan.database.BackupMediaSnapshotTable] to determine which media objects can be safely
  * deleted from the archive CDN, and then deletes them.
  */
 class BackupMediaSnapshotSyncJob private constructor(

@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.notifications.profiles
+package org.thoughtcrime.securesms.ryan.notifications.profiles
 
 import org.signal.core.util.DatabaseId
 import org.whispersystems.signalservice.api.util.UuidUtil

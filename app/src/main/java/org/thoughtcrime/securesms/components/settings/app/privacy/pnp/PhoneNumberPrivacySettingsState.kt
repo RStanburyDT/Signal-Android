@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.settings.app.privacy.pnp
+package org.thoughtcrime.securesms.ryan.components.settings.app.privacy.pnp
 
 data class PhoneNumberPrivacySettingsState(
   val phoneNumberSharing: Boolean,

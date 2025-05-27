@@ -1,12 +1,12 @@
-package org.thoughtcrime.securesms.avatar
+package org.thoughtcrime.securesms.ryan.avatar
 
 import android.content.Context
 import android.graphics.Paint
 import androidx.annotation.ColorInt
 import androidx.annotation.DrawableRes
 import androidx.annotation.Px
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.conversation.colors.AvatarColor
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.conversation.colors.AvatarColor
 import kotlin.math.abs
 import kotlin.math.min
 

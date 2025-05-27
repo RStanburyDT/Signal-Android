@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.conversationlist.model
+package org.thoughtcrime.securesms.ryan.conversationlist.model
 
 /**
  * Describes what conversations should display in the

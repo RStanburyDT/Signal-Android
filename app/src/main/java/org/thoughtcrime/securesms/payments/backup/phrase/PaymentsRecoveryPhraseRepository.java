@@ -1,17 +1,17 @@
-package org.thoughtcrime.securesms.payments.backup.phrase;
+package org.thoughtcrime.securesms.ryan.payments.backup.phrase;
 
 import androidx.annotation.NonNull;
 import androidx.core.util.Consumer;
 
 import org.signal.core.util.concurrent.SignalExecutors;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.database.SignalDatabase;
-import org.thoughtcrime.securesms.dependencies.AppDependencies;
-import org.thoughtcrime.securesms.jobs.PaymentLedgerUpdateJob;
-import org.thoughtcrime.securesms.jobs.ProfileUploadJob;
-import org.thoughtcrime.securesms.keyvalue.PaymentsValues;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
-import org.thoughtcrime.securesms.util.Util;
+import org.thoughtcrime.securesms.ryan.database.SignalDatabase;
+import org.thoughtcrime.securesms.ryan.dependencies.AppDependencies;
+import org.thoughtcrime.securesms.ryan.jobs.PaymentLedgerUpdateJob;
+import org.thoughtcrime.securesms.ryan.jobs.ProfileUploadJob;
+import org.thoughtcrime.securesms.ryan.keyvalue.PaymentsValues;
+import org.thoughtcrime.securesms.ryan.keyvalue.SignalStore;
+import org.thoughtcrime.securesms.ryan.util.Util;
 
 import java.util.List;
 

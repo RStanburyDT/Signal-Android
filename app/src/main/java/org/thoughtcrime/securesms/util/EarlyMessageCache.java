@@ -1,9 +1,9 @@
-package org.thoughtcrime.securesms.util;
+package org.thoughtcrime.securesms.ryan.util;
 
 import androidx.annotation.NonNull;
 
-import org.thoughtcrime.securesms.database.model.ServiceMessageId;
-import org.thoughtcrime.securesms.recipients.RecipientId;
+import org.thoughtcrime.securesms.ryan.database.model.ServiceMessageId;
+import org.thoughtcrime.securesms.ryan.recipients.RecipientId;
 
 import java.util.Collection;
 import java.util.HashSet;

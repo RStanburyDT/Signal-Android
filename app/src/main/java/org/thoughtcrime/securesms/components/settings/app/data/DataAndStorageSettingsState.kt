@@ -1,7 +1,7 @@
-package org.thoughtcrime.securesms.components.settings.app.data
+package org.thoughtcrime.securesms.ryan.components.settings.app.data
 
-import org.thoughtcrime.securesms.mms.SentMediaQuality
-import org.thoughtcrime.securesms.webrtc.CallDataMode
+import org.thoughtcrime.securesms.ryan.mms.SentMediaQuality
+import org.thoughtcrime.securesms.ryan.webrtc.CallDataMode
 
 data class DataAndStorageSettingsState(
   val totalStorageUse: Long,

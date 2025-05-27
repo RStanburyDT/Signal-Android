@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.mention;
+package org.thoughtcrime.securesms.ryan.components.mention;
 
 import android.text.Annotation;
 import android.text.Editable;

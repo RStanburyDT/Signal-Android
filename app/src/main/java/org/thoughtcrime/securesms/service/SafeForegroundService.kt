@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.service
+package org.thoughtcrime.securesms.ryan.service
 
 import android.app.Notification
 import android.app.Service
@@ -15,8 +15,8 @@ import android.os.IBinder
 import androidx.annotation.RequiresApi
 import androidx.core.app.ServiceCompat
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.jobs.ForegroundServiceUtil
-import org.thoughtcrime.securesms.jobs.UnableToStartException
+import org.thoughtcrime.securesms.ryan.jobs.ForegroundServiceUtil
+import org.thoughtcrime.securesms.ryan.jobs.UnableToStartException
 import java.util.concurrent.locks.ReentrantLock
 import javax.annotation.CheckReturnValue
 import kotlin.concurrent.withLock

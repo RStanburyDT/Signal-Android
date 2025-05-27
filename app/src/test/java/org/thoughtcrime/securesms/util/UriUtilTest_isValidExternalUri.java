@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.util;
+package org.thoughtcrime.securesms.ryan.util;
 
 import android.app.Application;
 import android.content.Context;
@@ -28,7 +28,7 @@ public class UriUtilTest_isValidExternalUri {
   private final String  input;
   private final boolean output;
 
-  private static final String APPLICATION_ID = "org.thoughtcrime.securesms";
+  private static final String APPLICATION_ID = "org.thoughtcrime.securesms.ryan";
 
   @ParameterizedRobolectricTestRunner.Parameters
   public static Collection<Object[]> data() {

@@ -1,10 +1,10 @@
-package org.thoughtcrime.securesms.database.helpers.migration
+package org.thoughtcrime.securesms.ryan.database.helpers.migration
 
 import android.app.Application
 import org.signal.core.util.SqlUtil
 import org.signal.core.util.Stopwatch
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.database.SQLiteDatabase
+import org.thoughtcrime.securesms.ryan.database.SQLiteDatabase
 
 /**
  * We've seen evidence of some users missing certain triggers. This migration checks for that, and if so, will completely tear down and rebuild the FTS.

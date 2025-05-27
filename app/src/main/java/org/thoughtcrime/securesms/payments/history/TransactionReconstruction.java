@@ -1,10 +1,10 @@
-package org.thoughtcrime.securesms.payments.history;
+package org.thoughtcrime.securesms.ryan.payments.history;
 
 import androidx.annotation.NonNull;
 
 import com.annimon.stream.ComparatorCompat;
 
-import org.thoughtcrime.securesms.payments.Direction;
+import org.thoughtcrime.securesms.ryan.payments.Direction;
 import org.whispersystems.signalservice.api.payments.Money;
 
 import java.util.ArrayList;

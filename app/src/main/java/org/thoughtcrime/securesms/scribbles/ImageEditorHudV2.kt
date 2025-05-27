@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.scribbles
+package org.thoughtcrime.securesms.ryan.scribbles
 
 import android.animation.Animator
 import android.animation.AnimatorSet
@@ -19,16 +19,16 @@ import androidx.core.animation.doOnEnd
 import androidx.core.content.ContextCompat
 import com.airbnb.lottie.SimpleColorFilter
 import com.google.android.material.materialswitch.MaterialSwitch
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.components.TooltipPopup
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.mediasend.v2.MediaAnimations
-import org.thoughtcrime.securesms.scribbles.HSVColorSlider.getColor
-import org.thoughtcrime.securesms.scribbles.HSVColorSlider.setColor
-import org.thoughtcrime.securesms.scribbles.HSVColorSlider.setUpForColor
-import org.thoughtcrime.securesms.util.Debouncer
-import org.thoughtcrime.securesms.util.ViewUtil
-import org.thoughtcrime.securesms.util.visible
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.components.TooltipPopup
+import org.thoughtcrime.securesms.ryan.keyvalue.SignalStore
+import org.thoughtcrime.securesms.ryan.mediasend.v2.MediaAnimations
+import org.thoughtcrime.securesms.ryan.scribbles.HSVColorSlider.getColor
+import org.thoughtcrime.securesms.ryan.scribbles.HSVColorSlider.setColor
+import org.thoughtcrime.securesms.ryan.scribbles.HSVColorSlider.setUpForColor
+import org.thoughtcrime.securesms.ryan.util.Debouncer
+import org.thoughtcrime.securesms.ryan.util.ViewUtil
+import org.thoughtcrime.securesms.ryan.util.visible
 
 class ImageEditorHudV2 @JvmOverloads constructor(
   context: Context,

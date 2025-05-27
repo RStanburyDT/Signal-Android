@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.emoji;
+package org.thoughtcrime.securesms.ryan.components.emoji;
 
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -18,14 +18,14 @@ import androidx.annotation.Nullable;
 
 import org.signal.core.util.ThreadUtil;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.components.emoji.parsing.EmojiDrawInfo;
-import org.thoughtcrime.securesms.components.emoji.parsing.EmojiParser;
-import org.thoughtcrime.securesms.emoji.EmojiPageCache;
-import org.thoughtcrime.securesms.emoji.EmojiSource;
-import org.thoughtcrime.securesms.emoji.JumboEmoji;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
-import org.thoughtcrime.securesms.util.DeviceProperties;
-import org.thoughtcrime.securesms.util.FutureTaskListener;
+import org.thoughtcrime.securesms.ryan.components.emoji.parsing.EmojiDrawInfo;
+import org.thoughtcrime.securesms.ryan.components.emoji.parsing.EmojiParser;
+import org.thoughtcrime.securesms.ryan.emoji.EmojiPageCache;
+import org.thoughtcrime.securesms.ryan.emoji.EmojiSource;
+import org.thoughtcrime.securesms.ryan.emoji.JumboEmoji;
+import org.thoughtcrime.securesms.ryan.keyvalue.SignalStore;
+import org.thoughtcrime.securesms.ryan.util.DeviceProperties;
+import org.thoughtcrime.securesms.ryan.util.FutureTaskListener;
 
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.TimeUnit;

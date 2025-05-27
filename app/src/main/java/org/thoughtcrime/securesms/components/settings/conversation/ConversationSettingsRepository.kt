@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components.settings.conversation
+package org.thoughtcrime.securesms.ryan.components.settings.conversation
 
 import android.content.Context
 import android.database.Cursor
@@ -11,6 +11,28 @@ import kotlinx.coroutines.rx3.asObservable
 import org.signal.core.util.concurrent.SignalExecutors
 import org.signal.core.util.logging.Log
 import org.signal.storageservice.protos.groups.local.DecryptedGroup
+<<<<<<< HEAD
+import org.thoughtcrime.securesms.ryan.contacts.sync.ContactDiscovery
+import org.thoughtcrime.securesms.ryan.database.CallTable
+import org.thoughtcrime.securesms.ryan.database.MediaTable
+import org.thoughtcrime.securesms.ryan.database.SignalDatabase
+import org.thoughtcrime.securesms.ryan.database.model.GroupRecord
+import org.thoughtcrime.securesms.ryan.database.model.IdentityRecord
+import org.thoughtcrime.securesms.ryan.database.model.MessageRecord
+import org.thoughtcrime.securesms.ryan.database.model.StoryViewState
+import org.thoughtcrime.securesms.ryan.dependencies.AppDependencies
+import org.thoughtcrime.securesms.ryan.groups.GroupId
+import org.thoughtcrime.securesms.ryan.groups.GroupProtoUtil
+import org.thoughtcrime.securesms.ryan.groups.GroupsInCommonRepository
+import org.thoughtcrime.securesms.ryan.groups.LiveGroup
+import org.thoughtcrime.securesms.ryan.groups.v2.GroupAddMembersResult
+import org.thoughtcrime.securesms.ryan.groups.v2.GroupManagementRepository
+import org.thoughtcrime.securesms.ryan.keyvalue.SignalStore
+import org.thoughtcrime.securesms.ryan.recipients.Recipient
+import org.thoughtcrime.securesms.ryan.recipients.RecipientId
+import org.thoughtcrime.securesms.ryan.recipients.RecipientUtil
+import org.thoughtcrime.securesms.ryan.util.RemoteConfig
+=======
 import org.thoughtcrime.securesms.contacts.sync.ContactDiscovery
 import org.thoughtcrime.securesms.database.CallTable
 import org.thoughtcrime.securesms.database.MediaTable
@@ -33,6 +55,7 @@ import org.thoughtcrime.securesms.recipients.Recipient
 import org.thoughtcrime.securesms.recipients.RecipientId
 import org.thoughtcrime.securesms.recipients.RecipientUtil
 import org.thoughtcrime.securesms.util.RemoteConfig
+>>>>>>> 23669c3c372284d42db486a218d9f29bef247abf
 import java.io.IOException
 
 private val TAG = Log.tag(ConversationSettingsRepository::class.java)

@@ -2,9 +2,9 @@
  * Copyright 2023 Signal Messenger, LLC
  * SPDX-License-Identifier: AGPL-3.0-only
  */
-package org.thoughtcrime.securesms.messagerequests
+package org.thoughtcrime.securesms.ryan.messagerequests
 
-import org.thoughtcrime.securesms.recipients.Recipient
+import org.thoughtcrime.securesms.ryan.recipients.Recipient
 
 /**
  * Thread recipient and message request state information necessary to render

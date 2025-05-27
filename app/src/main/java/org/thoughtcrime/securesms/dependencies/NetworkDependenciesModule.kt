@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.dependencies
+package org.thoughtcrime.securesms.ryan.dependencies
 
 import android.app.Application
 import io.reactivex.rxjava3.disposables.CompositeDisposable
@@ -15,15 +15,15 @@ import org.signal.core.util.logging.Log
 import org.signal.core.util.resettableLazy
 import org.signal.libsignal.net.Network
 import org.signal.libsignal.zkgroup.receipts.ClientZkReceiptOperations
-import org.thoughtcrime.securesms.crypto.storage.SignalServiceDataStoreImpl
-import org.thoughtcrime.securesms.groups.GroupsV2Authorization
-import org.thoughtcrime.securesms.groups.GroupsV2AuthorizationMemoryValueCache
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.messages.IncomingMessageObserver
-import org.thoughtcrime.securesms.net.StandardUserAgentInterceptor
-import org.thoughtcrime.securesms.payments.Payments
-import org.thoughtcrime.securesms.push.SignalServiceNetworkAccess
-import org.thoughtcrime.securesms.push.SignalServiceTrustStore
+import org.thoughtcrime.securesms.ryan.crypto.storage.SignalServiceDataStoreImpl
+import org.thoughtcrime.securesms.ryan.groups.GroupsV2Authorization
+import org.thoughtcrime.securesms.ryan.groups.GroupsV2AuthorizationMemoryValueCache
+import org.thoughtcrime.securesms.ryan.keyvalue.SignalStore
+import org.thoughtcrime.securesms.ryan.messages.IncomingMessageObserver
+import org.thoughtcrime.securesms.ryan.net.StandardUserAgentInterceptor
+import org.thoughtcrime.securesms.ryan.payments.Payments
+import org.thoughtcrime.securesms.ryan.push.SignalServiceNetworkAccess
+import org.thoughtcrime.securesms.ryan.push.SignalServiceTrustStore
 import org.whispersystems.signalservice.api.SignalServiceAccountManager
 import org.whispersystems.signalservice.api.SignalServiceMessageReceiver
 import org.whispersystems.signalservice.api.SignalServiceMessageSender

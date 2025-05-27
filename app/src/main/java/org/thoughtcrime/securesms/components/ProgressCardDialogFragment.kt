@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components
+package org.thoughtcrime.securesms.ryan.components
 
 import android.annotation.SuppressLint
 import android.app.Dialog
@@ -9,7 +9,7 @@ import android.view.View
 import androidx.annotation.Discouraged
 import androidx.fragment.app.DialogFragment
 import androidx.navigation.fragment.navArgs
-import org.thoughtcrime.securesms.R
+import org.thoughtcrime.securesms.ryan.R
 
 /**
  * Displays a small progress spinner in a card view, as a non-cancellable dialog fragment.

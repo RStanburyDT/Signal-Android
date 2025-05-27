@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.stickers
+package org.thoughtcrime.securesms.ryan.stickers
 
 import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.animation.expandHorizontally
@@ -36,6 +36,14 @@ import org.signal.core.ui.compose.Previews
 import org.signal.core.ui.compose.SignalPreview
 import org.signal.core.ui.compose.theme.SignalTheme
 import org.signal.core.util.nullIfBlank
+<<<<<<< HEAD
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.components.transfercontrols.TransferProgressIndicator
+import org.thoughtcrime.securesms.ryan.components.transfercontrols.TransferProgressState
+import org.thoughtcrime.securesms.ryan.compose.GlideImage
+import org.thoughtcrime.securesms.ryan.mms.DecryptableStreamUriLoader.DecryptableUri
+import org.thoughtcrime.securesms.ryan.stickers.AvailableStickerPack.DownloadStatus
+=======
 import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.components.compose.RoundCheckbox
 import org.thoughtcrime.securesms.components.transfercontrols.TransferProgressIndicator
@@ -44,6 +52,7 @@ import org.thoughtcrime.securesms.compose.GlideImage
 import org.thoughtcrime.securesms.mms.DecryptableStreamUriLoader.DecryptableUri
 import org.thoughtcrime.securesms.stickers.AvailableStickerPack.DownloadStatus
 import org.thoughtcrime.securesms.util.DeviceProperties
+>>>>>>> 23669c3c372284d42db486a218d9f29bef247abf
 
 @Composable
 fun StickerPackSectionHeader(

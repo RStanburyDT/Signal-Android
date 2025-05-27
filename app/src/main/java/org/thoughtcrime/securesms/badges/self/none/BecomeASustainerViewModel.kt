@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.badges.self.none
+package org.thoughtcrime.securesms.ryan.badges.self.none
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.ViewModel
@@ -6,8 +6,8 @@ import io.reactivex.rxjava3.disposables.CompositeDisposable
 import io.reactivex.rxjava3.kotlin.plusAssign
 import io.reactivex.rxjava3.kotlin.subscribeBy
 import org.signal.core.util.logging.Log
-import org.thoughtcrime.securesms.components.settings.app.subscription.RecurringInAppPaymentRepository
-import org.thoughtcrime.securesms.util.livedata.Store
+import org.thoughtcrime.securesms.ryan.components.settings.app.subscription.RecurringInAppPaymentRepository
+import org.thoughtcrime.securesms.ryan.util.livedata.Store
 
 class BecomeASustainerViewModel : ViewModel() {
 

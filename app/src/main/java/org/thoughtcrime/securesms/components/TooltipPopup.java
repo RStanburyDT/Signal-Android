@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.components;
+package org.thoughtcrime.securesms.ryan.components;
 
 import android.content.Context;
 import android.graphics.PorterDuff;
@@ -24,7 +24,7 @@ import com.google.android.material.shape.ShapeAppearanceModel;
 
 import org.signal.core.util.DimensionUnit;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.R;
+import org.thoughtcrime.securesms.ryan.R;
 
 /**
  * Class for creating simple tooltips to show throughout the app. Utilizes a popup window so you

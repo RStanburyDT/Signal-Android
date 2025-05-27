@@ -3,18 +3,18 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.jobs
+package org.thoughtcrime.securesms.ryan.jobs
 
 import org.signal.core.util.Base64
 import org.signal.core.util.logging.Log
 import org.signal.core.util.roundedString
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.devicelist.protos.DeviceName
-import org.thoughtcrime.securesms.jobmanager.Job
-import org.thoughtcrime.securesms.jobmanager.impl.NetworkConstraint
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.keyvalue.protos.LeastActiveLinkedDevice
-import org.thoughtcrime.securesms.registration.secondary.DeviceNameCipher
+import org.thoughtcrime.securesms.ryan.dependencies.AppDependencies
+import org.thoughtcrime.securesms.ryan.devicelist.protos.DeviceName
+import org.thoughtcrime.securesms.ryan.jobmanager.Job
+import org.thoughtcrime.securesms.ryan.jobmanager.impl.NetworkConstraint
+import org.thoughtcrime.securesms.ryan.keyvalue.SignalStore
+import org.thoughtcrime.securesms.ryan.keyvalue.protos.LeastActiveLinkedDevice
+import org.thoughtcrime.securesms.ryan.registration.secondary.DeviceNameCipher
 import org.whispersystems.signalservice.api.push.SignalServiceAddress
 import java.io.IOException
 import kotlin.time.Duration.Companion.days

@@ -1,8 +1,8 @@
-package org.thoughtcrime.securesms.mediasend.v2.text
+package org.thoughtcrime.securesms.ryan.mediasend.v2.text
 
 import android.view.Gravity
 import androidx.annotation.DrawableRes
-import org.thoughtcrime.securesms.R
+import org.thoughtcrime.securesms.ryan.R
 
 enum class TextAlignment(val gravity: Int, @DrawableRes val icon: Int) {
   START(Gravity.START or Gravity.CENTER_VERTICAL, R.drawable.ic_text_start),

@@ -1,10 +1,10 @@
-package org.thoughtcrime.securesms.mediasend.v2.gallery
+package org.thoughtcrime.securesms.ryan.mediasend.v2.gallery
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import org.thoughtcrime.securesms.mediasend.MediaFolder
-import org.thoughtcrime.securesms.util.livedata.Store
+import org.thoughtcrime.securesms.ryan.mediasend.MediaFolder
+import org.thoughtcrime.securesms.ryan.util.livedata.Store
 
 class MediaGalleryViewModel(bucketId: String?, bucketTitle: String?, private val repository: MediaGalleryRepository) : ViewModel() {
 

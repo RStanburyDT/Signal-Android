@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.backup.v2.ui.subscription
+package org.thoughtcrime.securesms.ryan.backup.v2.ui.subscription
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.Arrangement
@@ -60,11 +60,11 @@ import org.signal.core.ui.compose.Previews
 import org.signal.core.ui.compose.Scaffolds
 import org.signal.core.ui.compose.SignalPreview
 import org.signal.core.ui.compose.horizontalGutters
-import org.thoughtcrime.securesms.R
-import org.thoughtcrime.securesms.fonts.MonoTypeface
-import org.thoughtcrime.securesms.registrationv3.ui.restore.BackupKeyVisualTransformation
-import org.thoughtcrime.securesms.registrationv3.ui.restore.attachBackupKeyAutoFillHelper
-import org.thoughtcrime.securesms.registrationv3.ui.restore.backupKeyAutoFillHelper
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.fonts.MonoTypeface
+import org.thoughtcrime.securesms.ryan.registrationv3.ui.restore.BackupKeyVisualTransformation
+import org.thoughtcrime.securesms.ryan.registrationv3.ui.restore.attachBackupKeyAutoFillHelper
+import org.thoughtcrime.securesms.ryan.registrationv3.ui.restore.backupKeyAutoFillHelper
 import org.whispersystems.signalservice.api.AccountEntropyPool
 import kotlin.random.Random
 import kotlin.random.nextInt

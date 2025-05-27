@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.calls.new
+package org.thoughtcrime.securesms.ryan.calls.new
 
 import android.content.Context
 import android.content.Intent
@@ -11,6 +11,21 @@ import androidx.core.view.MenuProvider
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import org.signal.core.util.concurrent.SimpleTask
 import org.signal.core.util.logging.Log
+<<<<<<< HEAD
+import org.thoughtcrime.securesms.ryan.ContactSelectionActivity
+import org.thoughtcrime.securesms.ryan.ContactSelectionListFragment
+import org.thoughtcrime.securesms.ryan.InviteActivity
+import org.thoughtcrime.securesms.ryan.R
+import org.thoughtcrime.securesms.ryan.calls.YouAreAlreadyInACallSnackbar
+import org.thoughtcrime.securesms.ryan.contacts.ContactSelectionDisplayMode
+import org.thoughtcrime.securesms.ryan.contacts.paged.ChatType
+import org.thoughtcrime.securesms.ryan.keyvalue.SignalStore
+import org.thoughtcrime.securesms.ryan.recipients.Recipient
+import org.thoughtcrime.securesms.ryan.recipients.RecipientId
+import org.thoughtcrime.securesms.ryan.recipients.RecipientRepository
+import org.thoughtcrime.securesms.ryan.util.CommunicationActions
+import org.thoughtcrime.securesms.ryan.util.views.SimpleProgressDialog
+=======
 import org.thoughtcrime.securesms.ContactSelectionActivity
 import org.thoughtcrime.securesms.ContactSelectionListFragment
 import org.thoughtcrime.securesms.R
@@ -24,6 +39,7 @@ import org.thoughtcrime.securesms.recipients.RecipientId
 import org.thoughtcrime.securesms.recipients.RecipientRepository
 import org.thoughtcrime.securesms.util.CommunicationActions
 import org.thoughtcrime.securesms.util.views.SimpleProgressDialog
+>>>>>>> 23669c3c372284d42db486a218d9f29bef247abf
 import java.util.Optional
 import java.util.function.Consumer
 

@@ -1,8 +1,8 @@
-package org.thoughtcrime.securesms.conversationlist.model;
+package org.thoughtcrime.securesms.ryan.conversationlist.model;
 
 import androidx.annotation.NonNull;
 
-import org.thoughtcrime.securesms.database.model.ThreadRecord;
+import org.thoughtcrime.securesms.ryan.database.model.ThreadRecord;
 
 public class Conversation {
   private final ThreadRecord threadRecord;

@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.delete;
+package org.thoughtcrime.securesms.ryan.delete;
 
 import android.annotation.SuppressLint;
 import android.app.AlertDialog;
@@ -34,11 +34,11 @@ import com.google.android.material.snackbar.Snackbar;
 import com.google.i18n.phonenumbers.AsYouTypeFormatter;
 import com.google.i18n.phonenumbers.PhoneNumberUtil;
 
-import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.components.LabeledEditText;
-import org.thoughtcrime.securesms.util.SpanUtil;
-import org.thoughtcrime.securesms.util.ViewUtil;
-import org.thoughtcrime.securesms.util.text.AfterTextChanged;
+import org.thoughtcrime.securesms.ryan.R;
+import org.thoughtcrime.securesms.ryan.components.LabeledEditText;
+import org.thoughtcrime.securesms.ryan.util.SpanUtil;
+import org.thoughtcrime.securesms.ryan.util.ViewUtil;
+import org.thoughtcrime.securesms.ryan.util.text.AfterTextChanged;
 
 import java.util.Optional;
 

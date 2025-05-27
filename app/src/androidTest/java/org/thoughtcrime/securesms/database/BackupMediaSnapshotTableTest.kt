@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.database
+package org.thoughtcrime.securesms.ryan.database
 
 import androidx.media3.common.util.Util
 import androidx.test.ext.junit.runners.AndroidJUnit4
@@ -9,9 +9,9 @@ import org.junit.Test
 import org.junit.runner.RunWith
 import org.signal.core.util.count
 import org.signal.core.util.readToSingleInt
-import org.thoughtcrime.securesms.backup.v2.ArchivedMediaObject
-import org.thoughtcrime.securesms.database.BackupMediaSnapshotTable.ArchiveMediaItem
-import org.thoughtcrime.securesms.testing.SignalActivityRule
+import org.thoughtcrime.securesms.ryan.backup.v2.ArchivedMediaObject
+import org.thoughtcrime.securesms.ryan.database.BackupMediaSnapshotTable.ArchiveMediaItem
+import org.thoughtcrime.securesms.ryan.testing.SignalActivityRule
 
 @RunWith(AndroidJUnit4::class)
 class BackupMediaSnapshotTableTest {

@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.components.emoji
+package org.thoughtcrime.securesms.ryan.components.emoji
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.text.InlineTextContent

@@ -1,11 +1,11 @@
-package org.thoughtcrime.securesms.payments
+package org.thoughtcrime.securesms.ryan.payments
 
 import io.mockk.every
 import io.mockk.mockkStatic
 import org.junit.Assert.assertFalse
 import org.junit.Assert.assertTrue
 import org.junit.Test
-import org.thoughtcrime.securesms.util.RemoteConfig
+import org.thoughtcrime.securesms.ryan.util.RemoteConfig
 
 class GeographicalRestrictionsTest {
   @Test

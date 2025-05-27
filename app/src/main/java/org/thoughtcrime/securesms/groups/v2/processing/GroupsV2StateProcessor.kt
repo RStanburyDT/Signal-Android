@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.groups.v2.processing
+package org.thoughtcrime.securesms.ryan.groups.v2.processing
 
 import androidx.annotation.VisibleForTesting
 import androidx.annotation.WorkerThread
@@ -15,29 +15,29 @@ import org.signal.libsignal.zkgroup.groups.GroupMasterKey
 import org.signal.libsignal.zkgroup.groups.GroupSecretParams
 import org.signal.storageservice.protos.groups.local.DecryptedGroup
 import org.signal.storageservice.protos.groups.local.DecryptedGroupChange
-import org.thoughtcrime.securesms.database.SignalDatabase
-import org.thoughtcrime.securesms.database.model.GroupRecord
-import org.thoughtcrime.securesms.database.model.GroupsV2UpdateMessageConverter
-import org.thoughtcrime.securesms.database.model.databaseprotos.DecryptedGroupV2Context
-import org.thoughtcrime.securesms.database.model.databaseprotos.GV2UpdateDescription
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.groups.GroupId
-import org.thoughtcrime.securesms.groups.GroupMutation
-import org.thoughtcrime.securesms.groups.GroupNotAMemberException
-import org.thoughtcrime.securesms.groups.GroupProtoUtil
-import org.thoughtcrime.securesms.groups.v2.ProfileKeySet
-import org.thoughtcrime.securesms.groups.v2.processing.GroupsV2StateProcessor.Companion.LATEST
-import org.thoughtcrime.securesms.jobs.AvatarGroupsV2DownloadJob
-import org.thoughtcrime.securesms.jobs.DirectoryRefreshJob
-import org.thoughtcrime.securesms.jobs.LeaveGroupV2Job
-import org.thoughtcrime.securesms.jobs.RequestGroupV2InfoJob
-import org.thoughtcrime.securesms.jobs.RetrieveProfileJob
-import org.thoughtcrime.securesms.keyvalue.SignalStore
-import org.thoughtcrime.securesms.mms.IncomingMessage
-import org.thoughtcrime.securesms.mms.MmsException
-import org.thoughtcrime.securesms.mms.OutgoingMessage
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientId
+import org.thoughtcrime.securesms.ryan.database.SignalDatabase
+import org.thoughtcrime.securesms.ryan.database.model.GroupRecord
+import org.thoughtcrime.securesms.ryan.database.model.GroupsV2UpdateMessageConverter
+import org.thoughtcrime.securesms.ryan.database.model.databaseprotos.DecryptedGroupV2Context
+import org.thoughtcrime.securesms.ryan.database.model.databaseprotos.GV2UpdateDescription
+import org.thoughtcrime.securesms.ryan.dependencies.AppDependencies
+import org.thoughtcrime.securesms.ryan.groups.GroupId
+import org.thoughtcrime.securesms.ryan.groups.GroupMutation
+import org.thoughtcrime.securesms.ryan.groups.GroupNotAMemberException
+import org.thoughtcrime.securesms.ryan.groups.GroupProtoUtil
+import org.thoughtcrime.securesms.ryan.groups.v2.ProfileKeySet
+import org.thoughtcrime.securesms.ryan.groups.v2.processing.GroupsV2StateProcessor.Companion.LATEST
+import org.thoughtcrime.securesms.ryan.jobs.AvatarGroupsV2DownloadJob
+import org.thoughtcrime.securesms.ryan.jobs.DirectoryRefreshJob
+import org.thoughtcrime.securesms.ryan.jobs.LeaveGroupV2Job
+import org.thoughtcrime.securesms.ryan.jobs.RequestGroupV2InfoJob
+import org.thoughtcrime.securesms.ryan.jobs.RetrieveProfileJob
+import org.thoughtcrime.securesms.ryan.keyvalue.SignalStore
+import org.thoughtcrime.securesms.ryan.mms.IncomingMessage
+import org.thoughtcrime.securesms.ryan.mms.MmsException
+import org.thoughtcrime.securesms.ryan.mms.OutgoingMessage
+import org.thoughtcrime.securesms.ryan.recipients.Recipient
+import org.thoughtcrime.securesms.ryan.recipients.RecipientId
 import org.whispersystems.signalservice.api.NetworkResult
 import org.whispersystems.signalservice.api.groupsv2.DecryptedGroupUtil
 import org.whispersystems.signalservice.api.groupsv2.GroupChangeReconstruct

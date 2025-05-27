@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.crypto.storage
+package org.thoughtcrime.securesms.ryan.crypto.storage
 
 import android.content.Context
 import io.mockk.every
@@ -10,8 +10,8 @@ import org.junit.Test
 import org.signal.libsignal.protocol.IdentityKey
 import org.signal.libsignal.protocol.SignalProtocolAddress
 import org.signal.libsignal.protocol.ecc.ECPublicKey
-import org.thoughtcrime.securesms.database.IdentityTable
-import org.thoughtcrime.securesms.database.model.IdentityStoreRecord
+import org.thoughtcrime.securesms.ryan.database.IdentityTable
+import org.thoughtcrime.securesms.ryan.database.model.IdentityStoreRecord
 import org.whispersystems.signalservice.test.LibSignalLibraryUtil.assumeLibSignalSupportedOnOS
 
 class SignalBaseIdentityKeyStoreTest {

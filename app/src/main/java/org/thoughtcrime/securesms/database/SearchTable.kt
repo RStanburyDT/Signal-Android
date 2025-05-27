@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.database
+package org.thoughtcrime.securesms.ryan.database
 
 import android.annotation.SuppressLint
 import android.app.Application
@@ -13,9 +13,9 @@ import org.signal.core.util.SqlUtil
 import org.signal.core.util.ThreadUtil
 import org.signal.core.util.logging.Log
 import org.signal.core.util.withinTransaction
-import org.thoughtcrime.securesms.dependencies.AppDependencies
-import org.thoughtcrime.securesms.dependencies.ApplicationDependencyProvider
-import org.thoughtcrime.securesms.jobs.RebuildMessageSearchIndexJob
+import org.thoughtcrime.securesms.ryan.dependencies.AppDependencies
+import org.thoughtcrime.securesms.ryan.dependencies.ApplicationDependencyProvider
+import org.thoughtcrime.securesms.ryan.jobs.RebuildMessageSearchIndexJob
 
 /**
  * Contains all databases necessary for full-text search (FTS).

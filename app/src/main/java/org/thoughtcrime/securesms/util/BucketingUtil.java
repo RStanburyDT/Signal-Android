@@ -1,8 +1,8 @@
-package org.thoughtcrime.securesms.util;
+package org.thoughtcrime.securesms.ryan.util;
 
 import androidx.annotation.NonNull;
 
-import org.thoughtcrime.securesms.recipients.Recipient;
+import org.thoughtcrime.securesms.ryan.recipients.Recipient;
 
 import java.math.BigInteger;
 import java.nio.ByteBuffer;

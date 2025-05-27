@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
-package org.thoughtcrime.securesms.registrationv3.ui.phonenumber
+package org.thoughtcrime.securesms.ryan.registrationv3.ui.phonenumber
 
 /**
  * Enter phone number mode to determine if verification is needed or just e164 input is necessary.

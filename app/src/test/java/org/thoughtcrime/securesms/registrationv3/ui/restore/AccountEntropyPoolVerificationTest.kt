@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.registrationv3.ui.restore
+package org.thoughtcrime.securesms.ryan.registrationv3.ui.restore
 
 import assertk.assertThat
 import assertk.assertions.isEqualTo
@@ -7,7 +7,7 @@ import assertk.assertions.isTrue
 import org.junit.Test
 import org.junit.runner.RunWith
 import org.junit.runners.Parameterized
-import org.thoughtcrime.securesms.registrationv3.ui.restore.AccountEntropyPoolVerification.AEPValidationError
+import org.thoughtcrime.securesms.ryan.registrationv3.ui.restore.AccountEntropyPoolVerification.AEPValidationError
 
 @RunWith(Parameterized::class)
 class AccountEntropyPoolVerificationTest(

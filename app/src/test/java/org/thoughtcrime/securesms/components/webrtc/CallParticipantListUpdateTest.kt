@@ -1,16 +1,16 @@
-package org.thoughtcrime.securesms.components.webrtc
+package org.thoughtcrime.securesms.ryan.components.webrtc
 
 import assertk.assertThat
 import assertk.assertions.containsExactlyInAnyOrder
 import assertk.assertions.isFalse
 import assertk.assertions.isTrue
 import org.junit.Test
-import org.thoughtcrime.securesms.events.CallParticipant
-import org.thoughtcrime.securesms.events.CallParticipant.Companion.createRemote
-import org.thoughtcrime.securesms.events.CallParticipant.DeviceOrdinal
-import org.thoughtcrime.securesms.events.CallParticipantId
-import org.thoughtcrime.securesms.recipients.RecipientCreator.forId
-import org.thoughtcrime.securesms.recipients.RecipientId
+import org.thoughtcrime.securesms.ryan.events.CallParticipant
+import org.thoughtcrime.securesms.ryan.events.CallParticipant.Companion.createRemote
+import org.thoughtcrime.securesms.ryan.events.CallParticipant.DeviceOrdinal
+import org.thoughtcrime.securesms.ryan.events.CallParticipantId
+import org.thoughtcrime.securesms.ryan.recipients.RecipientCreator.forId
+import org.thoughtcrime.securesms.ryan.recipients.RecipientId
 
 class CallParticipantListUpdateTest {
   @Test

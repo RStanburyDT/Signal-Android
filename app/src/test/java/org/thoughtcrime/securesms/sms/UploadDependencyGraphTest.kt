@@ -1,4 +1,4 @@
-package org.thoughtcrime.securesms.sms
+package org.thoughtcrime.securesms.ryan.sms
 
 import android.app.Application
 import io.mockk.every
@@ -9,23 +9,23 @@ import org.junit.Test
 import org.junit.runner.RunWith
 import org.robolectric.RobolectricTestRunner
 import org.robolectric.annotation.Config
-import org.thoughtcrime.securesms.attachments.Attachment
-import org.thoughtcrime.securesms.attachments.AttachmentId
-import org.thoughtcrime.securesms.attachments.DatabaseAttachment
-import org.thoughtcrime.securesms.database.AttachmentTable
-import org.thoughtcrime.securesms.jobmanager.Job
-import org.thoughtcrime.securesms.jobmanager.JobManager
-import org.thoughtcrime.securesms.jobmanager.JsonJobData
-import org.thoughtcrime.securesms.jobs.AttachmentCompressionJob
-import org.thoughtcrime.securesms.jobs.AttachmentCopyJob
-import org.thoughtcrime.securesms.jobs.AttachmentUploadJob
-import org.thoughtcrime.securesms.jobs.protos.AttachmentUploadJobData
-import org.thoughtcrime.securesms.mms.OutgoingMessage
-import org.thoughtcrime.securesms.mms.SentMediaQuality
-import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.testutil.UriAttachmentBuilder
-import org.thoughtcrime.securesms.util.JsonUtils
-import org.thoughtcrime.securesms.util.MediaUtil
+import org.thoughtcrime.securesms.ryan.attachments.Attachment
+import org.thoughtcrime.securesms.ryan.attachments.AttachmentId
+import org.thoughtcrime.securesms.ryan.attachments.DatabaseAttachment
+import org.thoughtcrime.securesms.ryan.database.AttachmentTable
+import org.thoughtcrime.securesms.ryan.jobmanager.Job
+import org.thoughtcrime.securesms.ryan.jobmanager.JobManager
+import org.thoughtcrime.securesms.ryan.jobmanager.JsonJobData
+import org.thoughtcrime.securesms.ryan.jobs.AttachmentCompressionJob
+import org.thoughtcrime.securesms.ryan.jobs.AttachmentCopyJob
+import org.thoughtcrime.securesms.ryan.jobs.AttachmentUploadJob
+import org.thoughtcrime.securesms.ryan.jobs.protos.AttachmentUploadJobData
+import org.thoughtcrime.securesms.ryan.mms.OutgoingMessage
+import org.thoughtcrime.securesms.ryan.mms.SentMediaQuality
+import org.thoughtcrime.securesms.ryan.recipients.Recipient
+import org.thoughtcrime.securesms.ryan.testutil.UriAttachmentBuilder
+import org.thoughtcrime.securesms.ryan.util.JsonUtils
+import org.thoughtcrime.securesms.ryan.util.MediaUtil
 import java.util.concurrent.atomic.AtomicLong
 
 /**
